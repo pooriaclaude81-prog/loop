@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data-extraction-rules>
+    <!-- Credentials live in EncryptedSharedPreferences keyed by a Keystore MasterKey,
+         which cannot survive a device transfer. Excluding everything avoids shipping a
+         backup that silently fails to decrypt on restore. -->
+    <cloud-backup>
+        <exclude domain="root" />
+        <exclude domain="database" />
+        <exclude domain="sharedpref" />
+        <exclude domain="file" />
+    </cloud-backup>
+    <device-transfer>
+        <exclude domain="sharedpref" path="loop_credentials.xml" />
+    </device-transfer>
+</data-extraction-rules>
