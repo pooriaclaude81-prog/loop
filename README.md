@@ -14,26 +14,27 @@ Architecture and the decisions that depart from the spec are in
 
 ---
 
-## Status — M1 complete
+## Status — complete
 
-M1 delivers the contract and data layer: the plan/report schemas, a strict validator, the
-full Room schema with migrations wired from v1, and repositories exposing Flows.
+All nine milestones are implemented.
 
 | Milestone | Scope | State |
 |---|---|---|
-| **M1** | Contract, validator, Room schema, repositories | **done** |
-| M2 | Timer service and Today screen | not started |
-| M3 | Log modes (`timer` `run` `lift` `status` `check`) | not started |
-| M4 | Scoring engine | not started |
-| M5 | Health Connect | not started |
-| M6 | IMAP/SMTP transport | not started |
-| M7 | Review gate | not started |
-| M8 | Notifications, History, widget | not started |
-| M9 | Settings and onboarding | not started |
+| M1 | Contract, validator, Room schema, repositories | done |
+| M2 | Timer service and Today screen | done |
+| M3 | Log modes (`timer` `run` `lift` `status` `check`) | done |
+| M4 | Scoring engine | done |
+| M5 | Health Connect | done |
+| M6 | IMAP/SMTP transport | done |
+| M7 | Review gate | done |
+| M8 | Notifications, History, widget | done |
+| M9 | Settings and onboarding | done |
 
-There is no Today screen yet. The M1 build ships a **contract harness** instead: load the
-sample plan, paste a payload, or share one in from Gmail, and see either the parsed plan
-or every reason it was rejected, each with its JSON path.
+**186 unit and Robolectric tests pass.** The instrumentation suites — timer persistence
+across process death and reboot, the Room migration harness, and the plan-revision merge
+against on-device SQLite — compile on every build but have not been *executed*, because
+the build container has no KVM and therefore no usable emulator. Run them on a phone with
+`./scripts/verify-on-device.sh`.
 
 ## Build
 

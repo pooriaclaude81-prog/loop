@@ -11,7 +11,8 @@ Milestones M1–M9 are defined in the project brief. **Work one milestone at a t
 each: build, run the tests, report what actually ran, and stop for the user to install and
 try it on a device. Do not start the next milestone unsolicited.
 
-Current state: **M1 complete** (contract, validator, Room schema, repositories).
+Current state: **M1–M9 complete**. 186 JVM/Robolectric tests pass; the instrumentation
+suites compile but have never run — they need a physical device.
 
 ## Non-negotiables
 
