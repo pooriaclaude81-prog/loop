@@ -53,9 +53,18 @@ pyinstaller --noconfirm --windowed --name FarsiOCR ^
   --add-data "assets/tessdata;assets/tessdata" ^
   --add-data "C:\Program Files\Tesseract-OCR;tesseract_bin" ^
   main.py
-"C:\Program Files (x86)\Inno Setup 6\ISCC.exe" installer\installer.iss
+makensis installer\installer.nsi
 ```
 
-نصب‌کنندهٔ نهایی در `installer_output\FarsiOCR-Setup.exe` ساخته می‌شود.
+نصب‌کنندهٔ نهایی در `installer_output\FarsiOCR-Setup.exe` ساخته می‌شود
+(نیازمند [NSIS](https://nsis.sourceforge.io/) برای مرحلهٔ آخر).
 همچنین یک GitHub Actions workflow (`.github/workflows/build-windows.yml`)
-همین مراحل را به‌صورت خودکار روی هر push انجام می‌دهد.
+همین مراحل را به‌صورت خودکار روی هر push انجام می‌دهد (نیاز به فعال بودن
+GitHub Actions در تنظیمات مخزن دارد).
+
+این نسخهٔ فعلی با استفاده از Wine روی لینوکس کراس-کامپایل و به‌طور کامل
+تست شده است: یک پایتون واقعی ویندوز (python-build-standalone)، یک Tesseract
+5.5.3 واقعی ویندوز به‌همراه تمام کتابخانه‌های وابسته (از conda-forge) و در
+نهایت PyInstaller + NSIS، همگی زیر Wine اجرا و کل مسیر (نصب، اجرای GUI،
+OCR واقعی فارسی از یک مسیر نصب‌شدهٔ واقعی مثل «C:\Program Files\...») تأیید
+شدند.
