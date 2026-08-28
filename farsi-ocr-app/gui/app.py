@@ -34,8 +34,8 @@ class App:
     def __init__(self, root):
         self.root = root
         root.title(APP_TITLE)
-        root.geometry("1000x760")
-        root.minsize(880, 640)
+        root.geometry("1000x680")
+        root.minsize(860, 560)
 
         self.pdf_paths = []
         default_out = os.path.join(os.path.expanduser("~"), "Desktop")
@@ -88,6 +88,35 @@ class App:
         self.output_label = ttk.Label(out_row, text=self.output_dir)
         self.output_label.pack(side="right", padx=10)
 
+        # Packed with side="bottom" BEFORE the expanding margin/preview frame
+        # below, so it always reserves its space and stays visible no matter
+        # how tall the preview canvas or the window's DPI scaling make the
+        # rest of the layout -- the run controls must never be scrollable
+        # off-screen, since they're the only way to start the conversion.
+        run_frame = ttk.LabelFrame(self.root, text="۴) اجرا")
+        run_frame.pack(side="bottom", fill="x", **pad)
+        run_row = ttk.Frame(run_frame)
+        run_row.pack(fill="x", padx=8, pady=6)
+        self.start_btn = ttk.Button(run_row, text="شروع تبدیل", command=self.start)
+        self.start_btn.pack(side="right")
+        self.cancel_btn = ttk.Button(run_row, text="توقف", command=self.cancel, state="disabled")
+        self.cancel_btn.pack(side="right", padx=6)
+        self.open_out_btn = ttk.Button(run_row, text="باز کردن پوشه خروجی", command=self.open_output,
+                                        state="disabled")
+        self.open_out_btn.pack(side="right", padx=6)
+
+        self.progress = ttk.Progressbar(run_frame, orient="horizontal", mode="determinate")
+        self.progress.pack(fill="x", padx=8, pady=(0, 6))
+
+        log_frame = ttk.Frame(run_frame)
+        log_frame.pack(fill="x", padx=8, pady=(0, 8))
+        self.log = tk.Text(log_frame, height=5, wrap="word")
+        self.log.pack(side="right", fill="both", expand=True)
+        scroll = ttk.Scrollbar(log_frame, command=self.log.yview)
+        scroll.pack(side="left", fill="y")
+        self.log.configure(yscrollcommand=scroll.set)
+        self.log.configure(state="disabled")
+
         margin_frame = ttk.LabelFrame(
             self.root, text="۳) تنظیم حاشیه‌ها (حذف سربرگ، پاورقی و نوار کناری قبل از تشخیص متن)")
         margin_frame.pack(fill="both", expand=True, **pad)
@@ -95,7 +124,7 @@ class App:
         body = ttk.Frame(margin_frame)
         body.pack(fill="both", expand=True, padx=8, pady=6)
 
-        self.canvas = tk.Canvas(body, background="#333333", width=460, height=560)
+        self.canvas = tk.Canvas(body, background="#333333", width=460, height=380)
         self.canvas.pack(side="right", fill="both", expand=True, padx=(10, 0))
 
         sliders = ttk.Frame(body)
@@ -111,30 +140,6 @@ class App:
             text="ناحیهٔ روشن = بخشی که استخراج می‌شود.\nناحیهٔ تیره = حذف می‌شود.",
             wraplength=220, justify="right",
         ).pack(pady=10)
-
-        run_frame = ttk.LabelFrame(self.root, text="۴) اجرا")
-        run_frame.pack(fill="both", **pad)
-        run_row = ttk.Frame(run_frame)
-        run_row.pack(fill="x", padx=8, pady=6)
-        self.start_btn = ttk.Button(run_row, text="شروع تبدیل", command=self.start)
-        self.start_btn.pack(side="right")
-        self.cancel_btn = ttk.Button(run_row, text="توقف", command=self.cancel, state="disabled")
-        self.cancel_btn.pack(side="right", padx=6)
-        self.open_out_btn = ttk.Button(run_row, text="باز کردن پوشه خروجی", command=self.open_output,
-                                        state="disabled")
-        self.open_out_btn.pack(side="right", padx=6)
-
-        self.progress = ttk.Progressbar(run_frame, orient="horizontal", mode="determinate")
-        self.progress.pack(fill="x", padx=8, pady=(0, 6))
-
-        log_frame = ttk.Frame(run_frame)
-        log_frame.pack(fill="both", expand=True, padx=8, pady=(0, 8))
-        self.log = tk.Text(log_frame, height=8, wrap="word")
-        self.log.pack(side="right", fill="both", expand=True)
-        scroll = ttk.Scrollbar(log_frame, command=self.log.yview)
-        scroll.pack(side="left", fill="y")
-        self.log.configure(yscrollcommand=scroll.set)
-        self.log.configure(state="disabled")
 
     def _add_slider(self, parent, key, label):
         frame = ttk.Frame(parent)
