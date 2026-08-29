@@ -32,6 +32,11 @@ and click **Process PDF** to download the result.
 - **Preview**: the detected column split (blue line) and any non-conforming
   block - table, figure, algorithm box, etc. (red outline) on the source
   page, next to what the reordered/reflowed page will look like.
+- **Pages to process**: an optional 1-indexed range like `1-3,5,8-10` to only
+  process part of the document. Leave it blank to process every page. The
+  per-page results below the download button still show each page's original
+  number, so they line up with the source PDF even though the output is
+  shorter.
 - **Include tables / figures / algorithm boxes** (sidebar, on by default):
   turn this off to drop that content and keep only the reflowed running text.
 - **Split adjustment**: nudge the detected gutter left/right if a specific
@@ -52,6 +57,7 @@ Useful flags:
 
 | Flag | What it does |
 |---|---|
+| `--pages "1-3,5,8-10"` | Only process this 1-indexed page range; default is every page |
 | `--exclude-non-conforming` | Drop tables/figures/algorithm boxes instead of keeping them |
 | `--offset -1.5` | Shift the detected split by -1.5% of page width |
 | `--mode {auto,vector,raster}` | Reconstruction strategy (see below); default `auto` |

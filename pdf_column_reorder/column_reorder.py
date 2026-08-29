@@ -628,6 +628,50 @@ def optimize_images(doc: "fitz.Document", *, max_dim: int = 2000, jpeg_quality: 
 
 
 # --------------------------------------------------------------------------
+# Page range parsing (shared by the CLI and the UI)
+# --------------------------------------------------------------------------
+
+def parse_page_ranges(spec: str, page_count: int) -> list[int]:
+    """Parse a 1-indexed, comma-separated page range spec (e.g. "1-3,5,8-10")
+    into a sorted, de-duplicated list of 0-indexed page numbers, clamped to
+    [0, page_count). Blank/whitespace-only spec means "all pages". Raises
+    ValueError with a human-readable message on malformed input.
+    """
+    spec = (spec or "").strip()
+    if not spec:
+        return list(range(page_count))
+
+    pages: set[int] = set()
+    for part in spec.split(","):
+        part = part.strip()
+        if not part:
+            continue
+        if "-" in part:
+            bounds = part.split("-")
+            if len(bounds) != 2:
+                raise ValueError(f"Bad range '{part}' - use e.g. 1-3")
+            a_str, b_str = bounds[0].strip(), bounds[1].strip()
+            if not a_str.isdigit() or not b_str.isdigit():
+                raise ValueError(f"Bad range '{part}' - use e.g. 1-3")
+            a, b = int(a_str), int(b_str)
+            if a > b:
+                a, b = b, a
+            for p in range(a, b + 1):
+                if 1 <= p <= page_count:
+                    pages.add(p - 1)
+        else:
+            if not part.isdigit():
+                raise ValueError(f"Bad page number '{part}'")
+            p = int(part)
+            if 1 <= p <= page_count:
+                pages.add(p - 1)
+
+    if not pages:
+        raise ValueError("No valid pages in range (check it's within 1.." + str(page_count) + ")")
+    return sorted(pages)
+
+
+# --------------------------------------------------------------------------
 # Top-level pipeline
 # --------------------------------------------------------------------------
 
@@ -643,6 +687,7 @@ def process_pdf(
     jpeg_quality: int = 85,
     optimize_embedded_images: bool = True,
     max_embedded_image_dim: int = 2000,
+    pages: Optional[list[int]] = None,
 ) -> ProcessStats:
     """Rebuild every page: right column first, then left column, keeping
     tables/algorithms/figures/headings that break the two-column grid
@@ -651,6 +696,12 @@ def process_pdf(
     mode="auto" reconstructs each page with vector page-content clipping
     (lossless, tiny output) and only falls back to rasterization for a page
     if that fails (e.g. a malformed source page).
+
+    `pages`, if given, is a list of 0-indexed page numbers (any order,
+    duplicates fine) naming the only pages to include in the output; the
+    rest of the source document is skipped entirely. Each PageResult still
+    carries the page's original 1-indexed page_number, so results line up
+    with the source PDF even though the output is a shorter document.
     """
     input_pdf = str(input_pdf)
     output_pdf = str(output_pdf)
@@ -660,7 +711,9 @@ def process_pdf(
     out = fitz.open()
     results: list[PageResult] = []
     try:
-        for idx, page in enumerate(src):
+        page_indices = list(dict.fromkeys(pages)) if pages is not None else range(len(src))
+        for idx in page_indices:
+            page = src[idx]
             det, segments, is_two_col = analyze_page(
                 page, detect_dpi=detect_dpi, split_offset_percent=split_offset_percent
             )

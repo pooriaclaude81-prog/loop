@@ -1,9 +1,15 @@
 from __future__ import annotations
 
 import argparse
+import sys
 from pathlib import Path
 
-from column_reorder import process_pdf
+from column_reorder import parse_page_ranges, process_pdf
+
+try:
+    import pymupdf as fitz
+except ImportError:
+    import fitz
 
 
 parser = argparse.ArgumentParser(
@@ -17,6 +23,10 @@ parser = argparse.ArgumentParser(
 )
 parser.add_argument("input_pdf", type=Path)
 parser.add_argument("-o", "--output", type=Path, default=None)
+parser.add_argument(
+    "--pages", type=str, default=None,
+    help='1-indexed page range to process, e.g. "1-3,5,8-10". Default: all pages.',
+)
 parser.add_argument(
     "--exclude-non-conforming", action="store_true",
     help="Drop tables/figures/algorithm boxes/other full-width blocks instead of keeping them. "
@@ -35,6 +45,17 @@ parser.add_argument("--no-optimize-images", action="store_true", help="Don't shr
 parser.add_argument("--max-image-dim", type=int, default=2000, help="Max embedded image dimension in pixels before it gets downsampled.")
 args = parser.parse_args()
 
+with fitz.open(args.input_pdf) as _doc:
+    total_pages = len(_doc)
+
+pages = None
+if args.pages:
+    try:
+        pages = parse_page_ranges(args.pages, total_pages)
+    except ValueError as e:
+        print(f"--pages error: {e}", file=sys.stderr)
+        sys.exit(1)
+
 output = args.output or args.input_pdf.with_name(args.input_pdf.stem + "_reordered.pdf")
 stats = process_pdf(
     args.input_pdf,
@@ -46,9 +67,12 @@ stats = process_pdf(
     jpeg_quality=args.jpeg_quality,
     optimize_embedded_images=not args.no_optimize_images,
     max_embedded_image_dim=args.max_image_dim,
+    pages=pages,
 )
 
 print(f"Wrote: {output}")
+if pages is not None:
+    print(f"Pages: {len(pages)} of {total_pages} selected")
 in_mb = stats.input_bytes / 1_000_000
 out_mb = stats.output_bytes / 1_000_000
 print(f"Size: {in_mb:.2f} MB -> {out_mb:.2f} MB ({stats.compression_ratio:+.0%})")

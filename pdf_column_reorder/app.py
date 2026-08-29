@@ -6,7 +6,7 @@ from pathlib import Path
 import streamlit as st
 from PIL import ImageDraw
 
-from column_reorder import preview_page, process_pdf
+from column_reorder import parse_page_ranges, preview_page, process_pdf
 
 try:
     import pymupdf as fitz
@@ -104,6 +104,22 @@ with tempfile.TemporaryDirectory() as tmp:
     page_count = len(src)
     st.success(f"Loaded {page_count} page(s).")
 
+    pages_spec = st.text_input(
+        "Pages to process (optional)",
+        value="",
+        placeholder=f"e.g. 1-3,5,8-10  (default: all {page_count} pages)",
+        help='1-indexed, comma-separated - single pages and ranges, e.g. "1-3,5,8-10". Leave blank for the whole document.',
+    )
+    selected_pages = None
+    pages_error = None
+    if pages_spec.strip():
+        try:
+            selected_pages = parse_page_ranges(pages_spec, page_count)
+            st.caption(f"Will process {len(selected_pages)} of {page_count} page(s).")
+        except ValueError as e:
+            pages_error = str(e)
+            st.error(f"Page range: {pages_error}")
+
     if show_preview:
         st.subheader("Preview")
         page_index = st.number_input("Page", min_value=1, max_value=page_count, value=1, step=1) - 1
@@ -143,7 +159,7 @@ with tempfile.TemporaryDirectory() as tmp:
 
     src.close()
 
-    if st.button("Process PDF", type="primary", width="stretch"):
+    if st.button("Process PDF", type="primary", width="stretch", disabled=bool(pages_error)):
         with st.spinner("Detecting layout and rebuilding the PDF..."):
             stats = process_pdf(
                 input_path,
@@ -155,16 +171,21 @@ with tempfile.TemporaryDirectory() as tmp:
                 jpeg_quality=jpeg_quality,
                 optimize_embedded_images=optimize_images,
                 max_embedded_image_dim=max_image_dim,
+                pages=selected_pages,
             )
 
         in_mb = stats.input_bytes / 1_000_000
         out_mb = stats.output_bytes / 1_000_000
+        page_note = (
+            f"{len(stats.pages)} of {page_count} page(s)" if selected_pages is not None
+            else f"{len(stats.pages)} page(s)"
+        )
         st.success(
-            f"Done. Processed {len(stats.pages)} page(s). "
+            f"Done. Processed {page_note}. "
             f"{in_mb:.2f} MB → {out_mb:.2f} MB "
             f"({stats.compression_ratio:.0%} smaller)."
             if stats.compression_ratio >= 0
-            else f"Done. Processed {len(stats.pages)} page(s). {in_mb:.2f} MB → {out_mb:.2f} MB."
+            else f"Done. Processed {page_note}. {in_mb:.2f} MB → {out_mb:.2f} MB."
         )
         st.download_button(
             "Download reordered PDF",
