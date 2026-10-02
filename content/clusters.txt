@@ -1,0 +1,10 @@
+// id | English name | نام فارسی   (the order here is the order on the site)
+cardiac  | Cardiac & resuscitation | قلب و احیا
+resp     | Respiratory | تنفسی
+neuro    | Neurology | مغز و اعصاب
+collapse | Collapse & altered consciousness | غش و افت هوشیاری
+tox      | Toxicology, envenomation & allergy | مسمومیت، گزیدگی و آلرژی
+gi       | GI & abdomen | گوارش و شکم
+renal    | Renal, urologic, metabolic & infection | کلیه، ادراری، متابولیک و عفونت
+trauma   | Trauma, burns & ENT | تروما، سوختگی و گوش‌وحلق‌وبینی
+vasc     | Vascular | عروق
