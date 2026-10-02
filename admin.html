@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="fa" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>افزودن / ویرایش بیماری · Add or edit a condition</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body class="admin">
+<header class="top">
+  <a class="home" href="./">⚕ دستورات</a>
+  <strong style="flex:1">افزودن یا ویرایش بیماری · Add / edit a condition</strong>
+  <button id="theme" aria-label="Toggle theme">◐</button>
+</header>
+<main>
+  <p dir="rtl">اینجا متن یک بیماری را می‌نویسید، همان لحظه پیش‌نمایش و بررسی خطا می‌بینید، و با یک دکمه آن را در GitHub ذخیره می‌کنید. تا حدود یک دقیقه بعد در سایت دیده می‌شود.</p>
+  <p class="mute" dir="ltr">Write a condition below, see a live preview and error check, then save it to GitHub with one button. It appears on the site about a minute later.</p>
+
+  <div class="bar">
+    <label>شروع از · Start from
+      <select id="start"></select>
+    </label>
+    <button id="reset" type="button">بارگذاری · Load</button>
+  </div>
+
+  <details class="legend-box"><summary>راهنمای نوشتن · How to write (cheat sheet)</summary>
+<pre class="cheat">
+@topic  id                   one per file. id = lowercase-letters-and-dashes
+cluster: cardiac             must exist in content/clusters.txt
+name: English name
+name_fa: نام فارسی
+source: A | B | AB           which handout the orders come from
+keywords: words for search
+refs: key1, key2             guideline keys from content/references.md
+
+@guide                       plain Farsi study guide for the condition (blank line = new paragraph,
+                             "- " = bullet, "# " = small heading)
+
+@variant  id                 one per order set. A topic can have several
+name: ...    level: I | II | III    source: A | B | AB    meta: free text    refs: keys
+@scenario                    plain Farsi case that matches this order set
+@why                         plain Farsi: what is special about THIS order set
+@orders
+- one order per line         **bold**   [[other-variant-id|link text]]
+-- a sub-heading
+- order from one source @A   (@A, @B or @AB shows a small source badge)
+- order added from a guideline [^key]   (adds a numbered reference at the bottom)
+@branch                      an IF / OTHERWISE box (repeat for more boxes)
+if: the condition
+- orders when true
+else: label for otherwise
+- orders when false
+go: variant-id, other-id     links to other pages
+@branch
+title: A box without a condition
+- orders
+@notes                       Persian notes copied from the source (optional)
+- ...
+// a line that starts with // is a comment
+</pre>
+  </details>
+
+  <div class="admin-grid">
+    <div>
+      <textarea id="src" spellcheck="false" aria-label="Topic text"></textarea>
+      <div class="bar">
+        <button id="copy" type="button">کپی · Copy</button>
+        <button id="dl" type="button">دانلود · Download .md</button>
+        <button id="gh" type="button" class="primary">ذخیره در GitHub · Save to GitHub</button>
+      </div>
+      <div id="status"></div>
+    </div>
+    <div>
+      <div class="bar"><label>پیش‌نمایش · Preview <select id="pv"></select></label></div>
+      <div id="preview" class="preview"></div>
+    </div>
+  </div>
+</main>
+<script src="config.js"></script>
+<script src="content/bundle.js"></script>
+<script src="js/parser.js"></script>
+<script src="js/render.js"></script>
+<script src="js/admin.js"></script>
+</body>
+</html>
