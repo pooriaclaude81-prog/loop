@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Emergency Orders Quick Access</title>
+<meta name="description" content="Fast-access emergency physician orders grouped by condition, with scenarios, branches and source consensus.">
+<style>
+:root{
+  --bg:#f6f7f9;--card:#ffffff;--ink:#14181f;--mute:#5a6472;--line:#d9dee5;
+  --link:#0b57d0;--l1:#b3261e;--l2:#b25e00;--l3:#1b6e3c;
+  --amber-bg:#fff4d6;--amber-ink:#6b4a00;--amber-line:#e6c25a;
+  --blue-bg:#e8f0fe;--red-bg:#fde9e7;--green-bg:#e6f4ea;--grey-bg:#eef1f4;
+  --sa:#7a3db8;--sb:#00796b;--sab:#14181f;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --bg:#0f1318;--card:#181e26;--ink:#e8ecf1;--mute:#9aa6b4;--line:#2c3541;
+    --link:#8ab4f8;--l1:#ff8a80;--l2:#ffb74d;--l3:#81c995;
+    --amber-bg:#3a2f10;--amber-ink:#ffe08a;--amber-line:#7a6320;
+    --blue-bg:#16263f;--red-bg:#3b1c1a;--green-bg:#17301f;--grey-bg:#212934;
+    --sa:#c9a0f0;--sb:#6fd3c4;--sab:#e8ecf1;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0f1318;--card:#181e26;--ink:#e8ecf1;--mute:#9aa6b4;--line:#2c3541;
+  --link:#8ab4f8;--l1:#ff8a80;--l2:#ffb74d;--l3:#81c995;
+  --amber-bg:#3a2f10;--amber-ink:#ffe08a;--amber-line:#7a6320;
+  --blue-bg:#16263f;--red-bg:#3b1c1a;--green-bg:#17301f;--grey-bg:#212934;
+  --sa:#c9a0f0;--sb:#6fd3c4;--sab:#e8ecf1;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+a{color:var(--link)}
+header.top{position:sticky;top:0;z-index:20;background:var(--card);border-bottom:1px solid var(--line);display:flex;gap:8px;align-items:center;padding:8px 16px}
+header.top a.home{font-weight:700;text-decoration:none;color:var(--ink);white-space:nowrap}
+header.top input{flex:1;min-width:0;font:inherit;padding:8px 10px;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--ink)}
+header.top button{font:inherit;padding:8px 10px;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--ink);cursor:pointer}
+main{max-width:980px;margin:0 auto;padding:16px}
+h1{font-size:1.5rem;line-height:1.25;margin:.2em 0 .3em}
+h2{font-size:1.15rem;margin:1.4em 0 .5em}
+.mute{color:var(--mute)}
+.warn{background:var(--amber-bg);color:var(--amber-ink);border:1px solid var(--amber-line);border-radius:10px;padding:10px 12px;font-size:.92rem}
+.legend{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:.88rem;margin:10px 0}
+.badge{display:inline-block;font-size:.72rem;font-weight:700;padding:2px 7px;border-radius:999px;border:1px solid currentColor;vertical-align:middle;white-space:nowrap}
+.b-A{color:var(--sa)}.b-B{color:var(--sb)}.b-AB{color:var(--sab)}
+.b-R,.b-D{color:var(--amber-ink);background:var(--amber-bg);border-color:var(--amber-line)}
+.b-L1{color:var(--l1)}.b-L2{color:var(--l2)}.b-L3{color:var(--l3)}
+.clusternav{display:flex;flex-wrap:wrap;gap:6px;margin:12px 0}
+.clusternav a{padding:6px 10px;border:1px solid var(--line);border-radius:999px;background:var(--card);text-decoration:none;font-size:.9rem;color:var(--ink)}
+section.cluster{margin-top:22px}
+section.cluster>h2{position:sticky;top:50px;background:var(--bg);padding:6px 0;margin:0;border-bottom:2px solid var(--line);z-index:5}
+.topic{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:10px 12px;margin:10px 0}
+.topic h3{margin:0 0 6px;font-size:1.02rem;display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.topic h3 a{color:var(--ink);text-decoration:none}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{display:inline-flex;gap:6px;align-items:center;padding:6px 10px;border:1px solid var(--line);border-radius:8px;background:var(--grey-bg);text-decoration:none;color:var(--ink);font-size:.92rem;min-height:36px}
+.chip:hover{border-color:var(--link)}
+.chip .n{color:var(--mute);font-weight:700}
+.chip.l1{border-left:4px solid var(--l1)}.chip.l2{border-left:4px solid var(--l2)}.chip.l3{border-left:4px solid var(--l3)}
+.hubtag{font-size:.7rem;font-weight:700;color:var(--link)}
+.crumb{font-size:.88rem;color:var(--mute);margin-bottom:6px}
+.crumb a{color:var(--mute)}
+.meta{color:var(--mute);font-size:.92rem;margin:.2em 0 .8em}
+.scenario{background:var(--blue-bg);border-left:5px solid var(--link);border-radius:8px;padding:10px 14px;margin:12px 0}
+.scenario b.h{display:block;font-size:.78rem;letter-spacing:.06em;text-transform:uppercase;color:var(--link);margin-bottom:2px}
+.tabs{display:flex;flex-wrap:wrap;gap:6px;margin:12px 0}
+.tabs a{padding:6px 10px;border:1px solid var(--line);border-radius:8px;text-decoration:none;color:var(--ink);background:var(--card);font-size:.9rem}
+.tabs a.on{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.orders{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:4px 0;margin:8px 0}
+.orders .sub{font-weight:700;padding:10px 14px 2px;color:var(--mute);font-size:.82rem;text-transform:uppercase;letter-spacing:.05em}
+label.row{display:flex;gap:10px;align-items:flex-start;padding:9px 14px;border-top:1px solid var(--line);cursor:pointer}
+label.row:first-child{border-top:0}
+label.row input{margin-top:5px;width:18px;height:18px;flex:none}
+label.row .num{flex:none;min-width:1.6em;font-weight:700;color:var(--mute);text-align:right}
+label.row .txt{flex:1}
+label.row input:checked ~ .txt{opacity:.45;text-decoration:line-through}
+.tags{display:inline-flex;gap:4px;margin-left:6px;vertical-align:baseline}
+.branch{border:1px solid var(--line);border-radius:12px;background:var(--card);margin:12px 0;overflow:hidden}
+.branch .if{background:var(--red-bg);padding:9px 14px;font-weight:600;border-bottom:1px solid var(--line)}
+.branch .if i,.branch .else i{font-style:normal;font-weight:800;margin-right:8px;font-size:.78rem;letter-spacing:.06em}
+.branch .else{background:var(--green-bg);padding:9px 14px;font-weight:600;border-top:1px solid var(--line)}
+.branch .plain{background:var(--grey-bg);padding:9px 14px;font-weight:600;border-bottom:1px solid var(--line)}
+.branch .orders{border:0;border-radius:0;margin:0;background:transparent}
+.branch .go{padding:8px 14px;border-top:1px solid var(--line);font-size:.93rem}
+.diff{background:var(--amber-bg);color:var(--ink);border:1px solid var(--amber-line);border-radius:10px;padding:8px 14px;margin:12px 0}
+.diff h3{margin:.2em 0 .3em;font-size:.95rem;color:var(--amber-ink)}
+.diff ul{margin:.2em 0;padding-left:1.2em}
+details.fa{background:var(--card);border:1px solid var(--line);border-radius:10px;margin:12px 0;padding:8px 14px}
+details.fa summary{cursor:pointer;font-weight:700}
+details.fa ul{direction:rtl;text-align:right;font-family:Tahoma,"Segoe UI","Noto Sans Arabic","Vazirmatn",sans-serif;padding-right:1.2em;padding-left:0;line-height:1.9}
+.refs{font-size:.88rem;color:var(--mute)}
+.refs li{margin:2px 0}
+.nav2{display:flex;justify-content:space-between;gap:8px;margin:18px 0}
+.nav2 a{flex:1;padding:10px;border:1px solid var(--line);border-radius:10px;background:var(--card);text-decoration:none;color:var(--ink)}
+.nav2 a.r{text-align:right}
+.topiccard{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:10px 14px;margin:10px 0}
+.topiccard h3{margin:0 0 4px;font-size:1.02rem}
+.topiccard p{margin:.2em 0}
+.empty{padding:20px;text-align:center;color:var(--mute)}
+footer{max-width:980px;margin:0 auto;padding:16px;color:var(--mute);font-size:.85rem}
+@media print{header.top,.clusternav,.tabs,.nav2{display:none}label.row input{display:none}body{background:#fff}}
+@media (max-width:520px){main{padding:12px}h1{font-size:1.3rem}}
+</style>
+</head>
+<body>
+<header class="top">
+  <a class="home" href="#/">⚕ Orders</a>
+  <input id="q" type="search" placeholder="Search condition, drug, branch…" autocomplete="off" aria-label="Search">
+  <button id="theme" title="Toggle dark / light" aria-label="Toggle theme">◐</button>
+</header>
+<main id="app"></main>
+<footer id="foot"></footer>
+<script>
+"use strict";
+/*DATA*/
+</script>
+<script>
+(function(){
+const $=s=>document.querySelector(s);
+const app=$('#app');
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const INL={A:'<span class="badge b-A">A</span>',B:'<span class="badge b-B">B</span>',AB:'<span class="badge b-AB">A+B</span>',R:'<span class="badge b-R" title="Added from reference">⚑ ref</span>',D:'<span class="badge b-D" title="Dose from reference">⚠ dose</span>'};
+const fmt=s=>esc(s).replace(/\*\*(.+?)\*\*/g,'<b>$1</b>').replace(/\[\[([a-z0-9\-]+)\|(.+?)\]\]/g,(m,id,l)=>'<a href="#/v/'+id+'">'+l+'</a>').replace(/@(AB|A|B|R|D)(?=\s|$)/g,(m,t)=>INL[t]);
+const SRC={A:'A · Beesat sheet',B:'B · Isfahan booklet',AB:'A+B consensus'};
+const SRCS={A:'A',B:'B',AB:'A+B'};
+const byId={},topicById={},clusterById={};
+CLUSTERS.forEach(c=>clusterById[c.id]=c);
+TOPICS.forEach(t=>{topicById[t.id]=t;t.vs=[]});
+VARIANTS.forEach(v=>{byId[v.id]=v;topicById[v.topic].vs.push(v)});
+const lvCls=l=>!l?'':(/^I(?![I])/.test(l)?'l1':(/^II/.test(l)?'l2':'l3'));
+function badge(src){return '<span class="badge b-'+src+'" title="'+SRC[src]+'">'+SRCS[src]+'</span>'}
+function lvBadge(l){if(!l)return '';const c=lvCls(l);return '<span class="badge b-L'+(c==='l1'?1:c==='l2'?2:3)+'" title="Triage level used in the sheets (I = resuscitation room, II = urgent, III = less urgent)">Level '+l+'</span>'}
+function parseTags(s){const t=[];let m;while((m=s.match(/^@(AB|A|B|R|D)\s+/))){t.push(m[1]);s=s.slice(m[0].length)}return{t,s}}
+function tagHtml(t,defSrc){
+  return t.map(x=>{
+    if(x==='R')return '<span class="badge b-R" title="Added from a published reference because the source files do not give it. Verify against your local protocol.">⚑ added from reference</span>';
+    if(x==='D')return '<span class="badge b-D" title="The handwritten value was unreadable or implausible. The standard reference dose is shown. Verify before use.">⚠ dose from reference</span>';
+    if(defSrc==='AB'||x!==defSrc)return badge(x);
+    return '';
+  }).join(' ');
+}
+function rows(items,defSrc,startN){
+  let n=startN||0,h='<div class="orders">';
+  items.forEach(it=>{
+    if(it.startsWith('## ')){h+='<div class="sub">'+fmt(it.slice(3))+'</div>';return}
+    const p=parseTags(it);n++;
+    const tg=tagHtml(p.t,defSrc);
+    h+='<label class="row"><input type="checkbox"><span class="num">'+n+'</span><span class="txt">'+fmt(p.s)+(tg?'<span class="tags">'+tg+'</span>':'')+'</span></label>';
+  });
+  return h+'</div>';
+}
+function goLinks(go){
+  if(!go||!go.length)return '';
+  return '<div class="go">→ '+go.map(id=>{const v=byId[id];return v?'<a href="#/v/'+id+'">'+esc(topicById[v.topic].name+' — '+v.n)+'</a>':'<b>?'+esc(id)+'</b>'}).join(' · ')+'</div>';
+}
+function branches(list,defSrc){
+  return list.map(b=>{
+    let h='<div class="branch">';
+    if(b.c)h+='<div class="if"><i>IF</i>'+fmt(b.c)+'</div>';
+    else if(b.t)h+='<div class="plain">'+fmt(b.t)+'</div>';
+    if(b.d&&b.d.length)h+=rows(b.d,defSrc);
+    if(b.e&&b.e.length)h+='<div class="else"><i>OTHERWISE</i>'+(b.ec?fmt(b.ec):'')+'</div>'+rows(b.e,defSrc);
+    h+=goLinks(b.go)+'</div>';
+    return h;
+  }).join('');
+}
+function viewIndex(q){
+  q=(q||'').trim().toLowerCase();
+  let h='';
+  if(!q){
+    h+='<h1>Emergency Orders — Quick Access</h1>';
+    h+='<div class="warn"><b>Reference aid only.</b> Not a substitute for clinical judgement or local protocol. Verify every dose marked ⚠ (dose from reference) or ⚑ (added from reference).</div>';
+    h+='<p class="mute">Pick a topic, then the variant that matches your patient. Each variant opens with a typical scenario, then orders, then IF / OTHERWISE branches.</p>';
+    h+='<div class="clusternav">'+CLUSTERS.map(c=>'<a href="#c-'+c.id+'" data-jump="'+c.id+'">'+esc(c.name)+'</a>').join('')+'</div>';
+    h+='<details class="fa" style="direction:ltr"><summary>Legend</summary><div class="legend"><span>'+badge('A')+' Beesat handout</span><span>'+badge('B')+' Isfahan booklet 2019</span><span>'+badge('AB')+' both sources, consensus</span><span><span class="badge b-D">⚠ dose from reference</span> handwriting unreadable</span><span><span class="badge b-R">⚑ added from reference</span> not in sources</span><span>'+lvBadge('I')+' resus · '+lvBadge('II')+' urgent · '+lvBadge('III')+' lower</span></div></details>';
+  }
+  let shown=0;
+  CLUSTERS.forEach(c=>{
+    const ts=TOPICS.filter(t=>t.cluster===c.id).filter(t=>{
+      if(!q)return true;
+      const hay=(t.name+' '+(t.kw||'')+' '+t.vs.map(v=>v.n+' '+(v.kw||'')).join(' ')).toLowerCase();
+      return q.split(/\s+/).every(w=>hay.includes(w));
+    });
+    if(!ts.length)return;
+    h+='<section class="cluster" id="c-'+c.id+'"><h2>'+esc(c.name)+'</h2>';
+    ts.forEach(t=>{
+      shown++;
+      h+='<div class="topic"><h3><a href="#/t/'+t.id+'">'+esc(t.name)+'</a> '+badge(t.src)+'</h3><div class="chips">';
+      t.vs.forEach((v,i)=>{h+='<a class="chip '+lvCls(v.lv)+'" href="#/v/'+v.id+'"><span class="n">'+'①②③④⑤⑥⑦⑧⑨⑩'[i]+'</span>'+esc(v.n)+(v.hub?' <span class="hubtag">HUB</span>':'')+'</a>'});
+      h+='</div></div>';
+    });
+    h+='</section>';
+  });
+  if(!shown)h+='<div class="empty">No topic matches “'+esc(q)+'”.</div>';
+  app.innerHTML=h;
+  document.title='Emergency Orders Quick Access';
+}
+function viewTopic(id){
+  const t=topicById[id];if(!t)return viewIndex();
+  const c=clusterById[t.cluster];
+  let h='<div class="crumb"><a href="#/">Contents</a> / <a href="#c-'+c.id+'" data-jump="'+c.id+'">'+esc(c.name)+'</a></div>';
+  h+='<h1>'+esc(t.name)+' '+badge(t.src)+'</h1>';
+  if(t.desc)h+='<p class="mute">'+fmt(t.desc)+'</p>';
+  h+='<h2>Which variant matches your patient?</h2>';
+  t.vs.forEach((v,i)=>{
+    h+='<div class="topiccard"><h3><a href="#/v/'+v.id+'">'+'①②③④⑤⑥⑦⑧⑨⑩'[i]+' '+esc(v.n)+'</a> '+badge(v.src)+' '+lvBadge(v.lv)+(v.hub?' <span class="hubtag">HUB</span>':'')+'</h3><p>'+fmt(v.sc||'')+'</p></div>';
+  });
+  app.innerHTML=h;document.title=t.name+' · Emergency Orders';
+}
+function viewVariant(id){
+  const v=byId[id];if(!v)return viewIndex();
+  const t=topicById[v.topic],c=clusterById[t.cluster];
+  const i=t.vs.indexOf(v);
+  let h='<div class="crumb"><a href="#/">Contents</a> / <a href="#c-'+c.id+'" data-jump="'+c.id+'">'+esc(c.name)+'</a> / <a href="#/t/'+t.id+'">'+esc(t.name)+'</a></div>';
+  h+='<h1>'+esc(t.name)+' — '+esc(v.n)+'</h1><div>'+badge(v.src)+' '+lvBadge(v.lv)+(v.hub?' <span class="badge b-AB">decision hub</span>':'')+'</div>';
+  if(v.meta)h+='<div class="meta">'+fmt(v.meta)+'</div>';
+  if(t.vs.length>1){h+='<div class="tabs">'+t.vs.map((x,j)=>'<a class="'+(x===v?'on':'')+'" href="#/v/'+x.id+'">'+'①②③④⑤⑥⑦⑧⑨⑩'[j]+' '+esc(x.n)+'</a>').join('')+'</div>'}
+  if(v.sc)h+='<div class="scenario"><b class="h">Scenario</b>'+fmt(v.sc)+'</div>';
+  if(v.o&&v.o.length){h+='<h2>Orders</h2>'+rows(v.o,v.src)}
+  if(v.br&&v.br.length){h+='<h2>'+(v.hub?'Branches':'If / otherwise')+'</h2>'+branches(v.br,v.src)}
+  if(v.diff&&v.diff.length){h+='<div class="diff"><h3>Where the two sources differ</h3><ul>'+v.diff.map(d=>'<li>'+fmt(d)+'</li>').join('')+'</ul></div>'}
+  if(v.fa&&v.fa.length){h+='<details class="fa"><summary>یادداشت‌های فارسی (Persian notes from the sources)</summary><ul>'+v.fa.map(d=>'<li>'+fmt(d)+'</li>').join('')+'</ul></details>'}
+  const refs=(v.ref||[]).concat(t.ref||[]);
+  if(refs.length){h+='<h2>References for flagged items</h2><ul class="refs">'+refs.map(r=>'<li>'+fmt(r)+'</li>').join('')+'</ul>'}
+  if(t.vs.length>1){
+    const p=t.vs[i-1],n=t.vs[i+1];
+    h+='<div class="nav2">'+(p?'<a href="#/v/'+p.id+'">← '+esc(p.n)+'</a>':'<span></span>')+(n?'<a class="r" href="#/v/'+n.id+'">'+esc(n.n)+' →</a>':'<span></span>')+'</div>';
+  }
+  app.innerHTML=h;document.title=t.name+' — '+v.n;
+}
+function route(){
+  const hs=location.hash||'#/';
+  let m;
+  if((m=hs.match(/^#\/v\/([a-z0-9\-]+)$/)))viewVariant(m[1]);
+  else if((m=hs.match(/^#\/t\/([a-z0-9\-]+)$/)))viewTopic(m[1]);
+  else viewIndex($('#q').value);
+  if(!hs.startsWith('#c-'))window.scrollTo(0,0);
+}
+addEventListener('hashchange',route);
+document.addEventListener('click',e=>{
+  const a=e.target.closest('a[data-jump]');
+  if(a){e.preventDefault();const el=document.getElementById('c-'+a.dataset.jump);
+    if(el){el.scrollIntoView()}else{location.hash='#/';setTimeout(()=>{const x=document.getElementById('c-'+a.dataset.jump);x&&x.scrollIntoView()},0)}}
+});
+$('#q').addEventListener('input',()=>{if(!/^#\/$|^$/.test(location.hash))location.hash='#/';else viewIndex($('#q').value)});
+$('#theme').addEventListener('click',()=>{
+  const r=document.documentElement,cur=r.getAttribute('data-theme');
+  const dark=cur?cur==='dark':matchMedia('(prefers-color-scheme:dark)').matches;
+  r.setAttribute('data-theme',dark?'light':'dark');
+});
+$('#foot').innerHTML='Sources: <b>A</b> = Physician Orders Sheet handout, Beesat Educational-Therapeutic Center (Hamadan University of Medical Sciences, Ibn Sina). <b>B</b> = “Common Emergency Orders” booklet, Emergency Medicine Dept., Isfahan University of Medical Sciences, Winter 1398 (based on Rosen’s 2018). Scenarios are illustrative teaching cases written for this page. Items tagged ⚑ / ⚠ come from the cited references, not from the handouts.';
+route();
+})();
+</script>
+</body>
+</html>
