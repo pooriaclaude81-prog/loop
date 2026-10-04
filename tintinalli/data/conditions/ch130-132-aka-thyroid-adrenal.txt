@@ -1,0 +1,275 @@
+@cond alcoholic-ketoacidosis
+ch: 130
+name: Alcoholic ketoacidosis (AKA)
+name_fa: کتواسیدوز الکلی (AKA)
+cc: metabolic, abdominal-pain, nausea-vomiting
+keywords: alcoholic ketoacidosis, AKA, anion gap, thiamine, D5NS, MUDPILES, کتواسیدوز الکلی
+status: draft
+
+@features
+- پس از مصرف شدید الکل (حاد یا مزمن): تخلیه ذخایر گلیکوژن ← لیپولیز ← کتواسیدها ← اسیدوز متابولیک anion gap
+- تهوع، استفراغ و درد شکم پس از مصرف شدید الکل؛ ظاهر بیمار، کم‌آب و حساسیت غیراختصاصی شکم یا ناشی از گاستریت، هپاتیت یا پانکراتیت
+- اسیدوز متابولیک anion gap؛ pH متغیر (اختلال مختلط: اسیدوز AKA + آلکالوز متابولیک ناشی از استفراغ)؛ قند پایین تا کمی بالا؛ سطح الکل معمولاً پایین یا غیرقابل‌تشخیص؛ کتون، acetoacetate و β-hydroxybutyrate بالا (nitroprusside فقط acetoacetate را می‌سنجد و ممکن است کاذب پایین/منفی باشد)
+- معیارها (جدول 130-1): قند پایین/طبیعی/کمی بالا، binge drinking با تهوع و استفراغ و کاهش دریافت، اسیدوز anion gap بالا، کتون سرمی مثبت (نبود کتون با nitroprusside رد نمی‌کند)، اسیدوز بدون توضیح دیگر؛ افتراق MUDPILES: Methanol، Uremia، DKA، Paraldehyde، Iron/isoniazid/inhalants، Lactic acidosis، Ethanol/ethylene glycol، Salicylates
+
+@ddx
+- !DKA |
+- !Toxic alcohols / salicylate (MUDPILES) |
+- Pancreatitis / gastritis / hepatitis |
+- Lactic acidosis / uremia |
+
+@redflags
+- pH < 7.0، gap که با درمان بسته نمی‌شود، علائم Wernicke
+
+@guide
+D5NS IV تا هیدراته شدن سپس D5 0.45NS نگهدارنده؛ کریستالوئید ایزوتونیک حجم را برمی‌گرداند؛ گلوکز ترشح انسولین درونزا را تحریک و کتوز را مهار می‌کند (انسولین مثل DKA تجویز نمی‌شود). thiamine 100 mg IV قبل از گلوکز برای جلوگیری از Wernicke. جایگزینی الکترولیت و ویتامین‌ها. ادامه تا رفع اسیدوز و تحمل خوراکی. اگر gap بسته نشد علل دیگر را در نظر بگیر. sodium bicarbonate اگر علی‌رغم درمان pH < 7.0.
+
+@variant aka-main
+name: Alcoholic ketoacidosis
+level: II
+imp: Alcoholic ketoacidosis
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: once
+cxr: none
+
+@scenario
+مرد ۴۵ ساله الکلی پس از binge با تهوع، استفراغ، درد شکم، تنفس عمیق، قند 90 و gap 28.
+
+@why
+D5NS و thiamine؛ بدون انسولین.
+
+@L
+- Venous blood gas, glucose, electrolytes with anion gap, BUN, creatinine, serum ketones (β-hydroxybutyrate; nitroprusside may be falsely negative), lactate, magnesium, phosphate, liver enzymes, lipase, ethanol level; osmolal gap if toxic alcohol considered
+
+@S
+- Thiamine 100 mg IV before glucose administration
+- D5NS IV until rehydrated, then D5 0.45NS for maintenance {ci: caution in AKI / anuria / heart failure}
+- Supplement electrolytes (K, Mg, phosphate) and other vitamins as indicated
+- Sodium bicarbonate if pH remains < 7.0 despite treatment
+
+@T
+- Continue treatment until the acidosis clears and oral intake tolerated {note: no insulin, unlike DKA}; consider other causes if gap does not close
+
+@Co
+- Admit; addiction medicine / psychiatry as needed
+
+@cond myxedema-coma
+ch: 131
+name: Myxedema coma
+name_fa: کمای میکزدم
+cc: metabolic, altered-mental-status, hypotension-shock
+keywords: myxedema coma, hypothyroidism, levothyroxine, liothyronine, hypothermia, hypoventilation, کمای میکزدم, کم کاری تیروئید
+status: draft
+
+@features
+- نادر و تهدیدکننده حیات؛ محرک: عفونت، سرما، تروما، دارو، MI؛ کلاسیک در زمستان در زن سالمند با هیپوتیروئیدی تشخیص‌داده‌نشده/کم‌درمان
+- دکمپانساسیون متابولیک و چندارگانی: هیپوترمی، برادیکاردی، هیپوتانسیون، تغییر هوشیاری؛ نارسایی تنفس و CO2 narcosis؛ راه هوایی دشوار (ماکروگلوسی، ادم گلوت و اوروفارنکس)؛ هیپوگلیسمی و هیپوناترمی
+- شکل 131-1: علائم: ریزش مو، خستگی، افسردگی، تنگی نفس، افزایش وزن، یبوست، بی‌نظمی قاعدگی، ناباروری، گرفتگی عضله، درد مفصل، عدم تحمل سرما؛ نشانه‌ها: پف دور چشم، از دست رفتن ثلث خارجی ابرو، رنگ‌پریدگی، ماکروگلوسی، گرفتگی صدا، هیپوونتیلاسیون، برادیکاردی، کاهش صداهای روده، ادم غیرگودرو، تأخیر شل شدن رفلکس آشیل، نوروپاتی، پوست سرد، خشک و زبر، هیپوترمی
+- تشخیص بالینی؛ آزمایش تیروئید را بفرست ولی درمان را به تأخیر نینداز؛ FT4 و FT3 پایین و TSH بالا؛ افتراق: سپسیس، افسردگی، بحران آدرنال، CHF، هیپوگلیسمی، سکته، هیپوترمی، منژیت، اوردوز دارو
+
+@ddx
+- !Sepsis |
+- !Adrenal crisis |
+- Hypothermia (environmental) / hypoglycemia |
+- Stroke / meningitis / drug overdose / CHF |
+
+@redflags
+- هیپوترمی، برادیکاردی، هیپوتانسیون، هیپوکاپنی/CO2 narcosis، هیپوگلیسمی، هیپوناترمی
+
+@guide
+حمایتی: ثبات راه هوایی، تهویه مکانیکی و مانیتور قلبی؛ هیپوتانسیون با مایع (وازوپرسور تا شروع جایگزینی تیروئید ممکن بی‌اثر)؛ گرم کردن پاسیو در هیپوترمی. جستجو و درمان علل محرک؛ hydrocortisone 100 mg IV در شک به نارسایی آدرنال؛ اصلاح هیپوگلیسمی. جایگزینی تیروئید: levothyroxine (T4) 4 µg/kg (بار) سپس 100 µg IV در 24 ساعت و بعد 50 µg IV تا تحمل خوراکی، یا liothyronine (T3) 20 µg IV سپس 10 µg IV هر 8 ساعت تا هوشیاری در میکزدم شدید؛ در سالمند و بیماری قلبی-عروقی حداکثر 10 µg IV شروع؛ هنگام راه رفتن: levothyroxine 50 تا 200 µg/day PO. بستری مانیتورشده/ICU. محرک‌ها: عفونت، آرام‌بخش، بی‌هوشی (etomidate)، سرما، تروما، MI/CHF، CVA، خونریزی GI؛ هیپوکسی، هیپرکاپنی، هیپوناترمی و هیپوگلیسمی.
+
+@variant myxedema-main
+name: Myxedema coma
+level: I
+imp: Myxedema coma
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+o2: titrate (CO2 narcosis risk; low threshold for ventilation)
+
+@scenario
+زن ۷۵ ساله در زمستان با خواب‌آلودگی، دمای 33°C، HR 48، فشار 85/50، پف دور چشم و ماکروگلوسی.
+
+@why
+ثبات راه هوایی، هیدروکورتیزون و T4/T3 بدون انتظار جواب تست.
+
+@I
+- CXR portable (pneumonia / effusion / heart size); CT head if focal / other cause suspected
+
+@L
+- Free T4, free T3, TSH (do not delay treatment); random cortisol; glucose, electrolytes (hyponatremia), blood gas (hypercapnia), CBC, lactate, creatinine, CK, troponin; blood / urine cultures
+
+@S
+- Hydrocortisone 100 mg IV (suspected adrenal insufficiency) {hi}
+- Levothyroxine (T4) 4 µg/kg IV, then 100 µg IV at 24 h, then 50 µg IV until oral tolerated — or liothyronine (T3) 20 µg IV then 10 µg IV every 8 h for severe myxedema coma {ci: elderly / cardiovascular disease: start with no more than 10 µg IV T3}
+- Dextrose to correct hypoglycemia; IV fluid resuscitation for hypotension {ci: caution in heart failure; vasopressors may be ineffective until thyroid hormone replaced}
+
+@T
+- Airway stabilization and mechanical ventilation as needed (difficult airway: macroglossia / glottic edema); cardiac monitoring
+- Passive rewarming for hypothermia; identify and treat precipitating factors (infection, sedatives, cold, MI, CVA, GI bleed)
+
+@A
+- Empiric antibiotics if infection suspected after cultures
+
+@Co
+- ICU / monitored admission; endocrinology
+
+@cond thyroid-storm
+ch: 131
+name: Thyrotoxicosis and thyroid storm
+name_fa: تیروتوکسیکوز و طوفان تیروئیدی
+cc: palpitations, fever, altered-mental-status, metabolic
+keywords: thyroid storm, thyrotoxicosis, Graves disease, PTU, methimazole, Lugol, propranolol, esmolol, طوفان تیروئید, تیروتوکسیکوز
+status: draft
+
+@features
+- hyperthyroidism: عملکرد زیاد غده؛ thyrotoxicosis: هورمون زیاد از هر علت؛ thyroid storm: حالت حاد تهدیدکننده تیروتوکسیکوز، شایع‌تر در Graves
+- تظاهرات: فعالیت آدرنرژیک افزایش‌یافته (جدول 131-1): عمومی: بی‌حالی، ضعف، عدم تحمل گرما، تعریق، تب، کاهش وزن؛ روان‌عصبی: ناپایداری هیجانی، اضطراب، گیجی، کما، سایکوز، لرزش ظریف، رفلکس زیاد، فلج دوره‌ای؛ چشم: دوبینی، تحریک، lid lag، exophthalmos، افتالموپلژی؛ تیروئید: بزرگی، bruit، حساسیت؛ قلب-ریه: تنگی نفس، تپش، درد قفسه، فشار نبض وسیع، هیپرتانسیون سیستولیک، تاکی‌کاردی سینوسی، AF/فلوتر، CHF؛ GI: اسهال؛ تولیدمثل: الیگومنوره، کاهش میل، منوراژی؛ خون: کم‌خونی، لکوسیتوز؛ پوست: pretibial myxedema (5%)، گرم و مرطوب، اریتم کف دست، onycholysis، ریزش مو
+- طوفان: علائم اصلی: تب، CNS (آژیتاسیون، گیجی، دلیریوم، استوپور، کما، تشنج) و قلب-عروقی (تاکی‌کاردی، آریتمی، نارسایی قلب)
+- تشخیص: FT4 یا FT3 بالا و TSH سرکوب‌شده؛ طوفان تشخیص بالینی (تب و تاکی‌کاردی) و آزمایش نمی‌تواند از تیروتوکسیکوز تفکیک کند؛ افتراق: سپسیس، heat stroke، DTs، NMS، سندرم سروتونین، فئوکروموسیتوم، مسمومیت سمپاتومیمتیک
+
+@ddx
+- !Sepsis |
+- !Heat stroke / NMS / serotonin syndrome / sympathomimetic overdose |
+- Delirium tremens / pheochromocytoma |
+
+@redflags
+- تب، تاکی‌کاردی شدید، تغییر هوشیاری، نارسایی قلبی
+
+@guide
+حمایتی: ثبات راه هوایی، اکسیژن، مانیتور؛ خنک‌سازی در هیپرترمی؛ acetaminophen 325 تا 650 mg PO/PR هر 4 تا 6 ساعت؛ مایع IV؛ حمایت تغذیه‌ای: گلوکز، مولتی‌ویتامین، thiamine، فولات. مهار آزادسازی هورمون با تیوآمیدها: PTU بار 600 تا 1000 mg PO سپس 200 تا 250 mg هر 4 ساعت یا methimazole بار 40 mg PO سپس 25 mg هر 4 ساعت (PTU ترجیحی چون تبدیل محیطی T4 به T3 را هم مهار می‌کند). مهار تولید هورمون جدید (حداقل 1 ساعت بعد از تیوآمید): Lugol 8 تا 10 قطره PO هر 6 تا 8 ساعت یا potassium iodide 5 قطره PO هر 6 ساعت یا iopanoic acid IV 1 g هر 8 ساعت در 24 ساعت اول سپس 500 mg دو بار روزانه یا ipodate 0.5 تا 3 g/day × 3 روز یا lithium carbonate 300 mg PO هر 6 ساعت. مسدود کردن β محیطی: propranolol IV بولوس آهسته 1 تا 2 mg هر 10 تا 15 دقیقه یا esmolol 500 mcg/kg بولوس سپس 50 تا 200 mcg/kg/min؛ propranolol 20 تا 120 mg PO در سمیت کمتر؛ در برونکواسپاسم یا CHF شدید اجتناب. جلوگیری از تبدیل محیطی T4 به T3: hydrocortisone 100 mg اولیه سپس سه بار روزانه تا پایداری یا dexamethasone 2 mg هر 6 ساعت. علت محرک: منبع عفونت در تب و آنتی‌بیوتیک مناسب. بستری مانیتورشده/ICU.
+
+@variant thyroid-storm-main
+name: Thyroid storm
+level: I
+imp: Thyroid storm
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+o2: if SpO2 < 94%
+
+@scenario
+زن ۳۵ ساله مبتلا به Graves با تب 40°C، HR 160 (AF)، آژیتاسیون و تعریق شدید پس از عفونت.
+
+@why
+بتابلاکر، تیوآمید، ید بعد از 1 ساعت و استروئید؛ علت را بجو.
+
+@I
+- CXR portable (heart failure / pneumonia)
+
+@L
+- TSH, free T4, free T3 (clinical diagnosis; do not delay treatment); glucose, electrolytes, BUN, creatinine, liver enzymes, CBC, troponin, calcium; blood / urine cultures if febrile
+
+@S
+- Normal saline / dextrose IV for dehydration {ci: caution in heart failure}; glucose, multivitamins, thiamine, folate
+- Propylthiouracil (PTU) 600–1000 mg PO loading, then 200–250 mg every 4 h {hi} (or methimazole 40 mg PO load then 25 mg every 4 h)
+- At least 1 h after thioamide: Lugol solution 8–10 drops PO every 6–8 h, or potassium iodide 5 drops PO every 6 h (or iopanoic acid 1 g IV every 8 h × 24 h then 500 mg twice daily; lithium carbonate 300 mg PO every 6 h)
+- Hydrocortisone 100 mg IV then three times daily until stable (or dexamethasone 2 mg every 6 h)
+
+@T
+- Propranolol IV 1–2 mg slow boluses every 10–15 min, or esmolol 500 mcg/kg IV bolus then 50–200 mcg/kg/min {ci: bronchospastic disease; severe heart failure — avoid propranolol / esmolol}
+- Cooling for hyperthermia; acetaminophen 325–650 mg PO/PR every 4–6 h; supplemental oxygen; cardiac monitoring
+
+@A
+- Appropriate antibiotics for identified infection
+
+@Co
+- ICU / monitored admission; endocrinology
+
+@cond adrenal-crisis
+ch: 132
+name: Adrenal insufficiency and adrenal crisis
+name_fa: نارسایی آدرنال و بحران آدرنال
+cc: metabolic, hypotension-shock, weakness, abdominal-pain
+keywords: adrenal crisis, Addison disease, adrenal insufficiency, hydrocortisone, steroid withdrawal, Waterhouse-Friderichsen, hyperpigmentation, بحران آدرنال, آدیسون
+status: draft
+
+@features
+- نیاز فیزیولوژیک به گلوکوکورتیکوئید و مینرالوکورتیکوئید بیش از عرضه قشر آدرنال؛ ACTH و MSH از هیپوفیز؛ ACTH کورتیزول را تحریک می‌کند
+- اولیه: نارسایی غده آدرنال: کورتیزول و آلدوسترون پایین: ضعف، کم‌آبی، هیپوتانسیون، بی‌اشتهایی، تهوع، استفراغ، کاهش وزن، درد شکم؛ هیپرپیگمانتاسیون پوست و مخاط (MSH + ACTH بدون مهار)
+- ثانویه: ACTH ناکافی ← کمبود کورتیزول؛ آلدوسترون نرمال (رنین-آنژیوتانسین و پتاسیم) ← بدون هیپرپیگمانتاسیون و هیپرکالمی
+- بحران آدرنال: شکل حاد تهدیدکننده؛ علائم فوق شدید همراه شوک و تغییر هوشیاری
+- کورتیزول پلاسما پایین در همه؛ ACTH بالا در اولیه و پایین در ثانویه؛ معمولاً در ED در دسترس نیست: تشخیص اولیه بالینی + هیپوناترمی، هیپرکالمی، هیپوگلیسمی، کم‌خونی، اسیدوز متابولیک، ازوتمی پیش‌کلیوی؛ ثانویه مشابه ولی بدون هیپرکالمی
+- شایع‌ترین علت حاد: سرکوب آدرنال از مصرف طولانی استروئید با قطع ناگهانی یا استرس (آسیب، بیماری، جراحی)؛ بازگشت محور تا 1 سال طول می‌کشد
+- جدول 132-1 علل اولیه: خودایمن (polyglandular)، خونریزی/ترومبوز آدرنال (مننگوکوک، Waterhouse–Friderichsen، اختلال انعقاد)، دارو (etomidate، aminoglutethimide، mitotane، ketoconazole)، عفونت (TB، قارچ، AIDS)، انفیلتراتیو (سارکوئیدوز، هموکروماتوز، آمیلوئیدوز، لنفوم، متاستاز)، جراحی (آدرنالکتومی دوطرفه، bariatric)، ارثی (CAH، adrenoleukodystrophy)؛ جدول 132-2 ثانویه: قطع ناگهانی گلوکوکورتیکوئید، نکروز/خونریزی هیپوفیز، تومور مغز، تابش/جراحی هیپوفیز، ضربه سر، Sheehan، انفیلتراتیو و عفونت CNS
+- در هر بیمار با هیپوتانسیون بی‌توضیح مقاوم به وازوپرسور (به‌ویژه با علت شناخته) به بحران آدرنال فکر کن
+
+@ddx
+- !Sepsis / septic shock |
+- !Myocardial infarction / GI bleed |
+- Hypothyroidism / hypoglycemia |
+- Hyperkalemia of other cause |
+
+@redflags
+- شوک مقاوم به وازوپرسور، هیپوگلیسمی، هیپرکالمی، هیپوناترمی، سابقه استروئید یا مننگوکوک
+
+@guide
+D5NS مایع انتخابی برای اصلاح هیپوگلیسمی، هیپوناترمی و هیپوتانسیون. hydrocortisone 100 mg IV (اثر گلوکو و مینرالوکورتیکوئیدی)؛ اگر تست تحریک ACTH برنامه‌ریزی شده: dexamethasone 4 mg IV (بر تست اثر نمی‌گذارد). وازوپرسور اگر شوک مقاوم. بیمار مصرف‌کننده مزمن استروئید با بیماری/آسیب خفیف: دوز گلوکوکورتیکوئید روزانه را سه برابر و پیگیری سریع.
+
+@variant adrenal-crisis-main
+name: Adrenal crisis
+level: I
+imp: Adrenal crisis
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+o2: if SpO2 < 94%
+
+@scenario
+مرد ۵۵ ساله مصرف‌کننده طولانی prednisone که دارو را قطع کرده، با استفراغ، درد شکم، فشار 70/40، قند 45 و K 5.8.
+
+@why
+هیدروکورتیزون IV و D5NS بلافاصله بدون انتظار کورتیزول.
+
+@I
+- CXR portable (sepsis / pneumonia); imaging as indicated for precipitant
+
+@L
+- Cortisol (draw before steroid if possible; do not delay treatment), ACTH if available; glucose, electrolytes (Na, K), BUN, creatinine, CBC, blood gas, lactate; blood cultures if sepsis suspected
+
+@S
+- Hydrocortisone 100 mg IV {hi} (use dexamethasone 4 mg IV instead if an ACTH stimulation test is planned)
+- D5 normal saline IV (corrects hypoglycemia, hyponatremia, hypotension) {ci: caution in heart failure}
+
+@T
+- Vasopressors if shock refractory to above; cardiac monitoring; treat hyperkalemia as needed and search for precipitant (infection, steroid withdrawal)
+
+@A
+- Broad-spectrum antibiotics if infection suspected (after cultures)
+
+@Co
+- ICU / monitored admission; endocrinology
+
+@variant adrenal-chronic-steroid-minor-illness
+name: Chronic steroid / adrenal insufficiency patient with minor illness or injury
+level: III
+imp: Adrenal insufficiency on chronic steroid therapy with minor illness
+cond: Urgent
+act: CBR
+diet: PO
+ecg: once
+cxr: none
+
+@scenario
+زن ۵۰ ساله با بیماری آدیسون تحت هیدروکورتیزون با گاستروانتریت خفیف و ثبات همودینامیک.
+
+@why
+سه برابر کردن دوز و پیگیری.
+
+@L
+- Electrolytes, glucose
+
+@T
+- Triple the daily glucocorticoid dose with prompt follow-up (stress dosing); oral rehydration
+
+@Co
+- Prompt follow-up with endocrinology / primary physician
