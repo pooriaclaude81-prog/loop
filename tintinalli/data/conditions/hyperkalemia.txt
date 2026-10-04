@@ -1,0 +1,99 @@
+@cond hyperkalemia
+section: renal-electrolyte
+name: Hyperkalemia
+name_fa: هیپرکالمی
+cc: weakness, palpitations, altered-mental-status
+keywords: potassium, K high, peaked T, calcium gluconate, insulin dextrose, پتاسیم بالا
+source: FORMAT DEMO. Not yet extracted from Tintinalli.
+status: demo
+
+@features
+- اغلب بدون علامت؛ ضعف عضلانی، فلج شل، تپش قلب
+- ECG: T بلند و نوک‌تیز، طولانی شدن PR، پهن شدن QRS، الگوی سینوسی، بلوک و ایست
+- علل: نارسایی کلیه، داروها (ACEI/ARB، اسپیرونولاکتون)، رابدومیولیز، DKA، همولیز نمونه
+
+@ddx
+- !Life-threatening arrhythmia from another cause | 
+- Pseudohyperkalemia (hemolyzed sample) | نمونه را تکرار کنید ولی درمان را برای ECG غیرطبیعی به تأخیر نیندازید
+- Acute coronary syndrome | 
+
+@redflags
+- تغییر ECG (QRS پهن، برادی‌کاردی)، ضعف شدید یا K بسیار بالا
+
+@guide
+# ایده کلی
+پتاسیم بالا قلب را مسموم می‌کند. سه هدف: محافظت غشای قلب (کلسیم)، انتقال پتاسیم به داخل سلول (انسولین + دکستروز، سالبوتامول، بیکربنات) و دفع پتاسیم (دیورز، دیالیز).
+
+# منطق دستورها
+- **کلسیم** اگر ECG تغییر دارد؛ اثر سریع ولی کوتاه است.
+- **انسولین + دکستروز** پتاسیم را به داخل سلول می‌برد؛ قند را کنترل کنید.
+- **دفع:** فقط اگر ادرار می‌دهد و حجم کافی دارد؛ در آنوریک دیالیز.
+- مایع طبق قاعده بخش: در نارسایی کلیه حاد/مزمن و آنوریک بولوس ندهید.
+
+@variant hyperk-ecg
+name: With ECG changes or severe hyperkalemia
+level: I
+imp: Hyperkalemia with ECG changes
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: none
+
+@scenario
+مردی ۶۷ ساله دیالیزی که یک جلسه دیالیز را از دست داده، ضعف و تپش قلب دارد. نبض 48، فشار 100/60. ECG: T نوک‌تیز و QRS پهن. پتاسیم 7.6.
+
+@why
+تغییر ECG یعنی خطر آریتمی؛ ابتدا کلسیم، سپس انتقال پتاسیم به داخل سلول و برنامه دفع.
+
+@L
+- Blood sugar
+- VBG or ABG
+- Mg, Ca, phosphate
+- CPK (if rhabdomyolysis suspected)
+
+@S
+- No IV fluid bolus. Avoid in CKD, AKI or anuria. | Fluid rule: not applied in kidney failure.
+
+@T
+- Calcium gluconate 10% 10 mL IV over 2–3 min, repeat after 5 min if ECG changes persist {hi} {ci: digoxin toxicity (use with caution)} | Stabilizes the cardiac membrane.
+- Regular insulin 10 U IV with dextrose 50% 50 mL {hi} | Shifts K into cells; recheck glucose hourly.
+- Salbutamol 10–20 mg nebulized | Additive K shift.
+- [if metabolic acidosis] Sodium bicarbonate 50–100 mEq IV | Shifts K into cells in acidosis.
+- [if making urine and euvolemic or hypervolemic] Furosemide 40–80 mg IV | Increases K excretion.
+
+@Co
+- Nephrology (urgent dialysis)
+
+@variant hyperk-mild
+name: Mild or moderate, no ECG changes
+level: II
+imp: Hyperkalemia
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: once
+cxr: none
+
+@scenario
+زنی ۷۲ ساله با نارسایی مزمن کلیه و مصرف ACEI، ضعف خفیف دارد. پتاسیم 6.1. ECG طبیعی است.
+
+@why
+بدون تغییر ECG، کلسیم لازم نیست ولی پتاسیم باید کاهش یابد و علت اصلاح شود.
+
+@L
+- Blood sugar
+- VBG
+- Repeat K (non-hemolyzed sample)
+
+@S
+- No IV fluid bolus. Avoid in CKD, AKI or anuria. | Fluid rule: not applied in kidney failure.
+
+@T
+- Regular insulin 10 U IV with dextrose 50% 50 mL {hi} | Shifts K into cells.
+- Salbutamol 10 mg nebulized | Additive K shift.
+- [if making urine] Furosemide 40 mg IV
+- Hold ACEI / ARB / K-sparing drugs | Remove the cause.
+
+@Co
+- [if K stays high or kidney failure is advanced] Nephrology

@@ -90,3 +90,12 @@ node tools/build.js --check  # فقط بررسی
 
 ## فعال‌سازی GitHub Pages
 **Settings → Pages → Build and deployment → Source: Deploy from a branch → Branch: `main` / `(root)` → Save.**
+
+---
+
+## الف) صفحه انتخاب و دو بخش · Start page and the two parts
+- `index.html`: صفحه انتخاب بین دو بخش · chooser.
+- `legacy.html`: سایت قبلی، بدون تغییر محتوا (فقط یک دکمه بازگشت به صفحه انتخاب) · the original site, content unchanged.
+- `tintinalli/`: بخش جدید بر پایه Tintinalli، کاملاً جدا از بخش قبلی · the new Tintinalli-based part, fully separate. See `tintinalli/README.md`.
+- لینک‌های قدیمی مثل `/#/t/acs` خودکار به `legacy.html` می‌روند · old deep links redirect to `legacy.html`.
+- پیش‌نمایش شاخه: `.github/workflows/preview-pages.yml` سایت `main` را در ریشه و این شاخه را در `/preview/` منتشر می‌کند (Settings → Pages → Source = GitHub Actions) · branch preview.

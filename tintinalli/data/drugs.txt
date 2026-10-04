@@ -1,0 +1,15 @@
+// Safety flags (S6) that are added automatically to any order whose text matches.
+// regex | kind | note        kind: hi = high-alert medication, renal = check kidney function / adjust dose
+// Explicit per-order flags written in a condition file ({hi} {ci: ...} {renal: ...}) are shown in addition.
+// Starter list based on commonly published high-alert medication categories; to be reviewed by a physician.
+\b(heparin|enoxaparin|fondaparinux|alteplase|reteplase|tenecteplase|streptokinase) | hi | Anticoagulant / thrombolytic: check weight-based dose, bleeding risk and renal function.
+\binsulin\b | hi | Insulin: confirm dose and units, check glucose and potassium.
+\bpotassium (chloride|phosphate)|\bKCl\b | hi | Concentrated potassium: never give as a bolus; check K and renal function.
+\b(morphine|fentanyl|pethidine|meperidine|tramadol|methadone) | hi | Opioid: watch respiratory rate and sedation.
+\b(midazolam|diazepam|lorazepam|propofol|ketamine|etomidate) | hi | Sedative: monitor airway and breathing.
+\b(norepinephrine|epinephrine|adrenaline|dopamine|dobutamine|vasopressin|phenylephrine) | hi | Vasoactive drug: infusion pump, titrate to target, central/large-vein access preferred.
+\b(amiodarone|lidocaine|procainamide|adenosine|digoxin|diltiazem|verapamil|esmolol|metoprolol IV) | hi | Antiarrhythmic / rate-control drug: continuous ECG and BP monitoring.
+\bmagnesium sulfate | hi | Magnesium sulfate: slow infusion, watch reflexes, respiration and BP.
+\b(hypertonic|3% ?(NaCl|saline)|dextrose 50|D50|50% dextrose) | hi | Hypertonic solution: check concentration and rate.
+\b(succinylcholine|rocuronium|vecuronium) | hi | Neuromuscular blocker: only with airway control.
+\b(enoxaparin|gentamicin|amikacin|vancomycin|ketorolac|diclofenac|ibuprofen|metformin|colchicine|contrast) | renal | Check creatinine / GFR and adjust or avoid in renal impairment.

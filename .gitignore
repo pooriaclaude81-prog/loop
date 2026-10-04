@@ -1,0 +1,5 @@
+# Never commit the textbook: GitHub Pages is public.
+*.pdf
+*.epub
+/source/
+node_modules/

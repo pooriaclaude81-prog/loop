@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Tintinalli-based orders</title>
+<meta name="description" content="ED order sets built from Tintinalli's Emergency Medicine, in the Imp / Cond / Act / Diet + NILSTATCo format, with clinical features, DDx and study guides.">
+<meta name="theme-color" content="#0b57d0">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon-192.png">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+<link rel="stylesheet" href="css/t.css">
+</head>
+<body>
+<a class="skip" href="#app">Skip to content</a>
+<header class="top">
+  <a class="home" href="#/" aria-label="Home">⚕ Orders</a>
+  <input id="q" type="search" placeholder="Search condition, drug, complaint… ( / )" autocomplete="off" aria-label="Search">
+  <details class="pop">
+    <summary aria-label="Display settings">Aa</summary>
+    <form id="set-form" class="popbox" onsubmit="return false">
+      <div class="row"><span>Text size <b id="fs-val">100%</b></span><span><button type="button" data-act="fs-down" aria-label="Smaller text">A−</button> <button type="button" data-act="fs-up" aria-label="Larger text">A+</button></span></div>
+      <label class="row"><span>High contrast</span><input type="checkbox" name="contrast"></label>
+      <label class="row"><span>Large touch targets</span><input type="checkbox" name="touch"></label>
+      <label class="row"><span>Show “why” under orders</span><input type="checkbox" name="why"></label>
+      <label class="row"><span>Theme</span><select name="theme"><option value="auto">Auto</option><option value="light">Light</option><option value="dark">Dark</option></select></label>
+      <label class="row"><span>Page direction</span><select name="dir"><option value="ltr">Left to right</option><option value="rtl">Right to left</option></select></label>
+    </form>
+  </details>
+  <a class="btn" href="../" title="Choose the other part of the site">⌂</a>
+</header>
+<nav id="nav" aria-label="Main"><a href="#/">Complaints</a><a href="#/calc">Calculators</a><a href="#/test">Self-test</a><a href="#/drill">Drill</a><a href="#/my">My study</a><a href="#/about">About</a></nav>
+<main id="app" tabindex="-1"><p class="mute">Loading…</p></main>
+<footer id="foot"></footer>
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+<script src="dist/meta.js"></script>
+<script src="js/qrcode.js"></script>
+<script src="js/core.js"></script>
+<script src="js/calc.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

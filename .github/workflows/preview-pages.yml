@@ -1,0 +1,55 @@
+name: Deploy site with branch preview
+
+# Publishes two things to GitHub Pages in one deployment:
+#   /          the `main` branch exactly as it is (the live site)
+#   /preview/  the preview branch below (the Tintinalli-based update)
+# Requires: Settings -> Pages -> Source = "GitHub Actions", and the `github-pages` environment
+# must allow deployments from the preview branch (Settings -> Environments -> github-pages -> Deployment branches).
+on:
+  push:
+    branches: [main, claude/confident-cannon-16ct41]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+env:
+  PREVIEW_BRANCH: claude/confident-cannon-16ct41
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          path: _site
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ env.PREVIEW_BRANCH }}
+          path: _site/preview
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Validate the Tintinalli data
+        working-directory: _site/preview
+        run: node tools/tn-build.js --check
+      - name: Tidy
+        run: |
+          rm -rf _site/.git _site/preview/.git _site/.github _site/preview/.github
+          touch _site/.nojekyll
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - id: deployment
+        uses: actions/deploy-pages@v4

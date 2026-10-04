@@ -1,0 +1,5 @@
+// id | English name | نام فارسی      (order here = order on the site)
+// PROVISIONAL: these groups will be replaced by the table of contents of the Tintinalli edition once the book is available.
+cardiovascular | Cardiovascular | قلب و عروق
+pulmonary      | Pulmonary | تنفسی
+renal-electrolyte | Renal, fluids & electrolytes | کلیه، مایعات و الکترولیت‌ها

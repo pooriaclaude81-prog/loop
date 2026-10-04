@@ -1,24 +1,54 @@
 <!doctype html>
-<html lang="fa" dir="ltr">
+<html lang="en" dir="ltr">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>دستورات اورژانس · Emergency Orders</title>
-<meta name="description" content="Fast-access emergency physician orders grouped by condition, with scenarios in Farsi, branches, references and study guides.">
-<link rel="stylesheet" href="css/style.css">
+<title>Emergency Orders · دستورات اورژانس</title>
+<meta name="description" content="Choose a version: Tintinalli-based emergency orders, or the legacy sources.">
+<link rel="icon" href="tintinalli/icons/icon-192.png">
+<style>
+:root{--bg:#f6f7f9;--card:#fff;--ink:#14181f;--mute:#566070;--line:#d3d9e1;--pri:#0b57d0}
+@media (prefers-color-scheme:dark){:root{--bg:#0f1318;--card:#181e26;--ink:#e8ecf1;--mute:#a0abb8;--line:#2e3744;--pri:#5b9bff}}
+*{box-sizing:border-box}
+body{margin:0;min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:20px;padding:20px;background:var(--bg);color:var(--ink);font:16px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,Arial,"Vazirmatn",Tahoma,sans-serif}
+h1{margin:0;font-size:1.5rem;text-align:center}
+p.sub{margin:0;color:var(--mute);text-align:center}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px;width:min(760px,100%)}
+a.card{display:flex;flex-direction:column;gap:8px;padding:22px;background:var(--card);border:2px solid var(--line);border-radius:18px;text-decoration:none;color:var(--ink);min-height:180px}
+a.card:hover,a.card:focus-visible{border-color:var(--pri);outline:none}
+a.card b{font-size:1.25rem}
+a.card .fa{font-family:"Vazirmatn",Tahoma,sans-serif;color:var(--mute)}
+a.card small{color:var(--mute);margin-top:auto}
+.tag{align-self:flex-start;font-size:.72rem;font-weight:700;border:1px solid currentColor;border-radius:999px;padding:1px 9px;color:var(--pri)}
+footer{color:var(--mute);font-size:.8rem;text-align:center;max-width:560px}
+</style>
 </head>
 <body>
-<header class="top">
-  <a class="home" href="#/">⚕ دستورات</a>
-  <input id="q" type="search" placeholder="جستجو: بیماری، دارو… / Search" autocomplete="off" aria-label="Search">
-  <button id="theme" title="Dark / light" aria-label="Toggle theme">◐</button>
-</header>
-<main id="app"><p class="mute">… loading</p></main>
-<footer id="foot"></footer>
-<script src="config.js"></script>
-<script src="content/bundle.js"></script>
-<script src="js/parser.js"></script>
-<script src="js/render.js"></script>
-<script src="js/app.js"></script>
+<h1>⚕ Emergency Orders <span dir="rtl" style="font-weight:400">· دستورات اورژانس</span></h1>
+<p class="sub">Choose a version</p>
+<div class="cards">
+  <a class="card" href="tintinalli/">
+    <span class="tag">Tintinalli-based</span>
+    <b>Tintinalli-based orders</b>
+    <span class="fa" dir="rtl">دستورات بر پایه تینتینالی</span>
+    <span>Imp / Cond / Act / Diet and the NILSTATCo order, with clinical features, DDx and study guides.</span>
+    <small>Draft content, pending physician review</small>
+  </a>
+  <a class="card" href="legacy.html">
+    <span class="tag">Legacy</span>
+    <b>Legacy sources</b>
+    <span class="fa" dir="rtl">منابع قبلی</span>
+    <span>The original site: Farsi scenarios and order sets from the Hamadan sheet and the Isfahan booklet.</span>
+    <small>Unchanged</small>
+  </a>
+</div>
+<footer>Study and reference aid only. It does not replace clinical judgement or local protocols.</footer>
+<script>
+// Old links such as /#/v/acs-stable or /#/t/acs belong to the legacy site: send them there.
+(function () {
+  function go() { var h = location.hash; if (/^#\/(v|t)\//.test(h) || /^#c-/.test(h)) location.replace('legacy.html' + h); }
+  go(); window.addEventListener('hashchange', go);
+})();
+</script>
 </body>
 </html>

@@ -1,0 +1,123 @@
+@cond acs
+section: cardiovascular
+name: Acute coronary syndrome (ACS)
+name_fa: سندرم حاد کرونری
+cc: chest-pain, dyspnea, syncope, weakness
+keywords: MI, STEMI, NSTEMI, unstable angina, heart attack, troponin, سکته قلبی, آنژین
+source: FORMAT DEMO. Not yet extracted from Tintinalli.
+status: demo
+
+@features
+- درد یا فشار پشت جناغ، اغلب با تیر کشیدن به بازوی چپ، فک یا پشت؛ معمولاً بیش از ۲۰ دقیقه
+- تعریق، تهوع، تنگی نفس؛ در دیابتی‌ها، زنان و سالمندان ممکن است علامت «غیرتیپیک» باشد (مثلاً فقط تنگی نفس یا ضعف)
+- ECG اولیه ممکن است طبیعی باشد؛ ECG سریال و تروپونین سریال لازم است
+
+@ddx
+- !Aortic dissection | درد ناگهانی و پاره‌کننده، اختلاف فشار دو بازو؛ قبل از ضدانعقاد فکر کنید
+- !Pulmonary embolism | تاکی‌کاردی، هیپوکسی، درد پلوریتیک
+- !Tension pneumothorax | 
+- Pericarditis / myocarditis | درد وضعیتی، ST بالا در همه لیدها
+- Esophageal spasm / GERD | تشخیص با رد کردن موارد بالا
+- Musculoskeletal pain | تشخیص حذفی
+
+@redflags
+- فشار سیستولیک زیر ۹۰، نبض زیر ۵۰ یا بالای ۱۵۰
+- ادم ریه، سنکوپ، آریتمی بطنی
+- بالا رفتن ST (STEMI) یا درد پاره‌کننده به پشت
+
+@guide
+# ایده کلی
+در ACS شریان کرونر تنگ یا بسته می‌شود و عضله قلب کم‌خون می‌شود. زمان یعنی عضله.
+
+# منطق دستورها
+- **ECG سریال و تروپونین:** تشخیص و تعیین نوع (STEMI یا غیر از آن).
+- **آسپرین جویدنی:** مهار پلاکت؛ اولین دارو.
+- **ضدانعقاد** در NSTE-ACS با خطر متوسط تا بالا.
+- **نیتروگلیسرین** فقط وقتی فشار و نبض اجازه می‌دهد؛ در MI تحتانی/بطن راست و مصرف مهارکننده PDE5 ممنوع است.
+- **اکسیژن** فقط اگر SpO2 پایین است.
+
+@pearls
+- ECG بیمار مشکوک باید ظرف ۱۰ دقیقه گرفته شود.
+- فشار پایین یا نبض کم همراه MI تحتانی: به فکر درگیری بطن راست باشید و نیترات ندهید.
+
+@variant acs-nste
+name: NSTE-ACS, stable
+level: II
+imp: ACS (NSTE-ACS)
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+
+@scenario
+مردی ۵۸ ساله و دیابتی ۴۵ دقیقه است که فشار پشت جناغ دارد و به بازوی چپ تیر می‌کشد. فشار 142/88، نبض 84، SpO2 96٪. ECG افت ST در V4 تا V6 دارد، ولی بالا رفتن ST ندارد.
+
+@why
+بیمار پایدار است و ST بالا نرفته؛ ضدپلاکت، ضدانعقاد و پایش سریالی لازم است.
+
+@escalate
+- اگر ST بالا برود، فشار زیر ۹۰ شود یا آریتمی/ادم ریه پیدا شود: نسخه STEMI / ناپایدار.
+
+@I
+- Bedside echocardiography if the diagnosis is unclear | Looks for regional wall motion abnormality, effusion, RV strain.
+
+@L
+- Troponin (0 and 3 h)
+- Blood sugar
+- [if on warfarin] PT, INR
+
+@S
+- [if dehydrated and tachycardic, no heart failure] @fluid | Per fluid rule; not applied in HF or kidney failure.
+
+@T
+- Aspirin 325 mg PO chewed, stat {ci: aspirin allergy, active GI bleeding} | Platelet inhibition; first drug.
+- [if ongoing pain and SBP ≥ 90, HR 50–100, no RV infarct, no PDE5 inhibitor in 24–48 h] Nitroglycerin 0.4 mg SL every 5 min, up to 3 doses {ci: SBP < 90, HR < 50, RV infarct, PDE5 inhibitor use} | Reduces preload and pain.
+- [if high or intermediate risk] Enoxaparin 1 mg/kg SC stat {renal: reduce dose or use unfractionated heparin if CrCl < 30} | Anticoagulation in NSTE-ACS.
+- [if renal failure] Heparin 60 U/kg IV bolus (max 4000 U), then 12 U/kg/h (max 1000 U/h) | Preferred over enoxaparin in renal failure.
+- [if severe pain not relieved by nitroglycerin] Morphine 2–4 mg IV slow {hi} | Analgesia; watch BP and respiration.
+- [if nauseated] Ondansetron 4 mg IV stat
+
+@Co
+- Cardiology | Risk stratification and admission.
+
+@variant acs-stemi
+name: STEMI or unstable
+level: I
+imp: ACS with ST elevation
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+
+@scenario
+مردی ۶۱ ساله یک ساعت است که درد له‌کننده قفسه سینه دارد، عرق کرده و رنگ‌پریده است. فشار 150/90، نبض 92 و SpO2 94٪. ECG بالا رفتن ST در V1 تا V4 را نشان می‌دهد.
+
+@why
+STEMI یعنی انسداد کامل شریان؛ هدف باز کردن سریع شریان (PCI یا ترومبولیتیک) است. بیمار را به اتاق احیا ببرید.
+
+@escalate
+- شوک، آریتمی بطنی یا ادم ریه: پروتکل احیا و کاردیولوژی فوری.
+
+@I
+- Bedside echocardiography | Quick check of wall motion and complications.
+
+@L
+- Troponin (0 and 3 h)
+- Blood sugar
+- PT, INR, PTT
+
+@S
+- [if dehydrated and tachycardic, no pulmonary edema] @fluid | Per fluid rule; not applied in HF, pulmonary edema or kidney failure.
+
+@T
+- Aspirin 325 mg PO chewed, stat {ci: aspirin allergy} | Platelet inhibition.
+- Clopidogrel 300 mg PO stat | Second antiplatelet agent.
+- Atorvastatin 80 mg PO stat | High-intensity statin.
+- Heparin 60 U/kg IV bolus (max 4000 U), then 12 U/kg/h (max 1000 U/h) | Adjunct to reperfusion.
+- [if no PCI within the time window and no contraindication] Fibrinolytic per protocol | Time-critical reperfusion.
+- [if severe pain] Morphine 2–4 mg IV slow {hi}
+
+@Co
+- Cardiology (emergency, for PCI)

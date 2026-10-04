@@ -1,0 +1,107 @@
+// Chief complaints (S4 entry point) and their can't-miss lists (S5).
+// Format: @cc id, then  name:  name_fa:  and bullet blocks.
+//   @cantmiss  - Label @condition-id | Farsi note      (the @id is optional; it becomes a link when that condition exists)
+//   @redflags  - Farsi bullets
+// PROVISIONAL: starter list; to be reviewed against the book and by a physician.
+
+@cc chest-pain
+name: Chest pain
+name_fa: درد قفسه سینه
+@cantmiss
+- Acute coronary syndrome @acs | هر درد مشکوک را تا رد شدن ACS جدی بگیرید
+- Aortic dissection | درد ناگهانی، پاره‌کننده، اختلاف فشار دو بازو
+- Pulmonary embolism | تاکی‌کاردی، هیپوکسی، پلوریتیک
+- Tension pneumothorax | افت فشار، تراشه منحرف، صدای تنفسی یک‌طرفه
+- Cardiac tamponade | تریاد بک، پارادوکس نبض
+- Esophageal rupture | بعد از استفراغ شدید یا پروسیجر
+@redflags
+- فشار خون پایین، SpO2 پایین یا تاکی‌کاردی شدید
+- درد با تیر کشیدن به پشت، یا اختلاف فشار دو بازو
+- سنکوپ همراه درد
+
+@cc dyspnea
+name: Shortness of breath
+name_fa: تنگی نفس
+@cantmiss
+- Acute coronary syndrome @acs | معادل آنژین در دیابتی‌ها و سالمندان
+- Pulmonary embolism | 
+- Tension pneumothorax | 
+- Acute pulmonary edema | 
+- Severe asthma / COPD exacerbation @asthma-exacerbation | سکوت قفسه سینه، خستگی، کاهش هوشیاری
+- Anaphylaxis | 
+@redflags
+- ناتوانی در گفتن جمله کامل، استفاده از عضلات فرعی، خواب‌آلودگی
+- SpO2 زیر ۹۰٪ با اکسیژن
+
+@cc weakness
+name: Generalized weakness
+name_fa: ضعف عمومی
+@cantmiss
+- Hyperkalemia @hyperkalemia | ECG بگیرید؛ ضعف و بلوک نبض ممکن است تنها علامت باشد
+- ACS | 
+- Stroke | 
+- Hypoglycemia / DKA | 
+- Sepsis | 
+@redflags
+- نبض آهسته یا نامنظم
+- ضعف یک‌طرفه یا ناگهانی
+
+@cc palpitations
+name: Palpitations
+name_fa: تپش قلب
+@cantmiss
+- Ventricular tachycardia | 
+- Atrial fibrillation with rapid response | 
+- Pulmonary embolism | 
+- Hyperkalemia / electrolyte disorder @hyperkalemia | 
+- Thyrotoxicosis | 
+@redflags
+- سنکوپ، درد قفسه سینه یا افت فشار همراه
+
+@cc abdominal-pain
+name: Abdominal pain
+name_fa: درد شکم
+@cantmiss
+- Ruptured abdominal aortic aneurysm | 
+- Mesenteric ischemia | 
+- Perforated viscus | 
+- Ectopic pregnancy | 
+- Appendicitis | 
+@redflags
+- شکم سفت، افت فشار، سن بالا با درد شدید
+
+@cc headache
+name: Headache
+name_fa: سردرد
+@cantmiss
+- Subarachnoid hemorrhage | 
+- Meningitis | 
+- Intracranial hemorrhage | 
+- Temporal arteritis | 
+- Carbon monoxide poisoning | 
+@redflags
+- ناگهانی و بدترین سردرد عمر، تب با سفتی گردن، علائم کانونی عصبی
+
+@cc syncope
+name: Syncope
+name_fa: سنکوپ
+@cantmiss
+- Arrhythmia | 
+- Acute coronary syndrome @acs | 
+- Pulmonary embolism | 
+- Aortic stenosis | 
+- Hemorrhage (GI, ectopic, AAA) | 
+@redflags
+- سنکوپ هنگام فعالیت، سابقه خانوادگی مرگ ناگهانی، ECG غیرطبیعی
+
+@cc altered-mental-status
+name: Altered mental status
+name_fa: کاهش سطح هوشیاری
+@cantmiss
+- Hypoglycemia | قند خون را همان ابتدا چک کنید
+- Stroke / intracranial hemorrhage | 
+- Opioid or other poisoning | 
+- Sepsis / meningitis | 
+- Hyperkalemia / severe electrolyte disorder @hyperkalemia | 
+@redflags
+- GCS ≤ 8، تشنج، تب، ضربه سر
