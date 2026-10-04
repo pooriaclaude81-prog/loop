@@ -1,0 +1,644 @@
+@cond otitis-externa
+ch: 151
+name: Otitis externa (swimmer's ear) and otomycosis
+name_fa: اوتیت خارجی (گوش شناگر) و اوتومایکوز
+cc: ent
+keywords: otitis externa, swimmer's ear, otomycosis, ofloxacin otic, acetic acid hydrocortisone, ciprofloxacin hydrocortisone, ear wick, اوتیت خارجی, گوش شناگر
+status: draft
+
+@features
+- خارش، درد و حساسیت گوش خارجی؛ اریتم و ادم مجرای گوش، ترشح، کراست و کاهش شنوایی؛ درد با حرکت لاله و tragus؛ عوامل خطر: شنا، تروما، افزایش pH مجرا
+- شایع‌ترین ارگانیسم: Pseudomonas aeruginosa، Enterobacteriaceae و Proteus، S. aureus؛ otomycosis (قارچی): نواحی گرمسیر، نقص ایمنی یا پس از آنتی‌بیوتیک طولانی: Aspergillus و Candida
+
+@ddx
+- !Malignant otitis externa |
+- Otitis media with perforation / mastoiditis / furuncle |
+
+@redflags
+- تب، گسترش پری‌آوریکولار، دیابت/نقص ایمنی (malignant OE)
+
+@guide
+ضددرد، تمیز کردن مجرا، عوامل اسیدی‌کننده، ضدمیکروب موضعی و گاه استروئید موضعی. تمیز کردن با شستشوی مجرا با hydrogen peroxide رقیق 1:1 با سالین یا آب گرم یا ساکشن ملایم. معمول 7 روز: ofloxacin otic 5 قطره دو بار روزانه؛ acetic acid/hydrocortisone otic 5 قطره سه بار روزانه (با سوراخ TM ممنوع)؛ ciprofloxacin/hydrocortisone otic 3 قطره دو بار روزانه. ادم قابل‌توجه: wick یا گاز در مجرا. آنتی‌بیوتیک خوراکی خط اول نیست مگر تب یا گسترش پری‌آوریکولار.
+
+@variant otitis-externa-main
+name: Otitis externa
+level: III
+imp: Otitis externa
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مرد ۲۵ ساله پس از شنا با درد گوش، خارش و درد با کشیدن لاله؛ مجرا قرمز و ملتهب.
+
+@why
+قطره گوش و تمیز کردن مجرا.
+
+@S
+- Analgesics (acetaminophen / NSAID)
+
+@A
+- Ofloxacin otic 5 drops twice daily for 7 days; or ciprofloxacin/hydrocortisone otic 3 drops twice daily; or acetic acid/hydrocortisone otic 5 drops three times daily {ci: acetic acid / hydrocortisone not with perforated TM}
+- Oral antibiotics only if fever or periauricular spread
+
+@T
+- Clean external auditory canal (irrigation with 1:1 hydrogen peroxide:warm saline or gentle suction under visualization); wick or gauze if marked canal swelling; keep ear dry
+
+@Co
+- Follow-up with PCP / ENT if no improvement
+
+@cond malignant-otitis-externa
+ch: 151
+name: Malignant (necrotizing) otitis externa
+name_fa: اوتیت خارجی بدخیم (نکروزان)
+cc: ent, headache
+keywords: malignant otitis externa, necrotizing otitis externa, skull base osteomyelitis, Pseudomonas, diabetic, اوتیت خارجی بدخیم
+status: draft
+
+@features
+- عفونت بالقوه تهدیدکننده حیات مجرای خارجی با گسترش متغیر به قاعده جمجمه (استئومیلیت)؛ تاریخی > 90% P. aeruginosa، اکنون 15% MRSA؛ سالمند، دیابتی و نقص ایمنی؛ شک بالا لازم؛ CT برای گسترش و مرحله
+
+@ddx
+- !Otitis externa / skull base osteomyelitis / cranial neuropathy |
+
+@redflags
+- دیابت/سالمند با اوتالژی شدید ماندگار، گرانولاسیون مجرا، فلج عصب کرانیال
+
+@guide
+مشاوره اورژانس ENT: tobramycin 2 mg/kg IV و piperacillin 3.375 تا 4.5 g IV، یا ceftriaxone 1 g IV، یا ciprofloxacin 400 mg IV؛ بستری.
+
+@variant malignant-oe-main
+name: Malignant otitis externa
+level: I
+imp: Malignant otitis externa
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: none
+
+@scenario
+مرد ۷۰ ساله دیابتی با درد شدید گوش و ترشح 3 هفته‌ای و فلج صورت.
+
+@why
+CT و آنتی‌بیوتیک ضد Pseudomonas IV.
+
+@I
+- CT temporal bone / skull base (extent and stage of disease)
+
+@L
+- CBC, ESR / CRP, glucose, creatinine; culture of ear drainage
+
+@A
+- Tobramycin 2 mg/kg IV AND piperacillin 3.375–4.5 g IV, or ceftriaxone 1 g IV, or ciprofloxacin 400 mg IV {ci: aminoglycoside — renal function / ototoxicity}
+
+@Co
+- Emergent ENT consultation; admit; glycemic control (endocrinology)
+
+@cond otitis-media
+ch: 151
+name: Acute otitis media (adult)
+name_fa: اوتیت میانی حاد (بزرگسال)
+cc: ent, fever
+keywords: otitis media, acute otitis media, amoxicillin, azithromycin, cefuroxime, tympanic membrane, otalgia, اوتیت میانی
+status: draft
+
+@features
+- بروز و شیوع در سن پیش‌دبستانی اوج دارد؛ باکتری‌های حاد: S. pneumoniae، H. influenzae، M. catarrhalis؛ مزمن: S. aureus، P. aeruginosa، بی‌هوازی؛ اوتالژی با/بدون تب؛ کاهش شنوایی و اوتوره؛ TM قرمز یا زرد/سفید، کشیده یا برجسته و تحرک کم در otoscopy پنوماتیک؛ معاینه عصب صورت
+- عوارض: سوراخ TM، کاهش شنوایی هدایتی، لابیرنتیت سروز حاد، فلج صورت (ENT اورژانس)، ماستوئیدیت، ترومبوز سینوس لترال، کلستئاتوما و عوارض داخل‌جمجمه‌ای؛ سوراخ TM و کاهش شنوایی معمولاً خودمحدود
+
+@ddx
+- !Mastoiditis / lateral sinus thrombosis |
+- Otitis externa / referred pain (dental, TMJ) / bullous myringitis |
+
+@redflags
+- فلج صورت، ورم پشت گوش، سردرد/ علائم عصبی، تب بالا
+
+@guide
+بزرگسال: amoxicillin 250 تا 500 mg PO سه بار روزانه × 7 تا 10 روز (10 روز)؛ جایگزین: azithromycin 500 mg PO روز اول سپس 250 mg روزانه × 4 روز یا cefuroxime 500 mg PO دو بار × 10 روز؛ عدم پاسخ پس از 72 ساعت: cefuroxime یا amoxicillin/clavulanate؛ با effusion: تا 3 هفته؛ ضددرد برای هر درجه درد؛ پیگیری PCP. کودکان: روش wait-and-see ممکن (در بزرگسال بررسی نشده).
+
+@variant otitis-media-main
+name: Acute otitis media (adult)
+level: III
+imp: Acute otitis media
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مرد ۳۰ ساله پس از سرماخوردگی با اوتالژی و تب خفیف؛ TM برجسته و قرمز.
+
+@why
+آموکسی‌سیلین و ضددرد.
+
+@S
+- Analgesics for any degree of pain
+
+@A
+- Amoxicillin 250–500 mg PO three times daily for 7–10 days; alternatives: azithromycin 500 mg PO day 1 then 250 mg daily × 4 days; cefuroxime 500 mg PO twice daily × 10 days
+- No response after 72 h: cefuroxime or amoxicillin/clavulanate; extend coverage to 3 weeks for OM with effusion {ci: penicillin allergy; renal dose adjust}
+
+@T
+- Pneumatic otoscopy; assess facial nerve
+
+@Co
+- Follow-up with PCP for re-examination; emergent ENT if facial nerve paralysis or intracranial signs
+
+@cond mastoiditis-lateral-sinus-thrombosis
+ch: 151
+name: Acute mastoiditis and lateral sinus thrombosis
+name_fa: ماستوئیدیت حاد و ترومبوز سینوس لترال
+cc: ent, headache, fever
+keywords: acute mastoiditis, postauricular swelling, lateral sinus thrombosis, sigmoid sinus thrombosis, vancomycin, ceftriaxone, nafcillin, metronidazole, ماستوئیدیت
+status: draft
+
+@features
+- ماستوئیدیت حاد: گسترش عفونت گوش میانی به سلول‌های هوایی ماستوئید؛ اوتالژی، تب، اریتم/تورم/حساسیت پشت گوش؛ پیش‌آمدگی لاله با محو شدن چین پشت گوش؛ CT: گسترش درگیری استخوانی
+- ترومبوز سینوس لترال: گسترش عفونت/التهاب به سینوس لترال و سیگموئید؛ سردرد شایع؛ پاپیلادم، فلج عصب 6 و ورتیگو؛ CT؛ MRI یا آنژیوگرافی حساس‌تر
+
+@ddx
+- !Meningitis / brain abscess / cerebral venous thrombosis |
+- Otitis externa / postauricular lymphadenitis |
+
+@redflags
+- ورم پشت گوش، پاپیلادم، فلج عصب 6، سردرد شدید، تب
+
+@guide
+ماستوئیدیت: مشاوره اورژانس ENT، vancomycin 1 تا 2 g IV یا ceftriaxone 1 g IV و بستری؛ ممکن جراحی تخلیه. ترومبوز سینوس لترال: مشاوره اورژانس ENT، ترکیب nafcillin 2 g IV + ceftriaxone 1 g IV + metronidazole 500 mg IV و بستری.
+
+@variant mastoiditis-main
+name: Acute mastoiditis
+level: I
+imp: Acute mastoiditis
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: none
+
+@scenario
+کودک/بزرگسال با اوتیت میانی، تب، قرمزی و تورم پشت گوش و پیش‌آمدگی لاله.
+
+@why
+CT و آنتی‌بیوتیک IV؛ ENT.
+
+@I
+- CT temporal bone / head with contrast (extent of bony involvement; intracranial complications)
+
+@L
+- CBC, CRP, blood cultures, electrolytes, creatinine
+
+@A
+- Vancomycin 1–2 g IV or ceftriaxone 1 g IV {hi}
+
+@Co
+- Emergent ENT consultation (surgical drainage may be required); admit
+
+@variant lateral-sinus-thrombosis-main
+name: Lateral (sigmoid) sinus thrombosis
+level: I
+imp: Lateral sinus thrombosis (otogenic)
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: none
+
+@scenario
+بیمار با اوتیت مزمن، سردرد، پاپیلادم، دوبینی (فلج عصب 6) و ورتیگو.
+
+@why
+MRV/CT و آنتی‌بیوتیک سه‌گانه.
+
+@I
+- CT head with contrast; MRI / MR venography or angiography (more sensitive)
+
+@L
+- CBC, coagulation, blood cultures, electrolytes
+
+@A
+- Nafcillin 2 g IV plus ceftriaxone 1 g IV plus metronidazole 500 mg IV {hi}
+
+@Co
+- Emergent ENT consultation; admit; neurology / neurosurgery
+
+@cond ear-trauma-foreign-body-cerumen-perforation
+ch: 151
+name: Ear trauma (hematoma, burns), foreign body, cerumen impaction, bullous myringitis, TM perforation
+name_fa: تروما، جسم خارجی، سرومن، میرینژیت بولوس و سوراخ پرده تمپان
+cc: ent, wound-bite
+keywords: auricular hematoma, cauliflower ear, ear foreign body, cerumen impaction, bullous myringitis, tympanic membrane perforation, گوش گل کلمی, سرومن, سوراخ پرده
+status: draft
+
+@features
+- هماتوم لاله: از هر تروما؛ درمان نامناسب ← تحریک perichondrium و غضروف نامتقارن («cauliflower ear»)؛ برش و تخلیه فوری با پانسمان فشاری؛ آنتی‌بیوتیک برای P. aeruginosa و S. aureus در نقص ایمنی؛ آسیب حرارتی: گرما یا سرما: سطحی: تمیز کردن، پماد آنتی‌بیوتیک بدون سولفا و پانسمان سبک؛ frostbite: گرم کردن سریع با گاز آغشته سالین 38 تا 40°C؛ درجه 2 و 3: مشاوره فوری ENT یا مرکز سوختگی
+- جسم خارجی: معمولاً قابل مشاهده؛ شواهد عفونت یا سوراخ TM؛ حشره زنده با lidocaine 2% در مجرا بی‌حرکت شود؛ برداشتن با فورسپس، قلاب یا کاتتر ساکشن؛ شستشو برای اجسام کوچک (مواد آلی متورم می‌شوند)؛ ENT اگر سوراخ TM یا برداشتن ناامن
+- سرومن: کاهش شنوایی، فشار، سرگیجه، وزوز و اوتالژی؛ پنبه‌گوش‌پاک‌کن؛ scoop/loop؛ نرم کننده: hydrogen peroxide نیم‌قدرت، sodium bicarbonate، روغن معدنی یا carbamide peroxide؛ شستشو با مایع دمای بدن با IV کاتتر 18G یا سرنگ گوش به سمت دیواره مجرا نه TM؛ بدون علامت: ترخیص با نرم کننده و پیگیری
+- bullous myringitis: بول روی TM و مجرای عمقی، دردناک؛ ویروس، Mycoplasma، Chlamydia psittaci؛ تشخیص بالینی؛ ضددرد و کمپرس گرم؛ آنتی‌بیوتیک در OM همزمان
+- سوراخ TM: عفونت میانی، بارو‌تروما، تروما بلانت/نافذ/صوتی، نادراً صاعقه؛ درد حاد و کاهش شنوایی ± اوتوره خونی؛ ورتیگو و وزوز گذرا؛ بیشتر خودبه‌خود بهبود: بدون آنتی‌بیوتیک مگر مواد خارجی باقی‌مانده؛ ترخیص با ارجاع تخصصی سریع؛ آب وارد گوش نشود
+
+@ddx
+- !Basilar skull fracture / inner ear injury |
+- Otitis externa / otitis media |
+
+@redflags
+- هماتوم لاله، سوراخ TM با ورتیگو/فلج صورت، جسم خارجی غیرقابل برداشتن
+
+@guide
+مطابق ویژگی‌های بالا؛ ENT برای سوراخ TM همراه جسم خارجی یا جسم غیرقابل برداشتن.
+
+@variant auricular-hematoma-burn
+name: Auricular hematoma and thermal injury of the ear
+level: II
+imp: Auricular hematoma / ear thermal injury
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+کشتی‌گیر ۲۲ ساله با تورم قرمز-بنفش لاله پس از ضربه.
+
+@why
+تخلیه فوری و پانسمان فشاری برای پیشگیری از cauliflower ear.
+
+@T
+- Immediate incision and drainage of auricular hematoma with compressive dressing (prevent reaccumulation)
+- Superficial burn / cold injury: cleaning, topical non-sulfa-containing antibiotic ointment, light dressing; frostbite: rapid rewarming with saline-soaked gauze at 38–40°C with analgesia
+
+@A
+- Antibiotic coverage for P. aeruginosa and S. aureus in immunocompromised patients
+
+@Co
+- ENT follow-up; immediate ENT / burn center consultation for second- or third-degree burn
+
+@variant ear-foreign-body-cerumen
+name: Ear foreign body / cerumen impaction
+level: III
+imp: Ear foreign body / cerumen impaction
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+کودک ۵ ساله با مهره در گوش؛ یا مرد ۶۰ ساله با کاهش شنوایی و پر شدن گوش از سرومن.
+
+@why
+برداشتن؛ نرم کننده یا شستشو.
+
+@T
+- Foreign body: visualize (check TM perforation / infection); live insect — immobilize with 2% lidocaine solution in canal; remove with forceps, hooked probe or suction catheter; irrigation for small non-organic objects
+- Cerumen: scoop / loop; soften with half-strength hydrogen peroxide, sodium bicarbonate, mineral oil or carbamide peroxide otic; irrigate with body-temperature fluid via 18-gauge IV catheter / ear syringe directed at canal wall (not TM) {ci: no irrigation if TM perforation}
+
+@Co
+- ENT if foreign body with TM perforation or cannot be safely removed; asymptomatic cerumen: discharge with softening otic and follow-up
+
+@variant tm-perforation-bullous-myringitis
+name: TM perforation / bullous myringitis
+level: III
+imp: Tympanic membrane perforation / bullous myringitis
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مرد ۳۰ ساله پس از ضربه به گوش با درد حاد، کاهش شنوایی و ترشح خونی خفیف.
+
+@why
+اغلب خودبه‌خود بهبود؛ از ورود آب به گوش جلوگیری.
+
+@S
+- Analgesics; warm compresses (bullous myringitis)
+
+@A
+- No antibiotics for TM perforation unless persistent foreign material in canal / middle ear; antibiotics for concomitant OM (bullous myringitis)
+
+@T
+- Keep water out of ear canal
+
+@Co
+- Expedited specialty (ENT) referral for isolated blunt / noise trauma perforation; discharge
+
+@cond tinnitus-sudden-hearing-loss
+ch: 151
+name: Tinnitus and sudden hearing loss
+name_fa: وزوز گوش و کاهش ناگهانی شنوایی
+cc: ent, dizziness-vertigo
+keywords: tinnitus, sudden sensorineural hearing loss, ototoxic, acoustic neuroma, Cogan syndrome, وزوز, کم شنوایی ناگهانی
+status: draft
+
+@features
+- وزوز: ادراک صدا بدون محرک خارجی؛ ثابت یا ضربان‌دار؛ عینی (توسط معاینه‌کننده شنیده می‌شود) و ذهنی (شایع‌تر)؛ علل: عروقی، مکانیکی، عصبی، Ménière و غیره؛ داروها: aspirin، NSAID، aminoglycoside، دیورتیک لوپ، شیمی‌درمانی
+- کم‌شنوایی ناگهانی: ایدیوپاتیک (شایع‌ترین)، عفونی، عروقی/خونی، متابولیک، روماتولوژیک، هدایتی؛ Ménière، Cogan، نوروم آکوستیک، پارگی حلزون، داروهای اتوتوکسیک؛ پیش‌آگهی بد: کم‌شنوایی شدید در ارائه و ورتیگو
+
+@ddx
+- !Stroke (AICA) / acoustic neuroma |
+- Ménière disease / ototoxic medication / cochlear rupture |
+
+@redflags
+- کاهش شنوایی ناگهانی، ورتیگو همراه، علائم عصبی
+
+@guide
+در صورت امکان داروی مسبب قطع شود؛ تشخیص دقیق معمولاً ارجاع ENT می‌خواهد؛ اگر علت با شرح حال و معاینه مشخص نشد مشاوره ENT.
+
+@variant tinnitus-hearing-loss-main
+name: Tinnitus / sudden hearing loss
+level: III
+imp: Tinnitus / sudden hearing loss
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+زن ۵۰ ساله با کاهش ناگهانی شنوایی گوش راست و وزوز از صبح.
+
+@why
+ارجاع ENT؛ داروهای اتوتوکسیک را قطع کن.
+
+@L
+- (glucose, CBC, ESR as indicated; audiometry via ENT); review ototoxic medications
+
+@T
+- Stop potentially offending drugs (aspirin, NSAIDs, aminoglycosides, loop diuretics, chemotherapeutics) if condition allows
+
+@Co
+- Otolaryngology consultation (sudden hearing loss; poor prognostic: severe loss and vertigo)
+
+@cond epistaxis
+ch: 151
+name: Epistaxis (anterior and posterior)
+name_fa: خونریزی بینی (قدامی و خلفی)
+cc: bleeding-bruising, ent
+keywords: epistaxis, nosebleed, anterior epistaxis, posterior epistaxis, silver nitrate cautery, nasal packing, tranexamic acid, oxymetazoline, خونریزی بینی
+status: draft
+
+@features
+- قدامی یا خلفی؛ خلفی: منبع قدامی دیده نشود، خونریزی از هر دو سوراخ یا خون در حلق خلفی پس از کنترل قدامی
+- شرح حال سریع: مدت و شدت و عوامل (تروما، ضدانعقاد، عفونت، اختلال خونریزی)
+
+@ddx
+- !Posterior epistaxis / coagulopathy |
+- Nasal tumor / trauma / hereditary hemorrhagic telangiectasia |
+
+@redflags
+- ضدانعقاد/اختلال خونریزی، خونریزی خلفی، ناپایداری همودینامیک
+
+@guide
+1) شرح حال سریع. 2) فین کردن برای خارج کردن لخته؛ oxymetazoline 0.05% دو اسپری هر سوراخ یا phenylephrine 0.25% دو اسپری. 3) بازرسی خونریزی قدامی با نور خوب، اسپکولوم و کاتتر ساکشن. 4) فشار مستقیم خارجی روی غضروف دیستال استخوان‌های بینی به مدت 15 دقیقه با خم شدن به جلو؛ بازمعاینه؛ یک تکرار. 5) ادامه خونریزی: منبع قدامی دیده شود ← cautery شیمیایی؛ منبع نامشخص ← packing. 6) cautery با silver nitrate استاندارد ED: پنبه یا pledget آغشته به مخلوط 1:1 از lidocaine 4% و oxymetazoline 0.05% با فورسپس bayonet؛ پس از هموستاز نوک اپلیکاتور silver nitrate با فشار روی ناحیه تا نقره‌ای-سیاه؛ ناحیه کوچک اطراف؛ پرهیز از cautery بیش‌ازحد و دوطرفه septal (سوراخ septum). 7) packing قدامی: فوم/ژل ترومبوژنیک، دستگاه تجاری یا گاز؛ اسفنج‌های بینی dehydrated (طول‌های مختلف)؛ پماد آنتی‌بیوتیک و سریع در کف حفره؛ با خون منبسط می‌شود (یا آب استریل)؛ اسفنج بلند فقط خلفی (عارضه)؛ بالون تامپوناد قابل‌باد شدن (قدامی و/یا خلفی) راحت‌تر؛ فوم و ژل جذب‌شدنی بدون نیاز به برداشتن؛ پک غیرجذبی: برداشتن توسط ENT طی 2 تا 3 روز؛ tranexamic acid 5 mL (500 mg) روی مخاط با pledget پنبه 15 cm؛ شکست: ENT. 8) خلفی: اسفنج خلفی dehydrated یا بالون (بالون قدامی و خلفی مستقل)؛ همه پک خلفی نیاز به ENT برای احتمال بستری؛ برداشتن 2 تا 3 روز. 9) همه پک بینی: آنتی‌بیوتیک پروفیلاکسی amoxicillin/clavulanate 500/125 mg PO سه بار روزانه. عوارض: سنکوپ واگال، جابه‌جایی پک، خونریزی مجدد، سینوزیت، TSS. درمان فشار بالا معمولاً توصیه نمی‌شود مگر با ENT.
+
+@variant epistaxis-anterior
+name: Anterior epistaxis (pressure, cautery, packing)
+level: II
+imp: Epistaxis, anterior
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مرد ۴۵ ساله با خونریزی از سوراخ چپ بینی بدون ضدانعقاد؛ منبع قدامی دیده می‌شود.
+
+@why
+فشار، vasoconstrictor، cautery یا packing.
+
+@L
+- (CBC / PT-INR / aPTT if anticoagulant use, bleeding diathesis or significant blood loss)
+
+@S
+- Oxymetazoline 0.05% two sprays per nostril (or phenylephrine 0.25% two sprays) after blowing nose to clear clots {ci: avoid in uncontrolled hypertension}
+- Pledget soaked with 1:1 mixture of 4% lidocaine and 0.05% oxymetazoline for anesthesia / hemostasis
+
+@T
+- Direct external pressure on cartilage just distal to nasal bones for 15 min leaning forward; reexamine; repeat once
+- Silver nitrate chemical cautery (roll applicator on bleeding site until silvery-black; avoid bilateral septal cautery); if no source: anterior packing (thrombogenic foam / gel, commercial device, dehydrated sponge or gauze, or inflatable balloon); topical tranexamic acid 500 mg via cotton pledget as alternative
+- Nasal pack: remove nonabsorbable pack in 2–3 days (ENT)
+
+@A
+- Amoxicillin/clavulanate 500/125 mg PO three times daily for all patients with nasal packs {ci: penicillin allergy}
+
+@Co
+- ENT if packing or cautery fails; follow-up for pack removal
+
+@variant epistaxis-posterior
+name: Posterior epistaxis (posterior pack / balloon)
+level: I
+imp: Epistaxis, posterior
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: none
+
+@scenario
+مرد ۷۰ ساله مصرف‌کننده warfarin با خونریزی شدید از هر دو سوراخ و خون در حلق؛ فشار 100/60.
+
+@why
+پک خلفی/بالون و تصحیح انعقاد؛ ENT و بستری.
+
+@L
+- CBC, PT/INR, aPTT, type and screen, electrolytes, creatinine
+
+@S
+- Oxymetazoline 0.05% / phenylephrine 0.25% sprays; IV crystalloid / blood products as needed for hemodynamic compromise {ci: caution in heart failure}
+- Correct coagulopathy as indicated (e.g., vitamin K / PCC if warfarin-related major bleed) {note: BP treatment generally not advised except with ENT}
+
+@T
+- Posterior dehydrated sponge pack or inflatable balloon tamponade device (independently inflatable anterior and posterior balloons); pack removal 2–3 days
+- Continuous monitoring; watch for vasovagal syncope, pack dislodgement, toxic shock syndrome, sinusitis
+
+@A
+- Amoxicillin/clavulanate 500/125 mg PO three times daily (prophylaxis with nasal pack)
+
+@Co
+- ENT consultation for all posterior packs (possible hospital admission); hematology if coagulopathy
+
+@cond nasal-fracture-septal-hematoma-fb
+ch: 151
+name: Nasal fracture, septal hematoma and nasal foreign body
+name_fa: شکستگی بینی، هماتوم سپتوم و جسم خارجی بینی
+cc: head-injury, ent
+keywords: nasal fracture, septal hematoma, cribriform plate, CSF rhinorrhea, nasal foreign body, شکستگی بینی, هماتوم سپتوم
+status: draft
+
+@features
+- شکستگی بینی: تشخیص بالینی: مکانیسم، تورم، حساسیت، crepitus، بدشکلی و اکیموز دور چشم؛ رادیوگرافی معمولاً لازم نیست؛ یخ متناوب، ضددرد و ضداحتقان؛ پیگیری ENT 6 تا 10 روز؛ شکستگی cribriform plate ← CSF rhinorrhea (ممکن هفته‌ها تأخیر) ← CT و نوروسرجری فوری
+- هماتوم سپتوم: هر تروما به بینی؛ لیفت perichondrium از غضروف و قطع خون‌رسانی؛ باید تخلیه شود تا نکروز ایسکمیک سپتوم نشود؛ اسپکولوم و نور خوب و لمس سپتوم
+- جسم خارجی بینی: انسداد یک‌طرفه، ترشح بدبو یا اپیستاکسی یک‌طرفه مداوم؛ vasoconstriction با oxymetazoline 0.05% و احتمالاً lidocaine 4% نبولایز؛ برداشتن با دید مستقیم: فورسپس، ساکشن، قلاب یا کاتتر بالن‌دار؛ ENT اگر ناموفق
+
+@ddx
+- !Septal hematoma / cribriform plate fracture (CSF leak) |
+- Facial / orbital fracture |
+
+@redflags
+- هماتوم سپتوم، CSF rhinorrhea، علائم عصبی
+
+@guide
+هماتوم سپتوم تخلیه: 1) وضعیت sniffing و اسپکولوم؛ ساکشن، شستشو و پک آماده. 2) pledget آغشته به lidocaine 4%؛ تزریق lidocaine بدون اپی‌نفرین در صورت نیاز. 3) برش افقی مخاط (غضروف را نبُر). 4) خروج هماتوم. 5) پک قدامی دوطرفه آغشته به پماد آنتی‌بیوتیک. 6) پروفیلاکسی amoxicillin/clavulanate 500/125 mg PO سه بار روزانه اگر پک > 24 ساعت. 7) پیگیری ENT.
+
+@variant nasal-fracture-main
+name: Nasal fracture
+level: III
+imp: Nasal fracture
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مرد ۲۲ ساله پس از مشت به بینی با بدشکلی، تورم و اکیموز؛ بدون ترشح شفاف.
+
+@why
+تشخیص بالینی؛ هماتوم سپتوم و CSF leak را رد کن.
+
+@I
+- Radiographs usually unnecessary; CT if cribriform plate / facial fracture / CSF rhinorrhea suspected
+
+@S
+- Intermittent ice; analgesics (acetaminophen); over-the-counter decongestants
+
+@T
+- Examine septum with speculum and good light for septal hematoma; observe for CSF rhinorrhea (may be delayed weeks)
+
+@Co
+- ENT follow-up in 6–10 days for re-examination and possible reduction; immediate neurosurgery consult if cribriform plate injury suspected
+
+@variant nasal-septal-hematoma
+name: Nasal septal hematoma (drainage)
+level: I
+imp: Nasal septal hematoma
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+کودک ۱۲ ساله پس از ضربه به بینی با انسداد دوطرفه و برجستگی نرم قرمز-آبی سپتوم.
+
+@why
+تخلیه فوری برای پیشگیری از نکروز سپتوم.
+
+@T
+- Sniffing position; speculum; 4% lidocaine pledgets (or lidocaine without epinephrine infiltration); horizontal mucosal incision avoiding cartilage; evacuate hematoma; bilateral anterior packing coated with antibiotic ointment
+
+@A
+- Amoxicillin/clavulanate 500/125 mg PO three times daily if packing > 24 h
+
+@Co
+- ENT follow-up
+
+@variant nasal-foreign-body
+name: Nasal foreign body
+level: III
+imp: Nasal foreign body
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+کودک ۳ ساله با ترشح بدبو یک‌طرفه بینی.
+
+@why
+vasoconstriction و برداشتن با دید.
+
+@S
+- Oxymetazoline 0.05% topical vasoconstriction ± 4% nebulized lidocaine
+
+@T
+- Remove under direct visualization with forceps, suction catheter, hooked probe or balloon-tipped catheter
+
+@Co
+- ENT if removal unsuccessful
+
+@cond rhinosinusitis
+ch: 151
+name: Sinusitis and rhinosinusitis
+name_fa: سینوزیت و رینوسینوزیت
+cc: ent, headache, fever
+keywords: sinusitis, rhinosinusitis, nasal irrigation, oxymetazoline, amoxicillin, levofloxacin, sinus CT, complications, سینوزیت
+status: draft
+
+@features
+- التهاب مخاط سینوس‌های پارانازال (ماگزیلاری، فرونتال، اتموئید)؛ رینوسینوزیت: درگیری حفره بینی و رینیت؛ حاد، تحت‌حاد و مزمن
+- علائم: گرفتگی بینی، درد/فشار صورت، hyposmia، ترشح بینی، درد دندان، تب و فشار سینوس با حرکت سر/بدن؛ درد و حساسیت با پرکاشن، تورم مخاط، تورم و قرمزی صورت
+- عوارض: منژیت، ترومبوز سینوس کاورنو، آبسه و empyema داخل‌جمجمه‌ای، سلولیت اربیت، استئومیلیت؛ بیمار سمی یا علائم عصبی کانونی
+- تشخیص بالینی در رینوسینوزیت حاد بدون عارضه؛ تصویربرداری لازم نیست؛ CT در بیمار سمی و گسترش داخل‌جمجمه‌ای؛ مزمن یا راجعه: کشت و CT سینوس ترجیحاً سرپایی
+
+@ddx
+- !Orbital cellulitis / meningitis / cavernous sinus thrombosis |
+- Dental infection / migraine / allergic rhinitis |
+
+@redflags
+- تورم اطراف چشم، تغییر بینایی، سردرد شدید، سفتی گردن، علائم عصبی
+
+@guide
+حمایتی در حاد بدون عارضه: شستشوی بینی با/بدون ضداحتقان: oxymetazoline 0.05% دو اسپری هر سوراخ دو بار روزانه یا phenylephrine 0.25% دو اسپری چهار بار روزانه؛ ضداحتقان ≤ 3 روز. آنتی‌بیوتیک خوراکی برای ترشح چرکی و علائم شدید بیش از 10 روز: رژیم 10 روزه: amoxicillin 500 mg PO سه بار روزانه (خط اول)؛ TMP-SMX 160/800 mg دو بار یا erythromycin 250 تا 500 mg دو بار (آلرژی پنی‌سیلین)؛ levofloxacin 500 mg روزانه (آنتی‌بیوتیک در 6 هفته قبل).
+
+@variant sinusitis-uncomplicated
+name: Acute uncomplicated rhinosinusitis
+level: III
+imp: Acute rhinosinusitis, uncomplicated
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+زن ۳۰ ساله با گرفتگی بینی، فشار صورت و ترشح چرکی 4 روز.
+
+@why
+شستشو و ضداحتقان؛ آنتی‌بیوتیک فقط بعد از 10 روز یا شدید.
+
+@S
+- Nasal saline irrigation; oxymetazoline 0.05% two sprays per nostril twice daily or phenylephrine 0.25% two sprays per nostril four times daily (≤ 3 days) {ci: uncontrolled hypertension; rebound congestion}
+- Analgesics / antipyretics
+
+@A
+- Only if purulent secretions and severe symptoms > 10 days: amoxicillin 500 mg PO three times daily (10 days); penicillin allergic: TMP-SMX 160/800 mg twice daily or erythromycin 250–500 mg twice daily; antibiotic in prior 6 weeks: levofloxacin 500 mg daily {ci: fluoroquinolone — QT / tendinopathy}
+
+@Co
+- PCP / ENT follow-up if recurrent or chronic (culture and sinus CT outpatient)
+
+@variant sinusitis-complicated
+name: Sinusitis with suspected complications (orbital / intracranial)
+level: I
+imp: Sinusitis with orbital / intracranial complication
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: none
+
+@scenario
+مرد ۲۰ ساله با سینوزیت، تب بالا، تورم اطراف چشم، دوبینی و سردرد شدید.
+
+@why
+CT/MRI و آنتی‌بیوتیک IV؛ ENT/چشم/نوروسرجری.
+
+@I
+- CT sinuses / orbit / head with contrast (toxic patients, suspected intracranial extension); MRI if cavernous sinus thrombosis suspected
+
+@L
+- CBC, CRP, blood cultures, electrolytes, creatinine; lumbar puncture only after imaging if meningitis suspected
+
+@A
+- IV broad-spectrum antibiotics covering sinus pathogens / MRSA as indicated (e.g., ceftriaxone + vancomycin ± metronidazole; adapt per local protocol)
+
+@Co
+- Emergent ENT / ophthalmology / neurosurgery as indicated; admit

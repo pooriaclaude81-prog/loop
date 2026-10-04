@@ -1,0 +1,730 @@
+@cond corneal-abrasion-foreign-body
+ch: 149
+name: Corneal abrasion, ultraviolet keratitis and corneal foreign body
+name_fa: سایش قرنیه، کراتیت UV و جسم خارجی قرنیه
+cc: eye, wound-bite
+keywords: corneal abrasion, welder keratitis, ultraviolet keratitis, corneal foreign body, rust ring, fluorescein, proparacaine, ketorolac ophthalmic, سایش قرنیه, جسم خارجی قرنیه
+status: draft
+
+@features
+- سایش تروماتیک: نقص اپیتلیال سطحی یا عمیق: اشک‌ریزش، فوتوفوبیا، blepharospasm و درد؛ با فلورسئین و نور cobalt blue سبز می‌درخشد؛ جستجوی جسم خارجی (از جمله ورتکس پلک بالا) به‌ویژه در سایش‌های متعدد و خطی
+- کراتیت UV («arc welder's»): جوشکاری، سولاریوم، آفتاب طولانی (انعکاس برف/یخ ارتفاع)؛ سوختگی منتشر قرنیه با سایش نقطه‌ای و ادم؛ درد شدید و فوتوفوبیا 6 تا 12 ساعت بعد؛ بهبود 2 تا 3 روز
+- جسم خارجی قرنیه: سطحی با slit lamp و سوزن 25G، eye spud یا burr؛ rust ring فلزی؛ هایفما (gross یا micro) = شک پارگی کره (نافذ)
+
+@ddx
+- !Penetrating trauma / ruptured globe (Seidel test) |
+- !Corneal ulcer / HSV keratitis |
+- Iritis / retained foreign body under lid |
+
+@redflags
+- Seidel مثبت، تاری دید، IOP، hypopyon، لنزپوش با زخم، جسم خارجی عمیق یا مرکزی
+
+@guide
+بی‌حسی موضعی معاینه: proparacaine 0.5% ترجیحی بر tetracaine (درد کمتر، بی‌حسی مشابه)، 1 تا 2 قطره (شروع 20 ثانیه، مدت 15 دقیقه). سایش ساده: ketorolac قطره چشمی یک قطره 4 بار روزانه برای درد؛ درد شدید و سایش بزرگ: اوپیوئید و/یا cycloplegic (cyclopentolate 1% یک قطره 3 بار روزانه). آنتی‌بیوتیک موضعی: بیشتر erythromycin ointment؛ لنزپوش: ضد pseudomonas (ciprofloxacin، ofloxacin، tobramycin). patching لازم نیست و بهبود را سریع نمی‌کند و در ضایعات مستعد عفونت (لنز، زخم) مضر؛ تجویز بی‌حس‌کننده موضعی برای بیمار مطلقاً ممنوع (آسیب فاجعه‌بار قرنیه). معاینه مجدد 24 تا 48 ساعت توسط چشم‌پزشک (بزرگ یا محور بینایی سریع‌تر). جسم خارجی: با بی‌حسی proparacaine 0.5% (و چشم سالم برای کاهش پلک‌زدن) در بیمار هوشیار همکار؛ عمیق یا محور بینایی: چشم‌پزشک؛ rust ring را فوراً با burr یا 24 تا 48 ساعت بعد؛ پس از برداشتن مثل سایش (cycloplegic، آنتی‌بیوتیک)؛ ارجاع ≤ 24 ساعت.
+
+@variant corneal-abrasion-simple
+name: Simple corneal abrasion / corneal foreign body (non-contact-lens)
+level: III
+imp: Corneal abrasion / corneal foreign body
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مرد ۳۰ ساله با درد شدید و اشک‌ریزش چشم پس از خراش با شاخه درخت؛ فلورسئین: سایش 3 mm.
+
+@why
+ketorolac قطره و پماد آنتی‌بیوتیک؛ بدون patch.
+
+@L
+- (none) — visual acuity before treatment; fluorescein exam with cobalt blue light; lid eversion for foreign body
+
+@S
+- Proparacaine 0.5% 1–2 drops for examination / foreign body removal only {ci: NEVER prescribe topical anesthetics for home use}
+- Ketorolac ophthalmic solution one drop four times daily for pain {ci: avoid in NSAID allergy}
+- Severe pain / large abrasion: opioid analgesia and / or cyclopentolate 1% one drop three times daily
+
+@A
+- Erythromycin ophthalmic ointment half inch to lower lid two to four times daily
+
+@T
+- Corneal foreign body removal under slit lamp with 25-gauge needle, eye spud or burr (proparacaine; sober cooperative patient); rust ring removal now or in 24–48 h; deep / central visual axis foreign body → ophthalmologist
+- No eye patching needed (does not hasten healing)
+
+@Co
+- Ophthalmology re-examination in 24–48 h (sooner if large or involving visual axis; all foreign bodies referral within 24 h); update tetanus if needed
+
+@variant corneal-abrasion-contact-lens-uv
+name: Abrasion in contact lens wearer / ultraviolet (arc-welder) keratitis
+level: II
+imp: Corneal abrasion, contact lens wearer / ultraviolet keratitis
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+جوشکار ۳۵ ساله بدون محافظ با درد شدید و فوتوفوبیا دو چشم 8 ساعت پس از جوشکاری؛ یا لنزپوش با سایش قرنیه.
+
+@why
+آنتی‌بیوتیک ضد pseudomonas در لنزپوش؛ ضددرد قوی در UV.
+
+@S
+- Ketorolac ophthalmic solution one drop four times daily; cyclopentolate 1% one drop three times daily; opioid analgesia (UV keratitis often needs more aggressive pain control)
+
+@A
+- Contact lens wearer: ciprofloxacin, ofloxacin, or tobramycin ophthalmic (antipseudomonal) {ci: no erythromycin only; no patching}
+
+@T
+- Discard contact lens; avoid further UV exposure; healing typically 2–3 days
+
+@Co
+- Ophthalmology follow-up 24–48 h
+
+@cond eyelid-laceration-blunt-eye-trauma
+ch: 149
+name: Eyelid laceration and blunt eye trauma (including retrobulbar hemorrhage and traumatic iritis)
+name_fa: لاسراسیون پلک و تروما بلانت چشم
+cc: eye, head-injury, wound-bite
+keywords: lid laceration, canalicular injury, blunt eye trauma, retrobulbar hemorrhage, orbital compartment syndrome, lateral canthotomy, traumatic iritis, lens dislocation, لاسراسیون پلک, ضربه چشم, کانتوتومی
+status: draft
+
+@features
+- لاسراسیون پلک: کوچک سطحی توسط EP؛ نیاز به جراح اکولوپلاستیک: درگیری لبه پلک، < 6 تا 8 mm از کانتوس داخلی یا مجرای/کیسه اشکی، سطح داخلی پلک، پتوز، tarsal plate یا levator؛ لبه پلک > 1 mm نیاز به بستن توسط چشم‌پزشک و < 1 mm می‌تواند خودبه‌خود بهبود یابد؛ آسیب مجرای نازولاکریمال (فلورسئین در لاسراسیون مجاور تأیید می‌کند)؛ لاسراسیون ضخامت‌کامل یا levator یا مجرای اشکی در اتاق عمل؛ همه ضخامت‌کامل: رد لاسراسیون قرنیه و پارگی کره
+- بلانت: اسپکولوم چشم (یا دو گیره کاغذ خم‌شده) بدون فشار بر کره؛ یکپارچگی کره و حدت بینایی؛ نشانه‌های قرمز: عمق اتاق قدامی غیرطبیعی، مردمک نامنظم یا نابینایی = پارگی کره تا اثبات خلاف؛ شیلد چشم فوراً؛ بدون نشانه سخت: معاینه کامل شامل slit lamp (blowout، سایش، لاسراسیون، جسم خارجی، هایفما، آسیب مردمک، iritis، دررفتگی عدسی)
+- خونریزی پشت سپتوم (به‌ویژه ضدانعقاد): درد، پروپتوز، اختلال حرکات خارج‌چشمی، کاهش بینایی، APD و IOP بالا؛ سندرم کمپارتمان اربیت: ممکن lateral canthotomy؛ CT اربیت (حساسیت تا 70% برای آسیب پنهان کره)؛ iritis تروماتیک بدون آسیب قرنیه: prednisolone acetate 1% هر 6 ساعت + cyclopentolate 1% هر 8 ساعت
+
+@ddx
+- !Ruptured globe / orbital compartment syndrome |
+- Hyphema / blowout fracture / lens dislocation / retinal detachment |
+
+@redflags
+- عمق اتاق قدامی غیرطبیعی، مردمک اشک‌قطره‌ای، نابینایی، پروپتوز، APD، IOP بالا
+
+@guide
+اگر چشم‌پزشک بلافاصله در دسترس نیست برای لاسراسیون پلک پرخطر (و ضایعات تهدیدکننده بینایی رد شده): cephalexin 500 mg PO چهار بار روزانه، erythromycin 2% ointment چهار بار روزانه، کمپرس سرد ملایم و ارجاع ظرف 24 ساعت. بلانت: مشاوره با چشم‌پزشک و پیگیری 48 ساعت حتی بدون آسیب اولیه مهم.
+
+@variant eyelid-laceration
+name: Eyelid laceration
+level: II
+imp: Eyelid laceration
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مرد ۲۸ ساله با لاسراسیون پلک بالا شامل لبه پلک پس از ضربه.
+
+@why
+تعیین نیاز به اکولوپلاستیک و رد پارگی کره.
+
+@I
+- CT orbit if full-thickness laceration / suspected globe injury or foreign body
+
+@L
+- Fluorescein instilled into tear layer to check lacrimal / canalicular injury (medial laceration)
+
+@A
+- If ophthalmologist not immediately available and no sight-threatening lesion: cephalexin 500 mg PO four times daily
+
+@T
+- Superficial lacerations: EP repair; lid margin > 1 mm, within 6–8 mm of medial canthus, lacrimal duct / sac, inner lid surface, ptosis, tarsal plate or levator → oculoplastic / ophthalmology repair (operating room for through-and-through, levator, nasolacrimal)
+- Erythromycin 2% ointment four times daily; gentle cold compresses; tetanus update
+
+@Co
+- Ophthalmology / oculoplastic referral (within 24 h if not immediate)
+
+@variant blunt-eye-trauma
+name: Blunt eye trauma (globe rupture to exclude; retrobulbar hemorrhage; traumatic iritis)
+level: I
+imp: Blunt eye trauma
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: none
+cxr: none
+
+@scenario
+مرد ۳۰ ساله با ضربه مشت به چشم، درد، تاری دید و ادم پلک؛ بدون پروپتوز.
+
+@why
+پارگی کره را رد، شیلد و CT اربیت؛ چشم‌پزشک.
+
+@I
+- CT orbit (ED test of choice; sensitivity as low as 70% for occult globe injury); ocular ultrasonography with minimal pressure only if globe rupture excluded
+
+@L
+- (visual acuity, IOP if globe intact, slit lamp)
+
+@S
+- Antiemetic (ondansetron 4 mg IV) to avoid vomiting-induced IOP rise if globe injury suspected; analgesia
+
+@T
+- Eye shield (no pressure on globe); NPO and head up if ruptured globe suspected; avoid manipulation
+- Traumatic iritis without corneal injury: prednisolone acetate 1% one drop every 6 h and cyclopentolate 1% one drop every 8 h
+- Retrobulbar hemorrhage / orbital compartment syndrome (pain, proptosis, impaired EOM, decreased vision, APD, elevated IOP): lateral canthotomy
+
+@Co
+- Ophthalmology (discuss all cases; follow-up within 48 h even if no significant injuries); update tetanus
+
+@cond hyphema
+ch: 149
+name: Hyphema
+name_fa: هایفما
+cc: eye
+keywords: hyphema, blood anterior chamber, rebleed, sickle cell, head elevation, eye shield, هایفما
+status: draft
+
+@features
+- خون در اتاق قدامی؛ اغلب علامت تروما مهم؛ خودبه‌خود در سلول داسی و کوآگولوپاتی؛ افزایش تهدیدکننده بینایی IOP؛ 30% خطر خونریزی مجدد روز 3 تا 5 و نیاز احتمالی به جراحی
+
+@ddx
+- !Ruptured globe |
+- Iritis / glaucoma |
+
+@redflags
+- IOP بالا، تروما نافذ، سلول داسی
+
+@guide
+مشاوره اورژانس چشم‌پزشکی در همه. بیمار کاملاً نشسته یا سر بالا 30 تا 45 درجه تا خون پایین بنشیند (بینایی سریع‌تر و ارزیابی اندازه و قطب خلفی)؛ شیلد محافظ جز حین معاینه و دارو؛ پس از رد پارگی کره: ارزیابی سایر آسیب‌های چشمی. تصمیم ترخیص با چشم‌پزشک بر بالین بدون توجه به اندازه.
+
+@variant hyphema-main
+name: Hyphema
+level: I
+imp: Hyphema
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: none
+cxr: none
+
+@scenario
+مرد ۲۵ ساله پس از ضربه توپ به چشم با تاری دید و خون در اتاق قدامی.
+
+@why
+سر بالا، شیلد و تصمیم چشم‌پزشک.
+
+@I
+- CT orbit if rupture suspected (exclude ruptured globe first)
+
+@L
+- IOP (after ruptured globe excluded); sickle cell screen in at-risk patients; coagulation if coagulopathy
+
+@S
+- Antiemetic and analgesia (avoid NSAIDs / aspirin)
+
+@T
+- Head of bed 30–45° (or fully upright); protective eye shield (except during examination and medication)
+
+@Co
+- Emergent ophthalmology evaluation; disposition by ophthalmologist at bedside (30% rebleed risk at 3–5 days)
+
+@cond orbital-blowout-fracture-ruptured-globe
+ch: 149
+name: Orbital blowout fracture and penetrating trauma / ruptured globe
+name_fa: شکستگی blowout اربیت و تروما نافذ / پارگی کره چشم
+cc: eye, head-injury, trauma-major
+keywords: orbital blowout fracture, inferior rectus entrapment, ruptured globe, open globe, Seidel test, intraocular foreign body, teardrop pupil, شکستگی کف اربیت, پارگی کره
+status: draft
+
+@features
+- blowout: دیواره تحتانی و داخلی؛ گیرافتادن راست تحتانی ← محدودیت حرکت و دوبینی هنگام نگاه به بالا؛ پارستزی توزیع عصب infraorbital، آمفیزم زیرجلدی (با عطسه/فین کردن)؛ 33% آسیب چشمی همراه
+- پارگی/نفوذ کره: فاجعه؛ شواهد: subconjunctival hemorrhage شدید، اتاق قدامی کم‌عمق یا عمیق نسبت به چشم دیگر، هایفما، مردمک اشک‌قطره‌ای، محدودیت حرکات، خروج محتوای کره، کاهش قابل‌توجه بینایی؛ جسم خارجی کوچک ممکن معاینه تقریباً نرمال (کوبیدن/سنگ‌زنی بدون محافظ)؛ Seidel test (جریان سبز روشن فلورسئین) پاتوگنومونیک ولی ممکن در زخم بسته‌شده منفی؛ وجود سایش آن را رد نمی‌کند
+
+@ddx
+- !Retrobulbar hemorrhage / orbital compartment syndrome |
+- Hyphema / lens dislocation / retinal detachment |
+
+@redflags
+- مردمک اشک‌قطره‌ای، Seidel مثبت، نابینایی، خروج محتوای کره
+
+@guide
+blowout: CT اربیت با برش 1.5 mm؛ آنتی‌بیوتیک پروفیلاکسی cephalexin 250 تا 500 mg PO چهار بار روزانه × 10 روز (درگیری سینوس)؛ ارجاع همه blowout منفرد به چشم‌پزشک برای معاینه با گشادکردن مردمک. ruptured globe: هیچ دستکاری/معاینه بیشتر ممنوع؛ شیلد محافظ فوراً، بیمار نشسته و NPO؛ آنتی‌بیوتیک وسیع‌الطیف + ضداستفراغ برای جلوگیری از افزایش IOP با استفراغ؛ کزاز؛ CT اربیت در موارد نامشخص (حساسیت پایین برای آسیب پنهان)؛ تماس فوری چشم‌پزشک.
+
+@variant orbital-blowout
+name: Orbital blowout fracture
+level: II
+imp: Orbital blowout fracture
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مرد ۲۵ ساله پس از مشت به چشم با دوبینی هنگام نگاه به بالا، بی‌حسی گونه و آمفیزم زیرجلدی.
+
+@why
+CT اربیت و آنتی‌بیوتیک؛ چشم‌پزشک.
+
+@I
+- CT orbit with 1.5-mm cuts (additional studies as indicated)
+
+@A
+- Cephalexin 250–500 mg PO four times daily for 10 days (prophylaxis, sinus involvement)
+
+@T
+- Advise no nose blowing; exclude associated ocular injury (33%): slit lamp, IOP, fundus; analgesia
+
+@Co
+- Ophthalmology referral for formal dilated exam (all isolated blowout fractures, with or without entrapment); ENT / plastic surgery for entrapment
+
+@variant ruptured-globe
+name: Penetrating ocular trauma / suspected ruptured globe
+level: I
+imp: Penetrating eye trauma / ruptured globe
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: none
+cxr: none
+
+@scenario
+کارگر ۳۵ ساله حین چکش‌کاری بدون عینک با درد، کاهش بینایی، مردمک اشک‌قطره‌ای و Seidel مثبت.
+
+@why
+شیلد، NPO، آنتی‌بیوتیک، ضداستفراغ و چشم‌پزشک فوری.
+
+@I
+- CT orbit (foreign body / ruptured globe; low sensitivity for occult injury — do not rely on it to exclude)
+
+@S
+- Broad-spectrum antibiotics (IV) {hi}
+- Antiemetic (ondansetron 4 mg IV) to prevent increased IOP from vomiting; analgesia
+
+@T
+- Protective eye shield immediately; upright position; NPO; NO further manipulation or examination, no pressure on globe; update tetanus
+
+@Co
+- Emergent ophthalmology call immediately (surgical exploration / repair)
+
+@cond chemical-eye-injury
+ch: 149
+name: Chemical ocular injury (acid and alkali burns)
+name_fa: سوختگی شیمیایی چشم (اسید و قلیا)
+cc: eye, burn-electrical
+keywords: chemical eye burn, alkali burn, acid burn, ocular irrigation, Morgan lens, pH, cyclopentolate, سوختگی شیمیایی چشم
+status: draft
+
+@features
+- اسید و قلیا مشابه مدیریت می‌شوند؛ شستشو فوری در صحنه و ادامه در ED بلافاصله پس از ورود (حتی قبل از حدت بینایی یا ثبت)
+
+@ddx
+- !Ocular hydrofluoric acid / lye / cement burns |
+- Corneal abrasion / ulcer |
+
+@redflags
+- chemosis شدید، blanching ملتحمه، نقص اپیتلیال، ادم یا کدورت قرنیه، IOP بالا
+
+@guide
+شستشو با NS استریل یا Ringer lactate تا pH نزدیک 7.4؛ بی‌حسی موضعی و Morgan lens؛ پس از 2 L اول، pH با litmus یا نوار ادرار در cul-de-sac تحتانی 5 تا 10 دقیقه پس از توقف شستشو؛ ادامه تا pH نرمال 30 دقیقه پس از توقف؛ حجم ممکن > 8 تا 10 L؛ pH مداوم غیرطبیعی: برداشتن ذرات بلوری در fornices با اپلیکاتور مرطوب؛ پس از pH نرمال: ورتکس پلک و برداشتن ذرات/ملتحمه نکروتیک؛ کنترل مجدد pH هر 10 دقیقه × 30 دقیقه؛ slit lamp کامل؛ IOP. cyclopentolate 1% یک قطره 3 بار روزانه برای اسپاسم مژگانی؛ erythromycin 0.5% ointment هر 1 تا 2 ساعت در بیداری؛ اغلب اوپیوئید؛ کزاز. علائم شدید: چشم‌پزشک در ED؛ HF، لای (lye) یا سیمان: فوراً چشم‌پزشک؛ سایر: تلفن به چشم‌پزشک و پیگیری 24 ساعت. چسب سیانوآکریلات (Super Glue): erythromycin 0.5% ointment فراوان برای برداشتن دستی و ترخیص با ointment 5 بار روزانه؛ برداشتن کامل توسط چشم‌پزشک 24 ساعت بعد.
+
+@variant chemical-eye-main
+name: Chemical eye burn (and cyanoacrylate exposure)
+level: I
+imp: Chemical ocular injury
+cond: Emergent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مرد ۲۵ ساله پس از پاشیده شدن قلیای تمیزکننده به چشم با درد شدید و بلفاروسپاسم.
+
+@why
+شستشوی فوری قبل از هر چیز تا pH نرمال.
+
+@L
+- pH of lower cul-de-sac (litmus paper / urine dipstick) 5–10 min after pausing irrigation; recheck every 10 min × 30 min; IOP
+
+@S
+- Sterile normal saline or Ringer lactate irrigation immediately (before acuity / registration) with topical anesthetic and Morgan lens until pH ~7.4 and stable 30 min (often > 8–10 L; first 2 L then pH check) {hi}
+- Cyclopentolate 1% one drop three times daily; erythromycin 0.5% ophthalmic ointment every 1–2 h while awake; opioid analgesia
+
+@T
+- Remove particles from fornices with moistened cotton-tipped applicator; evert lids; slit lamp; update tetanus
+- Cyanoacrylate glue: heavy erythromycin 0.5% ointment for manual removal; discharge with ointment five times a day
+
+@Co
+- Ophthalmology immediately for severe injury (chemosis, blanching, epithelial defect, corneal edema / opacification, elevated IOP) or HF / lye / concrete; otherwise telephone consult and follow-up within 24 h
+
+@cond acute-angle-closure-glaucoma
+ch: 149
+name: Acute angle-closure glaucoma
+name_fa: گلوکوم حاد زاویه بسته
+cc: eye, headache
+keywords: acute angle closure glaucoma, intraocular pressure, timolol, apraclonidine, acetazolamide, mannitol, pilocarpine, glaucoma, گلوکوم حاد
+status: draft
+
+@features
+- درد شدید ناگهانی چشم و/یا سردرد، تاری/کدری دید، هاله رنگی دور نور، استفراغ؛ تحریک: سینما، مطالعه، داروی گشادکننده مردمک، آنتی‌کولینرژیک استنشاقی یا کوکائین؛ معاینه: احتقان ملتحمه، کدورت قرنیه، مردمک نیمه‌گشاد و ثابت، IOP 40 تا 70 mmHg (نرمال 10 تا 20)
+
+@ddx
+- !Iritis / corneal ulcer |
+- Migraine / cluster headache / SAH |
+
+@redflags
+- IOP > 50، کاهش شدید بینایی، استفراغ
+
+@guide
+مشاوره فوری چشم‌پزشکی؛ همزمان کاهش IOP (جدول 149-3): بیمار supine (بین قطره‌ها 1 دقیقه): timolol 0.5% یک قطره؛ apraclonidine 1% یک قطره؛ acetazolamide 500 mg PO یا IV (منع: سلول داسی و آلرژی سولفا؛ IV اگر IOP > 50، کاهش شدید بینایی یا عدم تحمل PO)؛ اگر IOP ≥ 40 بعد از 30 دقیقه: mannitol 1 تا 2 g/kg IV؛ پایش IOP هر ساعت؛ pilocarpine 1% تا 2% یک قطره هر 15 دقیقه × 2 دوز چشم مبتلا و pilocarpine 0.5% چشم مقابل وقتی IOP < 40 (بعضی بلافاصله) سپس 4 بار روزانه؛ درمان درد و تهوع؛ تصمیم بعدی توسط چشم‌پزشک بر بالین.
+
+@variant acute-glaucoma-main
+name: Acute angle-closure glaucoma
+level: I
+imp: Acute angle-closure glaucoma
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: none
+
+@scenario
+زن ۶۵ ساله پس از دیدن فیلم در سینما با درد شدید چشم راست، هاله رنگی، استفراغ و مردمک نیمه‌گشاده ثابت؛ IOP 55.
+
+@why
+کاهش IOP فوری همزمان با چشم‌پزشک.
+
+@L
+- IOP measurement (tonometry); electrolytes, BUN, creatinine (before acetazolamide / mannitol); sickle cell status if relevant
+
+@S
+- Timolol 0.5% one drop; apraclonidine 1% one drop (wait 1 min between drops) {ci: timolol — asthma / COPD / bradycardia / heart block}
+- Acetazolamide 500 mg PO (or IV if IOP > 50 mmHg, severe vision loss, or cannot tolerate PO) {ci: sickle cell disease; sulfa allergy}
+- Mannitol 1–2 g/kg IV if IOP remains ≥ 40 mmHg 30 min after treatment started {ci: heart failure / renal failure}
+- Pilocarpine 1–2% one drop every 15 min for two doses in affected eye (0.5% contralateral eye) once IOP < 40 mmHg, then four times daily (some give immediately)
+- Antiemetic and analgesia
+
+@T
+- Patient supine; recheck IOP hourly; avoid mydriatics
+
+@Co
+- Immediate ophthalmology consultation; disposition / further therapy by ophthalmologist at bedside (laser iridotomy)
+
+@cond optic-neuritis
+ch: 149
+name: Optic neuritis
+name_fa: نوریت اپتیک
+cc: eye, focal-neuro
+keywords: optic neuritis, red desaturation, afferent pupillary defect, multiple sclerosis, IV methylprednisolone, نوریت بینایی
+status: draft
+
+@features
+- التهاب در هر نقطه عصب بینایی: کاهش حاد بینایی با کاهش ویژه بینایی رنگ؛ ارتباط قوی با MS ولی علل دیگر (سیفلیس، TB، سارکوئید)؛ اغلب بی‌درد ولی گاه دردناک با حرکات چشم
+- red desaturation test: نگاه با یک چشم به جسم قرمز تیره: چشم مبتلا آن را صورتی/کم‌رنگ می‌بیند؛ APD؛ نقص میدان بینایی؛ نوریت قدامی: پاپیلیت (ادم دیسک)؛ retrobulbar: بدون یافته افتالموسکوپیک
+
+@ddx
+- !Giant cell arteritis / CRAO / retinal detachment |
+- Compressive optic neuropathy / MS |
+
+@redflags
+- از دست رفتن بینایی، APD، سن > 50 (GCA)
+
+@guide
+ارزیابی و درمان با هدایت چشم‌پزشک؛ IV steroid سپس خوراکی بهبود بینایی را تسریع و موقتاً خطر MS را کم می‌کند ولی استروئید خوراکی تنها عود ON را افزایش می‌دهد؛ تشخیص جدید ON ← ورک‌آپ MS و علل دیگر.
+
+@variant optic-neuritis-main
+name: Optic neuritis
+level: II
+imp: Optic neuritis
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+زن ۳۰ ساله با کاهش بینایی یک‌چشمی طی 3 روز، درد با حرکت چشم، APD و کاهش دید رنگ.
+
+@why
+ورک‌آپ MS و استروئید IV با چشم‌پزشک.
+
+@I
+- MRI brain / orbits with gadolinium (MS workup)
+
+@L
+- ESR / CRP (rule out GCA if > 50), syphilis serology, ANA, B12 as indicated
+
+@S
+- IV methylprednisolone followed by oral taper per ophthalmology / neurology {ci: oral steroids alone increase recurrence}
+
+@T
+- Visual acuity, color vision (red desaturation), pupils (APD), fundus, visual fields
+
+@Co
+- Ophthalmology-directed evaluation; neurology (MS workup); admit per consult
+
+@cond central-retinal-artery-occlusion
+ch: 149
+name: Central retinal artery occlusion (CRAO)
+name_fa: انسداد شریان مرکزی شبکیه (CRAO)
+cc: eye, focal-neuro
+keywords: central retinal artery occlusion, CRAO, cherry red spot, amaurosis fugax, boxcarring, embolic, giant cell arteritis, انسداد شریان شبکیه
+status: draft
+
+@features
+- از دست رفتن ناگهانی، بدون درد و شدید بینایی یک‌چشمی؛ اغلب سابقه amaurosis fugax؛ انسداد شریان مرکزی: از دست رفتن کامل بینایی؛ انسداد شاخه: نقص ناگهانی بخشی میدان؛ علائم کلاسیک: بینایی تقریباً/کاملاً از بین (94% counting fingers تا light perception)، APD واضح، سفیدی سطحی شبکیه قطب خلفی و «cherry red spot» ماکولا؛ segmentation ستون خون (boxcarring)
+- ارزیابی علت (آمبولی کاروتید/قلبی، واسکولیت، هیپرکوآگولابل)؛ رد GCA
+
+@ddx
+- !Giant cell arteritis / stroke (embolic) |
+- Retinal detachment / CRVO / optic neuritis |
+
+@redflags
+- کاهش ناگهانی بی‌درد بینایی، سن > 50 (GCA)، سابقه AF
+
+@guide
+تماس فوری با چشم‌پزشک پس از تشخیص. ماساژ دیجیتال، acetazolamide و timolol قبلاً توصیه می‌شد ولی شواهد کم؛ مدیریت با پروتکل مؤسسه و چشم‌پزشک.
+
+@variant crao-main
+name: Central retinal artery occlusion
+level: I
+imp: Central retinal artery occlusion
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: none
+
+@scenario
+مرد ۶۸ ساله با از دست رفتن ناگهانی بینایی چشم راست 2 ساعت پیش؛ APD و cherry red spot.
+
+@why
+ورک‌آپ آمبولیک و GCA؛ چشم‌پزشک فوراً.
+
+@I
+- Carotid imaging (duplex / CTA / MRA); brain imaging (stroke) per stroke protocol; echocardiography as indicated
+
+@L
+- ESR, CRP (exclude giant cell arteritis), CBC, glucose, lipid panel, coagulation, troponin; ECG (AF)
+
+@S
+- Management per ophthalmologist / institutional protocol (digital massage, acetazolamide, timolol — sparse evidence)
+- If giant cell arteritis suspected: methylprednisolone 250 mg IV every 6 h (admission)
+
+@T
+- Cardiac monitor; stroke work-up (embolic source)
+
+@Co
+- Immediate ophthalmology; neurology / stroke team; admit
+
+@cond central-retinal-vein-occlusion
+ch: 149
+name: Central retinal vein occlusion (CRVO)
+name_fa: انسداد ورید مرکزی شبکیه (CRVO)
+cc: eye
+keywords: central retinal vein occlusion, CRVO, blood and thunder fundus, cotton wool spots, انسداد ورید شبکیه
+status: draft
+
+@features
+- ترومبوز ورید مرکزی: کاهش ناگهانی بی‌درد بینایی یک‌چشمی؛ ادم دیسک، cotton wool و خونریزی شبکیه در هر چهار ربع («blood-and-thunder fundus»)؛ APD
+
+@ddx
+- !CRAO / retinal detachment / vitreous hemorrhage |
+- Hyperviscosity / diabetic retinopathy |
+
+@redflags
+- کاهش ناگهانی بینایی
+
+@guide
+درمان فوری ندارد؛ داروهای مستعدکننده (OCP، دیورتیک) قطع شود؛ مشاوره چشم‌پزشکی.
+
+@variant crvo-main
+name: Central retinal vein occlusion
+level: II
+imp: Central retinal vein occlusion
+cond: Urgent
+act: CBR
+diet: PO
+ecg: once
+cxr: none
+
+@scenario
+زن ۵۵ ساله با کاهش ناگهانی بینایی یک چشم، خونریزی‌های منتشر شبکیه و ادم دیسک.
+
+@why
+قطع داروهای مستعدکننده و ارجاع.
+
+@L
+- CBC, glucose, lipids, ESR, coagulation / thrombophilia screen as indicated; BP check
+
+@T
+- Discontinue predisposing drugs (oral contraceptives, diuretics); control BP / glucose
+
+@Co
+- Ophthalmology consultation
+
+@cond retinal-detachment
+ch: 149
+name: Retinal detachment, floaters and flashes
+name_fa: جداشدگی شبکیه، floaters و برق‌زدن
+cc: eye
+keywords: retinal detachment, floaters, flashes of light, curtain, ocular ultrasonography, جداشدگی شبکیه, لکه شناور
+status: draft
+
+@features
+- تغییر ناگهانی بینایی؛ علائم دوطرفه تقریباً همیشه منشأ داخل‌جمجمه‌ای (مثلاً میگرن)؛ یک‌چشمی معمولاً بیماری همان چشم
+- RD: برق‌زدن ناگهانی، floaters و پرده/پرده‌ی تیره در میدان بینایی چشم مبتلا؛ تشخیص اولیه: سونوگرافی بالین؛ floaters جدید (ذرات ژل ویتره: کدورت‌های مه‌آلود کوچک) فوریت ندارد و دیلاته توسط چشم‌پزشک ≤ 24 ساعت
+
+@ddx
+- !CRAO / vitreous hemorrhage |
+- Migraine aura (bilateral) / posterior vitreous detachment |
+
+@redflags
+- پرده تیره، برق‌زدن مکرر، کاهش بینایی
+
+@guide
+مشاوره فوری چشم‌پزشکی برای افتالموسکوپی غیرمستقیم و احتمالاً لیزر. floaters ایزوله: پیگیری مطب ≤ 24 ساعت.
+
+@variant retinal-detachment-main
+name: Suspected retinal detachment
+level: II
+imp: Retinal detachment
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مرد ۵۵ ساله نزدیک‌بین با برق‌زدن و پرده تیره در گوشه میدان بینایی چشم راست.
+
+@why
+سونوگرافی بالین و چشم‌پزشکی فوری.
+
+@I
+- Bedside ocular ultrasonography (retinal detachment; keep pressure minimal and duration limited)
+
+@T
+- Visual acuity, visual fields, dilated exam by ophthalmology; limit activity
+
+@Co
+- Urgent ophthalmology consultation (indirect ophthalmoscopy; possible laser surgery); isolated new floaters: follow-up ≤ 24 h
+
+@cond temporal-arteritis-vision
+ch: 149
+name: Temporal arteritis (giant cell arteritis) with ischemic optic neuropathy
+name_fa: آرتریت تمپورال با نوروپاتی ایسکمیک عصب بینایی
+cc: eye, headache
+keywords: giant cell arteritis, temporal arteritis, ischemic optic neuropathy, ESR, CRP, methylprednisolone, آرتریت تمپورال, بینایی
+status: draft
+
+@features
+- واسکولیت سیستمیک با نوروپاتی اپتیک ایسکمیک بی‌درد؛ معمولاً زن > 50 سال، اغلب سابقه polymyalgia rheumatica؛ علائم: تغییر بینایی، سردرد، claudication فک، حساسیت پوست سر/شریان تمپورال، خستگی، تب، گلودرد، URI، بی‌اشتهایی؛ معمولاً یک‌طرفه ولی ممکن دوطرفه؛ یک‌سوم با TIA/سکته؛ APD شایع؛ فوندوس: flame hemorrhage؛ فلج عصب 6
+- ESR و CRP (CRP حساس‌تر)؛ بیوپسی اثبات‌شده معمولاً ESR 70 تا 110؛ بدون درمان: از دست رفتن دوطرفه بینایی
+
+@ddx
+- !CRAO / optic neuritis / stroke |
+- Migraine / other causes of AION |
+
+@redflags
+- کاهش بینایی، APD، ESR/CRP بالا، claudication فک
+
+@guide
+شک قوی یا کاهش بینایی: بستری و methylprednisolone 250 mg IV هر 6 ساعت. شک کمتر بدون کاهش بینایی: ترخیص با prednisone 80 تا 100 mg/d PO و پیگیری نزدیک. استروئید نباید منتظر بیوپسی بماند. داروی ضدزخم همراه استروئید سیستمیک.
+
+@variant gca-vision-loss
+name: Giant cell arteritis with vision loss or strong suspicion
+level: I
+imp: Temporal arteritis with visual loss
+cond: Emergent
+act: CBR
+diet: PO
+ecg: once
+cxr: none
+
+@scenario
+زن ۷۵ ساله با از دست رفتن ناگهانی بینایی چشم چپ، سردرد تمپورال، claudication فک و ESR 95.
+
+@why
+استروئید IV بلافاصله بدون انتظار بیوپسی.
+
+@L
+- ESR, CRP (CRP more sensitive), CBC, glucose, creatinine
+
+@S
+- Methylprednisolone 250 mg IV every 6 h (admit) {hi} {ci: diabetes — monitor glucose; peptic ulcer}
+- Antiulcer medication (PPI) with systemic steroids
+
+@T
+- Fundus exam; do not delay steroids for biopsy; temporal artery biopsy arranged
+
+@Co
+- Admit; ophthalmology; rheumatology / neurology; temporal artery biopsy
+
+@variant gca-no-vision-loss
+name: Suspected giant cell arteritis without vision loss
+level: II
+imp: Suspected temporal arteritis, no vision loss
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+زن ۶۸ ساله با سردرد تمپورال جدید، حساسیت شریان و خستگی؛ بینایی طبیعی؛ ESR 80.
+
+@why
+پردنیزون خوراکی با پیگیری نزدیک.
+
+@L
+- ESR, CRP, CBC, glucose
+
+@S
+- Prednisone 80–100 mg/day PO (do not delay for biopsy) {ci: diabetes — glucose monitoring}
+- Antiulcer medication with systemic steroids
+
+@Co
+- Close follow-up; temporal artery biopsy / ophthalmology / rheumatology
+
+@cond ocular-ultrasonography-note
+ch: 149
+name: Point-of-care ocular ultrasonography — applications and cautions
+name_fa: سونوگرافی بالینی چشم — کاربردها و احتیاط
+cc: eye
+keywords: ocular ultrasound, POCUS eye, retinal detachment, lens dislocation, vitreous hemorrhage, optic nerve sheath, سونوگرافی چشم
+status: draft
+
+@features
+- سونوگرافی چشم برای ارزیابی اورژانس چشم به‌ویژه در تروما: جداشدگی شبکیه، هماتوم retrobulbar، دررفتگی عدسی، خونریزی ویتره و افزایش ICP؛ فشار روی چشم یا پلک در شک پارگی کره اجتناب و مدت محدود
+
+@ddx
+- !Ruptured globe (avoid pressure) |
+
+@redflags
+- شک پارگی کره (بدون فشار)
+
+@guide
+در سونوگرافی چشم از هر فشار روی کره/پلک بپرهیز اگر پارگی کره مشکوک؛ مدت معاینه کاملاً محدود.
+
+@variant ocular-pocus-main
+name: Ocular ultrasonography (retinal detachment / retrobulbar hematoma / lens dislocation / vitreous hemorrhage)
+level: III
+imp: Ocular point-of-care ultrasonography
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+بیمار با کاهش بینایی ناگهانی که تشخیص قطعی ندارد؛ نیاز به غربال سریع.
+
+@why
+تشخیص سریع RD و هماتوم retrobulbar.
+
+@I
+- Ocular ultrasonography (avoid pressure on eye / eyelid if globe rupture suspected; strictly limit duration)
+
+@T
+- Linear high-frequency probe over closed eyelid with generous gel
+
+@Co
+- Ophthalmology for positive findings

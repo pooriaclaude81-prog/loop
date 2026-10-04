@@ -1,0 +1,612 @@
+@cond pharyngitis-tonsillitis-adult
+ch: 153
+name: Pharyngitis and tonsillitis (viral and GABHS) — adult
+name_fa: فارنژیت و تونسیلیت (ویروسی و استرپتوکوک گروه A)
+cc: ent, fever
+keywords: pharyngitis, tonsillitis, strep throat, GABHS, Centor criteria, rapid antigen test, benzathine penicillin, سرماخوردگی گلو, گلودرد استرپتوکوکی
+status: draft
+
+@features
+- ویروسی: تب، اودینوفاژی و ضایعات پتشیال یا وزیکولار کام نرم و لوزه؛ بیشتر همراه سرفه، آبریزش بینی و احتقان؛ معمولاً بدون exudate لوزه و آدنوپاتی گردنی
+- باکتریال (GABHS): شروع حاد تب، گلودرد، اودینوفاژی و اغلب سردرد؛ اریتم لوزه، exudate و آدنوپاتی دردناک قدامی گردن؛ بدون سرفه، ورم ملتحمه و آبریزش بینی
+- معیار Centor: (1) exudate لوزه، (2) آدنوپاتی دردناک قدامی گردن، (3) نبود سرفه، (4) تب؛ ≥ 2 معیار: تست آنتی‌ژن سریع و درمان بر اساس نتیجه؛ تست بیشتر اگر مونونوکلئوز، آنفلوانزا یا سندرم رتروویروس حاد مشکوک
+
+@ddx
+- !Peritonsillar / retropharyngeal abscess / epiglottitis |
+- Infectious mononucleosis / acute HIV / influenza / diphtheria |
+
+@redflags
+- trismus، صدای خفه، ریزش بزاق، استریدور، ناتوانی در بلع مایعات
+
+@guide
+غیرباکتریال: حمایتی: ضدتب، ضددرد و مایع IV در کم‌آبی. GABHS: یک دوز benzathine penicillin G 1.2 میلیون واحد IM یا penicillin VK 500 mg PO دو بار روزانه × 10 روز یا amoxicillin 500 mg دو بار (یا 1000 mg روزانه)؛ آلرژی پنی‌سیلین: سفالوسپورین نسل اول یا clindamycin.
+
+@variant pharyngitis-viral
+name: Viral pharyngitis / tonsillitis
+level: III
+imp: Viral pharyngitis
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مرد ۲۵ ساله با گلودرد، سرفه، آبریزش بینی و تب خفیف؛ بدون exudate.
+
+@why
+حمایتی؛ تست استرپ اگر ≥ 2 معیار Centor.
+
+@L
+- Rapid antigen test if ≥ 2 Centor criteria; monospot / influenza / HIV testing if suspected
+
+@S
+- IV fluids if dehydrated {ci: caution in heart failure / CKD}; analgesics / antipyretics
+
+@T
+- Supportive care (throat lozenges, saline gargles, hydration)
+
+@Co
+- Discharge with return precautions
+
+@variant pharyngitis-gabhs
+name: GABHS pharyngitis (Centor ≥ 2 and positive rapid antigen test)
+level: III
+imp: Group A streptococcal pharyngitis
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مرد ۲۰ ساله با تب، گلودرد شدید، exudate لوزه، آدنوپاتی قدامی دردناک و بدون سرفه؛ تست سریع مثبت.
+
+@why
+پنی‌سیلین؛ تست بر اساس Centor.
+
+@L
+- Rapid antigen test (± throat culture); additional testing if mononucleosis / influenza / acute retroviral syndrome suspected
+
+@S
+- Antipyretics / analgesics
+
+@A
+- Benzathine penicillin G 1.2 million units IM single dose, OR penicillin VK 500 mg PO twice daily for 10 days, OR amoxicillin 500 mg PO twice daily (or 1000 mg/day) {ci: penicillin allergy → first-generation cephalosporin or clindamycin}
+
+@Co
+- Discharge with return precautions; PCP follow-up
+
+@cond peritonsillar-abscess-adult
+ch: 153
+name: Peritonsillar abscess (adult)
+name_fa: آبسه پری‌تانسیلار (بزرگسال)
+cc: ent, fever
+keywords: peritonsillar abscess, quinsy, needle aspiration, trismus, uvula deviation, penicillin metronidazole, آبسه اطراف لوزه, کوینزی
+status: draft
+
+@features
+- بیمار بدحال با گلودرد، تب، اودینوفاژی، trismus و دیسفاژی؛ صدای خفه (hot potato)؛ لوزه مبتلا به داخل جابه‌جا شده و انحراف uvula به سمت مقابل
+- افتراق: سلولیت پری‌تانسیلار، مونونوکلئوز، آبسه رتروفارنژیال، تونسیلیت HSV، نئوپلاسم و آنوریسم کاروتید داخلی؛ تشخیص بالینی؛ سونوگرافی داخل‌دهانی بسیار حساس و اختصاصی؛ CT با کنتراست اگر نگرانی گسترش
+
+@ddx
+- !Retropharyngeal abscess / deep neck infection / Ludwig angina |
+- Peritonsillar cellulitis / mononucleosis / internal carotid aneurysm |
+
+@redflags
+- trismus، استریدور، سمیت سیستمیک، گسترش گردنی
+
+@guide
+آسپیراسیون با سوزن 18G یا I&D پس از بی‌حسی موضعی؛ غلاف پلاستیکی سوزن را حدود 1 cm از نوک ببر تا از نفوذ تا سطح کاروتید داخلی جلوگیری شود. پس از تخلیه کافی: بیمار با تحمل PO ترخیص با antibiotic: penicillin VK + metronidazole × 10 روز؛ آلرژی پنی‌سیلین: clindamycin. بیمار سمی: piperacillin-tazobactam 3.375 g IV و بستری مشاهده.
+
+@variant pta-main
+name: Peritonsillar abscess (drainage; oral antibiotics if tolerates PO)
+level: II
+imp: Peritonsillar abscess
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مرد ۲۵ ساله با گلودرد یک‌طرفه شدید، trismus، صدای خفه و انحراف uvula به راست.
+
+@why
+آسپیراسیون/I&D و آنتی‌بیوتیک.
+
+@I
+- Intraoral ultrasound (very sensitive / specific if diagnosis in question); CT neck with contrast if concern for extension beyond peritonsillar space
+
+@L
+- CBC; culture of pus; rapid strep / monospot as indicated
+
+@S
+- IV fluids if dehydrated; analgesics; local anesthesia (e.g., lidocaine) for procedure
+
+@A
+- Penicillin VK PLUS metronidazole 500 mg PO every 8 h for 10 days after adequate drainage (penicillin-allergic: clindamycin)
+
+@T
+- Needle aspiration with 18-gauge needle (cut plastic sheath ~1 cm from tip to avoid internal carotid artery) or incision and drainage after local anesthesia
+
+@Co
+- ENT if no drainage / large abscess / recurrent; discharge if tolerates PO with follow-up
+
+@variant pta-toxic
+name: Toxic peritonsillar abscess / unable to tolerate PO
+level: I
+imp: Peritonsillar abscess, toxic
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: none
+
+@scenario
+مرد ۴۵ ساله با آبسه پری‌تانسیلار، تب 39.5، تاکی‌کاردی و ناتوان در بلع.
+
+@why
+آنتی‌بیوتیک IV و بستری.
+
+@I
+- CT neck with contrast
+
+@L
+- CBC, electrolytes, creatinine, blood cultures, lactate
+
+@S
+- IV fluids {ci: caution in heart failure}
+
+@A
+- Piperacillin-tazobactam 3.375 g IV {hi}
+
+@T
+- Needle aspiration / I&D; airway monitoring
+
+@Co
+- ENT consultation; admit for observation
+
+@cond epiglottitis-adult
+ch: 153
+name: Adult epiglottitis (supraglottitis)
+name_fa: اپی‌گلوتیت بزرگسال (supraglottitis)
+cc: ent, dyspnea
+keywords: epiglottitis, supraglottitis, thumb sign, tripod position, drooling, stridor, awake fiberoptic intubation, اپی گلوتیت
+status: draft
+
+@features
+- 1 تا 2 روز دیسفاژی، اودینوفاژی و تنگی نفس بدتر شونده (بدتر در خوابیده)؛ حساسیت قدام گردن با لمس ملایم حنجره و نای فوقانی؛ وضعیت کلاسیک: نشسته رو به جلو، دهان باز و گردن اکستنسور؛ آب‌ریزش بزاق و استریدور دمی
+- تشخیص: شرح حال و معاینه، رادیوگرافی نسج نرم جانبی گردن: محو شدن vallecula و «thumb print sign» و/یا لارنگوسکوپی فیبراپتیک ترانس‌ناسال
+
+@ddx
+- !Retropharyngeal abscess / angioedema / foreign body |
+- Peritonsillar abscess / croup (peds) / laryngeal tumor |
+
+@redflags
+- استریدور، ریزش بزاق، وضعیت tripod، ناتوانی در بلع
+
+@guide
+مشکوک: مشاوره فوری ENT؛ آماده راه هوایی جراحی. بیمار در وضعیت نشسته بماند؛ اکسیژن مرطوب، مایع IV، مانیتور قلبی و پالس‌اکسیمتری. آنتی‌بیوتیک خط اول: cefotaxime 50 mg/kg + vancomycin 15 mg/kg IV؛ آلرژی پنی‌سیلین: فلوروکینولون تنفسی؛ methylprednisolone 125 mg IV ممکن التهاب و ادم را کم کند. اینتوباسیون معمولاً در اتاق عمل به روش «awake» فیبراپتیک؛ با تخصص و تجهیزات کافی در ED ممکن.
+
+@variant epiglottitis-main
+name: Adult epiglottitis
+level: I
+imp: Adult epiglottitis (supraglottitis)
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+o2: humidified oxygen
+
+@scenario
+مرد ۴۰ ساله با گلودرد شدید، ریزش بزاق، صدای خفه و استریدور؛ نشسته و رو به جلو.
+
+@why
+مشاوره فوری ENT و راه هوایی ایمن؛ نه دستکاری.
+
+@I
+- Lateral cervical soft tissue radiograph (vallecula obliteration, "thumb print sign") only if stable — do not delay airway; transnasal fiberoptic laryngoscopy (ENT)
+
+@L
+- CBC, blood cultures (after airway secured), electrolytes
+
+@S
+- IV hydration
+- Methylprednisolone 125 mg IV (may reduce airway inflammation and edema)
+
+@A
+- Cefotaxime 50 mg/kg IV plus vancomycin 15 mg/kg IV {hi}; penicillin-allergic: respiratory fluoroquinolone
+
+@T
+- Keep patient upright; humidified oxygen; cardiac monitor; pulse oximetry; surgical airway equipment ready (emergency physician must be prepared)
+- Endotracheal intubation generally in OR via awake fiberoptic method (or ED with sufficient expertise and equipment)
+
+@Co
+- Immediate otolaryngology consultation; ICU admission
+
+@cond retropharyngeal-abscess-adult
+ch: 153
+name: Retropharyngeal abscess (adult)
+name_fa: آبسه رتروفارنژیال (بزرگسال)
+cc: ent, fever
+keywords: retropharyngeal abscess, neck CT, torticollis, clindamycin, cefoxitin, آبسه رتروفارنکس
+status: draft
+
+@features
+- گلودرد، درد گردن، torticollis و دیسفاژی؛ صدای خفه، آدنوپاتی گردنی و دیسترس تنفسی؛ استریدور در کودک شایع‌تر
+- CT گردن با کنتراست IV استاندارد طلایی و سلولیت را از آبسه تمیز می‌کند
+
+@ddx
+- !Epiglottitis / peritonsillar abscess / Ludwig angina |
+- Vertebral osteomyelitis / meningitis / torticollis |
+
+@redflags
+- استریدور، دیسترس تنفسی، trismus، سپسیس
+
+@guide
+آماده برای مدیریت اورژانس راه هوایی؛ مشاوره زودهنگام ENT؛ مایع IV و clindamycin یا cefoxitin IV.
+
+@variant rpa-adult-main
+name: Retropharyngeal abscess
+level: I
+imp: Retropharyngeal abscess
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: portable
+
+@scenario
+مرد ۴۰ ساله با گلودرد، تورم گردن، دیسفاژی و تب؛ CT: کلکسیون رتروفارنژیال.
+
+@why
+CT، آنتی‌بیوتیک IV و ENT زودهنگام.
+
+@I
+- CT neck with IV contrast (gold standard); lateral neck radiograph if CT delayed; CXR (mediastinal extension)
+
+@L
+- CBC, CRP, electrolytes, creatinine, blood cultures
+
+@S
+- IV fluids {ci: caution in heart failure}
+
+@A
+- Clindamycin IV (600 mg every 8 h) or cefoxitin IV {hi}
+
+@T
+- Prepare for emergent airway management as needed; upright position
+
+@Co
+- Early otolaryngology consultation (drainage); ICU / admit
+
+@cond odontogenic-neck-abscess-ludwig
+ch: 153
+name: Odontogenic abscess, deep space neck infection and Ludwig's angina (necrotizing)
+name_fa: آبسه دندانی، عفونت فضای عمیق گردن و Ludwig (نکروزان)
+cc: ent, fever
+keywords: odontogenic abscess, deep space neck infection, Ludwig angina, necrotizing fasciitis neck, ampicillin-sulbactam, clindamycin, ciprofloxacin, آبسه دندانی, Ludwig
+status: draft
+
+@features
+- بیشتر عفونت‌های فضای عمیق گردن دندانی (معمولاً دندان‌های مندیبل)؛ trismus، تب، توده گردن، دیسفاژی و تنگی نفس؛ از سلولیت منتشر تا آبسه لثه لبی/باکال؛ گسترش از لایه‌های فاشیال به فضاهای بالقوه صورت، گردن و دهان
+- سونوگرافی بالین: آبسه سطحی؛ شک فضای عمیق: CT گردن با کنتراست
+- Ludwig: عفونت فضاهای submental، sublingual و submandibular: trismus و ادم کل گردن فوقانی و کف دهان؛ بیمار بحرانی: عفونت نکروزان: تغییر رنگ پوست، crepitus زیرجلدی، تب، تاکی‌کاردی، هیپوتانسیون و گیجی
+
+@ddx
+- !Necrotizing fasciitis / mediastinitis / airway obstruction |
+- Retropharyngeal abscess / parotitis / angioedema |
+
+@redflags
+- trismus، ادم کف دهان، crepitus، سپسیس، تنگی نفس
+
+@guide
+درناژ جراحی (I&D در ED یا اتاق عمل). ترخیص پس از درناژ: penicillin VK یا amoxicillin؛ آلرژی پنی‌سیلین: clindamycin یا levofloxacin. فضای عمیق گردن: ampicillin/sulbactam IV + clindamycin + ciprofloxacin. Ludwig: مشاوره فوری جراحی؛ بیماران نیاز به fasciotomy با debridement وسیع و آنتی‌بیوتیک وسیع‌الطیف IV دارند.
+
+@variant odontogenic-abscess-drainage
+name: Odontogenic abscess (gingival / buccal) — drainage and oral antibiotics
+level: III
+imp: Odontogenic abscess
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مرد ۳۰ ساله با آبسه لثه پایین، تورم گونه و تب خفیف؛ بدون trismus.
+
+@why
+I&D و آنتی‌بیوتیک خوراکی.
+
+@I
+- Bedside ultrasound (superficial abscess); CT neck with contrast if deep space suspected
+
+@S
+- Analgesics; local anesthesia for drainage
+
+@A
+- Penicillin VK or amoxicillin PO after drainage; penicillin-allergic: clindamycin or levofloxacin
+
+@T
+- Surgical drainage (I&D in ED or operating room)
+
+@Co
+- Dentist / OMFS follow-up
+
+@variant deep-neck-ludwig-necrotizing
+name: Deep space neck infection / Ludwig's angina / necrotizing infection
+level: I
+imp: Deep space neck infection / Ludwig's angina
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: PA
+
+@scenario
+مرد ۵۰ ساله دیابتی با تورم گردن و کف دهان، trismus، crepitus و فشار 85/50.
+
+@why
+راه هوایی، آنتی‌بیوتیک وسیع‌الطیف و جراحی فوری.
+
+@I
+- CT neck with IV contrast; CXR PA (mediastinitis)
+
+@L
+- CBC, CRP, glucose, electrolytes, creatinine, lactate, blood cultures
+
+@S
+- IV fluid resuscitation, vasopressors if shock {ci: caution in heart failure}
+
+@A
+- Ampicillin/sulbactam IV plus clindamycin plus ciprofloxacin {hi}
+
+@T
+- Early airway control (awake fiberoptic / surgical airway readiness); wide local debridement / fasciotomy for necrotizing infection
+
+@Co
+- Immediate surgical consultation (ENT / OMFS); ICU
+
+@cond neck-mass-adult
+ch: 153
+name: Neck and upper airway masses (adult)
+name_fa: توده‌های گردن و راه هوایی فوقانی (بزرگسال)
+cc: ent
+keywords: neck mass, lymphadenopathy, malignancy, lateral neck mass, flexible nasopharyngolaryngoscopy, توده گردن
+status: draft
+
+@features
+- مادرزادی، عفونی، غددی یا نئوپلاستیک؛ بالغ > 40 سال: تا 80% توده‌های جانبی گردن پایدار > 6 هفته بدخیم
+- جدول 153-1: جوان: لنفادنوپاتی واکنشی، مونونوکلئوز، لنفوم، branchial cleft cyst، thyroglossal duct cyst، TB؛ بالغ مسن: کارسینوم متاستاتیک مجرای هوایی-گوارشی، عفونت/نئوپلاسم غدد بزاقی، لنفوم، اختلال تیروئید
+- بیمار با اختلال راه هوایی یا دیسفاژی/اودینوفاژی قابل‌توجه: flexible nasopharyngolaryngoscopy قبل از CT؛ CT برای برنامه جراحی
+
+@ddx
+- !Airway compromise from mass |
+- Reactive lymph node / abscess / thyroid disease |
+
+@redflags
+- تنگی نفس، استریدور، دیسفاژی، توده سفت > 6 هفته، سیگار/الکل
+
+@guide
+غدد التهابی: آنتی‌بیوتیک تجربی: cephalexin 500 mg PO سه تا چهار بار روزانه یا amoxicillin 500 mg سه تا چهار بار یا clindamycin 300 mg سه تا چهار بار. sialoadenitis: پوشش استافیلوکوک مثل clindamycin.
+
+@variant neck-mass-main
+name: Neck mass (inflammatory vs neoplastic)
+level: III
+imp: Neck mass
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: PA
+
+@scenario
+مرد ۵۵ ساله سیگاری با توده جانبی گردن 2 ماهه، بی‌درد.
+
+@why
+ارجاع ENT برای بیوپسی؛ آنتی‌بیوتیک فقط اگر التهابی.
+
+@I
+- Flexible nasopharyngolaryngoscopy if airway compromise / dysphagia / odynophagia (before CT); CT neck with contrast (extent of mass); CXR PA
+
+@L
+- CBC, ESR, TSH; HIV / TB screening as indicated
+
+@A
+- Inflammatory lymph node: cephalexin 500 mg PO three to four times daily, or amoxicillin 500 mg three to four times daily, or clindamycin 300 mg three to four times daily
+- Sialoadenitis: clindamycin (staphylococcal coverage)
+
+@Co
+- Urgent ENT referral for persistent mass > 6 weeks (biopsy); oncology
+
+@cond post-tonsillectomy-bleeding
+ch: 153
+name: Post-tonsillectomy bleeding
+name_fa: خونریزی پس از تونسیلکتومی
+cc: bleeding-bruising, ent
+keywords: post-tonsillectomy hemorrhage, tonsillar bleeding, tonsillar pack, silver nitrate, cricothyrotomy, خونریزی پس از تونسیلکتومی
+status: draft
+
+@features
+- عارضه شناخته‌شده؛ مرگ از انسداد راه هوایی یا شوک هموراژیک؛ بروز 1 تا 8.8% و حدود نیمی نیاز به جراحی؛ بیشتر روز 5 تا 10 ولی ممکن ظرف 24 ساعت
+
+@ddx
+- !Airway obstruction / hemorrhagic shock |
+
+@redflags
+- خونریزی فعال، استفراغ خون، تاکی‌کاردی، شوک
+
+@guide
+NPO و نشسته. مشاوره زودهنگام ENT. فشار مستقیم روی بستر لوزه با tonsillar pack یا گاز 4×4 روی کلامپ بلند مرطوب‌شده با thrombin یا lidocaine+epinephrine. یا اگر محل دیده می‌شود: تزریق موضعی lidocaine با epinephrine و cautery با silver nitrate. خونریزی ماسیو نادر: اینتوباسیون تنها راه محافظت راه هوایی؛ پیش از تلاش برای اینتوباسیون cricothyrotomy اورژانس برنامه‌ریزی شود.
+
+@variant post-tonsillectomy-main
+name: Post-tonsillectomy hemorrhage
+level: I
+imp: Post-tonsillectomy bleeding
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: none
+
+@scenario
+کودک/بزرگسال روز 7 پس از تونسیلکتومی با خونریزی روشن از دهان و تاکی‌کاردی.
+
+@why
+فشار موضعی و ENT زودهنگام؛ راه هوایی.
+
+@L
+- CBC, PT/INR, aPTT, type and crossmatch
+
+@S
+- IV access; crystalloid / blood products as needed for hemorrhagic shock {ci: caution in heart failure}
+
+@T
+- Keep patient NPO and sitting upright; direct pressure with tonsillar pack or 4×4 gauze on long clamp moistened with thrombin or lidocaine + epinephrine; or local infiltration of lidocaine with epinephrine then silver nitrate cautery if site visualized
+- Massive bleeding: intubation is the only means to protect airway — plan emergent cricothyrotomy before attempting intubation
+
+@Co
+- Early otolaryngology consultation (OR if persistent bleeding); admit
+
+@cond tracheostomy-complications
+ch: 153
+name: Tracheostomy complications (obstruction, dislodgement, infection, bleeding, tracheoinnominate fistula, stenosis)
+name_fa: عوارض تراکئوستومی
+cc: airway-procedure, dyspnea, bleeding-bruising
+keywords: tracheostomy, tracheostomy obstruction, decannulation, tracheoinnominate fistula, tracheal stenosis, stoma infection, عوارض تراکئوستومی
+status: draft
+
+@features
+- زودرس (هفته اول): خونریزی، انسداد، جابه‌جایی و عفونت؛ دیررس: گرانولاسیون، تنگی نای و فیستول؛ EP باید تبدیل لوله بدون کاف به با کاف، جایگذاری مجدد پس از decannulation تصادفی، رفع انسداد و کنترل خونریزی/عفونت را بلد باشد
+- انسداد: اگر لوله باز است در جای بماند؛ مسدود شدن مخاط در نای یا برونش اصلی دیستال: ساکشن؛ preoxygenation و سالین استریل؛ خارج کردن inner cannula و گاه کل لوله
+- جابه‌جایی: کاتتر ساکشن عبور نمی‌کند و در گرافی لوله فشار خارجی بر نای دارد: کل لوله را خارج کن؛ nasopharyngoscope یا برونکوسکوپ در استوما برای یافتن مجرای نای؛ اگر ناموفق: ENT یا جراحی؛ اگر راه هوایی حفظ نمی‌شود: اینتوباسیون دهانی
+- عفونت: پوست استوما، تراکئیت و برونشیت راجعه؛ پایدار: amoxicillin-clavulanate 875 mg PO دو بار روزانه؛ ناپایدار/سیستمیک: piperacillin-tazobactam 3.375 g IV + vancomycin 1 g IV؛ افزودن فلوروکینولون برای Pseudomonas؛ عفونت موضعی زخم: گاز آغشته به acetic acid 0.25%
+- خونریزی: گرانولاسیون استوما، نای یا تیروئید یا فرسایش عروق تیروئید، دیواره نای یا شریان innominate؛ خفیف: پک با گاز آغشته به سالین؛ ناموفق: خارج کردن لوله و معاینه؛ موضعی: silver nitrate؛ شدید: جایگزین با لوله اندوتراکئال کافدار با کاف پایین‌تر از محل خونریزی
+- فیستول tracheoinnominate: نادر و تهدیدکننده؛ معمولاً 3 هفته اول؛ فرسایش از فشار کاف بالا (> 25 mmHg) یا نوک لوله؛ ممکن هموپتیزی یا sentinel bleed؛ مشاوره فوری ENT یا جراحی توراکس؛ خونریزی ماسیو: اولین مانور hyperinflation کاف؛ ادامه: خارج کردن آهسته لوله با فشار قدامی روی نای؛ ناموفق: لوله اندوتراکئال از بالای فیستول با دید مستقیم فیبراپتیک هنگام خارج کردن لوله تراکئوستومی؛ سپس فشار انگشت شریان innominate روی manubrium
+- تنگی نای: هفته‌ها تا ماه‌ها پس از decannulation؛ تنگی نفس، ویزینگ، استریدور و ناتوانی در پاک کردن ترشحات: اکسیژن مرطوب، racemic epinephrine نبولایز و استروئید؛ برونکوسکوپی rigid، لیزر، stent یا بازسازی
+- تعویض لوله: < 7 روز و غیراورژانس: توسط جراح آشنا (مسیر نابالغ؛ ایجاد مسیر کاذب)؛ مسیر در چاقی یا توده گردن به‌راحتی فرو می‌ریزد
+
+@ddx
+- !Tracheoinnominate fistula / tube obstruction / pneumothorax |
+- Pneumonia / mucus plug / bronchospasm |
+
+@redflags
+- دیسترس تنفسی، خونریزی روشن، sentinel bleed، لوله غیرقابل عبور
+
+@guide
+مطابق ویژگی‌های بالا.
+
+@variant trach-obstruction-dislodgement
+name: Tracheostomy tube obstruction / dislodgement
+level: I
+imp: Tracheostomy tube obstruction / dislodgement
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+o2: high-flow oxygen to stoma and mouth
+
+@scenario
+بیمار تراکئوستومی‌شده با تنگی نفس ناگهانی، SpO2 80% و کاتتر ساکشن عبور نمی‌کند.
+
+@why
+inner cannula را خارج؛ در عدم رفع: لوله را خارج و اینتوباسیون.
+
+@I
+- CXR portable (tube position; extrinsic tracheal compression suggesting dislodgement)
+
+@L
+- Blood gas
+
+@T
+- If tube patent: leave in place; suction (preoxygenate, instill sterile saline into trachea); remove inner cannula, occasionally entire tube if suctioning fails
+- If dislodged: remove entire tube; insert nasopharyngoscope / flexible bronchoscope into stoma to identify true tracheal opening; if cannot: ENT / surgery; if cannot maintain airway: orally intubate (cuffed tube for ventilation)
+- Passy-Muir valve: remove first if respiratory distress / inability to speak, then check tube for obstruction
+
+@Co
+- ENT / general surgery; ICU
+
+@variant trach-infection-bleeding
+name: Tracheostomy site infection / bleeding / stenosis / tracheoinnominate fistula
+level: I
+imp: Tracheostomy site infection / bleeding / tracheoinnominate fistula / stenosis
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+
+@scenario
+بیمار 10 روز پس از تراکئوستومی با خونریزی روشن از استوما و هموپتیزی؛ یا با قرمزی و ترشح چرکی استوما.
+
+@why
+بخش بحرانی: TIF را تشخیص و کاف hyperinflate؛ عفونت: آنتی‌بیوتیک.
+
+@I
+- CXR portable; CT neck / chest with contrast if hemodynamically stable (fistula / stenosis)
+
+@L
+- CBC, coagulation, type and crossmatch (bleeding); culture of stoma discharge, sputum culture (infection)
+
+@A
+- Stable polymicrobial stoma infection / tracheitis: amoxicillin-clavulanate 875 mg PO twice daily; unstable / systemic: piperacillin-tazobactam 3.375 g IV plus vancomycin 1 g IV; add fluoroquinolone for Pseudomonas; local wound infection: gauze soaked in 0.25% acetic acid
+
+@T
+- Slow bleeding: packing with saline-soaked gauze; if ineffective remove tube, examine stoma / trachea; local silver nitrate; brisk bleeding: replace with cuffed endotracheal tube with cuff below bleeding site
+- Tracheoinnominate fistula: hyperinflate cuff; if persistent slowly withdraw tube with anterior pressure on trachea; if fails: orally place ET tube above fistula under fiberoptic visualization while assistant removes trach tube; digital pressure of innominate artery against manubrium
+- Tracheal stenosis: humidified oxygen, nebulized racemic epinephrine, steroids
+
+@Co
+- Immediate otolaryngology / thoracic surgery consultation; ICU
+
+@cond laryngectomy-airway
+ch: 153
+name: Laryngectomy patient — airway emergencies and speech devices
+name_fa: بیمار لارنژکتومی — اورژانس راه هوایی
+cc: airway-procedure, dyspnea
+keywords: laryngectomy, stoma, Passy-Muir valve, endobronchial tube, neck breather, لارنژکتومی
+status: draft
+
+@features
+- اینتوباسیون دهانی در لارنژکتومی غیرممکن؛ اینتوباسیون اورژانس با لوله اندوبرونکیال از طریق تراکئوستوما؛ بیش از حد پیش نبر (carina فقط 4 تا 6 cm از استوما)
+- Passy-Muir valve: دریچه یک‌طرفه روی لوله تراکئوستومی بدون کاف برای صحبت بدون دست؛ بیمار دور لوله بازدم می‌کند: با لوله کافدار مصرف نشود؛ دیسترس تنفسی یا ناتوانی صحبت: ابتدا دریچه را بردار، سپس انسداد لوله را بررسی
+
+@ddx
+- !Stomal obstruction / mucus plug / stomal stenosis |
+
+@redflags
+- دیسترس تنفسی، انسداد استوما
+
+@guide
+اکسیژن از استوما (نه دهان/بینی)؛ ساکشن؛ در اینتوباسیون: لوله به استومای تراکئا.
+
+@variant laryngectomy-main
+name: Laryngectomy patient in respiratory distress
+level: I
+imp: Respiratory distress in laryngectomy patient
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+o2: high-flow oxygen via stoma
+
+@scenario
+بیمار لارنژکتومی‌شده با تنگی نفس و Passy-Muir valve؛ SpO2 82%.
+
+@why
+دریچه را بردار؛ انسداد را رفع.
+
+@I
+- CXR portable
+
+@T
+- Remove speech valve (Passy-Muir) first; check tracheostomy tube for obstruction; suction
+- Supplemental oxygen via stoma; emergency intubation by placing endobronchial tube into tracheostoma (do not advance too far — carina 4–6 cm from stoma); oral intubation impossible
+
+@Co
+- ENT; ICU if required

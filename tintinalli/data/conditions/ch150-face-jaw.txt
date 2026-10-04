@@ -1,0 +1,443 @@
+@cond facial-cellulitis-erysipelas-impetigo
+ch: 150
+name: Facial cellulitis, erysipelas and impetigo
+name_fa: سلولیت صورت، erysipelas و ایمپتیگو
+cc: rash, fever, ent
+keywords: facial cellulitis, erysipelas, impetigo, MRSA, mupirocin, retapamulin, cephalexin, clindamycin, trimethoprim-sulfamethoxazole, سلولیت صورت, ایمپتیگو
+status: draft
+
+@features
+- سلولیت: عفونت پوست و زیرجلد؛ معمولاً S. pyogenes و S. aureus با غلبه فزاینده MRSA؛ گاه گسترش از عفونت عمیق‌تر؛ اریتم، ادم، گرمی، درد و از دست رفتن عملکرد؛ مرز مشخص قابل لمس ندارد؛ تشخیص بالینی؛ سونوگرافی/CT برای آبسه یا عفونت گسترده
+- erysipelas: سلولیت سطحی (اپیدرم، درم فوقانی و لنفاتیک)؛ بیشتر S. pyogenes؛ S. aureus نادر ولی همراه بولوس، تروما یا جسم خارجی؛ قرمز، برجسته، پف‌آلود با مرز مشخص و قابل لمس
+- ایمپتیگو: عفونت سطحی اپیدرم: بولوس (S. aureus) و غیربولوس (S. aureus و S. pyogenes)؛ غیربولوس: راش اریتماتو با وزیکول‌هایی که پاره و کراست کهربایی تشکیل می‌دهند؛ بولوس: وزیکول بزرگ‌شده به بول با مایع زرد شفاف
+
+@ddx
+- !Facial abscess / masticator space infection / orbital cellulitis |
+- !Necrotizing infection |
+- Contact dermatitis / herpes zoster / angioedema |
+
+@redflags
+- علائم سیستمیک، گسترش به اربیت/عمق، نقص ایمنی، شکست درمان سرپایی
+
+@guide
+اغلب آنتی‌بیوتیک خوراکی 7 تا 14 روز (جدول‌های 150-1 و 150-2). سلولیت: خوراکی: clindamycin، dicloxacillin یا سفالوسپورین؛ مشکوک MRSA: TMP-SMX، clindamycin، doxycycline یا minocycline؛ تزریقی: vancomycin، clindamycin؛ کل 7 تا 10 روز. erysipelas: خوراکی: penicillin؛ MSSA مشکوک: amoxicillin/clavulanate، cephalexin، dicloxacillin؛ بولوس: TMP-SMX، clindamycin، doxycycline یا minocycline؛ تزریقی: vancomycin، nafcillin، clindamycin؛ 7 تا 10 روز. ایمپتیگو: موضعی: mupirocin یا retapamulin ointment به‌تنهایی یا با خوراکی؛ خوراکی: dicloxacillin، amoxicillin/clavulanate، cephalexin؛ MRSA: clindamycin یا TMP-SMX؛ 7 روز. دوزها (جدول 150-2): mupirocin 2% سه بار روزانه؛ retapamulin 1% دو بار؛ amoxicillin/clavulanate 875/125 mg دو بار؛ cephalexin 500 mg چهار بار؛ clindamycin 300 تا 450 mg چهار بار؛ dicloxacillin 500 mg چهار بار؛ doxycycline 100 mg دو بار؛ metronidazole 500 mg هر 8 ساعت؛ minocycline 100 mg دو بار؛ penicillin V 500 mg چهار بار؛ TMP-SMX DS 1 تا 2 قرص دو بار؛ تزریقی: ampicillin-sulbactam 1.5 تا 3.0 g هر 6 ساعت؛ clindamycin 600 mg هر 8 ساعت؛ cefazolin 1 g هر 8 ساعت؛ metronidazole 1 g بار سپس 500 mg هر 8 ساعت؛ nafcillin 1 تا 2 g هر 4 ساعت؛ penicillin G 2 تا 3 میلیون واحد هر 6 ساعت؛ vancomycin 1 g هر 12 ساعت. بستری و تزریقی: علائم سیستمیک، شکست سرپایی، بیماری همراه مهم، نقص ایمنی.
+
+@variant facial-cellulitis-outpatient
+name: Facial cellulitis / erysipelas, nontoxic (oral antibiotics)
+level: III
+imp: Facial cellulitis / erysipelas
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مرد ۴۵ ساله با قرمزی، تورم و گرمی گونه از 2 روز پس از خراش؛ بدون تب و سمیت.
+
+@why
+آنتی‌بیوتیک خوراکی 7 تا 10 روز؛ پوشش MRSA در شک.
+
+@I
+- Ultrasound or CT if abscess / extensive infection suspected
+
+@A
+- Cellulitis: cephalexin 500 mg PO four times daily, or dicloxacillin 500 mg four times daily, or clindamycin 300–450 mg four times daily; suspected MRSA: trimethoprim-sulfamethoxazole 1–2 DS tablets twice daily, or doxycycline 100 mg twice daily, or minocycline 100 mg twice daily (total 7–10 days)
+- Erysipelas: penicillin V 500 mg PO four times daily; if MSSA suspected amoxicillin/clavulanate 875/125 mg twice daily, cephalexin or dicloxacillin; bullous: TMP-SMX, clindamycin, doxycycline or minocycline (7–10 days) {ci: allergy / renal impairment dose adjust}
+
+@T
+- Mark border; warm compresses; elevation; analgesia
+
+@Co
+- Follow-up 24–48 h; admit if systemic illness, failure of outpatient therapy, immunocompromise
+
+@variant facial-cellulitis-iv
+name: Facial cellulitis / erysipelas with systemic illness or failed outpatient therapy (parenteral)
+level: II
+imp: Facial cellulitis, parenteral therapy
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: once
+cxr: none
+
+@scenario
+زن ۵۵ ساله دیابتی با سلولیت صورت، تب 38.8 و تاکی‌کاردی با پیشرفت علی‌رغم خوراکی.
+
+@why
+تزریقی و جستجوی عمق/آبسه.
+
+@I
+- CT neck / face with contrast (abscess / deep infection)
+
+@L
+- CBC, glucose, creatinine, CRP; blood cultures if systemic illness
+
+@A
+- Parenteral: vancomycin 1 g IV every 12 h, or clindamycin 600 mg IV every 8 h; erysipelas: nafcillin 1–2 g IV every 4 h, or cefazolin 1 g IV every 8 h, or penicillin G 2–3 million units every 6 h
+
+@S
+- IV fluids if dehydrated {ci: caution in heart failure / CKD}
+
+@Co
+- Admit; ENT / ophthalmology if periorbital / deep extension
+
+@variant impetigo-main
+name: Impetigo (bullous / nonbullous)
+level: III
+imp: Impetigo
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+کودک ۵ ساله با کراست کهربایی دور بینی و دهان.
+
+@why
+موضعی برای ساده؛ خوراکی در گسترده یا بولوس.
+
+@A
+- Simple nonbullous: mupirocin 2% ointment to lesions three times daily (or retapamulin 1% twice daily) for 7 days
+- Extensive or bullous: oral dicloxacillin 500 mg four times daily, amoxicillin/clavulanate 875/125 mg twice daily, or cephalexin 500 mg four times daily; MRSA suspected: clindamycin or TMP-SMX (total 7 days)
+
+@T
+- Hygiene; cover lesions
+
+@Co
+- Follow-up if no improvement
+
+@cond parotitis-mumps-suppurative
+ch: 150
+name: Parotitis (viral / mumps and suppurative) and sialolithiasis
+name_fa: پاروتیت (ویروسی/اوریون و چرکی) و سنگ غده بزاقی
+cc: ent, fever
+keywords: mumps, viral parotitis, suppurative parotitis, Stensen duct, sialolithiasis, sialogogue, lemon drops, اوریون, پاروتیت, سنگ بزاقی
+status: draft
+
+@features
+- ویروسی (اوریون): تورم یک یا دوطرفه پاروتید؛ معمولاً paramyxovirus؛ prodrome تب، بی‌حالی، میالژی، سردرد؛ غده سفت و دردناک ولی بدون اریتم و گرمی؛ چرک از مجرای Stensen خارج نمی‌شود؛ تشخیص بالینی؛ تورم تا 5 روز؛ مسری حدود 9 روز پس از شروع تورم؛ اورکیت 20 تا 30% مردان، اووفوریت 5% زنان؛ پانکراتیت، منژیت آسپتیک، کم‌شنوایی، میوکاردیت، آرتریت، آنمی همولیتیک، ترومبوسیتوپنی
+- چرکی: عفونت باکتریال در کاهش جریان بزاق (بیهوشی اخیر، دهیدراتاسیون، نارس بودن، سن بالا، داروها (دیورتیک، β-blocker، آنتی‌هیستامین، فنوتیازین، TCA)، Sjögren، دیابت، هیپوتیروئیدی، CF، HIV)؛ تب، trismus، اریتم و درد؛ چرک از مجرای Stensen؛ سونوگرافی/CT در شک آبسه
+- سنگ بزاقی (sialolithiasis): 80% مجرای submandibular؛ معمولاً یک‌طرفه؛ درد، تورم و حساسیت که با غذا خوردن تشدید می‌شود؛ سنگ در مجرا قابل لمس و غده سفت
+
+@ddx
+- !Masticator space abscess / Ludwig angina |
+- !Dental infection |
+- Sjögren syndrome / tumor / HIV parotitis |
+
+@redflags
+- trismus، علائم سیستمیک، عدم تحمل خوراکی، نقص ایمنی
+
+@guide
+اوریون: تشخیص بالینی و درمان حمایتی؛ بستری برای عوارض سیستمیک. چرکی: بهینه کردن جریان بزاق با sialogogue (آبنبات لیمو) و قطع داروهای خشکی دهان؛ آنتی‌بیوتیک خوراکی برای تحمل خوراکی و بدون trismus (جدول 150-1: amoxicillin-clavulanate، clindamycin یا cephalexin + metronidazole)؛ تزریقی: nafcillin، ampicillin-sulbactam یا vancomycin + metronidazole؛ بیمارستانی/خانه سالمندان: شامل vancomycin؛ 10 تا 14 روز؛ بستری: سمیت سیستمیک، نقص ایمنی، عدم تحمل خوراکی یا شکست سرپایی؛ پیگیری نزدیک. سنگ: ضددرد، ماساژ، sialogogue و آنتی‌بیوتیک اگر عفونت همزمان؛ سنگ قابل لمس را از مجرا بدوشید؛ سنگ باقی‌مانده توسط ENT.
+
+@variant parotitis-viral
+name: Viral parotitis (mumps)
+level: III
+imp: Viral parotitis (mumps)
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مرد ۲۰ ساله با تب، سردرد و تورم دردناک دوطرفه پاروتید بدون اریتم.
+
+@why
+حمایتی و جدا کردن 9 روزه؛ عوارض را بررسی کن.
+
+@L
+- (clinical diagnosis; lipase if abdominal pain; mumps PCR / serology for public health)
+
+@T
+- Supportive care: analgesics / antipyretics, hydration; isolation approximately 9 days from onset of swelling
+- Examine testes (orchitis), neurologic status (meningitis), hearing
+
+@Co
+- Admit for systemic complications; public health notification
+
+@variant parotitis-suppurative
+name: Suppurative parotitis
+level: II
+imp: Suppurative parotitis
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مرد ۸۰ ساله دهیدراته با تب، تورم قرمز و دردناک پاروتید و چرک از مجرای Stensen.
+
+@why
+آنتی‌بیوتیک، هیدراتاسیون و sialogogue.
+
+@I
+- Ultrasound or CT if abscess suspected
+
+@L
+- CBC, electrolytes, glucose, creatinine; culture of ductal pus
+
+@S
+- IV fluids for dehydration {ci: caution in heart failure / CKD}
+
+@A
+- Oral (tolerating PO, no trismus): amoxicillin-clavulanate 875/125 mg twice daily, or clindamycin 300–450 mg four times daily, or cephalexin 500 mg four times daily + metronidazole 500 mg every 8 h (10–14 days)
+- Parenteral: nafcillin 1–2 g IV every 4 h, ampicillin-sulbactam 1.5–3 g IV every 6 h, or vancomycin 1 g IV every 12 h with metronidazole 1 g load then 500 mg IV every 8 h (hospital-acquired / nursing home: include vancomycin)
+
+@T
+- Sialogogues (lemon drops); stop medications causing dry mouth (diuretics, β-blockers, antihistamines, phenothiazines, TCAs); warm compresses; gland massage
+
+@Co
+- Admit if systemic illness, immunocompromise, unable to take PO or outpatient failure; close follow-up; ENT
+
+@variant sialolithiasis-main
+name: Sialolithiasis
+level: III
+imp: Sialolithiasis
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مرد ۴۰ ساله با درد و تورم زیر فک چپ که هنگام غذا خوردن بدتر می‌شود.
+
+@why
+ضددرد، ماساژ و sialogogue.
+
+@T
+- Analgesics; gland massage; sialogogues (lemon drops); palpable stone may be milked from duct
+- Antibiotics only if concurrent infection suspected (as for suppurative parotitis)
+
+@Co
+- ENT referral for persistent retained calculi
+
+@cond masticator-space-abscess
+ch: 150
+name: Masticator space abscess (odontogenic deep neck infection)
+name_fa: آبسه فضای ماستیکاتور
+cc: ent, fever
+keywords: masticator space abscess, odontogenic infection, trismus, deep neck infection, contrast CT, clindamycin, آبسه ماستیکاتور, تریسموس
+status: draft
+
+@features
+- فضاهای بالقوه محدود به عضلات جونده؛ معمولاً پلی‌میکروبیال و منشأ دندانی؛ تورم صورت، درد، اریتم و trismus؛ پیشرفته: سپسیس؛ تشخیص: CT با کنتراست؛ فضاها به صفحات بافتی تا مدیاستن ارتباط دارند ← درمان زودهنگام ضروری
+
+@ddx
+- !Ludwig angina / retropharyngeal abscess / mediastinitis |
+- Parotitis / facial cellulitis / TMJ disorder |
+
+@redflags
+- trismus، مشکل بلع/راه هوایی، سپسیس
+
+@guide
+درمان ED: تثبیت، آنتی‌بیوتیک، مشاوره ENT و بستری. تزریقی (جدول 150-1): clindamycin IV توصیه؛ جایگزین‌ها: ampicillin-sulbactam، cefoxitin یا penicillin + metronidazole؛ خوراکی: clindamycin یا amoxicillin-clavulanate؛ 10 تا 14 روز.
+
+@variant masticator-abscess-main
+name: Masticator space abscess
+level: I
+imp: Masticator space abscess
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: PA
+
+@scenario
+مرد ۴۰ ساله با پوسیدگی دندان، تورم صورت، trismus و تب 38.5.
+
+@why
+CT با کنتراست، clindamycin IV و ENT/OMFS.
+
+@I
+- Contrast-enhanced CT neck / face; CXR PA (mediastinal extension)
+
+@L
+- CBC, electrolytes, glucose, creatinine, CRP, blood cultures; lactate if septic
+
+@S
+- IV fluids {ci: caution in heart failure}
+
+@A
+- Clindamycin 600 mg IV every 8 h {hi}; alternatives: ampicillin-sulbactam 1.5–3 g IV every 6 h, cefoxitin, or penicillin G 2–3 million units every 6 h + metronidazole 500 mg every 8 h (10–14 days)
+
+@T
+- Airway assessment (trismus, floor of mouth); analgesia
+
+@Co
+- Otolaryngology / oral and maxillofacial surgery consult (drainage); admit
+
+@cond tmj-trigeminal-neuralgia
+ch: 150
+name: Temporomandibular joint dysfunction and trigeminal neuralgia
+name_fa: اختلال مفصل temporomandibular و نورالژی تری‌ژمینال
+cc: ent, headache
+keywords: TMJ dysfunction, temporomandibular, trigeminal neuralgia, tic douloureux, carbamazepine, اختلال مفصل فک, نورالژی تری ژمینال
+status: draft
+
+@features
+- TMJ: ترکیب لولایی و لغزشی؛ اختلال آناتومیک یا بیماری سیستمیک: درد روی عضلات جونده یا ناحیه TMJ و محدودیت حرکت؛ تشخیص بالینی؛ تروما حاد: CT یا پانورکس
+- trigeminal neuralgia: درد صورت در توزیع عصب پنجم؛ حملات شدید چند ثانیه‌ای با معاینه فیزیکی نرمال
+
+@ddx
+- !Temporal arteritis / dental pain / sinusitis |
+- Cluster headache / herpes zoster |
+
+@redflags
+- ضعف یا یافته عصبی، سن > 50 با سردرد جدید
+
+@guide
+TMJ غیرتروماتیک: ضددرد، رژیم نرم و ارجاع دندانپزشکی؛ جراح فک و صورت برای شکستگی. trigeminal neuralgia: carbamazepine با شروع 100 mg PO دو بار روزانه و افزایش بر حسب نیاز.
+
+@variant tmj-main
+name: TMJ dysfunction
+level: III
+imp: Temporomandibular joint dysfunction
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+زن ۳۰ ساله با درد مفصل فک و عضلات جونده و کلیک هنگام جویدن.
+
+@why
+ضددرد، رژیم نرم و ارجاع.
+
+@I
+- (acute trauma only: CT or panoramic x-ray)
+
+@S
+- Analgesics (NSAIDs) {ci: renal disease, GI bleeding}
+
+@T
+- Soft diet; heat; avoid wide mouth opening
+
+@Co
+- Dental / oral and maxillofacial referral
+
+@variant trigeminal-neuralgia-main
+name: Trigeminal neuralgia
+level: III
+imp: Trigeminal neuralgia
+cond: Urgent
+act: CBR
+diet: PO
+ecg: stat
+cxr: none
+
+@scenario
+زن ۶۰ ساله با حملات درد برق‌مانند ثانیه‌ای گونه راست هنگام صحبت یا غذا خوردن؛ معاینه نرمال.
+
+@why
+carbamazepine؛ رد علت ثانویه.
+
+@L
+- (CBC, sodium, liver function before carbamazepine; HLA-B*1502 where relevant)
+
+@S
+- Carbamazepine 100 mg PO twice daily, increasing as needed {ci: AV block; check ECG; hyponatremia; liver / marrow toxicity}
+
+@Co
+- Neurology follow-up; MRI outpatient to exclude secondary causes
+
+@cond bell-palsy-face
+ch: 150
+name: Bell's palsy (facial nerve palsy) — face chapter dosing
+name_fa: فلج بل — دوز فصل صورت
+cc: ent, focal-neuro
+keywords: Bell palsy, facial paralysis, prednisone taper, ocular lubricant, فلج بل
+status: draft
+
+@features
+- شروع حاد فلج یک‌طرفه فوقانی و تحتانی صورت؛ معاینه عصبی دقیق برای رد سکته؛ حفظ عضلات پیشانی ← فرایند مرکزی؛ گوش را برای zoster کرانیال معاینه کن؛ استروئید ظرف 72 ساعت اول شانس بهبود کامل را بالا می‌برد
+
+@ddx
+- !Stroke (forehead sparing) / Ramsay Hunt / Lyme |
+
+@redflags
+- حفظ پیشانی، یافته کانونی دیگر
+
+@guide
+prednisone یا معادل 1 mg/kg تا 60 mg/d به مدت 6 روز سپس taper 10 روزه؛ ضدویروس بحث‌برانگیز و فایده در حد متوسط؛ روان‌کننده چشمی برای جلوگیری از خشکی چشم.
+
+@variant bell-palsy-face-main
+name: Bell's palsy
+level: III
+imp: Bell's palsy
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مرد ۴۰ ساله با افتادگی ناگهانی نیمه چپ صورت شامل پیشانی از صبح.
+
+@why
+استروئید ظرف 72 ساعت و حفاظت چشم.
+
+@S
+- Prednisone (or equivalent) 1 mg/kg up to 60 mg/day for 6 days followed by a 10-day taper (within 72 h of symptom onset) {ci: diabetes — monitor glucose}
+- Ocular lubricants (and eye taping at night) to prevent dry eye
+
+@T
+- Detailed neurologic exam to rule out stroke; examine ear for herpes zoster; antivirals controversial (modest benefit at best)
+
+@Co
+- Follow-up with primary care / ENT
+
+@cond mandible-dislocation
+ch: 150
+name: Mandible dislocation
+name_fa: دررفتگی فک پایین
+cc: ent, limb-injury
+keywords: mandibular dislocation, jaw dislocation, TMJ reduction, anterior dislocation, دررفتگی فک
+status: draft
+
+@features
+- قدامی، خلفی، جانبی یا فوقانی؛ قدامی شایع‌ترین؛ درد، مشکل بلع و malocclusion؛ قدامی: سابقه باز کردن شدید دهان و اشکال حرکت فک؛ سایر: تروما قابل‌توجه
+
+@ddx
+- !Mandible fracture |
+- TMJ dysfunction / temporomandibular arthritis |
+
+@redflags
+- دررفتگی باز یا غیرقابل جا انداختن، شکستگی، آسیب عصبی
+
+@guide
+قدامی بدون تروما: تشخیص بالینی؛ تصویربرداری (پانورکس یا CT) برای سایر دررفتگی‌ها. درمان قدامی بدون شکستگی: reduction بسته (با مسکن، شل‌کننده عضلانی یا sedation رویه‌ای)؛ معمولاً بیمار نشسته؛ شست‌ها با گاز پوشیده روی مولارها، فشار پایین و عقب. باز، غیرقابل جا انداختن، شکستگی یا آسیب عصبی: ارجاع اورژانس به OMFS. پس از reduction: دهان را > 2 cm تا 2 هفته باز نکند؛ ارجاع الکتیو OMFS.
+
+@variant mandible-dislocation-anterior
+name: Anterior mandible dislocation (atraumatic)
+level: II
+imp: Anterior mandibular dislocation
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: none
+cxr: none
+
+@scenario
+زن ۴۰ ساله پس از خمیازه گسترده با فک قفل‌شده باز، درد و ناتوانی در بستن دهان.
+
+@why
+reduction بسته با آنالژزی؛ بدون شکستگی.
+
+@I
+- Clinical diagnosis for atraumatic anterior dislocation; panoramic x-ray or CT for all other dislocations / trauma
+
+@S
+- Analgesia and / or muscle relaxant or procedural sedation to facilitate reduction (e.g., IV benzodiazepine / procedural sedation per protocol)
+
+@T
+- Closed reduction: seated patient, padded thumbs over molars, pressure downward and backward
+- After reduction: do not open mouth more than 2 cm for 2 weeks; soft diet
+
+@Co
+- Elective referral to oral and maxillofacial surgeon; emergent referral for open / nonreducible dislocations, fractures or nerve injury

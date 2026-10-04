@@ -1,0 +1,498 @@
+@cond teething-pericoronitis
+ch: 152
+name: Tooth eruption (teething) and pericoronitis
+name_fa: درآوردن دندان (teething) و پریکورونیت
+cc: ent
+keywords: teething, pericoronitis, wisdom teeth, third molar, penicillin VK, clindamycin, ibuprofen, دندان درآوردن, دندان عقل
+status: draft
+
+@features
+- teething: درآوردن دندان شیری: درد، تحریک‌پذیری و آب‌ریزش دهان؛ تب و اسهال نه ← علل دیگر را رد کن
+- پریکورونیت: بزرگسال و نوجوان: درد و التهاب موضعی با رویش مولار سوم («دندان عقل»)
+
+@ddx
+- !Odontogenic infection / deep space infection |
+- Viral gingivostomatitis (fever) |
+
+@redflags
+- تب یا اسهال در کودک (علت دیگر)، تریسموس، تورم صورت
+
+@guide
+teething: حوله مرطوب منجمد برای مکیدن و acetaminophen 15 mg/kg PO هر 6 ساعت؛ بی‌حس‌کننده موضعی با احتیاط شدید در شیرخوار (کاهش رفلکس gag). پریکورونیت: penicillin VK 500 mg PO چهار بار روزانه یا clindamycin 300 mg PO چهار بار روزانه، ibuprofen 400 تا 800 mg PO سه بار روزانه (± hydrocodone 5 mg/acetaminophen 325 mg یک تا دو قرص چهار بار روزانه)، و دهان‌شویه سالین گرم؛ ارجاع به جراح دهان یا دندانپزشک برای کشیدن مولار سوم.
+
+@variant teething-main
+name: Teething (infant)
+level: III
+imp: Tooth eruption (teething)
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+شیرخوار ۸ ماهه با تحریک‌پذیری و آب‌ریزش دهان، بدون تب و اسهال.
+
+@why
+علامتی؛ علل تب/اسهال را رد کن.
+
+@S
+- Acetaminophen 15 mg/kg PO every 6 h
+
+@T
+- Frozen damp towel to suck on; topical anesthetics with great caution in young infants (depress gag reflex)
+
+@Co
+- Discharge; PCP follow-up
+
+@variant pericoronitis-main
+name: Pericoronitis (third molar eruption)
+level: III
+imp: Pericoronitis
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مرد ۲۲ ساله با درد و تورم لثه اطراف مولار سوم پایین.
+
+@why
+آنتی‌بیوتیک و ضددرد؛ ارجاع برای کشیدن.
+
+@S
+- Ibuprofen 400–800 mg PO three times daily (± hydrocodone 5 mg/acetaminophen 325 mg 1–2 tablets PO four times daily) {ci: NSAID — renal disease, GI bleeding}
+
+@A
+- Penicillin VK 500 mg PO four times daily, or clindamycin 300 mg PO four times daily
+
+@T
+- Warm saline mouth rinses
+
+@Co
+- Referral to oral surgeon / dentist for third molar extraction
+
+@cond dental-caries-pulpitis-periodontal
+ch: 152
+name: Dental caries, pulpitis, periodontal abscess, ANUG and peri-implantitis
+name_fa: پوسیدگی دندان، پولپیت، آبسه پریودنتال، ANUG و peri-implantitis
+cc: ent
+keywords: dental caries, pulpitis, toothache, periodontal abscess, ANUG, trench mouth, peri-implantitis, dental block, chlorhexidine, دندان درد, پولپیت, آبسه لثه
+status: draft
+
+@features
+- caries: اسید باکتریایی ← فرسایش مینا؛ معاینه: دندان پوسیده؛ گاه نامرئی: کوبیدن دندان‌ها با ابزار فلزی؛ درمان‌نشده: پولپیت؛ برگشت‌پذیر: درد ناگهانی گذرا ثانیه‌ای با سرما/گرما؛ برگشت‌ناپذیر: درد دقیقه تا ساعت
+- آبسه پریودنتال: تجمع پلاک/آوار بین دندان و لثه
+- ANUG («trench mouth»): درد، پاپیلاهای بین‌دندانی زخمی «punched out»، خونریزی لثه، طعم بد، لنفادنوپاتی، تب و بوی تعفنی؛ جوانان با مقاومت کم (HIV، استرس، سوءتغذیه، مواد، عفونت)
+- peri-implantitis: عفونت ایمپلنت دندانی مشابه آبسه پریودنتال
+
+@ddx
+- !Deep space infection / Ludwig angina / abscess |
+- Trigeminal neuralgia / sinusitis / TMJ / ACS (referred) |
+
+@redflags
+- تب، تورم صورت/گردن، trismus، مشکل بلع
+
+@guide
+pulpitis: آنتی‌بیوتیک (penicillin VK 500 mg PO چهار بار روزانه یا clindamycin 300 mg چهار بار) رایج ولی اثربخشی بحث‌برانگیز؛ درمان: ibuprofen 400 تا 800 mg PO سه بار روزانه، hydrocodone 5/acetaminophen 325 یک تا دو قرص چهار بار روزانه، دهان‌شویه سالین گرم؛ بلوک دندانی برای تسکین کوتاه‌مدت؛ ارجاع دندانپزشک؛ آبسه: آنتی‌بیوتیک و I&D. آبسه پریودنتال کوچک: penicillin VK یا clindamycin، ضددرد، دهان‌شویه chlorhexidine 0.12% دو بار روزانه؛ بزرگ: I&D؛ ارجاع سریع دندانپزشکی. ANUG: metronidazole 500 mg PO سه بار روزانه و chlorhexidine 0.12% دو بار روزانه + رژیم نرم پروتئین‌دار، مولتی‌ویتامین و مایعات؛ بهبود چشمگیر ظرف 24 ساعت؛ ارجاع برای debridement/scaling و ورک‌آپ عوامل مستعد. peri-implantitis: شستشوی اطراف ایمپلنت با chlorhexidine 0.12%، metronidazole 500 mg PO سه بار روزانه یا amoxicillin 500 mg PO سه بار روزانه × 10 روز، ضددرد و ارجاع دندانپزشک.
+
+@variant dental-pain-pulpitis
+name: Dental caries / pulpitis (toothache)
+level: III
+imp: Dental caries / pulpitis
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مرد ۳۵ ساله با دندان‌درد شدید با سرما و گرما؛ دندان پوسیده؛ بدون تورم صورت.
+
+@why
+ضددرد، بلوک دندانی و ارجاع دندانپزشک.
+
+@S
+- Ibuprofen 400–800 mg PO three times daily; hydrocodone 5 mg/acetaminophen 325 mg 1–2 tablets PO four times daily if needed {ci: NSAID — renal disease / GI bleeding}
+- Dental nerve block for short-term pain relief (e.g., bupivacaine)
+
+@A
+- Penicillin VK 500 mg PO four times daily or clindamycin 300 mg PO four times daily (commonly prescribed; efficacy controversial); if abscess present consider antibiotics and incision and drainage
+
+@T
+- Warm saline mouth rinses; percuss teeth with metallic object to localize
+
+@Co
+- Dentist referral for definitive management
+
+@variant periodontal-abscess-anug
+name: Periodontal abscess / ANUG / peri-implantitis
+level: III
+imp: Periodontal abscess / ANUG / peri-implantitis
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مرد ۲۵ ساله سیگاری و استرس‌دار با درد لثه، پاپیل‌های زخمی، بوی تعفنی و خونریزی لثه.
+
+@why
+metronidazole و chlorhexidine؛ ارجاع برای debridement.
+
+@A
+- ANUG: metronidazole 500 mg PO three times daily {ci: alcohol interaction}
+- Periodontal abscess (small): penicillin VK 500 mg PO four times daily or clindamycin 300 mg PO four times daily; larger abscesses: incision and drainage
+- Peri-implantitis: metronidazole 500 mg PO three times daily or amoxicillin 500 mg PO three times daily for 10 days
+
+@T
+- Chlorhexidine 0.12% mouth rinses twice daily (irrigate around implant); analgesics; ANUG: protein-rich soft diet, multivitamins, oral fluids
+
+@Co
+- Prompt dental referral (debridement / scaling / workup of predisposing factors such as HIV)
+
+@cond odontogenic-deep-space-infection
+ch: 152
+name: Odontogenic deep space infection (Ludwig's angina, cavernous sinus thrombosis)
+name_fa: عفونت فضای عمیق دندانی (Ludwig، ترومبوز سینوس کاورنو)
+cc: ent, fever
+keywords: Ludwig angina, deep space infection, cavernous sinus thrombosis, odontogenic infection, airway, submandibular space, آنژین لودویگ, عفونت فضای عمیق
+status: draft
+
+@features
+- عفونت دندانی به‌راحتی به فضاهای صورت گسترش می‌یابد؛ همیشه درگیری فضای عمیق را رد کن؛ Ludwig: سلولیت هر دو فضای زیرفکی و زیرزبانی با گسترش به گردن و مدیاستن ← تهدید راه هوایی، عفونت شدید و مرگ؛ فضای infraorbital ← ترومبوز سینوس کاورنو: محدودیت نگاه جانبی، علائم مننژیال، سپسیس و کما
+
+@ddx
+- !Retropharyngeal abscess / epiglottitis / angioedema |
+- Masticator space abscess / parotitis |
+
+@redflags
+- تورم کف دهان، trismus، تغییر صدا، ریزش بزاق، فلج عصب کرانیال
+
+@guide
+هر دو: آنتی‌بیوتیک IV و مشاوره اورژانس جراحی؛ ترومبوز سینوس کاورنو: افزودن ضدانعقاد؛ مراقبت زودهنگام راه هوایی.
+
+@variant deep-space-infection-main
+name: Ludwig's angina / odontogenic deep neck infection / cavernous sinus thrombosis
+level: I
+imp: Odontogenic deep space infection (Ludwig angina / cavernous sinus thrombosis)
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: PA
+
+@scenario
+مرد ۴۵ ساله با دندان آبسه‌دار، تورم زیرفکی دوطرفه، ریزش بزاق، trismus و تب 39.
+
+@why
+محافظت راه هوایی، آنتی‌بیوتیک IV و جراحی فوری.
+
+@I
+- Contrast-enhanced CT neck / face (extent; airway) once airway secure; CXR PA (mediastinitis)
+
+@L
+- CBC, CRP, electrolytes, creatinine, glucose, blood cultures, lactate
+
+@A
+- Intravenous antibiotics (e.g., ampicillin-sulbactam 1.5–3 g IV every 6 h, or clindamycin 600 mg IV every 8 h, or penicillin G 2–3 million units IV every 6 h plus metronidazole 500 mg IV every 8 h; vancomycin if MRSA) {hi}
+
+@T
+- Early airway assessment / securement (fiberoptic or awake intubation / surgical airway backup); head up; NPO
+- Cavernous sinus thrombosis: add anticoagulation (with neurosurgery / ENT guidance)
+
+@Co
+- Emergent oral and maxillofacial / ENT surgery consultation; ICU admission
+
+@cond postextraction-pain-dry-socket-bleeding
+ch: 152
+name: Postextraction pain, dry socket (alveolar osteitis) and postextraction bleeding
+name_fa: درد پس از کشیدن دندان، خشک شدن حفره (dry socket) و خونریزی پس از کشیدن
+cc: ent, bleeding-bruising
+keywords: dry socket, alveolar osteitis, postextraction bleeding, eugenol, chlorhexidine, Gelfoam, Surgicel, کشیدن دندان, خشک شدن حفره
+status: draft
+
+@features
+- درد 24 تا 48 ساعت پس از کشیدن به یخ، بالا بردن سر و ضددرد پاسخ می‌دهد؛ dry socket 48 تا 72 ساعت پس از عمل با جابه‌جایی لخته: درد شدید، بوی بد و طعم بد؛ ارتباط با سیگار، نوشابه گازدار و استفاده از نی
+- خونریزی پس از کشیدن: از بیمار بخواهید 20 دقیقه گاز را گاز بگیرد؛ ادامه: پک حفره با Gelfoam، Avitene یا Surgicel؛ بخیه شل برای نگه داشتن؛ تزریق موضعی lidocaine 1% با epinephrine یا silver nitrate؛ شکست: پروفایل انعقادی و مشاوره جراح دهان
+
+@ddx
+- !Coagulopathy / anticoagulant effect |
+- Osteomyelitis / abscess |
+
+@redflags
+- خونریزی غیرقابل کنترل، ضدانعقاد، علائم سیستمیک
+
+@guide
+dry socket: شستشوی ملایم حفره با سالین یا chlorhexidine 0.12% سپس پک گاز آغشته به eugenol؛ موارد شدید: penicillin VK 500 mg چهار بار یا clindamycin 300 mg چهار بار؛ ضددرد، تعویض روزانه پک، دهان‌شویه chlorhexidine 0.12% دو بار و پیگیری دندانپزشکی 24 ساعت.
+
+@variant dry-socket-main
+name: Dry socket (alveolar osteitis)
+level: III
+imp: Dry socket (postextraction alveolar osteitis)
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مرد ۳۰ ساله 3 روز پس از کشیدن مولار با درد شدید و طعم بد؛ سیگاری.
+
+@why
+شستشو و پک eugenol.
+
+@S
+- Analgesics (NSAIDs / opioid as needed)
+
+@A
+- Severe cases: penicillin VK 500 mg PO four times daily or clindamycin 300 mg PO four times daily
+
+@T
+- Gentle irrigation of socket with saline or 0.12% chlorhexidine; pack socket with eugenol-impregnated gauze (change daily); chlorhexidine 0.12% mouth rinses twice daily; avoid smoking / straws
+
+@Co
+- Dental follow-up in 24 hours
+
+@variant postextraction-bleeding-main
+name: Postextraction bleeding
+level: II
+imp: Postextraction bleeding
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+زن ۵۵ ساله 6 ساعت پس از کشیدن دندان با خونریزی مداوم؛ بدون ضدانعقاد.
+
+@why
+گاز، پک موضعی و در شکست انعقاد.
+
+@L
+- Screening coagulation profile if measures fail (PT/INR, aPTT, platelet count)
+
+@S
+- Local infiltration 1% lidocaine with epinephrine
+
+@T
+- Bite on gauze over site for 20 min; pack socket with Gelfoam, Avitene or Surgicel (loosely approximating sutures to hold); careful silver nitrate application
+
+@Co
+- Oral surgeon consultation if measures fail
+
+@cond aphthous-stomatitis-oral-cancer
+ch: 152
+name: Aphthous stomatitis and oral cancer (leukoplakia / erythroplakia)
+name_fa: استوماتیت آفتی و سرطان دهان
+cc: ent
+keywords: aphthous ulcer, canker sore, triamcinolone dental paste, chlorhexidine, oral cancer, leukoplakia, erythroplakia, آفت دهان, سرطان دهان
+status: draft
+
+@features
+- آفت: ضایعات دردناک، اغلب متعدد؛ مخاط لبی و باکال؛ 2 mm تا چند سانتی‌متر؛ بهبود 7 تا 10 روز
+- سرطان دهان: leukoplakia (پلاک سفید غیرقابل برداشتن) و erythroplakia؛ شایع‌ترین محل: لبه خلفی-جانبی زبان؛ علائم: درد، پارستزی، زخم پایدار، خونریزی، سفتی/induration، لنفادنوپاتی، اختلال عملکرد
+
+@ddx
+- !Oral carcinoma / HSV gingivostomatitis / Behçet disease |
+- Candidiasis / hand-foot-mouth disease / HIV-related ulcers |
+
+@redflags
+- زخم پایدار > 14 روز، induration، لنفادنوپاتی، سیگار/الکل
+
+@guide
+آفت: triamcinolone acetonide 0.1% dental paste (Kenalog in Orabase) موضعی 2 تا 3 بار روزانه یا chlorhexidine 0.12% موضعی دو بار روزانه. سرطان: همه ضایعات مشکوک یا پایدار > 14 روز با وجود درمان: ارجاع اورژانس به جراح دهان برای بیوپسی.
+
+@variant aphthous-main
+name: Aphthous stomatitis
+level: III
+imp: Aphthous stomatitis
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+زن ۲۵ ساله با زخم‌های دردناک متعدد مخاط لب و گونه از 3 روز.
+
+@why
+موضعی؛ بهبود 7 تا 10 روز.
+
+@S
+- Triamcinolone acetonide 0.1% dental paste (Kenalog in Orabase) applied to lesions two to three times daily, or chlorhexidine 0.12% applied topically twice daily
+
+@T
+- Analgesia; avoid spicy / acidic foods
+
+@Co
+- Refer any suspicious lesion or lesion persisting > 14 days despite treatment to oral surgeon for biopsy
+
+@cond dental-fracture-luxation-avulsion
+ch: 152
+name: Dental trauma — fractures (Ellis), concussion / luxation, and tooth avulsion
+name_fa: تروما دندان — شکستگی (Ellis)، لوکساسیون و آوالسیون
+cc: head-injury, ent, wound-bite
+keywords: dental avulsion, tooth replantation, Ellis fracture, luxation, subluxation, Hank solution, calcium hydroxide, tooth knocked out, آوالسیون دندان, شکستگی دندان
+status: draft
+
+@features
+- Ellis: کلاس 1: فقط مینا: صاف با emery board یا ارجاع زیبایی؛ کلاس 2: عاج زرد کرمی زیر مینا سفید؛ حساسیت به هوا و دما: خشک کردن عاج و پوشاندن با calcium hydroxide یا glass ionomer؛ دندانپزشک ≤ 24 ساعت؛ کلاس 3: درگیری پالپ (لکه قرمز در عاج یا قطره خون پس از پاک کردن): لایه نازک calcium hydroxide روی پالپ + glass ionomer روی همه؛ دندانپزشک بر بالین ED ایده‌آل یا ≤ 24 ساعت؛ ضددرد خوراکی؛ بی‌حس‌کننده موضعی ممنوع؛ آنتی‌بیوتیک پروفیلاکتیک بحث‌برانگیز
+- concussion: حساسیت به پرکاشن بدون تحرک؛ subluxation: تحرک پس از تروما بدون جابه‌جایی؛ NSAID و رژیم نرم و ارجاع فوری؛ extrusive luxation: خروج نسبی از آلوئول: جا انداختن ملایم (بلوک دندانی) و splint با zinc oxide؛ دندانپزشک ≤ 24 ساعت؛ lateral luxation با شکستگی آلوئول: جا انداختن دستی ممکن ولی بهتر با مشاوره دندانپزشک؛ intrusive: پیش‌آگهی بد؛ همه luxation: رژیم نرم، بهداشت دهان، chlorhexidine 0.12% دو بار روزانه و ارجاع ≤ 24 ساعت
+- avulsion: اورژانس واقعی؛ دندان شیری جایگزین نمی‌شود؛ دائمی < 3 ساعت: فوراً replant؛ صحنه: فقط تاج، شستشو با آب < 10 ثانیه و replant؛ در غیر امکان (خطر آسپیراسیون): نگهداری در Hank's solution (4 تا 6 ساعت)، شیر سرد، بزاق یا سالین؛ زیر زبان بیمار هوشیار/والد؛ اتاق عمل: شستشو، لخته حفره را بردار، آپکس باز یا بسته
+
+@ddx
+- !Alveolar ridge / mandible / maxilla fracture |
+- Aspirated tooth (CXR) / child abuse |
+
+@redflags
+- آوالسیون، دندان گم‌شده (آسپیراسیون)، شک سوءاستفاده کودک، شکستگی فک
+
+@guide
+جدول 152-1 replantation: دندان مرطوب با آپکس باز در محیط مناسب و/یا < 60 دقیقه خشک: شستشوی ریشه با سالین، پوشش minocycline microspheres یا خیساندن 5 دقیقه در doxycycline (1 mg/20 mL سالین)، بی‌حسی موضعی، برداشتن لخته حفره با جریان سالین و بررسی شکستگی دیواره، replant محکم و تأیید موقعیت بالینی/رادیوگرافی، splint انعطاف‌پذیر تا 2 هفته؛ آپکس بسته: همین بدون minocycline؛ خشک > 60 دقیقه یا سلول غیرزنده: برداشتن بافت نرم نکروتیک با گاز، غوطه‌وری در stannous fluoride 2% به مدت 20 دقیقه، سپس replant و splint تا 4 هفته. مشاوره دندانپزشک زودهنگام ولی replant را تأخیر نده. پس از replant: بزرگسال doxycycline 100 mg PO دو بار × 7 روز؛ کودک < 12 سال penicillin VK 12.5 mg/kg/dose چهار بار × 7 روز؛ دندان گم‌شده: جستجوی بافت مجاور؛ اگر نیافت یا قطعه جزئی: رادیوگرافی صورت/گردن/قفسه برای دندان جابه‌جا یا آسپیره. آسیب‌های همراه: تصویربرداری برای شکستگی آلوئول/ماگزیلا/مندیبل. پیش‌آگهی ممکن ضعیف (50% نکروز پالپ در 1.5 سال در extrusive).
+
+@variant dental-fracture-ellis
+name: Fractured tooth (Ellis 1–3)
+level: III
+imp: Dental fracture (Ellis class)
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مرد ۲۰ ساله پس از ضربه به دهان با شکستگی ثنایای فوقانی؛ عاج زرد دیده می‌شود و به سرما حساس.
+
+@why
+پوشش عاج/پالپ و دندانپزشک ≤ 24 ساعت.
+
+@I
+- Facial / mandible imaging if clinical suspicion for alveolar ridge, maxillary or mandibular fracture
+
+@S
+- Oral analgesics (NSAIDs) {ci: topical anesthetics contraindicated for home}
+
+@T
+- Ellis 1: smooth with emery board or refer for cosmetic repair
+- Ellis 2: dry the dentin and promptly cover with calcium hydroxide paste or glass ionomer cement; dentist within 24 h
+- Ellis 3 (pulp exposure): thin layer calcium hydroxide paste over pulp then glass ionomer cement over patch and dentin; dentist evaluation in ED ideally or within 24 h if small exposure {note: prophylactic antibiotics controversial}
+
+@Co
+- Dentist within 24 h
+
+@variant dental-luxation
+name: Dental concussion / subluxation / luxation (extrusive, lateral, intrusive)
+level: III
+imp: Dental luxation injury
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+کودک ۱۰ ساله پس از ضربه با ثنایای شل و نیمه‌خارج‌شده.
+
+@why
+جا انداختن و splint، دندانپزشک ≤ 24 ساعت.
+
+@I
+- Dental / panoramic radiograph; imaging for alveolar / jaw fracture if suspected
+
+@S
+- NSAIDs
+
+@T
+- Extrusive luxation: gentle repositioning (dental block) and splint with zinc oxide periodontal dressing; lateral luxation with alveolar fracture: manual relocation possible, best with dentist; intrusive luxation: poor outcome
+- Soft diet; meticulous oral hygiene; chlorhexidine 0.12% mouth rinses twice daily
+
+@Co
+- Dentist within 24 h (urgent referral for concussion / subluxation to exclude more severe injury)
+
+@variant tooth-avulsion
+name: Tooth avulsion (permanent tooth knocked out)
+level: I
+imp: Dental avulsion
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: none
+cxr: PA
+
+@scenario
+مرد ۱۸ ساله پس از ضربه با ثنیه دائمی کامل کنده‌شده 30 دقیقه پیش؛ دندان در شیر سرد.
+
+@why
+replant فوری؛ بدون انتظار دندانپزشک.
+
+@I
+- If tooth missing or only partial tooth found: face, neck or chest radiographs (displaced / aspirated tooth)
+
+@S
+- Local anesthesia; analgesia
+- Adults: doxycycline 100 mg PO twice daily for 7 days; children < 12 years: penicillin VK 12.5 mg/kg/dose four times daily for 7 days (after replantation)
+
+@T
+- Permanent tooth avulsed < 3 h: replant immediately (handle by crown only; rinse < 10 s; replant at scene if possible; otherwise Hank's balanced salt solution / cold milk / saliva / saline; transport under tongue of alert cooperative patient or parent)
+- ED: gently rinse tooth (Hank's or saline); remove clot from socket with saline stream, examine socket (reposition wall fracture); open vs closed apex pathway; firmly replant, verify position clinically / radiographically; flexible splint up to 2 weeks (4 weeks if dry > 60 min)
+- Moist tooth with open apex: minocycline microspheres or 5-min doxycycline soak; dry time > 60 min: remove necrotic tissue, 2% stannous fluoride 20 min {ci: do NOT replant primary teeth in children}
+
+@Co
+- Early dentist consultation (do not delay replantation); tetanus update; consider abuse in child
+
+@cond oral-soft-tissue-laceration
+ch: 152
+name: Oral soft tissue trauma — lip, frenulum and tongue lacerations
+name_fa: تروما بافت نرم دهان — لاسراسیون لب، فرنولوم و زبان
+cc: wound-bite, ent
+keywords: tongue laceration, frenulum laceration, lip laceration, intraoral laceration, lingual nerve block, absorbable suture, لاسراسیون زبان, فرنولوم
+status: draft
+
+@features
+- ابتدا ترومای دندانی را تثبیت کن سپس بافت نرم؛ جستجوی کامل جسم خارجی؛ کزاز؛ در کودک شک سوءاستفاده
+- فرنولوم ماگزیلاری لابیال معمولاً ترمیم نمی‌خواهد؛ فرنولوم لینگوال بسیار عروقی: معمولاً با بخیه absorbable 4-0 ترمیم
+- زبان: عروقی؛ خونریزی عظیم یا تورم تأخیری وریدی ممکن راه هوایی را مسدود کند؛ اندیکاسیون ترمیم بحث‌برانگیز؛ اندیکاسیون‌های بستن اولیه: دو نیم شدن زبان، زخم باز در استراحت، خونریزی فعال، فلپ یا U شکل، لبه زبان، > 1 cm؛ بدون ترمیم: سطحی غیرباز خطی < 1 cm مرکز پشت زبان
+
+@ddx
+- !Airway compromise (tongue swelling / bleeding) |
+- Retained tooth fragment / foreign body |
+
+@redflags
+- خونریزی غیرقابل کنترل، قطع نسبی/کامل زبان، پیچیده
+
+@guide
+بی‌حسی: گاز آغشته به lidocaine 4% موضعی 5 دقیقه؛ گاه تزریق lidocaine 1% با epinephrine یا بلوک عصب لینگوال دوطرفه (2/3 قدامی). کنترل بیشتر: گرفتن نوک زبان با towel clamp یا بخیه سیلک موقت؛ bite block. ترمیم با بخیه absorbable 4-0 یا 5-0؛ شل، پهن و عمیق (برای ادم 2 روز اول)؛ تمام لایه‌ها با یک بخیه منفرد یا دو/سه لایه؛ در کودک ممکن فقط لایه عضله عمقی؛ لبه‌ها دقیق؛ هر بخیه ≥ 4 گره؛ حدود 7 روز بخیه‌ها می‌افتند. مشاوره تخصصی اورژانس: لاسراسیون نیازمند sedation رویه‌ای، بزرگ/پیچیده، قطع کامل/نسبی و مشکل در هموستاز.
+
+@variant tongue-laceration-main
+name: Tongue / intraoral laceration
+level: III
+imp: Tongue / intraoral laceration
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+کودک ۷ ساله با لاسراسیون 1.5 cm لبه زبان پس از افتادن.
+
+@why
+بستن اولیه لبه زبان با بخیه absorbable؛ ردّ تروما همراه.
+
+@I
+- (dental / facial imaging if teeth / fracture suspected)
+
+@S
+- Topical 4% lidocaine on gauze for 5 min; local infiltration 1% lidocaine with epinephrine or bilateral lingual nerve block if needed
+
+@T
+- Stabilize dental trauma first; search for retained foreign body; tetanus update; consider abuse in children
+- Primary closure indications: bisection, widely gaping at rest, active bleeding, flap / U-shaped, tongue edge, > 1 cm; non-gaping superficial linear < 1 cm central dorsal needs no repair
+- Repair with 4-0 or 5-0 absorbable sutures, loose, wide and deep; ≥ 4 knots; dental bite block
+
+@Co
+- Emergent specialty consultation for sedation needs, large / complex lacerations, partial / full amputation, hemostasis difficulty; aftercare as intraoral lacerations

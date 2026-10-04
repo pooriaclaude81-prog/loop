@@ -1,0 +1,557 @@
+@cond periorbital-orbital-cellulitis
+ch: 149
+name: Preseptal (periorbital) and postseptal (orbital) cellulitis
+name_fa: سلولیت پره‌سپتال (دور چشم) و پوست‌سپتال (اربیتال)
+cc: eye, fever
+keywords: preseptal cellulitis, periorbital cellulitis, orbital cellulitis, postseptal, CT orbit, amoxicillin-clavulanate, cefuroxime, ampicillin-sulbactam, vancomycin, سلولیت دور چشم, سلولیت اربیت
+status: draft
+
+@features
+- پره‌سپتال: عفونت بافت دور چشم؛ پوست‌سپتال: درگیری اربیت؛ هر دو عمدتاً کودکان < 10 سال؛ اشک‌ریزش زیاد، اریتم، گرمی، حساسیت پلک و بافت دور چشم
+- پره‌سپتال: بدون درگیری چشم: حدت بینایی، پاسخ مردمک و ظاهر چشم طبیعی و بدون درد با حرکات خارج‌چشمی؛ در صورت هر یک از این یا نگرانی پوست‌سپتال: CT با کنتراست اربیت (یا MRI)
+
+@ddx
+- !Orbital cellulitis / abscess / cavernous sinus thrombosis |
+- Dacryocystitis / hordeolum / allergic periorbital edema |
+
+@redflags
+- پروپتوز، درد با حرکات چشم، کاهش بینایی، APD، دوبینی، تب بالا، سمیت سیستمیک
+
+@guide
+پره‌سپتال بدون سمیت: سرپایی با amoxicillin/clavulanate 20 mg/kg PO تقسیم هر 12 ساعت (بزرگسال 500 mg PO سه بار روزانه) یا سفالوسپورین نسل اول، کمپرس گرم و پیگیری چشم‌پزشکی 24 تا 48 ساعت. موارد شدید یا پرخطر (کودک < 5 سال، بیماری همراه مهم) یا هر پوست‌سپتال: مشاوره اورژانس چشم‌پزشکی و بستری برای آنتی‌بیوتیک IV: تجربی: cefuroxime 50 mg/kg IV هر 8 ساعت یا ceftriaxone 50 mg/kg هر 12 ساعت یا ampicillin–sulbactam 50 mg/kg IV هر 6 ساعت؛ vancomycin اگر MRSA مشکوک؛ آلرژی پنی‌سیلین (بزرگسال): فلوروکینولون + metronidazole یا clindamycin.
+
+@variant preseptal-outpatient
+name: Preseptal cellulitis, nontoxic, no eye involvement (outpatient)
+level: III
+imp: Preseptal (periorbital) cellulitis
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+کودک ۸ ساله با تورم و قرمزی پلک پس از نیش حشره؛ بینایی و حرکات چشم طبیعی، بدون تب.
+
+@why
+آنتی‌بیوتیک خوراکی و پیگیری 24 تا 48 ساعت.
+
+@A
+- Amoxicillin/clavulanate 20 mg/kg/day PO divided every 12 h (adults 500 mg PO three times daily) or a first-generation cephalosporin (cephalexin)
+
+@T
+- Hot packs; confirm visual acuity, pupils and extraocular movements normal
+
+@Co
+- Ophthalmology follow-up within 24–48 h
+
+@variant orbital-cellulitis-iv
+name: Postseptal (orbital) cellulitis / severe or high-risk preseptal cellulitis
+level: I
+imp: Orbital cellulitis
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: none
+
+@scenario
+کودک ۴ ساله با تب، تورم اربیت، پروپتوز و درد با حرکات چشم.
+
+@why
+CT اربیت و آنتی‌بیوتیک IV فوری؛ چشم‌پزشکی.
+
+@I
+- CT orbit (and sinuses) with contrast (or MRI) to evaluate orbital involvement / abscess
+
+@L
+- CBC, blood cultures, CRP / ESR, electrolytes, creatinine
+
+@A
+- Cefuroxime 50 mg/kg IV every 8 h, or ceftriaxone 50 mg/kg IV every 12 h, or ampicillin–sulbactam 50 mg/kg IV every 6 h {hi}
+- Add IV vancomycin if MRSA suspected; penicillin-allergic adults: fluoroquinolone PLUS metronidazole or clindamycin
+
+@T
+- Visual acuity, pupils (APD), extraocular movements; neuro checks (cavernous sinus thrombosis / intracranial extension)
+
+@Co
+- Emergent ophthalmology consultation; admit; ENT (sinus source); neurosurgery if intracranial extension
+
+@cond stye-chalazion
+ch: 149
+name: Stye (external hordeolum) and chalazion
+name_fa: گل‌مژه (hordeolum) و شالازیون
+cc: eye
+keywords: stye, hordeolum, chalazion, meibomian gland, warm compress, erythromycin ointment, گل مژه, شالازیون
+status: draft
+
+@features
+- stye: عفونت حاد غده چربی کنار خط مژه؛ پوستول در لبه پلک؛ chalazion: التهاب حاد یا مزمن پلک ناشی از انسداد غده meibomian در tarsal plate؛ حاد ممکن دردناک؛ مزمن معمولاً بی‌درد
+
+@ddx
+- !Preseptal cellulitis |
+- Sebaceous cell carcinoma (recurrent chalazion) |
+
+@redflags
+- ضایعه راجعه/مقاوم، گسترش سلولیت
+
+@guide
+stye یا chalazion حاد: کمپرس گرم و مرطوب 4 بار روزانه و پماد erythromycin 0.5% چشمی دو بار روزانه × 7 تا 10 روز؛ ضایعه پایدار یا راجعه: ارجاع چشم‌پزشک.
+
+@variant stye-chalazion-main
+name: Stye / acute chalazion
+level: III
+imp: Stye (external hordeolum) / chalazion
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مرد ۳۰ ساله با برجستگی دردناک و قرمز لبه پلک.
+
+@why
+کمپرس گرم و پماد.
+
+@T
+- Warm, wet compresses four times daily
+- Erythromycin 0.5% ophthalmic ointment twice daily for 7–10 days
+
+@Co
+- Ophthalmology referral for persistent or recurrent lesions
+
+@cond conjunctivitis
+ch: 149
+name: Conjunctivitis (bacterial, viral, allergic, hyperacute gonococcal)
+name_fa: ورم ملتحمه (باکتریال، ویروسی، آلرژیک، گونوکوکی)
+cc: eye
+keywords: conjunctivitis, pink eye, bacterial conjunctivitis, viral conjunctivitis, allergic conjunctivitis, gonococcal conjunctivitis, contact lens, fluorescein, ملتحمه, قرمزی چشم
+status: draft
+
+@features
+- باکتریال: چسبندگی مژه‌ها، ترشح موکوپورولنت خفیف تا متوسط و التهاب ملتحمه؛ فلورسئین برای رد سایش، زخم و ضایعه دندریتیک؛ H. influenzae و M. catarrhalis در کودک؛ لنزپوش: پوشش Pseudomonas
+- ترشح چرکی شدید با شروع فوق‌حاد (12 تا 24 ساعت): شک گونوکوک: مشاوره اورژانس چشم‌پزشکی؛ Gram: دیپلوکوک گرم‌منفی داخل‌سلولی؛ نوزاد: شک STD (gonorrhea: ورک‌آپ بستری برای انتشار؛ chlamydia: رد پنومونی؛ HSV)
+- ویروسی: ترشح آبکی، chemosis، التهاب ملتحمه؛ اغلب با علائم تنفسی ویروسی و گاه لنفادنوپاتی پیش‌گوش؛ فلورسئین برای دندریت؛ بسیار مسری
+- آلرژیک: خارش، ترشح آبکی، chemosis با سابقه آلرژی؛ بدون ضایعه با فلورسئین و بدون گره پیش‌گوش؛ پاپیل ملتحمه در slit lamp
+
+@ddx
+- !Corneal abrasion / ulcer / HSV keratitis |
+- !Acute angle-closure glaucoma / iritis |
+- Gonococcal / chlamydial conjunctivitis |
+
+@redflags
+- ترشح چرکی فوق‌حاد، کاهش بینایی، درد شدید، فوتوفوبیا، لنزپوش، نوزاد
+
+@guide
+باکتریال: آنتی‌بیوتیک موضعی 5 تا 7 روز (جدول 149-1): erythromycin ointment نیم‌اینچ پایین پلک 2 تا 4 بار؛ ciprofloxacin 0.3% قطره 1 تا 2 قطره هر 4 ساعت (یا ointment 2 تا 3 بار)؛ ofloxacin؛ tobramycin؛ sulfacetamide 10% (نه در لنزپوش)؛ کینولون برای کودک (جذب سیستمیک کم)؛ از gentamicin به‌علت تحریک پرهیز؛ لنزپوش: پوشش آنتی‌سودوموناس و دور انداختن لنز. گونوکوک: کشت، ceftriaxone تزریقی و شستشوی سالین. ویروسی: کمپرس سرد 4 بار روزانه، naphazoline/pheniramine 0.025%/0.3% یک قطره 3 بار روزانه در صورت نیاز، اشک مصنوعی 5 تا 6 بار روزانه، پیگیری 7 تا 14 روز؛ آنتی‌بیوتیک روتین توصیه نمی‌شود مگر افتراق ممکن نباشد؛ احتیاط انتقال. آلرژیک: حذف عامل، کمپرس سرد، اشک مصنوعی 5 تا 6 بار، naphazoline/pheniramine 4 بار روزانه (یا olopatadine 0.1% دو بار)؛ موارد شدید استروئید ملایم فقط با مشاوره چشم‌پزشک.
+
+@variant conjunctivitis-bacterial
+name: Bacterial conjunctivitis (non-contact-lens wearer)
+level: III
+imp: Bacterial conjunctivitis
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مرد ۳۰ ساله با ترشح موکوپورولنت و چسبندگی مژه‌ها صبح؛ بینایی طبیعی و فلورسئین بدون ضایعه.
+
+@why
+آنتی‌بیوتیک موضعی 5 تا 7 روز.
+
+@T
+- Fluorescein staining of the cornea (exclude abrasion, ulcer, dendrite); avoid topical anesthetics for home use
+
+@A
+- Erythromycin 0.5% ophthalmic ointment half inch to lower lid 2–4 times daily for 5–7 days; or ciprofloxacin 0.3% solution 1–2 drops every 4 h; or tobramycin 0.3% solution 1–2 drops every 4 h; or sulfacetamide 10% solution 1–2 drops four times daily {ci: avoid gentamicin (ocular irritation); sulfacetamide not for contact lens wearers}
+
+@Co
+- Ophthalmology follow-up if no improvement; change antibiotic if erythromycin ineffective in children (H. influenzae, M. catarrhalis)
+
+@variant conjunctivitis-contact-lens
+name: Conjunctivitis in contact lens wearer (anti-pseudomonal coverage)
+level: II
+imp: Conjunctivitis in contact lens wearer
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+زن ۲۵ ساله لنزپوش با قرمزی، ترشح و درد خفیف چشم.
+
+@why
+کراتیت/زخم را رد کن و پوشش Pseudomonas.
+
+@T
+- Slit-lamp fluorescein examination; discard contact lens, do not replace until infection completely resolved {ci: no eye patching}
+
+@A
+- Ciprofloxacin 0.3% solution 1–2 drops every 2 h while awake for 2 days then every 4 h (ointment half inch to lower lid 3 times daily for 2 days); or ofloxacin 0.3% solution; or tobramycin 0.3% solution 1–2 drops every 4 h {ci: do not use erythromycin ointment or sulfacetamide for contact lens wearers}
+
+@Co
+- Ophthalmology follow-up 24 h
+
+@variant conjunctivitis-viral
+name: Viral conjunctivitis
+level: III
+imp: Viral conjunctivitis
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+زن ۳۵ ساله با ترشح آبکی، قرمزی، chemosis و علائم سرماخوردگی و غده پیش‌گوش.
+
+@why
+حمایتی و احتیاط انتقال.
+
+@T
+- Fluorescein staining (exclude dendritic lesions); cool compresses four times daily; artificial tears five or six times daily
+- Naphazoline/pheniramine 0.025%/0.3% one drop three times daily as needed for congestion / itching {ci: avoid in glaucoma}
+- Hand hygiene, transmission precautions (extremely contagious)
+
+@A
+- Topical antibiotics only if viral vs bacterial cannot be distinguished (routine use discouraged)
+
+@Co
+- Ophthalmology follow-up in 7–14 days
+
+@variant conjunctivitis-allergic
+name: Allergic conjunctivitis
+level: III
+imp: Allergic conjunctivitis
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+زن ۲۰ ساله با خارش شدید دو چشم، اشک‌ریزش و chemosis در بهار.
+
+@why
+حذف آلرژن و آنتی‌هیستامین موضعی.
+
+@T
+- Eliminate inciting agent; cool compresses four times daily; artificial tears five or six times daily
+- Naphazoline/pheniramine 0.025%/0.3% one drop four times daily; olopatadine 0.1% one drop twice daily {ci: avoid decongestant in glaucoma}
+- Severe: mild topical steroid ONLY in consultation with ophthalmologist
+
+@Co
+- Ophthalmology / allergist follow-up as needed
+
+@variant conjunctivitis-hyperacute-gonococcal
+name: Hyperacute purulent conjunctivitis (gonococcal) / neonatal conjunctivitis
+level: I
+imp: Hyperacute purulent conjunctivitis, suspected gonococcal
+cond: Emergent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مرد ۲۲ ساله با ترشح چرکی فراوان از دیروز و تورم پلک؛ یا نوزاد 5 روزه با ترشح چرکی.
+
+@why
+Gram و کشت، ceftriaxone و مشاوره اورژانس.
+
+@L
+- Gram stain (gram-negative intracellular diplococci) and culture; neonatal: sepsis workup (consider chlamydia / HSV)
+
+@A
+- Parenteral ceftriaxone for N. gonorrhoeae (dose per local protocol) {hi}
+
+@T
+- Saline irrigation to remove discharge; slit-lamp examination for corneal involvement
+
+@Co
+- Emergent ophthalmology; neonate: inpatient workup for disseminated disease (gonorrhea); if chlamydia suspected rule out associated pneumonia before discharge
+
+@cond ocular-herpes-simplex
+ch: 149
+name: Herpes simplex virus ocular infection (eyelid, conjunctiva, cornea)
+name_fa: عفونت چشمی هرپس سیمپلکس (HSV)
+cc: eye
+keywords: herpes simplex keratitis, dendritic ulcer, HSV conjunctivitis, trifluridine, acyclovir, neonatal HSV, آبله هرپس چشم, کراتیت دندریتیک
+status: draft
+
+@features
+- درگیری پلک، ملتحمه یا قرنیه؛ ضایعه قرنیه با فلورسئین روشن رنگ می‌گیرد: «dendrite» (نقص اپیتلیال خطی منشعب با انتهای bulb) یا «geographic ulcer»؛ حس قرنیه ممکن کم؛ تظاهر متغیر و ظریف؛ نباید با ورم ملتحمه اشتباه شود ← معاینه slit lamp با فلورسئین
+- نوزاد: ورم ملتحمه به‌ویژه با ضایعات مخاطی-پوستی، حتی بدون عفونت مادر
+
+@ddx
+- !Herpes zoster ophthalmicus / bacterial keratitis / corneal ulcer |
+- Conjunctivitis (viral / bacterial) |
+
+@redflags
+- ضایعه قرنیه، نوزاد، سرکوب ایمنی
+
+@guide
+شک HSV: مشاوره چشم‌پزشکی. فقط پلک: acyclovir 800 mg PO پنج بار روزانه × 7 تا 10 روز. ملتحمه: trifluorothymidine 1% قطره 9 بار روزانه؛ erythromycin 0.5% ointment دو بار و کمپرس گرم 3 بار روزانه برای جلوگیری از عفونت ثانویه باکتریال. درگیری قرنیه یا عمیق‌تر: انتخاب دارو با چشم‌پزشک. استروئید موضعی در همه موارد HSV کاملاً ممنوع. پیگیری نزدیک. نوزاد: acyclovir 20 mg/kg IV هر 8 ساعت + ضدویروس موضعی (trifluridine 1%، iododeoxyuridine 0.1% یا vidarabine 3%)؛ ورک‌آپ سپسیس؛ مشاوره اورژانس بالین؛ بدون استروئید.
+
+@variant hsv-eye-main
+name: Ocular HSV (eyelid / conjunctival / corneal dendrite)
+level: II
+imp: Herpes simplex ocular infection
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مرد ۳۵ ساله با قرمزی، فوتوفوبیا و درد چشم؛ slit lamp: دندریت قرنیه.
+
+@why
+ضدویروس و مشاوره چشم؛ بدون استروئید.
+
+@T
+- Slit-lamp fluorescein examination; check corneal sensation
+- Erythromycin 0.5% ophthalmic ointment twice daily; warm soaks three times daily to skin lesions {ci: topical steroids strictly contraindicated in HSV}
+
+@A
+- Eyelids only: acyclovir 800 mg PO five times daily for 7–10 days
+- Conjunctival involvement: trifluorothymidine (trifluridine) 1% drops nine times daily
+- Corneal / deeper involvement: antiviral per consulting ophthalmologist
+
+@Co
+- Ophthalmology consultation; close follow-up from ED
+
+@variant hsv-neonatal-eye
+name: Neonatal conjunctivitis with suspected HSV
+level: I
+imp: Neonatal HSV conjunctivitis
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: none
+cxr: none
+
+@scenario
+نوزاد 8 روزه با ورم ملتحمه و وزیکول پوستی.
+
+@why
+acyclovir IV و ورک‌آپ سپسیس.
+
+@L
+- Sepsis workup (CBC, blood / urine / CSF cultures, HSV PCR from conjunctiva / skin / blood / CSF, liver enzymes)
+
+@A
+- Acyclovir 20 mg/kg IV every 8 h {hi}
+- Topical antivirals (1% trifluridine, 0.1% iododeoxyuridine, or 3% vidarabine)
+
+@T
+- Bedside emergent ophthalmology; no steroid drops
+
+@Co
+- Emergent ophthalmology; neonatology / infectious disease; admit
+
+@cond herpes-zoster-ophthalmicus
+ch: 149
+name: Herpes zoster ophthalmicus (HZO)
+name_fa: هرپس زوستر چشمی (HZO)
+cc: eye, rash
+keywords: herpes zoster ophthalmicus, Hutchinson sign, shingles eye, pseudodendrite, valacyclovir, zoster eye, زونا چشم
+status: draft
+
+@features
+- زونا در توزیع تری‌ژمینال با درگیری چشم؛ علامت Hutchinson (نوک بینی) = HZO بالقوه؛ فوتوفوبیا و درد از iritis؛ slit lamp: «pseudodendrite» (پلاک موکوسی با رنگ‌گیری ضعیف)
+- زیر 40 سال با HZO: ارزیابی سرپایی برای نقص ایمنی
+
+@ddx
+- !HSV keratitis |
+- Iritis / glaucoma |
+
+@redflags
+- علامت Hutchinson، ضایعه قرنیه، کاهش بینایی، نقص ایمنی
+
+@guide
+اگر ضایعات پوستی < 7 روز: acyclovir 800 mg PO پنج بار روزانه یا famciclovir 500 mg سه بار روزانه یا valacyclovir 1000 mg سه بار روزانه × 7 تا 10 روز. روی ضایعات پوستی erythromycin 2% ointment و کمپرس گرم؛ درگیری چشم: erythromycin 0.5% ointment چشمی دو بار روزانه. راحتی: اوپیوئید خوراکی، cyclopentolate 1% یک قطره 3 بار روزانه و کمپرس سرد. iritis: prednisolone acetate 1% یک قطره هر 1 تا 6 ساعت ولی فقط اگر ضایعه قرنیه در slit lamp نباشد (استروئید موضعی در HSV کراتوکونژونکتیویت فاجعه‌بار). موارد شدید: بستری و acyclovir IV. مشاوره چشم‌پزشکی در همه.
+
+@variant hzo-main
+name: Herpes zoster ophthalmicus
+level: II
+imp: Herpes zoster ophthalmicus
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+زن ۶۵ ساله با زونا پیشانی و نوک بینی، قرمزی و درد چشم و فوتوفوبیا.
+
+@why
+ضدویروس خوراکی؛ مشاوره چشم؛ مراقب استروئید.
+
+@T
+- Slit-lamp examination with fluorescein; IOP; erythromycin 2% ointment + warm compresses to skin lesions; erythromycin 0.5% ophthalmic ointment to eye twice daily
+- Cyclopentolate 1% one drop three times daily; cool compresses; oral opioid analgesia
+- If iritis and NO corneal lesion: prednisolone acetate 1% one drop every 1–6 h (ophthalmology guidance) {ci: no steroids if corneal lesions / HSV keratitis}
+
+@A
+- Acyclovir 800 mg PO five times daily, or famciclovir 500 mg PO three times daily, or valacyclovir 1000 mg PO three times daily for 7–10 days (if skin lesions < 7 days) {ci: dose adjust in renal impairment}
+
+@Co
+- Ophthalmology consultation (all HZO); admit with IV acyclovir in severe cases; outpatient evaluation for immunocompromise if age < 40
+
+@cond corneal-ulcer
+ch: 149
+name: Corneal ulcer (infectious keratitis)
+name_fa: زخم قرنیه (کراتیت عفونی)
+cc: eye
+keywords: corneal ulcer, infectious keratitis, Pseudomonas, contact lens, hypopyon, ofloxacin, ciprofloxacin, زخم قرنیه
+status: draft
+
+@features
+- عفونت جدی استرومای قرنیه: باکتری (Pseudomonas aeruginosa)، ویروس (HSV، VZV) و قارچ؛ نقص ایمنی: قارچی/ویروسی؛ ارتباط با تروما، لنز extended-wear و خواب با لنز؛ درد، قرمزی، اشک‌ریزش، فوتوفوبیا و تاری دید
+- slit lamp: نقص رنگ‌گیر قرنیه با ارتشاح سفید مه‌آلود اطراف، iritis و گاه hypopyon
+
+@ddx
+- !HSV keratitis / HZO |
+- Corneal abrasion / foreign body / iritis |
+
+@redflags
+- hypopyon، لنزپوش، نقص ایمنی، کاهش بینایی
+
+@guide
+ofloxacin 0.3% یا ciprofloxacin 0.3% قطره، یک قطره در چشم مبتلا هر ساعت (شدید: هر 30 دقیقه در جدول 149-1: 1 تا 2 قطره هر 30 دقیقه بیدار + هر 4 تا 6 ساعت پس از خواب 2 روز، سپس هر ساعت 5 تا 7 روز). ضدقارچ/ضدویروس در نقص ایمنی با مشورت چشم‌پزشک. cycloplegic (cyclopentolate 1% یک قطره 3 بار روزانه) برای درد. patch چشم اکیداً ممنوع (تشدید عفونت Pseudomonas). قطره استروئید مگر با توصیه چشم‌پزشک. ایده‌آل: معاینه چشم‌پزشک در ED و کشت زخم قبل از آنتی‌بیوتیک؛ در غیر این صورت ظرف 12 تا 24 ساعت.
+
+@variant corneal-ulcer-main
+name: Corneal ulcer
+level: I
+imp: Corneal ulcer (infectious keratitis)
+cond: Emergent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+زن ۲۸ ساله لنزپوش با درد شدید، قرمزی، فوتوفوبیا و لکه سفید روی قرنیه؛ hypopyon کوچک.
+
+@why
+کشت و فلوروکینولون هر ساعت؛ بدون patch.
+
+@L
+- Corneal culture / scraping before antibiotics (ophthalmology); Gram stain
+
+@A
+- Ofloxacin 0.3% or ciprofloxacin 0.3% ophthalmic solution: 1 drop every hour in affected eye (per ophthalmology regimen) {hi}
+- Antifungal / antiviral agents for immunocompromised only in consultation with ophthalmologist
+
+@T
+- Cyclopentolate 1% one drop three times daily for pain; analgesia; discard contact lenses {ci: eye patching strictly contraindicated; avoid steroid drops unless advised by ophthalmologist}
+
+@Co
+- Ophthalmology: ideally seen in ED for culture before antibiotics; otherwise within 12–24 h
+
+@cond iritis-anterior-uveitis
+ch: 149
+name: Iritis (anterior uveitis)
+name_fa: ایریت (یووئیت قدامی)
+cc: eye
+keywords: iritis, anterior uveitis, consensual photophobia, hypopyon, cyclopentolate, tropicamide, prednisolone, ایریت
+status: draft
+
+@features
+- التهاب مجرای یووئال قدامی (عنبیه و جسم مژگانی)؛ علل (جدول 149-2): سیستمیک (JRA، اسپوندیلیت آنکیلوزان، کولیت اولسراتیو، Reiter، Behçet، سارکوئیدوز)، عفونی (TB، Lyme، توکسوپلاسموز، سیفلیس، HSV، VZV، آدنوویروس)، بدخیمی (لوسمی، لنفوم، ملانوم)، تروما/محیطی (جسم خارجی قرنیه، بلانت، UV)
+- قرمزی چشم، فوتوفوبیا، کاهش بینایی؛ علامت مشخصه: درد تونیک/همدلانه (درد چشم مبتلا با نور به چشم سالم)؛ slit lamp: WBC و flare در اتاق قدامی؛ hypopyon؛ فلورسئین برای سایش/زخم/دندریت؛ اندازه‌گیری IOP (ممکن بالا)
+
+@ddx
+- !Acute angle-closure glaucoma / corneal ulcer / HSV |
+- Conjunctivitis / scleritis / endophthalmitis |
+
+@redflags
+- hypopyon، IOP بالا، کاهش بینایی، تروما نافذ
+
+@guide
+پس از تشخیص: ورک‌آپ ED برای علت سیستمیک و درمان؛ درمان علامتی با tropicamide (جدول 149-1)؛ cycloplegic (cyclopentolate 1%)؛ مشاوره چشم‌پزشکی و پیگیری 24 تا 48 ساعت؛ قطره استروئید (prednisolone acetate 1%) فقط با دستور چشم‌پزشک.
+
+@variant iritis-main
+name: Iritis
+level: III
+imp: Iritis (anterior uveitis)
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مرد ۳۵ ساله با قرمزی یک‌چشمی، فوتوفوبیا و درد همدلانه؛ slit lamp: سلول و flare.
+
+@why
+سیکلوپلژیک و چشم‌پزشکی؛ ورک‌آپ سیستمیک.
+
+@L
+- IOP; fluorescein exam (abrasion / ulcer / dendrite); systemic etiology workup as indicated (CBC, ESR / CRP, HLA-B27, syphilis, TB / sarcoid screen)
+
+@S
+- Tropicamide 1% 1–2 drops (or cyclopentolate 1% one drop three times daily; homatropine 2% twice daily for iritis) {ci: mydriatics avoid in glaucoma}
+- Prednisolone acetate 1% ONLY if directed by ophthalmologist {ci: not if corneal lesion / HSV}
+
+@T
+- Dark glasses; oral analgesia
+
+@Co
+- Ophthalmology consultation with follow-up in 24–48 h
+
+@cond endophthalmitis
+ch: 149
+name: Endophthalmitis
+name_fa: اندوفتالمیت
+cc: eye
+keywords: endophthalmitis, intraocular infection, post cataract surgery, vitrectomy, اندوفتالمیت
+status: draft
+
+@features
+- عفونت ساختارهای عمیق کره چشم؛ درد و کاهش بینایی؛ اغلب عارضه نفوذ کره (تروما یا جراحی چشم)؛ ممکن انتشار هماتوژن؛ عوامل: Staphylococcus، Streptococcus، Haemophilus، Bacillus
+
+@ddx
+- !Iritis / ruptured globe / retinal detachment |
+
+@redflags
+- درد و کاهش بینایی پس از جراحی/تروما، hypopyon
+
+@guide
+مشاوره اورژانس چشم‌پزشکی و بستری؛ درمان: آسپیراسیون ویتره، ویترکتومی، آنتی‌بیوتیک داخل‌چشمی و سیستمیک و استروئید.
+
+@variant endophthalmitis-main
+name: Endophthalmitis
+level: I
+imp: Endophthalmitis
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: none
+
+@scenario
+مرد ۶۸ ساله 3 روز پس از جراحی آب مروارید با درد شدید، کاهش بینایی و hypopyon.
+
+@why
+مشاوره فوری چشم و آنتی‌بیوتیک داخل‌چشمی.
+
+@I
+- Ocular ultrasonography / CT orbit if trauma / foreign body suspected
+
+@L
+- Vitreous / aqueous cultures (ophthalmology); blood cultures if hematogenous spread suspected; CBC
+
+@A
+- Intravitreal and systemic broad-spectrum antibiotics per ophthalmology (vancomycin + ceftazidime typical) {note: vitreous aspiration / vitrectomy and steroids per ophthalmology}
+
+@T
+- Eye shield; NPO if surgery; analgesia
+
+@Co
+- Emergency ophthalmology consultation; admit
