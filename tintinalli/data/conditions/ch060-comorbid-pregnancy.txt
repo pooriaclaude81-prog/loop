@@ -1,0 +1,512 @@
+@cond diabetes-in-pregnancy
+ch: 60
+name: Diabetes in pregnancy: DKA and hypoglycemia
+name_fa: دیابت در بارداری: کتواسیدوز و هیپوگلیسمی
+cc: pregnancy, metabolic
+keywords: gestational diabetes, DKA in pregnancy, hypoglycemia in pregnancy, insulin requirement, glucagon, left lateral decubitus, دیابت بارداری
+status: draft
+
+@features
+- دیابتی‌ها در معرض عوارض بارداری و عوارض حاد دیابت؛ دیابت بارداری: رژیم، گاهی metformin یا glyburide؛ انسولین برای برخی و تقریباً همه دیابت نوع 1 و 2
+- نیاز انسولین با پیشرفت بارداری: 0.7 U/kg/d سه‌ماهه اول تا 1.0 U/kg/d در ترم
+- DKA سریع‌تر و در قند پایین‌تر رخ می‌دهد؛ DKA را در هر دیابتیک باردار بدحال و/یا قند ≥ 180 mg/dL در نظر بگیر
+- هیپوگلیسمی خفیف: قند < 70 و قادر به اجرای دستور؛ شدید: قند < 70 و ناتوان از اجرای دستور
+
+@ddx
+- !Diabetic ketoacidosis |
+- !Severe hypoglycemia |
+- Hyperemesis / sepsis |
+- Preeclampsia / HELLP |
+
+@redflags
+- بدحالی با قند ≥ 180، کاهش سطح هوشیاری، اسیدوز
+
+@guide
+DKA: اکسیژن، وضعیت دکوبیتوس جانبی چپ و درمان معمول DKA: احیای مایع ایزوتونیک، انسولین مداوم، اصلاح الکترولیت و درمان علت (فصل ۱۲۹). هیپوگلیسمی خفیف: شیر و کراکر؛ شدید: 50 mL دکستروز 50٪ IV و گلوکاگون 1 تا 2 mg IM/SC اگر IV دیر در دسترس؛ سپس دکستروز 5٪ IV با 50 تا 100 mL/h.
+
+@variant dka-pregnancy
+name: DKA in pregnancy
+level: I
+imp: Diabetic ketoacidosis in pregnancy
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+
+@scenario
+زنی ۲۸ ساله با دیابت نوع 1 و حاملگی ۲۴ هفته، تهوع، تنفس عمیق و قند 220.
+
+@why
+DKA در بارداری سریع‌تر و با قند پایین‌تر؛ الگوی درمان معمول به‌علاوه وضعیت جانبی چپ؛ پایش جنین.
+
+@L
+- Blood glucose, ketones, blood gas, electrolytes {note: tests as for usual DKA care, see Chapter 129}
+
+@S
+- Isotonic fluid resuscitation to correct volume deficits; continuous insulin infusion; correction of electrolyte abnormalities {ci: heart failure / pulmonary edema}
+
+@T
+- Supplemental oxygen; left lateral decubitus positioning
+- Treat the underlying cause
+
+@Co
+- Obstetrician (fetal monitoring); admit
+
+@variant hypoglycemia-pregnancy
+name: Hypoglycemia in pregnancy
+level: II
+imp: Hypoglycemia in pregnancy
+cond: Emergent
+act: CBR
+diet: PO
+ecg: once
+cxr: none
+
+@scenario
+زنی ۳۰ ساله باردار دیابتی، گیج و بی‌پاسخ با قند 40.
+
+@why
+شدید: دکستروز وریدی؛ خفیف: خوراکی.
+
+@L
+- Blood glucose
+
+@S
+- [mild: glucose < 70 mg/dL and able to follow commands] snack of milk and crackers
+- [severe: unable to follow commands] 50 mL of 50% dextrose in water IV; Glucagon 1 to 2 mg IM or subcutaneous if IV access is delayed; then 5% dextrose solution IV at 50 to 100 mL/h
+
+@cond thyroid-storm-pregnancy
+ch: 60
+name: Hyperthyroidism and thyroid storm in pregnancy
+name_fa: پرکاری تیروئید و طوفان تیروئید در بارداری
+cc: pregnancy, fever, palpitations
+keywords: thyroid storm, hyperthyroidism, PTU, propylthiouracil, Lugol, propranolol, esmolol, طوفان تیروئید
+status: draft
+
+@features
+- پرکاری تیروئید در بارداری: خطر پره‌اکلامپسی، ناهنجاری مادرزادی و عوارض نوزادی؛ علائم ممکن است لطیف و شبیه بارداری طبیعی باشد
+- درمان با PTU؛ خطر راش پورپوریک و آگرانولوسیتوز
+- طوفان تیروئید: تب، کم‌آبی یا دکمپانساسیون قلبی (نارسایی پرتوده)؛ درمان مشابه غیرحامله
+
+@ddx
+- !Thyroid storm |
+- !Preeclampsia |
+- Sepsis |
+- Normal pregnancy changes |
+
+@redflags
+- تب، تاکی‌کاردی، تغییر هوشیاری، نارسایی قلبی
+
+@guide
+اصول (جدول 60-1): مهار آزادسازی هورمون با تیونامید (PTU ارجح و T4→T3 را نیز مهار می‌کند): PTU 600–1000 mg PO بار سپس 200–250 mg هر 4 ساعت (سه‌ماهه اول) یا methimazole 40 mg بار سپس 25 mg هر 4 ساعت (سه‌ماهه دوم و سوم)؛ مهار تولید جدید (حداقل 1 ساعت بعد): Lugol 8–10 قطره هر 6–8 ساعت یا potassium iodide 5 قطره PO هر 6 ساعت یا iopanoic acid 1 g IV هر 8 ساعت؛ ید رادیواکتیو ممنوع؛ بلوک اثر محیطی: propranolol 1–2 mg IV هر 10–15 دقیقه و سپس 40 mg PO هر 6 ساعت یا esmolol 500 μg/kg بولوس و 50 μg/kg/min (در نارسایی قلبی نگه دار)؛ جلوگیری از تبدیل T4→T3: hydrocortisone 100 mg IV هر 8 ساعت یا dexamethasone 2 mg IV هر 6 ساعت؛ حمایتی: دکوبیتوس جانبی چپ، اکسیژن، پتوی خنک‌کننده، مایع، acetaminophen 650 mg PO هر 4 ساعت.
+
+@variant thyroid-storm-pregnancy
+name: Thyroid storm in pregnancy
+level: I
+imp: Thyroid storm in pregnancy
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+
+@scenario
+زنی ۳۰ ساله با حاملگی ۱۸ هفته، تب 40، تاکی‌کاردی 160 و آژیتاسیون.
+
+@why
+طوفان تیروئید: چند محور درمان همزمان با مراقبت جنین.
+
+@L
+- Thyroid function tests {note: not specifically stated in this chapter}
+
+@S
+- IV fluids {ci: heart failure / pulmonary edema}
+
+@T
+- Propylthiouracil (PTU) 600–1000 mg PO loading dose followed by 200–250 mg PO every 4 h (first trimester); or Methimazole 40 mg PO loading dose followed by 25 mg PO every 4 h (second and third trimesters)
+- At least 1 h later: Lugol solution 8–10 drops every 6–8 h, or Potassium iodide 5 drops PO every 6 h, or Iopanoic acid 1 g IV every 8 h {ci: no radioactive iodine}
+- Propranolol 1–2 mg IV every 10–15 min then 40 mg PO every 6 h, or Esmolol 500 μg/kg IV bolus then 50 μg/kg/min {ci: hold if evidence of heart failure}
+- Hydrocortisone 100 mg IV every 8 h, or Dexamethasone 2 mg IV every 6 h
+- Left lateral decubitus position; cooling blankets; Acetaminophen 650 mg PO every 4 h
+
+@Co
+- Endocrinology; obstetrician; ICU
+
+@cond hypertension-arrhythmia-pregnancy
+ch: 60
+name: Hypertensive crisis and dysrhythmias in pregnancy
+name_fa: بحران هیپرتانسیون و آریتمی در بارداری
+cc: pregnancy, palpitations, headache
+keywords: hypertension in pregnancy, labetalol, hydralazine, nifedipine, methyldopa, supraventricular tachycardia in pregnancy, amiodarone, فشار خون بارداری
+status: draft
+
+@features
+- هیپرتانسیون مزمن: فشار > 140/90 در دو نوبت قبل از هفته 20 یا ادامه بیش از 12 هفته پس از زایمان؛ ARB و ACE inhibitor در بارداری پرهیز
+- بحران حاد: labetalol یا hydralazine؛ پایش جنین و در نظر گرفتن پره‌اکلامپسی سوپرایمپوز
+- آریتمی ممکن است با بارداری و زایمان تحریک شود؛ SVT: واگال، β-blocker، adenosine، verapamil و diltiazem با دوز معمول؛ فیبریلاسیون دهلیزی نیازمند ضدانعقاد: UFH یا LMWH؛ کاردیوورژن الکتریکی برای جنین بی‌ضرر؛ amiodarone فقط در آریتمی مقاوم تهدیدکننده حیات (نوروتوکسیسیته جنین)
+
+@ddx
+- !Preeclampsia / eclampsia |
+- !Hemodynamically significant arrhythmia |
+- Chronic hypertension |
+- Placental abruption |
+
+@redflags
+- فشار شدید، علائم پره‌اکلامپسی، آریتمی ناپایدار
+
+@guide
+جدول 60-2: hydralazine بحران: بار 5 mg IV/IM سپس 5–10 mg هر 20–40 دقیقه تا 300 mg یا انفوزیون 0.5–10 mg/h (افت فشار دیررس)؛ labetalol بحران: بار 20 mg IV؛ نگهدارنده 20–80 mg تا 300 mg یا انفوزیون 1–2 mg/min (سردرد)؛ nifedipine بحران: 10–30 mg خوراکی، تکرار بعد از 45 دقیقه (سردرد، تداخل با زایمان). درمان مزمن: labetalol 200–2400 mg روزانه، nifedipine slow-release 30–120 mg، methyldopa 0.5–3 g (خواب‌آلودگی، آنزیم کبد بالا، افسردگی)، hydralazine 50–300 mg روزانه همراه methyldopa یا labetalol، HCTZ 12.5–50 mg (کم‌آبی و اختلال الکترولیت).
+
+@variant htn-crisis-pregnancy
+name: Hypertensive crisis in pregnancy
+level: I
+imp: Acute hypertensive crisis in pregnancy
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: none
+
+@scenario
+زنی ۳۲ ساله با حاملگی ۳۰ هفته، فشار 190/115 و سردرد.
+
+@why
+بحران فشار در بارداری با labetalol یا hydralazine؛ پایش جنین و رد پره‌اکلامپسی.
+
+@L
+- Evaluation for superimposed preeclampsia {note: see Chapter 61 for laboratory evaluation}
+
+@T
+- Labetalol loading dose 20 mg IV; maintenance 20–80 mg up to 300 mg, or constant infusion 1–2 mg/min
+- Or Hydralazine loading dose 5 mg IV or IM, then 5–10 mg every 20–40 min up to 300 mg, or constant infusion 0.5–10 mg/h {ci: use with methyldopa or labetalol to prevent reflex tachycardia}
+- Or Nifedipine 10–30 mg orally, repeated after 45 min if needed
+- Fetal well-being closely monitored {ci: avoid ACE inhibitors and ARBs in pregnancy}
+
+@Co
+- Obstetrician
+
+@variant arrhythmia-pregnancy
+name: Dysrhythmia in pregnancy
+level: II
+imp: Dysrhythmia in pregnancy
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+
+@scenario
+زنی ۲۸ ساله باردار با SVT و تپش قلب.
+
+@why
+درمان مشابه غیرحامله؛ amiodarone فقط موارد مقاوم تهدیدکننده؛ کاردیوورژن بی‌خطر.
+
+@T
+- Supraventricular tachycardia: vagal maneuvers, β-blockers, adenosine, verapamil and diltiazem at usual dosages
+- Atrial fibrillation requiring anticoagulation: unfractionated or low-molecular-weight heparin
+- Electrical cardioversion when indicated (not harmful to the fetus)
+- Amiodarone only for resistant, life-threatening dysrhythmias {ci: fetal neurotoxicity}
+
+@Co
+- Obstetrician; cardiology
+
+@cond thromboembolism-pregnancy
+ch: 60
+name: Deep vein thrombosis and pulmonary embolism in pregnancy
+name_fa: ترومبوآمبولی در بارداری (DVT و PE)
+cc: dyspnea, leg-swelling, chest-pain
+keywords: pregnancy DVT, pulmonary embolism in pregnancy, V/Q scan, CT-PA, heparin, low molecular weight heparin, D-dimer, warfarin contraindicated, آمبولی ریه بارداری
+status: draft
+
+@features
+- شایع‌ترین علت عوارض و مرگ مادری در کشورهای صنعتی؛ عوامل: سن بالا، پاریتی، چندقلویی، زایمان عملی، استراحت و چاقی
+- علائم ممکن است با بارداری طبیعی اشتباه شود؛ علائم مشابه غیرحامله
+- شروع ارزیابی DVT: سونوگرافی اندام تحتانی؛ شک PE: ابتدا CXR؛ D-dimer در بارداری ارزش ندارد (سطح در طول بارداری بالا می‌رود)؛ اگر CXR غیرتشخیصی: V/Q یا CT-PA
+- جدول 60-3: CXR (تابش حداقل، نامختص)؛ CT-PA (تابش بالای پستان، تابش جنین کمتر از V/Q؛ حساسیت و ویژگی بالا؛ نیاز به دور ریختن شیر ندارد)؛ V/Q (تابش پستان کم ولی جنین بیشتر از CT-PA؛ ناکارآمد در CXR غیرطبیعی، آسم، COPD؛ شیر 12 ساعت دور ریخته شود)؛ MRI/MRV (بدون تابش؛ ایمنی gadolinium برای جنین نامعلوم)
+
+@ddx
+- !Pulmonary embolism |
+- !Aortic dissection / peripartum cardiomyopathy |
+- Normal pregnancy dyspnea / edema |
+- Pneumonia |
+
+@redflags
+- هیپوکسی، تاکی‌کاردی، افت فشار، سنکوپ
+
+@guide
+درمان: UFH یا LMWH با دوز معمول؛ وارفارین ممنوع (از جفت عبور می‌کند؛ نقایص CNS و آمبریوپاتی استخوان و غضروف و هیپوپلازی بینی و اندام). فصل ۲۵.
+
+@variant vte-pregnancy
+name: Suspected DVT / PE in pregnancy
+level: II
+imp: Venous thromboembolism in pregnancy
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: PA
+
+@scenario
+زنی ۳۴ ساله با حاملگی ۲۸ هفته، تنگی نفس ناگهانی و ورم یک پا.
+
+@why
+در بارداری ابتدا CXR و سونوگرافی اندام؛ UFH/LMWH؛ بدون وارفارین.
+
+@I
+- Ultrasound of the lower extremities (DVT); chest radiograph first if PE is suspected; V/Q scan or CT pulmonary angiography if the chest radiograph is nondiagnostic
+
+@L
+- D-dimer may not be helpful (levels increase throughout pregnancy)
+
+@T
+- Unfractionated heparin or low-molecular-weight heparin at usual doses {ci: warfarin is contraindicated; crosses the placenta}
+
+@Co
+- Obstetrician
+
+@cond asthma-pyelonephritis-sickle-pregnancy
+ch: 60
+name: Asthma, pyelonephritis and sickle cell crisis in pregnancy
+name_fa: آسم، پیلونفریت و کریز سیکل‌سل در بارداری
+cc: dyspnea, flank-pain, joint-limb-pain
+keywords: asthma in pregnancy, terbutaline, prednisone, pyelonephritis in pregnancy, nitrofurantoin, sickle cell vaso-occlusive crisis, آسم بارداری
+status: draft
+
+@features
+- آسم: سرفه، ویز، تنگی نفس؛ درمان حاد: SpO2 > 95٪، β2-agonist استنشاقی، کورتیکواستروئید سیستمیک، پایش جنین؛ ipratropium در انسداد شدید؛ terbutaline 0.25 mg SC هر 20 دقیقه؛ epinephrine زیرجلدی در صورت امکان پرهیز؛ PEFR در بارداری تغییر نمی‌کند (هدف 380–550 L/min)
+- سیستیت و پیلونفریت: تظاهر و میکروب مشابه غیرحامله؛ TMP-SMX در سه‌ماهه سوم (کرن‌ایکتروس)، فلوروکینولون و تتراسایکلین پرهیز؛ پیلونفریت تهاجمی (زایمان زودرس و سپسیس)
+- سیکل‌سل: خطر سقط، زایمان زودرس و VOC؛ ارزیابی و درمان مشابه غیرحامله
+
+@ddx
+- !Preterm labor / sepsis (pyelonephritis) |
+- !Acute chest syndrome |
+- Pulmonary embolism / pneumonia |
+- Vaso-occlusive crisis |
+
+@redflags
+- هیپوکسی، تب با درد فلانک، سندرم قفسه سینه حاد یا حادثه عصبی جدید
+
+@guide
+آسم: ترخیص با prednisone 40 تا 60 mg/d به مدت 5 تا 10 روز و β-agonist نجات. سیستیت: nitrofurantoin 100 mg PO دو بار روزانه 3 تا 7 روز. پیلونفریت: بستری، مایع وریدی و سفالوسپورین نسل دوم یا سوم؛ اغلب سرکوب آنتی‌بیوتیک تا پایان بارداری. سیکل‌سل VOC: هیدراتاسیون تهاجمی، ضددرد، درمان علت زمینه‌ای و پایش جنین؛ اپیوئید مجاز، NSAID پرهیز به‌ویژه پس از هفته 32؛ ترانسفوزیون در شکست درمان محافظه‌کارانه، آنمی شدید، پره‌اکلامپسی، هیپوکسمی، سندرم قفسه سینه حاد یا حادثه عصبی جدید.
+
+@variant asthma-pregnancy
+name: Asthma exacerbation in pregnancy
+level: II
+imp: Asthma exacerbation in pregnancy
+cond: Urgent
+act: CBR
+diet: PO
+ecg: once
+cxr: PA
+o2: N.C 3-5 L/min or F.M 6-10 L/min if SpO2 < 95% (keep SpO2 > 95% in pregnancy)
+
+@scenario
+زنی ۲۹ ساله با حاملگی ۲۶ هفته، ویز و تنگی نفس.
+
+@why
+در بارداری SpO2 باید > 95٪ بماند؛ ایزوله از اپی‌نفرین زیرجلدی؛ پایش جنین.
+
+@T
+- Inhaled β2-agonist
+- Systemic corticosteroids {note: dose not given for acute therapy}
+- Aerosolized ipratropium in severely obstructed patients
+- Terbutaline sulfate 0.25 mg SC every 20 minutes {ci: avoid subcutaneous epinephrine if possible}
+- Discharge: Prednisone 40 to 60 mg/d for 5 to 10 days plus a rescue β-agonist
+
+@Co
+- Fetal monitoring; obstetrician
+
+@variant pyelonephritis-pregnancy
+name: Pyelonephritis in pregnancy
+level: II
+imp: Pyelonephritis in pregnancy
+cond: Urgent
+act: CBR
+diet: PO
+ecg: once
+cxr: none
+
+@scenario
+زنی ۲۷ ساله با حاملگی ۲۰ هفته، تب، لرز و درد فلانک.
+
+@why
+خطر زایمان زودرس و سپسیس؛ بستری، مایع و سفالوسپورین.
+
+@L
+- Urinalysis and urine culture
+
+@S
+- IV hydration {ci: heart failure / pulmonary edema}
+
+@A
+- Second- or third-generation cephalosporin {ci: avoid trimethoprim-sulfamethoxazole (third trimester kernicterus), fluoroquinolones and tetracyclines} {note: drug and dose not given in the book}
+
+@Co
+- Admission; many providers continue antibiotic suppression for the remainder of the pregnancy
+
+@variant sickle-pregnancy
+name: Sickle cell vaso-occlusive crisis in pregnancy
+level: II
+imp: Sickle cell vaso-occlusive crisis in pregnancy
+cond: Urgent
+act: CBR
+diet: PO
+ecg: once
+cxr: PA
+
+@scenario
+زنی ۲۵ ساله سیکل‌سل با حاملگی ۲۲ هفته و درد استخوانی شدید.
+
+@why
+هیدراتاسیون، اپیوئید، پرهیز از NSAID، ترانسفوزیون در موارد شدید.
+
+@S
+- Aggressive hydration {ci: heart failure / pulmonary edema}
+
+@T
+- Opiates for analgesia {hi}; avoid NSAIDs, particularly after 32 weeks gestation
+- Identify and treat the underlying cause; fetal monitoring
+- Blood transfusion when conservative measures fail, or with severe anemia, preeclampsia, hypoxemia, acute chest syndrome, or new-onset neurological event
+
+@Co
+- Obstetrician
+
+@cond headache-seizure-substance-pregnancy
+ch: 60
+name: Headache, seizure disorder and substance abuse in pregnancy
+name_fa: سردرد، تشنج و سوءمصرف مواد در بارداری
+cc: headache, seizure, behavioral, poisoning
+keywords: headache in pregnancy, migraine, seizure in pregnancy, status epilepticus, cocaine, opiate withdrawal, clonidine, alcohol, سردرد بارداری
+status: draft
+
+@features
+- سردرد: خوش‌خیم تا تهدیدکننده (خونریزی داخل جمجمه، ترومبوز ورید مرکزی، توده، عفونت، پره‌اکلامپسی/اکلامپسی)؛ هشدارها: شروع حاد، سردرد بعد از زایمان، نقص عصبی، تب، پاپیلادم یا خونریزی شبکیه
+- تشنج: دوره‌ها با تغییر فارماکوکینتیک ممکن است افزایش یابد؛ مدیریت مشابه غیرحامله؛ اکسیژن و وضعیت جانبی چپ؛ استاتوس با هیپوکسی/اسیدوز مادر مرگ‌ومیر بالا
+- کوکائین: مرگ جنین، جدا شدن جفت، زایمان زودرس، PROM، سقط، IUGR، انفارکت مغزی جنین؛ درمان مسمومیت حاد بدون تغییر
+- ترک حاد اپیوئید: clonidine 0.1 تا 0.2 mg SL هر ساعت در صورت نیاز حداکثر 0.8 mg؛ ارجاع برای متادون یا buprenorphine/naloxone
+- الکل: سقط، وزن کم هنگام تولد، زایمان زودرس و FAS؛ درمان ترک شدید مثل غیرحامله
+
+@ddx
+- !Eclampsia / preeclampsia |
+- !Intracranial hemorrhage / cerebral venous thrombosis |
+- Migraine |
+- Status epilepticus |
+
+@redflags
+- سردرد حاد یا پس از زایمان، نقص عصبی، تب، پاپیلادم، استاتوس
+
+@guide
+CT مغز در صورت لزوم با محافظ رحم. میگرن: acetaminophen، ضدتهوع و در صورت لزوم مخدر؛ ergot و triptan ممنوع. تشنج: اکسیژن، وضعیت جانبی چپ (فصل ۱۴۵)؛ استاتوس: اینتوباسیون و تهویه زودهنگام.
+
+@variant headache-pregnancy
+name: Headache in pregnancy
+level: II
+imp: Headache in pregnancy
+cond: Urgent
+act: CBR
+diet: PO
+ecg: once
+cxr: none
+
+@scenario
+زنی ۳۰ ساله باردار با سردرد شدید ناگهانی و تهوع.
+
+@why
+هشدارها را بررسی کن؛ CT با محافظ رحم؛ میگرن با acetaminophen و ضدتهوع.
+
+@I
+- CT scan of the brain with appropriate shielding of the uterus, if indicated
+
+@T
+- Migraine: Acetaminophen, antiemetics and, if necessary, narcotics {note: doses not given in the book; ergot alkaloids and triptans should not be used}
+
+@Co
+- Obstetrician (preeclampsia/eclampsia if applicable)
+
+@variant seizure-pregnancy
+name: Seizure in pregnancy
+level: I
+imp: Seizure in pregnancy
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: portable
+
+@scenario
+زنی ۲۸ ساله با صرع و حاملگی ۳۲ هفته، تشنج ادامه‌دار.
+
+@why
+اکسیژن، وضعیت جانبی چپ و درمان تهاجمی استاتوس با اینتوباسیون زودهنگام.
+
+@T
+- Supplemental oxygen; left lateral decubitus positioning (see Chapter 145)
+- Status epilepticus with prolonged maternal hypoxia and acidosis: early intubation and ventilation
+
+@Co
+- Obstetrician; neurology
+
+@variant substance-pregnancy
+name: Substance abuse in pregnancy (cocaine, opiate withdrawal, alcohol)
+level: II
+imp: Substance abuse in pregnancy
+cond: Urgent
+act: CBR
+diet: PO
+ecg: once
+cxr: none
+
+@scenario
+زنی ۲۶ ساله باردار با علائم ترک اپیوئید.
+
+@why
+ترک اپیوئید با clonidine و ارجاع؛ کوکائین و الکل مثل غیرحامله.
+
+@T
+- Acute opiate withdrawal: Clonidine 0.1 to 0.2 mg SL every hour as needed for symptoms, not to exceed 0.8 mg
+- Acute cocaine intoxication and severe alcohol withdrawal: treatment unchanged from nonpregnant patients
+
+@Co
+- Referral to addiction specialists for methadone or buprenorphine/naloxone therapy
+
+@cond pregnancy-drugs-imaging
+ch: 60
+name: Medications and diagnostic imaging in pregnancy and lactation
+name_fa: داروها و تصویربرداری در بارداری و شیردهی
+cc: pregnancy
+keywords: teratogenic drugs, drugs in pregnancy, LactMed, radiation in pregnancy, ACE inhibitors, warfarin, fluoroquinolones, داروهای بارداری
+status: draft
+
+@features
+- داروهای شناخته‌شده با اثر سوء (جدول 60-4): ACEi/ARB (نارسایی کلیه، oligohydramnios)؛ آمینوگلیکوزید (اوتوتوکسیسیتی؛ gentamicin کلاس D)؛ استروئید آندروژنیک (مذکرسازی)؛ ضدتشنج (carbamazepine، hydantoin، valproate: سندرم دیسمورفیک، NTD)؛ ضدتیروئید (گواتر جنین)؛ آسپرین دوز بالا (خونریزی)؛ سیتوتوکسیک مثل methotrexate؛ erythromycin estolate (هپاتوتوکسیسیتی مادر)؛ فلوروکینولون (غضروف)؛ isotretinoin؛ lithium (Ebstein)؛ NSAID طولانی پس از هفته 32 (oligohydramnios و بسته‌شدن داکتوس)؛ streptomycin؛ سولفونامید (همولیز جنین، کرن‌ایکتروس نزدیک ترم)؛ تتراسایکلین (دندان و استخوان)؛ trimethoprim و methotrexate (آنتی‌فولات اول بارداری)؛ thalidomide؛ warfarin
+- برای داروهای فهرست‌نشده: LactMed (NLM)
+- تصویربرداری: آستانه تراتوژنیک تابش 10 rad؛ سه‌ماهه اول آسیب‌پذیرترین؛ هیچ تست واحدی از آستانه نمی‌گذرد ولی اثر تجمعی را در نظر بگیر؛ سونوگرافی و MRI با تراتوژنی مرتبط نیستند
+
+@ddx
+- !Teratogenic drug exposure |
+
+@redflags
+- مصرف داروی ممنوع در بارداری
+
+@guide
+قبل از تجویز هر دارو در بارداری و شیردهی فهرست داروهای ناایمن را مرور کن؛ از سونوگرافی و MRI در صورت امکان استفاده کن؛ تابش یونیزان را فقط وقتی لازم است و با در نظر گرفتن اثر تجمعی.
+
+@variant drugs-imaging-reference
+name: Medication / imaging safety review in pregnancy
+level: III
+imp: Medication or imaging safety question in pregnancy
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+زنی ۳۰ ساله باردار نیازمند دارو یا تصویربرداری.
+
+@why
+مرور ایمنی دارو و تابش.
+
+@T
+- Review drug safety (Table 60-4) and LactMed (National Library of Medicine Drugs and Lactation Database) before prescribing {note: reference step, no order text in the book}

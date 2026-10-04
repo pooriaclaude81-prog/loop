@@ -1,0 +1,455 @@
+@cond preeclampsia-eclampsia
+ch: 61
+name: Preeclampsia, eclampsia and HELLP syndrome
+name_fa: پره‌اکلامپسی، اکلامپسی و سندرم HELLP
+cc: pregnancy, headache, seizure, hypotension-shock
+keywords: preeclampsia, eclampsia, HELLP, magnesium sulfate, labetalol, hydralazine, gestational hypertension, پره‌اکلامپسی, اکلامپسی
+status: draft
+
+@features
+- هیپرتانسیون مزمن: ≥ 140/90 قبل از بارداری، قبل از هفته 20 یا بیش از 12 هفته بعد از زایمان؛ خطر جدا شدن جفت، پره‌اکلامپسی، وزن کم تولد، سزارین، زایمان زودرس، مرگ جنین
+- هیپرتانسیون بارداری: ≥ 140/90 بعد از هفته 20 یا بلافاصله پس از زایمان بدون پروتئینوری؛ فشار ≥ 140/90 دو بار با فاصله ≥ 4 ساعت
+- پره‌اکلامپسی: هیپرتانسیون + پروتئینوری ≥ 300 mg/24h از هفته 20 تا 4–6 هفته بعد از زایمان؛ بدون پروتئینوری: ترومبوسیتوپنی < 100000، آنزیم کبدی دو برابر، کراتینین 1.1 یا دو برابر، ادم ریه، تغییر هوشیاری یا اختلال بینایی؛ ادم ممکن است نباشد
+- شدید: سردرد، اختلال بینایی، تغییر هوشیاری، ادم، الیگوری، تنگی نفس (ادم ریه)، درد شکم؛ فشار معمولاً ≥ 160/110
+- HELLP: همولیز، آنزیم کبدی بالا و پلاکت پایین؛ درد اپی‌گاستر و RUQ؛ فشار همیشه بالا نیست؛ در هر زن > 20 هفته با درد شکم مدنظر باشد
+- اکلامپسی: پره‌اکلامپسی همراه تشنج
+- تشخیص بالینی؛ آزمایش در شدید: کم‌خونی، ترومبوسیتوپنی، کراتینین بالا، آنزیم کبدی و LDH بالا؛ HELLP: شیستوسیت، پلاکت < 150000/mL، AST/ALT بالا
+- هماتوم ساب‌کپسولار کبد (سونو یا CT) با پارگی مرگ‌ومیر بالا
+
+@ddx
+- !HELLP syndrome / subcapsular liver hematoma |
+- !Eclampsia (seizure) |
+- Worsening chronic hypertension / transient hypertension |
+- Renal disease / fatty liver of pregnancy |
+- Coagulation disorders |
+
+@redflags
+- فشار ≥ 160/110، سردرد/اختلال بینایی، تشنج، درد RUQ/اپی‌گاستر، پلاکت پایین
+
+@guide
+1. پره‌اکلامپسی شدید و اکلامپسی: magnesium sulfate بار 4 تا 6 g IV طی 20 دقیقه، سپس انفوزیون 1 تا 2 g/h برای پیشگیری از تشنج؛ پایش سطح منیزیم و رفلکس‌ها.
+2. فشار > 160/110: labetalol 20 mg IV بولوس اولیه، سپس 40 تا 80 mg تکراری تا حداکثر 300 mg یا hydralazine 5.0 mg IV سپس 5 تا 10 mg هر 10 دقیقه.
+3. مشاوره اورژانس مامایی؛ 4. بستری همه با فشار پایدار ≥ 140 یا ≥ 90 با علائم پره‌اکلامپسی؛ 5. درمان قطعی: زایمان جنین؛ 6. خفیف: ممکن است سرپایی پس از مشاوره مامایی با آزمایش مکرر و پایش نزدیک جنین.
+
+@pearls
+- هر زن باردار > 20 هفته با درد شکم: HELLP را در نظر بگیر حتی با فشار طبیعی.
+
+@variant preeclampsia-mild
+name: Mild preeclampsia (outpatient candidate)
+level: III
+imp: Mild preeclampsia
+cond: Urgent
+act: CBR
+diet: PO
+ecg: once
+cxr: none
+
+@scenario
+زنی ۳۰ ساله با حاملگی ۳۶ هفته، فشار 145/95، پروتئینوری و بدون علامت.
+
+@why
+با مشاوره مامایی ممکن است سرپایی با آزمایش مکرر و پایش جنین.
+
+@L
+- Urinalysis for protein; platelet count, liver enzymes, creatinine, LDH
+
+@Co
+- Obstetrician consultation; arrangements for frequent laboratory evaluation and close fetal surveillance (hospitalize any patient with sustained BP ≥ 140/90 plus symptoms of preeclampsia)
+
+@variant preeclampsia-severe-eclampsia
+name: Severe preeclampsia / eclampsia / HELLP
+level: I
+imp: Severe preeclampsia / eclampsia / HELLP syndrome
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: portable
+
+@scenario
+زنی ۲۸ ساله با حاملگی ۳۴ هفته، فشار 185/115، سردرد شدید و تشنج.
+
+@why
+منیزیم برای پیشگیری از تشنج، کنترل فشار و زایمان؛ مشاوره فوری مامایی.
+
+@I
+- Focused ultrasonography or CT of the pelvis and abdomen if subcapsular hematoma is a concern
+
+@L
+- CBC with platelets, peripheral smear (schistocytes), creatinine, AST, ALT, LDH, urinalysis
+
+@T
+- Magnesium sulfate loading dose 4 to 6 g IV over 20 minutes, followed by maintenance infusion 1 to 2 g/h; monitor serum magnesium levels and reflexes {renal: adjust in renal insufficiency}
+- Severe hypertension > 160/110: Labetalol 20 mg IV initial bolus, then repeat boluses 40 to 80 mg if needed to a maximum of 300 mg; or Hydralazine 5.0 mg IV initially, then 5 to 10 mg every 10 minutes
+
+@Co
+- Emergent obstetrician consultation; definitive treatment requires delivery of the fetus
+
+@cond chest-pain-pregnancy
+ch: 61
+name: Chest pain, MI and heart failure in pregnancy
+name_fa: درد قفسه سینه، MI و نارسایی قلبی در بارداری
+cc: chest-pain, dyspnea
+keywords: chest pain in pregnancy, myocardial infarction pregnancy, aortic dissection, cardiomyopathy, nitroprusside, درد قفسه سینه بارداری
+status: draft
+
+@features
+- علل مشابه غیرحامله؛ دیسکسیون آئورت و کاردیومیوپاتی ممکن است مرتبط با بارداری باشند
+- MI در بارداری: آسپیرین، هپارین و PCI به‌جای ترومبولیتیک
+- CHF و ادم ریه: درمان استاندارد به‌جز sodium nitroprusside (تجمع تیوسیانات و سیانید در جنین)
+
+@ddx
+- !Acute coronary syndrome |
+- !Aortic dissection |
+- !Pulmonary embolism |
+- Peripartum cardiomyopathy |
+
+@redflags
+- ایسکمی، افت فشار، هیپوکسی
+
+@guide
+MI: aspirin، heparin و PCI نه ترومبولیتیک. CHF/ادم ریه: درمان استاندارد بدون نیتروپروساید. به PE و دیسکسیون در بارداری فکر کن.
+
+@variant chest-pain-mi-pregnancy
+name: Acute myocardial infarction or pulmonary edema in pregnancy
+level: I
+imp: Acute myocardial infarction / heart failure in pregnancy
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+
+@scenario
+زنی ۳۸ ساله با حاملگی ۳۲ هفته، درد قفسه سینه و ST elevation.
+
+@why
+در بارداری PCI به‌جای ترومبولیتیک؛ نیتروپروساید ممنوع.
+
+@L
+- Cardiac troponin {note: not specified in this chapter}
+
+@T
+- Aspirin and heparin; percutaneous intervention rather than thrombolytics
+- Heart failure and pulmonary edema: standard modalities {ci: avoid sodium nitroprusside (thiocyanate and cyanide accumulation in the fetus)}
+
+@Co
+- Cardiology and obstetrician
+
+@cond bleeding-late-pregnancy
+ch: 61
+name: Vaginal bleeding in the second half of pregnancy (placental abruption, placenta previa)
+name_fa: خونریزی واژینال در نیمه دوم بارداری (جدا شدن جفت، جفت سرراهی)
+cc: vaginal-bleeding, pregnancy
+keywords: placental abruption, placenta previa, DIC, Rh immune globulin, tocolytics contraindicated, جدا شدن جفت, جفت سرراهی
+status: draft
+
+@features
+- شایع‌ترین علل: جدا شدن جفت، جفت سرراهی و زایمان زودرس
+- abruption: جدا شدن زودرس جفت؛ در هر زن نزدیک ترم با خونریزی دردناک؛ خونریزی، درد شکم، تندرنس رحم، انقباضات هیپرتونیک، افزایش تون، دیسترس جنین، DIC و مرگ جنین/مادر؛ > 50٪ جفت معمولاً مرگ جنین؛ بعد از ترومای حتی خفیف
+- previa: لانه‌گزینی جفت روی os سرویکس؛ خونریزی بدون درد قرمز روشن و غالباً زیاد (برخلاف bloody show)
+- سونوگرافی ترانس‌ابدومینال قبل از معاینه اسپکولوم یا دیجیتال (در previa ممنوع)؛ ترانس‌واژینال در صورت نامشخص توسط فرد باتجربه؛ حساس برای previa، محدود برای abruption
+
+@ddx
+- !Placental abruption |
+- !Placenta previa |
+- Preterm labor / bloody show |
+- Uterine rupture |
+
+@redflags
+- شوک، DIC، دیسترس جنین، بعد از ترومای شکم
+
+@guide
+ناپایداری: NS وریدی یا PRBC. مشاوره اورژانس مامایی؛ CBC، type and cross، انعقاد و الکترولیت؛ DIC profile در شک به abruption؛ Rh(D) immune globulin 300 μg IM در Rh منفی؛ سزارین اورژانس ممکن؛ tocolytic ممنوع در abruption.
+
+@variant bleeding-late-unstable
+name: Placental abruption / placenta previa with bleeding
+level: I
+imp: Vaginal bleeding in late pregnancy (abruption / previa)
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: none
+
+@scenario
+زنی ۳۳ ساله با حاملگی ۳۶ هفته، خونریزی واژینال و درد شکم، فشار 85/50 پس از تصادف.
+
+@why
+ناپایداری و احتمال سزارین اورژانس؛ سونوگرافی قبل از معاینه واژینال.
+
+@I
+- Transabdominal ultrasound before speculum or digital pelvic examination (contraindicated in previa); transvaginal if nondiagnostic (by an experienced operator)
+
+@L
+- Type and cross, baseline coagulation studies, electrolytes; DIC profile if placental abruption suspected
+
+@S
+- Hemodynamic instability: IV normal saline or packed red blood cells
+
+@T
+- Rh (D) immune globulin 300 μg IM for Rh-negative patients
+- Do not use tocolytics in suspected abruption
+
+@Co
+- Emergent obstetric consultation (may need emergent cesarean delivery)
+
+@cond prom-preterm-labor
+ch: 61
+name: Premature rupture of membranes and preterm labor
+name_fa: پارگی زودرس کیسه آب و زایمان زودرس
+cc: pregnancy
+keywords: PROM, premature rupture of membranes, ferning, nitrazine, preterm labor, tocolytics, dexamethasone, group B Streptococcus, پارگی کیسه آب
+status: draft
+
+@features
+- PROM: پارگی غشاها قبل از شروع زایمان؛ خروج ناگهانی یا نشت مداوم مایع؛ تأیید: برکه مایع در فورنیکس خلفی با pH > 7.0 و ferning
+- معاینه با اسپکولوم استریل؛ معاینه دیجیتال لگن پرهیز (افزایش عفونت و کاهش دوره نهفته)
+- تست کلامیدیا، گنوره، BV و GBS
+- زایمان زودرس: < 37 هفته؛ انقباضات منظم با افاسمان و اتساع سرویکس
+- معاینه دیجیتال (دستکش استریل) فقط بعد از رد PROM و previa
+- سونوگرافی برای سن، وزن، آناتومی و مایع آمنیوتیک در صورت امکان؛ مشاوره نباید به تأخیر بیفتد
+
+@ddx
+- !Placental abruption / placenta previa |
+- !Chorioamnionitis |
+- Urinary leakage / vaginal discharge |
+
+@redflags
+- تب، دیسترس جنین، خونریزی
+
+@guide
+PROM: درمان وابسته به سن حاملگی و بلوغ جنین، وضعیت جنین، نگرانی عفونت؛ ممکن است آنتی‌بیوتیک و استروئید؛ مشاوره مامایی برای درمان و بستری. زایمان زودرس: پایش مادر و جنین؛ مشاوره مامایی برای بستری و تصمیم tocolytic؛ اگر tocolytic آغاز شد و سن < 34 هفته: گلوکوکورتیکوئید برای بلوغ ریه جنین (dexamethasone 6 mg IM شایع)؛ tocolytic ممنوع در شک به abruption؛ < 34 هفته: انتقال به مرکز با NICU در صورت امکان.
+
+@variant prom-stable
+name: Premature rupture of membranes
+level: II
+imp: Premature rupture of membranes
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+زنی ۲۸ ساله با حاملگی ۳۲ هفته، خروج ناگهانی مایع از واژن.
+
+@why
+تأیید با اسپکولوم استریل؛ پرهیز از معاینه دیجیتال؛ مشاوره مامایی.
+
+@L
+- Sterile speculum examination: pool of fluid in the posterior fornix with pH > 7.0 and ferning pattern on smear; tests for chlamydia, gonorrhea, bacterial vaginosis and group B Streptococcus
+
+@A
+- Antibiotics and steroids may be appropriate {note: drugs and doses not given in the book}
+
+@Co
+- Obstetrics consultation for treatment and admission decisions
+
+@variant preterm-labor
+name: Preterm labor (< 37 weeks)
+level: II
+imp: Preterm labor
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: none
+cxr: none
+
+@scenario
+زنی ۲۹ ساله با حاملگی ۳۱ هفته، انقباضات منظم و اتساع ۳ cm.
+
+@why
+پایش مادر و جنین؛ مشاوره مامایی برای tocolytic و استروئید.
+
+@I
+- Ultrasound for fetal age, weight, anatomy and amniotic fluid level if possible (obstetric consultation should not be delayed awaiting results)
+
+@L
+- Cervical fluid examined for possible PROM; tests for chlamydia, gonorrhea, bacterial vaginosis and group B Streptococcus
+
+@T
+- Monitor mother and fetus
+- If tocolytics are initiated and gestational age < 34 weeks: Dexamethasone 6 mg IM (glucocorticoid for fetal lung maturity) {ci: no tocolytics if placental abruption suspected}
+
+@Co
+- Obstetrician for admission and tocolytic decisions; transfer to a tertiary care center with a high-risk ICU if < 34 weeks
+
+@cond postpartum-hemorrhage
+ch: 61
+name: Postpartum hemorrhage
+name_fa: خونریزی پس از زایمان
+cc: vaginal-bleeding, hypotension-shock
+keywords: postpartum hemorrhage, uterine atony, oxytocin, retained products, uterine inversion, uterine rupture, خونریزی بعد از زایمان
+status: draft
+
+@features
+- روز اول: آتونی رحم، پارگی رحم، پارگی دستگاه تناسلی تحتانی، بافت جفت باقیمانده، اینورژن رحم، کواگولوپاتی؛ بعد از 24 ساعت: باقیمانده محصولات، پولیپ رحم، کواگولوپاتی (vWD)
+- رحم بزرگ و خمیری: آتونی؛ توده واژینال: اینورژن؛ خونریزی با تون و اندازه خوب: باقیمانده یا پارگی رحم
+- واژن و سرویکس را برای پارگی بازرسی کن
+
+@ddx
+- !Uterine atony |
+- !Uterine rupture / inversion |
+- Retained products of conception |
+- Genital tract laceration |
+- Coagulopathy |
+
+@redflags
+- شوک، توده واژینال، ادامه خونریزی با تون خوب
+
+@guide
+اولویت اول: تثبیت با کریستالوئید و/یا PRBC؛ CBC، انعقاد، type and cross. آتونی: ماساژ رحم و oxytocin 20 واحد در یک لیتر نرمال سالین IV با 200 mL/h. پارگی‌های جزئی در ED ترمیم می‌شود؛ پارگی وسیع، باقیمانده، اینورژن یا پارگی رحم: عمل اورژانس توسط متخصص زنان.
+
+@variant pph-atony
+name: Postpartum hemorrhage
+level: I
+imp: Postpartum hemorrhage
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: none
+
+@scenario
+زنی ۳۰ ساله ۶ ساعت پس از زایمان با خونریزی شدید، رحم بزرگ و خمیری و فشار 80/50.
+
+@why
+آتونی شایع‌ترین علت؛ احیا، ماساژ رحم و oxytocin.
+
+@L
+- Clotting studies; type and cross
+
+@S
+- Stabilization with crystalloid IV fluids and/or packed red blood cells if needed
+
+@T
+- Uterine massage and Oxytocin 20 units in one liter of normal saline IV at 200 mL/h (uterine atony)
+- Minor lacerations may be repaired in the ED; vagina and cervix inspected for lacerations
+
+@Co
+- Emergency operative treatment by the obstetrician (extensive lacerations, retained products of conception, uterine inversion or uterine rupture)
+
+@cond postpartum-endometritis-mastitis
+ch: 61
+name: Postpartum endometritis and mastitis
+name_fa: آندومتریت پس از زایمان و ماستیت
+cc: fever, abdominal-pain
+keywords: postpartum endometritis, mastitis, breast abscess, clindamycin, gentamicin, cefoxitin, dicloxacillin, cephalexin, ماستیت
+status: draft
+
+@features
+- آندومتریت: عفونت پلی‌میکروبیال، چند روز پس از زایمان؛ تب، درد تحتانی شکم، لوشیای بدبو؛ تندرنس رحم/سرویکس و ترشح
+- ماستیت: سلولیت بافت اطراف غدد پستان؛ تورم، قرمزی، تندرنس و احتقان بخشی از پستان با یا بدون تب و لرز؛ stasis شیر مشابه ولی بدون اریتم، تب یا لرز
+- تمایز ماستیت از آبسه پستان با سونوگرافی بالین
+
+@ddx
+- !Breast abscess |
+- !Sepsis from endometritis |
+- Milk stasis |
+- Wound infection / UTI |
+
+@redflags
+- ظاهر بیمار، سزارین، بیماری زمینه‌ای، ترشح چرکی
+
+@guide
+آندومتریت: CBC، UA و کشت سرویکس؛ بستری برای آنتی‌بیوتیک در بدحال، سزارین یا بیماری زمینه‌ای؛ سرپایی: clindamycin یا doxycycline (در شیردهی doxycycline ممنوع)؛ بستری: clindamycin 450 تا 900 mg IV هر 8 ساعت + gentamicin 1.5 mg/kg IV هر 8 ساعت یا cefoxitin 1 تا 2 g IV هر 6 ساعت. ماستیت: dicloxacillin 500 mg PO چهار بار روزانه یا cephalexin 500 mg چهار بار روزانه؛ clindamycin 300 mg PO هر 6 ساعت در آلرژی پنی‌سیلین یا نگرانی MRSA؛ ضددرد خوراکی؛ ادامه شیردهی از پستان درگیر (در ترشح چرکی: دوشیدن و دور ریختن شیر).
+
+@variant endometritis-postpartum
+name: Postpartum endometritis
+level: II
+imp: Postpartum endometritis
+cond: Urgent
+act: CBR
+diet: PO
+ecg: once
+cxr: none
+
+@scenario
+زنی ۲۷ ساله ۴ روز پس از سزارین با تب، درد زیر شکم و ترشح بدبو.
+
+@why
+سزارین یا بدحال: بستری و آنتی‌بیوتیک وریدی.
+
+@L
+- Urinalysis and cervical cultures
+
+@A
+- Inpatient: Clindamycin 450 to 900 mg IV every 8 hours plus Gentamicin 1.5 mg/kg IV every 8 hours, or Cefoxitin 1 to 2 g IV every 6 hours {renal: aminoglycoside}
+- Outpatient regimens may include Clindamycin or Doxycycline {ci: do not use doxycycline in breastfeeding patients} {note: outpatient doses not given in the book}
+
+@Co
+- Admission for ill-appearing patients, after cesarean section, or with comorbidities; obstetrician
+
+@variant mastitis-postpartum
+name: Mastitis
+level: III
+imp: Mastitis
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+زنی ۲۸ ساله شیرده با قرمزی، تورم و درد پستان راست و تب.
+
+@why
+ماستیت با آنتی‌بیوتیک خوراکی و ادامه شیردهی؛ سونوگرافی برای رد آبسه.
+
+@I
+- Bedside ultrasound to differentiate mastitis from breast abscess
+
+@A
+- Dicloxacillin 500 mg orally four times daily, or Cephalexin 500 mg orally four times daily
+- Penicillin allergy or MRSA concern: Clindamycin 300 mg PO every 6 hours
+
+@T
+- Oral analgesics as needed {note: drug and dose not given in the book}
+- Continue nursing on the affected breast (in cases of purulent discharge, pump and discard the milk rather than nurse)
+
+@cond amniotic-fluid-embolism
+ch: 61
+name: Amniotic fluid embolism
+name_fa: آمبولی مایع آمنیوتیک
+cc: hypotension-shock, dyspnea
+keywords: amniotic fluid embolism, cardiovascular collapse, DIC, آمبولی مایع آمنیوتیک
+status: draft
+
+@features
+- بیماری ناگهانی فاجعه‌بار با مرگ‌ومیر 60٪ تا 80٪
+- کولاپس قلبی-عروقی ناگهانی با هیپوکسمی، ادم ریه، تغییر هوشیاری، تشنج و DIC همراه دیسترس ناگهانی جنین؛ مرگ می‌تواند سریع رخ دهد
+
+@ddx
+- !Pulmonary embolism |
+- !Eclampsia / peripartum cardiomyopathy |
+- Placental abruption |
+- Anaphylaxis / sepsis |
+
+@redflags
+- کولاپس قلبی-عروقی، هیپوکسمی، DIC
+
+@guide
+درمان حمایتی: هیپوکسی، هیپوتانسیون و هیپوپرفیوژن را درمان کن.
+
+@variant afe-suspected
+name: Suspected amniotic fluid embolism
+level: I
+imp: Amniotic fluid embolism
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+
+@scenario
+زنی در حین زایمان با افت فشار ناگهانی، هیپوکسی، تشنج و دیسترس جنین.
+
+@why
+درمان کاملاً حمایتی.
+
+@T
+- Supportive treatment: treat hypoxia, hypotension and hypoperfusion {note: specific orders not given in the book}
+
+@Co
+- Obstetrician; ICU

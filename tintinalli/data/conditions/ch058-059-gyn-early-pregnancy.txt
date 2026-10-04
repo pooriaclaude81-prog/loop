@@ -1,0 +1,480 @@
+@cond abnormal-uterine-bleeding
+ch: 58
+name: Abnormal vaginal bleeding in the nonpregnant patient (AUB)
+name_fa: خونریزی غیرطبیعی رحمی در بیمار غیرحامله (AUB)
+cc: vaginal-bleeding
+keywords: abnormal uterine bleeding, AUB, dysfunctional uterine bleeding, anovulatory, conjugated estrogen, tranexamic acid, medroxyprogesterone, von Willebrand, خونریزی رحمی
+status: draft
+
+@features
+- تعیین وضعیت حاملگی در سن باروری حیاتی است؛ تست حاملگی برای همه زنان سن باروری
+- شرح حال: مقدار و مدت خونریزی، تاریخچه تولیدمثلی/جنسی، STI، تروما، دارو، جسم خارجی، علائم اختلال خونریزی (کبودی، اپیستاکسی)، اختلال اندوکرین یا بیماری کبد؛ معاینه کامل شکم و لگن با اسپکولوم و دوهمی در بیماران غیر باکره
+- رنگ‌پریدگی پوست/ملتحمه، علائم حیاتی غیرطبیعی، سرگیجه، سنکوپ یا ضعف: خونریزی قابل‌توجه
+- پیش از بلوغ: تروما/سوءاستفاده جنسی، واژینیت، تومور، جسم خارجی؛ خونریزی با ترشح: جسم خارجی؛ تا 20٪ نوجوانان با AUB اختلال انعقادی اولیه (vWD) دارند
+- سن باروری/پری‌منوپوز: آنوولاسیون، حاملگی، هورمون خارجی، کواگولوپاتی، لیومیوم، پولیپ سرویکس/اندومتر، عفونت لگنی، اختلال تیروئید
+- یائسگی: استروژن خارجی، واژینیت آتروفیک، ضایعات اندومتر شامل سرطان و تومورها
+- AUB: اصطلاح جدید؛ ساختاری و غیرساختاری؛ DUB دیگر توصیه نمی‌شود؛ آنوولاتوری: قاعدگی طولانی، نامنظم، بین‌قاعدگی؛ معمولاً بدون درد و کم؛ گاهی شدید با آنمی و کمبود آهن
+
+@ddx
+- !Ectopic pregnancy / threatened or incomplete abortion |
+- !Endometrial or cervical malignancy (postmenopausal) |
+- Anovulatory bleeding |
+- Coagulopathy / von Willebrand disease |
+- Leiomyoma / polyps |
+- Pelvic infection / thyroid dysfunction |
+
+@redflags
+- ناپایداری همودینامیک یا خونریزی ادامه‌دار، شک به بدخیمی (هورمون‌تراپی را به تعویق بینداز)
+
+@guide
+بیشتر بیماران پایدارند و اقدام حاد نمی‌خواهند. ناپایدار با خونریزی ادامه‌دار: احیای تهاجمی با کریستالوئید، فرآورده خونی و مشاوره زنان برای D&C فوری.
+1. ناپایدار با خونریزی شدید: استروژن وریدی با دوز بالا خط اول: conjugated estrogen (Premarin) 25 mg IV هر 2 تا 6 ساعت تا کاهش خونریزی، سپس قرص ضدبارداری؛ بستری زنان.
+2. پایدار: هورمون‌تراپی کوتاه‌مدت: (الف) قرص ضدبارداری: ethinyl estradiol 35 μg + norethindrone 1 mg (Ortho-Novum 1/35) سه قرص روزانه 7 روز، یا تدریجی: چهار قرص 2 روز، سه قرص 2 روز، دو قرص 2 روز، یک قرص 3 روز؛ (ب) medroxyprogesterone 20 mg سه بار روزانه 7 روز یا 10 mg روزانه 10 روز؛ (ج) tranexamic acid (Lysteda) 600 تا 1300 mg هر 8 ساعت 3 روز. خونریزی قطع هورمون 3 تا 10 روز بعد ممکن است شدید باشد؛ مشاوره زنان.
+3. شک به بدخیمی: هورمون‌تراپی را به بعد از ارزیابی زنان و تصمیم بیوپسی موکول کن.
+4. NSAID (naproxen 500 mg دو بار روزانه یا ibuprofen 400 mg هر 6 ساعت) ممکن است خونریزی را کم کند.
+5. پایدار: ترخیص و پیگیری زنان. سونوگرافی ممکن است برای سرپایی به تعویق بیفتد.
+
+@pearls
+- تست حاملگی در همه زنان سن باروری، قبل از هر چیز.
+
+@variant aub-stable
+name: Abnormal uterine bleeding, stable
+level: III
+imp: Abnormal uterine bleeding (AUB)
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+دختری ۲۰ ساله با خونریزی قاعدگی طولانی و نامنظم؛ علائم حیاتی پایدار؛ تست حاملگی منفی.
+
+@why
+اغلب پایدار و بدون نیاز به اقدام حاد؛ درمان هورمونی کوتاه‌مدت و پیگیری زنان.
+
+@I
+- Pelvic ultrasonography may be deferred for outpatient evaluation in stable, nonpregnant patients
+
+@L
+- Pregnancy test (all women of reproductive age); PT/INR if coagulopathy suspected; thyroid function tests if symptoms and signs of thyroid dysfunction
+
+@T
+- Oral contraceptive: Ethinyl estradiol 35 μg and Norethindrone 1 mg (Ortho-Novum 1/35) three tablets daily for 7 days; or taper: four tablets for 2 days, three tablets for 2 days, two tablets for 2 days, one tablet for 3 days
+- Or Medroxyprogesterone 20 mg three times per day for 7 days, or 10 mg per day for 10 days
+- Or Tranexamic acid 600 to 1300 mg every 8 hours for 3 days
+- Naproxen 500 mg twice daily PO or Ibuprofen 400 mg every 6 hours PO {renal: avoid in renal impairment}
+
+@Co
+- Gynecologic consultation if hormonal therapy is considered; follow-up with gynecologic provider; defer hormonal therapy if any concern for malignancy
+
+@variant aub-unstable
+name: Abnormal uterine bleeding with hemodynamic instability
+level: I
+imp: Abnormal uterine bleeding with hemorrhage
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: none
+
+@scenario
+زنی ۳۵ ساله با خونریزی شدید رحمی، ضعف، تاکی‌کاردی و فشار 80/50.
+
+@why
+خونریزی ناپایدار: احیا، استروژن وریدی با دوز بالا و آماده‌سازی D&C.
+
+@L
+- Pregnancy test; CBC (signs of excessive bleeding or anemia); PT/INR
+
+@S
+- Aggressive IV crystalloids; blood products
+
+@T
+- Conjugated estrogen (Premarin) 25 mg IV every 2 to 6 hours until bleeding slows, followed by an oral contraceptive
+
+@Co
+- Gynecologic consultation for urgent dilation and curettage; admit to gynecologic service
+
+@cond pelvic-pain-nonpregnant
+ch: 58
+name: Pelvic pain in the nonpregnant patient (ovarian cyst, ovarian torsion, endometriosis, leiomyoma)
+name_fa: درد لگنی در بیمار غیرحامله (کیست تخمدان، پیچ‌خوردگی تخمدان، اندومتریوز، لیومیوم)
+cc: abdominal-pain
+keywords: pelvic pain, ovarian cyst, ovarian torsion, endometriosis, leiomyoma, fibroid, Doppler, hemorrhagic cyst, درد لگن
+status: draft
+
+@features
+- منشأ ژنیکولوژیک؛ درد ارجاعی از IBD، UTI/سنگ، دیورتیکولیت، AAA نشت‌کننده، آپاندیسیت؛ حاملگی را در سن باروری رد کن؛ PID شایع است (فصل ۶۴)
+- شروع ناگهانی یک‌طرفه: کیست تخمدان، torsion، انسداد یا سنگ کلیه؛ تدریجی: عفونت یا توده در حال رشد
+- کیست علامت‌دار: درد ناگهانی یک‌طرفه؛ خونریزی کیست (هموراژیک) یا پارگی (علائم حیاتی غیرطبیعی و شکم حاد)؛ > 8 cm، چندحفره‌ای یا جامد: نگرانی برای بدخیمی، درموئید یا اندومتریوما؛ در یائسگی توده تخمدان تا اثبات خلاف بدخیم است
+- torsion تخمدان: درد ناگهانی شدید آدنکس از ایسکمی؛ اورژانس جراحی؛ پس از فعالیت؛ عوامل خطر: حاملگی (کورپوس لوتئوم بزرگ)، کیست/تومور بزرگ، القای تخمک‌گذاری (OHSS)؛ تظاهر آتیپیک شایع
+- سونوگرافی با دوپلر روش انتخابی ولی 100٪ حساس نیست؛ اوایل ممکن است جریان شریانی حفظ باشد یا در دتورسیون موقت طبیعی باشد
+- اندومتریوز: درد لگنی راجعه مرتبط با قاعدگی، دیسپارونی و ناباروری؛ تشخیص قطعی در ED نیست
+- لیومیوم: تومور خوش‌خیم عضله صاف؛ 30٪ علامت‌دار (خونریزی، دیسمنوره، نفخ، کمردرد، ادراری، دیسپارونی)؛ پیچ‌خوردگی فیبروم پدونکوله یا انفارکتوس درد شدید می‌دهد؛ سونوگرافی تأییدی
+
+@ddx
+- !Ovarian torsion |
+- !Ectopic pregnancy |
+- !Appendicitis / leaking aortic aneurysm |
+- Ruptured or hemorrhagic ovarian cyst |
+- Pelvic inflammatory disease |
+- Renal stone / diverticulitis / inflammatory bowel disease |
+
+@redflags
+- شروع ناگهانی درد شدید یک‌طرفه (torsion)، علائم حیاتی غیرطبیعی یا شکم حاد (پارگی کیست)، توده بزرگ یا جامد
+
+@guide
+معاینه کامل شکم و لگن با اسپکولوم و دوهمی؛ تست حاملگی؛ UA، CBC و سونوگرافی بر اساس بالین. بیشتر بیماران ترخیص می‌شوند حتی بدون تشخیص اختصاصی؛ ترخیص با تشخیص «درد شکم تمایزنیافته» مناسب است؛ دستورالعمل ترخیص دقیق با هشدارهای بازگشت؛ بازارزیابی در 12 تا 24 ساعت در صورت نگرانی. NSAID برای بیشتر کافی است؛ گاهی اپیوئید: oxycodone/acetaminophen (5/325) یک تا دو قرص هر 4 تا 6 ساعت PO چند روز. torsion مشکوک: ضددرد، مشاوره زنان و آماده‌سازی عمل. اندومتریوز: ضددرد و ارجاع. لیومیوم: NSAID، هورمونی برای خونریزی، ارجاع زنان.
+
+@pearls
+- دوپلر طبیعی torsion را رد نمی‌کند.
+
+@variant pelvic-pain-stable
+name: Pelvic pain, stable (cyst, endometriosis, fibroid, undifferentiated)
+level: III
+imp: Pelvic pain (ovarian cyst / endometriosis / leiomyoma)
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+زنی ۲۸ ساله با درد لگن یک‌طرفه خفیف تا متوسط، پایدار؛ تست حاملگی منفی.
+
+@why
+اغلب ترخیص با ضددرد و پیگیری زنان؛ سونوگرافی بر اساس بالین.
+
+@I
+- Pelvic ultrasound guided by history and physical examination (confirmatory for leiomyomas)
+
+@L
+- Pregnancy test; urinalysis; CBC guided by history and physical examination
+
+@T
+- NSAIDs for pain control; Oxycodone/acetaminophen (5/325) one to two tablets every 4 to 6 hours PO for a few days if needed {hi}
+
+@Co
+- Gynecologic follow-up; reevaluation in 12 to 24 hours if any concern persists
+
+@variant pelvic-pain-torsion
+name: Suspected ovarian torsion
+level: I
+imp: Ovarian torsion
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: none
+
+@scenario
+زنی ۲۵ ساله با درد شدید ناگهانی آدنکس راست پس از ورزش، تهوع؛ کیست بزرگ در سابقه.
+
+@why
+اورژانس جراحی؛ حفظ تخمدان نیازمند مداخله سریع.
+
+@I
+- Ultrasound with Doppler flow imaging (diagnostic procedure of choice, not 100% sensitive)
+
+@L
+- Pregnancy test
+
+@T
+- Analgesia {note: drug and dose not given in the book}
+
+@Co
+- Gynecologic consultation and preparation for surgery
+
+@cond ectopic-pregnancy
+ch: 59
+name: Ectopic pregnancy
+name_fa: حاملگی نابجا
+cc: pregnancy, vaginal-bleeding, abdominal-pain
+keywords: ectopic pregnancy, beta-hCG, discriminatory zone, methotrexate, Rho(D) immunoglobulin, hemoperitoneum, heterotopic, حاملگی نابجا
+status: draft
+
+@features
+- علت اصلی مرگ مادری در سه‌ماهه اول؛ عوامل خطر: PID، جراحی لوله (بستن)، EP قبلی، DES، IUD، تکنیک‌های کمک‌باروری
+- محل: غالباً لوله فالوپ (آمپولا)؛ سرویکس، شکم، اسکار سزارین
+- تریاد (درد، خونریزی، آمنوره) ممکن است نباشد؛ 90٪ درد شکم؛ 50٪ تا 80٪ خونریزی؛ 70٪ آمنوره
+- درد ناگهانی، یک‌طرفه، شدید یا خفیف و منتشر؛ هموپریتوان: درد ارجاعی به شانه یا شکم فوقانی
+- علائم حیاتی ممکن است حتی در EP پاره‌شده طبیعی باشد؛ برادی‌کاردی نسبی (واگ)؛ همبستگی ضعیف بین حجم هموپریتوان و علائم حیاتی
+- معاینه: CMT، تندرنس آدنکس ± توده، رحم بزرگ؛ تون جنین ممکن است بعد از 12 هفته
+- تست ادرار β-hCG: آستانه > 20 mIU/mL؛ حساسیت/ویژگی 95٪ تا 100٪؛ ادرار رقیق (< 50) منفی کاذب؛ سرم کمی: حساسیت تقریباً 100٪ برای > 5 mIU/mL
+- سونوگرافی: هدف اثبات IUP؛ رد EP نمی‌کند؛ IUP قطعی EP را عملاً رد می‌کند (مگر heterotopic)؛ رحم خالی بی‌توده و مایع: نامشخص؛ β-hCG > 6000 (ترانس‌ابدومینال) یا > 1500 (ترانس‌واژینال) با رحم خالی: مطرح EP؛ β-hCG پایین: تکرار در 2 روز (افزایش حداقل 66٪)
+
+@ddx
+- !Ruptured ectopic pregnancy |
+- Threatened / incomplete / missed abortion |
+- Heterotopic pregnancy / molar pregnancy |
+- Implantation bleeding / corpus luteum cyst |
+- Ovarian torsion / appendicitis / PID |
+
+@redflags
+- پاره‌شدن با شوک (علائم حیاتی ممکن است طبیعی باشد)، درد شانه، پریتونیت
+
+@guide
+در هر زن سن باروری با درد شکم و/یا خونریزی واژینال به EP فکر کن. بیمار ناپایدار: دو IV بزرگ، انفوزیون سریع کریستالوئید و/یا PRBC؛ تست حاملگی کنار تخت؛ فوراً به زنان اطلاع بده. خون: گروه و Rh (کراس‌مچ در ناپایدار)، β-hCG کمی، الکترولیت. Rh منفی: anti-Rho(D) immunoglobulin 50 μg. پایدار قابل‌اعتماد با سونوگرافی نامشخص و β-hCG < 1000: ترخیص با هشدار EP و پیگیری 2 روز. درمان قطعی توسط زنان: لاپاروسکوپی، D&C یا متوترکسات (شکست تا 36٪؛ انتخاب دقیق).
+
+@pearls
+- علائم حیاتی طبیعی EP پاره‌شده را رد نمی‌کند.
+- β-hCG کمی نباید تصمیم سونوگرافی را تعیین کند.
+
+@variant ectopic-unstable
+name: Suspected ruptured ectopic pregnancy (unstable)
+level: I
+imp: Ruptured ectopic pregnancy
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: none
+
+@scenario
+زنی ۲۹ ساله با درد شکم شدید، آمنوره 7 هفته، فشار 80/50 و تاکی‌کاردی.
+
+@why
+EP پاره‌شده: دو IV بزرگ، مایع/PRBC و اطلاع فوری به زنان حتی قبل از تکمیل آزمایش.
+
+@I
+- Bedside ultrasound (intrauterine pregnancy vs free fluid)
+
+@L
+- Bedside urine pregnancy test; blood type and Rh factor with cross-match; quantitative β-hCG if indicated; serum electrolytes as required
+
+@S
+- Two large-bore IV lines with rapid infusion of crystalloid and/or packed red blood cells to maintain blood pressure
+
+@T
+- [Rh-negative] Anti-Rho(D) immunoglobulin 50 μg
+
+@Co
+- Notify the obstetric-gynecologic consultant immediately (before laboratory and diagnostic tests are complete); laparoscopy
+
+@variant ectopic-stable
+name: Suspected ectopic pregnancy, stable (indeterminate ultrasound)
+level: II
+imp: Possible ectopic pregnancy
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: none
+cxr: none
+
+@scenario
+زنی ۲۶ ساله با لکه‌بینی و درد خفیف زیر شکم، آمنوره 5 هفته، پایدار؛ سونوگرافی نامشخص و β-hCG 800.
+
+@why
+بیمار پایدار با β-hCG پایین می‌تواند با هشدار EP و پیگیری 2 روزه ترخیص شود.
+
+@I
+- Transabdominal ultrasound first; transvaginal if not diagnostic (goal: determine whether an intrauterine pregnancy is present)
+
+@L
+- Bedside urine pregnancy test; quantitative serum β-hCG (repeat in 2 days; should increase at least 66%); blood type and Rh factor
+
+@T
+- [Rh-negative] Anti-Rho(D) immunoglobulin 50 μg
+
+@Co
+- Obstetric-gynecologic consultant (close communication essential); stable reliable patient with indeterminate ultrasound and β-hCG below 1000 mIU/mL: discharge with ectopic precautions and follow-up in 2 days for repeat β-hCG and reevaluation
+
+@cond abortion-first-trimester
+ch: 59
+name: Threatened, incomplete, complete, missed and septic abortion; gestational trophoblastic disease
+name_fa: تهدید به سقط، سقط ناقص، کامل، فراموش‌شده و عفونی؛ بیماری تروفوبلاستیک
+cc: pregnancy, vaginal-bleeding
+keywords: threatened abortion, incomplete abortion, missed abortion, septic abortion, molar pregnancy, GTD, misoprostol, dilation and curettage, miscarriage, سقط
+status: draft
+
+@features
+- 20٪ تا 40٪ حاملگی‌ها خودبه‌خود سقط می‌شوند؛ حدود 75٪ قبل از هفته 8
+- تهدید به سقط: خونریزی در 20 هفته اول با os بسته، معاینه خوش‌خیم و بدون دفع بافت؛ os باز: سقط اجتناب‌ناپذیر
+- ناقص: دفع بخشی از محصولات (POC خاکستری-سفید)؛ محتمل‌تر هفته 6 تا 14؛ کامل: دفع همه بافت قبل از هفته 20 (POC را به پاتولوژی بفرست)؛ فراموش‌شده (missed): مرگ جنین < 20 هفته بدون دفع بافت تا 4 هفته
+- عفونی: درد لگن، تب، CMT یا تندرنس رحم، ترشح چرکی یا بدبو
+- افتراق: EP، خونریزی لانه‌گزینی (تشخیص رد؛ کم و بدون درد)، GTD (مول کامل/نسبی، تومور تروفوبلاستیک، کوریوکارسینوم): خونریزی، رحم بزرگ‌تر از سن، β-hCG بسیار بالا؛ مول در هایپرمزیس یا فشار بالا در حاملگی قبل از هفته 24
+
+@ddx
+- !Ectopic pregnancy |
+- !Septic abortion |
+- Gestational trophoblastic disease |
+- Implantation bleeding |
+
+@redflags
+- ناپایداری، تب و ترشح بدبو (سپتیک)، خونریزی شدید
+
+@guide
+مثل EP: بیمار علامت‌دار/ناپایدار: اکسیژن، مانیتور قلبی، دو IV بزرگ، مشاوره اورژانس زنان؛ مایع/PRBC تهاجمی. Rh منفی: anti-Rho(D) (دوز 50 تا 300 μg؛ توافق یکسان نیست). سونوگرافی وقتی پایدار. ناقص یا GTD: D&C؛ تصمیم دارو (misoprostol) یا جراحی با مشاوره زنان؛ GTD: پیگیری تا β-hCG صفر (عدم نرمال شدن: کوریوکارسینوم). عفونی: مشاوره زنان و آنتی‌بیوتیک وسیع‌الطیف: ampicillin/sulbactam 3 g IV یا clindamycin 600 mg + gentamicin 1 تا 2 mg/kg IV. تهدید یا کامل: ترخیص با پیگیری، pelvic rest (بدون مقاربت و تامپون) و بازگشت برای خونریزی شدید، تب یا درد.
+
+@variant abortion-threatened-complete
+name: Threatened or complete abortion, stable
+level: III
+imp: Threatened abortion
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+زنی ۲۷ ساله با حاملگی ۹ هفته و لکه‌بینی؛ os بسته؛ پایدار.
+
+@why
+تهدید یا سقط کامل با پیگیری نزدیک ترخیص می‌شود.
+
+@I
+- Ultrasound when the patient is stable
+
+@L
+- Pelvic examination; blood typing and Rh factor determination; urine pregnancy test; quantitative β-hCG; urinalysis
+
+@T
+- [Rh-negative] Anti-Rho(D) immunoglobulin (doses recommended range from 50 to 300 μg)
+- Discharge instructions: pelvic rest (no intercourse or tampons); return for heavy bleeding, fever or pain
+
+@Co
+- Close follow-up arranged; obstetric-gynecologic consultant
+
+@variant abortion-incomplete-gtd
+name: Incomplete abortion or gestational trophoblastic disease (symptomatic / unstable)
+level: II
+imp: Incomplete abortion / gestational trophoblastic disease
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: once
+cxr: none
+
+@scenario
+زنی ۳۰ ساله با خونریزی شدید، دفع بافت و اتساع os در 10 هفته.
+
+@why
+نیاز به D&C یا دارو با مشاوره زنان؛ احیای حجم در ناپایدار.
+
+@I
+- Ultrasound when stable
+
+@L
+- CBC, blood type and cross-match (unstable), Rh factor, urine pregnancy test, quantitative β-hCG, urinalysis; send all recovered products of conception for pathologic examination
+
+@S
+- Aggressive IV crystalloid and/or packed red blood cell infusion when appropriate
+
+@T
+- Supplemental oxygen; cardiac monitor; two large-bore IV lines
+- [Rh-negative] Anti-Rho(D) immunoglobulin (50 to 300 μg)
+- Misoprostol (medical treatment) or dilation and curettage (surgical), decided with the consulting obstetrician {note: misoprostol dose not given in the book}
+
+@Co
+- Emergent obstetric-gynecologic consultation in the unstable patient; GTD requires close follow-up until quantitative β-hCG returns to zero
+
+@variant abortion-septic
+name: Septic abortion
+level: I
+imp: Septic abortion
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: portable
+
+@scenario
+زنی ۲۸ ساله با تب، درد لگن و ترشح بدبو پس از سقط.
+
+@why
+عفونت حین سقط: آنتی‌بیوتیک وسیع‌الطیف و مشاوره زنان.
+
+@L
+- Pelvic examination; blood typing; urinalysis; cultures {note: cultures not specifically stated in this chapter}
+
+@A
+- Ampicillin/sulbactam 3 g IV, or Clindamycin 600 mg plus Gentamicin 1 to 2 mg/kg IV {renal: aminoglycoside}
+
+@Co
+- Gynecologic consultation
+
+@cond nausea-vomiting-pregnancy
+ch: 59
+name: Nausea and vomiting of pregnancy / hyperemesis gravidarum
+name_fa: تهوع و استفراغ بارداری / هایپرمزیس گراویداروم
+cc: nausea-vomiting, pregnancy
+keywords: hyperemesis gravidarum, nausea vomiting pregnancy, ketonuria, metoclopramide, promethazine, ondansetron, doxylamine pyridoxine, تهوع بارداری
+status: draft
+
+@features
+- معمولاً در 12 هفته اول؛ 60٪ تا 80٪ زنان باردار؛ از خفیف تا هایپرمزیس
+- معاینه معمولاً نرمال به‌جز علائم کم‌آبی؛ درد شکم بسیار غیرمعمول است و باید تشخیص دیگری را مطرح کند
+- آزمایش: CBC، الکترولیت، BUN، کراتینین و UA (کتونوری)
+- افتراق: EP پاره‌شده، کوله‌لیتیازیس/کولسیستیت، گاستروانتریت، پانکراتیت، آپاندیسیت، هپاتیت، PUD، پیلونفریت، کبد چرب حاملگی، HELLP
+
+@ddx
+- !Ruptured ectopic pregnancy |
+- !Appendicitis / pancreatitis |
+- HELLP syndrome / fatty liver of pregnancy |
+- Gastroenteritis / cholecystitis |
+- Pyelonephritis / peptic ulcer disease / hepatitis |
+
+@redflags
+- درد شکم، استفراغ مقاوم، کتونوری ادامه‌دار، اختلال الکترولیت، کاهش وزن > 10٪ وزن پیش از بارداری
+
+@guide
+آبرسانی با D5NS یا D5 Ringer لاکتات (نبود دکستروز ممکن است کتوز را طولانی کند). ضدتهوع: metoclopramide 10 mg IV هر 6 تا 8 ساعت، promethazine 12 تا 25 mg IV هر 4 ساعت (کلاس C ولی شایع) و ondansetron 4 تا 8 mg IV هر 4 تا 8 ساعت. بهبود در ED (کتون ادرار پاک و تحمل مایع خوراکی): ترخیص با ضدتهوع؛ doxylamine با pyridoxine 50 mg PO هر شب نگهدارنده. بستری: استفراغ مقاوم، کتونوری ادامه‌دار، اختلال الکترولیت یا کاهش وزن > 10٪؛ استروئید سیستمیک (methylprednisolone 16 mg PO/IV هر 8 ساعت 3 روز، سپس کاهش در 2 هفته) با مشاوره مامایی.
+
+@pearls
+- بدون دکستروز در مایع، کتوز طولانی می‌شود.
+
+@variant nvp-mild
+name: Nausea and vomiting of pregnancy, responds in the ED
+level: III
+imp: Nausea and vomiting of pregnancy
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+زنی ۲۴ ساله با حاملگی ۹ هفته، تهوع و استفراغ مکرر و خشکی دهان؛ پایدار.
+
+@why
+با مایع و ضدتهوع بهبود می‌یابد و ترخیص می‌شود.
+
+@L
+- Urinalysis (ketones)
+
+@S
+- 5% dextrose in normal saline or 5% dextrose in Lactated Ringer's solution (failure to include dextrose may result in prolonged ketosis) {ci: not for heart failure / pulmonary edema, CKD}
+
+@T
+- Metoclopramide 10 mg IV every 6 to 8 hours, or Promethazine 12 to 25 mg IV every 4 hours, or Ondansetron 4 to 8 mg IV every 4 to 8 hours
+- Doxylamine with Pyridoxine 50 mg PO every evening as maintenance
+
+@variant nvp-hyperemesis
+name: Hyperemesis gravidarum (admission criteria)
+level: II
+imp: Hyperemesis gravidarum
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: once
+cxr: none
+
+@scenario
+زنی ۲۶ ساله با حاملگی ۱۰ هفته، کاهش وزن 12٪، کتونوری و هیپوکالمی.
+
+@why
+استفراغ مقاوم، کتونوری یا اختلال الکترولیت بستری می‌خواهد.
+
+@L
+- Urinalysis (ketones), serum electrolytes, BUN, creatinine
+
+@S
+- 5% dextrose in normal saline or 5% dextrose in Lactated Ringer's solution
+
+@T
+- Metoclopramide 10 mg IV every 6 to 8 hours, or Promethazine 12 to 25 mg IV every 4 hours, or Ondansetron 4 to 8 mg IV every 4 to 8 hours
+- Methylprednisolone 16 mg PO or IV every 8 hours for 3 days, tapered over 2 weeks to the lowest effective dose (in consultation with an obstetrician)
+
+@Co
+- Admission (intractable vomiting, persistent ketonuria, electrolyte abnormalities, or weight loss > 10% of prepregnancy weight); obstetrician

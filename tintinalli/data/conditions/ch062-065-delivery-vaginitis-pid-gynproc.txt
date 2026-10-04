@@ -1,0 +1,545 @@
+@cond emergency-delivery
+ch: 62
+name: Emergency delivery (normal, cord prolapse, shoulder dystocia, breech)
+name_fa: زایمان اورژانس (طبیعی، پرولاپس بند ناف، دیستوشی شانه، بریچ)
+cc: pregnancy
+keywords: emergency delivery, precipitous delivery, cord prolapse, shoulder dystocia, McRoberts maneuver, Woods corkscrew, breech, oxytocin, Apgar, زایمان اورژانس
+status: draft
+
+@features
+- هر زن باردار > 20 هفته با لیبر فعال: ارزیابی سریع؛ علائم حیاتی مادر و مانیتور قلب جنین؛ FHR < 110 یا > 160 مداوم: دیسترس جنین
+- شرح حال: تکرر/زمان شروع انقباضات، نشت مایع، خونریزی، سن حاملگی، مراقبت پیش از زایمان؛ معاینه شکم (ارتفاع فوندوس، تندرنس، وضعیت جنین)؛ دوهمی یا اسپکولوم استریل مگر مانع (خونریزی فعال)؛ بعد از معاینه: دکوبیتوس جانبی چپ
+- لیبر کاذب (Braxton–Hicks): انقباضات نامنظم، کوتاه، معمولاً بدون درد و تحتانی شکم؛ لیبر حقیقی: انقباضات دردناک منظم با افزایش تدریجی و اتساع سرویکس؛ از فوندوس به لگن و کمر
+- پارگی کیسه آب: گاش مایع شفاف یا خونی؛ مایع آمنیوتیک قلیایی، Nitrazine آبی تیره و ferning؛ مکونیوم را ثبت کن؛ در پره‌ترم که طولانی کردن بارداری لازم است معاینه دیجیتال را پرهیز
+- خونریزی فعال: ابتدا سونوگرافی برای رد جفت سرراهی
+- اگر سرویکس باز و انقباض فعال: انتقال حتی کوتاه خطرناک؛ آماده‌سازی زایمان اورژانس
+
+@ddx
+- !Cord prolapse |
+- !Shoulder dystocia |
+- !Placenta previa / abruption |
+- Breech presentation |
+- False labor (Braxton-Hicks) |
+
+@redflags
+- بند ناف نبض‌دار در معاینه، turtle sign، FHR غیرطبیعی، خونریزی فعال، بریچ فوتلینگ
+
+@guide
+# زایمان طبیعی
+وضعیت لیتوتومی پشتی؛ ارزیابی وضعیت جنین (سونوگرافی در صورت امکان)؛ اطلاع به متخصص زنان. 1) کنترل خروج سر: حمایت پرینه با حوله استریل، فشار مخالف ملایم (جلوگیری از پارگی درجه 3 و 4)، کنترل چانه با دست تحتانی؛ از مادر بخواه حین انقباض نفس بکشد و زور نزند. 2) بعد از سر، گردن را برای بند دور گردن لمس کن (تا 35٪): شل: از روی سر رد کن؛ محکم: دو کلمپ و برش. 3) چرخش سر؛ کشش ملایم رو به پایین برای شانه قدامی، سپس بالا برای شانه خلفی. 4) دست خلفی زیر زیربغل و دست قدامی مچ پاها. 5) پیچیدن نوزاد در حوله و تحریک و خشک کردن. 6) دو کلمپ بند ناف و برش با قیچی استریل. 7) انکوباتور گرم و Apgar در 1 و 5 دقیقه (رنگ، تون، ضربان قلب، تلاش تنفسی، رفلکس). 8) اپیزیوتومی (مثلاً بریچ): lidocaine 1٪ 5 تا 10 mL در فورشت خلفی و پرینه؛ برش 2 تا 3 cm در خط وسط یا 45 درجه؛ حمایت دستی تا امتداد به رکتوم نیابد.
+# پس از زایمان
+جفت خودبه‌خود جدا شود با کشش ملایم؛ کشش شدید: اینورژن رحم، پارگی بند یا جفت و خونریزی شدید؛ ماساژ رحم؛ oxytocin 10 تا 40 U/1000 mL NS با سرعت متوسط یا 10 U IM؛ ترمیم پارگی/اپیزیوتومی را می‌توان تا حضور متخصص با تجربه (بررسی پارگی درجه 4) به تعویق انداخت.
+# پرولاپس بند
+بند نبض‌دار: دست معاینه‌گر را خارج نکن و قسمت پرزانتاسیون را بالا ببر؛ کمک فوری مامایی (سزارین)؛ دست را در واژن نگه دار حین انتقال؛ بند را جا نینداز.
+# دیستوشی شانه
+turtle sign؛ ساکشن بینی و دهان، کمک گرفتن و وضعیت McRoberts؛ فشار سوپراپوبیک رو به پایین؛ فشار فوندوس ممنوع؛ Woods corkscrew: چرخش ۱۸۰ درجه کمربند شانه.
+# بریچ
+خطر گیر کردن سر؛ مشاوره فوری مامایی؛ frank و complete: اجازه پیشرفت خودبه‌خودی؛ footling و incomplete: زایمان واژینال ایمن نیست (پرولاپس بند و اتساع ناکامل).
+
+@pearls
+- هرگز فشار فوندوس در دیستوشی شانه.
+- بند ناف را بازگردانی نکن؛ دست را داخل واژن نگه دار.
+
+@variant delivery-normal
+name: Imminent precipitous delivery (vertex)
+level: I
+imp: Imminent precipitous delivery
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: none
+cxr: none
+
+@scenario
+زنی ۲۸ ساله با حاملگی ۳۸ هفته، انقباضات هر ۲ دقیقه، اتساع کامل و سر در introitus.
+
+@why
+انتقال خطرناک است؛ آماده‌سازی زایمان؛ بیمار در لیتوتومی؛ اطلاع به متخصص زنان.
+
+@I
+- Ultrasound to confirm fetal position if possible; ultrasound first if active vaginal bleeding (rule out placenta previa)
+
+@L
+- Fetal heart monitoring; sterile speculum / bimanual examination (cervical dilation, rupture of membranes; Nitrazine paper and fern test)
+
+@T
+- Left lateral decubitus position after examination; dorsal lithotomy position for delivery
+- Support the perineum with sterile towel and mild counter-pressure on the fetal head; mother breathes through contractions instead of pushing
+- Check for nuchal cord (loose: reduce over head; tight: two clamps and cut); gentle downward then upward traction for shoulders
+- Dry and stimulate infant; double clamp and cut the cord; warm incubator; Apgar at 1 and 5 minutes
+- Episiotomy if necessary: Lidocaine 1% 5 to 10 mL into the posterior fourchette and perineum, 2- to 3-cm cut at the midline or 45 degrees
+- Placenta allowed to separate spontaneously; gentle uterine massage; Oxytocin 10 to 40 U/1000 mL NS at a moderate rate, or 10 U IM
+
+@Co
+- Notify obstetrician if available; laceration repair may be delayed until an experienced obstetrician can inspect for fourth-degree tears
+
+@variant delivery-cord-prolapse
+name: Cord prolapse
+level: I
+imp: Umbilical cord prolapse
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: none
+cxr: none
+
+@scenario
+زنی ۳۰ ساله پس از پارگی کیسه آب با بند ناف نبض‌دار در واژن.
+
+@why
+فشار روی بند را با بالا نگه داشتن قسمت پرزانتاسیون برطرف کن؛ سزارین اورژانس.
+
+@T
+- Do not remove the examining hand; elevate the presenting fetal part to reduce compression of the cord
+- Keep the examining hand in the vagina during transport and preparation for surgery; do not attempt to reduce the cord
+
+@Co
+- Immediate obstetric assistance (cesarean section indicated)
+
+@variant delivery-shoulder-dystocia
+name: Shoulder dystocia
+level: I
+imp: Shoulder dystocia
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: none
+cxr: none
+
+@scenario
+حین زایمان سر خارج شده و به پرینه چسبیده (turtle sign) و شانه قدامی نمی‌آید.
+
+@why
+مانورهای مرحله‌ای McRoberts، فشار سوپراپوبیک و Woods.
+
+@T
+- Suction the infant's nose and mouth; call for assistance
+- McRoberts maneuver: extreme lithotomy with legs sharply flexed up to the abdomen
+- Assistant applies downward suprapubic pressure to disimpact the anterior shoulder {ci: no fundal pressure}
+- Woods corkscrew maneuver: fingertips behind the anterior shoulder and in back of the posterior shoulder, rotate the shoulder girdle 180°
+
+@Co
+- Obstetrician
+
+@variant delivery-breech
+name: Breech presentation
+level: I
+imp: Breech presentation
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: none
+cxr: none
+
+@scenario
+زنی ۲۹ ساله در لیبر با پرزانتاسیون بریچ.
+
+@why
+خطر اصلی گیر کردن سر؛ مشاوره فوری مامایی.
+
+@T
+- Frank and complete breech: allow the delivery to progress spontaneously (the presenting part dilates the cervix maximally); consult obstetrical texts for maneuvers
+- Footling and incomplete breech are not considered safe for vaginal delivery (cord prolapse, incomplete dilatation)
+
+@Co
+- Immediate obstetric consultation
+
+@cond vulvovaginitis
+ch: 63
+name: Vulvovaginitis (bacterial vaginosis, candidiasis, trichomoniasis, contact, atrophic, foreign body, Bartholin abscess)
+name_fa: ولوواژینیت (BV، کاندیدا، تریکومونا، تماسی، آتروفیک، جسم خارجی، آبسه بارتولن)
+cc: genital-complaint, vaginal-bleeding
+keywords: bacterial vaginosis, candida vaginitis, trichomonas, metronidazole, fluconazole, tinidazole, atrophic vaginitis, Bartholin abscess, Word catheter, واژینیت
+status: draft
+
+@features
+- علل: عفونت، محرک، آلرژی، جسم خارجی و آتروفی؛ فلور طبیعی pH 3.8 تا 4.5
+- BV: شایع‌ترین علت ترشح بدبو؛ تا 50٪ بدون علامت؛ جایگزینی لاکتوباسیل با بی‌هوازی (Gardnerella و ...)؛ ترشح «بوی ماهی»؛ تشخیص با 3 از 4: ترشح، pH > 4.5، تست آمین مثبت (KOH 10٪)، clue cells
+- کاندیدا: دومین علت شایع؛ عوامل: آنتی‌بیوتیک سیستمیک، دیابت، بارداری، HRT، OCP؛ خارش، ترشح، دیزوری خارجی، دیسپارونی؛ ادم/اریتم و ترشح «پنیری»؛ pH 4 تا 4.5 و مخمر جوانه‌دار/پسودوهیف در میکروسکوپی (KOH 10٪: حساسیت 80٪)
+- تریکومونا: STD؛ ترشح کف‌آلود و بدبو، خارش و تحریک؛ تا 50٪ بدون علامت؛ wet prep: تریکومونادهای متحرک گلابی‌شکل (حساسیت 60٪ تا 70٪؛ بلافاصله ببین)؛ کشت 95٪؛ PCR نقطه مراقبت
+- تماسی: دوش، صابون، حباب‌حمام، دئودورانت، عطر، بهداشتی، آنتی‌بیوتیک موضعی، لباس تنگ؛ سوزش، خارش و تورم؛ قرمزی، ادم، زخم؛ ممکن است کاندیدا همراه شود
+- جسم خارجی: ترشح بدبو یا خونی مزمن؛ کودکان: کاغذ توالت، اسباب‌بازی؛ بزرگسالان: تامپون فراموش‌شده، بسته مواد، وسایل جنسی؛ برداشتن درمان قطعی
+- آتروفیک: بعد از یائسگی؛ خونریزی، pH بالا، ترشح چرکی؛ کرم استروژن موضعی
+- بارتولن: غده در لابیای کوچک ساعت 4 و 8؛ کیست/آبسه؛ درد و تورم طی چند روز؛ ایندوراسیون و فلوکتواسیون
+
+@ddx
+- !Pelvic inflammatory disease |
+- !Sexually transmitted infection (gonorrhea, chlamydia) |
+- Bacterial vaginosis / candida / trichomonas |
+- Vaginal foreign body |
+- Atrophic vaginitis / contact dermatitis |
+
+@redflags
+- ترشح چرکی با درد لگن/CMT (PID)، خونریزی پس از یائسگی (سرطان)
+
+@guide
+BV: metronidazole 500 mg PO دو بار روزانه 7 روز؛ جایگزین: clindamycin 2٪ کرم داخل واژینال شبانه 7 روز یا metronidazole 0.75٪ ژل روزانه 5 روز؛ شریک مذکر و بدون علامت درمان نمی‌شود؛ الکل ممنوع حین درمان و 24 ساعت بعد؛ حاملگی علامت‌دار درمان شود: metronidazole 250 mg PO دو بار روزانه 7 روز.
+کاندیدا: fluconazole 150 mg PO دوز واحد یا آزول موضعی (clotrimazole، butoconazole، miconazole، terconazole، tioconazole)؛ حاملگی: داخل واژینال 7 روز و پرهیز از fluconazole خوراکی؛ پیچیده: fluconazole 150 mg روز 1 و 3.
+تریکومونا: metronidazole 2 g یا tinidazole 2 g خوراکی دوز واحد؛ شکست: metronidazole 500 mg دو بار روزانه 7 روز؛ ژل ضعیف؛ درمان شریک و پرهیز تا اتمام درمان.
+تماسی: حذف محرک؛ سیتز سرد، کمپرس Burow، کورتیکواستروئید موضعی؛ آنتی‌هیستامین خوراکی در آلرژی؛ درمان کاندیدا همراه.
+آتروفیک: کرم استروژن موضعی (در ED برای زنان با سرطان دستگاه تناسلی یا خونریزی پس از یائسگی تجویز نشود).
+بارتولن: بدون آبسه: آنتی‌بیوتیک وسیع‌الطیف، ضددرد و سیتز؛ آبسه: برش و درناژ با گذاشتن Word catheter و ارجاع جراحی.
+
+@pearls
+- الکل در متروندازول ممنوع (واکنش شبه‌دی‌سولفیرام).
+
+@variant vaginitis-bv
+name: Bacterial vaginosis
+level: III
+imp: Bacterial vaginosis
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+زنی ۲۵ ساله با ترشح بدبو (بوی ماهی)؛ pH 5 و clue cells.
+
+@why
+BV با metronidazole؛ پرهیز از الکل.
+
+@L
+- Vaginal pH, amine test (10% KOH), saline wet preparation (clue cells)
+
+@A
+- Metronidazole 500 mg PO twice daily for 7 days; alternatives: Clindamycin 2% intravaginal cream at night for 7 days or Metronidazole 0.75% intravaginal gel daily for 5 days
+- [pregnant, symptomatic] Metronidazole 250 mg PO twice daily for 7 days {ci: avoid alcohol during treatment and for 24 hours after (disulfiram-like reaction); no treatment for male partners or asymptomatic women}
+
+@variant vaginitis-candida
+name: Candida vaginitis
+level: III
+imp: Candida vaginitis
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+زنی ۳۰ ساله با خارش و ترشح پنیری پس از آنتی‌بیوتیک.
+
+@why
+fluconazole دوز واحد؛ در بارداری داخل واژینال.
+
+@L
+- Vaginal pH and microscopy with 10% KOH (budding yeast or pseudohyphae)
+
+@A
+- Fluconazole 150 mg PO single dose; or topical azoles (clotrimazole, butoconazole, miconazole, terconazole, tioconazole)
+- [pregnant] intravaginal agents for 7 days {ci: avoid oral fluconazole in pregnancy}
+- [complicated, nonpregnant] Fluconazole 150 mg PO on days 1 and 3
+
+@variant vaginitis-trichomonas
+name: Trichomonas vaginitis
+level: III
+imp: Trichomonas vaginitis
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+زنی ۲۲ ساله با ترشح کف‌آلود بدبو و خارش.
+
+@why
+درمان دوز واحد و درمان شریک.
+
+@L
+- Saline wet prep immediately after sampling (motile, pear-shaped flagellated trichomonads); point-of-care PCR where available
+
+@A
+- Metronidazole 2 g single oral dose, or Tinidazole 2 g single oral dose; if single-dose therapy fails: Metronidazole 500 mg twice daily for 7 days {ci: metronidazole gel is not recommended}
+
+@T
+- Treat sexual partners; abstain from sexual activity until the treatment course is completed and asymptomatic
+
+@variant vaginitis-other
+name: Contact / atrophic vaginitis, vaginal foreign body, Bartholin abscess
+level: III
+imp: Vulvovaginitis (contact / atrophic / foreign body / Bartholin)
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+زنی ۶۰ ساله با خارش و سوزش و ترشح چرکی کم؛ یا زنی ۳۰ ساله با تورم دردناک لابیا.
+
+@why
+درمان بر اساس علت: استروژن موضعی، برداشتن جسم، یا درناژ بارتولن.
+
+@T
+- Contact: remove the precipitant; cool sitz baths, compresses with Burow's solution, topical corticosteroids; oral antihistamines if true allergy
+- Atrophic: topical estrogen creams {ci: not in the emergency department for women with prior reproductive tract cancer or postmenopausal bleeding}
+- Vaginal foreign body: removal of the object
+- Bartholin abscess: incision and drainage with placement of a Word catheter; Bartholin cyst without abscess: broad-spectrum antibiotics, analgesics and sitz baths {note: drugs and doses not given in the book}
+
+@Co
+- Referral for definitive surgical management (Bartholin abscess)
+
+@cond pelvic-inflammatory-disease
+ch: 64
+name: Pelvic inflammatory disease
+name_fa: بیماری التهابی لگن (PID)
+cc: abdominal-pain, vaginal-bleeding, genital-complaint, fever
+keywords: PID, salpingitis, tubo-ovarian abscess, cervical motion tenderness, cefoxitin, cefotetan, ceftriaxone, doxycycline, metronidazole, PID لگن
+status: draft
+
+@features
+- طیف عفونت‌های دستگاه تناسلی فوقانی: آندومتریت، سالپنژیت، آبسه توبواوارین، پریتونیت لگنی؛ N. gonorrhoeae و C. trachomatis و فلور واژن، گرم‌منفی، استرپتوکوک، مایکوپلاسما
+- عوامل خطر: نوجوانی، شرکای متعدد، شریک جدید در 30 روز، STD دیگر، قرار دادن IUD در 3 هفته قبل؛ در بارداری کمتر ولی با عوارض مادری و زایمان زودرس
+- عوارض: افزایش خطر EP، ناباروری و درد مزمن حتی پس از یک اپیزود
+- درد تحتانی شکم (> 90٪)، ترشح واژینال (75٪)، خونریزی، ناراحتی ادراری، تب، تهوع/استفراغ؛ علائم می‌تواند خفیف باشد
+- معاینه: تندرنس تحتانی شکم، CMT یا تندرنس رحم/آدنکس؛ سرویسیت موکوپورولنت شایع؛ نبودش علل دیگر را مطرح می‌کند
+- جدول 64-1: حداقل معیار: تندرنس رحم/آدنکس یا CMT (درمان تجربی اگر علت دیگری نیست)؛ معیار تکمیلی: دمای دهانی > 38.3°C، ترشح موکوپورولنت، ESR/CRP بالا، شواهد آزمایشگاهی گنوکوک/کلامیدیا؛ اختصاصی: لاپاروسکوپی، سونوگرافی ترانس‌واژینال/MRI (لوله‌های ضخیم پر از مایع یا کمپلکس توبواوارین)، بیوپسی اندومتر
+- هیچ تست آزمایشگاهی منفرد حساس یا اختصاصی نیست
+
+@ddx
+- !Ectopic pregnancy |
+- !Tubo-ovarian abscess |
+- Gastroenteritis / diverticulitis / appendicitis |
+- Spontaneous or septic abortion |
+- Ovarian cyst / pyelonephritis / renal colic |
+
+@redflags
+- ظاهر سمی، عدم تحمل خوراکی، حاملگی، نقص ایمنی، آبسه توبواوارین، نمی‌توان اورژانس جراحی را رد کرد
+
+@guide
+درمان نباید تا نتایج تست به تعویق بیفتد. آزمایش: تست حاملگی، wet prep ترشحات واژن، DNA probe یا کشت گنوکوک و کلامیدیا.
+# سرپایی (جدول 64-3)
+ceftriaxone 250 mg IM یک‌بار یا cefoxitin 2 g IM یک‌بار + probenecid 1 g PO همزمان (یا سفالوسپورین نسل سوم دیگر ceftizoxime/cefotaxime) به‌علاوه doxycycline 100 mg PO دو بار روزانه 14 روز با یا بدون metronidazole 500 mg PO دو بار روزانه 14 روز. اگر سفالوسپورین تزریقی ممکن نیست و مقاومت کم: levofloxacin 500 mg PO یا ofloxacin 400 mg دو بار روزانه 14 روز با یا بدون metronidazole؛ فلوروکینولون برای گنوره توصیه نمی‌شود.
+# تزریقی (جدول 64-2)
+cefotetan 2 g IV هر 12 ساعت یا cefoxitin 2 g IV هر 6 ساعت + doxycycline 100 mg PO/IV هر 12 ساعت؛ یا clindamycin 900 mg IV هر 8 ساعت + gentamicin 2 mg/kg IV/IM بار سپس 1.5 mg/kg هر 8 ساعت (یا 3 تا 5 mg/kg هر 24 ساعت)؛ جایگزین: ampicillin/sulbactam 3 g IV هر 6 ساعت + doxycycline.
+# بستری
+ظاهر سمی، عدم تحمل خوراکی، تهوع/استفراغ، عدم رد تشخیص جایگزین یا اورژانس جراحی، شکست درمان سرپایی، حاملگی، نقص ایمنی، نگرانی عدم همکاری، آبسه توبواوارین. سرپایی: بازارزیابی ظرف 72 ساعت. مشاوره پیشگیری و تست HIV؛ شریک‌ها درمان شوند و تا پایان درمان رابطه نداشته باشند.
+
+@pearls
+- نبود سرویسیت موکوپورولنت: علل دیگر درد لگن را بیشتر مدنظر بگیر.
+
+@variant pid-outpatient
+name: PID, mild to moderate (outpatient)
+level: III
+imp: Pelvic inflammatory disease
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+زنی ۲۲ ساله با درد زیر شکم، ترشح واژینال، CMT و تب خفیف؛ تحمل خوراکی دارد.
+
+@why
+PID خفیف تا متوسط با درمان خوراکی و ضددرد؛ بازارزیابی 72 ساعته.
+
+@I
+- Transvaginal ultrasound (or MRI) if tubo-ovarian complex suspected {note: specific criteria; not mandatory}
+
+@L
+- Pregnancy test; wet preparation of vaginal secretions; DNA probe or culture for N. gonorrhoeae and Chlamydia trachomatis; HIV testing or referral (do not delay treatment pending results)
+
+@A
+- Ceftriaxone 250 mg IM once, or Cefoxitin 2 g IM once and Probenecid 1 g PO once concurrently; or other parenteral third-generation cephalosporin (ceftizoxime or cefotaxime)
+- plus Doxycycline 100 mg PO twice a day for 14 days with or without Metronidazole 500 mg PO twice a day for 14 days
+- If parenteral cephalosporin not feasible and fluoroquinolone resistance is low: Levofloxacin 500 mg PO or Ofloxacin 400 mg twice daily for 14 days with or without Metronidazole 500 mg PO twice a day for 14 days {ci: fluoroquinolones are no longer recommended to treat gonorrhea}
+
+@T
+- Adequate analgesia {note: drug and dose not given in the book}
+
+@Co
+- Reevaluate in the ED or by gynecologist within 72 hours; patient and sexual partner(s) complete the full treatment course before resuming sexual activity
+
+@variant pid-inpatient
+name: PID, severe or complicated (admission)
+level: II
+imp: Pelvic inflammatory disease (severe / tubo-ovarian abscess)
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: once
+cxr: none
+
+@scenario
+زنی ۲۵ ساله با تب 39، استفراغ، درد شدید زیر شکم و توده آدنکس در سونوگرافی.
+
+@why
+استفراغ، ظاهر سمی یا آبسه توبواوارین: بستری و آنتی‌بیوتیک وریدی.
+
+@I
+- Transvaginal ultrasound (or MRI): thickened fluid-filled tubes with or without free pelvic fluid or tubo-ovarian complex
+
+@L
+- Pregnancy test; wet preparation; DNA probe or culture for N. gonorrhoeae and Chlamydia trachomatis; ESR or C-reactive protein
+
+@A
+- Cefotetan 2 g IV every 12 h, or Cefoxitin 2 g IV every 6 h, plus Doxycycline 100 mg PO or IV every 12 h
+- Or Clindamycin 900 mg IV every 8 h plus Gentamicin 2 mg/kg IV or IM loading dose followed by 1.5 mg/kg every 8 h (or 3 to 5 mg/kg every 24 h) {renal: aminoglycoside}
+- Alternative (limited data): Ampicillin/sulbactam 3 g IV every 6 h plus Doxycycline 100 mg PO or IV every 12 h
+
+@Co
+- Admission; gynecology
+
+@cond gyn-procedure-complications
+ch: 65
+name: Complications of gynecologic procedures
+name_fa: عوارض اعمال ژنیکولوژیک
+cc: abdominal-pain, fever, vaginal-bleeding
+keywords: laparoscopy complication, hysteroscopy, vaginal cuff cellulitis, ureteral injury, vesicovaginal fistula, postconization bleeding, septic pelvic thrombophlebitis, induced abortion, ovarian hyperstimulation, postembolization, عوارض ژنیکولوژی
+status: draft
+
+@features
+- شایع‌ترین علل مراجعه: درد، تب و خونریزی؛ مشاوره با ژنیکولوگی که پروسیجر را انجام داده
+- لاپاروسکوپی: آسیب حرارتی روده، سوراخ‌شدگی، خونریزی، آسیب عروق/حالب/مثانه، فتق، دهیسانس؛ درد بیش از انتظار: آسیب روده؛ علائم دیررس (روزها تا هفته‌ها)؛ درد دوطرفه تحتانی، تب، لکوسیتوز، پریتونیت؛ رادیوگرافی: ایلئوس یا هوای آزاد
+- هیستروسکوپی: سوراخ‌شدگی رحم، خونریزی، اضافه حجم مایع، آمبولی گاز و عفونت؛ پک واژن و مشاوره
+- سلولیت cuff واژن: پس از هیستروکتومی؛ تب، درد شکم/لگن/کمر، ترشح چرکی؛ تندرنس و ایندوراسیون cuff؛ آبسه روز 10 تا 14
+- عفونت زخم: تب و درد فزاینده طی 2 هفته؛ اریتم، تندرنس، ایندوراسیون و ترشح
+- آسیب حالب: پس از هیستروکتومی شکمی؛ درد فلانک، تب، CVAT، هماچوری
+- فیستول وزیکوواژینال: 10 تا 14 روز بعد؛ ترشح آبکی واژن؛ تأیید: تامپون پنبه‌ای و متیلن‌بلو از طریق کاتتر (رنگ ظرف 20 دقیقه)
+- خونریزی پس از کونیزاسیون: شایع‌ترین؛ سریع و زیاد؛ تأخیری 1 تا 2 هفته
+- تروموفلبیت سپتیک لگن: پس از سزارین/هیستروکتومی؛ درد شکم و تب؛ CT/MRI ممکن است منفی باشد
+- سقط القایی: سوراخ‌شدگی رحم، پارگی سرویکس، باقیمانده محصولات، آندومتریت؛ باقیمانده: خونریزی و درد؛ رحم بزرگ و تندر با os باز
+- ART: OHSS (نفخ، بزرگی تخمدان، افزایش وزن؛ شدید: آسیت، پلورال افیوژن، ناپایداری، الیگوری، ایجاد انعقادپذیری)، عفونت لگن، خونریزی داخل صفاق، torsion آدنکس؛ معاینه دوهمی را پرهیز کن
+- سندرم پس از آمبولیزاسیون: درد لگن، تب، لکوسیتوز تا 7 روز
+
+@ddx
+- !Bowel perforation / thermal injury |
+- !Ureteral injury |
+- !Septic pelvic thrombophlebitis |
+- Vaginal cuff cellulitis / abscess |
+- Retained products of conception |
+- Ovarian hyperstimulation syndrome |
+
+@redflags
+- درد بیش از انتظار، پریتونیت، تب، خونریزی شدید، ناپایداری
+
+@guide
+ارزیابی متمرکز شامل اسپکولوم استریل و دوهمی؛ مشاوره با ژنیکولوگ.
+- cuff: آنتی‌بیوتیک وسیع‌الطیف (imipenem-cilastatin، یا gentamicin و clindamycin، یا ciprofloxacin + metronidazole)؛ بستری و درناژ توسط رادیولوژی مداخله‌ای.
+- زخم: درناژ و آنتی‌بیوتیک علیه MRSA و استرپتوکوک؛ تهاجمی بستری.
+- حالب: UA و CT با کنتراست یا IVP؛ بستری برای کاتتر حالب و ترمیم (یا نفروستومی پوستی).
+- فیستول: Foley و مشاوره فوری ژنیکولوژی.
+- پس از کونیزاسیون: دید مستقیم؛ Monsel's solution، فشار 5 دقیقه با سواب بزرگ یا cautery نیترات نقره؛ شکست: اتاق عمل.
+- SPT: بستری برای ضدانعقاد و آنتی‌بیوتیک وریدی.
+- سقط القایی: باقیمانده: سونوگرافی لگن؛ D&C یا misoprostol؛ آندومتریت: آنتی‌بیوتیک؛ Rh منفی: Rh0 immunoglobulin 300 μg IM.
+- OHSS: CBC، الکترولیت، آنزیم کبدی، انعقاد، type and crossmatch؛ جایگزینی حجم وریدی و مشاوره ژنیکولوژی برای بستری.
+- postembolization: بررسی علل دیگر تب و کنترل درد؛ بستری در درد کنترل‌نشده یا عفونت.
+
+@variant gynproc-infection-cuff
+name: Postoperative infection (vaginal cuff cellulitis, wound infection)
+level: II
+imp: Postoperative gynecologic infection
+cond: Urgent
+act: CBR
+diet: PO
+ecg: once
+cxr: none
+
+@scenario
+زنی ۴۵ ساله ۷ روز پس از هیستروکتومی با تب، درد لگن و ترشح چرکی؛ تندرنس cuff.
+
+@why
+cuff cellulitis با آنتی‌بیوتیک وسیع‌الطیف وریدی و بستری.
+
+@L
+- Sterile speculum and bimanual examination
+
+@A
+- Broad-spectrum antibiotics: Imipenem-cilastatin, or Gentamicin and Clindamycin, or Ciprofloxacin plus Metronidazole {note: doses not given in the book}
+- [wound infection] antibiotic treatment directed at methicillin-resistant Staphylococcus aureus and streptococci {note: drug and dose not given in the book}
+
+@T
+- [wound infection] drainage
+
+@Co
+- Admit for continued antibiotics and consideration of drainage by interventional radiology (cuff); consult the gynecologist who performed the procedure; admit invasive wound infections
+
+@variant gynproc-bowel-ureter
+name: Suspected bowel, ureteral or bladder injury / septic pelvic thrombophlebitis
+level: I
+imp: Postoperative visceral injury after gynecologic surgery
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: PA
+
+@scenario
+زنی ۳۸ ساله ۳ روز پس از لاپاروسکوپی با درد شدید دوطرفه زیر شکم، تب و پریتونیت.
+
+@why
+درد بیش از انتظار پس از لاپاروسکوپی: آسیب روده را فکر کن؛ مشاوره زودهنگام ژنیکولوژی.
+
+@I
+- X-rays (ileus or free air under the diaphragm); CT scan with IV contrast or intravenous pyelogram for ureteral obstruction; CT / MRI for septic pelvic thrombophlebitis (do not exclude the disease if negative)
+
+@L
+- Urinalysis; CBC
+
+@A
+- IV antibiotics for septic pelvic thrombophlebitis {note: drug and dose not given in the book}
+
+@T
+- Anticoagulation for septic pelvic thrombophlebitis {note: drug and dose not given in the book}
+
+@Co
+- Early gynecology consultation; admission for ureteral catheterization and possible repair (delayed repair after percutaneous nephrostomy is also acceptable)
+
+@variant gynproc-bleeding-fistula
+name: Post-procedure bleeding (conization, hysteroscopy, induced abortion) and vesicovaginal fistula
+level: II
+imp: Postprocedure vaginal bleeding / vesicovaginal fistula
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: once
+cxr: none
+
+@scenario
+زنی ۳۲ ساله ۱۰ روز پس از کونیزاسیون با خونریزی شدید واژینال.
+
+@why
+دید مستقیم محل خونریزی و اقدام موضعی؛ شکست: اتاق عمل.
+
+@I
+- Pelvic ultrasound to confirm retained products of conception (induced abortion)
+
+@T
+- Postconization bleeding: Monsel's solution, direct pressure for 5 minutes with a large cotton swab, or cauterization with silver nitrate; if unsuccessful, OR
+- Hysteroscopy bleeding: packing of the vaginal vault
+- Retained products of conception: dilatation and curettage, or medical management with misoprostol {note: dose not given in the book}; postabortal endometritis: antibiotics
+- Vesicovaginal fistula (cotton tampon in the vagina and methylene blue instilled through a urinary catheter; tampon should stain within 20 minutes): Foley catheter
+- [Rh-negative after spontaneous or induced abortion] Rh0 immunoglobulin 300 μg IM
+
+@Co
+- Gynecologic consultation
+
+@variant gynproc-ohss-postembolization
+name: Ovarian hyperstimulation syndrome / postembolization syndrome
+level: II
+imp: Complication of assisted reproduction or fibroid embolization
+cond: Urgent
+act: CBR
+diet: PO
+ecg: once
+cxr: PA
+
+@scenario
+زنی ۳۴ ساله پس از IVF با افزایش وزن سریع، آسیت و الیگوری.
+
+@why
+OHSS شدید تهدیدکننده حیات؛ پرهیز از معاینه دوهمی؛ مایع وریدی و بستری.
+
+@L
+- CBC, electrolytes, liver enzymes, coagulation studies, type and crossmatch (OHSS)
+
+@S
+- IV volume replacement (OHSS) {ci: avoid bimanual pelvic examination to prevent rupturing the ovaries}
+
+@T
+- Postembolization syndrome: pain control; evaluate for other causes of fever {note: drug and dose not given in the book}
+
+@Co
+- Gynecology for admission (OHSS); admission for inadequate pain control or infection (postembolization)
