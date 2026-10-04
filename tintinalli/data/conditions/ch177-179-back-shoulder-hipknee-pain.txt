@@ -1,0 +1,566 @@
+@cond back-neck-pain-nonspecific
+ch: 177
+name: Neck and back pain — uncomplicated musculoskeletal (nonspecific)
+name_fa: درد گردن و کمر — عضلانی‌اسکلتی بدون عارضه (غیراختصاصی)
+cc: back-neck-pain
+keywords: low back pain, neck pain, nonspecific back pain, muscle strain, red flags back pain, کمردرد, گردن‌درد, کمردرد غیراختصاصی
+status: draft
+
+@features
+- اکثر موارد خوش‌خیم یا غیراختصاصی؛ دو گروه: عضلانی‌اسکلتی بدون عارضه و رادیکولوپاتی/میلوپاتی؛ مدت (کمر): حاد < 6 هفته، تحت‌حاد 6–12، مزمن > 12
+- شرح حال: شروع، شرایط، محل، انتشار، مدت، عوامل تشدید/تسکین؛ جستجوی ریسک‌فاکتورهای آسیب جدی (جدول 177-4): درد > 6 هفته، سن < 18 یا > 50، تروما، سابقه سرطان، تب و لرز، کاهش وزن، تزریق مواد، نقص ایمنی، درد شبانه، درد بی‌امان حتی در حالت خوابیده، بی‌اختیاری، saddle anesthesia، نقص نورولوژیک پیشرونده، ضدانعقاد
+- معاینه: ROM، تندرنس نقطه‌ای، دفورمیتی، لنفادنوپاتی، علائم عفونت؛ معاینه نورولوژیک کامل؛ RE اگر نگرانی کمپرسیون
+- عضلانی (جدول 177-1): تندرنس عضله، افزایش درد با ابداکشن شانه، حرکت تکراری، خوابیدن در وضعیت بد، سفتی؛ حرکت درد را بدتر می‌کند؛ معاینه و بررسی طبیعی
+- تصویربرداری معمولاً لازم نیست؛ آزمایش در اکثر بیماران مفید نیست
+- NSAID، acetaminophen، شل‌کننده عضلانی (تنها یا ترکیبی)؛ opioid خوراکی کوتاه‌مدت در درد متوسط تا شدید؛ شواهد manipulation، soft-collar، کورتیکواستروئید محدود و نباید از ED تجویز شود؛ فعالیت تحمل‌پذیر؛ نکات برگشت
+
+@ddx
+- !Epidural compression / cauda equina |
+- !Spinal infection (osteomyelitis, discitis, epidural abscess) |
+- !Ruptured AAA / aortic dissection |
+- Pyelonephritis / pancreatitis / renal infarction |
+- Pathologic / compression fracture |
+
+@redflags
+- نقص نورولوژیک پیشرونده، بی‌اختیاری، saddle anesthesia، تب، سرطان، IVDU، سن > 50 با درد شدید، تروما
+
+@guide
+1) رد ریسک‌فاکتورهای جدول 177-4. 2) بدون red flag: بدون تصویربرداری. 3) NSAID/acetaminophen/relaxant. 4) فعالیت تحمل‌پذیر و نکات بازگشت.
+
+@variant back-pain-nonspecific
+name: Nonspecific neck / back pain without red flags
+level: III
+imp: Nonspecific musculoskeletal neck / back pain
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مرد ۳۵ ساله با کمردرد پس از بلند کردن جسم سنگین، بدون ضعف یا بی‌اختیاری، معاینه نورولوژیک طبیعی.
+
+@why
+بدون تصویربرداری؛ ضددرد و فعالیت.
+
+@I
+- No imaging for acute nontraumatic neck / back pain without concerning features
+
+@L
+- Not routinely required beyond fixed set
+
+@S
+- Analgesia
+
+@T
+- NSAIDs, acetaminophen, or muscle relaxants alone or in combination; short course oral opioid for moderate to severe pain (long-term use discouraged); activity as tolerated; return precautions
+
+@Co
+- Outpatient follow-up (primary care); chronic pain: multidisciplinary approach
+
+@cond radiculopathy-myelopathy
+ch: 177
+name: Radiculopathy (cervical / lumbar sciatica) and myelopathy
+name_fa: رادیکولوپاتی (گردنی / سیاتیک کمری) و میلوپاتی
+cc: back-neck-pain, weakness, focal-neuro
+keywords: cervical radiculopathy, lumbar radiculopathy, sciatica, disc herniation, Spurling sign, Lhermitte, straight leg raise, myelopathy, Hoffman sign, رادیکولوپاتی, سیاتیک, دیسک
+status: draft
+
+@features
+- رادیکولوپاتی: درد و ضعف در توزیع درماتومال؛ گردنی (جدول 177-2): C5–C6 (C6)، C6–C7 (C7)، C7–T1 (C8) با ریفلکس‌های بایسپس/براکیورادیالیس/ترایسپس؛ Spurling (اختصاصی 90%، حساس 45%)؛ ابداکشن relief؛ Valsalva
+- کمری (جدول 177-3): L3، L4، L5، S1؛ > 95% دیسک در L4–L5 و L5–S1 ← سیاتیک؛ تست SLR مثبت؛ crossed-leg
+- میلوپاتی: هایپررفلکسی اندام تحتانی، Babinski، Hoffman، از دست رفتن تون اسفنکتر، Lhermitte ← MRI
+- دیسک سرویکال، spondylosis، stenosis ← رادیکولوپاتی یا میلوپاتی؛ متاستاز سرطان در افتراق
+- تصویربرداری: بدون نقص نورولوژیک معمولاً نه؛ نقص نورولوژیک ← MRI (قطعی)؛ CT ضعیف برای ریشه/نخاع؛ CT myelography جایگزین؛ در گردن مزمن یا سابقه تروما/جراحی/بدخیمی/روماتولوژیک: گرافی یا CT؛ flexion-extension یا MRI برای ناپایداری
+- رادیکولوپاتی پایدار/خفیف: محافظه‌کارانه؛ MRI سرپایی و نوروسرجری در شکست درمان؛ نقص پیشرونده، میلوپاتی، درد غیرقابل کنترل: تصویربرداری و بستری
+
+@ddx
+- !Epidural compression / cord compression |
+- !Spinal infection / tumor |
+- Rotator cuff pathology (cervical) |
+- Peripheral neuropathy |
+
+@redflags
+- ضعف پیشرونده، میلوپاتی، درد غیرقابل کنترل، اختلال اسفنکتر
+
+@guide
+خفیف/پایدار: ضددرد، فعالیت تحمل‌پذیر، نکات بازگشت. نقص پیشرونده/میلوپاتی: MRI و بستری.
+
+@variant radiculopathy-stable
+name: Stable / mild radiculopathy (conservative)
+level: III
+imp: Radiculopathy (cervical / lumbar), stable
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مرد ۴۰ ساله با درد کمر تیرکشنده به ساق پا، SLR مثبت، قدرت طبیعی.
+
+@why
+محافظه‌کارانه؛ MRI سرپایی در شکست.
+
+@I
+- Imaging usually not indicated without neurologic deficit; plain films if chronic neck pain not previously imaged or history of trauma / surgery / malignancy / rheumatologic disease
+
+@L
+- Not routinely required beyond fixed set
+
+@S
+- Analgesia
+
+@T
+- NSAIDs, acetaminophen or muscle relaxants; short course opioid if moderate–severe; routine activity as tolerated; strict return precautions
+
+@Co
+- Outpatient MRI and neurosurgical follow-up if conservative treatment fails
+
+@variant radiculopathy-progressive-myelopathy
+name: Progressive neurologic deficit / myelopathy / intractable pain (MRI, admit)
+level: II
+imp: Radiculopathy with progressive deficit / myelopathy
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: once
+cxr: none
+
+@scenario
+زن ۶۰ ساله با گردن‌درد، هایپررفلکسی، Hoffman مثبت و ضعف دست‌ها.
+
+@why
+MRI فوری و بستری.
+
+@I
+- MRI (definitive test); CT myelography if MRI contraindicated or unavailable; CT for bony disorders
+
+@L
+- Not routinely required beyond fixed set; if serious pathology suspected: CBC, ESR, urinalysis
+
+@S
+- Analgesia
+
+@T
+- Dexamethasone 10 mg IV prior to imaging if epidural compression suspected; NPO pending imaging
+
+@Co
+- Admit to appropriate service (neurosurgery / spine)
+
+@cond epidural-compression-cauda-equina
+ch: 177
+name: Epidural compression syndromes (spinal cord compression, cauda equina, conus medullaris)
+name_fa: سندرم‌های کمپرسیون اپیدورال (فشار نخاع، cauda equina، conus medullaris)
+cc: back-neck-pain, weakness, urinary-symptoms, focal-neuro
+keywords: cauda equina syndrome, epidural compression, spinal cord compression, urinary retention, saddle anesthesia, post void residual, کاودا اکوینا, کمپرسیون نخاع, احتباس ادرار
+status: draft
+
+@features
+- درد، نقص نورولوژیک یا اختلال اتونوم در هر سطح؛ ستون توراسیک شایع‌ترین محل کمپرسیون ناشی از نئوپلاسم؛ 10% ضایعات متاستاتیک اضافی ← تصویربرداری از کل نخاع
+- ریسک‌فاکتورها: بی‌اختیاری، saddle anesthesia، نقص نورولوژیک شدید/پیشرونده، لقی غیرمنتظره اسفنکتر، از دست رفتن حس پری‌آنال/پرینه، ضعف حرکتی ماژور/اختلال راه رفتن، ضدانعقاد/کوآگولوپاتی (هماتوم)
+- احتباس ادرار شایع‌ترین یافته در cauda equina؛ PVR > 500 mL پیش‌بینی‌کننده مهم کمپرسیون در MRI؛ PVR با سونوگرافی یا کاتتر
+- RE: تون، حس، توده
+- MRI قطعی؛ دگزامتازون 10 mg IV پیش از تصویربرداری در شک کمپرسیون اپیدورال؛ بستری
+
+@ddx
+- !Spinal epidural abscess / hematoma |
+- !Metastatic tumor |
+- Transverse myelitis |
+- Disc herniation |
+
+@redflags
+- احتباس ادرار، saddle anesthesia، ضعف پیشرونده، لقی اسفنکتر
+
+@guide
+1) RE و PVR. 2) دگزامتازون 10 mg IV. 3) MRI اورژانس. 4) بستری.
+
+@variant epidural-compression-main
+name: Suspected epidural compression / cauda equina
+level: I
+imp: Suspected epidural compression / cauda equina syndrome
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: none
+
+@scenario
+مرد ۵۵ ساله با سابقه سرطان، کمردرد شدید، ضعف پا و احتباس ادرار.
+
+@why
+دگزامتازون و MRI فوری.
+
+@I
+- MRI (entire spine if neoplasm suspected); post-void residual by ultrasound or catheterization
+
+@L
+- CBC, ESR, urinalysis; coagulation studies
+
+@S
+- Analgesia
+
+@T
+- Dexamethasone 10 mg IV before imaging; rectal exam (tone, sensation, masses); NPO
+
+@Co
+- Emergent spine surgery / neurosurgery; admit; oncology if neoplasm
+
+@cond spinal-infection
+ch: 177
+name: Spinal infection (vertebral osteomyelitis, discitis, epidural abscess)
+name_fa: عفونت ستون فقرات (استئومیلیت مهره، دیسکیت، آبسه اپیدورال)
+cc: back-neck-pain, fever
+keywords: spinal epidural abscess, vertebral osteomyelitis, discitis, ESR, IV drug use back pain, MRI spine, آبسه اپیدورال, استئومیلیت مهره, دیسکیت
+status: draft
+
+@features
+- اغلب در ارائه اول از قلم می‌افتد؛ ریسک: نقص ایمنی، جراحی اخیر ستون، hardware، IVDU، تب و لرز، درد شبانه/بی‌امان
+- گرافی در ابتدا اغلب طبیعی؛ تخریب استخوان، erosion end plate، کاهش فضای دیسک؛ MRI معمولاً برای تشخیص لازم؛ ESR در اکثر موارد بالا (حساسیت 90% تا 98% برای عفونی)
+- عفونت مشکوک/اثبات‌شده: مشاوره اورژانس جراح ستون؛ آنتی‌بیوتیک وسیع‌الطیف تجربی مگر مشاور دستور خلاف دهد
+
+@ddx
+- !Epidural compression syndromes |
+- Tumor |
+- Pyelonephritis |
+
+@redflags
+- تب، IVDU، نقص نورولوژیک، ESR بالا
+
+@guide
+CBC، ESR، UA؛ MRI؛ آنتی‌بیوتیک وسیع‌الطیف و مشاوره اورژانس.
+
+@variant spinal-infection-main
+name: Suspected spinal infection
+level: I
+imp: Suspected spinal infection (osteomyelitis / discitis / epidural abscess)
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: PA
+
+@scenario
+مرد ۴۵ ساله مصرف‌کننده تزریقی با کمردرد، تب و ESR بالا.
+
+@why
+MRI و آنتی‌بیوتیک وسیع‌الطیف.
+
+@I
+- MRI spine (plain films often initially normal); plain AP and lateral films may show end plate erosion / disc space narrowing
+
+@L
+- CBC, ESR, urinalysis; blood cultures before antibiotics
+
+@S
+- Analgesia
+
+@A
+- Vancomycin 1 g IV plus piperacillin-tazobactam 3.375 g IV (empiric broad spectrum) unless consultant explicitly directs withholding {ci: penicillin allergy}
+
+@T
+- NPO; neurologic exam; dexamethasone 10 mg IV before imaging only if epidural compression suspected
+
+@Co
+- Emergent spinal surgeon consultation; admission
+
+@cond shoulder-pain-intrinsic
+ch: 178
+name: Shoulder pain — intrinsic (impingement, rotator cuff, calcific tendonitis, adhesive capsulitis, biceps)
+name_fa: درد شانه — داخلی (impingement، روتیتور کاف، تاندونیت کلسیفیک، کپسولیت چسبنده، بایسپس)
+cc: joint-limb-pain
+keywords: shoulder pain, rotator cuff tear, impingement syndrome, calcific tendonitis, adhesive capsulitis, frozen shoulder, biceps tendinopathy, subacromial bursitis, درد شانه, روتیتور کاف, کپسولیت چسبنده
+status: draft
+
+@features
+- درد شانه شایع بالای 40 سال؛ منشأ داخلی یا ارجاعی (خارجی)؛ درد عضلانی‌اسکلتی: احساس کوفتگی؛ درد شبانه شایع؛ حرکات خاص؛ کاهش ROM، کرپیتوس، ضعف، آتروفی
+- هر علامت سیستمیک (تنگی نفس، تب، انتشار از قفسه/شکم) ← علت خارجی بالقوه تهدیدکننده حیات
+- معاینه: ROM، قدرت، لمس، نقص نوروواسکولار، تست‌های impingement و عملکرد روتیتور کاف؛ گرافی بدون تروما مهم کم؛ برای کلسیفیکاسیون
+- Impingement: overuse (حرکت overhead)؛ شامل subacromial tendonitis/bursitis، supraspinatus tendonitis، rotator cuff tendonitis، painful arc؛ بهبود با تزریق بی‌حسی ساب‌آکرومیال
+- Subacromial bursitis: < 25 سال؛ Rotator cuff tendonitis: 25–40 سال، ضعف خفیف تا متوسط؛ پارگی روتیتور کاف: > 40 سال، ضعف (ابداکشن و چرخش خارجی)، 90% مزمن؛ حاد: نیروی قابل‌توجه با احساس پارگی
+- Calcific tendonitis: 30–50 سال، کلسیفیکاسیون گرافی
+- Adhesive capsulitis: درد و محدودیت ROM شدید، اغلب با immobilization؛ گرافی برای رد دررفتگی خلفی؛ osteoarthritis
+- بایسپس (سر بلند): tendinopathy، subluxation، پارگی؛ palpation شیار بایسیپیتال یا resisted supination
+- درمان: کاهش درد و التهاب، استراحت نسبی با sling (immobilization کامل توصیه نمی‌شود)، NSAID، opioid در صورت نیاز، کیسه یخ، ROM زودهنگام؛ تزریق گلوکوکورتیکوئید (triamcinolone 20–40 mg ± lidocaine) با احتیاط (پارگی تاندون، حداکثر سه تزریق)؛ پیگیری PCP/ارتوپد 7 تا 14 روز؛ فیزیوتراپی
+
+@ddx
+- !ACS / aortic / pulmonary / abdominal pathology (referred) |
+- !Axillary artery thrombosis |
+- !Septic arthritis |
+- Pancoast tumor / cervical spine disease |
+- Posterior glenohumeral dislocation |
+
+@redflags
+- تنگی نفس، تب، درد انتشاری از قفسه یا شکم، نبض مختل
+
+@guide
+بررسی علل خارجی (ECG، آزمایش) در علائم سیستمیک؛ سپس sling، NSAID، یخ، ROM زودرس، ارجاع 7–14 روز.
+
+@variant shoulder-intrinsic-main
+name: Intrinsic shoulder pain (impingement / rotator cuff / capsulitis)
+level: III
+imp: Intrinsic shoulder pain
+cond: Urgent
+act: CBR
+diet: PO
+ecg: once
+cxr: none
+
+@scenario
+مرد ۵۰ ساله با درد شانه شبانه، ضعف ابداکشن، بدون علائم سیستمیک.
+
+@why
+درمان محافظه‌کارانه؛ ECG برای رد منشأ قلبی.
+
+@I
+- Shoulder radiographs only if selected (exclude bony abnormality, calcifications, posterior dislocation)
+
+@L
+- Not routinely required beyond fixed set
+
+@S
+- NSAIDs; opioid analgesics as needed
+
+@T
+- Relative rest with sling (full immobilization not suggested); cold packs; range-of-motion exercises as soon as pain allows; joint space injection of glucocorticoid (triamcinolone 20–40 mg ± lidocaine) judiciously (maximum three injections into a single area; avoid direct tendon injection); biceps tendinitis / subluxation: sling, analgesics, anti-inflammatory agents, ice, early mobilization
+
+@Co
+- Primary care physician with joint expertise or orthopedic referral within 7–14 days; physical therapy
+
+@variant shoulder-extrinsic
+name: Shoulder pain — extrinsic cause suspected (referred, vascular, neurologic)
+level: II
+imp: Shoulder pain, suspected extrinsic cause
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: PA
+
+@scenario
+مرد ۶۰ ساله با درد شانه و تنگی نفس.
+
+@why
+ECG و بررسی علل قلبی، آئورت، ریه، شکم و عروق.
+
+@I
+- CXR; additional radiographs as indicated; vascular imaging if axillary artery thrombosis suspected
+
+@L
+- CBC, BUN, Cr, Na, K; troponin and other tests as indicated by suspected extrinsic cause
+
+@S
+- Analgesia and anti-inflammatory medications for neurologic causes
+
+@T
+- Treatment depends on specific diagnosis; axillary artery thrombosis: immediate consultation to initiate thrombolysis
+
+@Co
+- Neurology / neurosurgery follow-up for neurologic causes; vascular surgery for axillary artery thrombosis
+
+@cond psoas-abscess
+ch: 179
+name: Psoas abscess
+name_fa: آبسه پسواس
+cc: abdominal-pain, fever, flank-pain, joint-limb-pain
+keywords: psoas abscess, hip pain fever limp, Staphylococcus aureus, CT drainage, آبسه پسواس
+status: draft
+
+@features
+- معمولاً انتشار هماتوژن؛ درد شکم منتشر به هیپ یا فلانک، تب، لنگش، علائم سیستمیک؛ 80% Staphylococcus aureus
+- تشخیص با CT؛ آنتی‌بیوتیک اختصاصی ارگانیسم و درناژ جراحی
+
+@ddx
+- !Septic arthritis of the hip |
+- Appendicitis / pyelonephritis |
+
+@redflags
+- تب، لنگش، درد شکم-هیپ
+
+@guide
+CT شکم-لگن؛ آنتی‌بیوتیک و درناژ.
+
+@variant psoas-abscess-main
+name: Psoas abscess
+level: II
+imp: Psoas abscess
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: once
+cxr: PA
+
+@scenario
+مرد ۴۰ ساله با تب، لنگش و درد شکم منتشر به ران راست.
+
+@why
+CT و درناژ.
+
+@I
+- CT abdomen / pelvis (diagnostic)
+
+@L
+- Blood cultures, CBC, ESR / CRP
+
+@S
+- IV analgesia
+
+@A
+- Organism-specific antibiotics (S. aureus 80%) — empiric coverage until cultures {ci: penicillin allergy}
+
+@T
+- NPO pending drainage
+
+@Co
+- Surgery / interventional radiology for drainage; admission
+
+@cond hip-knee-nerve-bursal-overuse
+ch: 179
+name: Hip and knee pain — nerve entrapment, bursitis, overuse syndromes
+name_fa: درد هیپ و زانو — گیرافتادگی عصب، بورسیت، سندرم‌های overuse
+cc: joint-limb-pain, limb-injury
+keywords: meralgia paresthetica, piriformis syndrome, trochanteric bursitis, pes anserine bursitis, prepatellar bursitis, patellofemoral syndrome, iliotibial band, Baker cyst, runner knee, مرالژیا پارستتیکا, بورسیت تروکانتریک, سندرم پیریفورمیس
+status: draft
+
+@features
+- زانو: معمولاً مشکل موضعی؛ هیپ: درد ارجاعی به باسن و اندام تحتانی ممکن علت خارج‌مفصلی
+- نکات (جدول 179-1): محل و فعالیت تحریک‌کننده؛ "gives out/buckles" معمولاً درد و مهار عضلانی، یا subluxation کشکک/لیگامان؛ ضعف چهارسر ← patellofemoral؛ قفل شدن ← منیسک؛ pop ← لیگامان؛ افیوژن راجعه پس از فعالیت ← منیسک؛ درد خط مفصل ← منیسک
+- نوروپاتی گیرافتادگی: Meralgia paresthetica (عصب lateral femoral cutaneous؛ درد/سوزش ران لترال؛ رفع علت: چاقی، حاملگی، شلوار تنگ، کمربند + NSAID)؛ Obturator (پس از شکستگی لگن، توده، ورزشکار)؛ Ilioinguinal (حاملگی، هیپرتروفی عضلات شکم)؛ Piriformis (درد باسن و hamstring بدتر با نشستن، پله، squat)؛ همه ED محافظه‌کارانه
+- بورسیت (هیپ: تروکانتریک، ایسکیوگلوتئال، iliopectineal/iliopsoas؛ زانو: pes anserine، prepatellar): علل: تروما تکراری، روماتولوژیک (پسوریاتیک، RA، AS)، کریستال (گوت، pseudogout)، عفونت؛ آسپیراسیون بورس برای افتراق عفونت؛ NSAID، استراحت، گرما؛ تزریق استروئید بورس قابل دسترس اگر عفونت رد؛ تزریق تاندون ممنوع؛ عفونت: آنتی‌بیوتیک (فصل 180)؛ سرکوب ایمنی مشکوک: بستری برای IV آنتی‌بیوتیک و ارتوپدی
+- Overuse (جدول 179-2): snapping hip، fascia lata، patellofemoral (runner's knee)، plica مدیال، iliotibial band، popliteus، patellar tendinitis، quadriceps tendinitis، Baker cyst؛ NSAID، گرما، استراحت، بازگشت تدریجی، فیزیوتراپی
+
+@ddx
+- !Septic bursitis / septic arthritis |
+- !Referred pain (lumbar spine, intra-abdominal) |
+- Meniscal / ligamentous injury |
+
+@redflags
+- تب، قرمزی و گرما (عفونت بورس)، نقص ایمنی
+
+@guide
+محافظه‌کارانه: NSAID، استراحت، گرما؛ تزریق استروئید فقط با رد عفونت.
+
+@variant hip-knee-nerve-bursal-main
+name: Nerve entrapment / bursitis / overuse syndrome of hip or knee
+level: III
+imp: Hip / knee pain — bursitis / nerve entrapment / overuse
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+زن ۴۵ ساله چاق با سوزش و بی‌حسی ران لترال.
+
+@why
+محافظه‌کارانه و رفع علت.
+
+@I
+- Radiographs only if indicated by history / exam
+
+@L
+- Bursal aspirate analysis if infection suspected
+
+@S
+- NSAIDs
+
+@T
+- Address source of nerve irritation (obesity, pregnancy, tight pants, belt); rest, heat; steroid injection into readily accessible bursa only if infection excluded (avoid tendon injection); gradual resumption of activities, physical therapy
+
+@A
+- Infection: antibiotics per Chapter 180 recommendations; admit immunocompromised patients with suspected infection for IV antibiotics and orthopedic consultation
+
+@Co
+- Orthopedic / primary care follow-up; obturator entrapment: surgery may be needed
+
+@cond osteonecrosis-osteomyelitis-hip
+ch: 179
+name: Osteonecrosis, osteomyelitis, osteitis pubis, myositis ossificans (hip / knee region)
+name_fa: استئونکروز، استئومیلیت، استئیت پوبیس، میوزیت اسیفیکانس (ناحیه هیپ / زانو)
+cc: joint-limb-pain, fever
+keywords: osteonecrosis, avascular necrosis femoral head, osteomyelitis, empiric antibiotics osteomyelitis, osteitis pubis, myositis ossificans, استئونکروز, استئومیلیت, استئیت پوبیس
+status: draft
+
+@features
+- استئونکروز (aseptic/AVN): انفارکت استخوان؛ ایدیوپاتیک، ثانویه (شکستگی گردن فمور، دررفتگی هیپ، sickle cell، collagen vascular، الکل، پیوند کلیه، SLE، dysbarism، پانکراتیت مزمن، استروئید، Cushing، Gaucher) یا تروما؛ درد از باسن تا زانو؛ X-ray، CT، MRI؛ ممکن جایگزینی مفصل
+- استئومیلیت: عفونت استخوان با تخریب، اغلب S. aureus؛ درد موضعی، گرمی، تورم، اریتم؛ تصویربرداری ممکن طبیعی؛ MRI ترجیحی؛ تأیید با بیوپسی استخوان؛ بیمار حاد: آنتی‌بیوتیک پارنترال وسیع‌الطیف با دوز بالا بر اساس ریسک‌فاکتور
+- جدول 179-3: مسن/هماتوژن (S. aureus شامل MRSA، گرم‌منفی): vancomycin + piperacillin-tazobactam یا imipenem؛ sickle cell (Salmonella، گرم‌منفی): ciprofloxacin؛ دیابت/نارسایی عروقی (پلی‌میکروبیال): vancomycin + piperacillin-tazobactam یا imipenem؛ IVDU (S. aureus/MRSA، Pseudomonas): vancomycin + ceftazidime؛ کشورهای در حال توسعه: TB؛ نوزاد: vancomycin + ceftazidime؛ کودکان: vancomycin؛ بعد از جراحی/hardware: vancomycin؛ گاز گرفتگی انسان: piperacillin-tazobactam یا imipenem؛ حیوان: cefuroxime اگر P. multocida یا piperacillin-tazobactam یا imipenem؛ همه به بیوپسی و debridement نیاز دارند
+- Osteitis pubis: پس از زایمان، ورزشکاران، پس از جراحی مثانه/پروستات؛ درد ناحیه پوبیس؛ استراحت و NSAID؛ ماه‌ها
+- Myositis ossificans: ترسیب استخوان در محل غیرطبیعی پس از تروما مستقیم؛ درد و توده؛ ممکن جراحی
+
+@ddx
+- !Septic arthritis |
+- !Femoral neck fracture |
+- Tumor |
+
+@redflags
+- تب، قرمزی، گرما، نقص ایمنی، IVDU
+
+@guide
+استئومیلیت: MRI، آنتی‌بیوتیک وسیع‌الطیف براساس ریسک، بیوپسی و debridement.
+
+@variant osteomyelitis-main
+name: Osteomyelitis — acute ill patient (empiric parenteral antibiotics)
+level: II
+imp: Osteomyelitis
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: once
+cxr: PA
+
+@scenario
+مرد ۵۵ ساله دیابتی با زخم پا، تب و درد استخوان.
+
+@why
+MRI و آنتی‌بیوتیک وسیع‌الطیف.
+
+@I
+- Plain radiographs (may be normal); MRI (preferred imaging); bone biopsy for confirmation
+
+@L
+- CBC, ESR, CRP, blood cultures
+
+@S
+- IV analgesia
+
+@A
+- High-dose broad-spectrum parenteral antibiotics based on risk factors: elderly / hematogenous: vancomycin plus piperacillin-tazobactam or imipenem; sickle cell: ciprofloxacin (consider vancomycin); diabetes / vascular insufficiency: vancomycin plus piperacillin-tazobactam or imipenem; injection drug user: vancomycin plus ceftazidime; postoperative / hardware: vancomycin; human bite: piperacillin-tazobactam or imipenem {ci: penicillin allergy}
+
+@T
+- NPO; elevation; pain control
+
+@Co
+- Orthopedic surgery: bone biopsy and debridement of infected / dead bone; admission
+
+@variant osteonecrosis-other-main
+name: Osteonecrosis / osteitis pubis / myositis ossificans (outpatient)
+level: III
+imp: Osteonecrosis / osteitis pubis / myositis ossificans
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مرد ۴۵ ساله مصرف‌کننده طولانی استروئید با درد کشاله ران تا زانو.
+
+@why
+تصویربرداری و ارجاع ارتوپدی.
+
+@I
+- Hip radiographs; CT or MRI to aid diagnosis of osteonecrosis
+
+@L
+- Not routinely required beyond fixed set
+
+@S
+- NSAIDs
+
+@T
+- Rest; osteitis pubis: rest and NSAIDs (resolves over months); myositis ossificans: surgery may be required
+
+@Co
+- Orthopedic referral (osteonecrosis: joint replacement may be needed)

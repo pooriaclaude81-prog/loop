@@ -1,0 +1,657 @@
+@cond hand-infection-superficial
+ch: 182
+name: Hand infections — cellulitis, paronychia, felon, herpetic whitlow
+name_fa: عفونت‌های دست — سلولیت، پارونیشیا، felon، herpetic whitlow
+cc: wound-bite, rash, joint-limb-pain
+keywords: hand cellulitis, paronychia, felon, herpetic whitlow, fingertip infection, incision and drainage, TMP-SMX, cephalexin, پارونیشیا, فلون, سلولیت دست, هرپس انگشت
+status: draft
+
+@features
+- مبنای درمان: درناژ چرک، immobilization، elevation و آنتی‌بیوتیک؛ وضعیت عملکردی اسپلینت: مچ 15–30° extension، MCP 50–90° flexion، IP 10–15° flexion
+- سلولیت: عفونت سطحی؛ گرمی، اریتم، ادم موضعی؛ فقدان تندرنس در لمس عمیق و ROM بدون درد انگشت ← رد درگیری فضای عمقی
+- پارونیشیا: عفونت چین جانبی ناخن؛ بدون چرک: گرم، elevation، آنتی‌بیوتیک در صورت لزوم؛ درناژ با بلند کردن چین ناخن با تیغ مسطح؛ چرک زیر ناخن: برداشتن بخشی از ناخن و packing؛ ریچک 48 ساعت، برداشتن packing، شروع warm soak
+- Felon: عفونت pulp انگشت؛ I&D با رویکرد لترال (حفظ بسته نوروواسکولار)؛ انتهای pad را برش ندهید؛ برش را تا چین flexor DIP گسترش ندهید؛ برش through-and-through یا hockey stick اندیکاسیون ندارد؛ septae را کُند جدا کنید؛ abscess volar: برش طولی volar؛ packing، اسپلینت؛ ریچک 48 ساعت
+- Herpetic whitlow: ویروسی، شبیه felon ولی وزیکول؛ immobilize، elevate، پانسمان خشک برای جلوگیری از انتقال؛ آنتی‌ویرال ممکن مدت را کوتاه کند؛ بدون درناژ
+
+@ddx
+- !Flexor tenosynovitis / deep space infection |
+- !Closed fist (bite) injury |
+- Felon vs herpetic whitlow |
+
+@redflags
+- تندرنس عمیق، درد با ROM انگشت، تورم فضای web، تب
+
+@guide
+جدول 182-2: سلولیت خفیف تا متوسط: TMP-SMX DS 1–2 قرص دو بار روزانه PO 7–10 روز ± cephalexin 500 mg چهار بار روزانه یا dicloxacillin 500 mg چهار بار روزانه؛ شدید: vancomycin 1 g IV هر 12 ساعت. Felon/paronychia: همان خوراکی‌ها؛ در شک بی‌هوازی clindamycin یا amoxicillin-clavulanate به TMP-SMX. Herpetic whitlow: acyclovir 400 mg PO سه بار روزانه 10 روز.
+
+@variant hand-infection-cellulitis
+name: Hand cellulitis (mild–moderate / severe)
+level: III
+imp: Hand cellulitis
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مرد ۳۰ ساله با قرمزی و تورم پشت دست پس از خراش، بدون تندرنس عمیق.
+
+@why
+سلولیت سطحی؛ آنتی‌بیوتیک و elevation.
+
+@I
+- Radiographs if foreign body or osteomyelitis suspected
+
+@L
+- Culture of drainage if present (recommended by hand surgeons)
+
+@S
+- Analgesia
+
+@A
+- Mild to moderate: TMP-SMX double strength 1–2 tablets PO twice daily for 7–10 days, plus/minus cephalexin 500 mg PO four times daily or dicloxacillin 500 mg PO four times daily for 7–10 days; severe: vancomycin 1 g IV every 12 h (consider vancomycin for injection drug abusers) {ci: sulfa allergy, penicillin allergy}
+
+@T
+- Elevation; splint in position of function (wrist 15°–30° extension, MCP 50°–90° flexion, IP 10°–15° flexion)
+
+@Co
+- Hand surgery follow-up
+
+@variant hand-infection-paronychia-felon
+name: Paronychia / felon (incision and drainage)
+level: III
+imp: Paronychia / felon
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+زن ۳۵ ساله با تورم دردناک کنار ناخن و چرک.
+
+@why
+درناژ و آنتی‌بیوتیک؛ ریچک 48 ساعت.
+
+@I
+- Radiographs if foreign body / osteomyelitis suspected
+
+@L
+- Culture of pus
+
+@S
+- Digital block for drainage; analgesia
+
+@A
+- TMP-SMX double strength 1–2 tablets PO twice daily for 7–10 days, plus/minus cephalexin 500 mg PO four times daily or dicloxacillin 500 mg PO four times daily for 7–10 days; add clindamycin or amoxicillin-clavulanate to TMP-SMX if anaerobes suspected {ci: sulfa allergy, penicillin allergy}
+
+@T
+- Paronychia: warm soaks and elevation if no pus; drain by lifting nail fold with flat blade (pus beneath nail: remove portion of nail and pack); felon: lateral incision, bluntly dissect septae, do not incise distal pad or extend to DIP flexor crease, pack wound and splint; recheck within 48 hours, pull packing, begin warm soaks
+
+@Co
+- Hand surgery follow-up
+
+@variant herpetic-whitlow-main
+name: Herpetic whitlow
+level: III
+imp: Herpetic whitlow
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+پرستار ۳۰ ساله با وزیکول‌های دردناک نوک انگشت.
+
+@why
+بدون درناژ؛ immobilize و آنتی‌ویرال.
+
+@I
+- None required
+
+@L
+- Not routinely required beyond fixed set
+
+@A
+- Acyclovir 400 mg PO three times daily for 10 days
+
+@T
+- Immobilize, elevate, protect with dry dressing to prevent transmission; no surgical drainage
+
+@Co
+- Primary care follow-up
+
+@cond hand-deep-space-infection
+ch: 182
+name: Flexor tenosynovitis and deep space hand infection
+name_fa: تنوسینوویت فلکسور و عفونت فضای عمقی دست
+cc: wound-bite, joint-limb-pain, fever
+keywords: flexor tenosynovitis, Kanavel signs, deep space infection, thenar space, web space infection, midpalmar space, تنوسینوویت فلکسور, علائم کانول
+status: draft
+
+@features
+- تنوسینوویت فلکسور: اورژانس جراحی؛ تشخیص بالینی با 4 علامت Kanavel (جدول 182-1): تندرنس پرکاشن در تمام طول غلاف تاندون، تورم یکنواخت انگشت، درد شدید با extension پاسیو، وضعیت flexion در استراحت
+- فضای عمقی: thenar، web، midpalmar یا bursa رادیال/اولنار؛ از گسترش تنوسینوویت یا زخم نافذ؛ کف دست تندر؛ ROM دردناک؛ تورم web space ← جدا شدن انگشتان؛ اغلب درناژ جراحی
+- ارگانیسم‌ها: S. aureus (MRSA)، استرپتوکوک، بی‌هوازی، گرم‌منفی
+
+@ddx
+- !Septic arthritis of the finger |
+- Cellulitis |
+- Gout |
+
+@redflags
+- Kanavel signs، تب، تورم کف دست
+
+@guide
+آنتی‌بیوتیک پارنترال و مشاوره فوری جراح دست؛ بستری.
+
+@variant hand-deep-infection-main
+name: Flexor tenosynovitis / deep space hand infection (surgical emergency)
+level: I
+imp: Flexor tenosynovitis / deep space hand infection
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: none
+
+@scenario
+مرد ۴۰ ساله با انگشت متورم، flexed، درد شدید با extension پاسیو پس از زخم نافذ.
+
+@why
+آنتی‌بیوتیک IV و جراحی.
+
+@I
+- Hand radiographs (foreign body)
+
+@L
+- CBC, cultures (blood and wound)
+
+@S
+- IV analgesia
+
+@A
+- Ampicillin-sulbactam 1.5 g IV every 6 h, or cefoxitin 2 g IV every 8 h, or piperacillin-tazobactam 3.375 g IV every 6 h; plus vancomycin 1 g IV every 12 h if MRSA prevalent in community; consider ceftriaxone for suspected N. gonorrhoeae {ci: penicillin allergy}
+
+@T
+- Immobilize in position of function; elevation; NPO
+
+@Co
+- Immediate hand surgery consultation (operative drainage; inpatient management)
+
+@cond hand-bite-closed-fist
+ch: 182
+name: Closed fist injury (fight bite) and animal / human bites of the hand
+name_fa: آسیب مشت بسته (fight bite) و گازگرفتگی دست (انسان / حیوان)
+cc: wound-bite
+keywords: fight bite, closed fist injury, human bite hand, animal bite hand, amoxicillin-clavulanate, Eikenella, Pasteurella, گاز انسان, گاز حیوان, fight bite
+status: draft
+
+@features
+- Closed fist injury: زخم گاز روی MCP ناشی از مشت به دندان؛ ریسک بالای عفونت پوست، تاندون، مفصل، استخوان، فضای عمقی
+- زخم نافذ پوست: اکتشاف، شستشو، آنتی‌بیوتیک پروفیلاکسی، بهبود با intention ثانویه؛ عفونت برقرار: آنتی‌بیوتیک IV و مشاوره جراح دست
+- ارگانیسم‌ها: S. aureus، استرپتوکوک، Eikenella corrodens (انسان)، Pasteurella multocida (گربه)، بی‌هوازی، گرم‌منفی؛ همه گازگرفتگی‌های حیوان آنتی‌بیوتیک پروفیلاکسی خوراکی
+
+@ddx
+- !Septic arthritis of MCP |
+- !Tendon injury / fracture |
+- Deep space infection |
+
+@redflags
+- نفوذ به مفصل، علائم عفونت، تندرنس عمیق
+
+@guide
+زخم نافذ: اکتشاف و شستشو، پروفیلاکسی، secondary intention؛ عفونت: IV و جراح.
+
+@variant bite-hand-no-infection
+name: Hand bite / fight bite — no signs of infection (prophylaxis)
+level: II
+imp: Hand bite wound (closed fist injury), no infection
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مرد ۲۲ ساله با زخم کوچک روی MCP پس از مشت به دهان، بدون علائم عفونت.
+
+@why
+اکتشاف، شستشو و پروفیلاکسی.
+
+@I
+- Hand radiographs (fracture, tooth fragment / foreign body)
+
+@L
+- Not routinely required beyond fixed set
+
+@S
+- Analgesia
+
+@A
+- Amoxicillin-clavulanate 875/125 mg PO twice daily for 5 days {ci: penicillin allergy}
+
+@T
+- Wound exploration, irrigation; healing by secondary intention; tetanus prophylaxis
+
+@Co
+- Hand surgery follow-up
+
+@variant bite-hand-infected
+name: Hand bite / fight bite — established infection
+level: I
+imp: Infected hand bite wound (closed fist injury)
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: none
+
+@scenario
+مرد ۲۸ ساله با fight bite دو روز پیش و اکنون تورم، قرمزی و درد حرکت MCP.
+
+@why
+IV آنتی‌بیوتیک و جراحی.
+
+@I
+- Hand radiographs
+
+@L
+- CBC; wound cultures
+
+@S
+- IV analgesia
+
+@A
+- Ampicillin-sulbactam 1.5 g IV every 6 h, or cefoxitin 2 g IV every 8 h, or piperacillin-tazobactam 3.375 g IV every 6 h; penicillin allergy: clindamycin plus moxifloxacin, or TMP-SMX and metronidazole {ci: penicillin allergy}
+
+@T
+- Exploration, irrigation; immobilize and elevate; NPO
+
+@Co
+- Hand surgery consultation for consideration of operative intervention
+
+@cond hand-noninfectious
+ch: 182
+name: Noninfectious hand disorders — tendonitis, trigger finger, de Quervain, carpal tunnel, Dupuytren, ganglion
+name_fa: اختلالات غیرعفونی دست — تاندونیت، trigger finger، de Quervain، تونل کارپ، Dupuytren، گانگلیون
+cc: joint-limb-pain, limb-injury
+keywords: carpal tunnel syndrome, trigger finger, de Quervain tenosynovitis, Finkelstein test, Dupuytren contracture, ganglion cyst, Tinel, Phalen, تونل کارپ, انگشت ماشه‌ای, دکروین, دوپویترن
+status: draft
+
+@features
+- تاندونیت و تنوسینوویت: overuse؛ تندرنس تاندون و درد با فعال/کشش پاسیو؛ immobilization و NSAID
+- Trigger finger: تنوسینوویت غلاف فلکسور؛ snap هنگام extension؛ تزریق استروئید مؤثر؛ درمان قطعی جراحی
+- De Quervain: EPB و APL؛ درد رادیال مچ منتشر به ساعد؛ Finkelstein تشخیصی؛ thumb spica، NSAID، ارجاع
+- تونل کارپ: فشار عصب مدین با transverse carpal ligament؛ ادم (overuse، حاملگی، CHF)؛ درد شبانه؛ Tinel، Phalen (> 1 دقیقه)؛ wrist splint، NSAID، ارجاع
+- Dupuytren: فیبروز زیرجلدی کف دست و کنتراکچر؛ ارجاع جراح
+- گانگلیون: کیست سینوویال؛ NSAID و ارجاع
+
+@ddx
+- !Infection (flexor tenosynovitis) |
+- Cervical radiculopathy |
+- Arthritis |
+
+@redflags
+- ندارد (خوش‌خیم) — ضعف پیشرونده تنار
+
+@guide
+اسپلینت، NSAID، ارجاع.
+
+@variant hand-noninfectious-main
+name: Noninfectious hand disorder
+level: III
+imp: Tendonitis / carpal tunnel / trigger finger / de Quervain / ganglion
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+زن ۳۵ ساله باردار با بی‌حسی انگشتان در شب، Tinel مثبت.
+
+@why
+اسپلینت و NSAID.
+
+@I
+- None required
+
+@L
+- Not routinely required beyond fixed set
+
+@S
+- NSAIDs
+
+@T
+- Tendonitis: immobilization; trigger finger: steroid injection may be effective; de Quervain: thumb spica splint; carpal tunnel: wrist splint
+
+@Co
+- Hand surgeon / orthopedic referral (Dupuytren, ganglion, trigger finger definitive surgery)
+
+@cond foot-skin-nail-soft-tissue
+ch: 183
+name: Foot soft tissue — corns, calluses, plantar warts, ingrown toenail
+name_fa: بافت نرم پا — میخچه، پینه، زگیل کف پا، ناخن فرورفته
+cc: rash, joint-limb-pain
+keywords: callus, corn, plantar wart, ingrown toenail, onychocryptosis, partial nail removal, digital block, میخچه, پینه, زگیل کف پا, ناخن فرورفته
+status: draft
+
+@features
+- Callus: واکنش پوستی به فشار؛ محافظتی؛ فقط در صورت درد درمان؛ Corn: هسته hyperkeratotic دردناک؛ تمایز از زگیل با برش (زگیل خونریزی می‌کند)؛ افتراق: سیفلیس، پسوریازیس، lichen planus، rosacea، مسمومیت آرسنیک، basal cell nevus، بدخیمی؛ درمان: paring با اسکالپل با برداشتن plug مرکزی یا salicylic acid موضعی
+- زگیل کف پا: HPV، مسری؛ تشخیص بالینی؛ افتراق: corn، ملانوم؛ salicylic acid 15–20%؛ زخم‌های غیربهبودیابنده: ارجاع
+- Onychocryptosis (ingrown toenail): التهاب/عفونت لبه ناخن (شست)؛ دیابت، نارسایی شریانی، سلولیت، زخم، نکروز ← خطر قطع عضو در تأخیر
+- بدون عفونت: بالا بردن ناخن با تکه پنبه، soak روزانه، پرهیز از فشار؛ یا digital block و برداشتن spicule؛ granulation یا عفونت: برداشتن جزئی (≤ یک‌چهارم ناخن) با برش طولی؛ پانسمان nonadherent بزرگ و ریچک 24–48 ساعت
+
+@ddx
+- !Diabetic foot infection / ischemia |
+- !Melanoma |
+- Wart vs corn |
+
+@redflags
+- دیابت/ایسکمی با عفونت، ضایعه غیربهبودیابنده، تغییر رنگ
+
+@guide
+Corn: paring/salicylic acid. Plantar wart: salicylic acid 15–20%. Ingrown toenail: برداشتن بخشی با digital block.
+
+@variant foot-skin-nail-main
+name: Corn / callus / plantar wart / ingrown toenail
+level: III
+imp: Foot soft tissue problem (corn / wart / ingrown toenail)
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مرد ۲۸ ساله با قرمزی و درد لبه ناخن شست و گرانولاسیون.
+
+@why
+برداشتن بخشی از ناخن.
+
+@I
+- None required
+
+@L
+- Not routinely required beyond fixed set
+
+@S
+- Digital block; analgesia
+
+@T
+- Uninfected ingrown nail: elevate nail with wisp of cotton, daily foot soaks, avoid pressure (or remove spicule and debride groove after digital block); granulation tissue / infection: partial nail removal (one-fourth or less) with longitudinal incision; nonadherent bulky dressing, recheck in 24–48 hours; corn: paring with central keratin plug removal or topical salicylic acid; plantar wart: salicylic acid 15–20%
+
+@Co
+- Podiatry / dermatology for nonhealing lesions; urgent care for diabetic / ischemic patients
+
+@cond foot-bursitis-plantar-fasciitis
+ch: 183
+name: Foot bursitis, plantar fasciitis, ganglion
+name_fa: بورسیت پا، فاشئیت پلانتار، گانگلیون
+cc: joint-limb-pain, limb-injury
+keywords: plantar fasciitis, heel pain, calcaneal bursitis, Achilles tendinopathy, ganglion, فاشئیت پلانتار, درد پاشنه, بورسیت کالکانئال
+status: draft
+
+@features
+- بورسیت کالکانئال: درد خلف پاشنه (در برابر Achilles tendinopathy: 2–6 cm بالای کالکانئوس)؛ انواع: غیرالتهابی، التهابی (گوت، سیفلیس، RA)، چرکی (S. aureus؛ هیگروما، فیستول، زخم)، کلسیفیه؛ غیرالتهابی: کفش راحت، استراحت، یخ، NSAID؛ سپتیک: فصل 180
+- فاشئیت پلانتار: شایع‌ترین علت درد پاشنه؛ درد بدتر در شروع راه رفتن؛ تندرنس نقطه‌ای قدامی-مدیال کالکانئوس بدتر با dorsiflexion انگشتان؛ heel spur ارزش تشخیصی ندارد؛ استراحت، یخ، NSAID؛ اغلب خودمحدود در 12 ماه؛ stretching؛ تزریق استروئید در ED اندیکاسیون ندارد؛ شدید: short-leg walking cast و ارجاع
+- گانگلیون: کیست سینوویال خوش‌خیم نزدیک آنترولترال مچ پا؛ لمس سفت بدون درد؛ MRI/سونوگرافی در شک؛ آسپیراسیون و تزریق استروئید، اکثراً جراحی
+
+@ddx
+- !Septic bursitis |
+- Stress fracture / tarsal tunnel |
+
+@redflags
+- قرمزی و گرما (عفونت بورس)، دیابت
+
+@guide
+NSAID، استراحت، یخ، stretching؛ بدون تزریق استروئید در ED برای فاشئیت.
+
+@variant foot-bursitis-fasciitis-main
+name: Plantar fasciitis / foot bursitis
+level: III
+imp: Plantar fasciitis / foot bursitis
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+زن ۴۵ ساله با درد پاشنه در اولین قدم‌های صبح.
+
+@why
+درمان محافظه‌کارانه.
+
+@I
+- Radiographs not diagnostic (heel spurs common in asymptomatic patients)
+
+@L
+- Not routinely required beyond fixed set
+
+@S
+- NSAIDs
+
+@T
+- Rest, ice; plantar stretch exercises (dorsiflex ankle and toes with hands); glucocorticoid injection not indicated in ED; severe: short-leg walking cast; septic bursitis: see Chapter 180
+
+@Co
+- Podiatry / orthopedics for severe cases
+
+@cond foot-nerve-entrapment
+ch: 183
+name: Foot nerve entrapment — tarsal tunnel, deep peroneal, Morton neuroma
+name_fa: گیرافتادگی عصب پا — tarsal tunnel، peroneal عمقی، نوروم Morton
+cc: joint-limb-pain, weakness
+keywords: tarsal tunnel syndrome, deep peroneal entrapment, Morton neuroma, Tinel sign foot, plantar digital nerve, تارسال تونل, نوروم مورتون
+status: draft
+
+@features
+- Tarsal tunnel: فشار عصب tibial posterior زیر مالئول مدیال؛ علل: دویدن، کفش تنگ، ادم حاملگی، فیبروز پس از تروما، گانگلیون، استئوفیت، تومور؛ بی‌حسی/سوزش کف، گاهی فقط پاشنه؛ شب و پس از دویدن/ایستادن بدتر (در برابر فاشئیت: صبح)؛ Tinel (پرکاشن زیر مالئول مدیال)؛ eversion و dorsiflexion بدتر؛ NSAID، استراحت، ارجاع
+- Deep peroneal: زیر extensor retinaculum قدام مچ؛ علل: پیچ‌خوردگی‌های راجعه، توده، کفش تنگ؛ درد پشت و داخل پا، hypoesthesia web space اول؛ از دست رفتن hyperextension انگشتان؛ plantar flexion + inversion درد را ایجاد می‌کند؛ NSAID، استراحت، ارجاع
+- Morton neuroma: گیرافتادگی عصب دیجیتال کف پا پروگزیمال به bifurcation (کفش تنگ)، فضای سوم شایع‌ترین؛ سوزش، گرفتگی، درد سر متاتارس، بی‌حسی انگشت؛ لمس درد؛ سونوگرافی/MRI؛ کفش پهن و تزریق گلوکوکورتیکوئید؛ گاهی neurolysis جراحی
+
+@ddx
+- Plantar fasciitis |
+- Achilles tendonitis |
+- !Compartment syndrome |
+
+@redflags
+- ضعف پیشرونده
+
+@guide
+NSAID، استراحت، کفش مناسب، ارجاع.
+
+@variant foot-nerve-entrapment-main
+name: Foot nerve entrapment
+level: III
+imp: Tarsal tunnel / peroneal entrapment / Morton neuroma
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+زن ۴۰ ساله با سوزش بین انگشت سوم و چهارم پا با کفش تنگ.
+
+@why
+کفش پهن و ارجاع.
+
+@I
+- Ultrasound or MRI if diagnosis unclear
+
+@L
+- Not routinely required beyond fixed set
+
+@S
+- NSAIDs
+
+@T
+- Rest; wide shoes; glucocorticoid injection (Morton neuroma — may be curative)
+
+@Co
+- Orthopedic / podiatry referral; surgical neurolysis occasionally required
+
+@cond foot-tendon-lesions
+ch: 183
+name: Foot tendon lesions — tendinitis, laceration, rupture (Achilles, tibialis anterior / posterior, FHL, peroneal retinaculum)
+name_fa: ضایعات تاندون پا — تاندونیت، پارگی، گسیختگی (آشیل، تیبیالیس قدامی/خلفی، FHL، peroneal retinaculum)
+cc: limb-injury, joint-limb-pain
+keywords: foot tendon rupture, Achilles tendon rupture, tibialis posterior, flexor hallucis longus, fluoroquinolone tendon rupture, tendon laceration foot, پارگی تاندون آشیل, فلوروکینولون
+status: draft
+
+@features
+- تنوسینوویت/تاندونیت: overuse، درد روی تاندون؛ FHL، تیبیالیس خلفی، آشیل؛ یخ، استراحت، NSAID
+- پارگی تاندون: پیچیده؛ مشاوره ارتوپدی؛ پس از ترمیم: extensor در dorsiflexion، flexor در equinus
+- گسیختگی خودبه‌خودی: آشیل شایع؛ ریسک: سن، کورتیکواستروئید مزمن، فلوروکینولون؛ آشیل: درد، defect قابل‌لمس، ناتوان در ایستادن روی پنجه، Thompson؛ جوان: اغلب جراحی؛ سالمند: محافظه‌کارانه (گچ در equinus)
+- تیبیالیس قدامی: defect و foot drop خفیف، معمولاً بدون جراحی؛ تیبیالیس خلفی: مزمن، قوس تخت، تورم مدیال، ضعف inversion؛ FHL: از دست رفتن plantar flexion شست، جراحی بسته به شغل؛ peroneal retinaculum: ضربه مستقیم در dorsiflexion، کلیک خلف مالئول لترال ← جراحی
+
+@ddx
+- !Ankle fracture |
+- Ankle sprain |
+
+@redflags
+- Thompson مثبت، foot drop
+
+@guide
+آشیل: splint در equinus، non-weight-bearing، ارتوپدی.
+
+@variant foot-tendon-main
+name: Foot tendon injury (tendinitis / rupture / laceration)
+level: III
+imp: Foot tendon injury
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مرد ۵۵ ساله مصرف‌کننده سیپروفلوکساسین با درد ناگهانی آشیل و Thompson مثبت.
+
+@why
+اسپلینت و ارتوپدی.
+
+@I
+- Ultrasound / MRI if unclear (see Achilles)
+
+@L
+- Not routinely required beyond fixed set
+
+@S
+- NSAIDs
+
+@T
+- Tendonitis: ice, rest; Achilles rupture: casting in equinus (elderly) / surgical (younger patients); tendon laceration: orthopedic consultation (after repair extensors immobilized in dorsiflexion, flexors in equinus)
+
+@Co
+- Orthopedic consultation / follow-up
+
+@cond foot-compartment-syndrome
+ch: 183
+name: Compartment syndrome of the foot
+name_fa: سندرم کمپارتمان پا
+cc: limb-injury, trauma-major
+keywords: foot compartment syndrome, crush injury foot, fasciotomy, Lisfranc, calcaneal fracture, سندرم کمپارتمان پا, ضربه له‌شدگی
+status: draft
+
+@features
+- پا 9 کمپارتمان دارد؛ مرتبط با crush پرانرژی؛ سایر علل: بیماری خونریزی‌دهنده، تورم پس از ایسکمی/آسیب شریانی، شکستگی پا و مچ (کالکانئوس، Lisfranc)، سوختگی، overuse مزمن
+- درد خارج از تناسب؛ درد با حرکت فعال و پاسیو، پارستزی، نقص نوروواسکولار؛ نبض غایب و بی‌حسی کامل دیرهنگام
+- فشار کمپارتمان در بیماران پرخطر؛ اختلاف < 30 mmHg بین دستگاه Stryker STIC و فشار دیاستولیک = مثبت؛ فاسیوتومی اورژانس
+
+@ddx
+- !Arterial occlusion |
+- Fracture / infection |
+
+@redflags
+- درد خارج از تناسب، crush، کالکانئوس/Lisfranc
+
+@guide
+اندازه‌گیری فشار و مشاوره فوری برای فاسیوتومی (به chap 176 مراجعه شود).
+
+@variant foot-compartment-main
+name: Foot compartment syndrome (fasciotomy)
+level: I
+imp: Foot compartment syndrome
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: none
+
+@scenario
+مرد ۳۰ ساله پس از له‌شدگی پا با درد غیرقابل‌کنترل و پارستزی.
+
+@why
+اندازه‌گیری فشار و فاسیوتومی.
+
+@I
+- Compartment pressure measurement (delta pressure less than 30 mmHg positive); foot radiographs for associated fractures
+
+@L
+- Coagulation studies (bleeding disorders)
+
+@S
+- Analgesia
+
+@T
+- Remove constrictive dressings; limb at heart level; NPO
+
+@Co
+- Emergent consideration of fasciotomy (orthopedics / surgery)
+
+@cond foot-melanoma
+ch: 183
+name: Malignant melanoma of the foot
+name_fa: ملانوم بدخیم پا
+cc: rash, wound-bite
+keywords: acral melanoma, foot melanoma, nonhealing foot ulcer, atypical lesion foot, ملانوم پا
+status: draft
+
+@features
+- 15% ملانوم‌های پوستی در پا؛ ضایعه آتیپیک پیگمانته یا غیرپیگمانته؛ ممکن ناخن؛ تقلید ضایعات خوش‌خیم (عفونت قارچی، زگیل کف پا، زخم پا)
+- پیش‌آگهی وابسته به تشخیص زودرس؛ هر ضایعه آتیپیک یا غیربهبودیابنده ← ارجاع برای بیوپسی
+
+@ddx
+- Plantar wart |
+- Fungal infection |
+- Foot ulcer |
+
+@redflags
+- ضایعه غیربهبودیابنده یا آتیپیک
+
+@guide
+ارجاع برای بیوپسی.
+
+@variant foot-melanoma-main
+name: Atypical / nonhealing foot lesion (referral for biopsy)
+level: III
+imp: Atypical / nonhealing foot lesion — rule out melanoma
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مرد ۶۰ ساله با زخم غیربهبودیابنده کف پا.
+
+@why
+ارجاع برای بیوپسی.
+
+@I
+- None in ED
+
+@L
+- Not routinely required beyond fixed set
+
+@T
+- Document lesion; no ED treatment
+
+@Co
+- Dermatology / podiatry referral for biopsy

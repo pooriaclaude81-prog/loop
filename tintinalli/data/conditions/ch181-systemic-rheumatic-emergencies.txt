@@ -1,0 +1,345 @@
+@cond rheum-overview
+ch: 181
+name: Systemic rheumatic disease — overview of ED emergencies (organ-system approach)
+name_fa: بیماری‌های روماتیسمی سیستمیک — مرور اورژانس‌ها (رویکرد ارگان‌محور)
+cc: fever, joint-limb-pain, weakness
+keywords: systemic rheumatic disease, lupus, vasculitis, scleroderma, Sjogren, Behcet, Takayasu, Wegener, polyarteritis nodosa, antiphospholipid, Henoch-Schonlein, relapsing polychondritis, لوپوس, واسکولیت, اسکلرودرمی
+status: draft
+
+@features
+- بیماران ریسک درد، آسیب ارگان، عفونت، عوارض دارویی و مرگ‌ومیر؛ تشخیص جدید معمولاً در ED ممکن نیست (سرپایی یا بستری)
+- جدول 181-1: آنتی‌فسفولیپید (ترومبوزهای متعدد وریدی/شریانی، سقط راجعه؛ ARDS، PE، CAPS)؛ AS (جوان، کمردرد بهتر با ورزش، uveitis، نارسایی ریوی restrictive؛ فشار نخاع، subluxation آتلانتوآگزیال، AR)؛ Adult Still (تب، بثور گذرا، فارنژیت، LAP، HSM؛ پریکاردیت، DIC)؛ Behçet (زخم دهان/تناسلی، واسکولیت عروق همه اندازه‌ها، ترومبوز، uveitis؛ آنوریسم/دایسکسیون/پارگی، سوراخ‌شدگی روده)؛ Churg–Strauss (آسم، ائوزینوفیلی، rhinitis/sinusitis؛ HTN، پریکاردیت، نوروپاتی)؛ DM/PM (ضعف عضلانی، CK بالا، ILD، نارسایی تنفسی)؛ GCA (> 70 سال، سردرد جدید، claudication فک، از دست رفتن بینایی، PMR 50%)؛ HSP (purpura قابل‌لمس، آرترالژی، درد شکم، نارسایی کلیه، intussusception، acute scrotum)؛ MPA (RPGN و ریه)؛ PAN (شریان عضلانی متوسط، HTN، نوروپاتی، acute scrotum)؛ RP (گوش، بینی زین‌اسبی، انسداد راه هوایی)؛ RA (سرویکال، cricoarytenoid، پریکاردیت)؛ SLE (راش پروانه‌ای، پلورزی، ILD، Libman–Sacks، نفریت، سیتوپنی)؛ Sjögren (خشکی چشم/دهان، RTA هیپوکالمی)؛ SSc (Raynaud، ILD، scleroderma renal crisis، watermelon stomach)؛ Takayasu (زنان جوان آسیایی، آئورت و شاخه‌ها، subclavian steal)؛ Wegener/GPA (مجاری تنفسی ~100%، subglottic stenosis، RPGN)
+- رویکرد سیستم‌ها: راه هوایی، ریه، قلب‌عروق، نورو/چشم، کلیه، GI، خون و سایر، عفونت/ایمونوساپرسیون، عوارض دارویی
+
+@ddx
+- !Sepsis / opportunistic infection |
+- !Adrenal insufficiency (steroid withdrawal) |
+- !Thromboembolism / vasculitis complication |
+- Drug adverse effect |
+
+@redflags
+- تب با سرکوب ایمنی، تنگی نفس، استریدور، سردرد جدید/از دست رفتن بینایی، درد شکم، هیپوتانسیون
+
+@guide
+ارگان درگیر را شناسایی کنید و به بخش‌های اختصاصی (راه هوایی، ریه، قلب، چشم، کلیه، GI، عفونت، آدرنال) مراجعه نمایید.
+
+@variant rheum-general-assessment
+name: Systemic rheumatic disease — undifferentiated ED presentation
+level: II
+imp: Systemic rheumatic disease with acute manifestation
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: once
+cxr: PA
+
+@scenario
+زن ۳۵ ساله با SLE، تب و درد قفسه سینه.
+
+@why
+ارگان درگیر، عفونت و عارضه دارویی را بررسی کنید.
+
+@I
+- CXR; imaging directed by organ system (CT / echo as indicated)
+
+@L
+- CBC, BUN, Cr, Na, K; urinalysis; CK and cultures as indicated; procalcitonin (> 0.5 ng/mL specific for sepsis in autoimmune disease)
+
+@S
+- IV analgesia as needed
+
+@A
+- Empiric antibiotics for patients with apparent infection {ci: penicillin allergy}
+
+@T
+- Organ-specific management; review immunosuppressive / biologic medications; avoid abrupt steroid withdrawal
+
+@Co
+- Rheumatology; admit based on severity
+
+@cond rheum-airway-cricoarytenoid
+ch: 181
+name: Rheumatic airway emergency — cricoarytenoid arthritis (RA, SLE, relapsing polychondritis)
+name_fa: اورژانس راه هوایی روماتیسمی — آرتریت cricoarytenoid (RA، SLE، پلی‌کندریت راجعه)
+cc: dyspnea, ent, airway-procedure
+keywords: cricoarytenoid arthritis, stridor, difficult airway rheumatoid, dual setup cricothyrotomy, relapsing polychondritis, آرتریت کریکوآریتنوئید, استریدور, راه هوایی دشوار
+status: draft
+
+@features
+- درد/پری گلو، تغییر صدا، تندرنس غضروف‌ها؛ شدید: تنگی نفس، استریدور، انسداد حاد راه هوایی فوقانی
+- ارزیابی: CT یا لارنگوسکوپی فیبراپتیک؛ درمان اولیه: استروئید با دوز بالا (methylprednisolone 250 mg IV)
+- انتوباسیون اغلب دشوار؛ آماده‌سازی "dual setup" برای cricothyrotomy؛ از هایپراکستنشن گردن در RA پیشرفته یا AS اجتناب (شکستگی، subluxation، فشار نخاع)
+
+@ddx
+- !Anaphylaxis / angioedema |
+- !Epiglottitis / foreign body |
+- Subglottic stenosis (GPA) |
+
+@redflags
+- استریدور، تغییر صدا، تنگی نفس
+
+@guide
+CT یا fiberoptic laryngoscopy؛ methylprednisolone 250 mg IV؛ dual setup برای cricothyrotomy؛ گردن را هایپراکستند نکنید.
+
+@variant rheum-airway-main
+name: Cricoarytenoid arthritis / upper airway obstruction in rheumatic disease
+level: I
+imp: Upper airway obstruction (cricoarytenoid arthritis) in systemic rheumatic disease
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: portable
+o2: 100% oxygen
+
+@scenario
+مرد ۵۰ ساله با RA پیشرفته و خشونت صدا و استریدور.
+
+@why
+استروئید و آمادگی راه هوایی دشوار.
+
+@I
+- CT neck or fiberoptic laryngoscopy; CXR portable
+
+@L
+- CBC, BUN, Cr, Na, K
+
+@S
+- None routine
+
+@T
+- Methylprednisolone 250 mg IV (high-dose steroid); airway management with "dual setup" for cricothyrotomy; avoid neck hyperextension (RA / AS: cervical fracture, subluxation, spinal cord compression)
+
+@Co
+- ENT / anesthesia / ICU; rheumatology
+
+@cond rheum-pulmonary-alveolar-hemorrhage
+ch: 181
+name: Rheumatic pulmonary emergency — alveolar hemorrhage vs pneumonia, ILD, PE
+name_fa: اورژانس ریوی روماتیسمی — خونریزی آلوئولار در برابر پنومونی، ILD، PE
+cc: dyspnea, cough-hemoptysis
+keywords: alveolar hemorrhage, interstitial lung disease, pneumonia immunosuppressed, pulmonary embolism lupus, hemoptysis vasculitis, خونریزی آلوئولار, ILD
+status: draft
+
+@features
+- اسکلرودرمی، RA، SLE، Wegener، پلی‌میوزیت: علائم مزمن ریوی (ILD) یا عوارض حاد (خونریزی آلوئولار)؛ خطر پنومونی بالا (بیماری و ایمونوساپرسیون)؛ افیوژن پلور در RA و SLE؛ خطر PE بالاتر
+- افتراق پنومونی از خونریزی آلوئولار دشوار (تب و انفیلتره در هر دو)؛ کم‌خونی اغلب حساس برای خونریزی آلوئولار؛ برونکوسکوپی تأیید؛ درمان ED: گلوکوکورتیکوئید با دوز بالا برای خونریزی آلوئولار در برابر آنتی‌بیوتیک برای پنومونی
+
+@ddx
+- !Pneumonia (typical and opportunistic) |
+- !Pulmonary embolism |
+- Pleural effusion / pericardial disease |
+
+@redflags
+- هموپتیزی، افت Hb، هیپوکسمی
+
+@guide
+CXR، CBC (Hb)، افتراق پنومونی/خونریزی؛ درمان بر اساس تشخیص.
+
+@variant rheum-pulmonary-main
+name: Dyspnea / infiltrates in rheumatic disease (alveolar hemorrhage vs pneumonia)
+level: I
+imp: Respiratory emergency in systemic rheumatic disease (alveolar hemorrhage vs pneumonia)
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+o2: N.C 3-5 L/min or F.M 6-10 L/min if SpO2 < 94%
+
+@scenario
+زن ۴۰ ساله با SLE، تب، هموپتیزی و انفیلتره دوطرفه.
+
+@why
+خونریزی آلوئولار یا پنومونی: درمان متفاوت.
+
+@I
+- CXR; CT chest as needed; bronchoscopy confirms alveolar hemorrhage; evaluate for pulmonary embolism
+
+@L
+- CBC (anemia sensitive for alveolar hemorrhage), BUN, Cr, Na, K; urinalysis; cultures; procalcitonin
+
+@S
+- None routine
+
+@A
+- Pneumonia: antibiotics (empiric); alveolar hemorrhage: antibiotics not primary treatment {ci: penicillin allergy}
+
+@T
+- Alveolar hemorrhage: high-dose glucocorticoids; oxygen as above
+
+@Co
+- Rheumatology / pulmonology / ICU
+
+@cond rheum-cardio-neuro-ophtho-renal-gi
+ch: 181
+name: Rheumatic cardiovascular, neurologic, ophthalmologic, renal and GI emergencies
+name_fa: اورژانس‌های قلبی‌عروقی، نورولوژیک، چشمی، کلیوی و GI در بیماری‌های روماتیسمی
+cc: chest-pain, eye, headache, abdominal-pain, weakness
+keywords: pericarditis lupus, aortitis, giant cell arteritis blindness, Sjogren renal tubular acidosis, bowel ischemia vasculitis, scleroderma renal crisis, polyarteritis nodosa orchitis, پریکاردیت, آئورتیت, نابینایی ناگهانی, RTA
+status: draft
+
+@features
+- قلب: آترواسکلروز تسریع‌یافته (SLE، APS، RA)؛ پریکاردیت (RA، SLE)؛ pancarditis در تب روماتیسمی؛ آئورتیت و آنوریسم (GCA، Takayasu، Behçet) ← پارگی، دایسکسیون، علائم عصبی، سندرم کرونری
+- نورو/چشم: سکته ایسکمیک/هموراژیک؛ ضایعات vertebrobasilar: ورتیگو، کاهش شنوایی، آتاکسی؛ نابینایی ناگهانی (GCA) با claudication فک و زبان؛ بیوپسی شریان تمپورال تأیید می‌کند ولی استروئید با دوز بالا تجربی داده شود؛ اشک‌ریزش، قرمزی، تغییر بینایی، درد
+- کلیه: تقریباً همه؛ SLE، Wegener، واسکولیت ← نفریت؛ RTA دیستال با هیپوکالمی در 30% Sjögren (ضعف پیشرونده)؛ رابدومیولیز و نارسایی حاد کلیه
+- GI: واسکولیت (GCA عروق بزرگ تا SLE کوچک) ← درد شکم، ایلئوس، انسداد، ایسکمی روده
+- خون: آنمی، لکوپنی، ترومبوسیتوپنی؛ APS با TTP؛ همولیز در SLE و سیستمیک اسکلروزیس؛ HTN بدخیم (SSc، APS، PAN) و HTN با درگیری کلیه
+- پوست: راش، زخم، سلولیت، Raynaud؛ ارکیت (PAN، HSP): سونوگرافی چون شبیه torsion
+
+@ddx
+- !ACS / aortic dissection |
+- !Stroke / acute vision loss (GCA) |
+- !Bowel ischemia |
+- !Testicular torsion (vs orchitis) |
+- Pericarditis |
+
+@redflags
+- نابینایی ناگهانی، درد شکم، درد قفسه، ضعف پیشرونده با هیپوکالمی
+
+@guide
+سیستم درگیر را شناسایی؛ GCA مشکوک: استروئید تجربی؛ ارکیت: سونوگرافی؛ ضعف + هیپوکالمی در Sjögren: RTA.
+
+@variant rheum-organ-emergency-main
+name: Organ-specific emergency in systemic rheumatic disease (vision loss / abdominal pain / chest pain / weakness)
+level: I
+imp: Organ-threatening complication of systemic rheumatic disease
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: PA
+
+@scenario
+زن ۷۰ ساله با سردرد جدید، claudication فک و کاهش ناگهانی بینایی یک چشم.
+
+@why
+استروئید تجربی بدون انتظار برای بیوپسی.
+
+@I
+- Imaging directed by organ system (CT / echocardiography / abdominal imaging); testicular ultrasound for orchitis; temporal artery biopsy (diagnostic, does not delay treatment)
+
+@L
+- CBC, BUN, Cr, Na, K (hypokalemia: Sjögren RTA), urinalysis; CK (rhabdomyolysis)
+
+@S
+- IV analgesia
+
+@T
+- Giant cell arteritis with visual symptoms: high-dose steroids administered empirically; organ-specific supportive care
+
+@Co
+- Rheumatology; ophthalmology (vision loss); vascular / surgery as indicated; admit
+
+@cond rheum-infection-immunosuppression
+ch: 181
+name: Infection in immunosuppressed rheumatic patient (sepsis, septic arthritis, zoster)
+name_fa: عفونت در بیمار روماتیسمی ایمونوساپرس (سپسیس، آرتریت سپتیک، زوستر)
+cc: fever, joint-limb-pain, rash
+keywords: immunosuppression rheumatic, procalcitonin, septic arthritis rheumatoid steroids, biologic agents zoster ophthalmicus, عفونت ایمونوساپرس, زوستر چشمی
+status: draft
+
+@features
+- بیماری روماتیسمی و داروهایش ایمونوساپرسیون مستقیم می‌دهند؛ تغییرات آناتومیک زمینه‌ساز عفونت؛ عوامل فرصت‌طلب و معمول
+- آنتی‌بیوتیک تجربی در عفونت ظاهر؛ procalcitonin > 0.5 ng/mL برای سپسیس در بیماری خودایمن اختصاصی
+- آرتریت سپتیک شایع‌تر در RA با استروئید یا بیولوژیک و معاینه کم‌سروصداتر ← آستانه پایین برای آرتروسنتز
+- برخی بیولوژیک‌ها خطر زوستر (به‌ویژه ophthalmicus)
+
+@ddx
+- !Sepsis |
+- !Septic arthritis |
+- Disease flare |
+
+@redflags
+- تب، هیپوتانسیون، مفصل داغ، ضایعه زوستر چشمی
+
+@guide
+آستانه پایین برای آرتروسنتز و آنتی‌بیوتیک تجربی.
+
+@variant rheum-infection-main
+name: Suspected infection in immunosuppressed rheumatic patient
+level: I
+imp: Suspected infection / sepsis in immunosuppressed rheumatic disease patient
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: PA
+
+@scenario
+زن ۵۵ ساله با RA تحت استروئید و بیولوژیک، تب و زانو متورم کم‌درد.
+
+@why
+آستانه پایین برای آرتروسنتز؛ آنتی‌بیوتیک تجربی.
+
+@I
+- CXR; imaging directed to suspected source
+
+@L
+- CBC, BUN, Cr, Na, K; blood cultures; procalcitonin (> 0.5 ng/mL specific for sepsis in autoimmune disease); arthrocentesis if joint involved (culture, Gram stain, cell count, crystals)
+
+@S
+- IV fluids per sepsis protocol (not for CKD / AKI / anuric) {ci: CKD, heart failure}
+
+@A
+- Empiric antibiotics for apparent infection; septic arthritis regimens per Chapter 180 {ci: penicillin allergy}
+
+@T
+- Low threshold for arthrocentesis; review immunosuppressants
+
+@Co
+- Rheumatology / infectious diseases; orthopedics if septic joint; admit
+
+@cond rheum-adrenal-insufficiency
+ch: 181
+name: Adrenal insufficiency from steroid withdrawal / stress in rheumatic patients; drug adverse effects
+name_fa: نارسایی آدرنال ناشی از قطع استروئید / استرس در بیماران روماتیسمی؛ عوارض دارویی
+cc: hypotension-shock, weakness
+keywords: adrenal insufficiency steroid withdrawal, hydrocortisone 100 mg, biologic agents hypertension, NSAID renal, cyclophosphamide, نارسایی آدرنال, قطع استروئید
+status: draft
+
+@features
+- استرس یا قطع ناگهانی استروئید ← نارسایی آدرنال: هیپوتانسیون، هیپوناترمی، هیپوگلیسمی، هیپرکالمی؛ درمان اورژانس: hydrocortisone 100 mg IV
+- هیپرتانسیون و نارسایی کلیه با بیولوژیک‌ها، NSAID و cyclophosphamide
+- بعضی بیولوژیک‌ها: افزایش خطر زوستر
+
+@ddx
+- !Sepsis |
+- !Hemorrhagic / cardiogenic shock |
+
+@redflags
+- هیپوتانسیون، هیپوگلیسمی، هیپرکالمی
+
+@guide
+hydrocortisone 100 mg IV و مایعات؛ قند و الکترولیت.
+
+@variant rheum-adrenal-main
+name: Adrenal insufficiency in rheumatic patient on / recently off steroids
+level: I
+imp: Adrenal insufficiency (steroid withdrawal / stress)
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: PA
+
+@scenario
+مرد ۵۰ ساله با SLE که پردنیزون را ناگهان قطع کرده، هیپوتانسیون و ضعف.
+
+@why
+Hydrocortisone 100 mg IV.
+
+@I
+- CXR (source of stress / infection)
+
+@L
+- CBC, BUN, Cr, Na, K, glucose
+
+@S
+- IV fluids for hypotension (not for CKD / AKI / anuric) {ci: CKD, heart failure}; correct hypoglycemia
+
+@T
+- Hydrocortisone 100 mg IV
+
+@Co
+- Admit; rheumatology / endocrinology

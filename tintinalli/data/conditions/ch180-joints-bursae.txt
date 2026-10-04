@@ -1,0 +1,276 @@
+@cond septic-arthritis
+ch: 180
+name: Septic arthritis (acute monoarthritis, arthrocentesis, empiric antibiotics)
+name_fa: آرتریت سپتیک (مونوآرتریت حاد، آرتروسنتز، آنتی‌بیوتیک تجربی)
+cc: joint-limb-pain, fever
+keywords: septic arthritis, arthrocentesis, synovial fluid, hot swollen joint, monoarthritis, gonococcal arthritis, MRSA, آرتریت سپتیک, آرتروسنتز, مایع سینوویال
+status: draft
+
+@features
+- می‌تواند سریعاً به تخریب غیرقابل‌برگشت مفصل بینجامد؛ معمولاً مونوآرتریت؛ تب، لرز یا ناخوشی ممکن (عدم وجود رد نمی‌کند)
+- آرتریت واقعی: درد با حرکات فعال و غیرفعال؛ افتراق از سلولیت، بورسیت، تاندونیت؛ اریتم و گرمی غیراختصاصی
+- جدول 180-1: تعداد مفاصل (1 = مونو: 85% سپتیک غیرگنوکوکی، کریستال، گنوکوک، تروما، OA، لایم، AVN، تومور؛ 2–3 = oligo؛ > 3 = poly)؛ درگیری چند مفصل سپتیک را رد نمی‌کند
+- به‌جز جراحی اخیر مفصل یا سلولیت روی پروتز زانو/هیپ، شرح حال، معاینه و آزمایش روتین سپتیک را از سایر آرتریت‌ها افتراق نمی‌دهند؛ آرتروسنتز: کشت، Gram stain، شمارش سلولی، کریستال
+- ESR فقط در سپتیک کودکان حساسیت 90%؛ WBC و ESR سرم در بالغین تمایزدهنده قابل‌اعتماد نیستند
+- بالغ با ریسک STD و علائم مهاجر یا tenosynovitis ← گنوکوک
+- گرافی در افتراق شامل تروما، تومور، osteomyelitis، AS، AVN؛ CT/MRI/اسکن ایزوتوپ در موارد خاص
+- جدول 180-2: مایع سینوویال: نرمال WBC < 200؛ غیرالتهابی 200–2000، PMN < 25% (OA، تروما)؛ التهابی 2000–50,000 (گوت، RA، لایم، SLE)؛ سپتیک > 50,000، PMN > 50%، کشت > 50% مثبت (گنوکوک اغلب کشت منفی)
+- تکنیک آرتروسنتز: پوست بدون سلولیت؛ povidone-iodine (خشک شود) سپس الکل؛ lidocaine یا ethyl chloride؛ سوزن 18–19G برای شانه و زانو؛ کوچک‌تر برای انگشتان
+- درمان: بستری، آنتی‌بیوتیک پارنترال و آسپیراسیون مکرر، آرتروسکوپی یا درناژ باز
+
+@ddx
+- !Gout / pseudogout |
+- !Gonococcal arthritis |
+- !Hemarthrosis / fracture |
+- Lyme / reactive arthritis |
+- Cellulitis / bursitis / osteomyelitis |
+
+@redflags
+- مفصل داغ و دردناک، تب، پروتز مفصل، نقص ایمنی، IVDU
+
+@guide
+1) آرتروسنتز (قبل از آنتی‌بیوتیک). 2) آنتی‌بیوتیک تجربی جدول 180-3. 3) بستری و درناژ.
+
+@variant septic-arthritis-healthy-adult
+name: Septic arthritis — young healthy adult / suspected gonococcal
+level: I
+imp: Septic arthritis
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: once
+cxr: none
+
+@scenario
+مرد ۲۵ ساله فعال جنسی با زانو متورم و داغ، تب و درد با حرکت.
+
+@why
+آرتروسنتز؛ آنتی‌بیوتیک؛ بستری.
+
+@I
+- Radiographs if trauma, tumor, osteomyelitis, AVN in differential
+
+@L
+- Arthrocentesis: synovial fluid culture, Gram stain, cell count, crystals; blood cultures; (suspected N. gonorrhoeae: culture urethra, cervix, or anal canal as indicated)
+
+@S
+- IV analgesia
+
+@A
+- Vancomycin 15 mg/kg IV load if Gram stain shows gram-positive organisms in clusters; ceftriaxone 1 g IV or imipenem 500 mg IV added / used if gram-negative organisms or no organisms on Gram stain and N. gonorrhoeae suspected {ci: penicillin allergy}
+
+@T
+- Admission for parenteral antibiotics and repeated needle aspiration, arthroscopy or open surgical drainage
+
+@Co
+- Orthopedic consultation (gonococcal arthritis: orthopedic consultation advised)
+
+@variant septic-arthritis-comorbid
+name: Septic arthritis — comorbid disease / injection drug use / sickle cell
+level: I
+imp: Septic arthritis (comorbid / IVDU / sickle cell)
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: once
+cxr: none
+
+@scenario
+مرد ۵۵ ساله با RA و تزریق استروئید، مفصل زانو داغ و تب.
+
+@why
+پوشش گرم‌مثبت و گرم‌منفی.
+
+@I
+- Radiographs as indicated
+
+@L
+- Arthrocentesis: culture, Gram stain, cell count, crystals; blood cultures
+
+@S
+- IV analgesia
+
+@A
+- Adults with comorbid disease (RA, HIV, cancer) or injection drug users: vancomycin 15 mg/kg IV load plus cefepime 2 g IV or imipenem 500 mg IV (meropenem 1 g IV alternative); sickle cell: vancomycin 15 mg/kg IV load plus ciprofloxacin 400 mg IV (imipenem 500 mg IV alternative) {ci: penicillin allergy}
+
+@T
+- Admission for parenteral antibiotics and drainage (repeated aspiration, arthroscopy or open surgery)
+
+@Co
+- Orthopedic consultation
+
+@cond crystal-arthritis-gout
+ch: 180
+name: Crystal-induced arthritis (gout / pseudogout)
+name_fa: آرتریت ناشی از کریستال (نقرس / pseudogout)
+cc: joint-limb-pain
+keywords: gout, pseudogout, uric acid crystals, calcium pyrophosphate, podagra, negative birefringent crystals, colchicine, نقرس, پسودوگوت
+status: draft
+
+@features
+- میانسال تا سالمند؛ گوت: کریستال اوریک اسید، شست پا، tarsal، زانو؛ pseudogout: کلسیم پیروفسفات، زانو، مچ، مچ پا، آرنج
+- درد گوت طی ساعات؛ pseudogout طی روز یا بیشتر؛ تحریک: تروما، جراحی، بیماری مهم، رژیم/الکل، داروها
+- مایع سینوویال التهابی؛ گوت: کریستال سوزنی با birefringence منفی؛ pseudogout: rhomboid با birefringence ضعیف مثبت
+- درمان: NSAID (ibuprofen 400–800 mg سه بار در روز، 3 تا 5 روز) و opioid؛ colchicine 0.6 mg/h خوراکی تا رفع علائم یا عوارض GI (غیرروتین، مکمل)
+
+@ddx
+- !Septic arthritis |
+- Trauma / hemarthrosis |
+
+@redflags
+- تب با مفصل داغ (رد سپسیس)
+
+@guide
+اگر شک سپتیک: آرتروسنتز؛ سپس NSAID و opioid.
+
+@variant gout-pseudogout-main
+name: Gout / pseudogout — acute attack
+level: III
+imp: Acute gout / pseudogout
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مرد ۵۵ ساله با درد ناگهانی شدید و قرمزی شست پا پس از مصرف الکل.
+
+@why
+NSAID؛ آرتروسنتز در صورت شک عفونت.
+
+@I
+- Radiographs if trauma / other considerations
+
+@L
+- Arthrocentesis if diagnosis uncertain: crystals, culture, Gram stain, cell count
+
+@S
+- Opioid analgesics as needed
+
+@T
+- Ibuprofen 400–800 mg PO three times daily for 3–5 days {ci: renal impairment, GI bleeding}; colchicine 0.6 mg PO every hour until symptom resolution or intolerable GI side effects (complementary, not routinely necessary)
+
+@Co
+- Primary care follow-up
+
+@cond arthritis-other-acute
+ch: 180
+name: Other arthritides — osteoarthritis, Lyme arthritis, gonococcal arthritis, reactive (Reiter), ankylosing spondylitis, rheumatoid arthritis
+name_fa: سایر آرتریت‌ها — استئوآرتریت، لایم، گنوکوک، واکنشی (Reiter)، اسپوندیلیت آنکیلوزان، آرتریت روماتوئید
+cc: joint-limb-pain
+keywords: osteoarthritis, Lyme arthritis, gonococcal arthritis, Reiter syndrome, reactive arthritis, ankylosing spondylitis, rheumatoid arthritis, HLA-B27, استئوآرتریت, آرتریت روماتوئید, اسپوندیلیت آنکیلوزان
+status: draft
+
+@features
+- OA: تخریب مزمن، متقارن، پلی‌آرتیکولار بدون علائم سیستمیک؛ تشدید حاد مونوآرتیکولار؛ مایع غیرالتهابی؛ باریک‌شدن فضای مفصلی؛ درمان استراحت و ضددرد
+- لایم: مونو یا oligoarthritis متقارن (مفاصل بزرگ)، تشدید کوتاه و بهبودی کامل هفته‌ها تا سال‌ها پس از عفونت؛ مایع التهابی کشت منفی؛ doxycycline، erythromycin یا amoxicillin 3–4 هفته
+- گنوکوک: آرتریت ایمنی-عفونی در نوجوان/جوان؛ تب، لرز، tenosynovitis مهاجر/آرترالژی سپس mono/oligoarthritis؛ ضایعات vesiculopustular اندام دیستال؛ مایع التهابی اغلب کشت منفی (کشت حلق، پیشابراه، سرویکس، رکتوم)؛ بستری برای کنترل درد و آنتی‌بیوتیک پارنترال؛ مشاوره ارتوپدی
+- Reiter: oligoarthritis نامتقارن (اندام تحتانی)، 2–6 هفته پس از عفونت (اورتریت Ureaplasma/Chlamydia، گوارشی Salmonella/Shigella)؛ تریاد کلاسیک لازم نیست؛ علامتی؛ آنتی‌بیوتیک مفید نیست
+- AS: سرونگاتیو؛ ستون و لگن؛ سفتی صبحگاهی، خستگی؛ HLA-B27؛ sacroiliitis و bamboo spine؛ علامتی
+- RA: مزمن، متقارن، پلی‌آرتیکولار با حفظ DIP؛ سفتی صبحگاهی، افسردگی، خستگی، میالژی؛ پریکاردیت، میوکاردیت، افیوژن پلور، پنومونیت، mononeuritis multiplex؛ تشدید حاد: immobilization، NSAID و گاهی کورتیکواستروئید؛ درمان طولانی: antimalarial، immunosuppressant، DMARD
+
+@ddx
+- !Septic arthritis |
+- Gout / pseudogout |
+- Rheumatic fever / SLE / viral arthritis |
+
+@redflags
+- تب، ضایعات vesiculopustular، درگیری قلبی در RA
+
+@guide
+آرتروسنتز در شک سپتیک؛ درمان علامتی؛ گنوکوک بستری.
+
+@variant arthritis-other-main
+name: Other acute arthritis (OA exacerbation, Lyme, reactive, AS, RA)
+level: III
+imp: Acute arthritis (non-septic)
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+زن ۵۰ ساله با RA و تشدید درد و سفتی صبحگاهی چند مفصل.
+
+@why
+علامتی؛ رد سپتیک.
+
+@I
+- Radiographs (OA joint-space narrowing; sacroiliitis / bamboo spine in AS) as indicated
+
+@L
+- Synovial fluid analysis when diagnosis unclear; HLA-B27 not necessary in ED
+
+@S
+- NSAIDs; opioid analgesics as needed
+
+@A
+- Lyme arthritis: doxycycline, erythromycin or amoxicillin for 3–4 weeks; Reiter: antibiotics not useful {ci: penicillin allergy}
+
+@T
+- OA: rest and analgesics; RA exacerbation: immobilization, NSAIDs, occasionally corticosteroids; AS / Reiter: symptomatic
+
+@Co
+- Rheumatology / primary care follow-up; gonococcal arthritis: admit with orthopedic consultation
+
+@cond hemarthrosis-bursitis
+ch: 180
+name: Traumatic / spontaneous hemarthrosis and bursitis (including septic bursitis)
+name_fa: همارتروز (تروماتیک / خودبه‌خودی) و بورسیت (شامل بورسیت سپتیک)
+cc: joint-limb-pain, limb-injury
+keywords: hemarthrosis, olecranon bursitis, prepatellar bursitis, septic bursitis, bursa aspiration, student elbow, carpet layer knee, همارتروز, بورسیت اولکرانون, بورسیت سپتیک
+status: draft
+
+@features
+- همارتروز تروماتیک: شکستگی داخل‌مفصلی یا آسیب لیگامان؛ آسپیراسیون افیوژن بزرگ ممکن درد را کم و ROM را زیاد کند؛ درمان حمایتی
+- همارتروز خودبه‌خودی: کوآگولوپاتی ← جایگزینی فاکتور اختصاصی؛ معمولاً آسپیره نمی‌شود
+- بورسیت: التهاب هر یک از > 150 بورس؛ عفونت، تروما، روماتولوژیک، کریستال؛ prepatellar (carpet layer's knee)، olecranon (student's elbow)
+- شک سپتیک (به‌ویژه olecranon): آسپیراسیون؛ مایع چرکی، > 1500 لکوسیت/mm3، کشت مثبت
+- درمان: درناژ، استراحت، پانسمان فشاری، ضددرد؛ آنتی‌بیوتیک برای سپتیک (خوراکی معمولاً کافی؛ پوشش Staphylococcus شامل MRSA و Streptococcus)
+
+@ddx
+- !Septic arthritis |
+- !Intra-articular fracture |
+- Cellulitis |
+
+@redflags
+- مایع چرکی، تب، نقص ایمنی
+
+@guide
+آسپیراسیون بورس در شک سپتیک؛ آنتی‌بیوتیک با پوشش MRSA/Strep.
+
+@variant hemarthrosis-bursitis-main
+name: Hemarthrosis / bursitis (septic vs aseptic)
+level: III
+imp: Hemarthrosis / bursitis
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مرد ۴۰ ساله با تورم و قرمزی olecranon پس از ضربه.
+
+@why
+آسپیراسیون در شک عفونت.
+
+@I
+- Radiographs if intra-articular fracture or ligament injury suspected
+
+@L
+- Bursal fluid aspiration if septic bursitis suspected (purulent, > 1500 leukocytes/mm3, culture)
+
+@S
+- Analgesics
+
+@A
+- Septic bursitis: oral antibiotics covering Staphylococcus including MRSA, and Streptococcus species (admit immunocompromised for IV)
+
+@T
+- Drainage, rest, compressive dressing; traumatic hemarthrosis: supportive (aspiration of large effusions may decrease pain); spontaneous hemarthrosis in coagulopathy: specific clotting factor replacement, usually do not aspirate
+
+@Co
+- Orthopedic follow-up as needed
