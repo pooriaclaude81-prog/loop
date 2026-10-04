@@ -1,0 +1,237 @@
+@cond seizure-peds
+ch: 76
+name: Seizures and status epilepticus in children (febrile seizure, first seizure)
+name_fa: تشنج و استاتوس اپیلپتیکوس در کودکان (تشنج تب‌دار، اولین تشنج)
+cc: seizure, pediatric-other
+keywords: pediatric seizure, status epilepticus, febrile seizure, lorazepam, midazolam, fosphenytoin, levetiracetam, phenobarbital, valproic acid, first seizure, تشنج کودکان
+status: draft
+
+@features
+- محرک‌ها: تب، عفونت CNS، ضربه سر، ناهنجاری ساختاری، هیپوگلیسمی، اختلال الکترولیت، هیپوکسی، مسمومیت، دیس‌ریتمی، متابولیک، عفونت مادرزادی، سندرم‌های نوروکوتانئوس
+- تظاهر: تونیک-کلونیک تا تغییر رفتاری ظریف؛ منتشر (با از دست رفتن هوشیاری) یا پارشیال (فوکال)؛ حرکات ریتمیک تکراری، بی‌اختیاری، حالت postictal و گاز گرفتن زبان بسیار مطرح‌کننده؛ atonia («drop attack»)، staring spells (absence)، automatisms (پلک‌زدن، دوچرخه‌سواری، لب‌مالی)، نشانه‌های اتونوم، Todd's paralysis
+- قند بالین در هر کودک تشنجی یا postictal؛ الکترولیت غربالگری در بیشتر تشنج‌ها (تب‌دار ساده یا اولین بدون تب) لازم نیست
+- استاتوس: > 30 دقیقه یا تشنج‌های متعدد بدون بازگشت هوشیاری؛ تعریف عملیاتی 5 دقیقه؛ اورژانس پزشکی؛ درمان زودهنگام و تهاجمی
+- افتراق: سنکوپ، breath-holding، GER (Sandifer)، کره، میوکلونوس، لرز، startle، تیک، سودوتشنج، میگرن، شب‌ترس؛ تشنج ثانویه به علل قابل درمان (ضربه، عفونت، هیپوگلیسمی، متابولیک، الکترولیت)
+- تشنج تب‌دار ساده (SFS): 6 ماه تا 6 سال، < 15 دقیقه، منتشر؛ نیاز به ارزیابی/دارو ندارد (جستجوی منبع تب مثل UTI و تب‌بر)؛ خطر صرع 1٪؛ پیچیده (> 15 دقیقه، فوکال یا راجعه): خطر کمی بیشتر؛ استاتوس تب‌دار: درمان مانند فوق + تصویربرداری، CSF و کشت و احتمالاً آنتی‌بیوتیک و acyclovir
+- اولین تشنج بدون تب: خطر عود 40٪؛ تصویربرداری اورژانس در معاینه نرمال لازم نیست (MRI و EEG سرپایی)؛ اکثر نورولوژیست‌ها شروع ضدتشنج بعد از اولین تشنج را توصیه نمی‌کنند
+
+@ddx
+- !Status epilepticus |
+- !CNS infection (meningitis / encephalitis) |
+- !Hypoglycemia / electrolyte disturbance |
+- Febrile seizure |
+- Head trauma / toxic ingestion |
+- Syncope / breath-holding spell / pseudo-seizure |
+
+@redflags
+- تشنج > 5 دقیقه، فوکال، تب با علائم مننژیت، ضربه سر، هیپوگلیسمی
+
+@guide
+# مدیریت
+حمایت فوری، قطع تشنج با ضدتشنج و اصلاح علل برگشت‌پذیر. راه هوایی باز، اکسیژن برای همه تشنج‌کننده‌ها و کمک تهویه؛ اگر RSI لازم شد EEG پیوسته (فلج‌کننده تشنج بالینی را می‌پوشاند). هیپوگلیسمی: دکستروز 10٪ 4 تا 5 mL/kg در شیرخوار یا دکستروز 25٪ 2 mL/kg در بزرگ‌تر IV/IO. lorazepam 0.1 mg/kg یا midazolam 0.1 تا 0.2 mg/kg IV/IO؛ بدون دسترسی عروقی: midazolam 0.2 mg/kg IN (حداکثر 10 mg)؛ تکرار بنزودیازپین بعد از 5 دقیقه و آمادگی حمایت تنفس و فشار. لاین دوم/سوم اگر > 2 دوز بنزودیازپین: 2 از 4 دارو: شیرخوار phenobarbital 20 mg/kg IV/IO (حداکثر 800 mg)؛ بزرگ‌تر: fosphenytoin 20 PE/kg IV/IO طی 20 دقیقه؛ valproic acid 20 mg/kg IV/IO؛ levetiracetam 20 تا 30 mg/kg IV/IO. لاین چهارم: انفوزیون ICU با propofol (0.5 تا 2 mg/kg یا 1.5 تا 4 mg/kg/hr)، midazolam (0.05 تا 0.4 mg/kg/hr)، pentobarbital یا بیهوشی استنشاقی. الکترولیت: Na < 120: NaCl 3٪ 4 تا 6 mL/kg؛ Ca < 7 mg/dL و Ca یونیزه < 0.8: کلسیم گلوکونات 10٪ 0.3 mL/kg طی 10 دقیقه؛ Mg < 1.5: منیزیم سولفات 50 mg/kg طی 20 دقیقه. ترخیص: تشنج کوتاه با بازگشت هوشیاری و بدون نقص کانونی؛ استاتوس (حتی پس از قطع) و همه شیرخواران با تشنج واقعی: بستری؛ مقاوم، ضربه مغزی، عفونت CNS یا اختلال متابولیک/الکترولیت شدید: ICU.
+
+@pearls
+- در تشنج کودک اول قند بالین.
+
+@variant seizure-peds-active
+name: Active seizure / pediatric status epilepticus
+level: I
+imp: Pediatric status epilepticus
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: none
+o2: O2 therapy: oxygen to all seizing patients, assist ventilation as indicated; nasal cannula or face mask with flow by age and weight
+
+@scenario
+دختر ۴ ساله با تشنج منتشر ۱۰ دقیقه‌ای، سیانوز و بدون پاسخ.
+
+@why
+قطع تشنج با بنزودیازپین؛ لاین‌های بعدی؛ اصلاح قند و الکترولیت.
+
+@L
+- Bedside glucose; electrolytes only if indicated by history (sodium, calcium, magnesium); if febrile: neuroimaging, CSF analysis and culture, potential antibiotics and acyclovir
+
+@T
+- Ensure patent airway; oxygen; assist ventilation as indicated (continuous EEG monitoring if rapid-sequence intubation is required)
+- Hypoglycemia: 4 to 5 mL/kg 10% dextrose in infants or 2 mL/kg 25% dextrose in older children IV/IO
+- Lorazepam 0.1 mg/kg or Midazolam 0.1 to 0.2 mg/kg IV/IO; if no vascular access Midazolam 0.2 mg/kg IN (maximum 10 mg); repeat benzodiazepine dose in 5 minutes if seizure persists {hi}
+- More than 2 benzodiazepine doses: infants Phenobarbital 20 mg/kg IV/IO (maximum 800 mg); older children consider 2 of: Fosphenytoin 20 PE/kg IV/IO over 20 minutes, Valproic acid 20 mg/kg IV/IO, Levetiracetam 20 to 30 mg/kg IV/IO
+- Fourth-line (ICU): Propofol 0.5 to 2 mg/kg or 1.5 to 4 mg/kg/hr IV/IO, or Midazolam infusion 0.05 to 0.4 mg/kg/hr IV/IO, or pentobarbital, or general inhaled anesthesia
+- Hyponatremia < 120 mEq/L: 3% NaCl 4 to 6 mL/kg; hypocalcemia (< 7 mg/dL calcium or < 0.8 mmol/L ionized): 0.3 mL/kg of 10% calcium gluconate over 10 minutes; hypomagnesemia (< 1.5 mEq/L): magnesium sulfate 50 mg/kg over 20 minutes
+
+@Co
+- Admit (status epilepticus even if terminated); ICU for refractory seizures, traumatic brain injury, CNS infection, serious metabolic or electrolyte abnormality
+
+@variant seizure-peds-febrile-first
+name: Brief seizure resolved (simple febrile seizure / first afebrile seizure)
+level: III
+imp: Febrile seizure / first seizure in a child
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+o2: O2 therapy: if SpO2 < 94%, nasal cannula or face mask with flow by age and weight
+
+@scenario
+پسر ۲ ساله با تشنج منتشر ۳ دقیقه‌ای حین تب؛ اکنون هوشیار.
+
+@why
+تشنج تب‌دار ساده بدون ارزیابی خاص؛ جستجوی منبع تب؛ ترخیص با پیگیری.
+
+@L
+- Bedside glucose (child seizing or postictal); evaluation for a treatable source of fever such as urinary tract infection; no routine electrolytes
+
+@T
+- Antipyretics: Acetaminophen 15 mg/kg PO/PR every 4 hours, or Ibuprofen 10 mg/kg PO every 6 hours {note: no specific medication required for the seizure; see Chapter 66}
+
+@Co
+- Discharge and outpatient follow-up (first afebrile seizure: outpatient MRI and EEG may be of benefit; most neurologists do not start anticonvulsants); admit all infants with true seizures
+
+@cond headache-peds
+ch: 77
+name: Pediatric headache (primary: migraine, tension, cluster; secondary)
+name_fa: سردرد کودکان (اولیه: میگرن، تنشنی، کلاستر؛ ثانویه)
+cc: headache, pediatric-other
+keywords: pediatric headache, migraine, prochlorperazine, metoclopramide, ketorolac, sumatriptan, diphenhydramine, cluster headache, secondary headache, brain tumor, سردرد کودکان
+status: draft
+
+@features
+- 1٪ ویزیت‌های ED؛ اکثراً خوش‌خیم؛ عوامل خطر علت جدی: سن پیش‌دبستانی، موقعیت اکسی‌پیتال، شروع اخیر و ناتوانی کودک در توصیف درد
+- اولیه: معاینه طبیعی، خودمحدود و راجعه (میگرن، تنشنی، کلاستر)؛ ثانویه: آناتومیک (مالفورماسیون عروقی، تومور) یا عفونی (سینوزیت، آبسه دندان) با عوارض بیشتر
+- شرح حال ثانویه: شروع حاد، تب یا گردن سفت، استفراغ صبحگاهی، تغییر رفتار، تغییر هوشیاری، «بدترین سردرد»، اختلال خواب، ضربه یا مواجهه سمی، تشدید با سرفه/Valsalva/خوابیدن؛ معاینه: اختلال فشار خون، سفتی گردن، head tilt، پتوز، خونریزی شبکیه یا پاپیلادم، نقص میدان بینایی، یافته عصبی (تغییر هوشیاری، آتاکسی، همی‌پارزی)
+- CT برای رد خونریزی؛ MRI برای حفره خلفی (شایع‌ترین محل تومور)؛ تصویربرداری معمولاً لازم نیست مگر معاینه عصبی غیرطبیعی، تغییر هوشیاری، تشنج همزمان، «بدترین سردرد زندگی» اخیر یا تغییر نوع سردرد
+
+@ddx
+- !Intracranial hemorrhage / brain tumor |
+- !Meningitis / encephalitis |
+- Migraine |
+- Tension headache / cluster headache |
+- Sinusitis / dental abscess |
+
+@redflags
+- شروع حاد، تب با گردن سفت، تغییر هوشیاری، نقص عصبی، پاپیلادم، سردرد صبحگاهی با استفراغ
+
+@guide
+ثانویه: درمان علت و درد. اولیه: مخدر توصیه نمی‌شود؛ ibuprofen 10 mg/kg یا acetaminophen 15 mg/kg. میگرن: prochlorperazine 0.15 mg/kg، metoclopramide 0.1 mg/kg یا ketorolac 0.5 mg/kg؛ metoclopramide و prochlorperazine اغلب با diphenhydramine 1 mg/kg برای جلوگیری از عوارض اکستراپیرامیدال؛ «migraine cocktail» (ketorolac + prochlorperazine یا metoclopramide + diphenhydramine) مؤثر و ایمن؛ sumatriptan 5 تا 10 mg اسپری بینی (20 تا 39 kg) یا 20 mg (> 40 kg) یا 0.1 mg/kg زیرجلدی. کلاستر/تنشنی: مثل میگرن؛ کلاستر: sumatriptan و اکسیژن جریان بالا (7 L/min ماسک non-rebreather)؛ تنشنی: ibuprofen 10 mg/kg. اختلال فعالیت روزانه/مدرسه: ارجاع پزشک عمومی/نورولوژیست اطفال برای پروفیلاکسی. اکثر بیماران پس از تسکین ترخیص؛ علل تهدیدکننده یا درد مقاوم: بستری.
+
+@variant headache-peds-primary
+name: Primary headache (migraine / tension / cluster)
+level: III
+imp: Pediatric primary headache
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+o2: O2 therapy: for cluster headache high-flow oxygen 7 L/min by non-rebreather mask; otherwise if SpO2 < 94% nasal cannula or face mask with flow by age and weight
+
+@scenario
+دختر ۱۲ ساله با سردرد ضربان‌دار یک‌طرفه، تهوع و نورگریزی؛ معاینه عصبی طبیعی.
+
+@why
+اولیه: غیرمخدر؛ داروهای میگرن؛ تصویربرداری لازم نیست.
+
+@T
+- Ibuprofen 10 mg/kg or Acetaminophen 15 mg/kg (primary headaches; narcotics not recommended)
+- Migraine: Prochlorperazine 0.15 mg/kg, or Metoclopramide 0.1 mg/kg, or Ketorolac 0.5 mg/kg; with Diphenhydramine 1 mg/kg to prevent extrapyramidal side effects ("migraine cocktail")
+- Sumatriptan 5 to 10 mg nasal spray (children weighing 20 to 39 kg) or 20 mg (> 40 kg) or 0.1 mg/kg subcutaneously
+- Cluster headache: Sumatriptan as above and high-flow oxygen 7 L/min non-rebreather mask
+
+@Co
+- Primary care provider or pediatric neurologist for prophylactic regimens if headaches disrupt daily activities or school; discharge after relief of symptoms
+
+@variant headache-peds-secondary
+name: Suspected secondary headache (red flags)
+level: II
+imp: Pediatric headache with red flags (secondary headache)
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: none
+cxr: none
+o2: O2 therapy: if SpO2 < 94%, nasal cannula or face mask with flow by age and weight
+
+@scenario
+پسر ۵ ساله با سردرد صبحگاهی، استفراغ، آتاکسی و head tilt.
+
+@why
+تومور حفره خلفی؛ MRI؛ علت ثانویه باید یافت شود.
+
+@I
+- CT to rule out suspected intracranial hemorrhage; MRI better visualizes the posterior fossa (neuroimaging indicated for abnormal neurologic exam, altered mental status, concurrent seizures, recent "worst headache of life" or change in type of headache)
+
+@T
+- Evaluate and treat underlying cause and pain
+
+@Co
+- Admit for life-threatening causes or intractable pain; neurosurgery / neurology as needed
+
+@cond altered-mental-status-peds
+ch: 77
+name: Altered mental status in children
+name_fa: تغییر وضعیت هوشیاری در کودکان
+cc: altered-mental-status, pediatric-other
+keywords: pediatric altered mental status, AEIOU TIPS, coma, AVPU, naloxone, flumazenil, meningitis, ceftriaxone, vancomycin, تغییر هوشیاری کودک
+status: draft
+
+@features
+- AMS: عدم پاسخ به محیط متناسب با رشد؛ طیف از گیجی تا بی‌حالی، استوپور و کما؛ احیا، ثبات، تشخیص و درمان باید همزمان باشد
+- شرح حال: پرودروم (بیماری، مواجهه، تروما)، عوامل خطر (دارو، تاریخچه اجتماعی/خانوادگی، سوءاستفاده)؛ معاینه سر تا پا؛ GCS یا AVPU (A=15، V=13، P=8، U=3)
+- supratentorial: فشار بر ساقه مغز، اختلال سطح هوشیاری و نقص حرکتی فوکال با پیشرفت rostral به caudal؛ subtentorial: از دست رفتن سریع هوشیاری، نقص اعصاب کرانیال، الگوی تنفسی غیرطبیعی، مردمک نامتقارن/ثابت؛ آنسفالوپاتی متابولیک: کاهش هوشیاری قبل از علائم حرکتی (متقارن) با مردمک‌های سالم (به‌جز آنوکسی، اپیوئید، باربیتورات، آنتی‌کولینرژیک)
+- AEIOU TIPS (جدول 77-1): Alcohol، Acid-base/metabolic، Arrhythmia، Encephalopathy، Endocrinopathy، Electrolytes، Insulin (DKA شایع‌ترین؛ هیپوگلیسمی < 40)، Intussusception، Opiates، Oxygen، Uremia (HUS، TTP)، Trauma (NAT)، Tumor، Thermal، Infection (مننژیت، آنسفالیت، آبسه مغز)، Intracerebral vascular، Psychogenic، Poisoning، Seizure (نان‌کونولسیو، شانت VP)
+- قند بالین فوری؛ LP بعد از احیا اولیه در شک مننژیت/آنسفالیت؛ تصویربرداری عصبی در تروما یا شک ضایعه فضاگیر
+
+@ddx
+- !Hypoglycemia / diabetic ketoacidosis |
+- !Meningitis / encephalitis / brain abscess |
+- !Poisoning / opiate or clonidine overdose |
+- !Head trauma / nonaccidental trauma |
+- Seizure / nonconvulsive status / shunt malfunction |
+- Metabolic / electrolyte / intussusception |
+
+@redflags
+- GCS پایین، هیپوتانسیون، هیپوگلیسمی، تب با تشنج، علائم شیفت مغز
+
+@guide
+اولویت: تثبیت و برگرداندن شرایط تهدیدکننده. ABC؛ ایمبیلایزیشن گردن در شک تروما؛ پالس‌اکسیمتری مداوم و اکسیژن (BVM و اینتوباسیون در صورت لزوم)؛ هیپوتانسیون: بولوس 20 mL/kg کریستالوئید ایزوتونیک تا 60 mL/kg سپس پرسور. هیپوگلیسمی: دکستروز 10٪ 5 mL/kg در شیرخوار یا 25٪ 2 mL/kg. کنترل دمای مرکزی (لامپ گرم‌کننده، درمان هیپرترمی). تشنج: بنزودیازپین (فصل ۷۶). شک به اپیوئید یا clonidine: naloxone 0.01 تا 0.1 mg/kg IV هر 2 دقیقه؛ مسمومیت بنزودیازپین ایزوله ایاتروژنیک: flumazenil 0.01 mg/kg IV. شک مننژیت: ceftriaxone یا cefotaxime 50 mg/kg/dose و vancomycin 10 mg/kg/dose. بستری و مشاهده عصبی برای همه؛ ترخیص فقط علت گذرا، سریع‌الرفع و خوش‌خیم با پیگیری ظرف 24 ساعت.
+
+@variant ams-peds-main
+name: Altered mental status in a child (resuscitation and AEIOU TIPS)
+level: I
+imp: Altered mental status in a child
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+o2: O2 therapy: continuous pulse oximetry and supplemental oxygen as needed to correct hypoxia; bag-valve-mask and intubation when appropriate
+
+@scenario
+کودک ۳ ساله بی‌حال و کم‌پاسخ (فقط به درد پاسخ می‌دهد) و تب.
+
+@why
+ABC، قند، علل برگشت‌پذیر (AEIOU TIPS) و آنتی‌بیوتیک در شک مننژیت.
+
+@I
+- Neuroimaging in the setting of trauma or suspicion of space-occupying lesion; appropriate imaging after stabilization (immobilize cervical spine if trauma suspected)
+
+@L
+- Rapid bedside glucose; lumbar puncture immediately after initial resuscitation and stabilization if meningitis or encephalitis suspected; toxicology guided by history (reversal agent)
+
+@S
+- Hypotension: 20 mL/kg boluses of isotonic crystalloid, repeated up to 60 mL/kg; intravenous pressors if hypotension persists {ci: caution in heart failure / pulmonary edema}
+- Hypoglycemia: 10% dextrose 5 mL/kg in infants or 25% dextrose 2 mL/kg in older children
+
+@A
+- Empiric antibiotics for suspected meningitis: Ceftriaxone or Cefotaxime 50 mg/kg/dose; consider additional Vancomycin 10 mg/kg/dose
+
+@T
+- Naloxone 0.01 to 0.1 mg/kg IV every 2 minutes for suspected opiate or clonidine overdose
+- Flumazenil 0.01 mg/kg IV only for known, isolated benzodiazepine ingestion
+- Benzodiazepines for seizures (see Chapter 76); control core body temperature (warming lamps for hypothermia; treat hyperthermia)
+
+@Co
+- Admit with neurologic observation (discharge only for transient, rapidly reversible, benign causes with follow-up within 24 hours); PICU as needed

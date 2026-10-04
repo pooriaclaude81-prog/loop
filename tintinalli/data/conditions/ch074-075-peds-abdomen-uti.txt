@@ -1,0 +1,394 @@
+@cond pediatric-abdominal-surgical-infant
+ch: 74
+name: Infant abdominal emergencies: malrotation with volvulus, pyloric stenosis, NEC, Hirschsprung disease
+name_fa: اورژانس‌های شکمی شیرخوار: malrotation با volvulus، تنگی پیلور، NEC، هیرشپرونگ
+cc: pediatric-gi, abdominal-pain
+keywords: malrotation, midgut volvulus, bird's beak, pyloric stenosis, hypochloremic alkalosis, necrotizing enterocolitis, pneumatosis intestinalis, Hirschsprung, toxic megacolon, استفراغ صفراوی
+status: draft
+
+@features
+- 0 تا 3 ماه: تهدیدکننده حیات: NEC، malrotation با volvulus، فتق گیرافتاده، NAT؛ فوری: تنگی پیلور و torsion بیضه؛ ممکن است تنها نشانه تسکین‌ناپذیری، بی‌حالی و تغذیه ضعیف باشد؛ استفراغ صفراوی = انسداد روده، اورژانس جراحی تا خلاف آن ثابت شود
+- غیرتهدیدکننده: کولیک، آلرژی شیر، GERD؛ تب: جستجوی منبع (فصل ۶۶)؛ علل دیگر تحریک‌پذیری: hair/thread tourniquet و خراش قرنیه
+- malrotation: استفراغ صفراوی، اتساع، یبوست مطلق یا رگه خون؛ اکثراً ماه اول؛ بیمار بدحال با شوک جبران‌شده/جبران‌نشده؛ «bird's beak» در UGI series
+- تنگی پیلور: استفراغ پیشرونده غیرصفراوی و پرتابی بعد از شیر؛ هفته 3 تا 4 (1 تا 12 هفته)؛ «olive» LUQ و امواج پریستالتیک؛ سونوگرافی؛ آلکالوز متابولیک هیپوکلرمیک که قبل از جراحی اصلاح شود؛ اورژانس جراحی نیست ولی دهیدراتاسیون نیاز به درمان فوری دارد
+- NEC: هر شیرخوار < 3 هفته به‌ویژه نارس؛ استفراغ، تغذیه ضعیف، اتساع؛ رادیوگرافی: pneumatosis و گاز ورید پورت
+- هیرشپرونگ: تأخیر مکونیوم > 24 ساعت؛ دفع نادر و انفجاری، رشد ضعیف، اتساع پیشرونده؛ مگاکولون سمی
+- بررسی: رادیوگرافی دو نما (انسداد، pneumatosis، هوای آزاد)، سونوگرافی شکم (پیلور، torsion بیضه، فتق)، UGI با کنتراست (malrotation)؛ الکترولیت؛ CBC، انعقاد و type and screen در شک شکم جراحی
+
+@ddx
+- !Malrotation with midgut volvulus |
+- !Necrotizing enterocolitis |
+- !Incarcerated hernia / testicular torsion |
+- Pyloric stenosis |
+- Hirschsprung disease |
+- Sepsis / nonaccidental trauma |
+
+@redflags
+- استفراغ صفراوی، شوک، اتساع، بی‌حالی
+
+@guide
+malrotation: مشاوره فوری جراحی و احیای تهاجمی مایع. تنگی پیلور: اصلاح دهیدراتاسیون و آلکالوز (هیپوکلرمیک) قبل از عمل. NEC: مشاوره فوری جراحی/نوزادان، NPO، مایع وریدی و آنتی‌بیوتیک وسیع‌الطیف برای فلور روده. هیرشپرونگ با مگاکولون سمی: مشاوره جراحی اورژانس.
+
+@variant infant-abdomen-volvulus
+name: Bilious vomiting / suspected malrotation with volvulus or NEC
+level: I
+imp: Infant bilious vomiting (malrotation with volvulus / necrotizing enterocolitis)
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: none
+cxr: portable
+o2: O2 therapy: if SpO2 < 94%, nasal cannula or face mask with flow by age and weight
+
+@scenario
+شیرخوار ۱۲ روزه با استفراغ سبز، اتساع شکم و بی‌حالی.
+
+@why
+استفراغ صفراوی = انسداد روده تا خلاف آن ثابت شود؛ مایع تهاجمی و جراحی فوری.
+
+@I
+- Abdominal two-view radiographs (obstruction, pneumatosis intestinalis, portal vein gas, free air); upper GI contrast study to identify malrotation ("bird's beak"); abdominal ultrasound for pyloric stenosis, testicular torsion and hernias
+
+@L
+- Serum electrolytes; CBC, coagulation panel and type and screen if concern for surgical abdomen with perforation
+
+@S
+- Aggressive fluid resuscitation (malrotation) / IV fluid hydration (NEC) {note: volume not given in this chapter; see Chapter 66 for 20 mL/kg boluses}
+
+@A
+- [NEC suspected] Broad-spectrum antibiotics for intestinal flora {note: drugs and doses not given in the book}
+
+@T
+- NPO
+
+@Co
+- Immediate surgical consultation (and neonatology for NEC)
+
+@variant infant-pyloric-stenosis
+name: Pyloric stenosis
+level: II
+imp: Pyloric stenosis
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: none
+cxr: none
+o2: O2 therapy: if SpO2 < 94%, nasal cannula or face mask with flow by age and weight
+
+@scenario
+شیرخوار ۴ هفته‌ای با استفراغ پرتابی غیرصفراوی بعد از هر شیر و دهیدراتاسیون.
+
+@why
+دهیدراتاسیون و آلکالوز متابولیک هیپوکلرمیک قبل از جراحی اصلاح شود.
+
+@I
+- Ultrasound (imaging modality of choice)
+
+@L
+- Serum electrolytes (hypochloremic metabolic alkalosis)
+
+@S
+- Correct dehydration and electrolyte abnormalities before definitive surgical care {note: fluid and rate not given in this chapter}
+
+@Co
+- Pediatric surgery (not a surgical emergency but dehydration requires immediate medical treatment)
+
+@cond intussusception
+ch: 74
+name: Intussusception
+name_fa: اینتوساسپشن
+cc: pediatric-gi, abdominal-pain
+keywords: intussusception, currant jelly stool, target sign, air enema, barium enema, ileocolic, اینتوساسپشن
+status: draft
+
+@features
+- یک قسمت روده داخل قسمت دیگر؛ انسداد جزئی یا کامل، ادم دیواره و ایسکمی؛ اوج 6 تا 18 ماه؛ شایع‌ترین علت انسداد روده < 2 سال
+- کلاسیک: حمله‌های متناوب درد شکم با فواصل بدون درد (یا بی‌حالی)، استفراغ (ممکن است صفراوی) و «currant jelly stool» (همیشه نیست؛ خون دیررس)؛ occult blood در 70٪
+- شک بالا در تغییر وضعیت نامشخص ذهنی یا بیمار بدحال بدون علت؛ سونوگرافی در موارد مبهم: «target sign»
+- کلاسیک: انما با هوا یا باریم: تشخیصی و درمانی؛ نیاز به جراح اطفال در دسترس برای موارد غیرقابل‌ردکشن یا پرفوراسیون
+- ردکشن موفق بدون عارضه: ترخیص پس از مشاهده اگر مایع خوراکی تحمل شود و پیگیری مطمئن؛ 10٪ عود
+
+@ddx
+- !Intussusception |
+- !Malrotation with volvulus / appendicitis |
+- Gastroenteritis |
+- Henoch-Schonlein purpura |
+- Constipation / UTI |
+
+@redflags
+- بی‌حالی، استفراغ صفراوی، مدفوع خونی، شوک
+
+@guide
+سونوگرافی در مبهم؛ انما هوا/باریم در موارد کلاسیک؛ مشاوره جراحی اطفال برای شکست ردکشن یا پرفوراسیون.
+
+@variant intussusception-main
+name: Suspected intussusception
+level: II
+imp: Intussusception
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: none
+cxr: none
+o2: O2 therapy: if SpO2 < 94%, nasal cannula or face mask with flow by age and weight
+
+@scenario
+شیرخوار ۹ ماهه با حمله‌های متناوب گریه شدید، استفراغ و مدفوع خونی-مخاطی.
+
+@why
+سونوگرافی و انما هوا/باریم تشخیصی-درمانی؛ جراح آماده.
+
+@I
+- Ultrasound if the diagnosis is ambiguous ("target sign"); air or barium enema in classic cases (diagnostic and therapeutic; pediatric surgeon readily available)
+
+@L
+- Stool occult blood (70% of cases); CBC and electrolytes {note: not specified for intussusception; as in other abdominal pain}
+
+@S
+- IV fluids {note: volume not given in this chapter; see Chapter 66}
+
+@Co
+- Pediatric surgery for irreducible cases or perforation; uncomplicated cases reduced by enema may be discharged after observation if tolerating oral fluids and reliable follow-up (10% recurrence)
+
+@cond pediatric-abdominal-pain-other
+ch: 74
+name: Pediatric abdominal pain: constipation and Henoch-Schönlein purpura
+name_fa: درد شکم کودکان: یبوست و پورپورای هنوخ-شونلاین
+cc: pediatric-gi, abdominal-pain
+keywords: pediatric constipation, polyethylene glycol, Henoch-Schonlein purpura, HSP, palpable purpura, IgA vasculitis, یبوست کودکان, هنوخ شونلاین
+status: draft
+
+@features
+- شکم‌درد در < 2 سال: تحریک‌پذیری، بی‌حالی، grunting؛ نوپا و سن مدرسه: درد را بد لوکالیزه می‌کنند (ناف) یا امتناع از راه رفتن؛ علل خارج‌شکمی: پنومونی (سرفه)، فارنژیت استرپتوکوکی
+- مراحل معاینه: ظاهر عمومی، علائم حیاتی و هیدراتاسیون؛ مشاهده قبل از سمع و لمس؛ قفسه سینه، حلق، بیضه‌ها، اسکروتوم، ناحیه اینگوینال و گردن؛ نوجوان فعال جنسی: معاینه دوهمی؛ نوجوان را تنها مصاحبه کن
+- یبوست: مدفوع نادر و سفت؛ پاتولوژیک (هیرشپرونگ، CF، ناهنجاری نخاع، بوتولیسم شیرخوار) یا عملکردی؛ مکونیوم در 24 ساعت اول؛ معاینه رکتال و نورولوژیک؛ رادیوگرافی upright شکم برای احتباس مدفوع و رد انسداد
+- HSP: واسکولیت ایدیوپاتیک کودکان 2 تا 11 سال: پورپورای قابل لمس، درد حاد شکم و آرتریت؛ درد ناشی از ادم دیواره و واسکولیت GI (ممکن است قبل از راش)؛ تا 30٪ درگیری کلیه (حتی ماه‌ها بعد)؛ خونریزی GI میکروسکوپی یا ماکروسکوپی؛ اینتوساسپشن (ایلئو-ایلئال) در 3.5٪
+
+@ddx
+- !Intussusception (HSP / constipation mimic) |
+- !Appendicitis |
+- Gastroenteritis / UTI |
+- Hirschsprung disease / cystic fibrosis / infant botulism |
+- Renal involvement in HSP |
+
+@redflags
+- استفراغ با ایمپکشن، دهیدراتاسیون، درد شکم شدید در HSP (اینتوساسپشن)، هماچوری
+
+@guide
+یبوست: سوپوزیتوار یا انما در ED؛ نگهدارنده سرپایی با polyethylene glycol برای > 12 ماه؛ بستری: ایمپکشن همراه استفراغ، دهیدراتاسیون و شکست درمان سرپایی. HSP: UA برای هماچوری و سپس آزمایش عملکرد کلیه؛ درمان حمایتی: درد مفصلی با NSAID؛ درد شدید شکم با کورتیکواستروئید؛ مشاوره روماتولوژی/نفرولوژی اطفال در علائم شدید یا درگیری کلیه با فشار بالا.
+
+@variant constipation-peds
+name: Pediatric constipation / fecal impaction
+level: III
+imp: Constipation / fecal impaction
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+o2: O2 therapy: if SpO2 < 94%, nasal cannula or face mask with flow by age and weight
+
+@scenario
+پسر ۵ ساله با درد شکم کولیکی و ۵ روز بدون مدفوع.
+
+@why
+رکتال معاینه؛ شیاف/انما و درمان نگهدارنده.
+
+@I
+- Single upright abdominal radiograph to visualize fecal retention or impaction and help rule out obstruction
+
+@T
+- Suppositories or enemas in the ED if necessary {note: agent not specified}
+- Outpatient maintenance therapy with Polyethylene glycol for children older than 12 months {note: dose not given in this chapter}
+
+@Co
+- Admission for impaction with vomiting, dehydration or failed outpatient treatment
+
+@variant hsp-peds
+name: Henoch-Schönlein purpura
+level: III
+imp: Henoch-Schönlein purpura
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+o2: O2 therapy: if SpO2 < 94%, nasal cannula or face mask with flow by age and weight
+
+@scenario
+پسر ۶ ساله با پورپورای قابل لمس پاها، درد مفصل و درد شکم.
+
+@why
+UA برای کلیه؛ درمان حمایتی؛ NSAID و استروئید در درد شدید شکم.
+
+@L
+- Urinalysis (hematuria), then renal function tests if blood present
+
+@T
+- Nonsteroidal antiinflammatory medications for joint pain {renal: caution if renal involvement}
+- Corticosteroids for severe abdominal pain {note: drug and dose not given in the book}
+
+@Co
+- Pediatric rheumatologist or nephrologist consultation/follow-up for severe symptoms or renal involvement with hypertension
+
+@cond gi-bleeding-peds
+ch: 74
+name: Gastrointestinal bleeding in infants and children
+name_fa: خونریزی گوارشی در شیرخواران و کودکان
+cc: gi-bleeding, pediatric-gi
+keywords: pediatric GI bleeding, hematemesis, melena, hematochezia, Meckel diverticulum, anal fissure, intussusception, HUS, خونریزی گوارشی کودکان
+status: draft
+
+@features
+- UGI در برابر LGI: لیگامان Treitz؛ شکل‌ها: رگه/لخته قرمز روشن در استفراغ یا مدفوع، هماتمز، ملنا، خونریزی قرمز روشن رکتال؛ خونریزی پنهان: رنگ‌پریدگی، خستگی، آنمی
+- تأیید با تست خون مخفی معده یا مدفوع؛ چغندر، کرنبری و رنگ‌های غذایی ممکن است شبیه خون باشد؛ علل غیر GI (اپیستاکسی شایع‌ترین علت هماتمز)، جراحی دندان، خونریزی بعد از تونسیلکتومی، خون بلعیده مادر در نوزاد
+- جدول 74-2: UGI نوزاد: خون بلعیده مادر؛ شیرخوار/نوپا و کودک: Mallory–Weiss، ازوفاژیت، گاستریت (H. pylori)، PUD؛ کم‌شیوع: واریس، مواد سوزاننده، جسم خارجی، انعقادی
+- LGI: شقاق مقعد (شایع‌ترین)، آلرژی پروتئین شیر/سویا، گاستروانتریت عفونی، پولیپ؛ اورژانسی: مالفورماسیون عروقی، دیورتیکول Meckel (شایع‌ترین علت LGI شدید)، HUS، اینتوساسپشن
+- ملنا: UGI و HSP؛ قرمز روشن رکتال: شقاق؛ هماتوشزی بدون درد: Meckel یا AVM؛ با درد: HSP، HUS، گاستروانتریت عفونی، IBD، آلرژی شیر، اینتوساسپشن، NEC
+- خونریزی UGI در کودک بدون پرفشاری پورت به‌ندرت تهدیدکننده حیات است
+
+@ddx
+- !Intussusception / malrotation with volvulus |
+- !Hemolytic uremic syndrome |
+- !Meckel diverticulum / vascular malformation |
+- Anal fissure / milk protein allergy |
+- Infectious gastroenteritis / HSP |
+- Varices / peptic ulcer disease |
+
+@redflags
+- شوک، خونریزی شدید، آنمی، هماتوشزی با درد شدید
+
+@guide
+اولین گام: نیاز به احیا و تمایز UGI/LGI. خفیف: معمولاً سرپایی با مشاور؛ کشت مدفوع در شک عفونت. متوسط تا شدید: احیای حاد با کریستالوئید ایزوتونیک و احتمالاً فرآورده خونی؛ از افزایش بیش از حد حجم داخل عروقی (به‌ویژه واریس یا بیماری مزمن) پرهیز؛ مشاوره جراح اطفال، گوارش یا مراقبت ویژه.
+
+@variant gi-bleed-peds-mild
+name: Mild GI bleeding, stable (fissure, gastroenteritis)
+level: III
+imp: Mild gastrointestinal bleeding in a child
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+o2: O2 therapy: if SpO2 < 94%, nasal cannula or face mask with flow by age and weight
+
+@scenario
+نوپای ۲ ساله با رگه خون قرمز روشن روی مدفوع و شقاق مقعد.
+
+@why
+خفیف: درمان سرپایی؛ تست گایاک برای تأیید.
+
+@L
+- Gastric or fecal occult blood testing; stool studies for infectious causes if suspected
+
+@Co
+- Outpatient follow-up with a consultant
+
+@variant gi-bleed-peds-severe
+name: Moderate to severe GI bleeding
+level: I
+imp: Moderate to severe gastrointestinal bleeding in a child
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: none
+o2: O2 therapy: if SpO2 < 94%, nasal cannula or face mask with flow by age and weight
+
+@scenario
+کودک ۴ ساله با هماتوشزی حجیم، رنگ‌پریدگی و تاکی‌کاردی.
+
+@why
+احیا با کریستالوئید ± فرآورده خونی؛ از افزایش بیش از حد حجم پرهیز.
+
+@L
+- Laboratory studies and imaging as dictated by associated signs and symptoms {note: type and screen / cross-match for blood products per Chapter 66}
+
+@S
+- Isotonic crystalloid resuscitation; blood products if needed {ci: avoid overexpansion of intravascular volume, particularly for variceal bleeding or more chronic conditions}
+
+@Co
+- Pediatric surgeon, gastroenterologist or critical care physician depending on etiology
+
+@cond pediatric-uti
+ch: 75
+name: Pediatric urinary tract infection
+name_fa: عفونت ادراری کودکان
+cc: urinary-symptoms, pediatric-fever
+keywords: pediatric UTI, urine culture, catheterization, ceftriaxone, cefixime, cefdinir, pyelonephritis in children, عفونت ادراری کودکان
+status: draft
+
+@features
+- شایع از شیرخوارگی تا نوجوانی؛ نوزاد: سندرم مشابه سپسیس (تب، ایکتر، تغذیه ضعیف، استفراغ، تحریک‌پذیری، بی‌حالی)؛ شیرخوار و نوپا: علائم GI (درد شکم، استفراغ، کم‌اشتهایی)؛ سن مدرسه و نوجوان: مشابه بزرگسال (دیزوری، تکرر، فوریت، تردید)
+- شیرخواران بیشتر تب و درگیری مجرای فوقانی؛ دوره درمان طولانی‌تر؛ نوجوان بدون تب، درد فلانک یا استفراغ: مثل بزرگسال با دوره کوتاه
+- استاندارد طلایی: رشد یک پاتوژن ادراری در کشت؛ بچه پوشکی: کاتتر استریل ترانس‌اورترال ترجیح؛ aspiration سوپراپوبیک جایگزین؛ توالت‌آموخته (حدود 3 سال): clean catch؛ نمونه کیسه‌ای هیچ نقشی ندارد و هرگز برای کشت مناسب نیست
+- دیپ‌استیک و میکروسکوپی مشابه؛ نیتریت مثبت بسیار اختصاصی گرم‌منفی؛ دیپ‌استیک نامشخص (trace LE): میکروسکوپی؛ مثبت: > 5 WBC/HPF یا باکتری
+- شیرخوار کوچک: UA کم‌حساسیت؛ کشت بدون توجه به UA منفی
+- افتراق: اورتریت تحریکی (صابون، لباس، بهداشت)، واژینیت، میاتیت/بالانیت؛ نوجوان: STD (کلامیدیا)
+
+@ddx
+- !Sepsis in neonate |
+- !Pyelonephritis |
+- Vaginitis / meatitis / balanitis |
+- Sexually transmitted infection (adolescents) |
+- Appendicitis / gastroenteritis |
+
+@redflags
+- نوزاد (سپسیس)، دهیدراتاسیون، استفراغ پایدار، بدحالی
+
+@guide
+آنتی‌بیوتیک را بعد از کشت ادرار بده (به‌جز بیمار سپتیک). نوزاد: درمان به‌عنوان سپسیس، کشت خون و CSF؛ آنتی‌بیوتیک تزریقی و بستری: ampicillin 50 mg/kg/dose + gentamicin 3 تا 5 mg/kg/dose یا ampicillin 50 mg/kg/dose + cefotaxime 50 mg/kg/dose. 1 ماه تا 2 سال: سفالوسپورین نسل 3 وریدی: ceftriaxone، cefotaxime یا cefepime (همه 50 mg/kg/dose)؛ ceftriaxone تا 12 تا 24 ساعت مؤثر؛ بعد از یک دوز IV شیرخوار خوش‌ظاهر می‌تواند آنتی‌بیوتیک خوراکی بگیرد (معادل)؛ پیگیری نزدیک؛ دهیدراته، بدحال، استفراغ مداوم یا بیماری پیچیده: بستری و تزریقی. مقاومت محلی به cephalexin، amoxicillin یا TMP-SMX: cefixime 4 mg/kg/dose دو بار روزانه یا cefdinir 7 mg/kg/dose دو بار روزانه؛ Enterococcus faecalis قبلی: افزودن amoxicillin 25 mg/kg/dose دو بار روزانه یا ampicillin IV 50 mg/kg/dose. 7 تا 14 روز؛ دوره کوتاه در کودک کوچک مؤثر نیست. > 2 سال خوش‌ظاهر با تحمل مایع: فقط خوراکی 7 تا 14 روز. دختر نوجوان > 13 سال با سیستیت ساده: دوره کوتاه مثل بزرگسال (فصل ۵۳).
+
+@variant uti-peds-neonate
+name: Neonatal urinary tract infection (sepsis picture)
+level: I
+imp: Neonatal urinary tract infection / urosepsis
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: none
+cxr: none
+o2: O2 therapy: if SpO2 < 94%, nasal cannula or face mask with flow by age and weight
+
+@scenario
+نوزاد ۱۵ روزه با تب، ایکتر و تغذیه ضعیف.
+
+@why
+مثل سپسیس: کشت‌های متعدد و آنتی‌بیوتیک تزریقی.
+
+@L
+- Sterile transurethral catheterization urine culture and urinalysis; blood and CSF cultures
+
+@A
+- Ampicillin 50 mg/kg/dose plus Gentamicin 3 to 5 mg/kg/dose; or Ampicillin 50 mg/kg/dose plus Cefotaxime 50 mg/kg/dose
+
+@Co
+- Admit
+
+@variant uti-peds-infant-child
+name: UTI in infants 1 month to 2 years / children
+level: II
+imp: Pediatric urinary tract infection
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+o2: O2 therapy: if SpO2 < 94%, nasal cannula or face mask with flow by age and weight
+
+@scenario
+دختر ۱۱ ماهه با تب 39، استفراغ و ادرار بدبو.
+
+@why
+کشت ادرار با کاتتر؛ سفالوسپورین نسل 3 سپس خوراکی در خوش‌ظاهر؛ 7 تا 14 روز.
+
+@L
+- Urine by sterile transurethral catheterization (ultrasound-guided suprapubic aspiration is an alternative; bagged urine never appropriate): dipstick (nitrite highly specific), microscopy (> 5 WBC/HPF or bacteria) and culture regardless of negative urinalysis in young infants
+
+@A
+- Ceftriaxone, or Cefotaxime, or Cefepime (all 50 mg/kg/dose IV); ceftriaxone maintains efficacy 12 to 24 hours per dose
+- After initial IV dose, well-appearing infants may complete oral antibiotics for 7 to 14 days: where resistance to cephalexin, amoxicillin or TMP-SMX has emerged, Cefixime 4 mg/kg/dose twice daily or Cefdinir 7 mg/kg/dose twice daily; if Enterococcus faecalis on prior cultures add Amoxicillin 25 mg/kg/dose twice daily or Ampicillin IV 50 mg/kg/dose
+- Children older than 2 years not ill-appearing and tolerating oral fluids: oral antibiotics 7 to 14 days {note: short-course therapy is not effective in young children}
+
+@Co
+- Close follow-up with primary care; inpatient parenteral treatment for dehydrated, ill-appearing, persistent vomiting or medically complex children

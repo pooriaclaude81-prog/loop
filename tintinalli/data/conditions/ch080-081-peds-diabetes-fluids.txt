@@ -1,0 +1,237 @@
+@cond dka-peds
+ch: 80
+name: Pediatric diabetic ketoacidosis, HHNS and cerebral edema
+name_fa: کتواسیدوز دیابتی کودکان، HHNS و ادم مغزی
+cc: metabolic, altered-mental-status, pediatric-other
+keywords: pediatric DKA, diabetic ketoacidosis in children, cerebral edema, insulin infusion, potassium, mannitol, hypertonic saline, hyperglycemic hyperosmolar, new onset diabetes, کتواسیدوز کودکان
+status: draft
+
+@features
+- نوع 1: اتوایمیون، کاهش ناگهانی و اغلب کامل تولید انسولین؛ نوع 2: مقاومت به انسولین در نوجوان چاق با زمینه ژنتیکی؛ DKA علت اصلی مرگ دیابتی < 24 سال و ادم مغزی علت اصلی مرگ در DKA
+- DKA در نوع 1 شایع‌تر؛ نوع 2 ممکن است HHNS با اسیدوز (کمبود شدید آب، پتاسیم و فسفر)؛ 4٪ نوع 2 تازه‌تشخیص HHNS با مرگ 12٪
+- پرادراری، پرنوشی، پرخوری؛ کاهش وزن، شب‌ادراری ثانویه، بی‌اشتهایی، درد مبهم شکم، تاری دید، کاندیدیازیس تناسلی؛ DKA: تشنگی، ضعف، استفراغ، گیجی، درد شکم (تقلید آپاندیسیت)، تنگی نفس و ظاهر بدحال؛ تنفس Kussmaul ممکن است با هایپروانتیلاسیون اضطرابی اشتباه شود
+- ادم مغزی: نادر (0.5٪ تا 1٪ DKA) و معمولاً 6 تا 12 ساعت بعد از شروع درمان؛ علائم پیشرو در 50٪: سردرد شدید، افت هوشیاری، تشنج؛ عوامل: سن کم، هیپراسمولالیته شدید، اسیدوز شدید، عدم افزایش Na متناسب با افت گلوکز
+- تعریف DKA: اسیدوز متابولیک (pH < 7.30 یا بی‌کربنات < 15) با هیپرگلیسمی > 200 و کتونمی/کتونوری؛ نوجوان بدون دیابت شناخته‌شده: مسمومیت اتیلن‌گلیکول، ایزوپروپانول، سالیسیلات
+- ادم مغزی تشخیص بالینی (تغییر هوشیاری غیرقابل انتساب به هیپوولمی)؛ درمان قبل از CT سر
+
+@ddx
+- !Cerebral edema |
+- !Toxic ingestion (ethylene glycol, isopropyl alcohol, salicylate) |
+- Appendicitis / gastroenteritis |
+- Sepsis |
+- Hyperventilation / pulmonary disease |
+
+@redflags
+- سردرد شدید، افت هوشیاری، تشنج، شوک، pH < 7.0
+
+@guide
+مایع محتاطانه، انسولین، اصلاح الکترولیت و پایش دقیق؛ مانیتور قلبی، فشار غیرتهاجمی، پالس‌اکسیمتری و IV. 1) پایدار: بولوس NS 10 mL/kg طی 1 ساعت؛ شوک/هیپوتانسیون: بولوس اولیه NS 20 mL/kg و تکرار تا نرمال شدن فشار؛ سپس از اصلاح سریع کمبود پرهیز (به‌ویژه اسمولالیته محاسبه‌شده > 340). 2) سپس NS با 1.5 برابر maintenance. 3) K+ 3.5 تا 5.5 و ادرار دارد: 30 mEq K+/L (نصف KCl و نصف فسفات)؛ K+ 2.5 تا 3.5: 40 mEq/L؛ < 2.5: بیشتر. 4) انسولین regular 0.1 U/kg/h بعد از بولوس؛ افت گلوکز 50 تا 100 mg/dL/h؛ تا رفع کتونوری زیر 0.05 U/kg/h نیاور؛ دوز بالا و بولوس انسولین ممنوع. 5) دکستروز به مایع وقتی گلوکز < 200 تا 250 و ادامه انسولین تا رفع کتواسیدوز. 6) الکترولیت هر 2 ساعت؛ گلوکز هر ساعت. 7) بیکربنات توصیه نمی‌شود (4 برابر خطر ادم مغزی)؛ فقط بحرانی با pH < 7.0 و ناپایداری مقاوم به مایع. 8) ادم مغزی: mannitol 0.25 تا 1 g/kg؛ سالین 3٪ 10 mL/kg طی 30 دقیقه؛ محدودیت مایع وریدی؛ اینتوباسیون با احتیاط و پرهیز از eucapnea. 9) اکثر DKA ICU؛ مشاوره زودهنگام پزشک خانواده و اندوکرینولوژیست اطفال.
+
+@pearls
+- بیکربنات در DKA کودک مجاز نیست مگر pH < 7.0 با ناپایداری.
+- ادم مغزی را قبل از CT درمان کن.
+
+@variant dka-peds-stable
+name: Pediatric DKA, hemodynamically stable
+level: I
+imp: Diabetic ketoacidosis in a child
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: none
+o2: O2 therapy: pulse oximetry; oxygen if SpO2 < 94%, nasal cannula or face mask with flow by age and weight
+
+@scenario
+دختر ۹ ساله با پرنوشی، استفراغ، تنفس عمیق، قند 450 و pH 7.15؛ فشار نرمال.
+
+@why
+DKA کودک: مایع محتاطانه، انسولین ثابت و اجتناب از بیکربنات.
+
+@L
+- Glucose hourly; serum electrolytes every 2 hours; ketones; blood gas {note: pH < 7.30 or bicarbonate < 15 mEq/L defines DKA}
+
+@S
+- NS bolus 10 mL/kg over 1 hour if hemodynamically stable, then NS at 1.5 times the calculated maintenance rate (avoid too rapid correction of fluid deficit, especially if calculated osmolality > 340 mOsm/L) {ci: caution in heart failure / pulmonary edema}
+- [K+ 3.5 to 5.5 mEq/L and urinating] add 30 mEq K+/L (1/2 KCl and 1/2 potassium phosphate); [K+ 2.5 to 3.5] add 40 mEq K+/L; consider more if < 2.5
+- Add dextrose to IV fluids when blood glucose < 200 to 250 mg/dL
+
+@T
+- Regular insulin infusion 0.1 U/kg/h after IV fluid bolus; adjust to maintain glucose decline 50 to 100 mg/dL/h; do not decrease below 0.05 U/kg/h until ketonuria has resolved {ci: no insulin boluses or high-dose insulin}
+- Bicarbonate not recommended {ci: only in critically ill with pH < 7.0 and hemodynamic compromise unresponsive to fluid resuscitation}
+
+@Co
+- ICU admission; early consultation with primary care physician and pediatric endocrinologist
+
+@variant dka-peds-shock
+name: Pediatric DKA with shock
+level: I
+imp: Diabetic ketoacidosis with shock in a child
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+o2: O2 therapy: oxygen; nasal cannula or face mask with flow by age and weight
+
+@scenario
+پسر ۱۱ ساله با DKA، تاکی‌کاردی 150، فشار 70/40 و پرفیوژن ضعیف.
+
+@why
+شوک: بولوس 20 mL/kg و تکرار تا نرمال شدن فشار.
+
+@L
+- Glucose, electrolytes, blood gas
+
+@S
+- Initial 20 mL/kg NS bolus, repeated as needed until blood pressure normalizes; then NS at 1.5 times maintenance; potassium and dextrose as above
+
+@T
+- Regular insulin infusion 0.1 U/kg/h after IV fluid bolus is complete
+
+@Co
+- ICU admission
+
+@variant dka-peds-cerebral-edema
+name: DKA with suspected cerebral edema
+level: I
+imp: Cerebral edema in pediatric DKA
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+o2: O2 therapy: oxygen; if intubated avoid eucapnea (compensatory respiratory alkalosis needed)
+
+@scenario
+کودک ۸ ساله ۸ ساعت پس از شروع درمان DKA با سردرد شدید، کاهش هوشیاری و تشنج.
+
+@why
+درمان قبل از CT؛ مانیتول یا سالین 3٪ و محدودیت مایع.
+
+@I
+- Head CT (may confirm; treatment should begin prior to obtaining CT when suspected); intracranial pressure monitoring may be indicated
+
+@T
+- Mannitol 0.25 to 1 g/kg; consider 3% hypertonic saline 10 mL/kg over 30 minutes
+- Restrict additional IV fluids to the minimum required to maintain IV access
+- Caution if endotracheal intubation is required; avoid eucapnea (a rise in CO2 may worsen acidosis and cerebral edema)
+
+@Co
+- ICU admission with possible ICP monitoring
+
+@cond dehydration-electrolytes-peds
+ch: 81
+name: Pediatric dehydration and electrolyte disorders (fluid therapy)
+name_fa: دهیدراتاسیون و اختلالات الکترولیت کودکان (مایع‌درمانی)
+cc: pediatric-gi, metabolic
+keywords: pediatric dehydration, oral rehydration, maintenance fluids, 4-2-1, hyponatremia, hypernatremia, hyperkalemia, hypocalcemia, hypomagnesemia, مایع درمانی کودکان
+status: draft
+
+@features
+- شایع‌ترین اختلال مایع در اورژانس اطفال؛ علل: کم‌دریافتی، افزایش دفع (کلیوی، GI، پوست/تنفس) یا سپسیس، سوختگی و دیابت
+- استاندارد طلایی: مقایسه وزن قبل از بیماری؛ معمولاً در دسترس نیست؛ 1 kg کاهش وزن = 1 L کمبود مایع
+- طبقه‌بندی (جدول 81-1): خفیف (< 3٪)، متوسط (3٪ تا 9٪)، شدید (> 9٪ وزن)؛ هوشیاری، تشنگی، ضربان، کیفیت نبض، چشم، اشک، مخاط، فونتانل، پرشدن مویرگی، اندام‌ها و ادرار
+- استثنا: دهیدراتاسیون هیپرناترمیک: علائم کاهش حجم داخل عروقی کم و پوست «خمیری»
+- آزمایش روتین در خفیف تا متوسط لازم نیست؛ الکترولیت در شدید، علائم اختلال الکترولیت یا بیماری زمینه‌ای؛ قند بالین در هر تغییر هوشیاری؛ شیرخوار در خطر هیپوگلیسمی
+- جدول 81-2: هیپوناترمی (استفراغ، اسهال، آب آزاد زیاد؛ تغییر هوشیاری، تشنج)؛ هیپرناترمی (استفراغ/اسهال، دفع نامحسوس، دیابت بی‌مزه؛ تغییر هوشیاری، آتاکسی، پوست خمیری، تشنج)؛ هیپوکالمی (استفراغ، DKA؛ ضعف عضلانی، ایلئوس)؛ هیپرکالمی (CAH، نارسایی کلیه، همولیز نمونه؛ ECG: T بلند، PR طولانی، QRS پهن)؛ هیپوکلسمی (کمبود ویتامین D، هیپوپاراتیروئید، CRF؛ تتانی، تشنج)؛ هیپرکلسمی (بدخیمی، ویتامین D/A)؛ هیپومنیزیمی (اسهال، short gut، دیورتیک، شیمی‌درمانی)؛ هیپرمنیزیمی (آنتی‌اسید، اختلال کلیه)
+
+@ddx
+- !Hypovolemic shock |
+- !Diabetic ketoacidosis |
+- !Sepsis / inborn error of metabolism |
+- Severe electrolyte disturbance (sodium, potassium, calcium) |
+- Gastroenteritis |
+
+@redflags
+- شوک هیپوولمیک، تشنج یا تغییر هوشیاری، تغییرات ECG هیپرکالمی
+
+@guide
+اصول: (الف) شوک را شناسایی و درمان کن؛ (ب) مایع مناسب برای جایگزینی کمبود، دفع ادامه‌دار و maintenance؛ (ج) علل با درمان اختصاصی (DKA، سپسیس، IEM). شوک هیپوولمیک: بولوس اولیه 20 mL/kg کریستالوئید ایزوتونیک (NS یا LR) IV/IO؛ تکرار هر 10 تا 20 دقیقه تا بهبود هوشیاری، علائم حیاتی و پرفیوژن؛ تا 60 mL/kg یا بیشتر در ساعت اول با پایش اضافه‌بار حجم یا اختلال عملکرد میوکارد. ORT مؤثر معادل IV و توصیه WHO در خفیف تا متوسط: جرعه‌های مکرر ORS حاوی گلوکز و الکترولیت (مثل Rehydralyte) خوراکی یا NG: 50 mL/kg طی 4 ساعت در خفیف و 100 mL/kg در متوسط؛ استفراغ منع نیست؛ ondansetron 0.1 mg/kg IV یا 0.15 mg/kg PO یا ODT (حداکثر 8 mg). عدم تحمل خوراکی: NS یا LR IV/IO: بدون شوک 20 mL/kg طی 1 ساعت و تکرار؛ سپس دکستروز 5٪ در سالین 0.9٪ با 1 تا 2 برابر maintenance. maintenance: 10 kg اول 100 mL/kg/d یا 4 mL/kg/h؛ 10 kg دوم 50 mL/kg/d یا 2 mL/kg/h؛ هر kg > 20: 20 mL/kg/d یا 1 mL/kg/h؛ مایع ایزوتونیک (D5NS) بعد از هفته اول؛ روز 1 تولد: دکستروز 10٪ بدون الکترولیت؛ روز 2 تا 7: D5 با سالین 0.45٪. الکترولیت: اصلاح سریع Na ممکن است عوارض شدید CNS بدهد: هیپوناترمی با علائم عصبی: سالین 3٪ 2 تا 3 mL/kg تا رفع علائم یا Na > 120؛ در غیر این صورت آهسته طی 48 ساعت؛ هیپرناترمی: آهسته (ادم مغزی و CPM). جدول 81-2: هیپوناترمی: NS با بولوس 20 mL/kg و در تشنج 3٪ 4 mL/kg طی 30 دقیقه؛ هیپرناترمی: NS 20 mL/kg سپس آهسته 48 ساعت؛ هیپوکالمی: خوراکی طی چند روز، شدید: KCl 0.2 تا 0.3 mEq/kg/h IV؛ هیپرکالمی: انسولین 0.1 unit/kg + گلوکز 25٪ 0.5 g/kg IV، calcium gluconate 10٪ 1 mL/kg IV نه سریع‌تر از 1 mL/min، albuterol 0.5٪ 2.5 mg نبولایز؛ هیپوکلسمی: calcium gluconate 10٪ 1 mL/kg؛ هیپرکلسمی: NS 20 mL/kg و furosemide 1 تا 2 mg/kg (حداکثر 40 mg)؛ هیپومنیزیمی: منیزیم سولفات 1 mEq/kg آهسته طی 4 ساعت؛ هیپرمنیزیمی: حذف منبع، شدید calcium gluconate 10٪ 1 mL/kg. بستری: شیرخوار با دفع قابل‌توجه، دهیدراتاسیون شدید، اختلال شدید الکترولیت/متابولیک، استفراغ مداوم با شکست ORT یا بیماری نیازمند بستری (DKA، IEM).
+
+@variant dehydration-peds-mild-moderate
+name: Mild to moderate dehydration (oral rehydration)
+level: III
+imp: Mild to moderate dehydration in a child
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+o2: O2 therapy: if SpO2 < 94%, nasal cannula or face mask with flow by age and weight
+
+@scenario
+کودک ۳ ساله با اسهال و استفراغ؛ تشنه، اشک کم و مخاط کمی خشک.
+
+@why
+ORS معادل IV و توصیه WHO؛ ondansetron برای تسهیل.
+
+@S
+- Oral rehydration solution containing glucose and electrolytes (e.g., Rehydralyte) by frequent small sips orally or by nasogastric tube: 50 mL/kg over 4 hours for mild dehydration and 100 mL/kg for moderate dehydration
+
+@T
+- Ondansetron 0.1 mg/kg IV or 0.15 mg/kg PO or oral disintegrating tablet (maximum 8 mg) if nausea or vomiting persists {ci: vomiting is not a contraindication to oral rehydration}
+
+@Co
+- Most children with mild to moderate dehydration managed as outpatients without laboratory evaluation
+
+@variant dehydration-peds-shock-iv
+name: Severe dehydration / hypovolemic shock; IV fluid and maintenance
+level: I
+imp: Severe dehydration / hypovolemic shock in a child
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: none
+o2: O2 therapy: oxygen; nasal cannula or face mask with flow by age and weight
+
+@scenario
+شیرخوار ۱۰ ماهه با اسهال شدید، لتارژی، پرشدن مویرگی 5 ثانیه و اندام سرد.
+
+@why
+شوک: بولوس 20 mL/kg تکراری؛ سپس بازسازی کمبود و maintenance.
+
+@L
+- Serum electrolytes (severe dehydration); bedside glucose if altered sensorium
+
+@S
+- Initial bolus of 20 mL/kg isotonic crystalloid (NS or LR) IV/IO; repeat every 10 to 20 minutes until mental status, vital signs and peripheral perfusion improve (up to 60 mL/kg or more in the first hour; monitor for volume overload or myocardial dysfunction)
+- If no shock but oral rehydration not tolerated: 20 mL/kg over 1 hour and repeat as needed; then 5% dextrose in 0.9% saline at one to two times maintenance while determining disposition
+- Maintenance: first 10 kg 100 mL/kg/d (4 mL/kg/h); second 10 kg 50 mL/kg/d (2 mL/kg/h); each kg > 20 kg 20 mL/kg/d (1 mL/kg/h); isotonic fluids after the first week of life (day 1: 10% dextrose with no electrolytes; days 2 to 7: 5% dextrose in 0.45% saline)
+
+@Co
+- Admit (severe dehydration; young infants with ongoing significant fluid losses; electrolyte or metabolic derangements; failed oral rehydration)
+
+@variant electrolytes-peds-severe
+name: Pediatric severe electrolyte disorder (hyponatremia with seizure, hyperkalemia, hypocalcemia, hypomagnesemia)
+level: I
+imp: Severe electrolyte disorder in a child
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: none
+o2: O2 therapy: if SpO2 < 94%, nasal cannula or face mask with flow by age and weight
+
+@scenario
+شیرخوار ۴ ماهه با استفراغ و اسهال، تشنج و Na 118.
+
+@why
+هیپوناترمی علامت‌دار: سالین 3٪ سپس اصلاح آهسته 48 ساعته.
+
+@L
+- Serum electrolytes, calcium, magnesium; ECG for hyperkalemia (peaked T waves, prolonged PR, widening of QRS)
+
+@S
+- Hyponatremia: IV normal saline starting with 20 mL/kg bolus; with seizures 3% saline 4 mL/kg over 30 min (or 2 to 3 mL/kg until symptoms resolve or Na > 120); further correction slowly over 48 hours
+- Hypernatremia: IV normal saline starting with 20 mL/kg bolus; correct slowly over 48 hours
+
+@T
+- Hyperkalemia: Insulin 0.1 unit/kg plus 25% glucose 0.5 g/kg IV (neonates: see table); Calcium gluconate 10% 1 mL/kg IV no faster than 1 mL/min; Albuterol 0.5% solution 2.5 mg via nebulization
+- Hypokalemia severe: KCl 0.2 to 0.3 mEq/kg/h IV
+- Hypocalcemia: Calcium gluconate 10% 1 mL/kg IV no faster than 1 mL/min; hypercalcemia: normal saline 20 mL/kg and consider Furosemide 1 to 2 mg/kg IV (maximum 40 mg)
+- Hypomagnesemia (seizures, dysrhythmia): Magnesium sulfate 1 mEq/kg slowly over 4 hours; hypermagnesemia: remove exogenous source; if severe Calcium gluconate 10% 1 mL/kg IV no faster than 1 mL/min
+
+@Co
+- Admit

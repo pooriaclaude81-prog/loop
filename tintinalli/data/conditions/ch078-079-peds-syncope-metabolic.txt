@@ -1,0 +1,244 @@
+@cond syncope-peds
+ch: 78
+name: Syncope and sudden death in children and adolescents
+name_fa: سنکوپ و مرگ ناگهانی در کودکان و نوجوانان
+cc: syncope, pediatric-other
+keywords: pediatric syncope, vasovagal, long QT, hypertrophic cardiomyopathy, exertional syncope, sudden cardiac death, ECG, سنکوپ کودکان
+status: draft
+
+@features
+- 1٪ تا 3٪ ویزیت‌های اطفال؛ در نوجوانان شایع‌تر؛ تا 50٪ نوجوانان حداقل یک بار؛ معمولاً گذرا ولی می‌تواند علامت بیماری قلبی جدی باشد
+- مرگ ناگهانی غیرمنتظره 2.3٪ مرگ‌های اطفال که حدود یک‌سوم قلبی؛ به‌جز تروما شایع‌ترین علت مرگ ورزشی؛ HCM و ناهنجاری شریان کرونر شایع‌ترین علت در نوجوان بدون بیماری قلبی شناخته‌شده؛ میوکاردیت، CHD و اختلال هدایت
+- نورالی‌میدیتد (80٪): vasovagal (< 1 دقیقه، ایستادن طولانی، ناراحتی هیجانی، علائم هشدار: تهوع، گرما، سبکی سر، grayout تدریجی)، ارتوستاتیک (هیپوولمی)، موقعیتی، breath-holding (6 تا 18 ماه)
+- قلبی: شروع و پایان ناگهانی؛ درد قفسه سینه، تپش یا تنگی نفس؛ آریتمی (QT طولانی، SVT/WPW، sick sinus، بلوک AV، اختلال pacemaker)، ساختاری (HCM سنکوپ حین ورزش، DCM، CHD، دریچه‌ای، ARVD، فشار ریوی، ناهنجاری کرونر با فشار حین ورزش)، دارو/مواد
+- عوامل خطر علت جدی (جدول 78-2): ورزش قبل از حادثه، سن < 6 سال، سابقه بیماری قلبی یا سوفل، سابقه خانوادگی مرگ ناگهانی/QT طولانی/کری حسی-عصبی، راجعه، حین خوابیده، LOC طولانی، درد قفسه سینه یا تپش، نبود علامت هشدار، داروهای تغییردهنده هدایت
+- 25٪ کودکان با مرگ ناگهانی سابقه سنکوپ دارند؛ اگر شاهدان بگویند بی‌جان بود یا CPR شد: جستجوی علل جدی
+- مشابه سنکوپ: میگرن بازیلار، تشنج، ورتیگو، هایپروانتیلاسیون، هیستری، هیپوگلیسمی
+
+@ddx
+- !Cardiac dysrhythmia (long QT, WPW, heart block) |
+- !Hypertrophic cardiomyopathy / structural heart disease |
+- !Anomalous coronary artery / myocarditis |
+- Vasovagal / orthostatic syncope |
+- Seizure / hypoglycemia / hyperventilation |
+
+@redflags
+- سنکوپ حین ورزش، سابقه خانوادگی مرگ ناگهانی، تپش یا درد قفسه سینه، سوفل، سنکوپ خوابیده
+
+@guide
+ECG را در همه به‌شدت در نظر بگیر؛ آزمایش روتین در vasovagal واضح لازم نیست؛ شرح حال کلاسیک vasovagal با معاینه نرمال نیاز به آزمایش ندارد. تپش یا سنکوپ حین ورزش: ECG برای دیس‌ریتمی؛ کولاپس ناگهانی (به‌ویژه حین ورزش) با سوفل: ECG، CXR و اکو. سنکوپ با درد قفسه سینه: تروپونین قلبی. الکترولیت، تیروئید، CXR، تست بارداری یا غربال دارو در صورت لزوم. vasovagal محتمل: ترخیص با اطمینان‌بخشی و افزایش آب و نمک. اکو در بیماری قلبی شناخته‌شده یا مشکوک (فوریت با کاردیولوژیست). بدون علت: ترخیص با پیگیری، مگر عوامل خطر قلبی یا علائم ورزشی (ارجاع کاردیولوژی). ECG نرمال با شرح حال دیس‌ریتمی: مانیتورینگ و ورک‌آپ سرپایی. دیس‌ریتمی ثبت‌شده: بستری؛ همه بستری‌های سنکوپ مانیتور قلبی؛ نجات‌یافتگان ایست قلبی: PICU.
+
+@pearls
+- ECG در همه سنکوپ‌های کودک.
+
+@variant syncope-peds-vasovagal
+name: Syncope, likely vasovagal, normal examination
+level: III
+imp: Syncope, likely vasovagal
+cond: Urgent
+act: RBR
+diet: PO
+ecg: once
+cxr: none
+o2: O2 therapy: if SpO2 < 94%, nasal cannula or face mask with flow by age and weight
+
+@scenario
+دختر ۱۴ ساله پس از ایستادن طولانی در صف با سبکی سر و سقوط کوتاه؛ اکنون بیدار و معاینه نرمال.
+
+@why
+vasovagal با شرح حال کلاسیک و ECG نرمال: ترخیص با آب و نمک.
+
+@L
+- Routine bloodwork not indicated in clear vasovagal syncope; electrolytes, thyroid studies, urine pregnancy test or drug screen in the appropriate clinical setting
+
+@T
+- Reassurance; advise increased water and salt intake
+
+@Co
+- Discharge; follow-up with primary care provider
+
+@variant syncope-peds-cardiac-risk
+name: Syncope with cardiac risk factors (exertional, family history, murmur)
+level: II
+imp: Syncope with cardiac risk factors
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: PA
+o2: O2 therapy: if SpO2 < 94%, nasal cannula or face mask with flow by age and weight
+
+@scenario
+پسر ۱۵ ساله با سنکوپ حین بازی فوتبال، بدون علامت هشدار و سوفل در معاینه.
+
+@why
+سنکوپ حین ورزش مطرح ساختاری/آریتمی؛ ECG، CXR و اکو؛ کاردیولوژی.
+
+@I
+- Chest x-ray; echocardiography (known or suspected cardiac disease; urgency determined with cardiologist)
+
+@L
+- Cardiac troponin if syncope associated with chest pain (e.g., aberrant left coronary artery); electrolytes, thyroid studies, urine pregnancy test or drug screen as indicated
+
+@Co
+- Cardiology referral (cardiac risk factors or exercise-induced symptoms); admit with cardiac monitoring if documented dysrhythmia; pediatric ICU for survivors of sudden cardiac arrest
+
+@cond hypoglycemia-metabolic-peds
+ch: 79
+name: Pediatric hypoglycemia and inborn errors of metabolism
+name_fa: هیپوگلیسمی و اختلالات متابولیک مادرزادی در کودکان
+cc: metabolic, altered-mental-status, pediatric-other
+keywords: pediatric hypoglycemia, dextrose, glucagon, hydrocortisone, inborn error of metabolism, hyperammonemia, metabolic acidosis, sodium bicarbonate, هیپوگلیسمی کودکان
+status: draft
+
+@features
+- علل هیپوگلیسمی: کم‌دریافتی، انسولین زیاد، کورتیزول/GH کم، IEM، عفونت سیستمیک؛ قند بالین در هر نوزاد/شیرخوار/کودک با تغییر هوشیاری
+- علائم آدرنرژیک: تاکی‌کاردی، تعریق، لرزش، اضطراب، تحریک‌پذیری، تاکی‌پنه؛ شدید: آپنه یا تشنج (به‌ویژه نوزاد و شیرخوار که علائم تیپیک ندارند): تغذیه ضعیف، گریه غیرطبیعی/جیغ‌مانند، بی‌ثباتی دما، تحریک‌پذیری یا بی‌حالی؛ اغلب همراه بیماری بحرانی (سپسیس)
+- تعریف: گلوکز پلاسما < 45 mg/dL در علامت‌دار و < 35 mg/dL در نوزاد بدون علامت؛ تایید با نمونه وریدی ولی درمان را به تأخیر نینداز؛ کتون ادرار: کتون مثبت = ketotic hypoglycemia، نارسایی آدرنال، IEM؛ بدون کتون: هایپرانسولینمی، نوزاد مادر دیابتی، اختلال اکسیداسیون اسید چرب
+- IEM: استفراغ، تغییر هوشیاری و تغذیه ضعیف شایع‌ترین؛ تشنج؛ تاکی‌پنه (اسیدوز)، تاکی‌کاردی، هیپوتانسیون؛ بوی خاص بدن/ادرار؛ نوزادان اغلب بدون علامت در بدو تولد و بعد از شروع تغذیه علامت‌دار می‌شوند؛ زوال حاد ناگهانی نوزاد سالم را به IEM مشکوک شو
+- غربال: قند بالین، کتون ادرار، گاز خون (اسیدوز)، آمونیاک، BMP و لاکتات؛ سپس LFT، CBC، LDH، CK، آمینواسیدها و acylcarnitine، اسیدهای ارگانیک ادرار، مواد احیاکننده؛ افتراق شوک نوزاد: سپسیس، CHD، فاجعه شکمی (شکل 79-1: هایپرآمونمی بدون اسیدوز = نقص چرخه اوره؛ هایپرآمونمی + اسیدوز = اسیدوری ارگانیک؛ آمونیاک نرمال + اسیدوز = آمینواسیدوپاتی مثل MSUD؛ اسیدوز و بدون کتون ادرار = نقص اکسیداسیون اسید چرب)
+
+@ddx
+- !Sepsis |
+- !Inborn error of metabolism |
+- !Adrenal insufficiency |
+- Hyperinsulinism / ketotic hypoglycemia |
+- Poisoning (salicylate) |
+- Congenital heart disease / abdominal catastrophe |
+
+@redflags
+- تشنج، آپنه، شوک، تغییر هوشیاری، اسیدوز شدید
+
+@guide
+# هیپوگلیسمی
+نوزاد: dextrose 10٪ 5 mL/kg IV/IO/PO/NG؛ شیرخوار: همان یا dextrose 25٪ 2 mL/kg؛ کودک بزرگ‌تر: dextrose 25٪ 2 mL/kg. نگهدارنده در هیپوگلیسمی پایدار: dextrose 10٪ با 1.5 برابر maintenance (جدول 79-2: 6 mL/kg/h D10 برای 10 kg اول + 3 mL/kg/h برای 11–20 kg + 1.5 mL/kg/h برای هر kg بیش از 20). بدون IV: glucagon 0.03 mg/kg IM/SC (حداکثر 0.5 mg). شک نارسایی آدرنال: hydrocortisone 25 mg IV/IM در نوزاد و شیرخوار، 50 mg نوپا و سن مدرسه، 100 mg بقیه (زودهنگام در هیپوپیتوئیتاریسم). آنتی‌بیوتیک تجربی در شک سپسیس.
+# IEM
+ABCD؛ اگر اینتوباسیون لازم شد از فلج‌کننده طولانی پرهیز کن (اسیدوز تنفسی اسیدوز متابولیک را بدتر می‌کند). احیای گردش با سالین 0.9٪ بولوس 20 mL/kg با بازارزیابی؛ NPO؛ اصلاح هیپوگلیسمی؛ انفوزیون dextrose 10٪ با 2 برابر maintenance؛ آنتی‌بیوتیک وسیع‌الطیف؛ درمان اختصاصی با مشاور متابولیک (سوبستراها یا همودیالیز). بیکربنات رفلکسی نه؛ در اسیدوز شدید (pH < 7.0): sodium bicarbonate 0.5 mEq/kg/h. بستری برای همه مشکوک/تازه‌تشخیص، دهیدراته یا دکمپانسه؛ ممکن است انتقال به بیمارستان اطفال.
+
+@pearls
+- قند بالین را برای هر نوزاد/شیرخوار بدحال یا با تغییر هوشیاری.
+
+@variant hypoglycemia-peds
+name: Pediatric hypoglycemia
+level: I
+imp: Pediatric hypoglycemia
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: none
+o2: O2 therapy: if SpO2 < 94%, nasal cannula or face mask with flow by age and weight
+
+@scenario
+شیرخوار ۶ ماهه با استفراغ، بی‌حالی، تشنج و قند 25.
+
+@why
+قند را بدون انتظار تأیید برسان؛ بعد علت (آدرنال، IEM، سپسیس).
+
+@L
+- Bedside glucose (confirm with venous sample, do not delay treatment); urine ketones
+
+@S
+- Neonates: 10% dextrose 5 mL/kg IV/IO/PO/NG; infants: 10% dextrose 5 mL/kg or 25% dextrose 2 mL/kg; older children: 25% dextrose 2 mL/kg IV/IO/PO/NG
+- Persistent hypoglycemia: maintenance dextrose 10% at 1.5 times maintenance
+
+@A
+- Empiric antibiotics for suspected sepsis {note: drug and dose not given in this chapter; see Chapter 66}
+
+@T
+- Glucagon 0.03 mg/kg IM or subcutaneous (maximum 0.5 mg) when intravenous access is not immediately available
+- Suspected adrenal insufficiency: Hydrocortisone 25 mg IV/IM for neonates and infants, 50 mg for toddlers and school-age children, 100 mg for everyone else
+
+@Co
+- Admission; endocrinology for suspected adrenal insufficiency
+
+@variant metabolic-crisis-peds
+name: Suspected inborn error of metabolism / metabolic crisis
+level: I
+imp: Suspected inborn error of metabolism (metabolic crisis)
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: portable
+o2: O2 therapy: oxygen as needed; avoid prolonged paralytics (respiratory acidosis worsens metabolic acidosis)
+
+@scenario
+نوزاد ۵ روزه که پس از شروع تغذیه استفراغ، بی‌حالی و تاکی‌پنه دارد؛ pH 7.1.
+
+@why
+IEM: احیای حجم، NPO، دکستروز و آنتی‌بیوتیک؛ تشخیص قطعی کم‌اهمیت‌تر از شک و حمایت.
+
+@L
+- Bedside glucose, urine ketones, blood gas analysis, serum ammonia, basic metabolic panel and lactate; additional tests by initial results: liver function tests, LDH, creatine kinase, serum amino acids and acylcarnitine profile, urine organic acids and reducing substances; cultures if crisis mimics sepsis
+
+@S
+- 0.9% saline boluses of 20 mL/kg, reassessing after each bolus
+- Correct hypoglycemia: D10 in neonates and infants or D25 in children; then 10% dextrose infusion at twice maintenance rate {ci: heart failure / pulmonary edema}
+
+@A
+- Broad-spectrum antibiotics (consider) {note: drug and dose not given in this chapter}
+
+@T
+- NPO; ABCD; if intubation is needed avoid prolonged paralytics
+- Sodium bicarbonate 0.5 mEq/kg/h only in select cases of severe acidosis (pH < 7.0); avoid reflexive use
+
+@Co
+- Metabolic specialist (specific treatments; substrates or hemodialysis); admit; transfer to pediatric hospital as needed
+
+@cond congenital-adrenal-hyperplasia
+ch: 79
+name: Congenital adrenal hyperplasia (salt-wasting adrenal crisis)
+name_fa: هیپرپلازی مادرزادی آدرنال (بحران نمک‌ریز)
+cc: metabolic, hypotension-shock, pediatric-other
+keywords: congenital adrenal hyperplasia, adrenal crisis, salt wasting, hydrocortisone, hyperkalemia, ambiguous genitalia, هیپرپلازی آدرنال
+status: draft
+
+@features
+- کمبود آنزیم تولید کورتیزول ± کمبود مینرالوکورتیکوئید («salt wasting»)؛ پیش‌سازهای استروئید به آندروژن منحرف و ویریلیزاسیون مؤنث
+- هفته 2 تا 5 زندگی: شوک، استفراغ، بی‌حالی، تحریک‌پذیری و تغذیه ضعیف؛ دختر: کلیتورومگالی؛ پسر: آلت کوچک یا هیپوسپادیاس؛ هیپرپیگمانتاسیون زیربغل و اطراف نوک پستان
+- آزمایش: قند بالین و الکترولیت: هیپوناترمی و هیپرکالمی (K 6 تا 12 رایج و به‌ندرت با ECG غیرطبیعی)؛ تشخیص قطعی با هورمون خون (قبل از استروئید اگر ممکن ولی درمان بدحال را به تأخیر نینداز)
+- افتراق: سپسیس، CHD، سایر IEM
+
+@ddx
+- !Adrenal crisis |
+- !Sepsis |
+- Congenital heart disease |
+- Other inborn errors of metabolism |
+
+@redflags
+- شوک، هیپرکالمی شدید، هیپوگلیسمی
+
+@guide
+سالین 0.9٪ بولوس 20 mL/kg IV/IO؛ درمان هیپوگلیسمی؛ hydrocortisone IV/IO/IM: 25 mg نوزاد، 50 mg نوپا و سن مدرسه، 100 mg نوجوان. هیپرکالمی: calcium gluconate 100 mg/kg IV (1 mL/kg) و bicarbonate 1 mEq/kg IV؛ انسولین پرهیز (هیپوگلیسمی عمیق). بستری برای نوزاد بحران آدرنال؛ شوک یا هیپرکالمی شدید: ICU با اندوکرین. بیمار شناخته‌شده با علائم حیاتی نرمال و تحمل خوراکی: ترخیص پس از hydrocortisone با دستور سه برابر کردن دوز استروئید منزل تا رفع تب/استفراغ/اسهال و پیگیری روز بعد.
+
+@variant cah-crisis
+name: Salt-wasting adrenal crisis
+level: I
+imp: Congenital adrenal hyperplasia with adrenal crisis
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+o2: O2 therapy: if SpO2 < 94%, nasal cannula or face mask with flow by age and weight
+
+@scenario
+نوزاد ۱۸ روزه با شوک، استفراغ، ژنیتال مبهم، Na 120 و K 8.
+
+@why
+بحران آدرنال: سالین، هیدروکورتیزون و درمان هیپرکالمی بدون انسولین.
+
+@L
+- Bedside glucose and electrolytes (hyponatremia and hyperkalemia); blood hormone levels if possible before steroids (do not delay treatment)
+
+@S
+- 0.9% saline boluses of 20 mL/kg IV/IO
+- Hypoglycemia: dextrose per hypoglycemia protocol (D10 5 mL/kg in neonates)
+
+@T
+- Hydrocortisone IV/IO/IM 25 mg for neonates, 50 mg for toddlers and school-age children, 100 mg for adolescents
+- Hyperkalemia: Calcium gluconate 100 mg/kg IV (1 mL/kg) and Bicarbonate 1 mEq/kg IV {ci: avoid insulin (profound hypoglycemia)}
+
+@Co
+- Hospitalization; ICU with endocrine consultation for shock or severe hyperkalemia; known CAH with normal vital signs and oral intake may be discharged after hydrocortisone, triple usual home steroid dose until fever/vomiting/diarrhea resolve, with next-day follow-up
