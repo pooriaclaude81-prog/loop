@@ -158,7 +158,7 @@ function validateCond(file, c, sections, ccIds, chapters) {
     if (!v.level) W(file, 0, `${at}: no level (I/II/III)`);
     if (!v.sc) W(file, 0, `${at}: no @scenario (needed for self-test, drill and flashcards)`);
     if (!v.why) W(file, 0, `${at}: no @why`);
-    if (v.ecg === 'none' && /MI|ACS|coronary/i.test(v.imp || '')) W(file, 0, `${at}: ECG is "none" but the impression looks cardiac`);
+    if (v.ecg === 'none' && /\b(MI|ACS)\b|coronary/.test(v.imp || '')) W(file, 0, `${at}: ECG is "none" but the impression looks cardiac`);
     const nOrders = Object.values(v.o).reduce((n, a) => n + a.length, 0);
     if (!nOrders) W(file, 0, `${at}: no orders beyond the fixed block`);
     (v.o.S || []).forEach((o) => { if (/^(@fluid)$/.test(o.t) && v.diet === 'PO' && !o.if) W(file, 0, `${at}: @fluid without a condition on a PO patient; add [if dehydrated and tachycardic]`); });

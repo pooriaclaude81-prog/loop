@@ -1,0 +1,443 @@
+@cond soft-tissue-foreign-body
+ch: 14
+name: Soft tissue foreign body
+name_fa: جسم خارجی بافت نرم
+cc: wound-bite, limb-injury
+keywords: foreign body, splinter, needle, fishhook, glass, thorn, cactus spine, ultrasound, removal
+status: draft
+
+@features
+- فقط درصد کمی از لاسراسیون‌ها و زخم‌های نافذ جسم خارجی دارند؛ مکانیسم، جنس و شکل جسم و محل زخم را بررسی کن
+- اجسام شکننده (خار، شاخه) پیش از شکستن عمیق نفوذ می‌کنند؛ خرده چوب هنگام کشیدن اغلب خرد می‌شود
+- احساس جسم خارجی در بالغ بیش از دو برابر احتمال وجود آن را بالا می‌برد؛ زخم ترمیم‌شده با درد تیز با حرکت، ترمیم ضعیف، عفونت راجعه یا توده بافت نرم نشانه جسم ناشناخته است
+- زخم عمیق‌تر از 5 mm یا با عمق غیرقابل‌دید ارتباط بیشتر با جسم خارجی دارد
+- تصویربرداری: فلز و شیشه در X-ray عالی؛ چوب و خار ضعیف (سونوگرافی، CT یا MRI مناسب‌تر). سونوگرافی > 90٪ حساس برای اجسام بزرگ‌تر از 4 تا 5 mm
+
+@ddx
+- !Retained foreign body in a healed wound | 
+- !Infection from retained organic material | 
+- Soft tissue mass | 
+
+@redflags
+- عفونت راجعه یا زخم غیرترمیم‌شونده
+
+@guide
+همه اجسام نیاز به خارج‌کردن ندارند: کوچک، بی‌اثر، عمیق و بدون علامت را می‌توان باقی گذاشت. خار، خرده چوب، ستون گیاهی یا اجسام آلوده سریع‌تر برداشته شوند. آنتی‌بیوتیک پروفیلاکسی برای زخم عفونی‌نشده فایده اثبات‌شده ندارد.
+
+@variant fb-general
+name: Retained foreign body (assessment and removal)
+level: III
+imp: Soft tissue foreign body
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مردی ۳۵ ساله با فرورفتن خرده شیشه در کف دست و احساس جسم خارجی.
+
+@why
+شناسایی با اکتشاف و تصویربرداری و سپس تصمیم برای برداشتن یا باقی گذاشتن.
+
+@I
+- [foreign body suspected and not identified by inspection] Plain radiograph (underpenetrated soft tissue technique); CT, ultrasound or MRI in some circumstances (wood: ultrasound/CT/MRI better; metal and glass: plain film excellent)
+
+@T
+- Adequate lighting, anesthesia and hemostasis; inspect all recesses; extend the wound margins with a scalpel if needed; blind gentle probing with a closed hemostat (glass)
+- Remove the foreign body (consider referral to a specialist for complicated or delayed removal)
+- Tetanus immunization and appropriate wound care; primary closure after removal if infection risk is low, delayed primary closure for higher risk
+- No proven benefit of prophylactic antibiotics for wounds that are not infected
+
+@variant fb-needle-splinter
+name: Needle, wood splinter, spine, fishhook
+level: III
+imp: Foreign body: needle / splinter / fishhook
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+کودکی ۱۰ ساله با فرورفتن خرده چوب زیر ناخن؛ یا مردی ۴۰ ساله با قلاب ماهیگیری در انگشت.
+
+@why
+روش برداشتن بر اساس نوع جسم و محل آن.
+
+@T
+- Superficial metallic needle: small incision over one end and remove with a hemostat; deeper: incision at the midpoint, grasp with a hemostat and push it out through the entrance wound; perpendicular needle: extend the incision and press the wound edges to expose it
+- Small superficial wood splinter or spine: forceps; deeper: incision along the long axis of the foreign body; small and hard to localize: remove a small elliptical block of tissue and close primarily; subungual splinter: traction or excise a portion of nail over it
+- Cactus spines in the dermis: remove individually or apply adhesive (facial gel, rubber cement, household glue) and peel when dry
+- Fishhook (after anesthesia): retrograde technique; string-pull method; advance-and-cut (push the point and barb through, clip with wire cutters, thread the rest back); incision technique (nearly always successful)
+
+@cond puncture-wound
+ch: 15
+name: Puncture wounds (including cellulitis, abscess and osteomyelitis)
+name_fa: زخم‌های نافذ (پانکچر)
+cc: wound-bite, limb-injury
+keywords: puncture wound, plantar puncture, nail, athletic shoe, Pseudomonas, osteomyelitis, ciprofloxacin, cephalosporin
+status: draft
+
+@features
+- تمیزکردن و دیدن کل عمق دشوار است؛ شایع روی کف پا؛ شامل آسیب با تجهیزات تزریق فشار بالا و سوزن
+- عفونت در 6 تا 11٪؛ S. aureus (از جمله MRSA) غالب؛ Pseudomonas شایع‌ترین عامل استئومیلیت بعد از پانکچر از کفش ورزشی
+- درمان بعد از بیش از 6 ساعت خطر عفونت بیشتر؛ چوب، شیشه و پلاستیک ممکن است خرد شوند
+- عفونت علی‌رغم آنتی‌بیوتیک: شک به جسم خارجی باقی‌مانده
+- علائم عفونت: درد قابل‌توجه، تورم، قرمزی، گرمی، فلوکتواسیون، کاهش دامنه حرکت یا ترشح
+
+@ddx
+- !Retained foreign body | 
+- !Osteomyelitis (> 7 days after injury) | 
+- Cellulitis | 
+- Local abscess | 
+
+@redflags
+- دیابت یا نقص ایمنی، پانکچر forefoot از کفش ورزشی
+- درد پایدار، شک به عفونت فضای عمقی یا عدم پاسخ به درمان
+
+@guide
+پانکچر تمیز زیر 6 ساعت بدون جسم خارجی: تمیزکردن سطحی و پروفیلاکسی کزاز؛ خیساندن، دبریدمان یا coring فایده ندارد و آنتی‌بیوتیک روتین توصیه نمی‌شود. بیمار پرخطر با پانکچر کف پا: آنتی‌بیوتیک پروفیلاکسی. سلولیت: 7 تا 10 روز. آبسه: برش و تخلیه و جستجوی جسم خارجی. استئومیلیت: مشاوره جراحی و آنتی‌بیوتیک وریدی.
+
+@variant puncture-clean
+name: Uncomplicated clean puncture wound (< 6 hours)
+level: III
+imp: Puncture wound
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مردی ۳۰ ساله با پانکچر کف پا ۳ ساعت پیش از میخ تمیز؛ بدون احساس جسم خارجی.
+
+@why
+پانکچر تمیز زیر 6 ساعت: تمیزکردن سطحی و کزاز؛ آنتی‌بیوتیک روتین لازم نیست.
+
+@I
+- [suspicion of fracture, infected wound, materials prone to fragment (wood, glass), foreign body sensation] Plain radiographs; CT scan if a foreign body is still suspected after a negative plain film
+
+@T
+- Superficial wound cleansing; tetanus prophylaxis as indicated (soaking and coring of the tract have no proven benefit)
+
+@variant puncture-high-risk
+name: High-risk plantar puncture (diabetes, athletic shoe, forefoot)
+level: II
+imp: Plantar puncture wound, high risk
+cond: Urgent
+act: CBR
+diet: PO
+ecg: once
+cxr: none
+
+@scenario
+مردی ۵۵ ساله دیابتی با پانکچر جلوی پا از میخ در کفش ورزشی ۱۲ ساعت پیش.
+
+@why
+در بیمار پرخطر یا پانکچر از کفش ورزشی پروفیلاکسی آنتی‌بیوتیکی همراه تمیزکردن و کزاز توصیه می‌شود.
+
+@I
+- Plain radiograph (retained foreign body)
+
+@A
+- A first-generation cephalosporin, anti-staphylococcal penicillin, or macrolide for most punctures where antibiotics are prescribed {note: doses not given in the book}
+- [plantar puncture through an athletic shoe] Ciprofloxacin 500 mg PO twice daily (anti-pseudomonal)
+
+@T
+- Superficial wound cleansing; tetanus prophylaxis as indicated
+
+@variant puncture-cellulitis-abscess
+name: Cellulitis or abscess after a puncture wound
+level: II
+imp: Cellulitis / abscess after puncture wound
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+زنی ۴۰ ساله ۳ روز بعد از پانکچر پا با قرمزی و تورم موضعی بدون ترشح زیاد؛ یا تجمع چرک در محل.
+
+@why
+سلولیت موضعی با آنتی‌بیوتیک 7 تا 10 روز؛ آبسه با برش و تخلیه و جستجوی جسم خارجی.
+
+@A
+- [cellulitis] 7- to 10-day course of a first-generation cephalosporin, anti-staphylococcal penicillin, trimethoprim-sulfamethoxazole, or clindamycin {note: doses not given in the book}
+- [abscess] Antibiotics typically only if surrounding cellulitis
+
+@T
+- [abscess] Incision, drainage and careful exploration for a retained foreign body
+
+@variant puncture-osteomyelitis
+name: Osteomyelitis after puncture wound
+level: I
+imp: Osteomyelitis after puncture wound
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: once
+cxr: none
+
+@scenario
+پسری ۱۴ ساله ۱۰ روز بعد از پانکچر از کفش ورزشی با درد پایدار و تورم جلوی پا؛ X-ray طبیعی.
+
+@why
+در مراحل اولیه X-ray طبیعی است؛ ESR/CRP و MRI کمک می‌کند؛ مشاوره جراحی و آنتی‌بیوتیک وریدی.
+
+@I
+- MRI (most commonly used modality from the ED)
+
+@L
+- ESR, CRP
+
+@Co
+- Surgery (timing of IV antibiotics and admission for surgical treatment)
+
+@cond needle-stick-injury
+ch: 15
+name: Needle-stick injury
+name_fa: آسیب سوزن‌ خوردن
+cc: wound-bite
+keywords: needlestick, hepatitis B, hepatitis C, HIV, post-exposure prophylaxis, health care worker
+status: draft
+
+@features
+- نگرانی اصلی در کادر درمان از قرار گرفتن در معرض هپاتیت و HIV است
+- خطر عفونت پس از آسیب با منبع آلوده: هپاتیت A ناچیز، هپاتیت B حدود 6٪، هپاتیت C حدود 2٪ و HIV حدود 0.3٪
+- توصیه‌ها پیچیده و در حال تغییر است
+
+@ddx
+- !Hepatitis B / C exposure | 
+- !HIV exposure | 
+
+@redflags
+- منبع شناخته‌شده HIV یا هپاتیت
+
+@guide
+هر بیمارستان باید پروتکل از پیش طراحی‌شده توسط متخصصان عفونی برای ارزیابی، آزمایش و درمان (از جمله پروفیلاکسی هپاتیت B و HIV) داشته باشد.
+
+@variant needlestick-main
+name: Needle-stick injury
+level: II
+imp: Needle-stick injury
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+پرستاری ۲۸ ساله با فرورفتن سوزن آلوده به خون بیمار شناخته‌شده با هپاتیت C در دست.
+
+@why
+ارزیابی، آزمایش و پروفیلاکسی طبق پروتکل بیمارستان.
+
+@T
+- Evaluation, testing and treatment per the hospital's predesigned needle-stick protocol (including hepatitis B and HIV prophylaxis) {note: regimens not given in the book}
+
+@cond high-pressure-injection-injury
+ch: 15
+name: High-pressure injection injury
+name_fa: آسیب تزریق فشار بالا
+cc: wound-bite, limb-injury
+keywords: grease gun, paint gun, high pressure injection, hand surgery, digital block
+status: draft
+
+@features
+- ممکن است به‌صورت زخم نافذ ظاهر شود، معمولاً در دست یا پا؛ ناشی از تجهیزات صنعتی که گریس، رنگ یا مایع را با فشار بالا تزریق می‌کنند
+- ابتدا درد با تورم کم؛ اما شدید است چون مایع در امتداد صفحات فاسیال پخش و واکنش التهابی تأخیری ایجاد می‌کند
+
+@ddx
+- !Deep fascial spread of injected material | 
+- Simple puncture wound | 
+
+@redflags
+- هر آسیب تزریق فشار بالا (جراحی فوری دست)
+
+@guide
+درد را با مسکن تزریقی کنترل کن و از بلوک دیجیتال با بی‌حسی موضعی پرهیز کن (فشار بافت را بیشتر می‌کند). مشاوره متخصص دست برای دبریدمان زودهنگام.
+
+@variant hpi-main
+name: High-pressure injection injury
+level: I
+imp: High-pressure injection injury
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: none
+
+@scenario
+مردی ۳۵ ساله کارگر با تزریق گریس به نوک انگشت اشاره با اسپری صنعتی؛ درد و تورم خفیف.
+
+@why
+علی‌رغم ظاهر خفیف جدی است؛ مسکن تزریقی، پرهیز از بلوک دیجیتال و مشاوره دست.
+
+@I
+- X-ray of the hand {note: not stated in the book; used to see radiopaque material}
+
+@T
+- Parenteral analgesics {note: agent and dose not given in the book}; avoid digital blocks with local anesthesia {ci: digital block increases tissue pressure}
+
+@Co
+- Hand specialist (early surgical debridement)
+
+@cond epinephrine-autoinjector-injury
+ch: 15
+name: Epinephrine autoinjector injury (accidental digit injection)
+name_fa: تزریق تصادفی اپی‌نفرین به انگشت
+cc: wound-bite, limb-injury
+keywords: EpiPen, phentolamine, digital ischemia, vasospasm
+status: draft
+
+@features
+- تزریق ناخواسته اپی‌نفرین به دست یا انگشت حین درمان واکنش آلرژیک
+- درد سوزن، پارستزی و وازواسپاسم؛ در انگشت ممکن است کل انگشت رنگ‌پریده و سرد باشد
+- شواهد روشنی که درمان فعال بهتر از مشاهده باشد وجود ندارد
+
+@ddx
+- !Digital ischemia | 
+- Needle stick pain only | 
+
+@redflags
+- ایسکمی ادامه‌دار انگشت
+
+@guide
+بسیاری با مراقبت حمایتی بهبود می‌یابند؛ فنتولامین زیرجلدی در محل پانکچر تنها درمانی است که به‌طور مداوم ایسکمی را سریع برمی‌گرداند. بعد از رفع ایسکمی ترخیص (عود بعید است).
+
+@variant epi-injury-main
+name: Accidental epinephrine injection into a digit
+level: III
+imp: Epinephrine autoinjector injury
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+زنی ۳۰ ساله هنگام تزریق اتواینجکتور آنافیلاکسی به انگشت خود تزریق کرد؛ انگشت سفید و سرد.
+
+@why
+حمایتی؛ در ایسکمی فنتولامین زیرجلدی.
+
+@T
+- Supportive care
+- [digital ischemia] Phentolamine 0.5 mL of standard solution (5 mg/mL) mixed with 0.5 mL of 1% lidocaine (1 mL total containing 2.5 mg phentolamine) subcutaneously, injected directly through the autoinjector puncture site
+
+@cond mammalian-bites
+ch: 15
+name: Mammalian bites (dog, cat, human, rodent, livestock, other)
+name_fa: گزش پستانداران
+cc: wound-bite
+keywords: dog bite, cat bite, human bite, rodent, livestock, amoxicillin-clavulanate, Pasteurella, Capnocytophaga, rabies, cat-scratch, Bartonella, herpes B, Eikenella
+status: draft
+
+@features
+- عوارض: آسیب بافتی خود گزش، عفونت موضعی یا بیماری سیستمیک؛ همه زخم‌ها شستشو و در صورت لزوم دبریدمان شوند؛ آسیب مفصل یا تاندون را بررسی کن؛ نیاز به کزاز یا هاری را ارزیابی کن
+- زخم‌های کم‌خطر اغلب بسته می‌شوند؛ صورت و سر بدون بافت غیرزنده و بدون شکستگی، در ایمنی طبیعی کاندید بستن اولیه؛ پرخطر: ترمیم تأخیری
+- گزش سگ: اغلب سطحی با خطر عفونت حدود 5٪؛ گزش گربه: پانکچر عمیق‌تر و عفونت تا 80٪ (واقعی احتمالاً کمتر)
+- گزش انسان: عفونت پلی‌میکروبی (استافیلوکوک، استرپتوکوک، Eikenella)؛ معمولاً بخیه توصیه نمی‌شود (احتمالاً بجز صورت)
+- گزش جونده: بی‌اهمیت؛ جونده‌ها هاری را حمل نمی‌کنند. دام و حیوانات بزرگ شکاری: خطر بروسلوز، لپتوسپیروز، تولارمی
+- Capnocytophaga canimorsus: بیماری باکتریمیک نادر و مهاجم بعد از گزش سگ (الکلی، بدون طحال، سرکوب ایمنی)
+
+@ddx
+- !Rabies exposure (bats, dogs, skunks, raccoons, foxes, monkeys) | 
+- !Capnocytophaga sepsis | 
+- Joint / tendon injury | 
+- Cat-scratch disease (Bartonella henselae) | 
+- Herpes B (monkey bites) | 
+
+@redflags
+- گزش پرخطر در بیمار با نقص ایمنی، دست، گربه یا انسان
+- نشانه‌های عفونت سیستمیک
+
+@guide
+آنتی‌بیوتیک پروفیلاکسی: گزش انسان و گزش پرخطر (گربه، سگ عمیق، دست، نیاز به دبریدمان، نقص ایمنی). خط اول معمولاً آموکسی‌سیلین–کلاولانات. سفالکسین، دی‌کلوکساسیلین، اریترومایسین یا کلیندامایسین به‌تنهایی برای Pasteurella کافی نیستند.
+
+@pearls
+- بازبینی زخم پرخطر در 24 تا 48 ساعت.
+- بیماری خراش گربه: لنفادنوپاتی 7 تا 12 روز بعد؛ اغلب فقط حمایتی.
+
+@variant bite-dog-cat
+name: Dog or cat bite
+level: II
+imp: Dog / cat bite
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+زنی ۳۵ ساله با گزش گربه روی دست چپ و پانکچر عمیق، بدون علائم عفونت.
+
+@why
+گزش گربه، دست، عمیق یا نقص ایمنی خطر عفونت بالا دارد؛ آنتی‌بیوتیک پروفیلاکسی.
+
+@I
+- [joint or tendon concern, fracture] X-ray
+
+@A
+- Amoxicillin-clavulanate 500 to 800 mg PO twice daily (most commonly recommended for local infection and prophylaxis after dog or cat bites)
+- [lower-cost alternative for cat bites] Penicillin V 500 mg four times daily or Ampicillin 500 mg four times daily (Pasteurella multocida)
+- [cat-scratch lymphadenopathy, severe painful] Azithromycin 5-day course; [immunosuppressed] 7- to 10-day course of trimethoprim-sulfamethoxazole, ciprofloxacin, or rifampin
+- Cephalexin, dicloxacillin, erythromycin or clindamycin alone are likely not sufficient
+
+@T
+- Examine, clean with irrigation, debride as necessary; evaluate joints and tendons
+- Consider primary closure for low-risk wounds after careful assessment and irrigation; avoid primary closure in immunodeficiency or comorbidities; high-risk wounds: clean, debride and dress moist; reevaluate in 24 to 48 hours
+- Tetanus and/or rabies prophylaxis as indicated (see tetanus and rabies)
+
+@variant bite-human
+name: Human bite
+level: II
+imp: Human bite
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مردی ۲۵ ساله با زخم گاز گرفته شدن روی بازو در دعوا.
+
+@why
+گزش انسان پلی‌میکروبی؛ آموکسی‌سیلین–کلاولانات پروفیلاکتیک و معمولاً بدون بخیه.
+
+@A
+- Amoxicillin-clavulanate (prophylactic)
+- [infections requiring parenteral antibiotics] Ampicillin-sulbactam, cefoxitin, or piperacillin-tazobactam {note: doses not given in the book}
+- [herpetic whitlow] Acyclovir or valacyclovir
+
+@T
+- Clean and irrigate; suture repair typically not advised (possible exception facial wounds)
+- Tetanus prophylaxis as indicated
+
+@variant bite-other
+name: Rodent, livestock, wild animal, freshwater or saltwater fish
+level: II
+imp: Animal bite
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مردی ۴۵ ساله دامدار با گزش گاو و زخم عمیق؛ یا مردی با گزش جونده.
+
+@why
+گزش جونده تیمار ساده؛ دام و حیوانات بزرگ: مراقبت زخم تهاجمی و آنتی‌بیوتیک پروفیلاکتیک وسیع‌الطیف.
+
+@A
+- Rats, mice, squirrels, gerbils (Streptobacillus moniliformis / Spirillum minus): Amoxicillin-clavulanate
+- Livestock and large game animals (Brucella, Leptospira, Francisella tularensis): Amoxicillin-clavulanate or specific agent for the disease; broad-spectrum prophylactic antibiotics
+- Monkeys (herpes B virus): Acyclovir or valacyclovir
+- Freshwater fish (Aeromonas): Fluoroquinolone or trimethoprim-sulfamethoxazole; saltwater fish (Vibrio): Fluoroquinolone
+
+@T
+- Aggressive wound care; rodent bites: standard wound care (rodents are not known to carry rabies)
+- [bats, dogs, skunks, raccoons, foxes and other carnivores, monkeys] Rabies immune globulin and rabies vaccine

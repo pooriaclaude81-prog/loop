@@ -1,0 +1,271 @@
+@cond scalp-forehead-laceration
+ch: 11
+name: Scalp and forehead laceration
+name_fa: پارگی پوست سر و پیشانی
+cc: head-injury, wound-bite
+keywords: scalp laceration, forehead laceration, frontalis, staples, pressure dressing, eyebrow, skull fracture
+status: draft
+
+@features
+- پوست ضخیم و چربی کم؛ در صورت عدم عفونت آشکار ترمیم اولیه حتی با تأخیر و حتی بعد از گزش
+- بعد از شستشو و هموستاز کف زخم را برای شکستگی جمجمه لمس کن؛ در شک به شکستگی CT
+- پیشانی سطحی بدون آسیب عضله frontalis؛ عمیق با آسیب frontalis
+- ابروها نشانه‌های مهم هم‌راستاسازی هستند؛ دبریدمان پوست را کم کن و دم بخیه را بلند بگذار
+
+@ddx
+- !Underlying skull fracture | 
+- Devitalized wound edges | 
+- Deep forehead laceration (frontalis injury) | 
+
+@redflags
+- شکستگی جمجمه قابل لمس یا شک به آن
+
+@guide
+پوست سر: استیپلر یا بخیه ساده منقطع مونوفیلامان غیرقابل‌جذب یا سریع‌الجذب؛ پانسمان فشاری 24 ساعت اول برای زخم‌های عمیق. بخیه/استیپل پوست سر 10–14 روز و بخیه پیشانی 5–7 روز بعد کشیده شود.
+
+@variant scalp-lac-main
+name: Scalp laceration
+level: III
+imp: Scalp laceration
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مردی ۲۵ ساله با پارگی ۴ سانتی‌متری پوست سر بعد از افتادن؛ هوشیار و بدون علامت عصبی.
+
+@why
+پس از شستشو، هموستاز و لمس کف زخم، با استیپل یا بخیه بسته می‌شود.
+
+@I
+- [underlying skull fracture suspected] CT scan
+
+@T
+- Wound cleansing and irrigation; hemostasis with direct pressure or vessel clamping; palpate the base of the wound for skull fracture; debride devitalized edges
+- Close with surgical staples or simple interrupted sutures (nonabsorbable monofilament or rapidly absorbable)
+- [deep lacerations] Pressure dressing for the first 24 hours to reduce hematoma formation
+- Remove scalp staples or sutures in 10 to 14 days
+
+@variant forehead-lac-main
+name: Forehead laceration (superficial or deep)
+level: III
+imp: Forehead laceration
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+زنی ۳۵ ساله با پارگی پیشانی بعد از ضربه به لبه میز؛ پارگی عمیق دیده می‌شود.
+
+@why
+پارگی عمیق نیاز به بستن لایه عضلانی دارد.
+
+@I
+- [underlying fracture suspected] CT scan
+
+@T
+- Superficial: 6-0 nonabsorbable interrupted suture, rapidly absorbable suture, or tissue adhesive
+- Deep (frontalis injury): close the muscular layer with buried 5-0 absorbable suture, then the epidermal layer with 6-0 nonabsorbable suture, skin closure strips or tissue adhesive
+- Eyebrow: minimize skin debridement and leave suture tails long
+- Remove forehead nonabsorbable sutures in 5 to 7 days
+
+@cond eyelid-laceration
+ch: 11
+name: Eyelid laceration
+name_fa: پارگی پلک
+cc: eye, head-injury
+keywords: eyelid laceration, canalicular laceration, lacrimal, tarsal plate, ptosis, medial canthus
+status: draft
+
+@features
+- پلک نازک است و محافظت محدودی از گلوب و ساختارهای اطراف دارد
+- بررسی درگیری کانتوس، سیستم اشکی، نفوذ از طریق tarsal plate یا لبه پلک
+- آسیب در 6 تا 8 mm از کانتوس داخلی: خطر پارگی کانالیکول (به‌ویژه با شکستگی blow-out دیواره داخلی)
+
+@ddx
+- !Globe injury | 
+- !Canalicular / lacrimal duct laceration | 
+- Medial wall blow-out fracture | 
+- Tarsal plate / lid margin involvement | 
+
+@redflags
+- پتوز، پارگی لبه پلک، مجرای اشکی یا tarsal plate، سطح داخلی پلک
+
+@guide
+پارگی ساده پلک: بخیه منقطع پوستی غیرقابل‌جذب 6-0 یا 7-0؛ چسب بافتی نزدیک چشم نه؛ بخیه 3–5 روز بعد کشیده شود. ptosis یا پارگی پیچیده: چشم‌پزشک.
+
+@variant eyelid-lac-main
+name: Eyelid laceration
+level: II
+imp: Eyelid laceration
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مردی ۲۰ ساله با پارگی ۱ سانتی‌متری پلک فوقانی بعد از ضربه؛ بینایی طبیعی.
+
+@why
+پارگی ساده پلک را می‌توان با بخیه ریز بست؛ موارد پیچیده به چشم‌پزشک ارجاع شود.
+
+@T
+- Close uncomplicated lacerations with nonabsorbable 6-0 or 7-0 simple interrupted percutaneous sutures {ci: tissue adhesive near the eye}
+- Remove nonabsorbable sutures in 3 to 5 days
+
+@Co
+- [ptosis, or complex wounds: inner surface of the lid, lid margin, lacrimal duct, tarsal plate] Ophthalmology
+
+@cond nose-ear-lip-laceration
+ch: 11
+name: Nasal, ear and lip lacerations (including septal and auricular hematoma)
+name_fa: پارگی بینی، گوش و لب
+cc: head-injury, wound-bite, ent
+keywords: nasal laceration, septal hematoma, ear laceration, auricular hematoma, perichondral hematoma, lip laceration, vermilion border, orbicularis oris
+status: draft
+
+@features
+- بینی: عمق و درگیری لایه‌ها را بررسی کن؛ غضروف مکشوف یا درگیری عمیق خطر عفونت را بالا می‌برد
+- هماتوم کوچک یک‌طرفه سپتوم را با سوزن 18G تخلیه کن یا اگر بزرگ است برش بزن؛ سپس پک قدامی و در نظر گرفتن آنتی‌بیوتیک خوراکی
+- گوش: پارگی‌های through-and-through اغلب با نزدیک کردن پوست بسته می‌شوند؛ پانسمان فشاری برای پیشگیری از هماتوم perichondral
+- لب: سه ناحیه پوست، مرز vermilion و مخاط؛ زخم داخل‌دهانی < 1 cm معمولاً بخیه نمی‌خواهد؛ شروع ترمیم پیچیده از اتصال vermilion–پوست
+
+@ddx
+- !Septal hematoma | 
+- !Perichondral (auricular) hematoma | 
+- Exposed cartilage | 
+- Through-and-through lip laceration | 
+
+@redflags
+- هماتوم سپتوم یا گوش
+- آواسیون گوش یا پارگی پیچیده
+
+@guide
+بینی سطحی: 6-0 مونوفیلامان غیرقابل‌جذب؛ همه لایه‌ها: شروع با 5-0 برای هم‌راستایی ورودی نازال، مخاط با 5-0 سریع‌الجذب، بدون بخیه مستقیم در غضروف، بخیه‌ها 3–5 روز. گوش: 6-0 غیرقابل‌جذب، فشار 24 ساعت؛ بخیه 5–7 روز. لب: لایه‌ای؛ آنتی‌بیوتیک خوراکی برای آلوده یا through-and-through.
+
+@variant nose-lac
+name: Nasal laceration and septal hematoma
+level: III
+imp: Nasal laceration
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مردی ۳۰ ساله با پارگی بینی بعد از مشت؛ ورم و احتقان یک‌طرفه بینی (هماتوم سپتوم).
+
+@why
+ترمیم لایه‌ای و تخلیه هماتوم سپتوم با پک برای جلوگیری از تجمع مجدد.
+
+@A
+- [septal hematoma with nasal packing in place] Course of oral antibiotics {note: drug and dose not given in the book}
+
+@T
+- Topical lidocaine into the nasal cavity or injected intradermal lidocaine with or without epinephrine
+- Superficial: 6-0 nonabsorbable monofilament simple interrupted sutures
+- Through all layers: begin with 5-0 nonabsorbable monofilament aligning the skin around the nasal canal entrances; close mucosa with 5-0 rapidly absorbable interrupted sutures; irrigate gently; avoid sutures directly in cartilage; finish with 6-0 nonabsorbable monofilament; remove percutaneous sutures in 3 to 5 days
+- Small unilateral septal hematoma: drain with an 18G needle; larger: incise; then anterior nasal packing
+
+@variant ear-lac
+name: Ear laceration
+level: III
+imp: Ear laceration
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+زنی ۲۵ ساله با پارگی لاله گوش بعد از گیرکردن گوشواره.
+
+@why
+پوست را بدوزید و با پانسمان فشاری از هماتوم perichondral جلوگیری کنید.
+
+@T
+- Close superficial lacerations with 6-0 nonabsorbable monofilament interrupted sutures, cover exposed cartilage, minimize skin debridement
+- Nonadherent gauze over the laceration with a pressure dressing (gauze squares behind the ear, circumferential head wrap); discontinue after 24 hours if no hematoma
+- Remove nonabsorbable sutures in 5 to 7 days
+
+@Co
+- [complex lacerations, ear avulsions, auricular hematomas] Otolaryngology or plastic surgery
+
+@variant lip-lac
+name: Lip laceration
+level: III
+imp: Lip laceration
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+کودکی ۸ ساله با پارگی ۱٫۵ سانتی‌متری لب پایین که مرز vermilion را درگیر می‌کند.
+
+@why
+اولین بخیه باید مرز vermilion را دقیق هم‌راستا کند.
+
+@A
+- [contaminated wounds or through-and-through lacerations] Oral antibiotics {note: drug and dose not given in the book}
+
+@T
+- Isolated intraoral lip wounds < 1 cm often do not need sutures; large or gaping: rapidly absorbable 5-0 suture
+- Through-and-through not including the vermilion: close in layers: mucosa with 5-0 rapidly absorbable, irrigate from outside, orbicularis oris with 4-0 or 5-0 absorbable, skin with 6-0 nonabsorbable monofilament simple interrupted
+- Complicated: first stitch with 6-0 nonabsorbable monofilament at the vermilion–skin junction, then repair the vermilion and skin with the same suture; 5-0 rapidly absorbable for the mucosa
+- Remove nonabsorbable percutaneous sutures in 5 to 7 days
+
+@cond cheek-facial-laceration
+ch: 11
+name: Cheek and facial laceration
+name_fa: پارگی گونه و صورت
+cc: head-injury, wound-bite
+keywords: parotid duct, facial nerve, cheek laceration, facial laceration
+status: draft
+
+@features
+- عمق زخم و آسیب به غده و مجرای پاروتید و عصب فاسیال را بررسی کن
+- مسیر مجرای پاروتید حدود 1.5 cm از نقطه میانی خط بین لبه تحتانی تراگوس تا گوشه دهان
+- پنج شاخه عصب فاسیال: temporal، zygomatic، buccal، marginal mandibular، cervical
+
+@ddx
+- !Parotid gland / duct injury | 
+- !Facial nerve injury | 
+- Full-thickness cheek laceration | 
+
+@redflags
+- آسیب پاروتید، مجرای پاروتید یا عصب فاسیال
+
+@guide
+پارگی سطحی بدون عارضه: 6-0 مونوفیلامان غیرقابل‌جذب منقطع یا چسب بافتی؛ پارگی تمام‌ضخامت گونه: لایه‌ای، از مخاط داخل دهان با بخیه قابل‌جذب. بخیه 5–7 روز.
+
+@variant cheek-lac-main
+name: Cheek or facial laceration
+level: III
+imp: Facial laceration
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مردی ۲۸ ساله با پارگی ۳ سانتی‌متری گونه؛ حرکت عصب فاسیال طبیعی.
+
+@why
+پس از رد آسیب پاروتید و عصب فاسیال، ترمیم لایه‌ای.
+
+@T
+- Superficial: 6-0 nonabsorbable monofilament simple interrupted sutures; tissue adhesive for appropriate size and location
+- Full-thickness cheek: begin with the intraoral mucosa using absorbable sutures; after irrigating the external wound close subcutaneous and skin layers with 5-0 or 6-0 material
+- Remove nonabsorbable percutaneous sutures in 5 to 7 days
+
+@Co
+- [parotid gland, parotid duct or facial nerve damage] Specialty consultation for operative repair

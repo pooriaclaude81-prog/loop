@@ -1,0 +1,335 @@
+@cond hand-forearm-laceration
+ch: 12
+name: Forearm, wrist and hand lacerations (dorsal, volar, palm)
+name_fa: پارگی ساعد، مچ و دست
+cc: wound-bite, limb-injury
+keywords: hand laceration, wrist laceration, palm laceration, volar laceration, self-inflicted, nerve injury, tendon exam, median nerve block, tourniquet
+status: draft
+
+@features
+- شرح حال: شغل، زمان و مکانیسم و دست غالب؛ معاینه در حالت استراحت، حرکت فعال و مقاومت در برابر حرکت منفعل، عملکرد حرکتی و حسی اعصاب و تاندون‌ها و پرفیوژن
+- معاینه زخم در موقعیت زمان آسیب برای جلوگیری از جاماندن آسیب ساختارهای عمقی
+- پشت ساعد و دست: پوست نازک و نزدیک‌کردن لبه‌ها دشوار؛ شکل ولار: لاسراسیون خطی مچ و ساعد احتمال آسیب خودآزاری را مطرح می‌کند
+- کف دست: آسیب ساختارهای عمقی حتی با ظاهر خوش‌خیم
+
+@ddx
+- !Artery, nerve, tendon or bone injury | 
+- !Self-inflicted injury (volar linear lacerations) | 
+- Retained foreign body | 
+- Joint capsule injury | 
+
+@redflags
+- ضعف حرکتی، اختلال حسی یا نقص پرفیوژن دیستال
+- آسیب خودآزاری
+
+@guide
+آزمون عصب‌ها: رادیال (دورسی‌فلکشن مچ، حس فضای وب اول پشتی)، مدیان (ابداکشن شست از کف، حس نوک ولار اشاره)، اولنار (ابداکشن/اداکشن انگشتان، حس نوک ولار انگشت کوچک). شستشو و تمیز کردن با بی‌حسی؛ پروفیلاکسی کزاز؛ آنتی‌بیوتیک روتین برای لاسراسیون بدون عارضه لازم نیست.
+
+@variant hand-lac-simple
+name: Uncomplicated dorsal or volar forearm, wrist, hand laceration
+level: III
+imp: Forearm / wrist / hand laceration
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مردی ۳۰ ساله با پارگی ۳ سانتی‌متری پشت دست از شیشه؛ حرکت انگشتان و حس طبیعی.
+
+@why
+پس از رد آسیب تاندون و عصب، شستشو و بستن؛ آنتی‌بیوتیک روتین لازم نیست.
+
+@I
+- [bony injury, retained radiopaque foreign body or joint involvement suspected] AP and lateral X-ray
+
+@T
+- Control bleeding (manual BP cuff as temporary tourniquet for proximal injuries, or Penrose drain for distal finger injuries, for a limited time); examine tendons and nerves distal to the wound
+- Clean and irrigate all wounds after appropriate local anesthesia
+- Dorsal: most lacerations with 5-0 nonabsorbable sutures; consider subcuticular 5-0 absorbable sutures on the dorsum of the hand
+- Volar forearm and wrist: 4-0 or 5-0 nonabsorbable monofilament sutures; multiple parallel lacerations: horizontal mattress sutures crossing adjacent lacerations
+- Palm (no deep injury): close with sutures to re-oppose the skin creases; interrupted horizontal mattress sutures with 5-0 monofilament; median or ulnar nerve block may help exploration
+- Tetanus prophylaxis as indicated
+- [complex wounds: bites, injuries more than 12 hours old, contaminated, exposed bone, significant comorbidities] Antibiotics {note: drug and dose not given in the book}; prophylactic antibiotics are not routinely needed for uncomplicated hand lacerations
+
+@Co
+- [complex or extensive injuries, skin grafting, technically demanding repair, or injuries impacting function] Hand specialist
+
+@cond clenched-fist-injury
+ch: 12
+name: Clenched fist injury ("fight bite")
+name_fa: آسیب مشت گره‌کرده (گزش مشت)
+cc: wound-bite, limb-injury
+keywords: fight bite, clenched fist, MCP laceration, Eikenella, ampicillin sulbactam, amoxicillin clavulanate
+status: draft
+
+@features
+- لاسراسیون روی مفصل MCP پشتی بعد از برخورد مشت با دندان‌های جلو
+- عفونت پلی‌میکروبی شایع: S. aureus، Streptococcus، Corynebacterium، Eikenella corrodens
+- اغلب بخیه نمی‌شود و به‌صورت ثانویه بهبود می‌یابد
+
+@ddx
+- !Joint capsule / tendon / bone injury | 
+- !Established infection | 
+- Foreign body (tooth fragment) | 
+
+@redflags
+- نشانه‌های عفونت (قرمزی، ترشح، درد افزایش‌یابنده)
+
+@guide
+اگر علائم عفونت موجود است بستری و آنتی‌بیوتیک وریدی؛ در درمان سرپایی اسپلینت در وضعیت عملکردی با 3 تا 5 روز آنتی‌بیوتیک پروفیلاکسی و پیگیری 24–48 ساعت.
+
+@variant fist-outpatient
+name: Fight bite without infection (outpatient)
+level: II
+imp: Clenched fist injury (fight bite)
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مردی ۲۲ ساله با پارگی کوچک روی MCP سوم بعد از دعوا؛ بدون قرمزی یا درد شدید.
+
+@why
+زخم باز می‌ماند (healing secondary)، اسپلینت و آنتی‌بیوتیک پروفیلاکسی کوتاه.
+
+@I
+- X-ray of the hand (bony injury, foreign body, joint involvement)
+
+@A
+- Amoxicillin-clavulanic acid, 3- to 5-day prophylactic course {note: dose not given in the book}
+
+@T
+- Wound usually not sutured; heals by secondary intention
+- Splint the hand in a position of function; close follow-up in 24 to 48 hours with strict return instructions for erythema, drainage or increased pain
+- Tetanus prophylaxis as indicated
+
+@variant fist-infected
+name: Fight bite with signs of infection
+level: I
+imp: Infected clenched fist injury
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: once
+cxr: none
+
+@scenario
+مردی ۴۰ ساله دو روز بعد از دعوا با تورم و قرمزی دست و تب خفیف.
+
+@why
+علائم عفونت: بستری و آنتی‌بیوتیک وریدی.
+
+@I
+- X-ray of the hand
+
+@A
+- Ampicillin-sulbactam IV (or Cefoxitin IV) {note: dose not given in the book}
+
+@T
+- Splint in a position of function
+- Tetanus prophylaxis as indicated
+
+@Co
+- Hand specialist (admission for IV antibiotics)
+
+@cond extensor-tendon-laceration
+ch: 12
+name: Extensor tendon laceration
+name_fa: پارگی تاندون اکستانسور
+cc: wound-bite, limb-injury
+keywords: extensor tendon, mallet finger, swan neck, boutonniere, figure-of-eight
+status: draft
+
+@features
+- پارگی روی مفصل DIP می‌تواند ناهنجاری mallet و در صورت عدم ترمیم swan neck ایجاد کند؛ روی PIP ناهنجاری boutonniere
+- پارگی باز تاندون DIP نیاز به ترمیم جراحی دارد؛ صدمه بسته باید تا 6 هفته در اکستانسیون اسپلینت شود
+- پزشک اورژانس مجرب می‌تواند پارگی ساده اکستانسور پشت دست را ترمیم کند
+
+@ddx
+- !Open DIP tendon laceration | جراحی
+- !Thumb tendon injury | ارجاع
+- Partial laceration < 50% | 
+
+@redflags
+- آلودگی شدید یا آسیب تاندون شست
+
+@guide
+بحث با متخصص دست؛ پارگی نسبی کوچک (< 50٪) با بخیه قابل‌جذب؛ بزرگ‌تر با 4-0 یا 5-0 غیرقابل‌جذب بی‌رنگ به‌صورت figure-of-eight با گره در لبه تاندون؛ اسپلینت و پیگیری ظرف 7 روز.
+
+@variant extensor-main
+name: Extensor tendon laceration
+level: II
+imp: Extensor tendon laceration
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مردی ۳۰ ساله با پارگی پشت دست و ناتوانی در بازکردن انگشت میانی.
+
+@why
+ترمیم ساده توسط پزشک مجرب یا ارجاع؛ اسپلینت در وضعیت عملکردی.
+
+@T
+- Clean and irrigate after local anesthesia; tetanus prophylaxis as indicated
+- Small partial injuries (< 50% transected): absorbable suture material
+- Larger injuries: 4-0 or 5-0 colorless nonabsorbable suture, figure-of-eight stitch with the knot at the edge of the tendon
+- Splint the hand or digit in the position of function
+- [closed DIP tendon injury] Splint in extension for up to 6 weeks or until operative repair
+
+@Co
+- Hand specialist (follow-up within 7 days; refer thumb tendons, severe contamination, open DIP injuries)
+
+@cond flexor-tendon-laceration
+ch: 12
+name: Flexor tendon laceration
+name_fa: پارگی تاندون فلکسور
+cc: wound-bite, limb-injury
+keywords: flexor tendon, hand surgeon, zone, splint
+status: draft
+
+@features
+- همه آسیب‌های تاندون فلکسور باید به متخصص دست ارجاع شوند
+- بسیاری از جراحان ترجیح می‌دهند ظرف 24 ساعت ترمیم کنند؛ بعد از 10 تا 14 روز اسکار و جمع‌شدگی ترمیم را دشوارتر می‌کند
+
+@ddx
+- !Flexor tendon injury | 
+- Digital nerve / artery injury | 
+
+@redflags
+- ناتوانی در خم کردن مفاصل
+
+@guide
+اگر ترمیم جراحی به تأخیر می‌افتد: زخم را تمیز کن و پوست روی آن را بدوز؛ اسپلینت با مچ و MCP فلکسی و PIP/DIP اکستانسیون.
+
+@variant flexor-main
+name: Flexor tendon laceration
+level: II
+imp: Flexor tendon laceration
+cond: Urgent
+act: RBR
+diet: NPO
+ecg: none
+cxr: none
+
+@scenario
+مردی ۲۵ ساله با پارگی ولار انگشت اشاره و ناتوانی در خم‌کردن نوک انگشت.
+
+@why
+ارجاع فوری به متخصص دست؛ در صورت تأخیر تمیز کردن، دوختن پوست و اسپلینت.
+
+@T
+- [operative repair delayed] Clean the wound and suture the overlying skin; splint with the wrist and MCP flexed and PIP and DIP extended
+- Tetanus prophylaxis as indicated
+
+@Co
+- Hand specialist (repair preferably within 24 hours; difficult after 10 to 14 days)
+
+@cond finger-fingertip-nail-injury
+ch: 12
+name: Finger, fingertip and nail bed injuries (including ring tourniquet)
+name_fa: آسیب انگشت، نوک انگشت و بستر ناخن
+cc: wound-bite, limb-injury
+keywords: fingertip amputation, subungual hematoma, nail bed laceration, trephination, ring removal, digital nerve, two-point discrimination
+status: draft
+
+@features
+- لاسراسیون ساده انگشت با 5-0 غیرقابل‌جذب؛ آسیب عصب حسی یا تاندون را بررسی کن؛ شک به آسیب عصب دیجیتال: تفکیک دو نقطه > 10 mm یا بیشتر در یک طرف پد ولار
+- قطع نوک انگشت فقط پوست یا پالپ: درمان محافظه‌کارانه با تعویض پانسمان؛ استخوان مکشوف: گرافت پوست مناسب نیست و نیاز به متخصص
+- هماتوم زیر ناخن > 50٪: تریفیناسیون ناخن نتیجه خوب می‌دهد
+- آواسیون بستر ناخن بدترین پیش‌آگهی را در آسیب‌های نوک انگشت دارد
+- ring tourniquet: حلقه تنگ حول فالانکس پروگزیمال به‌دلیل تورم دیستال گیر می‌کند؛ حلقه را از همه انگشتان آسیب‌دیده بردار
+
+@ddx
+- !Digital nerve injury | 
+- !Partial or complete digit amputation | 
+- Nail bed laceration / avulsion | 
+- Ring tourniquet syndrome | 
+
+@redflags
+- قطع انگشت (مشاوره برای ری‌پلانت)
+- استخوان مکشوف
+
+@guide
+تریفیناسیون با drill ناخن، الکتروکوتر، اسکالپل یا سوزن 18. ناخن را فقط در آواسیون ناخن یا از هم گسیختگی نیل فولد بردار. بستر ناخن با 6-0 قابل‌جذب ترمیم می‌شود و ناخن تمیز و سوراخ‌شده در موقعیت آناتومیک ثابت می‌شود. روش‌های برداشتن حلقه: روان‌کننده، برش حلقه، روش نخ یا کش لاستیکی.
+
+@variant finger-lac-amputation
+name: Finger laceration or digit amputation
+level: II
+imp: Finger injury
+cond: Urgent
+act: RBR
+diet: NPO
+ecg: none
+cxr: none
+
+@scenario
+مردی ۳۵ ساله با قطع نوک انگشت بدون استخوان مکشوف در کار با دستگاه.
+
+@why
+بر اساس عمق و استخوان مکشوف: ساده تا مشاوره دست.
+
+@I
+- X-ray of the finger (bony injury or foreign body suspected)
+
+@T
+- Finger lacerations: 5-0 nonabsorbable suture; assess for sensory nerve, extensor and flexor tendon injuries
+- Distal fingertip amputation with skin or pulp loss only: serial dressing changes
+- [without exposed bone] Full-thickness skin graft using the severed tip may be considered
+- Tetanus prophylaxis as indicated
+
+@Co
+- [partial or complete digit amputation, exposed bone, larger skin loss] Hand surgeon (replantation, skin graft)
+
+@variant nail-bed-injury
+name: Nail bed injury and subungual hematoma
+level: III
+imp: Nail bed injury / subungual hematoma
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+زنی ۴۰ ساله با درد و هماتوم زیر ناخن بعد از گیرکردن انگشت لای در؛ هماتوم بیش از ۵۰٪ ناخن.
+
+@why
+تریفیناسیون ناخن برای هماتوم؛ ترمیم بستر ناخن در پارگی.
+
+@I
+- [bony injury or fracture suspected] X-ray of the finger
+
+@T
+- Subungual hematoma > 50% of the nail bed: trephination of the nail plate (nail drill, electrocautery, scalpel or 18-gauge needle)
+- Remove the nail only if nail avulsion or nail fold disruption; repair the nail bed laceration with 6-0 absorbable sutures; clean and trephinate the removed nail and suture it in its anatomic position
+- Avulsion of the germinal matrix: preserve the fragments and reattach the nail anatomically if possible
+- Tetanus prophylaxis as indicated
+
+@Co
+- [extensive nail bed injury with avulsed tissue] Hand specialist
+
+@variant ring-tourniquet
+name: Ring tourniquet syndrome
+level: II
+imp: Ring tourniquet syndrome
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+زنی ۵۰ ساله با تورم انگشت حلقه بعد از ضربه و گیرکردن حلقه؛ انگشت کبود.
+
+@why
+حلقه باید از همه انگشت‌های آسیب‌دیده خارج شود.
+
+@T
+- Ring removal: lubrication, ring cutting, or the string or rubber band technique

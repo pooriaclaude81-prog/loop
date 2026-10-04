@@ -1,0 +1,161 @@
+@cond leg-foot-laceration
+ch: 13
+name: Leg, knee, ankle and foot lacerations
+name_fa: پارگی ساق، زانو، مچ پا و پا
+cc: wound-bite, limb-injury
+keywords: foot laceration, plantar laceration, Achilles tendon, Thompson test, knee joint capsule, saline load test, crutches, walking boot
+status: draft
+
+@features
+- مکانیسم احتمال آسیب بافت زیرین، جسم خارجی و آلودگی را تعیین می‌کند؛ موقعیت اندام هنگام آسیب را در معاینه بازسازی کن
+- اعصاب: peroneal سطحی (اورژن)، peroneal عمقی (اینورژن و دورسی‌فلکشن)، تیبیال (پلانتارفلکشن)
+- تاندون‌ها: extensor hallucis longus، tibialis anterior، آشیل؛ هر تاندون را جداگانه آزمایش کن
+- آزمایش‌های آزمایشگاهی در لاسراسیون ساده لازم نیست؛ X-ray برای شک به شکستگی یا جسم رادیواپک؛ سونوگرافی برای جسم خارجی، تاندون یا استخوان
+- زانو: نفوذ به کپسول مفصل (هوا در X-ray، یا تزریق 65 تا 95 mL سالین استریل در مفصل از محل جدا و نشت از زخم)
+- آشیل: پارگی بدون نفوذ هم ممکن است؛ آزمون Thompson (فشردن ساق: نبود پلانتارفلکشن یعنی پارگی کامل)
+- پا: ترمیم ایده‌آل در 6 ساعت؛ بین 6 تا 12 ساعت اغلب اولیه
+
+@ddx
+- !Tendon injury (Achilles, tibialis anterior, EHL) | 
+- !Joint capsule penetration (knee) | 
+- !Popliteal artery / nerve injury | 
+- Retained foreign body | 
+- Open fracture | 
+
+@redflags
+- نفوذ به مفصل یا تاندون
+- زخم‌های آلوده شدید، گزش، شکستگی باز
+
+@guide
+ترمیم لایه‌ای با 4-0 قابل‌جذب (فاشیا) و 4-0 غیرقابل‌جذب منقطع (پوست) روی ساق؛ بخیه عمقی قابل‌جذب در دیابت، نقص ایمنی و استاز وریدی پرهیز؛ چسب سیانوآکریلات کمتر (کشش بیشتر). پوست کف پا: 3-0 یا 4-0 غیرقابل‌جذب؛ پشت پا 4-0 یا 5-0. بعد از ترمیم لاسراسیون مفصل یا تاندون: اسپلینت در وضعیت عملکردی. کشیدن بخیه 10–14 روز (14 روز روی مفصل).
+
+@pearls
+- آنتی‌بیوتیک: شکستگی باز، درگیری تاندون یا مفصل، آلودگی شدید، گزش، بیماران پرخطر و زخم با نشانه زودرس عفونت.
+- قیچی چمن‌زن و پره دوچرخه ممکن است آسیب بافت نرم گسترده با شکستگی و پارگی تاندون بدهند: ارتوپدی.
+
+@variant leg-foot-simple
+name: Uncomplicated leg or foot laceration
+level: III
+imp: Leg / foot laceration
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مردی ۳۰ ساله با پارگی ۴ سانتی‌متری ساق بعد از برخورد با فلز؛ تاندون و عصب سالم.
+
+@why
+پس از رد آسیب عمقی، شستشو و ترمیم لایه‌ای؛ آنتی‌بیوتیک روتین لازم نیست.
+
+@I
+- [fracture or radiopaque foreign body suspected] X-ray; ultrasonography for foreign body, tendon injury or bone abnormality
+
+@T
+- Thorough wound exploration and irrigation; evaluate distal motor and sensory function compared with the contralateral side
+- Layered closure with 4-0 absorbable material to close the fascia and interrupted 4-0 nonabsorbable sutures for the skin (not typically required on the foot); avoid deep absorbable sutures in diabetes, immunocompromise or venous stasis changes
+- Update tetanus immunization status
+- Wound care instructions; elevation; suture removal in 10 to 14 days (14 days over joints); recheck at 48 hours for heavily contaminated, complex repair or higher infection risk; crutches for 7 to 10 days as needed
+
+@variant foot-sole-laceration
+name: Foot and sole laceration
+level: III
+imp: Foot laceration
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مردی ۳۵ ساله با پارگی کف پا از میخ‌ شکسته ۳ ساعت پیش؛ پا حس دارد.
+
+@why
+کف پا را از نظر تاندون و جسم خارجی بررسی کن؛ بخیه ضخیم‌تر و بی‌حسی ناحیه‌ای.
+
+@I
+- [fracture or radiopaque foreign body suspected] X-ray; ultrasonography
+
+@T
+- Patient prone with the foot supported on a pillow or overhanging the bed; regional anesthesia helps
+- Repair as soon as possible, ideally within 6 hours; wounds presenting between 6 and 12 hours can often be repaired primarily
+- Nonabsorbable 3-0 or 4-0 suture for the sole (large needle); 4-0 or 5-0 nonabsorbable for the dorsal foot; between toes: assistant holds toes apart, interrupted mattress suture may help
+- Crutches and/or walking boot after repair
+- Update tetanus immunization status
+
+@Co
+- [severe lawn mower or bicycle spoke injuries with fractures and tendon lacerations] Orthopedics
+
+@variant knee-ankle-laceration
+name: Knee or ankle laceration (joint or tendon concern)
+level: II
+imp: Knee / ankle laceration
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: none
+cxr: none
+
+@scenario
+زنی ۴۰ ساله با پارگی جلوی زانو بعد از افتادن روی شیشه؛ احتمال نفوذ به مفصل.
+
+@why
+بررسی نفوذ به کپسول مفصل، تاندون‌ها و عروق؛ آنتی‌بیوتیک در درگیری مفصل یا تاندون.
+
+@I
+- X-ray of the knee (air in the joint)
+
+@A
+- [tendon or joint involvement, heavily contaminated, bite, open fracture, early infection] Antibiotics {note: drug and dose not given in the book}
+
+@T
+- Examine the knee throughout its range of movement; assess patellar and quadriceps tendon function; assess for popliteal artery, popliteal nerve and tibial nerve injury
+- [joint penetration test] Inject 65 to 95 mL of sterile saline into the joint at a site separate from the laceration: leakage from the wound indicates capsule injury
+- Ankle: move through full range of motion and directly inspect for tendon injury (Achilles, tibialis anterior, extensor hallucis longus: repair if injured); Thompson test: squeeze the calf at the midpoint, absent plantar flexion means complete Achilles laceration
+- Splint in a position of function after repair of joint or tendon lacerations
+- Update tetanus immunization status
+
+@Co
+- Orthopedics (tendon repair, joint involvement)
+
+@cond hair-thread-tourniquet
+ch: 13
+name: Hair-thread tourniquet syndrome
+name_fa: سندرم تورنیکت مو یا نخ
+cc: pediatric-other, limb-injury
+keywords: hair tourniquet, toe, infant, thread
+status: draft
+
+@features
+- آسیب نادر شیرخواران: تار مو یا نخ بلند دور یک انگشت پا پیچیده و می‌تواند باعث نقص عروقی شود
+
+@ddx
+- !Vascular compromise of the toe | 
+- Toe infection / cellulitis | 
+
+@redflags
+- ایسکمی انگشت
+
+@guide
+مو یا نخ را کامل برداشته تا نقص عصبی‌عروقی برطرف شود.
+
+@variant hair-tourniquet-main
+name: Hair-thread tourniquet of a toe
+level: II
+imp: Hair-thread tourniquet syndrome
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+o2: O2 therapy: if SpO2 < 94%, nasal cannula or face mask with flow by age and weight
+
+@scenario
+شیرخواری ۳ ماهه با گریه و قرمزی و تورم انگشت پا؛ دور انگشت تار مو دیده می‌شود.
+
+@why
+برداشتن کامل مو یا نخ برای رفع انسداد جریان خون.
+
+@T
+- Remove the hair or thread completely, unwinding it if possible; otherwise a midline longitudinal incision along the extensor surface of the toe to cut the hair or thread

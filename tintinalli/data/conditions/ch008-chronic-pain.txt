@@ -1,0 +1,261 @@
+@cond chronic-pain-syndromes
+ch: 8
+name: Chronic pain syndromes
+name_fa: سندرم‌های درد مزمن
+cc: back-neck-pain, headache, joint-limb-pain
+keywords: chronic pain, fibromyalgia, CRPS, complex regional pain, postherpetic neuralgia, diabetic neuropathy, phantom limb, transformed migraine, duloxetine, pregabalin, gabapentin, amitriptyline, lamotrigine
+status: draft
+
+@features
+- درد مزمن: بیش از ۳ ماه یا ماندن بیش از زمان معمول بهبود آسیب (یا ۱ ماه بعد از سیر معمول بیماری حاد)؛ هدف کاهش درد و بازگشت عملکرد است نه حذف کامل
+- مهم‌ترین کار پزشک اورژانس: تشخیص درد مزمن از درد حادی که نشانه بیماری تهدیدکننده جان یا عضو است
+- CRPS نوع I (RSD) و II (کازالژی): ۲ هفته یا بیشتر بعد از آسیب؛ آلودینیا و درد سوزشی/تیرکشنده؛ نشانه‌های اولیه ادم، گرمی و تعریق موضعی
+- درد آسیب حاد (حتی شکستگی) به‌ندرت بیش از ۲ هفته ادامه دارد؛ درد بعد از آن شک به آسیب عصبی را بالا می‌برد
+- تشخیص قطعی دشوار است و ارجاع به پزشک اصلی و متخصص لازم است
+
+@ddx
+- !Acute pain heralding a life- or limb-threatening condition | 
+- !Complex regional pain syndrome (post-nerve injury) | 
+- Fibromyalgia | 
+- Postherpetic neuralgia | 
+- Painful diabetic neuropathy | 
+- Phantom limb pain | 
+
+@redflags
+- علامت یا نشانه غیرمنتظره در بیمار مبتلا به درد مزمن
+
+@guide
+- اپیوئید برای درمان اولیه درد مزمن در اورژانس توصیه نمی‌شود؛ اگر بیمار نسخه گم‌شده یا دزدیده‌شده می‌گوید به پزشک درد یا پزشک اصلی ارجاع شود و نسخه تکرار نشود.
+- به‌دلیل نیاز به درمان طولانی ایمنی NSAID محدود است.
+- دوزهای شروع: آمی‌تریپتیلین 25 mg/d PO؛ گاباپنتین 300 mg روزانه تا حداکثر 1200 mg سه بار در روز؛ پره‌گابالین 50 mg سه بار در روز؛ دولوکستین 30 mg PO روزانه؛ لاموتریژین 25 mg روزانه.
+- ارجاع به متخصص یکی از مؤثرترین اقدامات است (بهینه‌سازی دارو، تزریق نقطه ماشه، تمرین، فیزیوتراپی، تزریق اپیدورال، بلوک عصب).
+
+@variant cps-transformed-migraine
+name: Transformed migraine
+level: III
+imp: Transformed migraine
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+زنی ۳۸ ساله با سردرد روزانه ثابت و کند که ابتدا میگرنی بوده، همراه تهوع.
+
+@why
+اساس درمان: قطع داروهای قبلی؛ درمان ثانویه سلکوکسیب یا پردنیزون تاپر.
+
+@T
+- Stop prior medications (primary treatment)
+- [secondary] Celecoxib or prednisone taper
+
+@variant cps-fibromyalgia
+name: Fibromyalgia
+level: III
+imp: Fibromyalgia
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+زنی ۴۵ ساله با درد منتشر عضلانی، خستگی و اختلال خواب؛ بیش از 11 نقطه ماشه دردناک.
+
+@why
+درمان اولیه دولوکستین و ثانویه پره‌گابالین.
+
+@T
+- Duloxetine 30 mg PO daily to start (primary)
+- [secondary] Pregabalin 50 mg three times daily to start
+
+@variant cps-back-neck
+name: Chronic back or neck pain
+level: III
+imp: Chronic back or neck pain
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مردی ۵۰ ساله با کمردرد مزمن بدون علائم عصبی جدید.
+
+@why
+دولوکستین درمان اولیه و آمی‌تریپتیلین ثانویه.
+
+@T
+- Duloxetine 30 mg PO daily to start (primary)
+- [secondary] Amitriptyline 25 mg/d PO to start
+
+@variant cps-poststroke
+name: Poststroke pain
+level: III
+imp: Poststroke pain
+cond: Urgent
+act: RBR
+diet: PO
+ecg: once
+cxr: none
+
+@scenario
+مردی ۶۸ ساله با درد سوزشی سمت ضعیف‌شده بعد از سکته مغزی و آلودینیا.
+
+@why
+پره‌گابالین اولیه و گاباپنتین ثانویه.
+
+@T
+- Pregabalin 50 mg three times daily to start (primary)
+- [secondary] Gabapentin 300 mg daily, increase up to a maximum of 1200 mg three times daily according to response
+
+@variant cps-hiv-neuropathy
+name: HIV-associated sensory neuropathy
+level: III
+imp: HIV-associated sensory neuropathy
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مردی ۴۰ ساله مبتلا به HIV با درد و پارستزی متقارن در پاها.
+
+@why
+بهینه‌سازی درمان ضد رتروویروس و ثانویه لاموتریژین.
+
+@T
+- Optimize antiretroviral therapy (primary)
+- [secondary] Lamotrigine 25 mg daily to start
+
+@variant cps-crps
+name: Complex regional pain syndrome types I and II
+level: III
+imp: Complex regional pain syndrome
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+زنی ۵۰ ساله سه هفته بعد از شکستگی مچ با درد سوزشی، آلودینیا، ادم و تعریق موضعی.
+
+@why
+در مرحله حاد پردنیزون تاپر؛ کتامین توسط متخصص.
+
+@T
+- [acute] Prednisone taper (primary) {note: dose not given in the book}
+- [secondary] Ketamine by specialist
+
+@variant cps-postherpetic
+name: Postherpetic neuralgia
+level: III
+imp: Postherpetic neuralgia
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مردی ۷۰ ساله پس از زونا با درد تیرکشنده و آلودینیا در همان درماتوم.
+
+@why
+پره‌گابالین یا گاباپنتین اولیه و آمی‌تریپتیلین ثانویه.
+
+@T
+- Pregabalin 50 mg three times daily to start, or Gabapentin 300 mg daily increased up to a maximum of 1200 mg three times daily (primary)
+- [secondary] Amitriptyline 25 mg/d PO to start
+
+@variant cps-diabetic-neuropathy
+name: Painful diabetic neuropathy
+level: III
+imp: Painful diabetic neuropathy
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مردی ۶۰ ساله دیابتی با بی‌حسی متقارن و درد سوزشی/چاقویی پاها.
+
+@why
+دولوکستین اولیه و پره‌گابالین یا گاباپنتین ثانویه.
+
+@L
+- Blood sugar
+
+@T
+- Duloxetine 30 mg PO daily to start (primary)
+- [secondary] Pregabalin 50 mg three times daily to start, or Gabapentin 300 mg daily increased up to a maximum of 1200 mg three times daily
+
+@variant cps-phantom-limb
+name: Phantom limb pain
+level: III
+imp: Phantom limb pain
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مردی ۵۵ ساله با قطع پا و درد ساق «پای از دست رفته».
+
+@why
+گاباپنتین اولیه و آمی‌تریپتیلین ثانویه.
+
+@T
+- Gabapentin 300 mg daily, increase up to a maximum of 1200 mg three times daily according to response (primary)
+- [secondary] Amitriptyline 25 mg/d PO to start
+
+@cond aberrant-drug-behavior
+ch: 8
+name: Aberrant drug-related behavior (drug-seeking)
+name_fa: رفتارهای نابجای مرتبط با دارو
+cc: back-neck-pain, headache, joint-limb-pain
+keywords: drug seeking, opioid seeking, lost prescription, forged prescription, controlled drug database
+status: draft
+
+@features
+- طیف از بیماران درد مزمن وابسته به مخدر تا کسانی که دارو برای فروش می‌گیرند؛ شرح حال ممکن است واقعی یا ساختگی باشد
+- شایع‌ترین شکایات در یک مطالعه اورژانس: کمردرد، سردرد، درد اندام و دندان
+- روش‌ها: نسخه «گم‌شده»، نامه پزشک، جراحی «قریب‌الوقوع»، هماتوری ساختگی با ادعای سنگ کلیه، خودآزاری، آسیب ساختگی
+- رفتارهای پیش‌بینی‌کننده: جعل یا تغییر نسخه، فروش دارو، استفاده از نام مستعار، مصرف فعلی مواد غیرمجاز، بیماری ساختگی، پنهان‌کردن مراجعات یا پزشکان متعدد، پرخاشگری هنگام امتناع
+- تشخیص ممکن است در اورژانس ممکن نباشد؛ پرونده پزشکی و پایگاه داروهای کنترل‌شده کمک می‌کند
+
+@ddx
+- !Genuine pain from a serious condition | اول علل واقعی را رد کن
+- Chronic pain with opioid dependence | 
+- Diversion (selling prescriptions) | 
+
+@redflags
+- رفتارهای پیش‌بینی‌کننده غیرقانونی (جعل نسخه، فروش دارو)
+
+@guide
+درمان: امتناع از دادن داروی کنترل‌شده، در نظر گرفتن داروی یا درمان جایگزین و ارجاع به مشاوره ترک.
+
+@variant aberrant-main
+name: Aberrant drug-related behavior
+level: III
+imp: Aberrant drug-related behavior
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مردی ۳۵ ساله با ادعای سنگ کلیه و هماتوری، نسخه «گم‌شده» و درخواست اپیوئید؛ در پرونده مراجعات مکرر.
+
+@why
+بعد از رد علل واقعی، داروی کنترل‌شده داده نمی‌شود و درمان جایگزین و ارجاع انجام می‌شود.
+
+@T
+- Refuse the controlled substance
+- Consider the need for alternative medication or treatment
+- Consider referral for drug counseling

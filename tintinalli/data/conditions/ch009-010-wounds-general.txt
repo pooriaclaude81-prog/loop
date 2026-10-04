@@ -1,0 +1,177 @@
+@cond wound-evaluation-preparation
+ch: 9
+name: Traumatic wound: evaluation and preparation
+name_fa: ارزیابی و آماده‌سازی زخم تروماتیک
+cc: wound-bite
+keywords: laceration, wound irrigation, hemostasis, debridement, foreign body, prophylactic antibiotics, delayed primary closure, tourniquet, زخم
+status: draft
+
+@features
+- ثبت مکانیسم، زمان، محل و درجه آلودگی؛ درد، تورم، پارستزی و از دست رفتن عملکرد؛ عوامل مؤثر بر ترمیم (سن، محل، دارو، بیماری مزمن، کلوئید)؛ آلرژی به لاتکس و وضعیت واکسن کزاز
+- احساس جسم خارجی در بالغین به‌احتمال زیاد یعنی جسم باقی‌مانده
+- نیروی برشی: لبه صاف و آلودگی کم؛ فشاری: لاسراسیون ستاره‌ای؛ کششی: فلپ با بافت غیرزنده و خطر عفونت
+- خطر عفونت: نواحی مرطوب (آگزیلا، پرینه، دست و پا) بیشتر؛ صورت و سر کمتر (عروق زیاد)؛ زخم دهان آلوده؛ گزش حیوان/انسان و آلودگی مدفوعی خطر زیاد
+- ترمیم اولیه تأخیری پس از ۴ روز برای زخم‌های پرخطر در اولین مراجعه توصیه می‌شود
+
+@ddx
+- !Tendon, nerve, vascular or joint injury | معاینه در موقعیت زمان آسیب
+- !Retained foreign body or bone injury | 
+- Bite wound | 
+- Heavily contaminated wound | 
+
+@redflags
+- زخم روی مفصل (نفوذ به فضای مفصل)، تاندون یا عصب
+- جسم خارجی یا آلودگی شدید، بافت غیرزنده گسترده
+
+@guide
+# مراحل آماده‌سازی
+- بی‌حسی موضعی/ناحیه‌ای برای ارزیابی بهتر؛ معاینه عصبی‌عروقی قبل از بی‌حسی (تفکیک دو نقطه طبیعی < 6 mm).
+- شستشو: کم‌فشار برای زخم تمیز در صورت و سر؛ پرفشار با کاتتر 18 برای زخم آلوده؛ آب لوله‌کشی ایمن و مؤثر است؛ خیساندن مؤثر نیست؛ افزودن پوویدون ید یا H2O2 فایده ندارد.
+- هموستاز: فشار مستقیم ترجیح دارد؛ تورنیکت حداکثر 20–30 دقیقه.
+- جسم خارجی: رادیوگرافی ساده برای جسم کدر؛ CT، MRI یا سونوگرافی برای هم‌چگال بافت نرم؛ برداشتن مو فقط با قیچی 1–2 mm بالای پوست.
+- دبریدمان و در بافت غیرزنده گسترده مشاوره جراحی.
+
+@pearls
+- آنتی‌بیوتیک پروفیلاکسی در اغلب زخم‌ها شواهد ندارد؛ برای گزش انسان، گزش پستانداران به دست و زخم‌های پرخطر توصیه می‌شود.
+
+@variant wound-simple
+name: Simple clean wound
+level: III
+imp: Traumatic wound (laceration)
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مردی ۳۰ ساله با پارگی تمیز ۳ سانتی‌متری ساعد از لبه شیشه ۲ ساعت پیش؛ بدون ضعف یا بی‌حسی.
+
+@why
+زخم ساده تمیز: بی‌حسی، شستشو، هموستاز و بستن؛ پروفیلاکسی آنتی‌بیوتیکی لازم نیست.
+
+@N
+- Document mechanism, time, location, contamination, tetanus immunization status and allergies (latex)
+
+@T
+- Local or regional anesthesia before preparing and evaluating the wound; neurovascular examination of the involved and distal areas before anesthesia (two-point discrimination normal < 6 mm)
+- Irrigation: low-pressure, slow gentle wash for simple uncontaminated wounds in highly vascular areas such as the face and scalp (sterile normal saline; tap water is safe and effective; warmed fluid is more comfortable)
+- Skin disinfection with a povidone iodine- or chlorhexidine-containing agent around the wound (avoid contact with nonintact skin); clean nonsterile gloves are adequate
+- Hemostasis: direct pressure preferred
+- Tetanus prophylaxis as indicated
+
+@variant wound-contaminated
+name: Contaminated or high-risk wound
+level: II
+imp: Contaminated traumatic wound
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مردی ۴۵ ساله با پارگی عمیق پای آلوده به خاک و مدفوع حیوان در مزرعه ۸ ساعت پیش.
+
+@why
+زخم آلوده: شستشوی پرفشار، دبریدمان، در نظر گرفتن آنتی‌بیوتیک و تأخیر در بستن.
+
+@N
+- Document mechanism, time, location, contamination, tetanus status and allergies
+
+@I
+- [foreign body or bone injury suspected] X-ray; CT, MRI or ultrasound for foreign bodies with density similar to soft tissue
+
+@A
+- [selected higher-risk wounds and populations] Prophylactic antibiotic before significant tissue manipulation, with a β-lactam (most non-bite infections are staphylococci or streptococci); oral may be as effective as IV with sufficient spectrum and rapid absorption {note: drug and dose not given in the book}
+- [human bites, mammalian bites to the hand, other high-risk bites] Prophylactic antibiotics (see puncture wounds and bites)
+
+@T
+- Local or regional anesthesia before irrigation; neurovascular examination before anesthesia
+- High-pressure irrigation with an 18-gauge catheter, syringe and splash guard (wound soaking is not effective)
+- Remove foreign debris with forceps; inspect the full depth and course of the wound
+- Debridement: elliptical excision around the wound edges with a surgical blade removes devitalized tissue
+- [high risk of infection at first encounter] Delayed primary closure after 4 days of open wound management
+- Tetanus prophylaxis as indicated
+
+@Co
+- [extensive nonviable tissue, may need grafting] Surgical specialist
+
+@cond wound-closure-methods
+ch: 10
+name: Wound closure methods (sutures, staples, tape, adhesive)
+name_fa: روش‌های بستن زخم
+cc: wound-bite
+keywords: suture, staples, tissue adhesive, cyanoacrylate, steri-strips, hair apposition, absorbable, mattress, buried suture, subcuticular
+status: draft
+
+@features
+- روش‌ها: ترمیم اولیه (بلافاصله)، ثانویه (ترمیم خودبه‌خود؛ برای زخم آلوده یا عفونی) و تأخیری (پک و بستن بعداً پس از رد عفونت)
+- عوامل انتخاب: زمان از آسیب، کشش زخم (ایستا یا پویا)، خطر اسکار؛ نتیجه زیبایی بیشتر به تکنیک بستگی دارد
+- گزینه‌ها: بخیه، استیپلر، نوار چسب، چسب بافتی و آپوزیسیون مو
+
+@ddx
+- !Infected or heavily contaminated wound | بستن اولیه نشود
+- High-tension wound | بخیه یا استیپلر
+- Low-tension fragile wound (skin tear) | نوار چسب
+
+@redflags
+- زخم عفونی یا آلودگی شدید
+
+@guide
+# بخیه
+- قابل جذب (استحکام کمتر از 60 روز؛ بدون نیاز به کشیدن) برای بافت عمقی؛ غیرقابل جذب مونوفیلامان برای پوست.
+- گیج بالا (5-0، 6-0) نازک برای مناطق کم‌کشش مثل صورت؛ گیج کوچک‌تر (3-0، 4-0) برای پوست سر و اندام.
+- لبه‌های پوست را اورت کن و فشار له‌کننده نده.
+# غیر بخیه
+- استیپلر: سریع، برای پوست سر؛ نه صورت.
+- نوار چسب: فقط کم‌کشش و شکننده (skin tear)؛ در رطوبت جدا می‌شود؛ با بنزوئین و نوارها عمود بر زخم با فاصله 3 mm.
+- چسب بافتی: قدرت معادل بخیه ساب‌کوتیکولار 4-0؛ نه روی مفصل یا کشش زیاد؛ 5–10 روز می‌افتد.
+- آپوزیسیون مو: زخم پوست سر تا 10 cm، بدون آلودگی شدید یا خونریزی.
+
+@variant closure-sutures
+name: Sutures
+level: III
+imp: Wound closure by sutures
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+زخم خطی ۴ سانتی‌متری ران با کشش متوسط که نیاز به بستن با بخیه دارد.
+
+@why
+بخیه قوی و قابل‌اعتماد برای زخم‌های با کشش.
+
+@T
+- Simple interrupted percutaneous sutures (easiest, most common): needle at 90 degrees, evert edges, square knots (number of knots equal to the gauge, e.g. four for 4-0), all knots on one side
+- [long linear high-tension wounds] Continuous running sutures at a 65 degree angle
+- [reduce tension and close dead space] Buried dermal sutures with absorbable material; minimize the number of buried sutures (adipose closure unnecessary)
+- [excellent approximation, absorbable, no removal] Continuous subcuticular sutures
+- [wound edge eversion, deep and epidermal layers] Vertical mattress sutures (far-far / near-near)
+- [poor circulation, delicate areas] Horizontal mattress sutures; [skin flaps, stellate lacerations] horizontal half-buried mattress sutures
+- Suture size: 6-0 and 5-0 for low-tension areas such as the face; 3-0 and 4-0 for scalp, extremities and higher tension
+
+@variant closure-nonsuture
+name: Staples, tape, tissue adhesive, hair apposition
+level: III
+imp: Wound closure without sutures
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+پارگی ۵ سانتی‌متری پوست سر در مردی ۳۰ ساله؛ یا پاره‌شدن سطحی پوست (skin tear) در زن سالمند.
+
+@why
+انتخاب روش بر اساس محل، کشش و ظرافت پوست.
+
+@T
+- Staples (scalp and areas where cosmetics matter less; not the face): align the edges, stapler perpendicular and centered, gentle pressure to evert the edges
+- Adhesive tapes (low tension, fragile wounds such as skin tears): tincture of benzoin adjunct, tape perpendicular to the wound about 3 mm apart, reinforce with parallel strips
+- Cyanoacrylate tissue adhesive: thin coat over the wound extending 5 to 10 mm on either side, repeat once dry {ci: over joints or areas of high tension}
+- Hair apposition (scalp): twist strands of hair together on each side, then twist the two bundles and apply a drop of tissue adhesive {ci: wounds > 10 cm, grossly contaminated, uncontrolled bleeding, gaping wounds with significant tension}

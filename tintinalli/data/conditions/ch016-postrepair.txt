@@ -1,0 +1,147 @@
+@cond postrepair-wound-care
+ch: 16
+name: Postrepair wound care and follow-up
+name_fa: مراقبت بعد از ترمیم زخم
+cc: wound-bite
+keywords: dressing, suture removal, topical antibiotic, wound drain, packing, follow-up, sunblock, postrepair antibiotics
+status: draft
+
+@features
+- پانسمان محیط مرطوب برای اپیتلیالیزاسیون فراهم می‌کند؛ زخم بخیه یا استیپل با پانسمان محافظ و نچسب 24 تا 48 ساعت
+- زخم با چسب بافتی نباید مرهم آنتی‌بیوتیک بگیرد (چسب شل و باز شدن زخم)
+- بالا نگه‌داشتن عضو، اسپلینت، پانسمان فشاری (گوش و پوست سر)
+- آنتی‌بیوتیک روتین توصیه نمی‌شود؛ دوره 3 تا 5 روز برای غیرگزش و 5 تا 7 روز برای گزش
+- شستشوی زخم بخیه‌شده از 8 ساعت بعد بدون افزایش عفونت؛ روزانه علائم عفونت را بررسی کن
+- بخیه صورت 3 تا 5 روز؛ سایر نواحی 7 تا 10 روز؛ دست، پا، باسن یا روی مفصل 10 تا 14 روز
+- اسکار همیشه ایجاد می‌شود؛ پرهیز از آفتاب و ضدآفتاب حداقل 6 تا 12 ماه
+
+@ddx
+- !Wound infection | 
+- !Dehiscence after suture removal | 
+- Allergy to topical agent | 
+
+@redflags
+- قرمزی، ترشح یا درد بیشتر: برگشت فوری
+
+@guide
+بازبینی در 24 تا 48 ساعت برای زخم پرخطر یا بیماری همراه. کشیدن بخیه: بدون کشش عمود بر زخم؛ گره را با فورسپس بگیر و ببر؛ استیپل با ابزار مخصوص. چسب بافتی خودبه‌خود ظرف 5 تا 10 روز می‌ریزد. مخدر بعد از 48 ساعت اول به‌ندرت لازم است.
+
+@variant postrepair-routine
+name: Routine postrepair care
+level: III
+imp: Postrepair wound care
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مردی ۳۰ ساله بعد از بخیه زخم ساعد؛ می‌خواهد بداند چطور مراقبت کند.
+
+@why
+پانسمان، بالا نگه‌داشتن، شستشو، بازبینی و زمان کشیدن بخیه.
+
+@N
+- Protective nonadherent dressing for 24 to 48 hours (or a semipermeable film); elevate the injured part; splint for extremity injuries; pressure dressing for ear and scalp lacerations
+- Cleanse sutured or stapled wounds with soap and water from 8 hours after closure; examine daily for infection
+
+@T
+- [optional, to promote moist healing and limit scab formation, first 3 to 5 days] Topical antibiotic ointment (not on wounds closed with tissue adhesive; adhesive wounds may shower but not be immersed)
+- Short course of analgesics (narcotics rarely necessary after the first 48 hours)
+- Tetanus prophylaxis as indicated (see tetanus prophylaxis for wounds)
+- Suture removal: face 3 to 5 days; most other areas 7 to 10 days; hands, feet, buttocks, over joints 10 to 14 days; sunblock for at least 6 to 12 months
+
+@variant postrepair-high-risk
+name: High-risk wound (antibiotic prophylaxis)
+level: II
+imp: Postrepair prophylaxis in a high-risk wound
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مردی ۵۸ ساله دیابتی با پارگی پای آلوده که ترمیم شده است.
+
+@why
+فقط در شرایط خاص آنتی‌بیوتیک پروفیلاکتیک 3 تا 5 روز (غیرگزش) یا 5 تا 7 روز (گزش) و بازبینی 24 تا 48 ساعت.
+
+@A
+- Uncomplicated patient: first-generation cephalosporin or antistaphylococcal penicillin (alternative macrolide or clindamycin)
+- Grossly contaminated wounds and/or retained foreign body: amoxicillin/clavulanate or second-generation cephalosporin (alternative clindamycin plus a fluoroquinolone)
+- Bite wounds: amoxicillin/clavulanate (alternative clindamycin plus a fluoroquinolone or trimethoprim-sulfamethoxazole)
+- Plantar puncture wounds: ciprofloxacin (alternative first-generation cephalosporin or antistaphylococcal penicillin)
+- Systemic immunodeficiency (AIDS, chronic steroid use, poorly controlled diabetes): amoxicillin/clavulanate or second-generation cephalosporin (alternative clindamycin plus a fluoroquinolone)
+- Impaired local defenses (peripheral arterial disease, lymphedema): amoxicillin/clavulanate (alternative clindamycin or erythromycin)
+- Course: 3 to 5 days for nonbite injuries, 5 to 7 days for bite wounds {note: doses not given in the book}
+
+@T
+- Return for a wound check in 24 to 48 hours
+- Drain or ribbon gauze packing for abscess cavities or contaminated areas as indicated, with follow-up instructions
+
+@cond tetanus-prophylaxis-wound
+ch: 16
+name: Tetanus prophylaxis for wounds
+name_fa: پیشگیری از کزاز در زخم‌ها
+cc: wound-bite
+keywords: tetanus toxoid, TIG, Tdap, tetanus immune globulin, immunization
+status: draft
+
+@features
+- مکانیسم آسیب، سن زخم و وضعیت واکسیناسیون کزاز را بررسی کن
+- تنها منع مطلق توکسوئید کزاز: سابقه واکنش عصبی یا شدید سیستمیک بعد از دوز قبلی
+- «سایر زخم‌ها» شامل: مراقبت تأخیری (> 6 ساعت)، عمیق (> 1 cm)، آلودگی شدید، تماس با بزاق یا مدفوع، ستاره‌ای، ایسکمیک یا عفونی، آواسیون، پانکچر و له‌شدگی
+
+@ddx
+- !Contaminated / high-risk wound | 
+- Clean minor wound | 
+
+@redflags
+- واکنش شدید قبلی به توکسوئید
+
+@guide
+توکسوئید: Tdap در بالغ بدون ثبت قبلی؛ در غیر این صورت Td اگر > 7 سال و DT اگر < 7 سال، ترجیحاً در دلتوئید. ایمونوگلوبولین (TIG) بالغ: 250–500 IU در دلتوئید طرف مقابل محل توکسوئید.
+
+@variant tetanus-under-3-doses
+name: Fewer than 3 doses or uncertain history
+level: III
+imp: Wound, tetanus prophylaxis (< 3 doses or uncertain)
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مردی ۴۰ ساله مهاجر بدون سابقه واکسیناسیون با پارگی عمیق آلوده.
+
+@why
+با کمتر از 3 دوز یا نامشخص: همیشه توکسوئید و در «سایر زخم‌ها» TIG هم.
+
+@T
+- Tetanus toxoid (Tdap if adult and no prior record; Td if > 7 years; DT if < 7 years), preferably in the deltoid
+- [all other wounds: delayed > 6 h, deep > 1 cm, grossly contaminated, saliva or feces, stellate, ischemic or infected, avulsion, puncture, crush] Tetanus immune globulin (TIG) 250 to 500 IU in the deltoid opposite the toxoid site
+- [clean minor wound] No TIG
+
+@variant tetanus-3-or-more-doses
+name: Three or more doses
+level: III
+imp: Wound, tetanus prophylaxis (≥ 3 doses)
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+زنی ۵۰ ساله با پارگی تمیز کوچک و آخرین دوز کزاز 12 سال پیش.
+
+@why
+با 3 دوز یا بیشتر: بسته به زمان آخرین دوز و نوع زخم توکسوئید داده می‌شود؛ TIG لازم نیست.
+
+@T
+- Last dose within 5 years: no toxoid, no TIG (clean minor or all other wounds)
+- Last dose 5 to 10 years: no toxoid for clean minor wounds; tetanus toxoid for all other wounds; no TIG
+- Last dose more than 10 years: tetanus toxoid for clean minor wounds and for all other wounds; no TIG
