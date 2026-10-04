@@ -85,7 +85,7 @@
   function vCC(id) {
     var c = ccMeta[id]; if (!c) return null;
     var h = '<p><a href="#/">← Home</a></p><h1>' + esc(c.n) + ' <small dir="auto" class="mute">' + esc(c.fa) + '</small></h1>';
-    h += '<section class="cantmiss" aria-label="Can\'t-miss diagnoses"><h2>⚠ Can\'t miss</h2><ul>' + c.cm.map(function (m) {
+    if (c.cm.length || c.rf.length) h += '<section class="cantmiss" aria-label="Can\'t-miss diagnoses"><h2>⚠ Can\'t miss</h2><ul>' + c.cm.map(function (m) {
       var link = m.id && condMeta[m.id] ? '<a href="#/c/' + m.id + '"><b>' + esc(m.n) + '</b></a>' : '<b>' + esc(m.n) + '</b>';
       return '<li>' + link + (m.note ? ' <span dir="auto" class="mute">' + esc(m.note) + '</span>' : '') + '</li>';
     }).join('') + '</ul>' + (c.rf.length ? '<h3>Red flags</h3>' + TN.list(c.rf) : '') + '<p class="mute small">Provisional list; to be reviewed against the book and by a physician.</p></section>';

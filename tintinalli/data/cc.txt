@@ -5,186 +5,755 @@
 name: Chest pain
 name_fa: درد قفسه سینه
 
+@cantmiss
+- Acute coronary syndrome (STEMI) @stemi
+- NSTEMI / unstable angina @nstemi-unstable-angina
+- Aortic dissection @aortic-dissection
+- Pulmonary embolism @pulmonary-embolism
+- Tension pneumothorax / pneumothorax @pneumothorax
+- Cardiac tamponade @cardiac-tamponade
+- Esophageal perforation @esophageal-perforation
+
+@redflags
+- Hemodynamic instability or hypoxia
+- Pain radiating to back with pulse/BP differential
+- ECG changes or ongoing pain > 20 min
+- Tearing / pleuritic pain with dyspnea
+
 @cc dyspnea
 name: Shortness of breath
 name_fa: تنگی نفس
+
+@cantmiss
+- Anaphylaxis / angioedema @anaphylaxis
+- Acute heart failure / cardiogenic shock @acute-heart-failure
+- Pulmonary embolism @pulmonary-embolism
+- Tension pneumothorax / pneumothorax @pneumothorax
+- Asthma / COPD exacerbation @asthma-exacerbation
+- Cardiac tamponade @cardiac-tamponade
+- Epiglottitis @epiglottitis-adult
+
+@redflags
+- SpO2 < 90% or stridor
+- Inability to speak full sentences
+- Altered mental status or exhaustion
+- Unilateral breath sounds / tracheal deviation
 
 @cc cough-hemoptysis
 name: Cough or hemoptysis
 name_fa: سرفه یا هموپتزی
 
+@cantmiss
+- Pulmonary embolism @pulmonary-embolism
+- Community-acquired pneumonia @community-acquired-pneumonia
+- Tuberculosis @tuberculosis
+- Massive hemoptysis @hemoptysis
+- COPD exacerbation @copd-exacerbation
+
+@redflags
+- Massive hemoptysis
+- Hypoxia
+- Fever with weight loss / night sweats
+
 @cc palpitations
 name: Palpitations or abnormal rhythm
 name_fa: تپش قلب یا آریتمی
+
+@cantmiss
+- Ventricular tachycardia @ventricular-tachycardia
+- Atrial fibrillation @atrial-fibrillation
+- Wolff-Parkinson-White @wolff-parkinson-white
+- Brugada / long QT @brugada-long-qt
+- Hyperkalemia @hyperkalemia
+- Thyroid storm @thyroid-storm
+
+@redflags
+- Syncope or chest pain with palpitations
+- Hypotension
+- Wide-complex rhythm
 
 @cc syncope
 name: Syncope
 name_fa: سنکوپ
 
+@cantmiss
+- Ventricular arrhythmia / VT @ventricular-tachycardia
+- High-grade AV block @av-block-third-degree
+- Pulmonary embolism @pulmonary-embolism
+- Aortic dissection / AAA @aortic-dissection
+- Acute coronary syndrome @nstemi-unstable-angina
+- GI bleeding @upper-gi-bleeding
+- Brugada / long QT @brugada-long-qt
+
+@redflags
+- Exertional syncope
+- Chest pain / dyspnea with syncope
+- Abnormal ECG or family history of sudden death
+
 @cc hypotension-shock
 name: Hypotension or shock
 name_fa: افت فشار یا شوک
+
+@cantmiss
+- Septic shock @sepsis-adult
+- Cardiogenic shock @cardiogenic-shock
+- Hemorrhagic / hypovolemic shock @massive-hemorrhage-transfusion
+- Anaphylaxis @anaphylaxis
+- Cardiac tamponade @cardiac-tamponade
+- Pulmonary embolism @pulmonary-embolism
+- Adrenal crisis @adrenal-crisis
+
+@redflags
+- SBP < 90 or MAP < 65
+- Lactate elevated
+- Altered mental status
+- Cool, mottled extremities
 
 @cc leg-swelling
 name: Leg swelling or limb ischemia
 name_fa: ورم یا ایسکمی اندام
 
+@cantmiss
+- Deep vein thrombosis @deep-vein-thrombosis
+- Acute limb ischemia @acute-limb-ischemia
+- Acute heart failure @acute-heart-failure
+
+@redflags
+- Cold, pulseless or painful limb
+- Chest pain / dyspnea with leg swelling
+
 @cc weakness
 name: Weakness or fatigue
 name_fa: ضعف و بی‌حالی
+
+@cantmiss
+- Guillain-Barre syndrome @guillain-barre-syndrome
+- Myasthenic crisis @myasthenia-crisis
+- Spinal cord compression @malignant-spinal-cord-compression
+- Hyperkalemia / electrolyte disturbance @hyperkalemia
+- Adrenal crisis @adrenal-crisis
+- Botulism @botulism-neuromuscular
+- Cauda equina syndrome @epidural-compression-cauda-equina
+
+@redflags
+- Respiratory muscle weakness or dysphagia
+- Urinary retention / saddle anesthesia
+- Rapidly progressive ascending weakness
 
 @cc altered-mental-status
 name: Altered mental status or coma
 name_fa: کاهش سطح هوشیاری
 
+@cantmiss
+- Hypoglycemia @hypoglycemia-diabetic
+- Meningitis / encephalitis @meningitis-adult
+- Intracranial hemorrhage / stroke @intracerebral-hemorrhage
+- Opioid overdose @opioid-overdose
+- Sepsis @sepsis-adult
+- Status epilepticus @status-epilepticus
+- Toxic alcohols / salicylate @toxic-alcohol-methanol-ethylene-glycol
+
+@redflags
+- Fever with neck stiffness
+- Focal deficit
+- Head trauma
+- Hypoxia, hypotension, glucose abnormality
+
 @cc headache
 name: Headache
 name_fa: سردرد
+
+@cantmiss
+- Subarachnoid hemorrhage @subarachnoid-hemorrhage
+- Meningitis @meningitis-adult
+- Intracerebral hemorrhage @intracerebral-hemorrhage
+- Temporal arteritis @temporal-arteritis
+- Acute angle-closure glaucoma @acute-angle-closure-glaucoma
+- Carbon monoxide poisoning @carbon-monoxide-poisoning
+- Preeclampsia / eclampsia @preeclampsia-eclampsia
+
+@redflags
+- Thunderclap onset
+- Fever with neck stiffness
+- Focal neurologic deficit
+- Age > 50 new headache
+- Immunocompromise or anticoagulation
 
 @cc dizziness-vertigo
 name: Dizziness or vertigo
 name_fa: سرگیجه
 
+@cantmiss
+- Ischemic stroke (posterior circulation) @ischemic-stroke
+- Transient ischemic attack @transient-ischemic-attack
+- Cardiac arrhythmia / syncope @syncope
+
+@redflags
+- Gait ataxia or inability to stand
+- Focal deficit, diplopia, dysarthria
+- Vertical or direction-changing nystagmus
+
 @cc seizure
 name: Seizure
 name_fa: تشنج
+
+@cantmiss
+- Status epilepticus @status-epilepticus
+- Eclampsia @eclamptic-seizure-adult
+- Hypoglycemia @hypoglycemia-diabetic
+- Meningitis / encephalitis @encephalitis-hsv
+- Subarachnoid hemorrhage @subarachnoid-hemorrhage
+- Electrolyte disturbance @hyponatremia
+
+@redflags
+- Seizure > 5 min or recurrent without recovery
+- Fever / head trauma
+- Pregnancy
 
 @cc focal-neuro
 name: Focal weakness, numbness or speech problem
 name_fa: ضعف یا اختلال گفتار کانونی
 
+@cantmiss
+- Ischemic stroke @ischemic-stroke
+- Intracerebral hemorrhage @intracerebral-hemorrhage
+- Spinal cord compression @malignant-spinal-cord-compression
+- Spinal epidural abscess @spinal-epidural-abscess
+- Central retinal artery occlusion @central-retinal-artery-occlusion
+- Aortic dissection @aortic-dissection
+
+@redflags
+- Sudden onset deficit (time last known well)
+- Bowel / bladder dysfunction
+- Fever with back pain
+
 @cc abdominal-pain
 name: Abdominal pain
 name_fa: درد شکم
+
+@cantmiss
+- Ruptured AAA @abdominal-aortic-aneurysm
+- Ectopic pregnancy @ectopic-pregnancy
+- Acute appendicitis @acute-appendicitis
+- Bowel obstruction / volvulus @bowel-obstruction-volvulus
+- Testicular torsion @testicular-torsion
+- Acute pancreatitis @acute-pancreatitis
+- Biliary disease / cholecystitis @biliary-disease-cholecystitis
+- Mesenteric ischemia / perforation @acute-abdominal-pain
+
+@redflags
+- Peritonitis (rigidity, rebound)
+- Hypotension / tachycardia
+- Pulsatile mass
+- Positive pregnancy test with pain
 
 @cc nausea-vomiting
 name: Nausea or vomiting
 name_fa: تهوع و استفراغ
 
+@cantmiss
+- Acute coronary syndrome @nstemi-unstable-angina
+- Bowel obstruction @bowel-obstruction-volvulus
+- Diabetic ketoacidosis @diabetic-ketoacidosis
+- Acute pancreatitis @acute-pancreatitis
+- Acute appendicitis @acute-appendicitis
+- Digoxin toxicity @digoxin-toxicity
+
+@redflags
+- Bilious or bloody vomiting
+- Severe headache or neurologic deficit
+- Inability to tolerate fluids with dehydration
+
 @cc diarrhea
 name: Diarrhea
 name_fa: اسهال
+
+@cantmiss
+- Clostridium difficile colitis @clostridium-difficile-colitis
+- Severe dehydration @hypovolemia-dehydration
+- Inflammatory bowel disease flare @ulcerative-colitis
+
+@redflags
+- Bloody stool with fever
+- Severe dehydration
+- Recent antibiotics
 
 @cc gi-bleeding
 name: GI bleeding
 name_fa: خونریزی گوارشی
 
+@cantmiss
+- Upper GI bleeding @upper-gi-bleeding
+- Ruptured AAA / aortoenteric fistula @abdominal-aortic-aneurysm
+- Anticoagulant-related bleeding @warfarin-over-anticoagulation
+
+@redflags
+- Hematemesis or melena with hypotension
+- Anticoagulant use
+- Cirrhosis / varices
+
 @cc anorectal
 name: Rectal or anal complaint
 name_fa: مشکل مقعدی
+
+@cantmiss
+- Perirectal abscess @anorectal-abscess-fistula
+- Bowel obstruction @bowel-obstruction-volvulus
+
+@redflags
+- Fever with perianal pain
+- Retained rectal foreign body
 
 @cc jaundice
 name: Jaundice
 name_fa: زردی
 
+@cantmiss
+- Acute cholecystitis / cholangitis @biliary-disease-cholecystitis
+- Acute hepatitis @acute-hepatitis
+- Cirrhosis decompensation @cirrhosis-complications
+
+@redflags
+- Fever with RUQ pain
+- Altered mental status
+- Coagulopathy
+
 @cc urinary-symptoms
 name: Urinary symptoms
 name_fa: علائم ادراری
+
+@cantmiss
+- Pyelonephritis / urosepsis @urinary-tract-infection
+- Acute urinary retention @acute-urinary-retention
+- Acute kidney injury @acute-kidney-injury
+- Cauda equina syndrome @epidural-compression-cauda-equina
+
+@redflags
+- Fever with flank pain
+- Anuria
+- Saddle anesthesia
 
 @cc flank-pain
 name: Flank pain
 name_fa: درد پهلو
 
+@cantmiss
+- Ruptured AAA / aneurysm @nonaortic-artery-aneurysm
+- Renal colic with infection @renal-colic-urolithiasis
+- Pyelonephritis @urinary-tract-infection
+
+@redflags
+- Fever with obstruction
+- Hypotension
+- Solitary kidney
+
 @cc genital-complaint
 name: Scrotal, penile or genital complaint
 name_fa: مشکل بیضه یا تناسلی
+
+@cantmiss
+- Testicular torsion @testicular-torsion
+- Fournier gangrene @scrotal-abscess-fournier
+- Pelvic inflammatory disease @pelvic-inflammatory-disease
+- Priapism @sickle-cns-priapism-peds
+
+@redflags
+- Acute scrotal pain < 6 h
+- Crepitus / rapidly spreading erythema
 
 @cc vaginal-bleeding
 name: Vaginal bleeding or pelvic pain
 name_fa: خونریزی واژینال یا درد لگن
 
+@cantmiss
+- Ectopic pregnancy @ectopic-pregnancy
+- Bleeding in late pregnancy (abruption / previa) @bleeding-late-pregnancy
+- Postpartum hemorrhage @postpartum-hemorrhage
+- Spontaneous abortion @abortion-first-trimester
+
+@redflags
+- Hypotension
+- Positive pregnancy test with pain
+- Soaking > 1 pad / hour
+
 @cc pregnancy
 name: Pregnancy-related problem
 name_fa: مشکلات بارداری
+
+@cantmiss
+- Ectopic pregnancy @ectopic-pregnancy
+- Preeclampsia / eclampsia @preeclampsia-eclampsia
+- Bleeding in late pregnancy @bleeding-late-pregnancy
+- Trauma in pregnancy @trauma-pregnancy
+
+@redflags
+- BP ≥ 140/90 with headache or visual change
+- Vaginal bleeding
+- Decreased fetal movement
 
 @cc fever
 name: Fever or suspected infection
 name_fa: تب یا عفونت
 
+@cantmiss
+- Sepsis @sepsis-adult
+- Bacterial meningitis @meningitis-adult
+- Necrotizing soft-tissue infection @necrotizing-soft-tissue-infection
+- Infective endocarditis @infective-endocarditis
+- Febrile neutropenia @febrile-neutropenia
+- Toxic shock syndrome @staphylococcal-toxic-shock
+- Malaria (travel) @malaria
+
+@redflags
+- Hypotension / lactate
+- Neck stiffness or petechiae
+- Immunocompromised host
+- Recent travel
+
 @cc rash
 name: Rash or skin complaint
 name_fa: بثورات پوستی
+
+@cantmiss
+- Anaphylaxis @anaphylaxis
+- Meningococcemia @meningococcemia-adult
+- Stevens-Johnson / TEN @toxic-epidermal-necrolysis
+- Necrotizing soft-tissue infection @necrotizing-soft-tissue-infection
+- Rocky Mountain spotted fever @tick-borne-rmsf-ehrlichiosis
+- Toxic shock syndrome @staphylococcal-toxic-shock
+
+@redflags
+- Fever with petechiae or purpura
+- Mucosal involvement
+- Pain out of proportion
+- Hypotension
 
 @cc wound-bite
 name: Wound, bite or foreign body
 name_fa: زخم، گزیدگی یا جسم خارجی
 
+@cantmiss
+- Necrotizing soft-tissue infection @necrotizing-soft-tissue-infection
+- Tendon / neurovascular injury @flexor-tendon-laceration
+- Rabies exposure @rabies-exposure
+- Tetanus @tetanus
+- Envenomation @pit-viper-bite
+
+@redflags
+- Deep or penetrating wound
+- Loss of sensation / motor function
+- Signs of infection
+
 @cc eye
 name: Eye complaint
 name_fa: مشکل چشمی
+
+@cantmiss
+- Acute angle-closure glaucoma @acute-angle-closure-glaucoma
+- Central retinal artery occlusion @central-retinal-artery-occlusion
+- Retinal detachment @retinal-detachment
+- Ruptured globe @orbital-blowout-fracture-ruptured-globe
+- Chemical eye injury @chemical-eye-injury
+- Endophthalmitis @endophthalmitis
+- Giant cell arteritis @temporal-arteritis-vision
+
+@redflags
+- Sudden vision loss
+- Chemical exposure
+- Severe pain with halos and nausea
 
 @cc ent
 name: Ear, nose, throat or mouth complaint
 name_fa: مشکل گوش، بینی، حلق یا دهان
 
+@cantmiss
+- Epiglottitis @epiglottitis-adult
+- Deep neck space infection / Ludwig angina @odontogenic-neck-abscess-ludwig
+- Retropharyngeal abscess @retropharyngeal-abscess-adult
+- Angioedema @angioedema
+- Epistaxis (hemodynamically significant) @epistaxis
+
+@redflags
+- Stridor, drooling, trismus
+- Muffled voice
+- Neck swelling
+
 @cc back-neck-pain
 name: Back or neck pain
 name_fa: کمردرد یا گردن‌درد
+
+@cantmiss
+- Aortic dissection / AAA @aortic-dissection
+- Cauda equina / epidural compression @epidural-compression-cauda-equina
+- Spinal epidural abscess @spinal-epidural-abscess
+- Malignant spinal cord compression @malignant-spinal-cord-compression
+- Cervical spine injury @cervical-spine-injury-clearance
+
+@redflags
+- Saddle anesthesia or urinary retention
+- Fever + IV drug use
+- History of cancer
+- Progressive neurologic deficit
 
 @cc joint-limb-pain
 name: Joint, limb or musculoskeletal pain
 name_fa: درد مفصل و اندام
 
+@cantmiss
+- Septic arthritis @septic-arthritis
+- Acute limb ischemia @acute-limb-ischemia
+- Compartment syndrome @compartment-syndrome
+- Necrotizing infection @necrotizing-soft-tissue-infection
+- Rhabdomyolysis @rhabdomyolysis
+
+@redflags
+- Hot swollen joint with fever
+- Pulseless limb
+- Pain out of proportion
+
 @cc trauma-major
 name: Major trauma
 name_fa: تروما
+
+@cantmiss
+- Tension pneumothorax @tension-pneumothorax-traumatic
+- Hemorrhagic shock @massive-hemorrhage-transfusion
+- Cardiac tamponade @cardiac-trauma-tamponade-thoracotomy
+- Aortic injury @blunt-aortic-great-vessel-injury
+- Spinal cord injury @spinal-cord-injury
+- Intracranial hemorrhage @head-trauma-moderate-severe
+
+@redflags
+- Hypotension, tachycardia
+- GCS ≤ 13
+- Penetrating torso injury
+- Unstable pelvis
 
 @cc head-injury
 name: Head, face or neck injury
 name_fa: ضربه سر، صورت یا گردن
 
+@cantmiss
+- Intracranial hemorrhage @head-trauma-moderate-severe
+- Cervical spine injury @cervical-spine-injury-clearance
+- Skull fracture / penetrating injury @skull-fracture-penetrating-head-injury
+
+@redflags
+- GCS decline, vomiting, seizure
+- Anticoagulation
+- Age > 65
+
 @cc limb-injury
 name: Limb or joint injury
 name_fa: آسیب اندام یا مفصل
+
+@cantmiss
+- Acute limb ischemia / vascular injury @extremity-vascular-trauma
+- Compartment syndrome @compartment-syndrome
+- Open fracture @orthopedic-injury-general
+- Hip dislocation @hip-dislocation
+- Knee dislocation @knee-dislocation
+
+@redflags
+- Pulse deficit
+- Pain with passive stretch
+- Exposed bone
 
 @cc burn-electrical
 name: Burn or electrical injury
 name_fa: سوختگی یا برق‌گرفتگی
 
+@cantmiss
+- Thermal burn (airway / large TBSA) @thermal-burn
+- Electrical injury @electrical-injury
+- Chemical burn @chemical-burn
+
+@redflags
+- Facial burns, singed hairs, stridor
+- Circumferential burns
+- TBSA > 10–15%
+
 @cc poisoning
 name: Poisoning or overdose
 name_fa: مسمومیت یا مصرف بیش از حد دارو
+
+@cantmiss
+- Acetaminophen toxicity @acetaminophen-toxicity
+- Opioid overdose @opioid-overdose
+- Salicylate toxicity @salicylate-toxicity
+- Toxic alcohols @toxic-alcohol-methanol-ethylene-glycol
+- Organophosphate poisoning @organophosphate-poisoning
+- Carbon monoxide / cyanide @carbon-monoxide-poisoning
+- Calcium-channel / beta-blocker toxicity @calcium-channel-blocker-toxicity
+
+@redflags
+- Intentional ingestion
+- Unknown ingestion with altered mentation
+- Hemodynamic instability or QRS widening
 
 @cc environmental
 name: Heat, cold, drowning, altitude or diving
 name_fa: گرما، سرما، غرق‌شدگی، ارتفاع یا غواصی
 
+@cantmiss
+- Heat stroke @heat-stroke
+- Accidental hypothermia @accidental-hypothermia
+- Drowning @drowning-submersion
+- High-altitude pulmonary / cerebral edema @hape
+- Decompression illness @decompression-illness-dive
+
+@redflags
+- Core temperature extremes
+- Altered mental status
+- Dyspnea at altitude
+
 @cc bleeding-bruising
 name: Bleeding or bruising
 name_fa: خونریزی یا کبودی
+
+@cantmiss
+- Massive hemorrhage @massive-hemorrhage-transfusion
+- DIC @dic-and-circulating-anticoagulant
+- Anticoagulant-related bleeding @warfarin-over-anticoagulation
+- Hemophilia bleeding @hemophilia-bleeding
+
+@redflags
+- Hemodynamic instability
+- Intracranial or airway bleed
+- Anticoagulant use
 
 @cc metabolic
 name: Diabetes, electrolyte or endocrine problem
 name_fa: دیابت، الکترولیت یا غدد
 
+@cantmiss
+- Diabetic ketoacidosis @diabetic-ketoacidosis
+- Hyperkalemia @hyperkalemia
+- Hyponatremia @hyponatremia
+- Adrenal crisis @adrenal-crisis
+- Thyroid storm @thyroid-storm
+- Hypoglycemia @hypoglycemia-diabetic
+- Tumor lysis syndrome @tumor-lysis-syndrome
+
+@redflags
+- Altered mental status
+- ECG changes with electrolyte abnormality
+- pH < 7.2
+
 @cc behavioral
 name: Agitation or behavioral emergency
 name_fa: آژیتاسیون یا مشکل رفتاری
+
+@cantmiss
+- Delirium (medical cause) @delirium
+- Suicidal ideation / attempt @psychiatric-emergency-evaluation
+- Intoxication / withdrawal @agitation-management
+- Panic disorder (diagnosis of exclusion) @panic-disorder
+
+@redflags
+- Age > 45 new onset
+- Abnormal vital signs
+- Focal neurologic deficit
+- Suicidal or homicidal intent
 
 @cc abuse-assault
 name: Abuse or assault
 name_fa: آزار یا تعرض
 
+@cantmiss
+- Child abuse @child-abuse-neglect
+- Sexual assault @sexual-assault
+- Intimate partner violence @intimate-partner-violence
+- Elder abuse @elder-abuse
+
+@redflags
+- Injury inconsistent with history
+- Strangulation
+- Pregnancy
+
 @cc pediatric-fever
 name: Child: fever or ill-appearing infant
 name_fa: کودک: تب یا نوزاد بدحال
+
+@cantmiss
+- Serious bacterial infection (neonate) @pediatric-fever-sbi
+- Pediatric sepsis @pediatric-sepsis
+- Bacterial meningitis @pediatric-meningitis
+- Kawasaki disease @kawasaki-disease
+- Meningococcemia @meningococcemia-peds
+
+@redflags
+- Age < 28 days with fever
+- Petechiae / non-blanching rash
+- Lethargy or poor perfusion
 
 @cc pediatric-respiratory
 name: Child: breathing problem, stridor or wheeze
 name_fa: کودک: مشکل تنفسی
 
+@cantmiss
+- Epiglottitis @epiglottitis
+- Foreign body aspiration @airway-foreign-body-peds
+- Bacterial tracheitis @bacterial-tracheitis
+- Severe asthma / bronchiolitis @asthma-peds
+
+@redflags
+- Stridor at rest, drooling
+- Apnea or cyanosis
+- Retractions with exhaustion
+
 @cc pediatric-gi
 name: Child: vomiting, diarrhea or abdominal pain
 name_fa: کودک: استفراغ، اسهال یا درد شکم
+
+@cantmiss
+- Intussusception @intussusception
+- Malrotation / volvulus @pediatric-abdominal-surgical-infant
+- Severe dehydration @dehydration-electrolytes-peds
+- Hemolytic uremic syndrome @hus-peds
+
+@redflags
+- Bilious emesis
+- Currant-jelly stool
+- Lethargy
 
 @cc pediatric-other
 name: Child: other presentations
 name_fa: کودک: سایر
 
+@cantmiss
+- Child abuse @child-abuse-neglect
+- Congenital heart disease with shock @congenital-heart-cyanosis-shock
+- Neonatal sepsis @neonatal-metabolic-cardiac-nat
+- DKA @dka-peds
+- Hypoglycemia @hypoglycemia-metabolic-peds
+
+@redflags
+- Poor perfusion
+- Altered mental status
+- Injury inconsistent with history
+
 @cc airway-procedure
 name: Airway, sedation or procedure
 name_fa: راه هوایی، آرام‌بخشی یا پروسیجر
 
+@cantmiss
+- Failed airway @failed-airway-surgical
+- Tracheostomy complications @tracheostomy-complications
+- Airway foreign body @airway-foreign-body-peds
+
+@redflags
+- Anticipated difficult airway
+- Unable to ventilate
+
 @cc palliative
 name: Palliative or end-of-life care
 name_fa: مراقبت تسکینی
+
+@cantmiss
+- Reversible acute illness @palliative-care-goals
+- Uncontrolled symptoms @palliative-symptom-management
+
+@redflags
+- Uncontrolled pain or dyspnea
+- Family distress / conflict

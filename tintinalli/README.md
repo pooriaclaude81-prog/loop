@@ -1,5 +1,10 @@
 # Tintinalli-based orders (separate from the legacy site)
 
+**Coverage:** all 189 chapters of *Tintinalli's Emergency Medicine Manual, 8th ed.* (578 conditions, 1013 variants, 47 chief complaints).
+Everything is **draft, pending physician review**. Orders restate what the book says in the ED order format; doses and drug names are the book's own.
+Where the printed text has an apparent typo (e.g. albumin "mg/L", rifabutin "mg/kg", hydrocortisone "g", fibrinogen "mL/kg", "propylene glycol" for the laxative) the order carries the book's wording and the discrepancy is flagged for the reviewer.
+The chief-complaint can't-miss lists in `data/cc.txt` are a provisional clinical curation, not text from the book.
+
 Open `tintinalli/` on the site. Everything here is independent of `legacy.html` and `content/`.
 
 ## Build and check
@@ -10,7 +15,7 @@ node tools/tn-build.js --check  # validate only (errors fail, warnings do not)
 `dist/` is committed so GitHub Pages can serve it without a build step.
 
 ## Files
-- `data/sections.txt`: `id | English | Farsi` (provisional until the book's table of contents is used)
+- `data/sections.txt`: `id | English | Farsi` (23 sections following the Manual's table of contents)
 - `data/cc.txt`: chief complaints with can't-miss lists and red flags
 - `data/drugs.txt`: automatic safety flags (high-alert, renal) matched on order text
 - `data/conditions/<id>.txt`: one condition per file (format below). Files starting with `_` are ignored.
@@ -23,7 +28,7 @@ name: Acute coronary syndrome (ACS)
 name_fa: سندرم حاد کرونری
 cc: chest-pain, dyspnea            (ids from cc.txt)
 keywords: MI, STEMI, سکته قلبی
-source: Tintinalli 9e, Ch. 51, p. ...
+source: Tintinalli's Emergency Medicine Manual, 8th ed., Ch. 51
 status: draft                      (demo | draft | reviewed; reviewed needs reviewer: and reviewed: date)
 
 @features / @ddx / @redflags / @pearls     "- " bullets (Farsi, English terms inline)
