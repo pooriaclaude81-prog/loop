@@ -1,0 +1,264 @@
+@cond traveler-fever-arboviral
+ch: 98
+name: Febrile returning traveler: dengue, chikungunya, Zika, yellow fever, Crimean-Congo hemorrhagic fever
+name_fa: مسافر تب‌دار بازگشته: دنگی، چیکونگونیا، زیکا، تب زرد، تب هموراژیک کریمه-کنگو
+cc: fever, rash
+keywords: returning traveler, dengue, chikungunya, Zika virus, yellow fever, Crimean-Congo hemorrhagic fever, ribavirin, travel history, دنگی, زیکا, چیکونگونیا, مسافر
+status: draft
+
+@features
+- نهفتگی بیماری‌ها اغلب بیش از مدت اقامت؛ علائم پس از بازگشت؛ بپرس: بازدید پارک حیات‌وحش، مزرعه، غار، مراکز درمانی، غذاهای عجیب، تماس با آب شیرین/شور، گزش حشره، فعالیت جنسی، اپیدمی گزارش‌شده، تماس با بیمار، واکسن و آنتی‌بیوتیک پروفیلاکتیک قبل از سفر؛ زمان‌بندی تب
+- جدول 98-1 منطقه‌ای: آفریقا (مالاریا، HIV، TB، بروسلوز، تب زرد، لاسا/ابولا، تب راجعه، شیستوزومیازیس...)؛ آمریکای مرکزی/جنوبی (مالاریا، دنگی، Chagas، تیفوس، زیکا)؛ مکزیک/کارائیب (دنگی، سیستی‌سرکوز، آمیبیاز، زیکا)؛ استرالیا/نیوزیلند (دنگی، Q fever، Japanese encephalitis)؛ خاورمیانه (مالاریا، سیاه‌زخم، بروسلوز)؛ اروپا (ژیاردیازیس، لایم، babesiosis)؛ چین/شرق آسیا (دنگی، مالاریا، Japanese encephalitis، تب هموراژیک)
+- یافته‌های فیزیکی (جدول 98-2): راش (دنگی، تیفوس، سیفلیس، ابولا، چیکونگونیا، HIV، زیکا)؛ ایکتر (هپاتیت، مالاریا، تب زرد، لپتوسپیروز)؛ آدنوپاتی؛ هپاتومگالی؛ اسپلنومگالی؛ eschar (تیفوس، borreliosis، CCHF، سیاه‌زخم)؛ خونریزی (Lassa/Marburg/Ebola، CCHF، منینگوکوکسمی)
+- آزمایش: CBC با دیفرانسیل: لنفوپنی (دنگی، HIV، تیفوئید)، ائوزینوفیلی (انگل و قارچ)، ترومبوسیتوپنی (مالاریا، دنگی، HIV حاد، تیفوئید)؛ اسمیر خون و آنتی‌ژن مالاریا؛ UA: پروتئینوری و هماچوری در لپتوسپیروز؛ LFT در ایکتر؛ CXR با علائم تنفسی؛ سونو کبد در شک آبسه آمیبی
+- دنگی: ناقل Aedes aegypti؛ نهفتگی 4 تا 7 روز؛ تب بالا، سردرد، تهوع، استفراغ، میالژی و راش؛ دنگی هموراژیک: تب بالا، نفوذپذیری عروقی، خونریزی، هپاتومگالی و شوک؛ تشخیص: PCR (روز 1 تا 8) یا IgM ELISA (بعد از 4 روز)
+- چیکونگونیا: آربوویروس؛ Aedes aegypti و albopictus؛ مشابه دنگی با آرترالژی منتشر که در 5% تا 30% به آرتروپاتی مزمن می‌رسد؛ PCR روز 1 تا 4 یا IgM بعد از 5 روز
+- زیکا: Aedes؛ تب، راش، درد مفصل و ملتحمه؛ معمولاً خفیف < 1 هفته؛ GBS و میکروسفالی مادرزادی
+- تب زرد: فلاویویروس با پشه روزگزنده؛ کمربند استوایی؛ 15٪ شدید با مرگ 20٪ تا 50٪؛ نهفتگی 3 تا 6 روز؛ تب، سردرد، میالژی، ملتحمه، درد شکم، گُرگرفتگی صورت و برادی‌کاردی نسبی؛ سپس ایکتر، استفراغ سیاه و آلبومینوری؛ شدید: شوک و خونریزی
+- CCHF: ویروس منتقله با کنه (آفریقا، آسیا، اروپای شرقی، خاورمیانه)؛ کشاورزان؛ تماس با خون؛ شروع ناگهانی تب، سردرد، میالژی، سرگیجه و گیجی؛ روز 3 تا 5 دوره هموراژیک (epistaxis، هموپتزی، GI، واژینال، هماچوری)؛ ترومبوسیتوپنی، آنزیم کبد/کراتینین بالا، PT/aPTT طولانی
+
+@ddx
+- !Malaria |
+- !Viral hemorrhagic fever (Ebola, Lassa, CCHF) |
+- !Typhoid fever / meningococcemia |
+- Dengue / chikungunya / Zika / yellow fever |
+- Leptospirosis / rickettsial infection / acute HIV |
+
+@redflags
+- خونریزی، شوک، افت پلاکت/هموگلوبین، تغییر هوشیاری، ایکتر با تب
+
+@guide
+دنگی: درمان حمایتی؛ خفیف سرپایی با مایع خوراکی و پیگیری آزمایش خون؛ از آسپیرین و NSAID پرهیز؛ شمارش خون روزانه؛ بستری: افت Hb یا پلاکت، علائم هموراژیک یا علائم حیاتی غیرطبیعی. چیکونگونیا: حمایتی (استراحت، مایع، NSAID برای درد/تب)؛ واکسن و دارو ندارد؛ پرهیز از گزش پشه در هفته اول. زیکا: حمایتی؛ بدون ضدویروس. تب زرد: حمایتی با ترانسفوزیون در صورت نیاز. CCHF: حمایتی (ترانسفوزیون/حمایت تنفسی)؛ متوسط تا شدید: ribavirin. مالاریا: اسمیر و تست آنتی‌ژن (فصل ۹۵).
+
+@variant traveler-fever-undifferentiated
+name: Febrile returning traveler (undifferentiated)
+level: II
+imp: Fever in a returning traveler
+cond: Urgent
+act: CBR
+diet: PO
+ecg: once
+cxr: PA
+
+@scenario
+مردی ۳۰ ساله ۱۰ روز پس از بازگشت از آسیای جنوب‌شرقی با تب بالا، سردرد، میالژی و راش.
+
+@why
+مالاریا را رد کن؛ دنگی و سایر عفونت‌های مسافرتی؛ بستری بر اساس هشدارها.
+
+@I
+- Chest radiograph if respiratory symptoms; liver ultrasound if amebic liver abscess suspected
+
+@L
+- CBC with differential and platelets (lymphopenia, eosinophilia, thrombocytopenia), blood smear and malaria antigen dipstick, liver function tests if jaundice, urinalysis; dengue PCR (1 to 8 days from onset) or IgM ELISA (after 4 days); chikungunya PCR (1 to 4 days) or IgM (after 5 days); daily blood counts for dengue
+
+@S
+- Oral hydration as tolerated (mild dengue) {ci: avoid aspirin and NSAIDs in dengue}
+
+@T
+- Supportive therapy for dengue, chikungunya (rest, fluids, NSAIDs for pain/fever; avoid further mosquito exposure in the first week), Zika and yellow fever (transfusion as needed) {note: no specific antiviral treatment}
+- Crimean-Congo hemorrhagic fever: supportive care, transfusions or respiratory support if severe; Ribavirin for moderate to severe illness {note: dose not given in the book}
+
+@Co
+- Admit for drop in hemoglobin or platelets, hemorrhagic symptoms or abnormal vital signs; infectious disease; isolation if hemorrhagic fever suspected
+
+@cond enteric-rickettsial-lepto-brucella
+ch: 98
+name: Typhoid fever, rickettsial/louse-borne typhus, leptospirosis and brucellosis in travelers
+name_fa: تب تیفوئید، ریکتزیوز/تیفوس شپشی، لپتوسپیروز و بروسلوز در مسافران
+cc: fever, rash, abdominal-pain
+keywords: typhoid fever, enteric fever, Salmonella typhi, rose spots, scrub typhus, African tick typhus, louse-borne typhus, leptospirosis, brucellosis, ceftriaxone, doxycycline, تیفوئید, تیفوس
+status: draft
+
+@features
+- تیفوئید (S. typhi/paratyphi): غذای/آب آلوده یا تماس با ادرار/مدفوع؛ نهفتگی 1 تا 3 هفته؛ > 10 روز؛ تب با سردرد → تب بالا با لرز، سرفه، اتساع شکم، میالژی، یبوست و prostration؛ برادی‌کاردی نسبی (اغلب نیست)؛ rose spots روی تنه؛ عوارض: زخم روده کوچک، آنمی، DIC، پنومونی، مننژیت، میوکاردیت و نارسایی کلیه؛ تشخیص بالینی و کشت مدفوع
+- بروسلوز: تماس با گاو، بز، شتر، سگ، خوک یا خوردن لبنیات غیرپاستوریزه؛ تب، درد شکم، کمردرد، خستگی، سردرد، درد مفصل؛ تب راجعه یا مزمن خفیف؛ آدنوپاتی، هپاتواسپلنومگالی و آرتریت سپتیک؛ کشت خون/سرولوژی
+- ریکتزیوزهای تب خال‌دار: گزش/مدفوع کنه؛ مرگ بدون درمان تا 25٪؛ scrub typhus (آسیای جنوب‌شرقی) و African tick typhus (آفریقا)؛ نهفتگی 3 تا 14 روز؛ تب، ناخوشی، میالژی، سردرد شدید، راش، تهوع و استفراغ سپس آدنوپاتی و اسپلنومگالی؛ eschar سیاه در scrub typhus
+- تیفوس شپشی اپیدمیک (R. prowazekii): مکزیک، گواتمالا، اتیوپی، هیمالیا؛ نهفتگی 8 تا 12 روز؛ تب بالا، سردرد شدید و راش ماکولوپاپولار روز 4 تا 7
+- لپتوسپیروز: آب شیرین یا سگ آلوده؛ نهفتگی 2 تا 20 روز؛ تب بالا، سردرد شدید، لرز، میالژی، هپاتیت و ملتحمه؛ سرولوژی
+
+@ddx
+- !Typhoid fever with intestinal perforation |
+- !Rickettsial infection (treatable, fatal if untreated) |
+- Leptospirosis / Weil disease |
+- Brucellosis / malaria |
+- Dengue / viral hepatitis |
+
+@redflags
+- شوک، DIC، دلیریوم/کما، خونریزی گوارشی/پرفوراسیون
+
+@guide
+تیفوئید: ceftriaxone 2 g IV یا IM 14 روز یا ciprofloxacin 500 تا 750 mg PO دو بار روزانه 14 روز؛ شدید با دلیریوم/کما/شوک/DIC: دوز اولیه dexamethasone 3 mg/kg IV؛ ترانسفوزیون در صورت نیاز. بروسلوز: مشاوره عفونی؛ doxycycline، rifampicin، streptomycin یا gentamicin 2 هفته. ریکتزیوز و تیفوس شپشی: درمان تجربی با doxycycline 100 mg دو بار روزانه 7 تا 10 روز سپس تأیید سرولوژی. لپتوسپیروز: خفیف طی 3 روز از علائم: amoxicillin 500 mg سه بار روزانه یا doxycycline 100 mg دو بار روزانه؛ شدید: penicillin G 5 MU IV هر 6 ساعت یا ceftriaxone 1 g IV/IM روزانه 7 تا 14 روز.
+
+@variant typhoid-main
+name: Typhoid (enteric) fever
+level: II
+imp: Typhoid fever
+cond: Urgent
+act: CBR
+diet: PO
+ecg: once
+cxr: none
+
+@scenario
+زنی ۳۰ ساله ۲ هفته پس از بازگشت از هند با تب 39.5 یک‌هفته‌ای، سردرد، درد شکم و یبوست.
+
+@why
+تیفوئید با سفتریاکسون یا سیپروفلوکساسین 14 روز؛ دگزامتازون در شدید.
+
+@L
+- Stool culture (confirmation); blood cultures; CBC {note: blood cultures/CBC not specified in this chapter beyond travel workup}
+
+@A
+- Ceftriaxone 2 g IV or IM for 14 days, or Ciprofloxacin 500 to 750 mg PO twice daily for 14 days
+
+@T
+- Severe typhoid with delirium, coma, shock or DIC: initial dose of Dexamethasone 3 mg/kg IV; blood transfusion in severe cases
+
+@Co
+- Admit if severe; infectious disease
+
+@variant rickettsial-lepto-brucella-main
+name: Rickettsial infection / leptospirosis / brucellosis in a traveler
+level: II
+imp: Rickettsial infection / leptospirosis / brucellosis
+cond: Urgent
+act: CBR
+diet: PO
+ecg: once
+cxr: none
+
+@scenario
+مردی ۳۵ ساله بازگشته از آفریقا با تب، سردرد شدید، eschar سیاه روی ساق و راش.
+
+@why
+ریکتزیوز: داکسی‌سایکلین تجربی؛ لپتوسپیروز با ریسک آب شیرین.
+
+@L
+- Serologic tests to confirm diagnosis after empiric treatment (rickettsial, leptospirosis, brucellosis); blood culture (brucellosis); urinalysis (proteinuria, hematuria in leptospirosis)
+
+@A
+- Rickettsial spotted fevers / louse-borne typhus: Doxycycline 100 mg twice daily for 7 to 10 days
+- Leptospirosis: mild (within 3 days of symptoms) Amoxicillin 500 mg three times daily or Doxycycline 100 mg twice daily; severe Penicillin G 5 MU IV every 6 hours, or Ceftriaxone 1 g IV or IM daily for 7 to 14 days
+- Brucellosis: doxycycline, rifampicin, streptomycin or gentamicin for 2 weeks (consult infectious disease) {note: doses not given in this chapter}
+
+@Co
+- Infectious disease
+
+@cond traveler-parasitic-diseases
+ch: 98
+name: Tropical parasitic diseases in travelers (cysticercosis, trypanosomiasis, Chagas, leishmaniasis, schistosomiasis, amebiasis, helminths)
+name_fa: بیماری‌های انگلی گرمسیری در مسافران (سیستی‌سرکوز، تریپانوزومیازیس، Chagas، لیشمانیوز، شیستوزومیازیس، آمیبیاز، کرم‌ها)
+cc: fever, diarrhea, seizure
+keywords: neurocysticercosis, praziquantel, African trypanosomiasis, Chagas disease, visceral leishmaniasis, schistosomiasis, amebiasis, metronidazole, ascariasis, pinworm, hookworm, tapeworm, albendazole, mebendazole, انگل گرمسیری
+status: draft
+
+@features
+- سیستی‌سرکوز: لارو کیست کرم نواری خوک؛ نورو: علت شایع تشنج جهانی؛ سردرد، تغییر بینایی/هوشیاری، سکته، مننگوآنسفالیت، هیدروسفالی انسدادی؛ CT بدون کنتراست: کلسیفیکاسیون
+- تریپانوزومیازیس آفریقایی (T. brucei): مگس تسه‌تسه؛ شانکر بدون درد 2 تا 3 روز بعد؛ تب متناوب، ناخوشی، راش؛ CNS: تغییرات رفتاری و عصبی تا کما؛ تشخیص با اسمیر خون سریع؛ مشاوره عفونی (pentamidine یا سایر)
+- Chagas (T. cruzi): آمریکای لاتین تا تگزاس؛ حشره «kissing bug»؛ فاز حاد: ادم یک‌طرفه دور چشم یا chagoma؛ سپس پارازیتمی با آدنوپاتی و هپاتواسپلنومگالی؛ تشخیص حاد: کشت یا اسمیر خون؛ مزمن: سرولوژی/بیوپسی؛ nifurtimox یا benznidazole با مشاوره عفونی
+- لیشمانیوز احشایی: ساس‌مگس؛ سربازان، مسافران ماجراجو؛ تب، کاهش وزن، هپاتواسپلنومگالی، پانسیتوپنی و هیپرگاماگلوبولینمی؛ sodium stibogluconate (از CDC) یا miltefosine
+- شیستوزومیازیس: لارو از حلزون در آب شیرین؛ درماتیت ماکولوپاپولار خارش‌دار ساق؛ 4 تا 8 هفته بعد: تب، سردرد، سرفه، کهیر، اسهال، هپاتواسپلنومگالی و ائوزینوفیلی؛ تخم در ادرار/مدفوع ظهر
+- آمیبیاز (E. histolytica): آسیا، آفریقا، آمریکای لاتین؛ نهفتگی 1 تا 3 هفته (کولیت)؛ مدفوع شل و کرامپ؛ اسهال خونی آمیبی؛ آبسه کبد: تب، درد RUQ؛ اوا و انگل مدفوع؛ سونو
+- آسکاریازیس: سرفه خشک/پنومونی، سوءتغذیه، انسداد روده؛ مدفوع/سرولوژی
+- Enterobius (سیرمک): خارش شدید مقعد؛ نوار چسب سلوفان
+- قلاب‌دار (Ancylostoma/Necator): درد شکم، آنمی شدید و cutaneous larva migrans
+- کرم نواری (Taenia solium/saginata/Diphyllobothrium): اسهال، درد شکم، انسداد؛ مدفوع/سرولوژی
+
+@ddx
+- !Neurocysticercosis (seizure) |
+- !Amebic liver abscess |
+- Visceral leishmaniasis / malaria |
+- Schistosomiasis / helminth infection |
+- Chagas disease / African trypanosomiasis |
+
+@redflags
+- تشنج یا تغییر هوشیاری، انسداد روده، آنمی شدید، پانسیتوپنی
+
+@guide
+سیستی‌سرکوز: praziquantel 17 mg/kg سه بار روزانه؛ استروئید در آنسفالیت، هیدروسفالی یا واسکولیت. شیستوزومیازیس: praziquantel 20 mg/kg دو دوز در یک روز (GI: سه دوز). آمیبیاز: metronidazole 500 تا 750 mg PO سه بار روزانه 10 روز. آسکاریازیس: mebendazole 100 mg PO روزانه 3 روز یا 500 mg تک‌دوز یا albendazole 400 mg تک‌دوز یا ivermectin 150 تا 200 μg/kg تک‌دوز. Enterobius: mebendazole 100 mg تک‌دوز و تکرار 2 هفته، albendazole 400 mg تک‌دوز و تکرار 2 هفته یا pyrantel pamoate 11 mg/kg (تا 1 g) تک‌دوز و تکرار 2 هفته. قلاب‌دار: albendazole 400 mg تک‌دوز یا mebendazole 100 mg دو بار روزانه 3 روز یا 500 mg تک‌دوز یا pyrantel pamoate 11 mg/kg (تا 1 g) روزانه 3 روز. کرم نواری: praziquantel 5 تا 10 mg/kg PO تک‌دوز. تریپانوزومیازیس/Chagas/لیشمانیوز: مشاوره عفونی.
+
+@variant parasitic-neuro-amebic
+name: Neurocysticercosis / amebiasis / schistosomiasis
+level: II
+imp: Tropical parasitic infection (neurocysticercosis / amebiasis / schistosomiasis)
+cond: Urgent
+act: CBR
+diet: PO
+ecg: once
+cxr: none
+
+@scenario
+مردی ۳۵ ساله مکزیکی با اولین تشنج و کلسیفیکاسیون‌های CT؛ یا مسافری با اسهال خونی و تب بعد از سفر.
+
+@why
+تشخیص و درمان اختصاصی هر انگل؛ CT بدون کنتراست در تشنج.
+
+@I
+- Noncontrast CT head (calcifications of inactive neurocysticercosis; hydrocephalus); liver ultrasound for amebic liver abscess
+
+@L
+- Stool for ova and parasites; midday urine/stool microscopy for schistosome eggs; CBC with eosinophilia; serology as indicated
+
+@T
+- Neurocysticercosis: Praziquantel 17 mg/kg three times daily; steroids for encephalitis, hydrocephalus or vasculitis
+- Schistosomiasis: Praziquantel 20 mg/kg, two doses in a single day (three doses in a single day with GI involvement)
+- Amebiasis: Metronidazole 500 to 750 mg PO three times daily for 10 days
+
+@Co
+- Infectious disease; neurology for seizures
+
+@variant parasitic-helminth-outpatient
+name: Intestinal helminths (ascariasis, pinworm, hookworm, tapeworm)
+level: III
+imp: Intestinal helminth infection
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+کودک ۸ ساله بازگشته از سفر با خارش شبانه شدید مقعد؛ یا مسافر با درد شکم و کرم در مدفوع.
+
+@why
+تک‌دوز ضد کرم مناسب؛ تأیید با مدفوع/نوار چسب.
+
+@L
+- Stool examination (and serology for ascariasis, tapeworm); cellophane tape swab of the anus for pinworm
+
+@A
+- Ascariasis: Mebendazole 100 mg PO daily for 3 days or 500 mg PO single dose, or Albendazole 400 mg PO single dose, or Ivermectin 150 to 200 μg/kg PO single dose
+- Enterobiasis: Mebendazole 100 mg PO single dose and repeat in 2 weeks, or Albendazole 400 mg PO single dose and repeat in 2 weeks, or Pyrantel pamoate 11 mg/kg (up to 1 g) PO single dose and repeat in 2 weeks
+- Hookworm: Albendazole 400 mg PO single dose, or Mebendazole 100 mg PO twice daily for 3 days or 500 mg PO single dose, or Pyrantel pamoate 11 mg/kg (up to 1 g) PO daily for 3 days
+- Tapeworm: Praziquantel 5 to 10 mg/kg PO single dose
+
+@Co
+- Outpatient follow-up
+
+@variant parasitic-protozoal-systemic
+name: Trypanosomiasis / Chagas disease / visceral leishmaniasis
+level: II
+imp: Systemic tropical protozoal infection (trypanosomiasis / Chagas disease / leishmaniasis)
+cond: Urgent
+act: CBR
+diet: PO
+ecg: once
+cxr: none
+
+@scenario
+مسافر ۴۰ ساله از آفریقا با شانکر بدون درد، تب متناوب و تغییرات رفتاری؛ یا فرد با تب، کاهش وزن، اسپلنومگالی و پانسیتوپنی پس از اقامت در ناحیه آندمیک.
+
+@why
+تشخیص با اسمیر خون یا سرولوژی؛ درمان اختصاصی با مشاوره عفونی.
+
+@L
+- Rapid blood smear for mobile parasites (African trypanosomiasis; Chagas acute phase: blood culture or smear); serology or tissue biopsy (chronic Chagas); CBC (pancytopenia in visceral leishmaniasis), hypergammaglobulinemia
+
+@A
+- African trypanosomiasis: Pentamidine or other agents {note: consult infectious disease; specific drug depends on type of infection}
+- Chagas disease: Nifurtimox, Benznidazole or other agents {note: consult infectious disease}
+- Visceral leishmaniasis: pentavalent antimonial compounds such as sodium stibogluconate (available through the CDC) or Miltefosine {note: doses not given in the book}
+
+@Co
+- Infectious disease; admit

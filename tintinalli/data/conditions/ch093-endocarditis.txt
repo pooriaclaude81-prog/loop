@@ -1,0 +1,64 @@
+@cond infective-endocarditis
+ch: 93
+name: Infective endocarditis
+name_fa: اندوکاردیت عفونی
+cc: fever, dyspnea, focal-neuro, chest-pain
+keywords: infective endocarditis, Duke criteria, vegetation, Osler nodes, Janeway lesions, blood cultures, vancomycin, gentamicin, nafcillin, echocardiography, اندوکاردیت
+status: draft
+
+@features
+- عفونت و آسیب اندوکارد با مرگ‌ومیر و عوارض بالا؛ شایع‌تر در دریچه مصنوعی، ناهنجاری ساختاری مادرزادی/اکتسابی، تزریق مواد، وسیله عروقی کاشته‌شده، بهداشت دهان بد، HIV، همودیالیز مزمن
+- شایع‌ترین عامل استافیلوکوک (دریچه طبیعی و مصنوعی)؛ استرپتوکوک و انتروکوک؛ کشت منفی تا 5٪؛ میترال شایع‌ترین دریچه سپس آئورت، تریکوسپید، پولمونیک؛ مصرف تزریقی: دریچه سمت راست
+- طیف از شروع حاد و فولمینانت (تب، سوفل جدید، نارسایی قلبی) تا موذی (ناخوشی و خستگی)؛ تب (80٪)، لرز، ضعف، تنگی نفس (40٪)، بی‌اشتهایی، سرفه؛ سوفل و تب شایع‌ترین یافته؛ یافته‌های پوستی کلاسیک (Osler، Janeway، پتشی، splinter) < 50٪
+- عوارض قلبی (نارسایی قلبی حدود 70٪ به علت تخریب دریچه یا پارگی کوردا؛ بلوک و دیس‌ریتمی)، عصبی (20% تا 40%: سکته ایسکمیک، آبسه مغز، خونریزی، آنوریسم قارچی، تشنج)، آمبولیک (ریه، طحال، روده، کلیه، ایسکمی حاد اندام)
+- تشخیص در ED دشوار (کشت خون، اکو و مشاهده بالینی)؛ تب بی‌علت با عوامل خطر؛ Duke criteria: ماژور: کشت مثبت با ارگانیسم تیپیک از دو کشت جدا (S. bovis، viridans، HACEK، S. aureus اکتسابی از جامعه یا انتروکوک بدون کانون اولیه) یا کشت پایدار؛ شواهد اکو (vegetation، آبسه، جدا شدن دریچه مصنوعی، رگورژیتاسیون جدید)؛ مینور: زمینه، تب > 38، پدیده‌های عروقی (آمبولی، لکه‌های ملتحمه، Janeway)، ایمونولوژیک (GN، Osler، Roth)، شواهد میکروبیولوژیک؛ قطعی: دو ماژور یا یک ماژور + سه مینور یا پنج مینور؛ ممکن: یک ماژور + یک مینور یا سه مینور
+- ارزیابی: سه ست کشت خون از سه محل جدا قبل از آنتی‌بیوتیک (ایده‌آل با فاصله 1 ساعت بین اول و آخر)؛ اکو (TTE سپس TEE حساس‌تر)؛ ECG، CXR، آزمایش: آنمی، هماچوری و ESR/CRP بالا
+
+@ddx
+- !Acute heart failure from valve destruction |
+- !Embolic stroke / mycotic aneurysm |
+- !Sepsis from another source |
+- Rheumatic fever / SLE |
+- Vasculitis / atrial myxoma |
+
+@redflags
+- نارسایی قلبی جدید، سوفل جدید، نقص عصبی، آمبولی محیطی، بلوک قلبی
+
+@guide
+1) ثبات راه هوایی/تنفس/گردش خون. 2) ادم ریه به علت پارگی دریچه چپ: کاهش afterload همراه درمان معمول نارسایی قلبی. 3) آنتی‌بیوتیک به‌محض گرفتن کشت‌ها (جدول 93-3): بدون عارضه: ceftriaxone 1–2 g IV یا nafcillin 2 g IV یا oxacillin 2 g IV یا vancomycin 15 mg/kg + gentamicin 1–3 mg/kg IV یا tobramycin 1 mg/kg IV. مصرف تزریقی مواد، CHD، بیمارستانی، MRSA مشکوک یا تحت آنتی‌بیوتیک خوراکی: nafcillin 2 g IV + gentamicin 1–3 mg/kg IV + vancomycin 15 mg/kg IV. دریچه مصنوعی: vancomycin 15 mg/kg IV + gentamicin 1–3 mg/kg IV + rifampin 300 mg PO. درمان قطعی بر اساس کشت: 4 تا 6 هفته. 4) بستری با تیم کاردیولوژی، عفونی و جراحی قفسه سینه. 5) پروفیلاکسی فقط پرخطرترین: سابقه IE، دریچه مصنوعی، نقص مادرزادی ترمیم‌نشده، پیوند قلب با رگورژیتاسیون.
+
+@pearls
+- سه ست کشت خون قبل از آنتی‌بیوتیک.
+
+@variant endocarditis-suspected
+name: Suspected infective endocarditis
+level: II
+imp: Suspected infective endocarditis
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: PA
+
+@scenario
+مرد ۳۵ ساله مصرف‌کننده تزریقی با تب 5 روزه، لرز، سوفل جدید و تنگی نفس.
+
+@why
+کشت‌های سه‌گانه قبل از آنتی‌بیوتیک؛ اکو؛ پوشش MRSA.
+
+@I
+- Transthoracic echocardiography (transesophageal echocardiography if inconclusive); chest radiograph; neuroimaging if neurologic signs
+
+@L
+- Three sets of blood cultures from three separate vascular sites before antibiotics, ideally with an hour elapsing between first and last; ESR/CRP, hematuria, anemia; urinalysis
+
+@A
+- Uncomplicated: Ceftriaxone 1–2 g IV, or Nafcillin 2 g IV, or Oxacillin 2 g IV, or Vancomycin 15 mg/kg plus Gentamicin 1–3 mg/kg IV or Tobramycin 1 mg/kg IV
+- Injection drug use, congenital heart disease, hospital-acquired, suspected MRSA, or already on oral antibiotics: Nafcillin 2 g IV plus Gentamicin 1–3 mg/kg IV plus Vancomycin 15 mg/kg IV
+- Prosthetic heart valve: Vancomycin 15 mg/kg IV plus Gentamicin 1–3 mg/kg IV plus Rifampin 300 mg PO {renal: aminoglycoside}
+
+@T
+- Pulmonary edema from left-sided valvular rupture: afterload reduction along with usual care for acute heart failure
+
+@Co
+- Admit; cardiology, infectious disease and thoracic surgery (team approach)

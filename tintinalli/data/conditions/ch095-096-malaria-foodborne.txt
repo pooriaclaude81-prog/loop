@@ -1,0 +1,209 @@
+@cond malaria
+ch: 95
+name: Malaria
+name_fa: مالاریا
+cc: fever, altered-mental-status
+keywords: malaria, Plasmodium falciparum, Plasmodium vivax, artemether-lumefantrine, chloroquine, primaquine, artesunate, quinidine, cerebral malaria, thick blood film, مالاریا
+status: draft
+
+@features
+- بیماری تک‌یاخته‌ای از نیش پشه Anopheles؛ پنج گونه: P. falciparum، P. vivax، P. ovale، P. malariae و P. knowlesi؛ مسافر اخیر از مناطق آندمیک با تب بی‌توضیح؛ > 50٪ موارد آمریکا از جنوب صحرای آفریقا؛ مقاومت P. falciparum به کلروکین و داروهای دیگر
+- دوره نهفتگی 1 تا 4 هفته (ممکن است ماه‌ها تا سال‌ها با پروفیلاکسی نسبی)؛ اولیه: ناخوشی، تب، لرز، میالژی و سردرد؛ سپس تب بالا با تعریق و خستگی؛ سیکل‌های منظم؛ vivax و ovale: hypnozoite نهفته و عود
+- معاینه: بیمار حاد، تب بالا، تاکی‌کاردی و تاکی‌پنه؛ اسپلنومگالی و تندرنس شکم؛ falciparum: هپاتومگالی، ادم و ایکتر؛ همولیز، آنمی، پارگی طحال
+- شدید (معمولاً falciparum): بی‌حالی، آنمی شدید، اسیدوز، هیپوگلیسمی، نارسایی کلیه، ARDS، ادم ریه، ایکتر، شوک، DIC؛ مالاریای مغزی: خواب‌آلودگی، کما، دلیریوم، تشنج؛ blackwater fever: همولیز داخل عروقی، هموگلوبینوری و نارسایی کلیه
+- تشخیص: سابقه مواجهه، علائم و اسمیر ضخیم و نازک خون (نازک برای شمارش پارازیتمی بالا؛ ضخیم برای کم)؛ ممکن است پارازیتمی اوایل غیرقابل‌تشخیص؛ در شک تکرار حداقل دو بار در روز (ترجیحاً در تب)؛ تست سریع حساس برای falciparum با پارازیتمی بالا و ضعیف برای بقیه
+- آزمایش: آنمی نرموکروم نرموسیتیک با همولیز، WBC نرمال یا کم، ترومبوسیتوپنی، ESR بالا، اختلال خفیف کبد و کلیه
+
+@ddx
+- !Cerebral malaria / severe falciparum malaria |
+- !Sepsis / meningitis |
+- Dengue / typhoid fever (travelers) |
+- Influenza / viral hemorrhagic fever |
+- Hepatitis A |
+
+@redflags
+- تغییر هوشیاری، آنمی شدید، هیپوگلیسمی، نارسایی کلیه، شوک، پارازیتمی بالا
+
+@guide
+درمان بر اساس شدت و گونه. falciparum بدون عارضه: بستری؛ ترجیح: ACT (artemether-lumefantrine: 4 قرص دو بار روزانه 3 روز؛ دوز اول و دوم حدود 8 ساعت فاصله؛ artesunate-amodiaquine در دسترس نیست در آمریکا)؛ جایگزین: atovaquone-proguanil (4 قرص بزرگسال روزانه 3 روز)، quinine sulfate 650 mg PO هر 8 ساعت 3 تا 7 روز + doxycycline 100 mg PO هر 12 ساعت 7 روز (یا clindamycin 7 mg/kg PO هر 8 ساعت 7 روز در کودک < 8 سال). CDC: chloroquine برای falciparum از مناطق با مقاومت پایین (آمریکای مرکزی غرب کانال پاناما، هائیتی، دومینیکن، بخشی از خاورمیانه). vivax، malariae، ovale (غیرپیچیده، اغلب سرپایی) و knowlesi (بستری): chloroquine: بزرگسال 600 mg base بار سپس 300 mg base بعد از 6 ساعت و 300 mg base روزانه 2 روز (کل 1550 mg base)؛ کودک 10 mg/kg base (حداکثر 600 mg) بار سپس 5 mg/kg base بعد از 6 ساعت و 5 mg/kg base روزانه 2 روز. primaquine phosphate بعد از بهبود کامل برای hypnozoite (vivax/ovale): بزرگسال 30 mg base روزانه 14 روز؛ کودک 0.5 mg/kg base 14 روز؛ پرهیز در کمبود G6PD (همولیز). شدید: artesunate 2.4 mg/kg IV در 0، 8 و 24 ساعت سپس روزانه (می‌تواند IM)؛ CDC 770-488-7788؛ یا quinidine gluconate 6.25 mg base/kg IV بار طی 2 ساعت (حداکثر 600 mg) سپس 0.0125 mg base/kg/min + doxycycline 2.2 mg/kg IV هر 12 ساعت 7 روز یا clindamycin 10 mg base/kg بار سپس 5 mg base/kg هر 8 ساعت 7 روز؛ quinine dihydrochloride جایگزین. حداقل 24 ساعت تزریقی؛ قند خون (quinidine/quinine هیپوگلیسمی)؛ ضعیف‌کننده میوکارد (بیماری قلبی ممنوع) و مانیتور قلبی؛ حمایت تهاجمی. خط تلفن CDC: 770-488-7788 (ساعات کاری) و 770-488-7100.
+
+@variant malaria-uncomplicated-falciparum
+name: Uncomplicated falciparum malaria
+level: II
+imp: Uncomplicated Plasmodium falciparum malaria
+cond: Urgent
+act: CBR
+diet: PO
+ecg: once
+cxr: none
+
+@scenario
+مردی ۳۵ ساله از آفریقا با تب و لرز دوره‌ای؛ اسمیر ضخیم P. falciparum؛ بدون علامت شدت.
+
+@why
+falciparum بدون عارضه: بستری و ACT؛ تکرار اسمیر در صورت منفی.
+
+@L
+- Thick and thin blood films (repeat at least twice daily, preferably during febrile episodes, if initially negative and malaria suspected); rapid diagnostic test; CBC (hemolysis, thrombocytopenia), blood glucose, liver and renal function
+
+@A
+- Artemether-lumefantrine (each tablet artemether 20 mg and lumefantrine 120 mg) 4 tablets twice daily for 3 days (first two doses about 8 h apart)
+- Alternatives to ACT: Atovaquone-proguanil (adult tablet atovaquone 250 mg/proguanil 100 mg) 4 tablets once daily for 3 days; or Quinine sulfate 650 mg PO every 8 h for 3–7 days plus Doxycycline 100 mg PO every 12 h for 7 days (or Clindamycin 7 mg/kg PO every 8 h for 7 days)
+- Chloroquine for P. falciparum from areas of low chloroquine resistance (Central America west of the Panama Canal, Haiti, Dominican Republic, parts of the Middle East) {note: dose options on CDC website}
+
+@Co
+- Admit; infectious disease; CDC malaria hotline 770-488-7788
+
+@variant malaria-vivax-ovale-malariae
+name: Uncomplicated vivax / ovale / malariae / knowlesi malaria
+level: III
+imp: Uncomplicated Plasmodium vivax / ovale / malariae malaria
+cond: Urgent
+act: RBR
+diet: PO
+ecg: once
+cxr: none
+
+@scenario
+زنی ۳۰ ساله از هند با تب سه‌روزه دوره‌ای؛ P. vivax؛ پایدار.
+
+@why
+chloroquine؛ primaquine برای hypnozoite بعد از بهبود با بررسی G6PD؛ knowlesi: بستری.
+
+@L
+- Thick and thin blood films; G6PD level before primaquine {note: G6PD testing not specified; primaquine avoided in G6PD deficiency}
+
+@A
+- Chloroquine adults: 600 mg base (= 1 g salt) loading dose, then 300 mg base (= 500 mg salt) in 6 hours, then 300 mg base per day for 2 days (total 1550 mg base); children: 10 mg/kg base (maximum 600 mg) loading dose, then 5 mg/kg base in 6 hours and 5 mg/kg base per day for 2 days
+- Primaquine phosphate 30 mg of base per day for 14 days (children 0.5 mg/kg base for 14 days) after full recovery, to eradicate liver forms of P. vivax / P. ovale {ci: avoid in G6PD deficiency (hemolysis)}
+
+@Co
+- Outpatient treatment often acceptable (P. knowlesi: admit)
+
+@variant malaria-severe
+name: Severe or complicated malaria (cerebral malaria)
+level: I
+imp: Severe (complicated) malaria
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+o2: O2 therapy: F.M 6–10 L/min or N.C 3–5 L/min if SpO2 < 94%
+
+@scenario
+مردی ۴۰ ساله بازگشته از آفریقا با تب، کما، تشنج، Hb 5 و قند 30.
+
+@why
+مالاریای شدید: artesunate وریدی؛ قند خون؛ حمایت تهاجمی.
+
+@L
+- Thick and thin blood films (percentage of infected red cells correlates with prognosis); blood glucose (monitor), CBC, renal function, lactate / blood gas, coagulation
+
+@S
+- Appropriate IV fluid replacement; correction of metabolic derangements {ci: caution in pulmonary edema / ARDS}
+
+@A
+- Artesunate 2.4 mg/kg IV at 0, 8 and 24 h, then daily (can be given IM if necessary) (available from CDC if quinidine fails: 770-488-7788)
+- Or Quinidine gluconate 6.25 mg base (= 10 mg salt)/kg IV load over 2 h (maximum 600 mg) followed by 0.0125 mg base/kg/min continuous infusion plus Doxycycline 2.2 mg/kg IV (up to 100 mg) every 12 h for 7 days (or children < 8 years Clindamycin 10 mg base/kg IV loading dose then 5 mg base/kg IV every 8 h for 7 days) {ci: quinidine/quinine cause severe hypoglycemia and are myocardial depressants, contraindicated in heart disease; cardiac monitoring}
+- Alternative to quinidine: Quinine dihydrochloride 20 mg (salt)/kg IV over 2–4 hours, then 10 mg/kg every 8 hours
+
+@T
+- Continue parenteral treatment for at least 24 hours; advanced support (dialysis, mechanical ventilation) as necessary
+
+@Co
+- ICU admission; CDC hotline 770-488-7788 (770-488-7100 after hours)
+
+@cond foodborne-waterborne
+ch: 96
+name: Foodborne and waterborne illness (gastroenteritis, scombroid and ciguatera poisoning, waterborne skin infections)
+name_fa: بیماری‌های منتقله از غذا و آب (گاستروانتریت، مسمومیت scombroid و ciguatera، عفونت‌های پوستی ناشی از آب)
+cc: nausea-vomiting, diarrhea, rash
+keywords: food poisoning, norovirus, Salmonella, scombroid, ciguatera, traveler's diarrhea, loperamide, Vibrio vulnificus, Aeromonas, hot tub folliculitis, Mycobacterium marinum, مسمومیت غذایی
+status: draft
+
+@features
+- غذای آلوده به باکتری، ویروس، انگل، مواد شیمیایی یا زیست‌سم؛ ویروس‌ها (norovirus > نیمی)، salmonella غیرتیفوئیدی بیشترین بستری و مرگ؛ C. perfringens، Campylobacter، Listeria، Shigella، STEC و S. aureus؛ انگل: Giardia، Toxoplasma، Entamoeba، Cryptosporidium؛ ماهی: scombroid و ciguatera
+- آب: علائم GI یا پوستی؛ عوامل: مشابه غذایی به‌علاوه Vibrio، Aeromonas، P. aeruginosa، Yersinia، هپاتیت A و mycobacterium غیرتوبرکولوزی؛ شایع‌ترین در طغیان‌های تفریحی Cryptosporidium
+- علائم: تهوع، استفراغ، اسهال، کرامپ، تب، دهیدراتاسیون و ناخوشی؛ چند نفر با علائم همزمان حمایتی؛ بیماری > 2 هفته: تک‌یاخته؛ STEC: استفراغ، کرامپ، اسهال خونی و تب خفیف و ممکن است HUS (به‌ویژه با آنتی‌بیوتیک)
+- scombroid و ciguatera: 1 تا 6 ساعت بعد از خوردن؛ scombroid: فلاشینگ و سردرد (هیستامین)؛ ciguatera: سردرد، درد عضله، پارستزی، وارونگی حس گرم و سرد
+- پوست: سلولیت، پلاک ایندوره دردناک M. marinum، عفونت نکروزان و بول هموراژیک V. vulnificus، Aeromonas (تروما با آب شیرین، زخم بدبو)
+- الگو (جدول 96-1): استفراغ غالب (ویروسی، S. aureus، B. cereus)؛ اسهال غیرالتهابی (ETEC، Giardia، Vibrio cholera، Cryptosporidium)؛ التهابی (Shigella، Campylobacter، Salmonella، EIEC، STEC، Yersinia، Entamoeba)؛ پایدار > 14 روز (انگل)؛ عصبی (بوتولیسم، scombroid، ciguatera، تترودوتوکسین، قارچ سمی، GBS)؛ سیستمیک (Listeria، Brucella، Salmonella typhi، Vibrio vulnificus، هپاتیت A/E)
+
+@ddx
+- !Shiga toxin-producing E. coli (hemolytic uremic syndrome) |
+- !Botulism / toxic mushroom |
+- !Vibrio vulnificus necrotizing infection |
+- Viral gastroenteritis (norovirus) |
+- Salmonella / Campylobacter / Shigella |
+- Giardia / Cryptosporidium |
+
+@redflags
+- ظاهر سمی، دهیدراتاسیون شدید، اسهال خونی با شک STEC، علائم عصبی (بوتولیسم)، بول هموراژیک پس از تماس با آب
+
+@guide
+آزمایش اغلب لازم نیست؛ بدحال یا تشخیص مهم: کشت مدفوع با Gram، لاکتوفرین، الکترولیت و CBC؛ تست لکوسیت مدفوع حساس/اختصاصی نیست؛ ova و parasite برای علائم > 2 هفته، ایمنوساپرس، طغیان آب جامعه، سفر یا MSM؛ C. difficile در علائم طولانی، آنتی‌بیوتیک اخیر. حمایتی: ORS اگر تحمل شود؛ NS وریدی در دهیدراتاسیون قابل‌توجه یا استفراغ ادامه‌دار؛ ضدتهوع: metoclopramide 10 mg PO/IV یا ondansetron 4 PO/IV؛ diphenhydramine 25 mg PO/IV برای scombroid؛ loperamide 4 mg ابتدا سپس 2 mg پس از هر مدفوع نرم (حداکثر 16 mg/day) در اسهال خفیف تا متوسط غیرخونی و بدون تب؛ آنتی‌بیوتیک در مسافران متوسط تا شدید، > 1 هفته، بستری و ایمنوساپرس: ciprofloxacin 500 mg PO دو بار روزانه 3 تا 5 روز یا levofloxacin 500 mg PO روزانه 3 تا 5 روز؛ ممنوع آنتی‌بیوتیک/ضدحرکت در شک O157:H7. پوست (جدول 96-2): V. vulnificus: doxycycline 100 mg IV دو بار روزانه + سفالوسپورین نسل 4؛ نکروزان: دبریدمان اورژانس. Aeromonas: خفیف: ciprofloxacin 500 mg PO دو بار روزانه؛ شدید: ciprofloxacin 400 mg IV دو بار روزانه + پنی‌سیلین ضد-Pseudomonas یا سفالوسپورین نسل 4. Pseudomonas: hot-tub folliculitis خودمحدود؛ شدید: ciprofloxacin 400 mg IV + پنی‌سیلین ضد-Pseudomonas. M. marinum: clarithromycin 500 mg PO دو بار روزانه یا doxycycline 100 mg PO دو بار روزانه 3 ماه؛ شدید + rifampin یا ethambutol. کزاز پروفیلاکسی. بستری: ظاهر سمی، دهیدراتاسیون قابل‌توجه یا استفراغ کنترل‌نشده، ایمنوساپرس یا سنین حدی.
+
+@variant foodborne-gastroenteritis
+name: Food/water-borne gastroenteritis, stable
+level: III
+imp: Foodborne / waterborne gastroenteritis
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+زنی ۲۸ ساله پس از غذای رستوران با استفراغ، اسهال آبکی و کرامپ؛ چند همراه علائم مشابه؛ بدون تب بالا.
+
+@why
+بیشتر خودمحدود؛ ORS و ضدتهوع؛ آنتی‌بیوتیک فقط در اندیکاسیون.
+
+@L
+- Diagnostic testing often not indicated; if acutely ill: stool culture with Gram stain, lactoferrin, electrolytes, CBC; ova and parasite testing only for symptoms > 2 weeks, immunocompromise, community waterborne outbreak, recent travel or men who have sex with men; C. difficile antigen if prolonged symptoms or recent antibiotics
+
+@S
+- Oral rehydration if tolerated; IV normal saline for significant dehydration or continued vomiting {ci: caution in heart failure / CKD}
+
+@T
+- Metoclopramide 10 mg PO or IV, or Ondansetron 4 PO or IV
+- Diphenhydramine 25 mg PO or IV for scombroid fish poisoning
+- Loperamide 4 mg initially, then 2 mg after every unformed stool up to 16 mg per day for mild to moderate nonbloody diarrhea in adults without fever {ci: not with suspected E. coli O157:H7}
+
+@A
+- Moderate to severe traveler's diarrhea, symptoms > 1 week, hospitalization or immunocompromised: Ciprofloxacin 500 mg PO twice per day for 3 to 5 days, or Levofloxacin 500 mg PO once daily for 3 to 5 days {ci: antibiotics and antimotility agents contraindicated with suspected E. coli O157:H7 (hemolytic uremic syndrome)}
+
+@Co
+- Admit if toxic appearing, significant dehydration or uncontrolled vomiting, immunocompromised, or extremes of age with significant symptoms
+
+@variant waterborne-skin-infection
+name: Waterborne skin infection (Vibrio, Aeromonas, Pseudomonas, M. marinum)
+level: II
+imp: Waterborne skin infection
+cond: Urgent
+act: CBR
+diet: PO
+ecg: once
+cxr: none
+
+@scenario
+مردی ۵۵ ساله الکلی با سلولیت و بول هموراژیک ساق پس از تماس با آب دریا.
+
+@why
+V. vulnificus: داکسی‌سایکلین وریدی و سفالوسپورین؛ نکروزان: دبریدمان اورژانس.
+
+@L
+- Cultures of wound / blood {note: not specified in this chapter}
+
+@A
+- Vibrio vulnificus: Doxycycline 100 mg IV twice per day plus a fourth-generation cephalosporin
+- Aeromonas: mild Ciprofloxacin 500 mg PO twice per day; severe Ciprofloxacin 400 mg IV twice per day plus IV antipseudomonal penicillin or fourth-generation cephalosporin
+- Pseudomonas aeruginosa: hot-tub folliculitis usually self-limited; severe infection: Ciprofloxacin 400 mg IV twice per day plus IV antipseudomonal penicillin or fourth-generation cephalosporin
+- Mycobacterium marinum: Clarithromycin 500 mg PO twice per day or Doxycycline 100 mg PO twice per day for 3 months (severe: combine with rifampin or ethambutol)
+
+@T
+- Tetanus vaccination
+
+@Co
+- Emergent surgical consultation for necrotizing infections (operative debridement)

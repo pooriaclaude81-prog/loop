@@ -1,0 +1,313 @@
+@cond hiv-acute-febrile
+ch: 92
+name: HIV infection: acute HIV syndrome and febrile illness in HIV patients
+name_fa: عفونت HIV: سندرم حاد HIV و بیماری تب‌دار در بیماران HIV
+cc: fever, rash
+keywords: acute HIV, seroconversion, p24 antigen, CD4 count, AIDS, febrile illness, MAC, CMV, immune reconstitution, ایدز, HIV
+status: draft
+
+@features
+- ویروس سیتوپاتیک رتروویروس که سلول‌های CD4+ را هدف می‌گیرد؛ نقص ایمنی سلولی پایدار → عفونت‌های فرصت‌طلب و نئوپلاسم
+- عفونت حاد (تا 90٪ علامت‌دار): علائم غیراختصاصی شبه‌آنفلوانزا، 2 تا 4 هفته پس از مواجهه، 2 تا 10 هفته: تب (> 90٪)، خستگی (70% تا 90%)، گلودرد (> 70%)، راش (40% تا 80%)، سردرد (30% تا 80%)، لنفادنوپاتی (40% تا 70%)؛ سروکنورژن 3 تا 8 هفته (تا 11 ماه)
+- علامت‌دار زودرس (CD4 200 تا 500): برفک، کاندیدیازیس راجعه، نوروپاتی، دیسپلازی سرویکس، زونای راجعه، ITP؛ CD4 < 200: فراوانی عفونت فرصت‌طلب؛ AIDS: هر بیماری شاخص (جدول 92-1) یا CD4 < 200؛ پیشرفته: CD4 < 50 (MAC یا CMV منتشر)
+- تشخیص: RNA، p24 آنتی‌ژن، آنتی‌بادی، کشت؛ زمان تا تشخیص: بار ویروسی 17 روز، p24 22 روز، ELISA 25 روز، Western blot 31 روز؛ توصیه فعلی: آنتی‌بادی HIV-1/2 همراه با p24؛ تا 75٪ عفونت حاد تشخیص داده نمی‌شود
+- بیمار شناخته‌شده: CD4 اخیر و بار ویروسی؛ CD4 < 200 و بار > 50000 خطر بیماری AIDS-defining؛ لنفوسیت توتال < 1700 پیش‌بینی CD4 < 200
+- بیماری تب‌دار: اکثریت مراجعات: CD4 > 500 مثل ایمن؛ 200 تا 500: عفونت تنفسی باکتریال؛ < 200: PCP، MAC، TB، CMV، تب دارویی، سینوزیت؛ اندوکاردیت، لنفوم، Histoplasma، Cryptococcus؛ تب HIV اولیه: عصر و شب و پاسخ به تب‌بر
+- IRIS: تب، لنفادنیت و علائم سیستمیک هفته‌ها تا ماه‌ها بعد از ART (اغلب با درمان TB)؛ به‌ندرت قطع دارو؛ مشاوره عفونی
+- CMV: رتینیت مهم‌ترین؛ MAC منتشر: CD4 < 100 بدون ART: تب، تعریق شبانه، کاهش وزن، اسهال؛ آزمایش اسید-فست
+
+@ddx
+- !Pneumocystis pneumonia |
+- !CNS opportunistic infection (toxoplasmosis, cryptococcal meningitis) |
+- !Tuberculosis |
+- Disseminated MAC / CMV |
+- Drug fever / immune reconstitution syndrome |
+- Syphilis / endocarditis / lymphoma |
+
+@redflags
+- هیپوکسی، علائم عصبی جدید، تب با CD4 < 200، رتینیت
+
+@guide
+آگاهی از HIV تشخیص‌داده‌نشده در همه جمعیت‌ها (بسیاری قابل پیش‌بینی با دموگرافیک نیستند). تب: الکترولیت، CBC، کشت خون، UA و کشت، LFT و CXR؛ سرولوژی انتخابی (سیفلیس، کریپتوکوک، توکسوپلاسما، CMV، کوکسیدیوئیدومایکوز)؛ LP بعد از تصویربرداری عصبی در شک CNS. معیار بستری AIDS: FUO جدید، هیپوکسی بدتر از پایه یا PaO2 < 60، شک PCP/TB، علائم CNS جدید، اسهال مقاوم، شک رتینیت CMV، زونای چشمی یا ناتوانی در مراقبت از خود. سپسیس باکتریال و عفونت کانونی: آنتی‌بیوتیک استاندارد (فصل ۸۹). ART به‌ندرت در ED شروع می‌شود (CD4 < 350 یا بیماری AIDS-defining؛ بدون توجه به CD4: حاملگی، نوروپاتی HIV، همراهی هپاتیت B نیازمند درمان؛ 2 NRTI + PI یا NNRTI).
+
+@variant hiv-acute-febrile-main
+name: Fever in HIV patient / suspected acute HIV
+level: II
+imp: Febrile illness in HIV infection / suspected acute HIV
+cond: Urgent
+act: CBR
+diet: PO
+ecg: once
+cxr: PA
+
+@scenario
+مردی ۳۰ ساله HIV مثبت با CD4 120، تب 2 هفته‌ای، تعریق شبانه و کاهش وزن.
+
+@why
+CD4 < 200: PCP، MAC، TB؛ کشت و CXR؛ بستری در FUO جدید.
+
+@I
+- Chest radiograph; neuroimaging then lumbar puncture if CNS infection suspected
+
+@L
+- Electrolytes, CBC, blood cultures, urinalysis and culture, liver function tests; syphilis, cryptococcal, toxoplasmosis, CMV and coccidioidomycosis serology where indicated; CD4 count and viral load (or total lymphocyte count < 1700 predicts CD4 < 200); acid-fast stain of stool / body fluids for MAC; HIV-1/2 antibody with p24 antigen test (acute HIV)
+
+@T
+- Standard antibiotics for suspected bacterial sepsis and focal bacterial infections (see Chapter 89)
+- Disseminated MAC: Clarithromycin 500 mg PO twice a day and Ethambutol 15 mg/kg PO once a day and Rifabutin 300 mg PO once a day {note: printed as "300 mg/kg" in the book}
+- CMV: Ganciclovir 5 mg/kg IV twice a day for 2 weeks, then 5 mg/kg/d; or Foscarnet 90 mg/kg every 12 h for 3 weeks, then 90 mg/kg once a day
+
+@Co
+- Admit for new FUO, hypoxia, suspected PCP/TB, new CNS symptoms, intractable diarrhea, suspected CMV retinitis, zoster ophthalmicus or inability to self-care; infectious disease; discuss suspected immune reconstitution syndrome
+
+@cond hiv-pulmonary-pcp-tb
+ch: 92
+name: HIV pulmonary complications: Pneumocystis pneumonia and tuberculosis
+name_fa: عوارض ریوی HIV: پنومونی Pneumocystis و سل
+cc: dyspnea, cough-hemoptysis, fever
+keywords: Pneumocystis jirovecii pneumonia, PCP, trimethoprim-sulfamethoxazole, prednisone, pentamidine, tuberculosis HIV, isolation, LDH, پنوموسیستیس
+status: draft
+
+@features
+- مراجعات ریوی از شایع‌ترین؛ پنومونی باکتریال شایع‌تر از فرصت‌طلب؛ S. pneumoniae شایع‌ترین؛ سرفه مولد، لکوسیتوز و انفیلتره کانونی؛ علل مرتبط HIV: PCP، TB، CMV، C. neoformans، Histoplasma و نئوپلاسم
+- PCP: شایع‌ترین عفونت فرصت‌طلب و علت مرگ در AIDS؛ علائم موذی: تب، سرفه غیرمولد و تنگی نفس پیشرونده؛ CXR انفیلتره بینابینی منتشر (تا 20٪ نرمال)؛ LDH بالا (غیراختصاصی)؛ هیپوکسی در استراحت/فعالیت و گرادیان A-a بالا؛ تشخیص احتمالی در هیپوکسمی بدون توضیح؛ قطعی اغلب با برونکوسکوپی
+- TB: CD4 200 تا 500؛ ایزولاسیون تنفسی؛ با پیشرفت HIV علائم کلاسیک (سرفه با هموپتزی، تعریق شبانه، تب طولانی، کاهش وزن) نیست؛ درگیری لوب فوقانی و حفره کمتر؛ PPD منفی کاذب شایع؛ TB خارج ریوی (غدد لنفاوی، مغز استخوان، CNS، GI، ادراری)
+- ارزیابی: پالس‌اکسیمتری، ABG، کشت و Gram خلط، رنگ اسید-فست، کشت خون، CXR
+- قارچ منتشر (C. neoformans، A. fumigatus) در ایمنوساپرس شدید؛ علل غیرعفونی: نئوپلاسم، LIP
+
+@ddx
+- !Pneumocystis jirovecii pneumonia |
+- !Pulmonary tuberculosis |
+- Bacterial pneumonia (Streptococcus pneumoniae) |
+- CMV / fungal pneumonia |
+- Lymphocytic interstitial pneumonitis / neoplasm |
+
+@redflags
+- هیپوکسی در استراحت، PaO2 < 70 یا گرادیان A-a > 35، شک TB (ایزولاسیون)
+
+@guide
+PCP: trimethoprim-sulfamethoxazole با dose 15–20 mg مؤلفه trimethoprim به‌ازای kg در روز PO یا IV در دوزهای منقسم سه بار روزانه به مدت 3 هفته؛ اگر PaO2 < 70 mm Hg یا گرادیان A-a > 35: افزودن prednisone 40 mg دو بار روزانه 5 روز سپس 40 mg روزانه 5 روز سپس 20 mg روزانه 11 روز؛ یا pentamidine 4 mg/kg/d IV یا IM به مدت 3 هفته. TB: isoniazid 5 mg/kg PO روزانه + rifampin 10 mg/kg PO روزانه (یا rifabutin 5 mg/kg) + pyrazinamide 15–30 mg/kg + ethambutol 15–20 mg/kg؛ رژیم باید با ART تنظیم شود.
+
+@variant hiv-pcp
+name: Suspected Pneumocystis pneumonia
+level: I
+imp: Suspected Pneumocystis jirovecii pneumonia
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: portable
+o2: O2 therapy: F.M 6–10 L/min or N.C 3–5 L/min if SpO2 < 94%
+
+@scenario
+مردی ۳۵ ساله با AIDS (CD4 60)، تب، سرفه خشک و تنگی نفس پیشرونده؛ SpO2 86٪.
+
+@why
+PCP: TMP-SMX و استروئید اگر PaO2 < 70؛ بستری.
+
+@I
+- Chest radiograph (diffuse interstitial infiltrates; negative in up to 20%); bronchoscopy for definitive diagnosis
+
+@L
+- Pulse oximetry (rest and exertion), arterial blood gas (alveolar-arterial gradient), lactate dehydrogenase, sputum Gram stain and culture, acid-fast stain, blood cultures
+
+@A
+- Trimethoprim-sulfamethoxazole 15–20 mg of trimethoprim component per kilogram per day PO or IV in divided doses three times a day for 3 weeks
+
+@T
+- If PaO2 < 70 mm Hg or alveolar-arterial gradient > 35 mm Hg: Prednisone 40 mg twice a day for 5 days, then 40 mg once a day for 5 days, then 20 mg once a day for 11 days
+- Alternative: Pentamidine 4 mg/kg/d IV or IM for 3 weeks
+
+@Co
+- Admit (hypoxia / suspected PCP); infectious disease
+
+@variant hiv-tb
+name: Suspected tuberculosis in HIV patient
+level: II
+imp: Suspected tuberculosis in HIV patient
+cond: Urgent
+act: CBR
+diet: PO
+ecg: once
+cxr: PA
+o2: O2 therapy: if SpO2 < 94%, F.M 6–10 L/min or N.C 3–5 L/min; respiratory isolation
+
+@scenario
+زنی ۲۸ ساله با HIV و CD4 220، تب طولانی، سرفه و کاهش وزن.
+
+@why
+TB در HIV آتیپیک؛ ایزولاسیون تنفسی و رژیم چهاردارویی.
+
+@I
+- Chest radiograph (classic upper lobe and cavitary lesions less common)
+
+@L
+- Sputum acid-fast stain and culture {ci: PPD false-negative frequently}
+
+@T
+- Respiratory isolation
+
+@A
+- Isoniazid 5 mg/kg PO once a day and Rifampin 10 mg/kg PO once a day (or Rifabutin 5 mg/kg PO once a day) and Pyrazinamide 15–30 mg/kg PO once a day and Ethambutol 15–20 mg/kg PO once a day {note: specific drug regimen must be adjusted if the patient is receiving highly active antiretroviral therapy}
+
+@Co
+- Admit if suspected TB; infectious disease
+
+@cond hiv-cns-eye-gi-skin
+ch: 92
+name: HIV: CNS opportunistic infections, CMV retinitis, GI and cutaneous complications
+name_fa: HIV: عفونت‌های فرصت‌طلب CNS، رتینیت CMV، عوارض گوارشی و پوستی
+cc: headache, altered-mental-status, eye, diarrhea, rash
+keywords: toxoplasmosis, cryptococcal meningitis, CMV retinitis, AIDS dementia, oral candidiasis, Kaposi sarcoma, cryptosporidium, pyrimethamine, amphotericin B, fluconazole, valganciclovir, توکسوپلاسموز, کریپتوکوکوز
+status: draft
+
+@features
+- CNS: سردرد، تشنج، تغییر هوشیاری، مننژیسم یا نقص کانونی: AIDS dementia، Toxoplasma gondii یا C. neoformans؛ تصویربرداری و LP در CD4 < 200 با نقص یا سردرد؛ ابتدا CT بدون کنتراست (یا CT با کنتراست/MRI)؛ LP: فشار باز، شمارش سلولی، گلوکز، پروتئین، Gram، India ink، کشت‌های باکتریال/ویروسی/قارچی، آنتی‌ژن توکسوپلاسما و کریپتوکوک، تیتر کوکسیدیوئیدو؛ AIDS dementia: اختلال تدریجی حافظه؛ کمتر: مننژیت باکتریال، هیستوپلاسموز، CMV، PML، HSV، نوروسیفیلیس، TB؛ نوروپاتی HIV: علائم حسی دردناک پا
+- چشم: رتینیت CMV شایع‌ترین و علت اصلی کوری در AIDS؛ اوایل بی‌علامت؛ تغییر حدت بینایی، نقص میدان، فتوفوبی، اسکوتوم، قرمزی یا درد؛ zoster ophthalmicus (راش در شاخه افتالمیک V)
+- GI: اسهال (50% تا 90%): باکتری، انگل، ویروس، قارچ و عوارض ضدویروس؛ بررسی لکوسیت و تخم/انگل مدفوع، اسید-فست و کشت؛ ciprofloxacin تجربی؛ Cryptosporidium و Isospora: اسهال آبکی منتشر؛ مرحله پیشرفته: MAC و CMV (نیاز به بیوپسی)؛ کاندیدیازیس دهانی (> 80٪): پلاک سفید قابل‌کندن؛ ازوفاژیت (Candida، HSV، CMV): ادینوفاژی/دیسفاژی؛ هپاتومگالی با ALP بالا (~50٪)؛ هپاتیت B و C شایع؛ پروکتیت: گنوره، کلامیدیا، سیفلیس، HSV
+- پوست: خشکی، سبورئیک و خارش؛ کاپوزی ساکوم (پاپول/ندول قهوه‌ای-سیاه یا بنفش بدون درد، غیربلانچ‌شونده: صورت، قفسه، ژنیتال، دهان)؛ زونا، HSV؛ ایمپتیگوی بولوز و زخم مزمن Pseudomonas؛ گال، HPV، حساسیت دارویی
+
+@ddx
+- !CNS toxoplasmosis / cryptococcal meningitis |
+- !CMV retinitis (sight-threatening) |
+- !Herpes zoster ophthalmicus |
+- Esophagitis (Candida, HSV, CMV) |
+- Infectious diarrhea (Cryptosporidium, MAC, CMV) |
+- Kaposi sarcoma / drug hypersensitivity |
+
+@redflags
+- سردرد/نقص عصبی با CD4 < 200، کاهش بینایی، دیسفاژی/ادینوفاژی شدید، اسهال مقاوم
+
+@guide
+CNS: توکسوپلاسموز: pyrimethamine بار 200 mg PO سپس 50–75 mg روزانه 6 تا 8 هفته + sulfadiazine 1–1.5 g PO هر 6 ساعت 6 تا 8 هفته + leucovorin 10–25 mg روزانه. کریپتوکوکوز: amphotericin B 0.7 mg/kg IV روزانه 2 هفته + flucytosine 25 mg/kg IV چهار بار روزانه 2 هفته سپس fluconazole 400 mg/d PO 8 تا 10 هفته (نگهدارنده؛ قطع اگر CD4 > 150 برای > 16 هفته). چشم CMV: valganciclovir 900 mg PO دو بار روزانه 14 تا 20 روز القایی سپس 900 mg روزانه نگهدارنده + ganciclovir 2 mg داخل زجاجیه 1 تا 4 دوز طی 7 تا 10 روز (ضایعه تهدیدکننده فوری بینایی) یا foscarnet 2.4 mg داخل زجاجیه. GI: برفک: clotrimazole troche 10 mg پنج بار روزانه یا nystatin 500000 واحد پنج بار روزانه (gargle)؛ ازوفاژیت: fluconazole 100–400 mg/d PO؛ سالمونلوز: ciprofloxacin 500 mg PO دو بار روزانه 2 تا 4 هفته؛ کریپتوسپوریدیوز: درمان قطعی ندارد؛ بهترین پاسخ با ART. پوست: HSV: acyclovir 200 mg پنج بار روزانه 7 روز یا famciclovir 125 mg دو بار روزانه 7 روز یا valacyclovir 1 g دو بار روزانه 7 روز؛ شدید: acyclovir 5–10 mg/kg IV هر 8 ساعت 7 روز. زونا: acyclovir 800 mg پنج بار روزانه 7 تا 10 روز یا famciclovir 500 mg سه بار روزانه یا valacyclovir 1 g سه بار روزانه؛ چشمی/منتشر: acyclovir 5–10 mg/kg هر 8 ساعت 5 تا 7 روز؛ کاندیدا/Trichophyton: clotrimazole/miconazole/ketoconazole موضعی 2 تا 3 بار روزانه 3 هفته.
+
+@variant hiv-cns-infection
+name: HIV with new CNS symptoms (toxoplasmosis / cryptococcal meningitis)
+level: I
+imp: CNS opportunistic infection in HIV (toxoplasmosis / cryptococcal meningitis)
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: portable
+
+@scenario
+مردی ۴۰ ساله با AIDS (CD4 40)، سردرد پیشرونده، تب و تشنج.
+
+@why
+CD4 < 200 با علامت عصبی: CT سپس LP؛ درمان تجربی.
+
+@I
+- Noncontrast head CT first (contrast-enhanced CT or MRI as appropriate)
+
+@L
+- Lumbar puncture: opening pressure; cell count, glucose, protein, Gram stain, India ink stain, bacterial, viral and fungal cultures, toxoplasmosis and cryptococcus antigen, coccidioidomycosis titer
+
+@T
+- Toxoplasmosis: Pyrimethamine 200-mg loading dose PO followed by 50–75 mg PO once a day for 6–8 weeks and Sulfadiazine 1–1.5 g PO every 6 h for 6–8 weeks and Leucovorin 10–25 mg once a day
+- Cryptococcosis: Amphotericin B 0.7 mg/kg IV once a day for 2 weeks and Flucytosine 25 mg/kg IV four times a day for 2 weeks then Fluconazole 400 mg/d PO for 8–10 weeks {renal: amphotericin B / flucytosine}
+
+@Co
+- Admit; infectious disease / neurology
+
+@variant hiv-cmv-retinitis-eye
+name: HIV with visual symptoms (CMV retinitis / zoster ophthalmicus)
+level: II
+imp: CMV retinitis / herpes zoster ophthalmicus in HIV
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مرد ۳۸ ساله با AIDS (CD4 30)، کاهش بینایی و اسکوتوم یک‌چشم.
+
+@why
+رتینیت CMV: تهدید بینایی؛ مشاوره فوری چشم و درمان.
+
+@L
+- Clinical ophthalmologic evaluation (retinitis often diagnosed clinically)
+
+@A
+- Valganciclovir 900 mg PO twice a day for 14–20 days of induction therapy, then 900 mg PO daily for maintenance; with Ganciclovir 2 mg intravitreal injection 1–4 doses over 7–10 days (or Foscarnet 2.4 mg intravitreal injection) for immediately sight-threatening lesions
+- Zoster ophthalmicus: Acyclovir 5–10 mg/kg IV/PO every 8 h for 5–7 days (ocular or disseminated disease)
+
+@Co
+- Admit (suspected CMV retinitis, zoster ophthalmicus); ophthalmology
+
+@variant hiv-gi-oral-skin
+name: HIV with oral/esophageal candidiasis, diarrhea or cutaneous infection
+level: III
+imp: HIV-related candidiasis / diarrhea / herpes infection
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مردی ۴۲ ساله با HIV، دیسفاژی، پلاک سفید دهان و اسهال آبکی ۲ هفته‌ای.
+
+@why
+برفک/ازوفاژیت با فلوکونازول؛ اسهال: بررسی مدفوع و سیپروفلوکساسین تجربی.
+
+@L
+- Stool for leukocytes, ova and parasites; acid-fast staining and bacterial culture
+
+@A
+- Oral candidiasis: Clotrimazole 10-mg troches five times a day, or Nystatin 500,000 units five times a day (gargle)
+- Esophagitis (primarily Candida): Fluconazole 100–400 mg/d PO
+- Diarrhea (bacterial infection suspected) / salmonellosis: Ciprofloxacin 500 mg PO twice a day for 2–4 weeks
+- Herpes simplex: Acyclovir 200 mg PO five times a day for 7 days, or Famciclovir 125 mg PO twice a day for 7 days, or Valacyclovir 1 g PO twice a day for 7 days; severe disease Acyclovir 5–10 mg/kg IV every 8 h for 7 days
+- Herpes zoster: Acyclovir 800 mg PO five times a day for 7–10 days, or Famciclovir 500 mg PO three times a day, or Valacyclovir 1 g PO three times a day for 7–10 days
+- Candida or Trichophyton skin infection: topical Clotrimazole, Miconazole or Ketoconazole two or three times a day for 3 weeks
+
+@Co
+- Admit for intractable diarrhea
+
+@cond hiv-occupational-pep
+ch: 92
+name: Occupational HIV exposure (post-exposure prophylaxis)
+name_fa: مواجهه شغلی با HIV (پروفیلاکسی پس از مواجهه)
+cc: wound-bite, poisoning
+keywords: HIV post-exposure prophylaxis, needlestick, occupational exposure, antiretroviral prophylaxis, پروفیلاکسی پس از مواجهه HIV
+status: draft
+
+@features
+- ریسک سروکنورژن: (1) آسیب عمیق، (2) خون قابل‌رؤیت روی وسیله، (3) سوزن در ورید/شریان بیمار منبع، (4) بیمار منبع با HIV پیشرفته
+- پروفیلاکسی پس از مواجهه (PEP) هرچه سریع‌تر، ترجیحاً ظرف 2 ساعت، و ادامه به مدت 28 روز؛ حداقل رژیم سه‌دارویی
+
+@ddx
+- !HIV / hepatitis B / hepatitis C exposure |
+
+@redflags
+- مواجهه پرخطر (آسیب عمیق، ورید/شریان، منبع پیشرفته)
+
+@guide
+رژیم سه‌دارویی طبق پروتکل مرکز؛ داروهای مشخص در این فصل ذکر نشده است؛ پایش و مشاوره عفونی؛ به راهنمای CDC مراجعه کن.
+
+@variant hiv-pep-main
+name: Occupational exposure to HIV
+level: II
+imp: Occupational exposure to HIV
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+پرستار ۳۰ ساله با فرو رفتن سوزن آلوده به خون بیمار HIV مثبت.
+
+@why
+PEP ظرف 2 ساعت و ادامه 28 روز.
+
+@L
+- Source patient testing and baseline testing per institutional guideline {note: not detailed in this chapter}
+
+@T
+- Post-exposure prophylaxis as quickly as possible, preferably within 2 hours, continued for 28 days; minimum three-drug regimen {note: drugs and doses not given in the book; see CDC}
+
+@Co
+- Infectious disease / occupational health follow-up

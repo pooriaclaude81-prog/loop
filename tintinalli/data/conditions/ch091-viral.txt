@@ -1,0 +1,424 @@
+@cond influenza
+ch: 91
+name: Influenza
+name_fa: آنفلوانزا
+cc: fever, cough-hemoptysis
+keywords: influenza, flu, oseltamivir, zanamivir, peramivir, neuraminidase inhibitor, rapid antigen, آنفلوانزا
+status: draft
+
+@features
+- اوج فعالیت در مناطق معتدل اواخر دسامبر تا اوایل مارس؛ انتقال قطره/آئروسل یا تماس مستقیم؛ نهفتگی 1 تا 4 روز؛ دفع ویروس از 24 ساعت قبل علائم
+- شروع ناگهانی: تب با لرز، سردرد، میالژی و ناخوشی؛ سرفه، آبریزش، گلودرد، غدد گردنی حساس؛ سالمند ممکن است فقط تب، ناخوشی، گیجی و/یا احتقان بینی؛ تقریباً 50٪ کودکان علائم GI؛ تب 2 تا 4 روز؛ بهبود 3 تا 7 روز؛ سرفه و ناخوشی تا هفته‌ها
+- عوارض تنفسی: پنومونیت اولیه، پنومونی باکتریال ثانویه، کروپ، تشدید COPD؛ از آسپیرین پرهیز (Reye)؛ نادر: GBS، میوکاردیت، پریکاردیت
+- تشخیص بالینی در همه‌گیری؛ تست سریع آنتی‌ژن (15 دقیقه) حساسیت 10٪ تا 80٪ و ویژگی 90٪ تا 95٪؛ تست‌های مولکولی حساس‌تر و اختصاصی‌تر؛ آزمایش در فصل آنفلوانزا برای افراد ایمن پرخطر در 5 روز اول و ایمنوساپرس بدون توجه به زمان؛ پس از اثبات در جامعه برای بیمار سرپایی سالم لازم نیست
+
+@ddx
+- !Pneumonia (primary influenza / secondary bacterial) |
+- !Sepsis / meningitis |
+- Other viral respiratory infection (COVID-like, RSV) |
+- Myocarditis / exacerbation of COPD |
+
+@redflags
+- تنگی نفس، هیپوکسی، تشدید بیماری زمینه‌ای، تغییر هوشیاری
+
+@guide
+اکثر سالم‌ها خودمحدود: درمان علامتی سرپایی. شدید یا همراه بیماری زمینه‌ای: بستری با مایع وریدی، حمایت تنفس، مهارکننده نورآمینیداز و گاهی وازوپرسور. پنومونی ثانویه: آنتی‌بیوتیک پوشش‌دهنده MRSA. مهارکننده نورآمینیداز برای مشکوک بستری، شدید/عارضه‌دار/پیشرونده یا پرخطر؛ در سالم بحث؛ فایده احتمالاً فقط ظرف 48 ساعت از شروع علائم. oseltamivir 75 mg PO دو بار روزانه 5 روز؛ zanamivir استنشاقی (برونکواسپاسم؛ در بیماری ریوی پرهیز)؛ peramivir 600 mg IV تنها داروی وریدی تأییدشده.
+
+@variant influenza-outpatient
+name: Influenza, uncomplicated
+level: III
+imp: Influenza
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مردی ۳۰ ساله سالم با تب ناگهانی 39، میالژی و سرفه در فصل آنفلوانزا.
+
+@why
+اکثر سالم‌ها درمان علامتی؛ ضدویروس فقط پرخطر یا شدید.
+
+@L
+- Rapid antigen assay or molecular test only if high risk for complications within 5 days of symptom onset, or immunocompromised; no testing once influenza documented in the community for otherwise healthy outpatients
+
+@T
+- Symptomatic care {ci: avoid aspirin (Reye syndrome)}
+- Neuraminidase inhibitor if higher risk for complications (benefit limited to treatment within 48 hours): Oseltamivir 75 mg PO twice daily for 5 days {ci: avoid zanamivir in underlying pulmonary disease (bronchospasm)}
+
+@variant influenza-severe
+name: Severe or complicated influenza (admission)
+level: II
+imp: Severe influenza / influenza pneumonia
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: once
+cxr: PA
+o2: O2 therapy: F.M 6–10 L/min or N.C 3–5 L/min if SpO2 < 94% (or COPD < 92%)
+
+@scenario
+زنی ۷۰ ساله با COPD، تب، تنگی نفس و انفیلتره ریوی در فصل آنفلوانزا.
+
+@why
+شدید/پرخطر: مهارکننده نورآمینیداز و پوشش MRSA در پنومونی ثانویه.
+
+@I
+- Chest radiograph
+
+@L
+- Molecular diagnostic test (more sensitive than rapid antigen); CBC, blood cultures as per pneumonia {note: per Chapter 30}
+
+@S
+- IV fluids {ci: caution in heart failure / pulmonary edema}
+
+@A
+- Oseltamivir 75 mg PO twice daily for 5 days (uncomplicated dosing), or Peramivir 600 mg IV
+- Secondary pneumonia: antibiotics that cover methicillin-resistant S. aureus {note: drug and dose not given in this chapter; see Chapter 30}
+
+@Co
+- Admit; ICU if respiratory failure
+
+@cond herpes-simplex-virus
+ch: 91
+name: Herpes simplex virus infection (mucocutaneous, keratitis, encephalitis)
+name_fa: عفونت ویروس هرپس سیمپلکس (مخاطی-جلدی، کراتیت، آنسفالیت)
+cc: rash, fever, altered-mental-status
+keywords: HSV encephalitis, herpes labialis, herpetic whitlow, herpes gingivostomatitis, acyclovir, valacyclovir, famciclovir, هرپس, آنسفالیت هرپسی
+status: draft
+
+@features
+- انتقال با تماس مخاط/پوست باز با مایعات آلوده؛ HSV-1: ضایعات اورولابیال؛ HSV-2: شایع‌ترین تناسلی (نسبت HSV-1 در حال افزایش)
+- اولیه: گسترده‌تر با علائم سیستمیک؛ HSV-1: ژنژیوواستوماتیت و فارنژیت 1 تا 2 هفته با وزیکول‌های نازک روی پایه اریتماتو؛ < 5 سال با تب و لنفادنوپاتی؛ عود: herpes labialis لب پایین؛ کمتر: herpetic whitlow، herpes gladiatorum، کراتیت هرپسی (چشم دردناک قرمز با ضایعات dendritic در فلورسئین)
+- آنسفالیت HSV: شایع‌ترین علت ویروسی آنسفالیت در ایالات متحده؛ 20 تا 50 سال؛ مرگ > 70٪ بدون درمان؛ تب و علائم عصبی: نقص حرکتی کانونی یا اعصاب کرانیال، آتاکسی، تشنج، تغییر هوشیاری، رفتار غیرعادی؛ مننژیت تا 25٪ زنان با HSV-2 اولیه (خوش‌خیم)
+- ایمنوساپرس: انتشار و درگیری چندارگانی
+- تشخیص و شروع درمان اغلب بالینی؛ کشت از وزیکول unroofed یا PCR/DFA؛ Tzanck مفید نیست؛ آنسفالیت: ضایعات لوب تمپورال در CT/MRI؛ CSF: پلئوسیتوز لنفوسیتی و/یا اریتروسیتوز؛ PCR مایع نخاع بهترین (ظرف 24 ساعت و تا یک هفته مثبت)
+
+@ddx
+- !HSV encephalitis |
+- !Herpetic keratitis |
+- Bacterial meningitis |
+- Herpes zoster / aphthous ulcers |
+- Herpetic whitlow vs paronychia |
+
+@redflags
+- تب با تغییر هوشیاری، تشنج، نقص عصبی کانونی؛ چشم دردناک
+
+@guide
+عفونت سیستمیک شدید شامل CNS یا منتشر: acyclovir 10 mg/kg IV هر 8 ساعت (ایمنوساپرس با درگیری مخاطی شدید: 5 mg/kg IV هر 8 ساعت بر اساس وزن ایده‌آل). خفیف تا متوسط در ایمن: acyclovir 400 mg PO سه بار روزانه، valacyclovir 1000 mg هر 12 ساعت یا famciclovir 250 mg سه بار روزانه؛ مؤثرترین اگر ظرف 48 تا 72 ساعت؛ 7 تا 10 روز. عود: acyclovir 400 mg سه بار روزانه 5 روز؛ valacyclovir 2000 mg هر 12 ساعت 1 روز (labialis) یا 500 mg هر 12 ساعت 3 روز (تناسلی)؛ famciclovir 1500 mg یک دوز (اورولابیال) یا 1000 mg یک دوز (تناسلی)؛ خفیف‌تر: پماد acyclovir 5٪ شش بار روزانه 7 روز.
+
+@variant hsv-mucocutaneous
+name: Mild to moderate HSV (mucocutaneous), immunocompetent
+level: III
+imp: Herpes simplex virus infection (mucocutaneous)
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مردی ۲۸ ساله با وزیکول لب و گزگز از ۲ روز پیش.
+
+@why
+شروع زودهنگام ضدویروس خوراکی؛ آزمایش فقط در شک.
+
+@L
+- Viral culture from an unroofed vesicle, or PCR / direct fluorescent antibody on swabbed tissue (Tzanck test generally not useful)
+
+@A
+- Acyclovir 400 mg PO three times a day, or Valacyclovir 1000 mg every 12 hours, or Famciclovir 250 mg three times a day for 7 to 10 days (most effective within 48 to 72 hours)
+- Recurrent: Acyclovir 400 mg three times a day for 5 days; Valacyclovir 2000 mg every 12 hours for 1 day (labialis) or 500 mg every 12 hours for 3 days (genital); Famciclovir 1500 mg single dose (orolabial) or 1000 mg single dose (genital); topical 5% acyclovir ointment six times per day for 7 days for less severe outbreaks
+
+@variant hsv-encephalitis
+name: Suspected HSV encephalitis / disseminated HSV
+level: I
+imp: Suspected HSV encephalitis (or disseminated HSV)
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: portable
+
+@scenario
+مردی ۳۵ ساله با تب، سردرد، رفتار عجیب و تشنج.
+
+@why
+مرگ > 70٪ بدون درمان؛ acyclovir را بدون انتظار PCR شروع کن.
+
+@I
+- CT scan or MRI (temporal lobe lesions)
+
+@L
+- Lumbar puncture: CSF lymphocytic pleocytosis and/or erythrocytosis; PCR of cerebrospinal fluid for HSV (testing modality of choice)
+
+@A
+- Acyclovir 10 mg/kg IV every 8 hours (immunocompromised with severe mucocutaneous involvement: 5 mg/kg IV every 8 hours based on ideal body weight)
+
+@Co
+- Admit; neurology / infectious disease
+
+@cond varicella-zoster
+ch: 91
+name: Varicella and herpes zoster (shingles)
+name_fa: آبله‌مرغان و زونا
+cc: rash, fever, eye
+keywords: varicella, chickenpox, herpes zoster, shingles, zoster ophthalmicus, Hutchinson sign, postherpetic neuralgia, acyclovir, valacyclovir, famciclovir, زونا
+status: draft
+
+@features
+- VZV عامل آبله‌مرغان و زونا؛ زونا: بازفعال‌سازی ویروس نهفته در گانگلیون ریشه خلفی با ضعف ایمنی (سن یا ایمنوساپرسیون)؛ زونا در جوان سالم ممکن است نشانه HIV یا ایمنوساپرس باشد
+- واریسلا اولیه: بیماری تب‌دار با راش وزیکولار سطحی دسته‌دسته و متمرکز روی تنه و صورت؛ مراحل متفاوت؛ سردرد، ناخوشی، بی‌اشتهایی؛ بیشتر خفیف و خودمحدود؛ مسری تا خشک شدن همه ضایعات؛ عوارض در خردسال/سالمند/ایمنوساپرس: عفونت باکتریال (GAS) با فاشئیت نکروزان، CNS (آتاکسی مخچه‌ای، مننژیت، مننگوآنسفالیت، واسکولوپاتی و سکته)، پنومونیت شدید (حاملگی)
+- زونا: ضایعات مشابه یک‌طرفه و درماتومی؛ پرودروم ناخوشی، سردرد، فتوفوبی و درد/خارش/پارستزی قبل از راش؛ شایع: تریژمینال یا توراسیک؛ zoster ophthalmicus با ضایعه نوک یا کنار بینی (Hutchinson): مشاوره چشم؛ ضایعات حدود 2 هفته (تا 1 ماه)؛ نورالژی پس از هرپس: درد > 30 روز؛ چند درماتوم یا عبور از خط وسط: انتشار در ایمنوساپرس (پنومونیت، هپاتیت، آنسفالیت)
+- تشخیص بالینی؛ کشت/آنتی‌ژن/PCR مایع وزیکول در موارد آتیپیک یا شدید؛ آبله (smallpox): ضایعات بزرگ‌تر، بیشتر اندام و همگی در یک مرحله؛ CXR در شک پنومونیت؛ MRI، LP، PCR در شک CNS
+
+@ddx
+- !Herpes zoster ophthalmicus (vision threat) |
+- !Disseminated zoster in an immunocompromised patient |
+- !Necrotizing fasciitis (secondary bacterial) |
+- Smallpox / monkeypox-like illness |
+- HSV / contact dermatitis |
+
+@redflags
+- ضایعه نوک بینی (Hutchinson)، ایمنوساپرس، چند درماتوم، علائم CNS یا پنومونیت
+
+@guide
+واریسلا اولیه در کودک سالم: حمایتی؛ acyclovir 20 mg/kg (حداکثر 800 mg) پنج بار روزانه 5 روز برای پرخطر (> 12 سال، بزرگسال، بیماری مزمن پوست/ریه، سالیسیلات طولانی‌مدت، ایمنوساپرس). زونا: ضدویروس سرعت بهبود را زیاد می‌کند، ضایعات جدید، دفع ویروس و درد حاد را کم می‌کند؛ ترجیحاً ظرف 72 ساعت (یا بیشتر اگر وزیکول جدید): acyclovir 800 mg PO پنج بار روزانه، valacyclovir 1 g سه بار روزانه یا famciclovir 500 mg سه بار روزانه، 7 تا 10 روز؛ ضددرد مناسب. ایمنوساپرس با واریسلای حاد، زونای شدید، درگیری احشایی یا انتشار: acyclovir 10 mg/kg IV هر 8 ساعت.
+
+@variant zoster-outpatient
+name: Herpes zoster / varicella, immunocompetent
+level: III
+imp: Herpes zoster / varicella
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مردی ۶۵ ساله با راش وزیکولار دردناک یک‌طرفه توراسیک از ۲ روز پیش.
+
+@why
+شروع ضدویروس ظرف 72 ساعت؛ ضددرد.
+
+@L
+- Usually clinical diagnosis; viral culture, antigen testing or PCR of vesicle fluid if atypical or severe
+
+@A
+- Herpes zoster: Acyclovir 800 mg PO five times per day, or Valacyclovir 1 g three times daily, or Famciclovir 500 mg three times daily for 7 to 10 days (ideally within 72 hours of rash onset)
+- Varicella in high-risk patients (> 12 years, adults, chronic skin or pulmonary disorders, long-term salicylates, immunocompromised): Acyclovir 20 mg/kg (maximum 800 mg) five times a day for 5 days
+
+@T
+- Appropriate analgesia {note: drug and dose not given in the book}
+- Zoster ophthalmicus (Hutchinson sign or facial lesions with eye symptoms): ophthalmology consultation
+
+@variant zoster-immunocompromised
+name: Disseminated zoster / varicella in immunocompromised patient
+level: II
+imp: Disseminated zoster / varicella in immunocompromised patient
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: PA
+
+@scenario
+بیمار ۵۵ ساله پیوند کلیه با راش وزیکولار منتشر چند درماتومی، تب و تنگی نفس.
+
+@why
+انتشار: acyclovir وریدی و بستری.
+
+@I
+- Chest radiograph (pneumonitis); MRI brain, lumbar puncture and PCR if CNS infection suspected
+
+@A
+- Acyclovir 10 mg/kg IV every 8 hours
+
+@Co
+- Admit; infectious disease
+
+@cond infectious-mononucleosis
+ch: 91
+name: Epstein-Barr virus infection (infectious mononucleosis)
+name_fa: عفونت ویروس اپشتین-بار (منونوکلئوز عفونی)
+cc: fever, ent
+keywords: infectious mononucleosis, EBV, monospot, splenic rupture, atypical lymphocytes, منونوکلئوز
+status: draft
+
+@features
+- EBV عامل منونوکلئوز عفونی هتروفیل-مثبت؛ مرتبط با لنفوم B، هوچکین، Burkitt و کارسینوم نازوفارنکس؛ انتقال بزاقی با تماس نزدیک اغلب از فرد بی‌علامت؛ اوج کودکی و جوانی
+- شیرخوار/کودک: اغلب بی‌علامت یا فارنژیت خفیف؛ نوجوان/جوان: تب، لنفادنوپاتی و فارنژیت با اگزودای لوزه؛ اسپلنومگالی در > نیمی؛ علائم 2 تا 3 هفته
+- عوارض: آنسفالیت، مننژیت، GBS، هپاتیت، میوکاردیت، اختلالات خونی؛ نادراً مرگ: پارگی طحال، CNS، انسداد راه هوایی
+- تشخیص: CBC و monospot (ممکن است اوایل منفی باشد؛ تکرار)؛ لنفوسیتوز > 50٪ و لنفوسیت آتیپیک
+
+@ddx
+- !Splenic rupture / airway obstruction |
+- !Streptococcal pharyngitis / peritonsillar abscess |
+- Acute HIV / CMV / toxoplasmosis |
+- Hepatitis / lymphoma |
+
+@redflags
+- انسداد راه هوایی، درد شدید LUQ/شانه چپ، تغییر عصبی، همولیز
+
+@guide
+استراحت و ضددرد پایه درمان؛ استروئید با افزایش عوارض همراه است و فقط در بیماری شدید (انسداد راه هوایی فوقانی، نورولوژیک یا آنمی همولیتیک)؛ پرهیز از تماس ورزش‌ها حداقل 3 هفته از شروع بیماری (آسیب طحال).
+
+@variant ebv-mono-main
+name: Infectious mononucleosis
+level: III
+imp: Infectious mononucleosis (EBV)
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+دانشجوی ۱۹ ساله با تب، گلودرد با اگزودای لوزه، لنفادنوپاتی خلفی و اسپلنومگالی.
+
+@why
+حمایتی؛ استروئید فقط در عارضه شدید؛ پرهیز از ورزش تماسی.
+
+@L
+- CBC (lymphocytosis > 50% and atypical lymphocytes) and monospot test (may be negative early; repeat later if uncertain)
+
+@T
+- Rest and analgesia {ci: corticosteroids only for severe disease (upper airway obstruction, neurologic disease, hemolytic anemia); avoid contact sports for a minimum of 3 weeks (splenic injury)}
+
+@cond measles-adult
+ch: 91
+name: Measles
+name_fa: سرخک
+cc: rash, fever
+keywords: measles, Koplik spots, vitamin A, public health, post-exposure prophylaxis, سرخک
+status: draft
+
+@features
+- ویروس RNA بسیار مسری؛ قبل از علائم مسری؛ طغیان در جوامع بدون واکسیناسیون مناسب
+- تب، ناخوشی، سرفه، آبریزش و ملتحمه؛ Koplik spots روی مخاط گونه اوایل بیماری سپس راش ماکولوپاپولار قرمز از سر به تمام بدن
+- تشخیص بالینی (Koplik پاتونومونیک و راش مشخص)؛ تأیید: IgM
+
+@ddx
+- !Measles |
+- Rubella / scarlet fever |
+- Kawasaki disease / drug eruption |
+- Other viral exanthem |
+
+@redflags
+- پنومونی، آنسفالیت، دهیدراتاسیون
+
+@guide
+درمان حمایتی با توجه ویژه به تغذیه به‌ویژه ویتامین A؛ گزارش مورد مشکوک به بهداشت محلی؛ هماهنگی برای پروفیلاکسی پس از مواجهه در تماس‌های واکسن‌نزده.
+
+@variant measles-main
+name: Measles
+level: III
+imp: Measles
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+نوجوان ۱۶ ساله واکسن‌نزده با تب، سرفه، ملتحمه و راش از صورت به تنه؛ Koplik spots.
+
+@why
+حمایتی و گزارش؛ ایزوله؛ ویتامین A.
+
+@L
+- Immunoglobulin M antibodies for confirmation (if needed)
+
+@T
+- Supportive care with attention to adequate nutrition, especially vitamin A intake {note: dose not given in this chapter}
+
+@Co
+- Report suspected measles to the local health department; coordinate post-exposure prophylaxis for unvaccinated contacts
+
+@cond arboviral-ebola
+ch: 91
+name: Arboviral encephalitis and viral hemorrhagic fevers (Ebola, Lassa, hantavirus)
+name_fa: آنسفالیت آربوویروسی و تب‌های هموراژیک ویروسی (ابولا، لاسا، هانتاویروس)
+cc: fever, altered-mental-status, bleeding-bruising
+keywords: West Nile virus, arbovirus, viral encephalitis, Ebola, viral hemorrhagic fever, Lassa fever, hantavirus, isolation, ابولا, تب هموراژیک
+status: draft
+
+@features
+- آربوویروس: انتقال با پشه، کنه و مگس؛ بروز بیشتر در ماه‌های گرم؛ ویروس West Nile، La Crosse، St. Louis، EEE، WEE در آمریکای شمالی؛ اکثراً بی‌علامت یا بیماری خفیف غیراختصاصی؛ چهار سندروم: تب و میالژی، آرتریت و راش، آنسفالیت، تب هموراژیک؛ سردرد شایع؛ آنسفالیت کلاسیک: تب، سردرد، تغییر هوشیاری، بی‌حالی و گیجی و گاهی تشنج؛ تب هموراژیک: خونریزی لثه، پتشی و GI
+- تشخیص: شرح حال دقیق سفر و مواجهه؛ MRI حساس‌تر؛ CSF پلئوسیتوز لنفوسیتی و پروتئین کمی بالا (غیراختصاصی)؛ تأیید: سرولوژی
+- ابولا و سایر تب‌های هموراژیک (هانتاویروس، لاسا): علائم غیراختصاصی (تب، میالژی، ناخوشی) → GI و درگیری ارگان‌ها، افزایش نفوذپذیری عروقی: هیپوتانسیون، ادم ریه، نارسایی کلیه؛ اختلال انعقاد: خونریزی منتشر، اختلال عضو و شوک
+- سرنخ: سفر به منطقه آندمیک و/یا تماس با مسافر آلوده؛ تأیید: سرولوژی حاد یا RT-PCR در آزمایشگاه تخصصی (مثل CDC)
+
+@ddx
+- !Viral hemorrhagic fever (Ebola) |
+- !Bacterial meningitis / HSV encephalitis |
+- Malaria / dengue (travelers) |
+- West Nile / other arboviral encephalitis |
+- Sepsis |
+
+@redflags
+- سفر به منطقه آندمیک با تب، خونریزی، تغییر هوشیاری، ایزولاسیون لازم
+
+@guide
+آربوویروس: درمان حمایتی و علامتی؛ داروی ضدویروس اختصاصی، اینترفرون و استروئید مفید نشده‌اند؛ در آنسفالیت مشکوک اوایل: آنتی‌بیوتیک تجربی و acyclovir تا تأیید؛ بستری اکثر آنسفالیت حاد. ابولا/تب هموراژیک: غربالگری در تریاژ، ایزولاسیون مسافران اخیر با تب؛ احتیاط کامل تماس و قطره (گان، دستکش، ماسک با محافظ چشم)؛ آموزش پوشیدن و درآوردن تجهیزات؛ اطلاع به بهداشت عمومی و آزمایشگاه بیمارستان؛ درمان حمایتی با مایع وریدی، جایگزینی کلیه و حمایت تنفسی.
+
+@variant arbovirus-encephalitis
+name: Suspected arboviral encephalitis
+level: II
+imp: Suspected arboviral encephalitis
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: none
+
+@scenario
+مردی ۶۰ ساله در تابستان با تب، سردرد، گیجی و ضعف؛ نیش پشه.
+
+@why
+حمایتی؛ آنتی‌بیوتیک و acyclovir تجربی تا رد باکتریال/HSV.
+
+@I
+- Neuroimaging (MRI more sensitive)
+
+@L
+- Lumbar puncture (lymphocytic pleocytosis, slightly elevated protein); serologic testing (primary confirmation)
+
+@A
+- Empiric antibiotics and Acyclovir (until confirmatory testing is complete) {note: doses not given in this chapter; see HSV encephalitis: Acyclovir 10 mg/kg IV every 8 hours}
+
+@T
+- Supportive and symptomatic therapy {ci: specific antiviral drugs, interferon and steroids not shown useful}
+
+@Co
+- Admit most patients with acute encephalitis
+
+@variant vhf-ebola-isolation
+name: Suspected Ebola / viral hemorrhagic fever
+level: I
+imp: Suspected viral hemorrhagic fever (Ebola)
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: portable
+
+@scenario
+مسافر ۴۰ ساله از منطقه آندمیک با تب، استفراغ و خونریزی لثه.
+
+@why
+ایزولاسیون و احتیاط کامل؛ اطلاع بهداشت؛ حمایتی.
+
+@L
+- Acute serologic testing or reverse transcriptase PCR at a specialized laboratory (e.g., CDC); notify the hospital laboratory about precautions
+
+@S
+- Supportive care with IV fluids {ci: caution in pulmonary edema}
+
+@T
+- Full contact and droplet precautions (gown, gloves, facemask with eye protection); isolate patient; proper donning and removal of protective equipment
+- Renal replacement and respiratory support as needed (experimental serologic treatments and vaccines under development)
+
+@Co
+- Contact appropriate public health organizations; ICU

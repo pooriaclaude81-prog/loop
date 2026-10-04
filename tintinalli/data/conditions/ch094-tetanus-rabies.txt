@@ -1,0 +1,164 @@
+@cond tetanus
+ch: 94
+name: Tetanus
+name_fa: کزاز
+cc: wound-bite, weakness
+keywords: tetanus, Clostridium tetani, trismus, risus sardonicus, tetanus immune globulin, tetanus toxoid, midazolam, magnesium sulfate, کزاز
+status: draft
+
+@features
+- بیماری حاد و اغلب کشنده ناشی از C. tetani و اگزوتوکسین؛ بعد از هر آسیب (زخم تمیز یا آلوده، جراحی انتخابی، سوختگی، زخم نافذ، اوتیت میانی، عفونت دندان، گزش، سقط و بارداری)؛ در کشورهای توسعه‌یافته نادر
+- C. tetani در خاک، گردوغبار، پوست و مدفوع؛ اسپور مقاوم؛ شرایط بی‌هوازی بافتی (بافت له‌شده یا نکروتیک، جسم خارجی، عفونت) سم تولید می‌کند؛ نهفتگی < 24 ساعت تا > 1 ماه (اغلب ≤ 14 روز)؛ بسیاری بدون آسیب مشخص؛ آسیب‌ها اغلب جزئی و داخل خانه
+- موضعی (نادر)، سفالیک (نادر؛ اوتیت یا آسیب سر؛ صورت و اعصاب کرانیال)، منتشر (80٪): الگوی نزولی: درد و سفتی فک → trismus (lockjaw) → risus sardonicus؛ اسپاسم شدید و انقباض تونیک: دیسفاژی، opisthotonos، خم شدن دست، مشت، سفتی شکم، اکستانسیون پا
+- علائم اتونوم: تب، تعریق، فشار بالا و تاکی‌کاردی؛ نوزادی: ایمنی ناکافی مادر و مراقبت بد بند ناف؛ هفته دوم؛ مرگ‌ومیر بسیار بالا
+- تشخیص بالینی؛ تست تأییدی ندارد؛ ایمونیزاسیون قبلی تشخیص را رد نمی‌کند
+- افتراق: مسمومیت استریکنین، دیستونی فنوتیازین، تتانی هیپوکلسمیک، هاری، آبسه پری‌تانسیلار، پریتونیت، مننژیت
+
+@ddx
+- !Strychnine poisoning |
+- !Meningitis / rabies |
+- Dystonic reaction / hypocalcemic tetany |
+- Peritonsillar abscess / peritonitis |
+
+@redflags
+- trismus، اسپاسم تنفسی/لارنگواسپاسم، ناپایداری اتونوم
+
+@guide
+بستری برای اسپاسم‌های مکرر (3 تا 4 هفته)؛ تحریک با صدا/لمس؛ محیط کم‌تحریک؛ ICU. 1) tetanus immune globulin 3000 تا 6000 واحد IM تک‌تزریق دور از محل toxoid و قبل از دبریدمان زخم. 2) tetanus toxoid 0.5 mL IM در مراجعه، 6 هفته و 6 ماه بعد. 3) دبریدمان زخم/بافت نکروتیک. 4) آنتی‌بیوتیک ارزش نامطمئن: metronidazole 500 mg IV هر 6 ساعت. 5) بنزودیازپین: midazolam 0.05 تا 0.15 mg/kg/h IV در محیط پایش یا lorazepam 2 mg IV تا اثر. 6) بلوک عصبی-عضلانی: vecuronium بولوس 0.1 mg/kg IV سپس 1 μg/kg/min با سداسیون مناسب. 7) فعالیت سمپاتیک: labetalol 0.25 تا 1 mg/min انفوزیون (کودک 0.3 تا 1 mg/kg/h)؛ magnesium sulfate 40 mg/kg بار سپس 2 g/h (1.5 g/h اگر ≤ 45 kg) برای سطح 2.0 تا 4.0 mmol/L؛ morphine 0.5 تا 1 mg/kg/h؛ clonidine 0.3 mg هر 8 ساعت PO/NG. 8) بهبودیافتگان نیاز به ایمونیزاسیون فعال دارند.
+
+@variant tetanus-generalized
+name: Generalized tetanus
+level: I
+imp: Generalized tetanus
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: portable
+o2: O2 therapy: oxygen; airway readiness for laryngospasm / respiratory spasm (ICU)
+
+@scenario
+مردی ۵۰ ساله با زخم نافذ پا ۱۰ روز قبل و حالا trismus، سفتی شکم و اسپاسم با صدا.
+
+@why
+تهدید راه هوایی؛ immune globulin قبل از دبریدمان؛ بنزودیازپین؛ ICU.
+
+@L
+- Clinical diagnosis (no confirmatory test); CK and electrolytes {note: not specified in this chapter}
+
+@T
+- Tetanus immune globulin 3000 to 6000 units IM in a single injection away from the toxoid site, before wound debridement
+- Tetanus toxoid 0.5 mL IM at presentation, and 6 weeks and 6 months after
+- Identify and debride any wound or devitalized tissue
+- Midazolam 0.05 to 0.15 mg/kg/h IV continuous drip (monitored setting), or Lorazepam 2 mg IV to effect {hi}
+- Neuromuscular blockade if needed (intubated): Vecuronium bolus 0.1 mg/kg IV then continuous infusion 1 μg/kg/min with appropriate sedation
+- Sympathetic hyperactivity: Labetalol 0.25 to 1 mg/min IV infusion; Magnesium sulfate 40 mg/kg loading dose then 2 g/h IV (1.5 g/h if ≤ 45 kg) to maintain 2.0–4.0 mmol/L; Morphine sulfate 0.5 to 1 mg/kg/h; Clonidine 0.3 mg every 8 hours PO or NG
+- Minimize environmental stimuli (noise, touch)
+
+@A
+- Metronidazole 500 mg IV every 6 hours when indicated (antibiotics of uncertain value)
+
+@Co
+- ICU admission; active immunization after recovery (recovery does not confer immunity)
+
+@cond rabies-exposure
+ch: 94
+name: Rabies: exposure assessment, post-exposure prophylaxis and clinical rabies
+name_fa: هاری: ارزیابی مواجهه، پروفیلاکسی پس از مواجهه و هاری بالینی
+cc: wound-bite
+keywords: rabies, post-exposure prophylaxis, human rabies immunoglobulin, HRIG, rabies vaccine, bat exposure, animal bite, hydrophobia, هاری, واکسن هاری
+status: draft
+
+@features
+- هاری: آنسفالیت کشنده؛ انتقال با بزاق حیوان آلوده (گزش یا خراش)؛ بیشتر مراجعات ED برای ارزیابی/درمان پس از گزش یا مواجهه؛ در آمریکا: سگ، گربه، خفاش؛ حیوانات اصلی: راکون، خفاش، سینه‌سیاه (skunk)، روباه، گربه، سگ، گاو؛ فرت، خرگوش، خوکچه هندی و سنجاب معمولاً منتقل نمی‌کنند (ریسک بسیار پایین؛ مشاوره بهداشت محلی)
+- نهفتگی 20 تا 90 روز (4 روز تا 6 سال): پروفیلاکسی بدون توجه به فاصله زمانی
+- پرودروم 2 تا 10 روز: ناخوشی، بی‌حالی، سردرد، تب، تهوع، استفراغ، اضطراب، درد/پارستزی محل گزش؛ آنسفالیتیک (80٪): تحریک‌پذیری دوره‌ای، گیجی، توهم، رفتار عجیب، اختلال اتونوم، ترشح بزاق، هیپرترمی، تاکی‌کاردی، آریتمی، هیدروفوبی و اسپاسم حلق؛ فلجی (20٪): ضعف پیشرونده اندام و فلج دوطرفه صورت؛ کما ظرف 10 روز؛ تقریباً همیشه کشنده
+- تشخیص بالینی: آنسفالیت پیشرونده سریع با ناپایداری اتونوم، دیسفاژی، هیدروفوبی؛ پس از علائم: آنتی‌ژن/آنتی‌بادی سرم، CSF، بزاق یا بیوپسی؛ CSF پلئوسیتوز مونونوکلئر؛ تشخیص نهایی پس از مرگ
+
+@ddx
+- !Tetanus |
+- !Viral encephalitis (HSV, arboviral) |
+- Rabies exposure vs low-risk animal (ferret, rabbit, squirrel) |
+- Psychiatric / toxic delirium |
+
+@redflags
+- هیدروفوبی، اسپاسم حلق، آنسفالیت پیشرونده، گزش حیوان وحشی بدون مشاهده
+
+@guide
+هاری بالینی: درمان حمایتی در ICU؛ درمان اختصاصی ندارد. مواجهه: ارزیابی همه گزیده/خراشیده/مواجهه با بزاق حیوان وحشی یا اهلی احتمالی هار. خفاش: PEP در تماس مستقیم مگر اطمینان کامل از عدم گزش/خراش/مخاط؛ در اتاق مشترک بدون آگاهی: در نظر گرفتن PEP؛ ارسال خفاش برای آزمایش (منفی = PEP لازم نیست). حیوان اهلی سالم قابل مشاهده: PEP فوری لازم نیست (محبوس و مشاهده 10 روزه؛ مشورت بهداشت). حیوان ولگرد/وحشی با سابقه ایمنی نامعلوم و غیرقابل مشاهده: شروع PEP؛ گزارش به کنترل حیوانات/بهداشت. زخم: واکسن کزاز، شست‌وی با آب و صابون، شست‌وی با povidone-iodine رقیق (1 mL در 9 mL آب/نرمال سالین)، آنتی‌بیوتیک در صورت لزوم و پروفیلاکسی هاری.
+# PEP (آمریکا 2010، جدول 94-2)
+ایمن‌نشده قبلی: شست‌وی زخم؛ HRIG 20 IU/kg وزن واقعی (تا حد امکان انفیلتراسیون دور زخم و باقیمانده IM در محل دور از واکسن؛ هرگز در یک سرنگ با واکسن؛ بیش از دوز توصیه‌شده ندهید)؛ واکسن HDCV یا PCECV 1.0 mL ناحیه دلتوئید (نه گلوتئال؛ ران قدامی-خارجی در کودک کوچک) روز 0، 3، 7 و 14 (ایمنوساپرس: دوز پنجم روز 28). ایمن‌شده قبلی: شست‌وی زخم؛ HRIG ندهید؛ واکسن 1.0 mL روز 0 و 3.
+
+@variant rabies-pep-unimmunized
+name: Rabies post-exposure prophylaxis (not previously immunized)
+level: III
+imp: Animal bite / possible rabies exposure
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مردی ۳۰ ساله با گزش سگ ولگرد (غیرقابل مشاهده) روی دست.
+
+@why
+حیوان ولگرد غیرقابل مشاهده: PEP کامل (HRIG + 4 دوز واکسن)؛ شست‌وی زخم و کزاز.
+
+@T
+- Wound cleansing with soap and water; irrigation with 9:1 diluted povidone-iodine solution (1 mL in 9 mL water or normal saline) if available; tetanus prophylaxis; antibiotics if indicated
+- Human rabies immunoglobulin (HRIG) 20 IU/kg actual body weight: infiltrate full dose around the wound(s) if anatomically feasible and give any remaining volume IM at an anatomic site distant from vaccine administration (not in the same syringe as vaccine; do not exceed recommended dose); give up to the seventh day after the initial exposure
+- Rabies vaccine (HDCV or PCECV) 1.0 mL deltoid area (anterolateral thigh in younger children; never gluteal) on days 0, 3, 7 and 14 (immunocompromised: fifth dose on day 28)
+
+@Co
+- Report exposure to animal control and/or public health authorities; CDC/health department assistance
+
+@variant rabies-pep-previously-immunized
+name: Rabies exposure, previously immunized
+level: III
+imp: Animal bite / rabies exposure (previously immunized)
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+دامپزشک ۳۵ ساله با پیش‌ایمن‌سازی و گزش حیوان مشکوک.
+
+@why
+قبلاً ایمن‌شده: HRIG نمی‌خواهد؛ دو دوز واکسن.
+
+@T
+- Wound cleansing with soap and water; irrigation with 9:1 povidone-iodine solution; tetanus prophylaxis
+- HRIG should not be administered
+- Rabies vaccine (HDCV or PCECV) 1.0 mL deltoid area, one dose on days 0 and 3
+
+@Co
+- Notify public health authorities
+
+@variant rabies-clinical
+name: Clinical rabies encephalitis
+level: I
+imp: Clinical rabies (encephalitis)
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: portable
+o2: O2 therapy: if SpO2 < 94%, F.M 6–10 L/min or N.C 3–5 L/min; critical care
+
+@scenario
+مردی ۴۵ ساله با گزش خفاش ۲ ماه پیش، تحریک‌پذیری، هیدروفوبی و ترشح بزاق.
+
+@why
+بدون درمان اختصاصی؛ مراقبت حمایتی در ICU و آزمایش تشخیصی.
+
+@L
+- Antigen and antibody testing of serum, cerebrospinal fluid, saliva and/or tissue biopsies (CSF mononuclear pleocytosis)
+
+@T
+- Supportive care in a critical care environment (no specific therapy with demonstrated clinical benefit); treat complications
+
+@Co
+- Critical care admission; notify public health

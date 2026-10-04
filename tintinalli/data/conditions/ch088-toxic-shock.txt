@@ -1,0 +1,123 @@
+@cond staphylococcal-toxic-shock
+ch: 88
+name: Staphylococcal toxic shock syndrome
+name_fa: سندرم شوک توکسیک استافیلوکوکی
+cc: hypotension-shock, fever, rash
+keywords: toxic shock syndrome, TSS, Staphylococcus aureus, tampon, vancomycin, clindamycin, linezolid, IV immunoglobulin, شوک توکسیک
+status: draft
+
+@features
+- عفونت شدید تهدیدکننده حیات S. aureus با پیشرفت سریع به اختلال چندارگانی، اختلال شدید الکترولیت، نارسایی کلیه و شوک؛ عوامل خطر: جسم خارجی باقیمانده (تامپون، وسایل ضدبارداری بریر)، عفونت پوست و نسج نرم (آبسه، سلولیت، ماستیت)، واریسلا، سینوزیت، جراحی، تروما، زایمان، آنفلوانزا
+- تب بالا، افت فشار عمیق، راش ماکولار منتشر («سوختگی آفتاب بدون درد» که طی 3 روز محو و با پوسته‌ریزی تمام‌ضخامت دنبال می‌شود؛ 1 تا 2 هفته)، اختلال چندارگانی؛ اوایل: تب، لرز، ناخوشی، میالژی، سردرد، گلودرد، استفراغ، اسهال یا درد شکم
+- تعریف (جدول 88-1): تب ≥ 38.9°C، راش اریترودرمی منتشر، پوسته‌ریزی، SBP ≤ 90 (بزرگسال) و درگیری ≥ 3 سیستم (GI، عضلانی: میالژی یا CPK ≥ 2×، مخاطی: هیپرمی، کلیه: BUN/Cr ≥ 2× یا پیوری، کبدی: بیلی‌روبین/ALT/AST ≥ 2×، خونی: پلاکت < 100000، CNS: گیجی)؛ آزمایش منفی: کشت خون/CSF (ممکن است S. aureus مثبت)، سرولوژی RMSF، لپتوسپیروز، سرخک؛ محتمل: ≥ 4 معیار؛ قطعی: 5 معیار شامل پوسته‌ریزی
+- آزمایش: CBC، CMP، انعقاد، CPK، UA، CXR، ECG، گاز خون، کشت خون و منابع دیگر
+- افتراق: STSS، میونکروز کلستریدیال، TSS با C. sordellii، SSSS، سپسیس سایر باکتری‌ها، RMSF، لپتوسپیروز، منینگوکوکسمی، SJS/TEN، Kawasaki
+
+@ddx
+- !Streptococcal toxic shock syndrome / necrotizing fasciitis |
+- !Meningococcemia / sepsis |
+- Rocky Mountain spotted fever / leptospirosis |
+- Staphylococcal scalded skin syndrome / Stevens-Johnson syndrome |
+- Kawasaki disease |
+
+@redflags
+- افت فشار، اریترودرمی، اختلال چندارگانی، تامپون باقیمانده
+
+@guide
+واسطه: اگزوتوکسین‌های پیروژنیک؛ احیای تهاجمی شوک و درمان منبع: تخلیه آبسه، خارج کردن جسم خارجی (تامپون)، مشاوره جراحی برای دبریدمان و آنتی‌بیوتیک وسیع‌الطیف. 1) کریستالوئید تهاجمی (NS) و وازوپرسور در هیپوتانسیون پایدار. 2) MRSA مشکوک: vancomycin 15 mg/kg IV هر 12 ساعت (حداکثر 2.25 g) یا linezolid 600 mg IV + clindamycin 900 mg IV هر 8 ساعت. 3) MSSA مشکوک: nafcillin یا oxacillin 2 g IV هر 4 ساعت + clindamycin 900 mg IV هر 8 ساعت. 4) IVIG در صورت عدم بهبود پس از 6 ساعت درمان تهاجمی با مشاوره عفونی یا مراقبت ویژه.
+
+@variant tss-staph-shock
+name: Staphylococcal toxic shock syndrome
+level: I
+imp: Staphylococcal toxic shock syndrome
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+
+@scenario
+زنی ۲۴ ساله با تامپون، تب 40، اریترودرم، فشار 70/40 و استفراغ.
+
+@why
+TSS: احیای تهاجمی، برداشتن منبع (تامپون)، vancomycin + clindamycin.
+
+@I
+- Chest radiograph; surgical consultation for debridement of infected tissue
+
+@L
+- CBC, comprehensive metabolic panel, coagulation studies, creatine phosphokinase, urinalysis, blood gas, cultures of blood and other potential sources of infection
+
+@S
+- Aggressive IV crystalloid (normal saline) for hypotension and shock {ci: caution in heart failure / pulmonary edema}
+
+@A
+- Suspected MRSA: Vancomycin 15 mg/kg IV every 12 hours (maximum dose 2.25 g), or Linezolid 600 mg IV plus Clindamycin 900 mg IV every 8 hours
+- Suspected MSSA: Nafcillin or Oxacillin 2 g IV every 4 hours plus Clindamycin 900 mg IV every 8 hours
+
+@T
+- Vasopressors for persistent hypotension; drain abscesses; remove foreign bodies (tampon)
+- Consider IV immunoglobulin after consultation with infectious disease or critical care when no clinical improvement after 6 hours of aggressive treatment
+
+@Co
+- Infectious disease / critical care; surgery if infected tissue; ICU
+
+@cond streptococcal-toxic-shock
+ch: 88
+name: Streptococcal toxic shock syndrome
+name_fa: سندرم شوک توکسیک استرپتوکوکی
+cc: hypotension-shock, fever, wound-bite
+keywords: streptococcal toxic shock syndrome, STSS, group A Streptococcus, necrotizing fasciitis, piperacillin-tazobactam, meropenem, clindamycin, شوک استرپتوکوکی
+status: draft
+
+@features
+- شوک و نارسایی چندارگانی از عفونت تهاجمی GAS (S. pyogenes) و سایر استرپتوکوک‌ها؛ عوامل خطر: بیماری قلب/کبد/کلیه، دیابت، الکل، سوءمصرف مواد، جراحی، تروما، زایمان، واریسلا، آنفلوانزا
+- مشابه TSS: علائم غیراختصاصی قبلی (تب، لرز، تعریق، ناخوشی، آرترالژی، سرفه، گلودرد، آبریزش، بی‌اشتهایی، تهوع، استفراغ، درد شکم، اسهال)؛ راش در اقلیت؛ درد موضعی نامتناسب با معاینه (اندام یا شکم): ارتباط قوی با عفونت نسج نرم نکروزان
+- تعریف (جدول 88-2): SBP ≤ 90 (یا < صدک 5 در کودک) و درگیری ≥ 2 سیستم: کلیه (Cr ≥ 2 mg/dL)، انعقاد (پلاکت ≤ 100000 یا DIC)، کبد، ARDS، پوست (راش اریتماتو)، نکروز نسج نرم (فاشئیت/میوزیت/گانگرن)؛ آزمایش: جداسازی GAS؛ محتمل: غیرسترون محل؛ قطعی: از محل استریل
+
+@ddx
+- !Necrotizing fasciitis / myonecrosis |
+- !Staphylococcal toxic shock syndrome |
+- Sepsis from other bacteria |
+- Meningococcemia |
+
+@redflags
+- درد نامتناسب با معاینه، افت فشار، ARDS، نکروز نسج نرم
+
+@guide
+مایع ایزوتونیک تهاجمی (ممکن است 10 تا 20 L/day لازم باشد) و وازوپرسور/اینوتروپ برای هیپوتانسیون پایدار؛ بیش از نیمی ARDS و نیاز به اینتوباسیون؛ کشت خون و زخم قبل از آنتی‌بیوتیک (اکثراً کشت خون مثبت). آنتی‌بیوتیک وسیع‌الطیف: piperacillin-tazobactam 4.5 g IV یا meropenem 1 g IV + clindamycin 900 mg IV؛ MRSA: vancomycin 15 mg/kg IV (حداکثر 2.25 g). IVIG جنجالی؛ مشاوره قبل. مشاوره اورژانس جراحی در شک فاشئیت نکروزان (دبریدمان، فاسیوتومی یا قطع عضو).
+
+@variant stss-main
+name: Streptococcal toxic shock syndrome
+level: I
+imp: Streptococcal toxic shock syndrome (necrotizing soft tissue infection)
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+
+@scenario
+مردی ۵۵ ساله دیابتی با تب 40، درد شدید ران چپ نامتناسب با معاینه و فشار 75/45.
+
+@why
+STSS با فاشئیت نکروزان: احیای تهاجمی، آنتی‌بیوتیک و جراحی فوری.
+
+@I
+- Chest radiograph; imaging for necrotizing soft tissue infection as indicated {note: not specified}
+
+@L
+- Blood and wound cultures before antibiotics when possible (majority have positive blood cultures); CBC, comprehensive metabolic panel, coagulation studies, creatine phosphokinase, urinalysis, blood gas
+
+@S
+- Aggressive isotonic fluid resuscitation (large volumes of crystalloid, 10 to 20 L/day may be required) {ci: caution in heart failure / pulmonary edema}
+
+@A
+- Piperacillin-tazobactam 4.5 g IV or Meropenem 1 g IV plus IV Clindamycin 900 mg; add Vancomycin 15 mg/kg IV (maximum dose 2.25 g) when MRSA infection suspected
+
+@T
+- Vasopressors or inotropic agents for persistent hypotension; assess airway (more than half develop ARDS and require intubation)
+- IV immunoglobulin controversial: obtain consultation before initiating
+
+@Co
+- Emergent surgical consultation for suspected necrotizing soft tissue infection (debridement, fasciotomy or amputation); ICU

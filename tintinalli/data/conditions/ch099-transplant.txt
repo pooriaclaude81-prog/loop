@@ -1,0 +1,209 @@
+@cond transplant-infection
+ch: 99
+name: Infection in the transplant patient
+name_fa: عفونت در بیمار پیوندی
+cc: fever, dyspnea
+keywords: transplant infection, immunosuppressed, post-transplant fever, Pneumocystis, CMV, ganciclovir, fluconazole, imipenem, meropenem, vancomycin, TMP-SMX, پیوند, عفونت
+status: draft
+
+@features
+- سه حوزه: اختلالات خاص عضو پیوندی، اختلالات مشترک (ایمنوساپرسیون/داروهای ضدرد پیوند)، اختلالات غیراختصاصی که مراقبت ویژه می‌خواهند؛ علل مراجعه: عفونت (39٪)، GI/GU غیرعفونی (15٪)، دهیدراتاسیون (15٪)، اختلال الکترولیت (10٪)، قلبی-ریوی (10٪)، آسیب (8٪)، رد (6٪)
+- عفونت شایع‌ترین تشخیص ED؛ عوامل خطر اضافه: دیابت، سن بالا، چاقی
+- جدول 99-1: < 1 ماه: ارگانیسم‌های مقاوم (MRSA، VRE، Candida)، عوارض جراحی/بستری (آسپیراسیون، کاتتر، زخم، نشت آناستوموز، C. difficile)، Aspergillus/Pseudomonas/Klebsiella/Legionella؛ عفونت فرصت‌طلب معمولاً غایب؛ علائم زودرس غیرقابل‌توضیح (هپاتیت، آنسفالیت، پنومونیت یا راش) ممکن است donor-derived؛ 1 تا 6 ماه: با پروفیلاکسی (PCP، CMV، HBV): BK، C. difficile، HCV، آدنوویروس، آنفلوانزا، Cryptococcus، TB؛ بدون پروفیلاکسی: Pneumocystis، هرپس‌ویروس، HBV، Listeria، Nocardia، Toxoplasma، Strongyloides، Leishmania، T. cruzi؛ > 6 ماه: عمومی: پنومونی و UTI اکتسابی از جامعه؛ Aspergillus/Mucor، Nocardia؛ ویروس‌های دیررس: CMV، هپاتیت، HSV آنسفالیت، JC (PML)، سرطان پوست/لنفوم (PTLD)
+- شایع‌ترین علت مراجعه تب؛ تا نیمی با عفونت جدی بدون تب؛ علل دیگر تب: عوارض دارو، حساسیت، رد و بدخیمی
+- شایع‌ترین عفونت‌ها: پنومونی و UTI؛ آستانه پایین برای CXR؛ کشت‌های مناسب؛ LP در شک CNS؛ کبد: عفونت شکمی ماه اول؛ ریه: پنومونی؛ قلب: مدیاستینیت ماه اول
+
+@ddx
+- !Sepsis / pneumonia |
+- !Opportunistic infection (PCP, CMV, fungal) |
+- !Allograft rejection |
+- Drug fever / hypersensitivity |
+- Post-transplant lymphoproliferative disorder |
+- Meningitis / encephalitis |
+
+@redflags
+- تب یا بدحالی بدون تب، هیپوکسی، تغییر هوشیاری، عدم توانایی مصرف داروی ضدرد پیوند
+
+@guide
+در عفونت تشخیص‌داده‌شده با تیم پیوند مشاوره کن. 2) پوست/زخم: وسیع‌الطیف + MRSA: imipenem 500 mg IV هر 6 ساعت یا meropenem 1 g IV هر 8 ساعت یا piperacillin/tazobactam 3.375 g IV هر 6 ساعت + vancomycin 1 g IV هر 12 ساعت یا linezolid 600 mg IV هر 12 ساعت. 3) پنومونی: imipenem، meropenem، cefotaxime 1 تا 2 g IV هر 6 تا 8 ساعت + gentamicin 1 تا 2 mg/kg IV هر 8 ساعت یا piperacillin/tazobactam؛ افزودن MRSA و ضدقارچ در صورت شک. 4) شکمی: metronidazole 500 mg IV هر 12 ساعت + imipenem، meropenem 1 g هر 8 ساعت، doripenem 500 mg هر 8 ساعت یا piperacillin/tazobactam. 5) قارچ: fluconazole 400 mg روزانه IV؛ amphotericin B 0.7 mg/kg/d (سمی‌تر)؛ کاندیدای دهان/مری: fluconazole 200 mg PO روز اول سپس 100 mg روزانه. 6) CMV: ganciclovir 5 mg/kg IV دو بار روزانه (پیوند مغز استخوان: افزودن ایمونوگلوبولین). 7) واریسلا منتشر/چشمی و HSV: acyclovir 800 mg IV پنج بار روزانه (تنظیم در نارسایی کلیه)؛ valacyclovir 1000 mg هر 8 ساعت یا famciclovir 500 mg هر 8 ساعت. 8) PCP: prednisone 80 mg/d سپس TMP-SMX 15 mg/kg/d IV تقسیم هر 8 ساعت (بحرانی) یا DS دو قرص PO هر 8 ساعت 3 هفته؛ جایگزین: pentamidine 4 mg/kg/d IV/IM 3 هفته یا clindamycin 600 mg IV + primaquine 30 mg PO روزانه. 9) توکسوپلاسموز: pyrimethamine 200 mg PO سپس 50 تا 75 mg روزانه + sulfadiazine 1 تا 4 g روزانه + folinic acid 10 mg روزانه. 10) UTI، گاستروانتریت تهاجمی (Salmonella، Campylobacter، Listeria) و دیورتیکولیت با آنتی‌میکروبیال‌های معمول. عوارض داروهای ایمنوساپرسیو: تدریجی (پانکراتیت، خونریزی، قند، برادی/تاکی‌کاردی، هیپرکالمی، فشار، کاردیوتوکسیسیتی، ادم ریه، تشنج، ترومبوآمبولی، ترومبوسیتوپنی)؛ سردرد مشابه میگرن در 2 ماه اول؛ بیماری که مانع مصرف دارو شود: بستری برای تجویز وریدی؛ شروع داروی جدید با مشاوره تیم پیوند.
+
+@variant transplant-fever-infection
+name: Fever / suspected infection in a transplant recipient
+level: II
+imp: Suspected infection in a transplant recipient
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: PA
+
+@scenario
+مرد ۵۰ ساله با پیوند کلیه ۳ ماه پیش، تب 38.8، سرفه و SpO2 90٪.
+
+@why
+پیوندی: آستانه پایین برای CXR و آنتی‌بیوتیک وسیع؛ مشاوره تیم پیوند.
+
+@I
+- Chest radiograph (low threshold); lumbar puncture if CNS infection suspected
+
+@L
+- Blood counts, inflammatory markers, renal and liver function; appropriate cultures of urine, blood and other body fluids; drug levels {note: immunosuppressant levels per transplant team}
+
+@S
+- IV fluids as indicated for dehydration {ci: caution in heart failure / pulmonary edema; allograft nephrotoxicity}
+
+@A
+- Skin/superficial wound: broad-spectrum antibiotic plus MRSA agent: Imipenem 500 mg IV every 6 hours, or Meropenem 1 g IV every 8 hours, or Piperacillin/tazobactam 3.375 g IV every 6 hours, plus Vancomycin 1 g IV every 12 hours or Linezolid 600 mg IV every 12 hours
+- Pneumonia: Imipenem 500 mg IV every 6 hours, Meropenem 1 g IV every 8 hours, Cefotaxime 1 to 2 g IV every 6 to 8 hours plus Gentamicin 1 to 2 mg/kg IV every 8 hours, or Piperacillin/tazobactam 3.375 g IV every 6 hours; add MRSA-specific and antifungal therapy if suspected
+- Intra-abdominal infection: Metronidazole 500 mg IV every 12 hours plus Imipenem 500 mg IV every 6 hours, or Meropenem 1 g IV every 8 hours, or Doripenem 500 mg IV every 8 hours, or Piperacillin/tazobactam 3.375 g IV every 6 hours
+- Suspected fungal disease: Fluconazole 400 mg daily IV (Amphotericin B 0.7 mg/kg/d IV more toxic); oral/esophageal Candida: Fluconazole 200 mg PO day 1 then 100 mg PO daily
+- Suspected CMV: Ganciclovir 5 mg/kg IV twice daily (bone marrow transplant: add immunoglobulin)
+- Disseminated/ocular varicella and HSV: Acyclovir 800 mg IV five times a day (adjust for renal insufficiency); alternatives Valacyclovir 1000 mg every 8 hours or Famciclovir 500 mg every 8 hours
+- Pneumocystis pneumonia: Prednisone 80 mg/d then TMP-SMX 15 mg/kg/d IV divided every 8 hours while critically ill (oral TMP-SMX DS two tablets PO every 8 hours, 3 weeks total); alternatives Pentamidine 4 mg/kg/d IV or IM for 3 weeks, or Clindamycin 600 mg IV plus Primaquine 30 mg orally daily
+- Toxoplasmosis: Pyrimethamine 200 mg PO initially then 50 to 75 mg PO daily plus Sulfadiazine 1 to 4 g PO daily plus Folinic acid 10 mg PO daily
+
+@Co
+- Transplant team consultation (treatment medications and duration); admit; discuss any new medication with the transplant team
+
+@cond transplant-rejection-organ
+ch: 99
+name: Transplant rejection and organ-specific complications (heart, lung, kidney, liver)
+name_fa: رد پیوند و عوارض اختصاصی عضو (قلب، ریه، کلیه، کبد)
+cc: dyspnea, abdominal-pain, urinary-symptoms, palpitations
+keywords: acute rejection, heart transplant, denervated heart, isoproterenol, lung transplant rejection, renal transplant rejection, liver transplant biliary complication, hepatic artery thrombosis, methylprednisolone 1 g, رد پیوند
+status: draft
+
+@features
+- قلب: قلب دناروه: تاکی‌کاردی مرکزی در استرس/ورزش ندارد (ولی به کاتکولامین پاسخ می‌دهد)؛ خستگی/تنگی نفس در شروع ورزش؛ ضربان طبیعی 90 تا 100؛ ECG دو موج P (گره سینوسی دهنده با رابطه 1:1 با QRS و بومی مستقل)؛ ایسکمی بدون آنژین؛ نارسایی قلبی از MI خاموش؛ ECG و تروپونین سریال؛ رد حاد معمولاً بدون علامت: آریتمی و خستگی؛ کودکان: تب خفیف، گریه و تغذیه ضعیف
+- ریه: رد: سرفه، گرفتگی سینه، تب و هیپوکسمی؛ عفونت (پنومونیت بینابینی) مشابه؛ ممکن است سریع و تنها تب؛ اسپیرومتری افت > 10٪ FEV1؛ CXR انفیلتره بینابینی دوطرفه یا افیوژن (ممکن است نرمال، به‌ویژه > 6 هفته)؛ برونکوسکوپی با بیوپسی برای تأیید
+- کلیه: تندرنس مبهم روی آلوگرافت (حفره ایلیاک)، کاهش ادرار، افزایش وزن سریع، تب خفیف، ناخوشی؛ فشار بدتر، ادم؛ حتی تغییر کوچک کراتینین مهم؛ UA، سونوگرافی کلیه، سطح داروی ایمنوساپرسیو؛ افتراق: دهیدراتاسیون، سمیت cyclosporine؛ MRI؛ قبل از gadolinium با تیم پیوند صحبت کن
+- کبد: رد: تب، تندرنس کبد، لنفوسیتوز، ائوزینوفیلی، آنزیم کبدی بالا، تغییر صفرا؛ افتراق: عفونت، انسداد صفراوی، نارسایی عروقی؛ تشخیص قطعی سونو و بیوپسی؛ عوارض: انسداد صفراوی (تب متناوب و LFT نوسانی، بدتر شدن بی‌علامت LFT، یا کولانژیت باکتریال حاد)، نشت صفراوی (50٪ مرگ؛ هفته 3 تا 4؛ ممکن است علائم صفاقی با استروئید پنهان شود)، ترومبوز شریان کبدی؛ بررسی: CXR، CBC، شیمی، LFT، انعقاد، لیپاز، کشت خون/ادرار/صفرا/آسیت، سونوگرافی شکم یا CT؛ cholangiography/ERCP
+
+@ddx
+- !Acute allograft rejection |
+- !Silent myocardial infarction (heart transplant) |
+- !Biliary leak / hepatic artery thrombosis |
+- Infection mimicking rejection (pneumonitis, CMV) |
+- Calcineurin inhibitor nephrotoxicity / dehydration |
+
+@redflags
+- هیپوتانسیون یا آریتمی در قلب پیوندی، تب با هیپوکسمی در ریه، افزایش کراتینین، علائم صفاقی در کبد
+
+@guide
+رد حاد: methylprednisolone 1 g IV پس از مشاوره با مرکز پیوند (معمولاً پس از تأیید بیوپسی مگر ناپایدار). قلب: آتروپین بی‌اثر در قلب دناروه: isoproterenol 2 تا 10 μg/min IV؛ هیپوتانسیون: dopamine 2 تا 20 μg/kg/min یا dobutamine 2 تا 20 μg/kg/min. ریه: آنتی‌بیوتیک تجربی (بالا) و methylprednisolone 1 g؛ آزمایش: CXR، SpO2، ABG، اسپیرومتری، CBC، الکترولیت، کراتینین، منیزیم، سطح دارو. کبد: انسداد صفراوی: balloon dilatation و آنتی‌بیوتیک وسیع‌الطیف: metronidazole 500 mg IV هر 12 ساعت + imipenem 500 mg هر 6 ساعت یا piperacillin/tazobactam 3.375 g هر 6 ساعت؛ نشت صفراوی: جراحی؛ ترومبوز شریان کبدی: ممکن است پیوند مجدد. همه: انتقال به مرکز پیوند در صورت امکان.
+
+@variant transplant-heart-rejection
+name: Heart transplant: suspected rejection, silent ischemia or bradycardia
+level: I
+imp: Heart transplant recipient with suspected rejection / ischemia
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+
+@scenario
+مرد ۴۵ ساله با پیوند قلب، تنگی نفس جدید، خستگی و آریتمی بطنی؛ بدون درد قفسه سینه.
+
+@why
+دناروه: MI خاموش؛ رد حاد؛ آتروپین بی‌اثر.
+
+@I
+- Chest radiograph; echocardiography as indicated {note: not specified in this chapter}
+
+@L
+- Serial troponin levels; electrolytes, drug levels
+
+@T
+- Acute rejection: Methylprednisolone 1 g IV after consultation with the transplant center (treatment typically begun after biopsy confirmation unless hemodynamically unstable)
+- Bradydysrhythmias: Isoproterenol 2 to 10 μg/min IV infusion {ci: atropine has no effect on a denervated heart}
+- Hypotension: Dopamine 2 to 20 μg/kg/min IV or Dobutamine 2 to 20 μg/kg/min IV
+
+@Co
+- Transplant center consultation; transfer to a transplantation center when possible
+
+@variant transplant-lung-kidney-liver
+name: Lung / kidney / liver transplant: suspected rejection or surgical complication
+level: II
+imp: Transplant recipient with suspected rejection / surgical complication
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: PA
+
+@scenario
+مرد ۴۰ ساله با پیوند کبد ۳ هفته پیش با تب، درد شکم، ایکتر و LFT بالا.
+
+@why
+رد یا نشت/انسداد صفراوی یا ترومبوز شریان کبدی؛ مرکز پیوند.
+
+@I
+- Lung: chest radiograph, spirometry; kidney: renal ultrasonography (obstruction), MRI for hematomas/fluid collections/vascular abnormalities (discuss gadolinium with transplant team); liver: abdominal ultrasound (fluid collections, hepatic artery or portal vein thrombosis, biliary dilatation) or CT; cholangiography / ERCP if biliary obstruction suspected
+
+@L
+- Lung: pulse oximetry, ABG, CBC, electrolytes, creatinine, magnesium, drug levels; kidney: urinalysis, serial creatinine, immunosuppressive drug levels; liver: CBC, serum chemistry, liver function tests, coagulation studies, lipase, cultures of blood, urine, bile or ascites
+
+@A
+- Liver biliary obstruction: Metronidazole 500 mg IV every 12 hours plus Imipenem 500 mg IV every 6 hours or Piperacillin/tazobactam 3.375 g IV every 6 hours
+- Lung: empiric antibiotics for suspected infection (see above)
+
+@T
+- Acute rejection: Methylprednisolone 1 g IV after consultation with the transplant center
+- Biliary obstruction: balloon dilatation; biliary leakage: surgery; hepatic artery thrombosis may require retransplantation
+
+@Co
+- Transplant center consultation; transfer (surgical complications best managed at the original transplant center)
+
+@cond graft-versus-host-disease
+ch: 99
+name: Graft-versus-host disease (hematopoietic stem cell transplant)
+name_fa: بیماری پیوند علیه میزبان (GVHD) پس از پیوند سلول بنیادی
+cc: rash, diarrhea, gi-bleeding
+keywords: graft-versus-host disease, GVHD, HSCT, hematopoietic stem cell transplant, methylprednisolone, prednisone, mucositis, GVHD
+status: draft
+
+@features
+- HSCT برای بدخیمی‌های هماتوپوئتیک، آنمی شدید و غیره؛ شایع‌ترین عارضه GVHD (حدود 50٪)
+- راش ماکولوپاپولار غیراختصاصی (ممکن است خارش‌دار یا دردناک؛ رنگ قهوه‌ای با پوسته‌ریزی ظریف)؛ اغلب ابتدا کف دست/پا سپس گونه، گوش، گردن، تنه و پشت؛ شدید: اریترودرمی یا بول؛ موکوزیت 35٪ تا 70٪
+- دومین تظاهر: اسهال؛ علائم GI فوقانی (بی‌اشتهایی، تهوع، استفراغ)، کرامپ دردناک، ایلئوس و گاهی خونریزی تهدیدکننده حیات کولون؛ درگیری کبد: هیپربیلی‌روبینمی و LFT بالا
+- تشخیص اولیه بالینی؛ خونریزی GI زودهنگام ممکن است با ترومبوسیتوپنی/کواگولوپاتی همراه باشد؛ افتراق خونریزی GI: همه علل معمول به‌علاوه عفونت
+
+@ddx
+- !Life-threatening GI hemorrhage from GVHD |
+- !Infection (CMV, drug eruption) |
+- Drug rash / viral exanthem |
+- Infectious colitis |
+
+@redflags
+- خونریزی GI، اریترودرمی/بول، هیپربیلی‌روبینمی
+
+@guide
+بیشتر بیماران درمان حمایتی با تیم پیوند (بستری یا انتقال به مرکز). prednisone 60 mg PO روزانه یا methylprednisolone 1 تا 2 mg/kg IV روزانه. اگر سایر ایمنوساپرسان اخیراً کاهش/قطع شده‌اند معمولاً افزایش یا از سر گرفته می‌شوند.
+
+@variant gvhd-main
+name: Suspected graft-versus-host disease
+level: II
+imp: Graft-versus-host disease
+cond: Urgent
+act: CBR
+diet: PO
+ecg: once
+cxr: none
+
+@scenario
+مرد ۳۵ ساله ۶ هفته پس از پیوند مغز استخوان با راش ماکولوپاپولار کف دست‌ها، اسهال و موکوزیت.
+
+@why
+GVHD بالینی: استروئید و مشاوره تیم پیوند.
+
+@L
+- CBC (thrombocytopenia), coagulation, liver function tests (hyperbilirubinemia); stool studies to exclude infection {note: not detailed in the chapter}
+
+@T
+- Prednisone 60 mg PO daily, or Methylprednisolone 1 to 2 mg/kg IV daily
+- Reinstitute or increase other immunosuppressants if recently tapered or discontinued
+- Supportive care
+
+@Co
+- Transplant team consultation; possible admission or transfer to the transplant center

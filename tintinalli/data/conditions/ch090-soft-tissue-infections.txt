@@ -1,0 +1,280 @@
+@cond cellulitis-erysipelas
+ch: 90
+name: Cellulitis and erysipelas
+name_fa: سلولیت و اریزیپل
+cc: rash, wound-bite, fever
+keywords: cellulitis, erysipelas, cephalexin, dicloxacillin, clindamycin, cefazolin, nafcillin, lymphangitis, سلولیت, اریزیپل
+status: draft
+
+@features
+- سلولیت: واکنش التهابی موضعی نسج نرم به تهاجم باکتریال پوست؛ شایع‌تر در سالمند، ایمنوساپرس و بیماری عروق محیطی؛ تندرنس، اریتم و ایندوراسیون موضعی؛ لنفانژیت/لنفادنیت = عفونت شدیدتر؛ تب و لرز ممکن
+- تشخیص بالینی؛ WBC و کشت خون به‌ندرت تغییر مدیریت می‌دهند؛ سلولیت اندام تحتانی می‌تواند DVT را تقلید کند یا با آن همراه شود؛ سمیت سیستمیک: سونوگرافی بالین/کشت برای آبسه مخفی
+- اریزیپل: سلولیت سطحی با درگیری لنفاتیک؛ عامل اصلی GAS؛ پورتال ورود؛ شروع حاد: تب بالا، لرز، ناخوشی، تهوع؛ ظرف 1 تا 2 روز اریتم کوچک سوزشی تیز مرزبندی‌شده، سفت و دردناک؛ لنفانژیت/لنفادنیت شایع
+- مشاوره جراحی: بول، کرپیتوس، درد نامتناسب یا اریتم سریع‌الگسترش با سمیت (فاشئیت نکروزان)؛ راهنماها درمان سلولیت غیرچرکی و اریزیپل را متمایز نمی‌کنند
+
+@ddx
+- !Necrotizing soft tissue infection |
+- !Deep venous thrombosis |
+- Abscess |
+- Contact dermatitis / stasis dermatitis |
+- Septic arthritis / osteomyelitis |
+
+@redflags
+- درد نامتناسب، بول، کرپیتوس، تاکی‌کاردی/سمیت سیستمیک، باکتریمی
+
+@guide
+بدون عارضه و بدون شک MRSA: cephalexin 500 mg PO چهار بار روزانه، dicloxacillin 500 mg PO چهار بار روزانه یا clindamycin 300 mg PO چهار بار روزانه. اگر اپیدمیولوژی MRSA بالا: داروهای مؤثر بر MRSA (clindamycin 300 mg PO چهار بار روزانه یا TMP/SMX DS دو قرص دو بار روزانه 7 تا 10 روز؛ افزودن cephalexin 500 mg چهار بار روزانه برای استرپتوکوک با TMP/SMX؛ شدید: vancomycin 1 g IV هر 12 ساعت). پیگیری ظرف چند روز؛ علامت‌گذاری پوست برای ارزیابی. بستری: سمیت سیستمیک یا باکتریمی؛ دیابت، الکل یا ایمنوساپرسیون؛ بستری: clindamycin 600 تا 900 mg IV هر 8 ساعت، cefazolin 1 تا 2 g IV هر 8 ساعت یا nafcillin 1 تا 2 g IV هر 4 ساعت.
+
+@variant cellulitis-outpatient
+name: Uncomplicated cellulitis / erysipelas (outpatient)
+level: III
+imp: Cellulitis / erysipelas
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مردی ۴۰ ساله با قرمزی، گرمی و تندرنس ساق بدون تب یا ضعف.
+
+@why
+بدون عارضه: آنتی‌بیوتیک خوراکی؛ پیگیری چند روزه.
+
+@I
+- Bedside ultrasound for occult abscess / DVT consideration if clinical uncertainty
+
+@A
+- Cephalexin 500 mg PO four times daily, or Dicloxacillin 500 mg PO four times daily, or Clindamycin 300 mg PO four times daily
+- When local epidemiology supports a high likelihood of MRSA: Clindamycin 300 mg PO four times daily, or Trimethoprim/sulfamethoxazole double strength two tablets twice a day for 7 to 10 days (consider adding Cephalexin 500 mg four times daily to cover Streptococcus)
+
+@T
+- Skin markers to mark the extent of cellulitis for serial evaluation
+
+@Co
+- Follow-up within a few days
+
+@variant cellulitis-inpatient
+name: Cellulitis with systemic toxicity or bacteremia (admission)
+level: II
+imp: Cellulitis with systemic toxicity
+cond: Urgent
+act: CBR
+diet: PO
+ecg: once
+cxr: none
+
+@scenario
+زنی ۶۰ ساله دیابتی با سلولیت وسیع ساق، تب 39 و لنفانژیت.
+
+@why
+سمیت سیستمیک/دیابت: بستری و آنتی‌بیوتیک وریدی؛ رد آبسه و نکروزان.
+
+@I
+- Bedside ultrasound for occult abscess
+
+@L
+- Blood cultures and cultures of other suspected areas of infection (systemic toxicity)
+
+@A
+- Clindamycin 600 to 900 mg IV every 8 hours, or Cefazolin 1 to 2 g IV every 8 hours, or Nafcillin 1 to 2 g IV every 4 hours
+- Severe MRSA-suspected infection: Vancomycin 1 g IV every 12 hours
+
+@T
+- Tetanus prophylaxis as indicated {note: see Chapter 94}
+
+@Co
+- Admit; surgery if bullae, crepitus, pain out of proportion
+
+@cond abscess-mrsa-skin
+ch: 90
+name: Cutaneous abscess and community-acquired MRSA skin infection
+name_fa: آبسه جلدی و عفونت پوستی MRSA اکتسابی از جامعه
+cc: wound-bite, rash
+keywords: skin abscess, incision and drainage, MRSA, hidradenitis suppurativa, epidermoid cyst, pilonidal abscess, Bartholin abscess, folliculitis, آبسه پوستی, MRSA
+status: draft
+
+@features
+- MRSA اکتسابی از جامعه: ضایعات پوستی گرم، قرمز، دردناک، اغلب با آبسه (ممکن است خودبه‌خود تخلیه شود)؛ اغلب با گزش عنکبوت اشتباه می‌شود؛ تشخیص بالینی؛ سونوگرافی بالین برای آبسه در معاینه مبهم
+- آبسه پوستی: شکست سد پوستی و عفونت کانونی فلور ساکن؛ تورم، تندرنس، اریتم، اغلب فلوکتوان؛ ممکن است در ایمنوساپرس سمیت سیستمیک؛ دنبال جسم خارجی یا آسیب مستعدکننده بگرد؛ آسپیراسیون سوزنی/سونوگرافی برای افتراق از سلولیت
+- بارتولن: تورم یک‌طرفه دردناک لابیا با توده فلوکتوان 1 تا 2 cm
+- هیدرادنیت چرکی: عفونت مزمن راجعه غدد آپوکرین (زیربغل و کشاله)
+- کیست اپیدرموئید و pilar عفونی: ندول اریتماتو، دردناک و اغلب فلوکتوان؛ کپسول باید برداشته شود؛ آبسه پیلونیدال: توده تندر و فلوکتوان در شیار باسن فوقانی
+- فولیکولیت: ضایعات خارش‌دار اریتماتو < 5 mm با پوستول مرکزی؛ S. aureus
+
+@ddx
+- !Necrotizing soft tissue infection |
+- !Systemic toxicity in immunosuppressed patient |
+- Spider bite (misdiagnosis) |
+- Cellulitis |
+- Foreign body |
+
+@redflags
+- ایمنوساپرس، سمیت سیستمیک، سلولیت وسیع اطراف
+
+@guide
+اغلب فقط I&D کافی است؛ در افراد سالم بدون سلولیت اطراف یا بیماری شدید آنتی‌بیوتیک روتین لازم نیست. ایمنوساپرس، سیستمیک، سلولیت اطراف: داروی مؤثر بر MRSA: clindamycin 300 mg PO چهار بار روزانه یا TMP/SMX DS دو قرص دو بار روزانه 7 تا 10 روز (± cephalexin 500 mg چهار بار روزانه)؛ شدید: vancomycin 1 g IV هر 12 ساعت و بستری. بارتولن: I&D در سطح مخاط واژن و Word catheter (تا 4 هفته)؛ سیتز بعد از 2 روز؛ پیگیری زنان ≤ 2 روز (شدید) یا 1 هفته (خفیف)؛ آنتی‌بیوتیک روتین نه مگر شک STD. هیدرادنیت: I&D حاد؛ راجعه: جراح. کیست عفونی: I&D و چک 2 تا 3 روز؛ برداشتن کپسول بعداً. پیلونیدال: I&D، چک 2 تا 3 روز و ارجاع جراحی. فولیکولیت: کمپرس گرم یا آنتی‌بیوتیک موضعی (bacitracin)؛ دردناک یا وسیع: cephalexin، dicloxacillin یا azithromycin خوراکی.
+
+@variant abscess-simple-id
+name: Simple cutaneous abscess (incision and drainage)
+level: III
+imp: Cutaneous abscess
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مردی ۳۰ ساله سالم با آبسه فلوکتوان ۳ cm روی باسن؛ بدون سلولیت وسیع یا تب.
+
+@why
+I&D کافی است؛ آنتی‌بیوتیک فقط با سلولیت، ایمنوساپرس یا بیماری شدید.
+
+@I
+- Bedside ultrasound when exam is equivocal (abscess vs cellulitis)
+
+@T
+- Incision and drainage {note: local anesthesia agent per procedure; no routine antibiotics in healthy immunocompetent patients}
+- Bartholin abscess: incision and drainage along the vaginal mucosal surface followed by Word catheter (up to 4 weeks), sitz baths after 2 days
+- Infected epidermoid/pilar cyst or pilonidal abscess: simple incision and drainage with recheck in 2 to 3 days (capsule excision later)
+- Folliculitis: warm compresses or topical antibiotics such as Bacitracin
+
+@Co
+- Wound recheck as above; surgical referral for hidradenitis suppurativa (recurrent) or pilonidal definitive treatment; gynecology follow-up within 2 days (severe) or 1 week (mild) for Bartholin abscess
+
+@variant abscess-mrsa-antibiotic
+name: MRSA abscess with cellulitis / immunocompromised / systemic illness
+level: II
+imp: Community-acquired MRSA skin and soft tissue infection
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مردی ۴۵ ساله دیابتی با آبسه و سلولیت وسیع و تب 38.5.
+
+@why
+ایمنوساپرس یا سلولیت اطراف: آنتی‌بیوتیک مؤثر بر MRSA؛ شدید: بستری و vancomycin.
+
+@I
+- Bedside ultrasound for abscess collections
+
+@A
+- Clindamycin 300 mg PO four times daily, or Trimethoprim/sulfamethoxazole double strength two tablets twice a day for 7 to 10 days; consider adding Cephalexin 500 mg four times daily to cover Streptococcus when using TMP/SMX
+- Severe infections: Vancomycin 1 g IV every 12 hours with inpatient admission
+
+@T
+- Incision and drainage of the abscess
+
+@Co
+- Admission for extremes of age, systemic signs of severe illness, significant comorbidities or large complicated lesions; surgical consultation as indicated
+
+@cond necrotizing-soft-tissue-infection
+ch: 90
+name: Necrotizing soft tissue infection (necrotizing fasciitis, gas gangrene)
+name_fa: عفونت نسج نرم نکروزان (فاشئیت نکروزان، گانگرن گازی)
+cc: wound-bite, fever, rash
+keywords: necrotizing fasciitis, necrotizing soft tissue infection, gas gangrene, Clostridium, pain out of proportion, vancomycin, meropenem, clindamycin, فاشئیت نکروزان
+status: draft
+
+@features
+- عفونت تهاجمی و تهدیدکننده حیات؛ شروع موذی و علائم اولیه ممکن است فریبنده خوش‌خیم باشد؛ طیف پلی‌میکروبیال یا مونومیکروبیال (GAS و S. aureus)؛ کلستریدیال اکنون نادر
+- درد نامتناسب با معاینه و احساس سنگینی؛ ادم، تغییر رنگ قهوه‌ای، بول، ترشح سروزی-خونی بدبو، کرپیتوس؛ تب خفیف و تاکی‌کاردی نامتناسب با تب؛ تغییر هوشیاری (دلیریوم، تحریک‌پذیری) = سمیت سیستمیک
+- یافته‌های مکمل: گاز در نسج نرم در رادیوگرافی ساده، اسیدوز متابولیک، کواگولوپاتی، هیپوناترمی، لکوسیتوز، آنمی، ترومبوسیتوپنی، میوگلوبینوری، اختلال کلیه/کبد
+
+@ddx
+- !Necrotizing fasciitis / myonecrosis |
+- !Toxic shock syndrome |
+- Cellulitis / erysipelas |
+- Deep venous thrombosis / compartment syndrome |
+
+@redflags
+- درد نامتناسب، کرپیتوس، بول، افت فشار، تغییر هوشیاری
+
+@guide
+IV آنتی‌بیوتیک در اسرع وقت: vancomycin 1 g IV هر 12 ساعت + meropenem 500 تا 1000 mg IV هر 8 ساعت؛ یا piperacillin/tazobactam 4.5 g IV هر 6 ساعت؛ clindamycin مهارکننده سنتز توکسین. احیای تهاجمی با کریستالوئید؛ PRBC در آنمی قابل‌توجه ناشی از همولیز؛ شوک سپتیک سریع؛ اگر اندام با پرفیوژن مختل و هیپوتانسیون: مشکل استفاده از وازوکانستریکتور. کزاز پروفیلاکسی بر اساس اندیکاسیون (فصل ۹۴). مشاوره فوری جراحی: دبریدمان، فاسیوتومی یا قطع عضو؛ هایپرباریک و IVIG جنجالی.
+
+@variant nstis-main
+name: Suspected necrotizing soft tissue infection
+level: I
+imp: Necrotizing soft tissue infection
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+
+@scenario
+مردی ۵۸ ساله دیابتی با درد شدید ران، بول، کرپیتوس، تب 38.2، تاکی‌کاردی 130 و گیجی.
+
+@why
+تأخیر کشنده است؛ آنتی‌بیوتیک وسیع‌الطیف و جراحی فوری.
+
+@I
+- Plain radiographs for gas within soft tissue (CT/imaging as indicated) {note: do not delay surgical consultation}
+
+@L
+- CBC, metabolic panel (metabolic acidosis, hyponatremia), coagulation studies, myoglobinuria / CK, renal and hepatic function
+
+@S
+- Aggressive resuscitation with crystalloid IV fluids {ci: caution in heart failure / pulmonary edema}; consider PRBC if significant anemia from hemolysis
+
+@A
+- Vancomycin 1 g IV every 12 hours plus Meropenem 500 to 1000 mg IV every 8 hours; alternatively Piperacillin/tazobactam 4.5 g IV every 6 hours; consider adding Clindamycin (inhibits toxin synthesis)
+
+@T
+- Tetanus prophylaxis as indicated (see Chapter 94)
+- Hyperbaric oxygen or IV immunoglobulin controversial (consider with surgical colleagues)
+
+@Co
+- Surgical consultation as soon as possible (debridement, fasciotomy, amputation); ICU
+
+@cond sporotrichosis
+ch: 90
+name: Sporotrichosis
+name_fa: اسپوروتریکوز
+cc: wound-bite, rash
+keywords: sporotrichosis, Sporothrix schenckii, itraconazole, amphotericin B, lymphocutaneous, اسپوروتریکوز
+status: draft
+
+@features
+- عفونت قارچی Sporothrix schenckii پس از تلقیح تروماتیک (گیاه، خاک)؛ پس از نهفتگی 3 هفته: سه نوع: ثابت (زخم پوسته‌دار یا پلاک verrucous در محل)، موضعی (ندول/پوستول با اریتم)، لنفوکوتانئوس شایع‌ترین (ندول بی‌درد با ندول‌های زیرجلدی مهاجر در مسیر لنفاتیک)
+- تشخیص بالینی؛ کشت بیوپسی ارزش حاد محدود؛ افتراق: سل، تولارمی، cat-scratch، لیشمانیوز، نوکاردیوز، لنفانژیت استافیلوکوکی
+
+@ddx
+- !Disseminated sporotrichosis |
+- Tuberculosis / tularemia |
+- Cat-scratch disease / leishmaniasis |
+- Nocardiosis / staphylococcal lymphangitis |
+
+@redflags
+- علائم سیستمیک، بیماری منتشر
+
+@guide
+itraconazole 100 تا 200 mg/d PO به مدت 3 تا 6 ماه برای موضعی یا سیستمیک بسیار مؤثر؛ اکثر موارد سرپایی؛ علامت‌دار سیستمیک یا منتشر: بستری و amphotericin B 0.5 mg/kg/d.
+
+@variant sporotrichosis-main
+name: Sporotrichosis
+level: III
+imp: Sporotrichosis
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+باغبانی ۴۵ ساله با ندول‌های متوالی و مهاجر در امتداد ساعد پس از فرو رفتن خار.
+
+@why
+فرم لنفوکوتانئوس شایع‌ترین؛ itraconazole طولانی‌مدت.
+
+@A
+- Itraconazole 100 to 200 mg/d PO for 3 to 6 months
+- Systemic symptoms or disseminated disease: Amphotericin B 0.5 mg/kg/d (admit)
+
+@Co
+- Outpatient for most cutaneous cases; admit if systemic/disseminated

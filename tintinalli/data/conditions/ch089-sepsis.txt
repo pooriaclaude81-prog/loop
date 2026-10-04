@@ -1,0 +1,155 @@
+@cond sepsis-adult
+ch: 89
+name: Sepsis, severe sepsis and septic shock
+name_fa: سپسیس، سپسیس شدید و شوک سپتیک
+cc: hypotension-shock, fever, altered-mental-status
+keywords: sepsis, severe sepsis, septic shock, SIRS, lactate, norepinephrine, vasopressin, empiric antibiotics, 30 mL/kg, meropenem, vancomycin, سپسیس, شوک سپتیک
+status: draft
+
+@features
+- سپسیس: عفونت مشکوک/تأییدشده با شواهد التهاب سیستمیک؛ سپسیس شدید: همراه اختلال عضوی جدید از هیپوپرفیوژن؛ شوک سپتیک: نارسایی قلبی-عروقی (هیپوتانسیون پایدار یا نیاز به وازوپرسور با وجود احیای کافی مایع)
+- بیشتر باکتری گرم‌منفی و گرم‌مثبت؛ هر میکروارگانیسم (قارچ، مایکوباکتریوم، ویروس، ریکتزیا، تک‌یاخته)؛ شایع‌ترین منابع: پنومونی، شکمی، ادراری، پوست/نسج نرم
+- علائم: هیپر/هیپوترمی، تاکی‌کاردی، هیپوتانسیون، تاکی‌پنه؛ تا 40٪ هیپوتانسیون نامشخص بعداً شوک سپتیک تشخیص داده می‌شوند
+- سنتی: شوک توزیعی با وازودیلاتاسیون و اندام گرم؛ ولی «cold shock» نیز دیده می‌شود (کاهش حجم و کاردیومیوپاتی سپتیک)
+- اختلال عضو: ARDS (علت اصلی)؛ کلیه: AKI، الیگوری، آنوری؛ کبد: یرقان کلستاتیک؛ خون: نوتروپنی/نوتروفیلی، ترومبوسیتوپنی، DIC؛ هیپرگلیسمی کنترل‌نشده خطر
+- پوست (5 دسته): عفونت مستقیم، seeding هماتوژن (پتشی، پوستول، ecthyma gangrenosum)، هیپوتانسیون/DIC (acrocyanosis، نکروز)، آمبولی/واسکولیت، سموم (TSS)
+- SIRS (جدول 89-1): دما > 38.3 یا < 36؛ نبض > 90؛ تاکی‌پنه RR > 20؛ WBC > 12000 یا < 4000 یا > 10٪ فرم نارس؛ سپسیس شدید: هیپوتانسیون، لاکتات بالا، اختلال کلیه، هیپوکسی، هیپربیلی‌روبینمی، ترومبوسیتوپنی یا کواگولوپاتی؛ شوک سپتیک: هیپوتانسیون مقاوم به حداقل 1.5 تا 3 L کریستالوئید (20 تا 30 mL/kg در کودکان)
+- آزمایش: CBC با دیفرانسیل و پلاکت، لاکتات، الکترولیت، LFT، عملکرد کلیه، ABG، کشت خون، UA و کشت ادرار؛ type and crossmatch در آنمی حاد یا هیپوتانسیون مقاوم؛ CXR؛ CT، سونوگرافی، LP بر اساس شک؛ CRP و procalcitonin
+
+@ddx
+- !Septic shock from an undrained source |
+- !Meningococcemia / toxic shock syndrome |
+- !Hemorrhagic / cardiogenic / anaphylactic shock |
+- Adrenal crisis / pulmonary embolism |
+- Drug overdose / DKA |
+
+@redflags
+- فشار پایین، لاکتات بالا، تغییر هوشیاری، اولیگوری، پتشی
+
+@guide
+ستون‌های درمان: شناخت زودهنگام، برگرداندن زودهنگام اختلال همودینامیک و آنتی‌بیوتیک تجربی زودهنگام؛ هدف: بهبود پیش‌بار، پرفیوژن و اکسیژن‌رسانی. 1) اکسیژن برای SpO2 > 90٪ و اینتوباسیون در صورت لزوم. 2) بولوس کریستالوئید 20 تا 30 mL/kg. 3) وازوپرسور در شوک مقاوم به مایع: norepinephrine 0.5 تا 30 µg/min با هدف MAP 65؛ vasopressin 0.03 یا 0.04 U/min لاین دوم؛ CVC ترجیح و لاین بزرگ محیطی موقتاً. 4) لاکتات مجدد بعد از 1 تا 2 ساعت. 5) آنتی‌بیوتیک وسیع‌الطیف بر اساس منبع (جدول 89-2) ترجیحاً بعد از کشت ولی بدون تأخیر. 6) برداشتن منبع: کاتتر قابل خروج، I&D آبسه.
+# آنتی‌بیوتیک بر اساس میزبان (جدول 89-2)
+- بزرگسال غیرنوتروپنیک بدون منبع واضح: imipenem 500 mg هر 6 ساعت تا 1 g هر 8 ساعت، یا meropenem 1 g IV هر 8 ساعت، یا doripenem 500 mg هر 8 ساعت، یا ertapenem 1 g هر 24 ساعت + vancomycin بار 15 mg/kg.
+- صفراوی: ampicillin/sulbactam 3 g هر 6 ساعت، piperacillin/tazobactam 4.5 g هر 6 ساعت یا ticarcillin/clavulanate 3.1 g هر 4 ساعت.
+- پنومونی: ceftriaxone 1–2 g هر 12 ساعت + azithromycin 500 mg IV سپس 250 mg هر 24 ساعت + levofloxacin 750 mg هر 24 ساعت یا moxifloxacin 400 mg هر 24 ساعت + vancomycin بار 15 mg/kg.
+- مصرف IV مواد: vancomycin بار 15 mg/kg.
+- راش پتشیال (N. meningitidis، RMSF): ceftriaxone 2 g IV هر 12 ساعت یا cefotaxime 2 g هر 4–6 ساعت؛ افزودن doxycycline 100 mg IV هر 12 ساعت برای RMSF.
+- شکمی: imipenem، meropenem، doripenem، ertapenem، ampicillin/sulbactam یا piperacillin/tazobactam مثل بالا.
+- ادراری (پیلونفریت بستری): levofloxacin 750 mg، moxifloxacin 400 mg، piperacillin/tazobactam 4.5 g هر 6 ساعت، ceftriaxone 1–2 g هر 12–24 ساعت یا ampicillin 1–2 g هر 4–6 ساعت + gentamicin 1.0–1.5 mg/kg هر 8 ساعت (یا بار 2 mg/kg سپس 1.7 mg/kg هر 8 ساعت).
+- ادراری عارضه‌دار/کاتتر: piperacillin/tazobactam، imipenem، meropenem، doripenem یا ampicillin + gentamicin.
+- نوتروپنیک: ceftazidime 2 g هر 8 ساعت یا cefepime 2 g هر 8 ساعت یا imipenem یا meropenem یا piperacillin/tazobactam 4.5 g هر 6 ساعت + levofloxacin 750 mg یا moxifloxacin 400 mg + vancomycin بار 15 mg/kg؛ و fluconazole 400 mg IV هر 24 ساعت یا micafungin 100 mg هر 24 ساعت.
+- بی‌هوازی: metronidazole 15 mg/kg IV بار سپس 7.5 mg/kg هر 8 ساعت یا clindamycin 600–900 mg هر 8 ساعت.
+- دستگاه عروقی دائم: vancomycin؛ Legionella: azithromycin یا erythromycin 800 mg هر 6 ساعت؛ آسپلنی: ceftriaxone 1 g هر 24 ساعت تا 2 g هر 12 ساعت در مننژیت.
+- یادداشت: MRSA کولونیزاسیون بالا؛ vancomycin بار 25 تا 30 mg/kg توسط برخی پیشنهاد؛ آلرژی: linezolid 600 mg IV.
+
+@pearls
+- هر هیپوتانسیون نامشخص را شوک سپتیک مشکوک بدان تا خلاف آن ثابت شود (40٪).
+
+@variant sepsis-septic-shock
+name: Septic shock
+level: I
+imp: Septic shock
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+o2: O2 therapy: F.M 6–10 L/min to keep oxygen saturation > 90%; endotracheal intubation if necessary
+
+@scenario
+مردی ۷۰ ساله با تب 39، تاکی‌کاردی 130، فشار 70/40، لاکتات 5 و منبع نامشخص.
+
+@why
+شوک سپتیک: مایع 30 mL/kg، norepinephrine و آنتی‌بیوتیک وسیع‌الطیف ظرف ساعت اول.
+
+@I
+- Chest radiograph (pneumonia source); additional radiographs, CT scans or ultrasound based on suspected source; lumbar puncture if meningitis suspected
+
+@L
+- Lactic acid (repeat after 1 to 2 hours), CBC with differential and platelet count, serum electrolytes, liver function panel, renal function panel, arterial blood gas, blood cultures (before antibiotics but do not delay), urinalysis and urine culture; type and crossmatch for acute anemia or refractory hypotension; C-reactive protein and procalcitonin may be considered
+
+@S
+- Initial bolus of crystalloid IV fluid 20 to 30 mL/kg {ci: caution in heart failure / pulmonary edema}
+
+@A
+- No obvious source (nonneutropenic adult): Imipenem 500 mg every 6 h to 1 g IV every 8 h, or Meropenem 1 g IV every 8 h, or Doripenem 500 mg IV every 8 h, or Ertapenem 1 g IV every 24 h, plus Vancomycin 15 mg/kg loading dose (some authorities recommend 25 to 30 mg/kg; Linezolid 600 mg IV if vancomycin allergy)
+
+@T
+- Norepinephrine 0.5 to 30 µg/min with a goal mean arterial pressure of 65 mm Hg (central venous line preferred; large peripheral lines temporarily); consider Vasopressin 0.03 or 0.04 U/min as second-line agent
+- Remove suspected sources of infection: remove indwelling catheters if possible; incision and drainage of abscesses
+
+@Co
+- ICU admission
+
+@variant sepsis-source-directed
+name: Sepsis with a defined source (pneumonia, biliary, intra-abdominal, urinary, petechial rash, IV drug use)
+level: II
+imp: Sepsis with identified source
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: portable
+o2: O2 therapy: F.M 6–10 L/min or N.C 3–5 L/min to keep oxygen saturation > 90%
+
+@scenario
+زنی ۶۵ ساله با تب، تاکی‌پنه و انفیلتره لوب تحتانی راست؛ فشار 95/55 و لاکتات 3.
+
+@why
+سپسیس شدید: آنتی‌بیوتیک منطبق بر منبع و مایع.
+
+@I
+- Chest radiograph; CT / ultrasound as per suspected source
+
+@L
+- Lactic acid, CBC, electrolytes, liver function panel, renal function panel, arterial blood gas, blood cultures, urinalysis and urine culture
+
+@S
+- Crystalloid 20 to 30 mL/kg initial bolus {ci: caution in heart failure / pulmonary edema}
+
+@A
+- Pneumonia: Ceftriaxone 1–2 g IV every 12 h plus Azithromycin 500 mg IV then 250 mg IV every 24 h plus Levofloxacin 750 mg IV every 24 h (or Moxifloxacin 400 mg IV every 24 h) plus Vancomycin 15 mg/kg loading dose
+- Biliary source: Ampicillin/sulbactam 3 g IV every 6 h, or Piperacillin/tazobactam 4.5 g IV every 6 h, or Ticarcillin/clavulanate 3.1 g IV every 4 h
+- Intra-abdominal source: Imipenem, Meropenem 1 g IV every 8 h, Doripenem 500 mg IV every 8 h, Ertapenem 1 g IV every 24 h, Ampicillin/sulbactam 3 g IV every 6 h or Piperacillin/tazobactam 4.5 g IV every 6 h
+- Urinary source (hospitalized pyelonephritis): Levofloxacin 750 mg IV every 24 h, or Piperacillin/tazobactam 4.5 g IV every 6 h, or Ceftriaxone 1–2 g IV every 12–24 h, or Ampicillin 1–2 g IV every 4–6 h plus Gentamicin 1.0–1.5 mg/kg every 8 h {renal: aminoglycoside}
+- Petechial rash (N. meningitidis, RMSF): Ceftriaxone 2 g IV every 12 h or Cefotaxime 2 g IV every 4-6 h; consider adding Doxycycline 100 mg IV every 12 h for possible RMSF
+- Suspected illicit IV drug use: Vancomycin 15 mg/kg loading dose
+
+@T
+- Remove indwelling catheters; incision and drainage of abscess; Metronidazole 15 mg/kg IV load then 7.5 mg/kg every 8 h or Clindamycin 600–900 mg IV every 8 h for anaerobic sources
+
+@Co
+- Admit
+
+@variant sepsis-neutropenic-special-host
+name: Sepsis in a neutropenic patient or special host (indwelling devices, asplenia, Legionella risk)
+level: I
+imp: Sepsis in neutropenic / special host
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: portable
+o2: O2 therapy: F.M 6–10 L/min or N.C 3–5 L/min to keep oxygen saturation > 90%
+
+@scenario
+مرد ۵۰ ساله پس از شیمی‌درمانی با تب 39.5، ANC 200 و فشار 85/50.
+
+@why
+نوتروپنیک: پوشش ضد-Pseudomonas و در صورت لزوم ضدقارچ.
+
+@L
+- CBC with differential, lactate, blood cultures, urinalysis and urine culture, chest radiograph
+
+@S
+- Crystalloid 20 to 30 mL/kg {ci: caution in heart failure / pulmonary edema}
+
+@A
+- Neutropenic adults: Ceftazidime 2 g IV every 8 h, or Cefepime 2 g IV every 8 h, or Imipenem 500 mg IV every 6 h to 1 g IV every 8 h, or Meropenem 1 g IV every 8 h, or Piperacillin/tazobactam 4.5 g IV every 6 h; plus Levofloxacin 750 mg IV every 24 h or Moxifloxacin 400 mg IV every 24 h; plus Vancomycin 15 mg/kg loading dose; consider Fluconazole 400 mg IV every 24 h or Micafungin 100 mg every 24 h
+- Indwelling vascular devices: Vancomycin 15 mg/kg loading dose; Legionella potential: add Azithromycin 500 mg IV then 250 mg IV every 24 h or Erythromycin 800 mg IV every 6 h; asplenic: Ceftriaxone 1 g IV every 24 h up to 2 g IV every 12 h if meningitis
+
+@T
+- Norepinephrine 0.5 to 30 µg/min (MAP goal 65 mm Hg) if hypotension unresponsive to fluid
+
+@Co
+- ICU admission; oncology

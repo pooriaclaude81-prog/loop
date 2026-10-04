@@ -1,0 +1,231 @@
+@cond chlamydia-gonorrhea
+ch: 87
+name: Chlamydial and gonococcal infections (urethritis, cervicitis, disseminated gonococcemia)
+name_fa: عفونت‌های کلامیدیایی و گنوکوکی (اورتریت، سرویسیت، گنوکوکسمی منتشر)
+cc: genital-complaint, urinary-symptoms
+keywords: chlamydia, gonorrhea, azithromycin, doxycycline, ceftriaxone, cefixime, NAAT, disseminated gonococcal infection, STI, کلامیدیا, سوزاک
+status: draft
+
+@features
+- STI یک مشکل مهم سلامت عمومی؛ عوارض: ناباروری، سرطان و مشکلات اوروژنیتال؛ به‌علت مشکل پیگیری، رژیم تک‌دوز ترجیح دارد؛ عفونت‌ها اغلب همزمان: HIV، سیفلیس و هپاتیت را هم غربال کن؛ تست حاملگی؛ درمان همه شرکای اخیر؛ توصیه زمان شروع مجدد رابطه؛ رژیم‌ها برای بزرگسال غیرحامله (راهنمای CDC برای کودکان و حاملگی)
+- کلامیدیا (C. trachomatis): مردان: اورتریت، اپیدیدیمیت، ارکیت، پروکتیت یا Reiter؛ زنان: سرویسیت اغلب بی‌علامت یا ترشح، spotting، دیزوری؛ پیوری استریل؛ عوارض: PID، حاملگی نابجا، ناباروری؛ تشخیص با NAAT (سواب واژینال یا ادرار اول‌جریان مردان)؛ ELISA/DNA probe حساسیت 75٪ تا 90٪
+- گنوکوک (N. gonorrhoeae): مردان: اورتریت، اپیدیدیمیت، ارکیت، پروستاتیت؛ زنان: اورتریت، سرویسیت، PID، ناباروری؛ بسیاری بی‌علامت و همزمان با کلامیدیا؛ مردان: دیزوری و ترشح چرکی
+- منتشر: تب، راش (پوستول‌های حساس روی پایه قرمز، اندام ± کف دست/پا)، تنوسینوویت یا آرتریت سپتیک؛ کشت خون، ضایعه پوستی و مایع مفصل تنها در 20٪ تا 50٪ مثبت؛ کشت سرویکس، رکتوم و حلق می‌تواند بازده را بالا ببرد
+
+@ddx
+- !Pelvic inflammatory disease |
+- !Disseminated gonococcal infection (septic arthritis) |
+- Epididymitis / prostatitis |
+- Trichomoniasis / herpes simplex |
+- Urinary tract infection |
+
+@redflags
+- تب با راش پوستول‌دار و آرتریت (گنوکوک منتشر)، درد لگن (PID)
+
+@guide
+# کلامیدیا
+azithromycin 1 g PO تک‌دوز یا doxycycline 100 mg PO دو بار روزانه 7 روز (اورتریت/سرویسیت ساده)؛ جایگزین 7 روزه: erythromycin base 500 mg PO چهار بار روزانه، ofloxacin 300 mg PO دو بار روزانه یا levofloxacin 500 mg PO روزانه؛ 7 روز پرهیز از تماس جنسی بعد از اتمام درمان و رفع علائم.
+# گنوکوک
+ساده: درمان دوگانه: ceftriaxone 250 mg IM و azithromycin 1 g PO تک‌دوز یا doxycycline 100 mg PO دو بار روزانه 7 روز؛ جایگزین: cefixime 400 mg PO تک‌دوز و azithromycin 1 g یا doxycycline 7 روز و test-of-cure ظرف 1 هفته. منتشر: ابتدا ceftriaxone 1 g روزانه IM/IV و azithromycin 1 g PO تک‌دوز؛ مدت تزریقی با مشاور عفونی.
+
+@variant sti-chlamydia-gonorrhea-uncomplicated
+name: Uncomplicated urethritis / cervicitis (chlamydia, gonorrhea)
+level: III
+imp: Urethritis / cervicitis (chlamydia / gonorrhea)
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مردی ۲۴ ساله با ترشح چرکی مجرا و دیزوری.
+
+@why
+درمان تک‌دوز دوگانه؛ شرکای جنسی هم درمان شوند.
+
+@L
+- NAAT (cervical, vaginal, urethral or first-catch urine specimens); pregnancy test; consider HIV, syphilis and hepatitis screening
+
+@A
+- Chlamydia: Azithromycin 1 g PO single dose, or Doxycycline 100 mg PO twice daily for 7 days (alternatives: Erythromycin base 500 mg PO four times daily, Ofloxacin 300 mg PO twice daily or Levofloxacin 500 mg PO daily for 7 days)
+- Gonorrhea: Ceftriaxone 250 mg IM AND Azithromycin 1 g PO single dose or Doxycycline 100 mg PO twice daily for 7 days; alternative: Cefixime 400 mg PO single dose AND azithromycin 1 g PO or doxycycline 100 mg PO twice daily for 7 days, and test-of-cure in 1 week
+
+@T
+- Treat all recent sexual partners; avoid sexual contact for 7 days after completing antibiotic treatment and symptoms have resolved
+
+@variant sti-gonococcemia-disseminated
+name: Disseminated gonococcal infection
+level: II
+imp: Disseminated gonococcal infection
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+زنی ۲۲ ساله با تب، پوستول‌های حساس روی اندام، تنوسینوویت مچ.
+
+@why
+منتشر: ceftriaxone تزریقی و آزیترومایسین؛ کشت چند محل.
+
+@L
+- NAAT; cultures of cervix, rectum and pharynx (blood, skin lesions and joint fluid yield positive in only 20% to 50%)
+
+@A
+- Ceftriaxone 1 g daily IM/IV AND Azithromycin 1 g PO single dose; duration of parenteral therapy in consultation with an infectious disease specialist
+
+@Co
+- Infectious disease consultation; avoid sexual contact for 7 days after treatment
+
+@cond syphilis
+ch: 87
+name: Syphilis
+name_fa: سیفلیس
+cc: genital-complaint, rash
+keywords: syphilis, chancre, secondary syphilis, benzathine penicillin G, RPR, VDRL, Jarisch-Herxheimer, سیفلیس
+status: draft
+
+@features
+- Treponema pallidum؛ سه مرحله؛ اولیه: chancre تنها زخم بدون درد با لبه سفت روی آلت/ولوا؛ بهبود پس از 3 تا 6 هفته؛ ثانویه: چند هفته بعد: راش و لنفادنوپاتی (پاپول‌های صورتی/قرمز بدون خارش روی تنه و سطوح فلکسور، سپس کف دست/پا)؛ تب، ناخوشی، سردرد، گلودرد؛ ثالثیه/نهفته: یک‌سوم، 3 تا 20 سال بعد: درگیری عصبی (مننژیت، دمانس، tabes dorsalis)، قلبی-عروقی (آنوریسم توراسیک) و gumma
+- تست: غیرترپونمی (VDRL، RPR) 1 تا 4 هفته پس از chancre مثبت؛ باید با تست ترپونمی اختصاصی تأیید شود؛ مشاهده مستقیم با darkfield microscopy در اولیه/ثانویه/مادرزادی زودرس تشخیصی
+
+@ddx
+- !Neurosyphilis / cardiovascular syphilis |
+- Genital herpes |
+- Chancroid |
+- Secondary syphilis rash mimics (drug eruption, pityriasis rosea) |
+
+@redflags
+- علائم عصبی یا قلبی-عروقی (ثالثیه)، حاملگی
+
+@guide
+اولیه و ثانویه: benzathine penicillin G 2.4 میلیون واحد IM تک‌دوز؛ مراقب واکنش Jarisch–Herxheimer (تب، سردرد، میالژی) ظرف 24 ساعت. جایگزین (اولیه/ثانویه/نهفته زودرس): doxycycline 100 mg PO دو بار روزانه 14 روز یا tetracycline 500 mg PO چهار بار روزانه 28 روز. ثالثیه: benzathine penicillin G 2.4 میلیون واحد IM هفتگی × 3 هفته.
+
+@variant syphilis-primary-secondary
+name: Primary or secondary syphilis
+level: III
+imp: Primary or secondary syphilis
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مردی ۳۰ ساله با زخم بدون درد روی آلت و لنفادنوپاتی اینگوینال.
+
+@why
+یک دوز پنی‌سیلین بنزاتین؛ آگاهی از Jarisch-Herxheimer.
+
+@L
+- Nontreponemal test (VDRL/RPR) confirmed by treponemal antibody immunoassay; darkfield microscopy; HIV and hepatitis screening; pregnancy test
+
+@A
+- Benzathine penicillin G 2.4 million units IM single dose (be aware of Jarisch-Herxheimer reaction within the first 24 hours); alternatives for primary, secondary and early latent: Doxycycline 100 mg PO twice daily for 14 days, or Tetracycline 500 mg PO four times daily for 28 days
+
+@Co
+- Treat sexual partners; follow-up
+
+@variant syphilis-tertiary
+name: Tertiary / latent syphilis
+level: II
+imp: Tertiary syphilis
+cond: Urgent
+act: CBR
+diet: PO
+ecg: once
+cxr: PA
+
+@scenario
+مردی ۶۰ ساله با دمانس پیشرونده، آتاکسی و آنوریسم آئورت توراسیک؛ سرولوژی مثبت.
+
+@why
+سیفلیس ثالثیه با پنی‌سیلین بنزاتین هفتگی؛ ارزیابی عصبی/قلبی.
+
+@I
+- Chest radiograph (thoracic aneurysm); neurologic evaluation as indicated {note: lumbar puncture not specified in this chapter}
+
+@A
+- Benzathine penicillin G 2.4 million units IM weekly for 3 weeks
+
+@Co
+- Infectious disease / neurology / cardiology as indicated
+
+@cond genital-ulcers-hsv-chancroid
+ch: 87
+name: Genital herpes simplex and chancroid
+name_fa: هرپس تناسلی و شانکروئید
+cc: genital-complaint
+keywords: genital herpes, HSV, acyclovir, valacyclovir, famciclovir, chancroid, Haemophilus ducreyi, bubo, هرپس تناسلی, شانکروئید
+status: draft
+
+@features
+- HSV اولیه: پرودروم 2 تا 24 ساعت (درد، گزگز، سوزش)؛ سپس سردرد، تب، لنفادنوپاتی اینگوینال دردناک، بی‌اشتهایی، ناخوشی؛ پاپول و وزیکول روی پایه اریتماتو و فرسایش؛ مردان: زخم دردناک روی ساقه یا glans؛ زنان: introitus، میتوس، لابیا و پرینه؛ دفع ویروس 10 تا 12 روز و بهبود ≤ 3 هفته؛ تشخیص بالینی؛ کشت ویروسی از وزیکول یا زخم اولیه قابل‌اعتمادتر از Tzanck
+- شانکروئید (H. ducreyi): پاپول اریتماتوی دردناک → زخم و پوستول طی 2 روز؛ تا 50٪ چند ضایعه («kissing lesions»)؛ لنفادنوپاتی دردناک 1 تا 2 هفته بعد → bubo نکروتیک؛ تشخیص بالینی (افتراق از سیفلیس و HSV)؛ کشت نیازمند محیط خاص
+
+@ddx
+- !Syphilis |
+- !HIV / other STI |
+- Herpes simplex |
+- Chancroid |
+
+@redflags
+- بیماری شدید نیازمند بستری، ایمنوساپرس
+
+@guide
+HSV اولین اپیزود: 7 تا 10 روز acyclovir 400 mg PO سه بار روزانه، valacyclovir 1 g PO دو بار روزانه یا famciclovir 250 mg PO سه بار روزانه (بهبود را تسریع می‌کند ولی درمان قطعی نیست). پروکتیت یا دهانی: acyclovir 400 mg پنج بار روزانه 7 تا 10 روز. بستری شدید: acyclovir IV 5 تا 10 mg/kg هر 8 ساعت. عود: 5 روز valacyclovir 1 g PO روزانه یا acyclovir 400 mg PO سه بار روزانه (در شروع علائم). شانکروئید: azithromycin 1 g PO تک‌دوز، ceftriaxone 250 mg IM تک‌دوز، erythromycin base 500 mg PO سه بار روزانه 7 روز یا ciprofloxacin 500 mg PO دو بار روزانه 3 روز؛ I&D bubo برای تسکین؛ تست HSV، سیفلیس و HIV؛ درمان شرکای 10 روز قبل از تشخیص.
+
+@variant hsv-genital-first
+name: Genital herpes (first episode)
+level: III
+imp: Genital herpes simplex infection
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+زنی ۲۵ ساله با وزیکول دردناک لابیا، تب و لنفادنوپاتی اینگوینال.
+
+@why
+اولین اپیزود: ضدویروس 7 تا 10 روز؛ شدید: acyclovir وریدی.
+
+@L
+- Viral culture from vesicles or early ulcers (more reliable than Tzanck smear)
+
+@A
+- Acyclovir 400 mg PO three times daily, or Valacyclovir 1 g PO twice daily, or Famciclovir 250 mg PO three times daily for 7 to 10 days (hastens recovery but does not cure)
+- Proctitis or oral infection: Acyclovir 400 mg five times daily for 7 to 10 days
+- Severe disease requiring hospitalization: Acyclovir IV 5 to 10 mg/kg body weight every 8 hours
+- Recurrent episodes: Valacyclovir 1 g PO daily or Acyclovir 400 mg PO three times daily for 5 days (initiate when symptoms begin)
+
+@variant chancroid-main
+name: Chancroid
+level: III
+imp: Chancroid
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مردی ۳۰ ساله با زخم دردناک آلت و لنفادنوپاتی حساس.
+
+@why
+تک‌دوز azithromycin یا ceftriaxone؛ تست سایر STI.
+
+@L
+- Test for other sexually transmitted infections such as HSV, syphilis and HIV; culture from ulcer or bubo (special culture medium)
+
+@A
+- Azithromycin 1 g PO single dose, or Ceftriaxone 250 mg IM single dose, or Erythromycin base 500 mg PO three times daily for 7 days, or Ciprofloxacin 500 mg PO twice daily for 3 days
+
+@T
+- Incision and drainage of buboes can be considered for symptomatic relief
+
+@Co
+- Treat all sexual partners in the 10 days prior to diagnosis regardless of symptoms

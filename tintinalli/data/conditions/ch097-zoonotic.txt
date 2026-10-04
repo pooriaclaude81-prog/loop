@@ -1,0 +1,331 @@
+@cond tick-borne-rmsf-ehrlichiosis
+ch: 97
+name: Rocky Mountain spotted fever and ehrlichiosis
+name_fa: تب خال‌دار کوه‌های راکی و ارلیخیوز
+cc: fever, rash, headache
+keywords: Rocky Mountain spotted fever, RMSF, Rickettsia rickettsii, ehrlichiosis, tick bite, doxycycline, petechial rash palms soles, تب خالدار
+status: draft
+
+@features
+- RMSF: بیماری منتقله با کنه (R. rickettsii)؛ ناقل‌ها: Dermacentor variabilis، D. andersoni، Rhipicephalus sanguineus؛ آوریل تا سپتامبر با اوج ژوئن/ژوئیه؛ > 60٪ از پنج ایالت (NC، TN، OK، MO، AR)
+- اولیه: تب، سردرد، میالژی، ناخوشی؛ لنفادنوپاتی، تهوع، استفراغ، اسهال؛ کودکان: درد شکم و ادم؛ دیررس: مننژیت، آنسفالیت، نارسایی کلیه/تنفس، میوکاردیت
+- تریاد کلاسیک (تب، راش، سابقه کنه) نادر: فقط 50٪ گزش کنه را به یاد می‌آورند و راش در 10٪ غایب؛ راش 2 تا 4 روز بعد از تب: ماکولوپاپولار، سپس پتشیال؛ مچ پا و مچ دست سپس مرکزگرا؛ معمولاً صورت سالم؛ کف دست و پا
+- تشخیص بالینی (تأیید پس از شروع درمان)؛ در بیمار تب‌دار با سردرد از منطقه آندمیک در بهار/تابستان؛ ترکیب WBC و RBC نرمال، ترومبوسیتوپنی، آنزیم کبد بالا و هیپوناترمی؛ تأیید: افزایش تیتر یا بیوپسی پوست با ایمونوفلورسانس
+- افتراق: ویروسی، پنومونی، منینگوکوکسمی، ارلیخیوز، Kawasaki، TSS، مخملک، لپتوسپیروز
+- ارلیخیوز: Ehrlichia (کوکوباسیل گرم‌منفی در لکوسیت‌ها)؛ کنه lone star (Amblyomma americanum) و گوزن دم‌سفید؛ 1 تا 2 هفته بعد از گزش؛ تب (97٪)، سردرد، ناخوشی، تهوع، استفراغ، اسهال، درد شکم و آرترالژی؛ راش متغیر و غیرشایع؛ اقلیت: نارسایی کلیه/تنفس و آنسفالیت؛ آزمایش: لکوپنی، ترومبوسیتوپنی، آنزیم کبد بالا؛ هفته اول اسمیر ممکن است 20٪ مثبت؛ PCR اختصاصی ولی حساسیت کم؛ افزایش تیتر؛ استاندارد طلایی: IFA
+
+@ddx
+- !Meningococcemia |
+- !Toxic shock syndrome / sepsis |
+- Ehrlichiosis / anaplasmosis / Lyme disease |
+- Kawasaki disease / viral illness |
+- Leptospirosis / typhoid / malaria |
+
+@redflags
+- راش پتشیال کف دست/پا با تب، تغییر هوشیاری، شوک
+
+@guide
+RMSF بزرگسال: doxycycline 100 mg PO/IV دو بار روزانه (برخی بار 200 mg)، 7 روز یا تا 3 روز بعد از رفع تب (جدول 97-2: 7 روز یا تا 2 روز بعد از نرمال شدن دما). کودک < 45 kg: doxycycline 2.2 mg/kg PO دو بار روزانه؛ AAP و CDC آن را درمان انتخابی ریکتزیوز در همه سنین می‌دانند. حاملگی: doxycycline در موارد تهدیدکننده حیات موجه؛ جایگزین chloramphenicol 50 mg/kg/d در چهار دوز 7 روز (سمی و مشکل‌ساز). ارلیخیوز: doxycycline 100 mg PO دو بار روزانه (2.2 mg/kg دو بار روزانه برای < 45 kg) برای همه سنین؛ تا 3 تا 5 روز بعد از رفع تب یا 10 تا 14 روز بعد از رفع علائم CNS در شدید؛ rifampin 300 mg دو بار روزانه در موارد ممنوعیت doxycycline.
+
+@variant rmsf-ehrlichiosis-main
+name: Suspected Rocky Mountain spotted fever / ehrlichiosis
+level: II
+imp: Suspected Rocky Mountain spotted fever / ehrlichiosis
+cond: Emergent
+act: CBR
+diet: PO
+ecg: once
+cxr: none
+
+@scenario
+مردی ۴۰ ساله در ژوئن با تب 39.5، سردرد شدید، میالژی و راش پتشیال مچ‌ها و کف دست‌ها؛ گزش کنه 4 روز قبل.
+
+@why
+RMSF بالینی است؛ درمان را قبل از تأیید با doxycycline شروع کن.
+
+@L
+- CBC (normal white and red cells, thrombocytopenia), liver function tests, sodium (hyponatremia); peripheral blood smear (ehrlichiosis), PCR; serology (acute and convalescent) or skin biopsy with immunofluorescence for confirmation (outside the ED)
+
+@A
+- Doxycycline 100 mg PO or IV twice a day for 7 days or until 3 days after resolution of fever (some recommend a 200 mg loading dose); children < 45 kg Doxycycline 2.2 mg/kg PO twice a day
+- Ehrlichiosis: Doxycycline 100 mg PO twice a day until 3 to 5 days after fever resolution (or 10 to 14 days after resolution of CNS symptoms in severe disease); Rifampin 300 mg twice a day for patients with contraindications to doxycycline {ci: doxycycline contraindicated in pregnancy but warranted in life-threatening situations; chloramphenicol 50 mg/kg/d divided in four doses for 7 days is the alternative}
+
+@Co
+- Admit if toxic; infectious disease
+
+@cond lyme-disease
+ch: 97
+name: Lyme disease
+name_fa: بیماری لایم
+cc: rash, fever, joint-limb-pain
+keywords: Lyme disease, Borrelia burgdorferi, erythema migrans, facial nerve palsy, heart block, doxycycline, ceftriaxone, tick prophylaxis, لایم
+status: draft
+
+@features
+- شایع‌ترین عفونت زئونوز منتقله با ناقل در آمریکا؛ Borrelia burgdorferi و کنه Ixodes؛ احتمال انتقال حدود 3٪ در مناطق بسیار آندمیک؛ ریسک ناچیز اگر چسبندگی < 36 ساعت؛ 95٪ از 13 ایالت شمال‌شرق و میدوست شمالی؛ اوج مه تا اوت
+- مرحله 1 (موضعی زودرس): erythema migrans (60٪ تا 80٪؛ 2 تا 30 روز؛ پلاک اریتماتو با پاکسازی مرکزی)؛ خستگی، سردرد، تب، سفتی گردن، میالژی، آرترالژی، آدنوپاتی
+- مرحله 2 (منتشر زودرس): چند روز تا 6 ماه؛ ضایعات آنولار هدف‌مانند متعدد، تب، آدنوپاتی، نوروپاتی (15٪ عصبی: نوریت کرانیال → فلج دوطرفه عصب صورت؛ سردرد، سفتی گردن، آتاکسی مخچه‌ای، میلیت، آنسفالیت)، آرتریت اولیگوآرتیکولار مفاصل بزرگ، قلبی 8٪: میوپریکاردیت یا بلوک AV (گاهی پیس‌میکر موقت)
+- مرحله 3 (منتشر دیررس): ماه‌ها تا سال‌ها: آرتریت مزمن، میوکاردیت، انسفالوپاتی تحت‌حاد، پلی‌نوروپاتی آکسونال
+- تشخیص بالینی؛ تأیید: PCR، ایمونواسی فلورسانس، immunoblot؛ افتراق: STARI، سلولیت، EM، tinea، مننژیت، آنسفالیت، تب روماتیسمی، آرتریت سپتیک، اندوکاردیت
+
+@ddx
+- !Lyme carditis (AV block) |
+- !Lyme meningitis / facial nerve palsy |
+- Cellulitis / tinea corporis |
+- Septic arthritis / rheumatic fever |
+- Erythema multiforme / STARI |
+
+@redflags
+- بلوک AV، فلج صورت دوطرفه، مننژیت
+
+@guide
+مرحله اولیه یا ثانویه خفیف: 14 تا 21 روز doxycycline 100 mg PO دو بار روزانه (کودک < 45 kg 2.2 mg/kg دو بار روزانه)، amoxicillin 500 mg PO سه بار روزانه (کودک 50 mg/kg/d در سه دوز) یا cefuroxime 500 mg PO دو بار روزانه (کودک 30 mg/kg/d در سه دوز)؛ ماکرولیدها کمتر مؤثر. شدید، مننژیت، رادیکولوپاتی یا بلوک قلبی درجه بالا: ceftriaxone 2 g IV روزانه (کودک 50 تا 75 mg/kg روزانه) 14 تا 30 روز. پروفیلاکسی روتین پس از گزش توصیه نمی‌شود؛ یک دوز doxycycline 200 mg (کودک ≥ 8 سال 4 mg/kg) برای گزش کنه گوزن در منطقه بسیار آندمیک اگر اتصال ≥ 36 ساعت و ظرف 72 ساعت پس از برداشتن کنه.
+
+@variant lyme-early
+name: Early Lyme disease (erythema migrans, mild)
+level: III
+imp: Early Lyme disease
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مردی ۳۵ ساله در ژوئیه با پلاک حلقوی قرمز بزرگ با پاکسازی مرکزی روی ران و خستگی.
+
+@why
+Lyme اولیه با doxycycline یا amoxicillin 14 تا 21 روز.
+
+@L
+- Clinical diagnosis (erythema migrans); PCR, polyvalent fluorescence immunoassay or Western immunoblot for confirmation
+
+@A
+- Doxycycline 100 mg PO twice a day (children < 45 kg 2.2 mg/kg twice daily), or Amoxicillin 500 mg PO three times a day (children 50 mg/kg/d divided three times a day), or Cefuroxime 500 mg PO twice a day (children 30 mg/kg/d divided three times a day) for 14 to 21 days
+- Prophylaxis after deer tick bite (highly endemic area, attachment ≥ 36 hours, within 72 hours of removal): single dose Doxycycline 200 mg (children ≥ 8 years 4 mg/kg)
+
+@variant lyme-severe-neuro-cardiac
+name: Lyme disease with meningitis, radiculopathy or high-degree heart block
+level: I
+imp: Lyme neuroborreliosis / Lyme carditis
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: none
+
+@scenario
+مردی ۴۵ ساله با Lyme، فلج دوطرفه صورت و بلوک AV درجه 3.
+
+@why
+شدید: ceftriaxone وریدی؛ مانیتور قلبی و پیس‌میکر موقت در صورت نیاز.
+
+@L
+- Lumbar puncture if meningitis suspected {note: not specified in this chapter}; serology / PCR for confirmation
+
+@A
+- Ceftriaxone 2 g IV daily (children 50 to 75 mg/kg daily) for 14 to 30 days
+
+@T
+- Cardiac monitoring; temporary pacemaker may be required for high-degree AV block
+
+@Co
+- Admit; cardiology / infectious disease
+
+@cond tularemia-anthrax-plague
+ch: 97
+name: Tularemia, anthrax and plague
+name_fa: تولارمی، سیاه‌زخم (آنتراکس) و طاعون
+cc: fever, rash, wound-bite
+keywords: tularemia, Francisella tularensis, anthrax, Bacillus anthracis, cutaneous anthrax, inhalational anthrax, raxibacumab, plague, Yersinia pestis, bubo, streptomycin, gentamicin, ciprofloxacin, تولارمی, سیاه زخم, طاعون
+status: draft
+
+@features
+- تولارمی (F. tularensis): کنه Dermacentor/Amblyomma؛ مخزن: خرگوش، شاه‌بلوط‌خوار و گوزن؛ گزش کنه/مگس، استنشاق، تلقیح پوست/مخاط؛ اولسروگلاندولار شایع‌ترین: ضایعه ماکولوپاپولار زخمی شده در محل + لنفادنوپاتی دردناک و علائم سیستمیک؛ گلاندولار: لنفادنوپاتی بدون زخم؛ تیفوئیدی: بیشترین عارضه (تب، لرز، سردرد، درد شکم)؛ چشمی-اوروفارنژیال و پنومونیک از ذرات هوا؛ تشخیص: کشت، DFA یا PCR از ضایعه/غده/خلط
+- آنتراکس (B. anthracis): استنشاق اسپور، پوست آسیب‌دیده، گزش آرتروپود (کک) یا خوردن گوشت ناکافی پخته؛ استنشاقی: مدیاستینیت (نه پنومونی واقعی) تقریباً همیشه کشنده: ابتدا شبه‌آنفلوانزا، طی 2 تا 3 روز ادم مدیاستن/هیل و نارسایی تنفس؛ پوستی (95٪): ماکول خارش‌دار (معمولاً انگشت) → زخم با وزیکول سروزی خونی → اسکار سیاه بدون درد که ظرف 2 هفته می‌افتد؛ اقلیت: باکتریمی سریع‌الکشنده؛ تشخیص: Gram، DFA، کشت ضایعه/وزیکول؛ کشت خون
+- طاعون (Y. pestis): سنجاب سنگ و جوندگان جنوب‌غرب؛ کک؛ گزش، خوردن حیوان آلوده یا ترشحات؛ اسکار محل گزش سپس bubo (غدد پروگزیمال چرکی)؛ بوبونیک: تب، سردرد، bubo؛ پنومونیک: سرفه، لرز، تنگی نفس و شوک و بسیار مسری (قطره‌ای)؛ تشخیص بالینی؛ درمان بدون انتظار کشت
+
+@ddx
+- !Inhalational anthrax / pneumonic plague |
+- !Sepsis |
+- Influenza / tuberculosis / mediastinitis |
+- Cutaneous anthrax vs spider bite / ecthyma gangrenosum / tularemia |
+- Pyogenic infection / syphilis / lymphogranuloma venereum |
+
+@redflags
+- ادم مدیاستن/هیل با نارسایی تنفس، پنومونی همراه خون‌ریزی و شوک (پنومونیک)، سابقه مواجهه شغلی/بیوتروریسم
+
+@guide
+# تولارمی
+بزرگسال: streptomycin 1 g IM دو بار روزانه یا gentamicin 5 mg/kg/d IM/IV تقسیم هر 8 ساعت 10 روز؛ کودک: streptomycin 15 mg/kg IM دو بار روزانه (حداکثر 2 g/d) یا gentamicin 2.5 mg/kg IM/IV دو یا سه بار روزانه 10 روز؛ خفیف بزرگسال: ciprofloxacin 750 mg PO دو بار روزانه یا doxycycline 100 mg PO دو بار روزانه 21 روز.
+# آنتراکس
+سیستمیک با مننژیت محتمل/قطعی: ciprofloxacin 400 mg IV هر 8 ساعت + meropenem 2 g هر 8 ساعت + linezolid 600 mg هر 12 ساعت؛ در نظر گرفتن raxibacumab 40 mg/kg طی 2.25 ساعت؛ سیستمیک بدون مننژیت: ciprofloxacin 400 mg IV هر 8 ساعت + clindamycin 900 mg هر 8 ساعت یا linezolid 600 mg هر 12 ساعت؛ مشاوره عفونی. پوستی بدون درگیری سیستمیک: ciprofloxacin 500 mg PO هر 12 ساعت یا doxycycline 100 mg PO هر 12 ساعت: 7 تا 10 روز (طبیعی) و 60 روز (بیوتروریسم). پروفیلاکسی: 60 روز آنتی‌بیوتیک + سه دوز واکسن.
+# طاعون
+gentamicin 5 mg/kg IM/IV روزانه یا streptomycin 15 mg/kg (یا 1 g) IM دو بار روزانه 10 روز؛ کودک: gentamicin 2 تا 2.5 mg/kg/dose هر 8 ساعت؛ جایگزین: doxycycline 100 mg IV دو بار روزانه (یا 200 mg روزانه)، ciprofloxacin 400 mg IV دو بار روزانه یا chloramphenicol 25 mg/kg IV هر 6 ساعت 10 روز.
+
+@variant tularemia-main
+name: Tularemia
+level: II
+imp: Tularemia
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: PA
+
+@scenario
+شکارچی ۴۵ ساله پس از پوست‌کنی خرگوش با زخم انگشت، لنفادنوپاتی دردناک زیربغل و تب.
+
+@why
+اولسروگلاندولار: آمینوگلیکوزید؛ خفیف: سیپروفلوکساسین یا داکسی‌سایکلین.
+
+@L
+- Culture, direct fluorescent antibody or PCR from skin lesion swab, lymph node sampling or sputum
+
+@A
+- Adults: Streptomycin 1 g IM twice a day, or Gentamicin 5 mg/kg/d IM or IV divided every 8 hours, for 10 days; children: Streptomycin 15 mg/kg IM twice a day (maximum 2 g/d) or Gentamicin 2.5 mg/kg IM/IV two or three times a day for 10 days {renal: aminoglycoside}
+- Mild disease in adults: Ciprofloxacin 750 mg PO twice a day or Doxycycline 100 mg PO twice a day for 21 days
+
+@Co
+- Admit if severe; infectious disease
+
+@variant anthrax-cutaneous
+name: Cutaneous anthrax
+level: III
+imp: Cutaneous anthrax
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+کارگر پشم ۴۰ ساله با اسکار سیاه بدون درد روی انگشت و ادم اطراف.
+
+@why
+پوستی بدون سیستمیک: سیپروفلوکساسین یا داکسی‌سایکلین؛ 60 روز اگر بیوتروریسم.
+
+@L
+- Gram stain, direct fluorescent antibody or culture of skin lesions or vesicle fluid; blood cultures
+
+@A
+- Ciprofloxacin 500 mg PO every 12 hours or Doxycycline 100 mg PO every 12 hours: 7 to 10 days if naturally acquired from animals; 60 days for bioterrorism-related cases
+
+@Co
+- Notify public health; infectious disease
+
+@variant anthrax-systemic
+name: Systemic / inhalational anthrax
+level: I
+imp: Systemic (inhalational) anthrax
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: portable
+o2: O2 therapy: F.M 6–10 L/min or N.C 3–5 L/min if SpO2 < 94%
+
+@scenario
+مردی ۵۰ ساله با تب، سرفه، تنگی نفس پیشرونده و ادم مدیاستن در CXR.
+
+@why
+تقریباً همیشه کشنده؛ چند آنتی‌بیوتیک وریدی فوری و raxibacumab.
+
+@I
+- Chest radiograph (mediastinal widening/hilar edema); CT chest {note: not specified in this chapter}
+
+@L
+- Blood cultures; Gram stain / culture / DFA of lesions if present; lumbar puncture if meningitis suspected {note: LP not specified}
+
+@A
+- Possible or confirmed meningitis: Ciprofloxacin 400 mg IV every 8 hours plus Meropenem 2 g every 8 hours plus Linezolid 600 mg every 12 hours; consider one-time Raxibacumab 40 mg/kg diluted infusion over 2.25 hours
+- Meningitis excluded: Ciprofloxacin 400 mg IV every 8 hours plus Clindamycin 900 mg every 8 hours or Linezolid 600 mg every 12 hours
+
+@Co
+- Infectious disease; public health notification; ICU
+
+@variant plague-main
+name: Bubonic / pneumonic plague
+level: I
+imp: Plague (bubonic / pneumonic)
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: portable
+o2: O2 therapy: F.M 6–10 L/min or N.C 3–5 L/min if SpO2 < 94%; droplet isolation (pneumonic)
+
+@scenario
+مردی ۴۰ ساله از جنوب‌غرب پس از تماس با سنجاب مرده با تب، سردرد و غده کشاله ران دردناک و چرکی؛ یا با سرفه و شوک.
+
+@why
+درمان را بدون انتظار کشت شروع کن؛ پنومونیک مسری است.
+
+@L
+- Blood culture and culture of suspected sites (do not wait for results to start treatment)
+
+@A
+- Gentamicin 5 mg/kg IM/IV daily or Streptomycin 15 mg/kg (or 1 g) IM twice a day for 10 days; pediatric Gentamicin 2 to 2.5 mg/kg/dose IM/IV every 8 hours
+- Alternatives: Doxycycline 100 mg IV twice a day (or 200 mg IV daily), Ciprofloxacin 400 mg IV twice a day, or Chloramphenicol 25 mg/kg IV every 6 hours for 10 days
+
+@T
+- Respiratory droplet isolation for pneumonic plague
+
+@Co
+- ICU; infectious disease; public health notification
+
+@cond zoonotic-systemic-other
+ch: 97
+name: Other systemic zoonoses (brucellosis, Capnocytophaga, psittacosis, Q fever, leptospirosis, Salmonella, Streptococcus iniae)
+name_fa: سایر زئونوزهای سیستمیک (بروسلوز، Capnocytophaga، پسیتاکوز، تب Q، لپتوسپیروز، سالمونلا، Streptococcus iniae)
+cc: fever, wound-bite
+keywords: brucellosis, Capnocytophaga, psittacosis, Q fever, Coxiella burnetii, leptospirosis, zoonosis, babesiosis, relapsing fever, Colorado tick fever, بروسلوز, لپتوسپیروز
+status: draft
+
+@features
+- زئونوز: انتقال طبیعی بین حیوانات مهره‌دار و انسان؛ تماس مستقیم، خوردن غذا/آب آلوده، استنشاق یا ناقل آرتروپود (اغلب کنه)؛ تشخیص دشوار (تب، سردرد، میالژی مشابه بسیاری بیماری‌ها)؛ در بیمار با بیماری شبه‌ویروسی و خطر شغلی یا جغرافیایی در نظر بگیر
+- جدول 97-1: Aeromonas (ماهی/خزندگان): سلولیت کرپیتانت و گاستروانتریت (فصل ۹۶)؛ Brucella canis (سگ): تب غیراختصاصی؛ سرولوژی/کشت خون؛ doxycycline + gentamicin یا rifampin (کودک: TMP-SMX + gentamicin)؛ Capnocytophaga (سگ/گربه): تب، شوک سپتیک و مننژیت پس از گزش؛ کشت؛ amoxicillin-clavulanate یا clindamycin؛ شوک: pip-tazo یا کارباپنم + clindamycin/vancomycin؛ Chlamydophila psittaci (پرندگان): شبه‌آنفلوانزا، پنومونی، اندوکاردیت؛ doxycycline (جایگزین azithromycin و levofloxacin)؛ Coxiella burnetii (گاو، گوسفند، بز): تب، پنومونی، هپاتیت، مننژیت، اندوکاردیت؛ doxycycline؛ Leptospira (پرندگان، سگ، جوندگان): تب، سپسیس، مننژیت، پنومونی، هپاتیت، راش؛ darkfield و سرولوژی؛ penicillin G IV یا ceftriaxone IV (خفیف: doxycycline خوراکی یا amoxicillin یا azithromycin)؛ Salmonella enterica (سگ، گربه، خزندگان): تب، اسهال، درد شکم، سپسیس؛ کشت خون/مدفوع؛ فلوروکینولون یا سفالوسپورین نسل 3؛ Streptococcus iniae (ماهی/غذاهای دریایی): سلولیت؛ کشت؛ β-لاکتام (به‌جز aztreonam)
+- سایر بیماری‌های کنه‌ای (جدول 97-2): تب راجعه کنه‌ای: doxycycline 100 mg PO/IV دو بار روزانه 7 تا 10 روز (erythromycin 500 mg چهار بار روزانه جایگزین)؛ babesiosis: atovaquone 750 mg PO هر 12 ساعت + azithromycin 500 mg روز اول سپس 250 تا 1000 mg روزانه 10 روز؛ شدید: clindamycin 1200 mg IV دو بار روزانه + quinine 650 mg PO سه بار روزانه 7 تا 10 روز؛ Colorado tick fever: حمایتی
+
+@ddx
+- !Sepsis / septic shock |
+- !Endocarditis |
+- Influenza-like illness |
+- Meningitis / pneumonia |
+- Hepatitis |
+
+@redflags
+- شوک، مننژیت، پنومونی شدید، اندوکاردیت
+
+@guide
+انتخاب بر اساس مواجهه حیوانی/ناقل و جدول 97-1؛ مشاوره عفونی؛ آنتی‌بیوتیک‌ها مطابق ویژگی‌ها. سپسیس/شوک: فصل ۸۹.
+
+@variant zoonoses-other-main
+name: Suspected systemic zoonotic infection
+level: II
+imp: Suspected systemic zoonotic infection
+cond: Urgent
+act: CBR
+diet: PO
+ecg: once
+cxr: PA
+
+@scenario
+مردی ۳۸ ساله دامدار با تب، سردرد، میالژی و پنومونی بعد از زایمان گوسفندان.
+
+@why
+تب Q: doxycycline؛ سایر زئونوزها بر اساس مواجهه.
+
+@L
+- Blood cultures; serologic testing (brucellosis, psittacosis, Q fever, leptospirosis: darkfield microscopy of body fluids); wound culture for bite infections; PCR
+
+@A
+- Q fever (Coxiella burnetii): Doxycycline (possible alternative: fluoroquinolone or macrolide) {note: dose not given in the book}
+- Psittacosis: Doxycycline; alternatives Azithromycin and Levofloxacin {note: doses not given in the book}
+- Brucellosis: Doxycycline plus gentamicin or rifampin (children TMP-SMX plus gentamicin) {note: doses not given in the book}
+- Capnocytophaga: Amoxicillin-clavulanate or clindamycin; shock: piperacillin-tazobactam or carbapenem plus clindamycin / vancomycin
+- Leptospirosis: Penicillin G IV (alternative Ceftriaxone IV); mild disease oral Doxycycline or Amoxicillin or Azithromycin
+- Tick-borne relapsing fever: Doxycycline 100 mg PO/IV twice a day for 7–10 days (alternative Erythromycin 500 mg PO/IV four times a day); Babesiosis: Atovaquone 750 mg PO every 12 h plus Azithromycin 500 mg PO on day 1 then 250–1000 mg daily for 10 days (severe: Clindamycin 1200 mg IV twice a day plus Quinine 650 mg PO three times a day for 7–10 days)
+
+@Co
+- Infectious disease; public health notification as indicated
