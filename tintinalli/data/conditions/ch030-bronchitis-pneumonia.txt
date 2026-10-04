@@ -1,0 +1,383 @@
+@cond acute-bronchitis
+ch: 30
+name: Acute bronchitis (including pertussis)
+name_fa: برونشیت حاد
+cc: cough-hemoptysis
+keywords: acute bronchitis, pertussis, azithromycin, albuterol, antibiotics not indicated
+status: draft
+
+@features
+- عفونت خودمحدود راه‌های هوایی بزرگ، اغلب ویروسی (آنفلوآنزا A/B، آدنوویروس، رینوویروس، پاراآنفلوآنزا، RSV، کروناویروس)؛ باکتریال کمتر (S. pneumoniae، H. influenzae، کلامیدیا، مایکوپلاسما، B. pertussis)
+- سرفه (مولد یا خشک) تا 3 هفته؛ چرک خلط به‌تنهایی دلیل باکتریال نیست؛ فاقد تب > 38، ضربان > 100، تنفس > 24؛ ویز ممکن است
+- معیار تشخیص: سرفه حاد < 3 هفته، بدون بیماری مزمن ریه، علائم حیاتی طبیعی و نبود یافته‌های پنومونی
+- CXR در غیرسالمند غیرسمی لازم نیست؛ سیاه‌سرفه: سرفه > 2–3 هفته با حملات و استفراغ پس از سرفه یا مواجهه
+
+@ddx
+- !Pneumonia | 
+- !Pertussis | 
+- Asthma / COPD | 
+- Common cold / influenza | 
+
+@redflags
+- تب، تاکی‌کاردی، تاکی‌پنه یا یافته‌های پنومونی
+
+@guide
+آنتی‌بیوتیک در برونشیت حاد ویروسی فایده بالینی ندارد و عارضه دارد. در شک قوی به سیاه‌سرفه آزیترومایسین (بیماری را کوتاه نمی‌کند ولی حملات و انتقال را کم می‌کند). برونکودیلاتور در انسداد جریان هوا.
+
+@variant bronchitis-main
+name: Acute bronchitis
+level: III
+imp: Acute bronchitis
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+زنی ۳۰ ساله با سرفه مولد ۵ روزه، بدون تب و تنگی نفس؛ ریه‌ها ویز خفیف.
+
+@why
+آنتی‌بیوتیک فایده ندارد؛ درمان علامتی و برونکودیلاتور در انسداد.
+
+@T
+- Antibiotics are NOT indicated for viral acute bronchitis
+- [airflow obstruction] Albuterol two puffs every 4 to 6 hours by metered dose inhaler with spacer
+- [pertussis strongly suspected] Azithromycin 500 mg orally on day 1, followed by 250 mg orally on days 2 to 5
+- Agents for cough suppression or mucolysis individually; discharge with timely follow-up, smoking cessation and return precautions
+
+@cond community-acquired-pneumonia
+ch: 30
+name: Community-acquired pneumonia (CAP)
+name_fa: پنومونی اکتسابی از جامعه
+cc: fever, dyspnea, cough-hemoptysis, chest-pain
+keywords: pneumonia, CAP, azithromycin, doxycycline, levofloxacin, ceftriaxone, amoxicillin-clavulanate, vancomycin, atypical, pneumococcus, پنومونی
+status: draft
+
+@features
+- معمولاً عفونت باکتریال آلوئولی؛ S. pneumoniae کلاسیک؛ اتیپیک: Legionella، Mycoplasma، Chlamydia و ویروس‌ها
+- علائم: سرفه، خستگی، تب، تنگی نفس، خلط، درد پلورتیک؛ تاکی‌پنه، تاکی‌کاردی، SpO2 پایین، صدای برونکیال و رونکای تراکم
+- عوامل خطر: بیماری تنفسی (COPD)، نقص ایمنی (سرطان، AIDS)، آسپیراسیون، باکتریمی، ناتوانی
+- تصویربرداری: CXR رایج‌ترین؛ در بیماران ساده و سالم ممکن است نیازی به رادیولوژی و آزمایش نباشد؛ WBC و دیفرانسیل، الکترولیت، BUN، Cr، قند، گاز خون، رنگ‌آمیزی گرم خلط و کشت خلط و خون در بستری ICU
+- تشخیص افتراقی: آتلکتازی، فیبروز، افیوژن، پنومونیت شیمیایی، سارکوئیدوز، نئوپلاسم، سل، PE، CHF، واسکولیت
+
+@ddx
+- !Pulmonary embolism | 
+- !Heart failure | 
+- Tuberculosis | 
+- Neoplasm / pulmonary fibrosis | 
+- Chemical pneumonitis | 
+
+@redflags
+- هیپوکسی، شوک یا نیاز به ICU
+- سن بالا، بیماری همراه، علائم حیاتی غیرطبیعی پیشرونده
+
+@guide
+- حمایت تنفسی؛ NIV ممکن است از اینتوباسیون جلوگیری کند.
+- آنتی‌بیوتیک در همه موارد پنومونی باکتریال مشکوک شروع شود؛ انتخاب بر اساس محیط، CAP در برابر HCAP، بیماری همراه، آلرژی، تداخل و مقاومت محلی.
+- دوزها ممکن است در نارسایی کلیه اصلاح شوند.
+
+@variant cap-outpatient-healthy
+name: Outpatient, otherwise healthy
+level: III
+imp: Community-acquired pneumonia, outpatient
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: PA
+
+@scenario
+مردی ۳۰ ساله و سالم با تب و سرفه خلط‌دار ۴ روزه؛ علائم حیاتی تقریباً طبیعی، SpO2 96٪؛ CXR تراکم لوب تحتانی راست.
+
+@why
+CAP بدون بیماری همراه: آنتی‌بیوتیک خوراکی سرپایی.
+
+@A
+- Azithromycin 500 mg orally on day 1, followed by 250 mg orally on days 2 to 5
+- [alternatively, low-cost] Doxycycline 100 mg orally twice daily for 10 days
+- Oral fluoroquinolones reserved for those failing macrolide or tetracycline therapy (CDC)
+
+@T
+- Discharge instructions: timely follow-up with a primary care physician, smoking cessation, symptoms that should prompt return
+
+@variant cap-outpatient-comorbid
+name: Outpatient with significant comorbidities
+level: III
+imp: Community-acquired pneumonia with comorbidities
+cond: Urgent
+act: CBR
+diet: PO
+ecg: once
+cxr: PA
+
+@scenario
+مردی ۶۰ ساله مبتلا به دیابت و COPD با تب و سرفه و تراکم در CXR؛ پایدار.
+
+@why
+بیماری همراه قابل‌توجه (بدون شک HCAP): فلوروکینولون یا بتالاکتام همراه ماکرولید.
+
+@L
+- [depending on anticipated etiology and disposition] WBC with differential, electrolytes, BUN, Cr, glucose
+
+@A
+- Levofloxacin 750 mg orally daily for 5 days
+- [or] Amoxicillin-clavulanate 875/125 mg orally twice daily for 10 days PLUS Azithromycin 500 mg orally on day 1 then 250 mg orally on days 2 to 5
+
+@variant cap-inpatient
+name: Inpatient, not requiring ICU
+level: II
+imp: Community-acquired pneumonia, admitted
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: once
+cxr: portable
+
+@scenario
+مردی ۷۰ ساله با تب 39، تنفس 28، SpO2 90٪ و تراکم دوطرفه؛ فشار پایدار.
+
+@why
+آنتی‌بیوتیک وریدی زودهنگام و بستری.
+
+@L
+- WBC with differential, electrolytes, BUN, Cr, glucose, blood gases, sputum Gram stain and culture, blood cultures
+
+@A
+- Levofloxacin 750 mg IV
+- [or] Ceftriaxone 1 g IV PLUS Azithromycin 500 mg IV
+- Antibiotics early in the course of any pneumonia requiring admission
+
+@T
+- Oxygen; noninvasive positive pressure ventilation may prevent intubation
+
+@variant cap-icu
+name: ICU-level CAP
+level: I
+imp: Severe community-acquired pneumonia
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: portable
+
+@scenario
+مردی ۶۵ ساله با پنومونی وسیع، SpO2 80٪ با ماسک، فشار 85/50 و تنفس 36.
+
+@why
+CAP شدید: آنتی‌بیوتیک وسیع‌الطیف زودهنگام، حمایت تنفسی و ICU.
+
+@L
+- Blood gases, blood and sputum cultures, WBC with differential, electrolytes, BUN, Cr, glucose
+
+@A
+- Ceftriaxone 1 g IV PLUS Levofloxacin 750 mg IV
+- [if MRSA suspected] Vancomycin 10 to 15 mg/kg IV
+
+@T
+- Support oxygenation and ventilation; intubation and mechanical ventilation for impending or unresponsive respiratory failure; NIV may prevent intubation
+
+@Co
+- ICU
+
+@cond health-care-associated-pneumonia
+ch: 30
+name: Health care-associated pneumonia (HCAP)
+name_fa: پنومونی مرتبط با مراقبت سلامت
+cc: fever, dyspnea
+keywords: HCAP, Pseudomonas, MRSA, cefepime, piperacillin-tazobactam, vancomycin, linezolid, nursing home pneumonia
+status: draft
+
+@features
+- معیار: بستری > 48 ساعت در 90 روز گذشته، دریافت درمان‌های سرپایی منظم (دیالیز، شیمی‌درمانی، مراقبت زخم، آنتی‌بیوتیک وریدی خانگی) یا ساکن مرکز سالمندان
+- خطر عوامل نیازمند پوشش اختصاصی یا وسیع‌تر مثل Pseudomonas aeruginosa و MRSA
+
+@ddx
+- !Pseudomonas pneumonia | 
+- !MRSA pneumonia | 
+- Aspiration | 
+
+@redflags
+- ناپایداری یا هیپوکسی
+
+@guide
+پوشش دوگانه علیه Pseudomonas به‌علاوه پوشش MRSA در صورت شک.
+
+@variant hcap-main
+name: Suspected HCAP (inpatient)
+level: I
+imp: Health care-associated pneumonia
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: portable
+
+@scenario
+مرد ۷۵ ساله ساکن خانه سالمندان با پنومونی و SpO2 86٪.
+
+@why
+پوشش دوگانه Pseudomonas و پوشش MRSA.
+
+@L
+- Blood and sputum cultures, blood gases
+
+@A
+- Levofloxacin 750 mg IV PLUS (Cefepime 1 to 2 g IV OR Piperacillin/tazobactam 4.5 g IV)
+- [suspected MRSA] Vancomycin 10 to 15 mg/kg IV OR Linezolid 600 mg IV
+
+@cond aspiration-pneumonitis-pneumonia
+ch: 30
+name: Aspiration pneumonitis and aspiration pneumonia
+name_fa: پنومونیت و پنومونی آسپیراسیون
+cc: dyspnea, fever
+keywords: aspiration, pneumonitis, clindamycin, levofloxacin, right lower lobe
+status: draft
+
+@features
+- علائم بسته به حجم و pH ماده آسپیره‌شده، ذرات و آلودگی باکتریال؛ حجم زیاد اسیدی: تاکی‌پنه، تاکی‌کاردی و دیسترس سریع؛ اغلب پنومونی آسپیراسیون تدریجی است
+- لوب تحتانی راست شایع‌ترین؛ در درمان‌نشده: empyema یا آبسه ریه
+
+@ddx
+- !Chemical pneumonitis | 
+- !Empyema / lung abscess | 
+- Bacterial pneumonia | 
+
+@redflags
+- دیسترس تنفسی سریع، ذرات بزرگ در راه هوایی
+
+@guide
+آنتی‌بیوتیک پروفیلاکتیک توصیه نمی‌شود. آسپیراسیون شاهدی: ساکشن فوری تراشه و در صورت لزوم برونکوسکوپی. اگر به پنومونی پیشرفت کرده: لووفلوکساسین + کلیندامایسین.
+
+@variant aspiration-main
+name: Aspiration pneumonitis or pneumonia
+level: II
+imp: Aspiration pneumonia
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: once
+cxr: portable
+
+@scenario
+مردی ۷۰ ساله بعد از استفراغ و کاهش هوشیاری تب و تنگی نفس دارد؛ CXR تراکم لوب تحتانی راست.
+
+@why
+فقط وقتی به پنومونی پیشرفته آنتی‌بیوتیک می‌دهیم.
+
+@A
+- [pneumonitis that has progressed to pneumonia] Levofloxacin 750 mg IV PLUS Clindamycin 600 mg IV
+- Prophylactic antibiotics are not recommended for aspiration pneumonitis
+
+@T
+- [witnessed aspiration] Immediate tracheal suction, bronchoscopy if needed to remove large particles
+
+@cond empyema-lung-abscess
+ch: 30
+name: Empyema and lung abscess
+name_fa: آمپیم و آبسه ریه
+cc: fever, dyspnea
+keywords: empyema, lung abscess, pleural drainage, piperacillin-tazobactam, clindamycin
+status: draft
+
+@features
+- empyema: چرک در فضای پلور؛ آبسه ریه: عارضه آسپیراسیون یا پنومونی درمان‌نشده
+- اکثر آبسه‌ها با درمان داخلی بستری موفق‌اند؛ مشاوره جراحی فقط در اقلیت
+
+@ddx
+- !Parapneumonic effusion | 
+- Lung abscess | 
+
+@redflags
+- تب و تنگی نفس پیشرونده
+
+@guide
+Empyema: پیپراسیلین/تازوباکتام؛ + وانکومایسین اگر MRSA مشکوک؛ بستری و مشاوره ریه یا جراحی قفسه برای درناژ. آبسه: کلیندامایسین + سفتریاکسون.
+
+@variant empyema-main
+name: Empyema
+level: II
+imp: Empyema
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: once
+cxr: PA
+
+@scenario
+مردی ۵۵ ساله با تب و درد پلورتیک بعد از پنومونی؛ افیوژن بزرگ.
+
+@why
+آنتی‌بیوتیک و درناژ.
+
+@A
+- Piperacillin/tazobactam 4.5 g IV
+- [if MRSA suspected] Vancomycin 10 to 15 mg/kg IV
+
+@Co
+- Pulmonologist or thoracic surgeon early (drainage); admit
+
+@variant lung-abscess-main
+name: Lung abscess
+level: II
+imp: Lung abscess
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: once
+cxr: PA
+
+@scenario
+مردی ۶۰ ساله الکلی با تب و خلط بدبو؛ حفره با سطح مایع در CXR.
+
+@why
+پوشش بی‌هوازی و سفتریاکسون؛ اغلب درمان داخلی بستری.
+
+@A
+- Clindamycin 600 mg IV (anaerobic coverage) plus Ceftriaxone 1 g IV
+
+@Co
+- Surgical consultation required in only a minority of cases
+
+@cond novel-respiratory-infections
+ch: 30
+name: Novel respiratory infections (SARS, MERS)
+name_fa: عفونت‌های نوپدید تنفسی (SARS و MERS)
+cc: fever, dyspnea
+keywords: SARS, MERS, coronavirus, N95, droplet, airborne, infection control
+status: draft
+
+@features
+- SARS: کروناویروس SARS-CoV، انتقال قطره‌ای؛ مرگ‌های زیاد در آسیا، آمریکای شمالی و اروپا (2003)
+- MERS: کروناویروس؛ مرگ‌ومیر اولیه تا 50٪ که کاهش یافته؛ علائم تنفسی غالب و ممکن است درد شکم و اسهال؛ انتقال هوایی به کادر درمان
+- کاهش انتقال به کادر درمان: دستکش، گان، محافظ چشم و ماسک N95 فیت‌شده
+
+@ddx
+- !Severe pneumonia | 
+- Influenza | 
+
+@redflags
+- تب و علائم تنفسی با سابقه سفر یا تماس
+
+@guide
+اطلاعات به‌روز در CDC و WHO. در کتاب دستور درمان اختصاصی داده نشده؛ اقدامات کنترل عفونت و حمایتی.
+
+@variant novel-resp-main
+name: Suspected SARS or MERS
+level: I
+imp: Suspected novel respiratory infection (SARS / MERS)
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: portable
+
+@scenario
+مردی ۴۵ ساله با تب، سرفه و تنگی نفس بعد از بازگشت از خاورمیانه و تماس با بیمار؛ SpO2 88٪.
+
+@why
+جداسازی و پیشگیری از انتقال؛ درمان حمایتی؛ اطلاع‌رسانی.
+
+@T
+- Infection control: gloves, gown, eye protection and a fit-tested N95 respirator facemask
+- Supportive care; up-to-date guidance from CDC and WHO {note: no specific drug treatment is described in the book}

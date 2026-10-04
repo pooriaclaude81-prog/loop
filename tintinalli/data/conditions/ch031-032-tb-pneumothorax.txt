@@ -1,0 +1,297 @@
+@cond tuberculosis
+ch: 31
+name: Tuberculosis (active, latent, MDR)
+name_fa: سل
+cc: cough-hemoptysis, fever, dyspnea
+keywords: TB, tuberculosis, isoniazid, rifampin, pyrazinamide, ethambutol, pyridoxine, airborne isolation, IGRA, TST, MDR-TB, DOT, miliary, سل
+status: draft
+
+@features
+- دومین علت شایع مرگ عفونی در جهان؛ یک‌سوم جمعیت جهان آلوده؛ مهاجران 12 برابر بیشتر؛ HIV، زندان و پناهگاه، مراکز مراقبت طولانی، اعتیاد
+- انتقال با استنشاق droplet nuclei؛ عفونت اولیه فعال یا نهفته (قابل فعال شدن مجدد)
+- اولیه: اغلب بدون علامت در بالغ ایمن (TST/IGRA جدید مثبت و CXR طبیعی)؛ فعال: تب، سرفه، کاهش وزن، بی‌حالی، درد قفسه؛ کودکان: بیماری فعال زودهنگام، مننژیت سلی و میلیاری شایع‌تر؛ ایمنی‌سرکوب: پیشرفت سریع
+- فعال‌سازی مجدد: 5٪ ظرف 2 سال و 5٪ طی عمر؛ تب، بی‌حالی، کاهش وزن، تعریق شبانه، سرفه مولد، هموپتزی، درد پلورتیک؛ خارج‌ریوی تا 20٪ (لنفادنیت، پلورال، پریکاردیت، پریتونیت، مننژیت، استخوان و مفصل)؛ میلیاری: تب، کاهش وزن، بی‌حالی، ARDS یا نارسایی چندارگانی
+- CXR: ارتشاح پارانشیمی، آدنوپاتی هیلوم؛ فعال‌سازی مجدد: لوب فوقانی یا سگمان‌های فوقانی لوب تحتانی؛ حفره (عفونت‌زایی بیشتر)؛ میلیاری: ندول‌های 1–3 mm؛ در HIV اغلب اتیپیک
+- آزمایش: رنگ‌آمیزی اسید-فاست خلط (چند ساعت؛ منفی کاذب)، کشت (استاندارد طلایی؛ هفته‌ها)، NAAT (24 ساعت؛ NPV ضعیف)، TST (48–72 ساعت؛ منفی کاذب در ایمنی‌سرکوب و مثبت کاذب با BCG)، IGRA (ساعت‌ها؛ BCG مثبت نمی‌کند)
+
+@ddx
+- !Pneumonia | 
+- !Lung malignancy | 
+- Other infectious pulmonary or extrapulmonary lesions | 
+- Latent TB infection (incidental scarring on CXR) | 
+
+@redflags
+- ناپایداری، هیپوکسی، دیسپنه
+- شک به MDR-TB (سابقه TB، درمان ناکافی، تماس MDR، اسمیر مثبت پس از چند ماه)
+
+@guide
+# اقدامات
+- ایزولاسیون هوابرد و حفاظت تنفسی کادر از نخستین مرحله؛ بیمار مشکوک با ماسک در حمل و اتاق ایزوله انفرادی.
+- درمان اولیه حداقل چهار دارو تا مشخص شدن حساسیت: INH + ریفامپین + PZA + اتامبوتول؛ پیریدوکسین با INH؛ پرهیز از الکل و هپاتوتوکسین؛ DOT.
+- بستری: ناپایداری، هیپوکسی، تنگی نفس، تردید تشخیصی، پیگیری نامطمئن، MDR.
+- ترخیص مورد فعال یا محتمل: ارجاع فوری مستند به پزشک یا بهداشت عمومی برای درمان طولانی و ردیابی تماس.
+- عفونت نهفته (TST/IGRA مثبت بدون یافته فعال): ارجاع برای پروفیلاکسی.
+
+@variant tb-active
+name: Active TB, initial therapy
+level: II
+imp: Active tuberculosis
+cond: Urgent
+act: CBR
+diet: PO
+ecg: once
+cxr: PA
+
+@scenario
+مردی ۴۵ ساله مهاجر با سرفه ۲ ماهه، تعریق شبانه، کاهش وزن و هموپتزی خفیف؛ CXR حفره لوب فوقانی راست.
+
+@why
+TB فعال: ایزولاسیون هوابرد و شروع چهار دارو.
+
+@I
+- [extrapulmonary or atypical presentations] additional imaging as indicated
+
+@L
+- Sputum acid-fast staining and culture (gold standard); TB-specific NAAT if available; IGRA or TST; HIV testing and evaluation for immune-compromising conditions {note: HIV evaluation recommended for all with active TB}
+
+@T
+- Airborne isolation single room; patient wears a mask during all transport; respiratory protection for staff
+- Isoniazid 5 mg/kg up to 300 mg PO daily
+- Rifampin 10 mg/kg up to 600 mg PO daily
+- Pyrazinamide 15 to 30 mg/kg up to 2 g PO daily
+- Ethambutol 15 to 20 mg/kg up to 1.6 g PO daily
+- Pyridoxine 50 mg/day with INH to prevent neuropathy; avoid alcohol and hepatotoxins; directly observed therapy (DOT)
+
+@Co
+- Urgent documented referral to a physician or local public health department for long-term treatment and contact tracing; admission for instability, hypoxia, dyspnea, diagnostic uncertainty, unreliable follow-up, suspected or known MDR TB
+
+@variant tb-mdr
+name: Suspected multi-drug resistant TB
+level: I
+imp: Suspected multidrug-resistant tuberculosis
+cond: Urgent
+act: CBR
+diet: PO
+ecg: once
+cxr: PA
+
+@scenario
+مردی ۵۰ ساله با سابقه درمان ناقص TB و سرفه و اسمیر مثبت پس از ۶ ماه.
+
+@why
+در شک MDR درمان با ۴ تا ۶ داروی مؤثر با مشاوره عفونی؛ بستری و ایزولاسیون.
+
+@T
+- Airborne isolation; four to six drugs judged likely to be effective by Infectious Disease consultation
+
+@Co
+- Infectious Disease; admission
+
+@variant tb-latent
+name: Latent TB infection
+level: III
+imp: Latent tuberculosis infection
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: PA
+
+@scenario
+زنی ۳۵ ساله مهاجر با IGRA مثبت، بدون علامت و CXR بدون یافته فعال.
+
+@why
+غیرعفونی و بدون نیاز به ایزولاسیون؛ ارجاع برای پروفیلاکسی.
+
+@T
+- No urgent treatment or isolation needed (stable scarring, calcified nodules on CXR are not infectious)
+
+@Co
+- Primary care or public health clinic for prophylaxis against reactivation TB
+
+@cond pneumothorax
+ch: 32
+name: Spontaneous and iatrogenic pneumothorax
+name_fa: پنوموتوراکس
+cc: chest-pain, dyspnea
+keywords: pneumothorax, tension pneumothorax, needle decompression, chest tube, aspiration, Heimlich valve, ultrasound lung sliding, پنوموتوراکس
+status: draft
+
+@features
+- ورود هوا به فضای پلور و کلاپس نسبی ریه؛ سیگار شایع‌ترین عامل خطر؛ اولیه (بدون بیماری ریه) و ثانویه (COPD، آسم، CF، بیماری بینابینی، عفونت، بافت همبند، سرطان)
+- ایاتروژنیک (شایع‌تر از خودبه‌خودی): بیوپسی سوزنی ریه، توراسنتز، کاتتر ساب‌کلاوین (25٪)، NG، فشار مثبت؛ 50٪ با اقدام ترانس‌توراسیک
+- پنوموتوراکس فشارنده: فشار مثبت در پلور؛ کاهش بازگشت وریدی، هیپوتانسیون و هیپوکسی؛ دیسپنه شدید پیشرونده، تاکی‌کاردی > 140، هیپوکسی؛ انحراف تراشه و JVD علائم دیررس
+- شروع ناگهانی دیسپنه و درد پلورتیک یک‌طرفه؛ معاینه اغلب ظریف؛ شایع‌ترین یافته تاکی‌کاردی سینوسی؛ هموپنوموتوراکس در 2 تا 7٪
+- تشخیص: CXR ایستاده PA (خط پلور جابه‌جا بدون علامت ریوی)؛ AP خوابیده: deep sulcus؛ CT برای بول‌های بزرگ؛ سونوگرافی: نبود lung sliding، نبود comet tail، lung point
+
+@ddx
+- !Tension pneumothorax | 
+- !Pulmonary embolism | 
+- Pneumonia / pericarditis / pleural effusion / shingles | 
+- Large emphysematous bulla (mimic) | 
+
+@redflags
+- هیپوتانسیون، هیپوکسی، تاکی‌کاردی > 140 (فشارنده)
+
+@guide
+پنوموتوراکس فشارنده بالینی تشخیص و قبل از رادیوگرافی درمان می‌شود: دکمپرسیون سوزنی و سپس لوله توراکوستومی. اکسیژن > 28٪ یا 2–4 L/min برای جذب هوا (مراقب هیپرکاپنی در COPD). پنوموتوراکس اولیه کوچک: مشاهده ≥ 4 ساعت و CXR تکراری. آسپیراسیون یا لوله: کاهش سریع حجم.
+
+@variant ptx-small-primary
+name: Small primary pneumothorax, stable
+level: III
+imp: Primary spontaneous pneumothorax, small
+cond: Urgent
+act: CBR
+diet: PO
+ecg: once
+cxr: PA
+
+@scenario
+مردی ۲۲ ساله لاغر و سیگاری با درد ناگهانی پلورتیک و تنگی نفس خفیف؛ پایدار؛ CXR پنوموتوراکس کمتر از 20٪.
+
+@why
+پنوموتوراکس اولیه اول و کوچک در بالغ سالم: اکسیژن و مشاهده.
+
+@T
+- Oxygen > 28% or 2 to 4 L by nasal cannula to increase pleural air resorption (monitor for hypercapnia in COPD)
+- Observe at least 4 hours on supplemental oxygen, then repeat the chest radiograph; if improved, return in 24 hours for repeat examination and then weekly until resolution
+
+@variant ptx-aspiration-tube
+name: Large, secondary, recurrent or symptomatic pneumothorax
+level: II
+imp: Pneumothorax requiring aspiration or tube thoracostomy
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: once
+cxr: PA
+
+@scenario
+مردی ۶۵ ساله با COPD و تنگی نفس شدید و پنوموتوراکس بزرگ.
+
+@why
+آسپیراسیون یا لوله توراکوستومی برای کاهش سریع حجم و کوتاه کردن زمان بهبودی.
+
+@I
+- Thoracic CT when a bulla mimics pneumothorax or to clarify the diagnosis; bedside ultrasound (absent lung sliding, comet tail artefacts, lung pulse, lung point)
+
+@T
+- Oxygen > 28% or 2 to 4 L by nasal cannula
+- Aspiration (small primary or secondary): 14-G needle in adults (18-G in children) at least 2 inches (5 cm) long, syringe aspiration and needle removal; alternatively small catheter or pigtail catheter attached to a Heimlich valve or suction; second ICS midclavicular line or fourth or fifth ICS anterior axillary line
+- Chest tube thoracostomy for failed aspiration, large, recurrent or bilateral pneumothorax, hemothorax, abnormal vital signs or severe dyspnea: small 10- to 14-French for nontrauma; 14- to 22-French if a large air leak is probable
+- Watch for re-expansion lung injury (lung collapsed > 72 hours, large pneumothorax, rapid re-expansion, suction > 20 cm)
+
+@Co
+- Admission (all patients requiring chest tube thoracostomy)
+
+@variant ptx-tension
+name: Tension pneumothorax
+level: I
+imp: Tension pneumothorax
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: portable
+
+@scenario
+مردی ۵۵ ساله ونتیلاتور شده یا بعد از کاتتر ساب‌کلاوین با تنگی نفس شدید، فشار 70/40، نبض 140 و کاهش صدای تنفس یک‌طرفه.
+
+@why
+تشخیص بالینی و درمان فوری قبل از رادیوگرافی: دکمپرسیون سوزنی و سپس لوله.
+
+@T
+- Needle decompression immediately (fifth ICS anterior axillary line preferred), followed by tube thoracostomy
+- Oxygen
+
+@Co
+- Admission
+
+@cond hemoptysis
+ch: 33
+name: Hemoptysis (minor and massive)
+name_fa: هموپتزی
+cc: cough-hemoptysis
+keywords: hemoptysis, massive hemoptysis, bronchoscopy, bronchial artery embolization, decubitus, FFP, prothrombin complex concentrate
+status: draft
+
+@features
+- خروج خون از ریه یا درخت تراکئوبرونکیال؛ ماسیو: 100 mL تا > 1000 mL در 24 ساعت؛ خفیف: مقدار کم بدون بیماری ریه و علائم حیاتی پایدار
+- علل: عفونی (برونشیت، برونشکتازی، پنومونی، سل، آبسه)، نئوپلاستیک (کارسینوم برونکوژنیک)، قلبی (تنگی میترال، نارسایی LV)، PE، تروما، جسم خارجی، واسکولیت، اختلال انعقادی؛ تا 30٪ علت نامشخص
+- گودپاسچر: هموپتزی، هماچوری و نارسایی کلیه؛ هیپوتانسیون علامت شوم (ماسیو)
+- بررسی حفره بینی و دهان برای pseudohemoptysis
+
+@ddx
+- !Pulmonary embolism | 
+- !Tuberculosis | 
+- !Bronchogenic carcinoma | 
+- Pneumonia / bronchitis / bronchiectasis | 
+- Mitral stenosis / LV failure | 
+- Goodpasture / alveolar hemorrhage | 
+- Coagulopathy | 
+
+@redflags
+- هیپوتانسیون، دیسترس تنفسی، خونریزی ماسیو
+
+@guide
+ABC؛ اکسیژن؛ NS یا رینگر لاکتات؛ cross-match؛ FFP یا PCC در کواگولوپاتی (وارفارین) و پلاکت در ترومبوسیتوپنی. خونریزی ماسیو: وضعیت دکوبیتوس با ریه خونریزی‌دهنده پایین؛ اینتوباسیون با لوله 8.0 mm برای برونکوسکوپی؛ اینتوباسیون مین‌استم ریه سالم. مشاوره ریه یا جراحی برای برونکوسکوپی، CT یا آمبولیزاسیون شریان برونکیال.
+
+@variant hemoptysis-minor
+name: Minor hemoptysis
+level: III
+imp: Hemoptysis, minor
+cond: Urgent
+act: RBR
+diet: PO
+ecg: once
+cxr: PA
+
+@scenario
+مردی ۵۰ ساله با سرفه مولد و رگه‌های خونی خلط، علائم حیاتی طبیعی.
+
+@why
+اغلب خودمحدود: CXR، درمان علامتی و پیگیری (خطر نئوپلاسم).
+
+@I
+- Chest x-ray (PA and lateral); chest CT if abnormal CXR or considering PE or carcinoma
+
+@L
+- Hemoglobin and hematocrit, platelet count, coagulation studies, urinalysis; ABG as needed
+
+@A
+- [bacterial infection suspected] Antibiotics {note: agent and dose not given in the book}
+
+@T
+- Cough suppressants and inhaled β-agonist bronchodilators as needed for several days
+- Close follow-up, particularly in those at high risk for neoplasm
+
+@variant hemoptysis-massive
+name: Moderate to massive hemoptysis
+level: I
+imp: Massive hemoptysis
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: portable
+
+@scenario
+مردی ۶۰ ساله با برونشکتازی و هموپتزی ۳۰۰ mL در چند ساعت؛ فشار 90/60 و SpO2 88٪.
+
+@why
+تهدید حیات: راه هوایی، حجم و فرآورده، وضعیت دکوبیتوس و برونکوسکوپی.
+
+@L
+- Type and cross-match; hemoglobin and hematocrit, coagulation studies, platelet count, ABG
+
+@S
+- Normal saline or lactated Ringer's solution for initial resuscitation
+
+@T
+- Supplemental oxygen as needed
+- Packed red blood cells as needed; fresh frozen plasma or prothrombin complex concentrates for coagulopathy (including warfarin); platelets for thrombocytopenia
+- Decubitus position with the bleeding lung dependent
+- Endotracheal intubation with a large diameter (8.0 mm) tube if respiratory failure or the patient cannot clear blood; if uncontrolled, preferentially intubate the mainstem bronchus of the unaffected lung (tamponade device in the alternate bronchus)
+
+@Co
+- Pulmonologist or thoracic surgeon (emergent bronchoscopy, CT or bronchial artery embolization); ICU

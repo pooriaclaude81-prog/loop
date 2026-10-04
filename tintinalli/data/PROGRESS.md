@@ -22,4 +22,5 @@ Section 1: ch 1-6 done
 Section 2: ch 7-8 done
 Section 3: ch 9-16 done
 Section 4: ch 17-28 done
+Section 5: ch 29-34 done
 (chapter numbers appended as they are committed)

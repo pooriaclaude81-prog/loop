@@ -1,0 +1,360 @@
+@cond acute-dyspnea-respiratory-failure
+ch: 29
+name: Acute dyspnea and impending respiratory failure (undifferentiated)
+name_fa: تنگی نفس حاد و نارسایی تنفسی قریب‌الوقوع
+cc: dyspnea
+keywords: dyspnea, respiratory distress, impending respiratory failure, NIV, BNP, peak flow, NIF, bedside ultrasound, تنگی نفس
+status: draft
+
+@features
+- دیسپنه: احساس ذهنی تنفس سخت یا ناراحت؛ علت ریوی، قلبی یا عصبی؛ نیاز به نشانه‌های عینی
+- نشانه‌های نارسایی تنفسی قریب‌الوقوع: تاکی‌کاردی، تاکی‌پنه، استریدور، عضلات فرعی، بی‌حالی، آژیتاسیون، تغییر هوشیاری، ناتوانی در صحبت
+- علل شایع: آسم/COPD، نارسایی قلب، بیماری ایسکمیک قلب، پنومونی، ضعف عصبی‌عضلانی (میاستنی، GBS، بوتولیسم)، روان‌زاد
+- فوری‌ترین: انسداد راه هوایی فوقانی، پنوموتوراکس فشارنده، PE، آمبولی چربی
+- تفکیک قلبی: S3، ادم، JVD، ارتوپنه، BNP یا تروپونین بالا، ادم و کاردیومگالی در CXR
+- پالس‌اکسی‌متری ناحساس (می‌تواند در مت‌همو‌گلوبینمی کاذب بالا باشد)؛ ABG حساس‌تر؛ PEFR، NIF؛ سونوگرافی ریه و قلب برای پنوموتوراکس، تامپوناد، تراکم، افیوژن، استرین راست و CHF
+
+@ddx
+- !Tension pneumothorax | 
+- !Pulmonary embolism | 
+- !Upper airway obstruction (foreign body, angioedema) | 
+- !Acute coronary syndrome / decompensated heart failure | 
+- Asthma / COPD | 
+- Pneumonia | 
+- Neuromuscular weakness (GBS, myasthenia, botulism) | 
+- Psychogenic | 
+
+@redflags
+- علائم نارسایی تنفسی قریب‌الوقوع
+- هیپوکسی با علت نامشخص: بستری
+
+@guide
+اکسیژن فوراً در علائم نارسایی تنفسی؛ NIV زودهنگام مسیر نزولی را برمی‌گرداند ولی آماده تهویه مکانیکی باش. هدف: PaO2 > 60 یا SpO2 > 90٪ (در COPD مزمن کمتر هم مناسب). بعد از اکسیژناسیون، درمان و ارزیابی اختصاصی بیماری.
+
+@variant dyspnea-impending-failure
+name: Impending respiratory failure
+level: I
+imp: Acute dyspnea, impending respiratory failure
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: portable
+
+@scenario
+مردی ۶۰ ساله با تنگی نفس شدید، تاکی‌پنه 34، استفاده از عضلات فرعی، خواب‌آلودگی و SpO2 84٪.
+
+@why
+نشانه‌های نارسایی تنفسی: اکسیژن فوری، NIV در صورت امکان و آماده‌سازی راه هوایی.
+
+@I
+- Bedside cardiopulmonary ultrasound (pneumothorax, tamponade, consolidation or effusion, right heart strain, CHF); CT chest as needed
+
+@L
+- ABG (hypoxia, hypercarbia, metabolic causes); BNP / troponin if cardiac cause suspected; D-dimer with clinical decision rules for PE
+- Peak expiratory flow rate (reactive airway disease); negative inspiratory force (neurologic causes)
+
+@T
+- Oxygen immediately; delivery device: nasal cannula, facemask, non-rebreather, BVM, NIV or intubation; goal PaO2 above 60 mm Hg or SpO2 above 90% (lower may be appropriate in longstanding lung disease such as COPD)
+- Early noninvasive ventilation; anticipate aggressive airway management and mechanical ventilation
+- After stabilization, disorder-specific treatment and evaluation
+
+@Co
+- Admission (hypoxia with an unclear cause of dyspnea)
+
+@cond hypoxemia
+ch: 29
+name: Hypoxemia (hypoxia)
+name_fa: هیپوکسمی
+cc: dyspnea, altered-mental-status
+keywords: hypoxemia, A-a gradient, shunt, V/Q mismatch, oxygen
+status: draft
+
+@features
+- هیپوکسی: کاهش عرضه اکسیژن به بافت (تابع برون‌ده، هموگلوبین و SaO2)؛ هیپوکسمی PaO2 < 60 mmHg؛ یکی بدون دیگری ممکن است
+- پنج مکانیسم: هیپوونتیلاسیون، شانت راست به چپ، عدم تطابق V/Q، اختلال انتشار و FiO2 کم (ارتفاع)
+- علائم: تاکی‌پنه، تاکی‌کاردی؛ سردرد، خواب‌آلودگی، اضطراب، آژیتاسیون، کما، تشنج؛ مزمن: پلی‌سیتمی، چماقی انگشت، کور پولمونل؛ سیانوز ناحساس
+- گرادیان A-a = 147 − (PaCO2 × 1.25) − PaO2 (طبیعی 5 تا 10 در 20 سالگی؛ هر دهه 1 افزایش)
+- بیماران با شانت به اکسیژن پاسخ نمی‌دهند؛ V/Q، انتشار و FiO2 کم بهتر می‌شوند
+
+@ddx
+- !Right-to-left shunt | 
+- !Pulmonary embolism / V/Q mismatch | 
+- Hypoventilation | 
+- Diffusion impairment | 
+- High altitude | 
+
+@redflags
+- نشانه‌های نارسایی تنفسی
+
+@guide
+تشخیص رسمی با ABG؛ پالس‌اکسی‌متری برای ناهنجاری‌های بزرگ و روند. اکسیژن تکمیلی برای SaO2 > 90٪؛ راه هوایی تهاجمی در نارسایی تنفسی؛ درمان علت؛ همه هیپوکسمی جدید بستری و مونیتور می‌شود.
+
+@variant hypoxemia-main
+name: New hypoxemia
+level: I
+imp: Hypoxemia
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: portable
+
+@scenario
+زنی ۶۵ ساله با SpO2 82٪ بدون تنگی نفس واضح و علت نامشخص.
+
+@why
+اکسیژن برای SaO2 > 90٪، تعیین علت و بستری.
+
+@L
+- ABG (formal diagnosis); A-a gradient = 147 − (PaCO2 × 1.25) − PaO2
+
+@T
+- Supplemental oxygen to achieve an O2 saturation greater than 90%
+- Manage the airway aggressively if there are signs of respiratory failure
+- Cause-specific treatment and evaluation
+
+@Co
+- Admission and monitoring until stabilized (all patients with new hypoxemia)
+
+@cond hypercapnia
+ch: 29
+name: Hypercapnia (acute alveolar hypoventilation)
+name_fa: هیپرکاپنی
+cc: altered-mental-status, dyspnea
+keywords: hypercapnia, CO2 retention, BiPAP, opioid overdose, COPD, Guillain-Barre, obesity hypoventilation
+status: draft
+
+@features
+- فقط ناشی از هیپوونتیلاسیون آلوئولی؛ PaCO2 > 45 mmHg
+- افزایش حاد: سردرد، گیجی، بی‌حالی (افزایش ICP)؛ کما، انسفالوپاتی و تشنج وقتی PaCO2 حاد > 80؛ در مزمن ممکن است تحمل شود
+- پالس‌اکسی‌متری ممکن است کاملاً طبیعی باشد؛ ABG: اسیدوز تنفسی با جبران متابولیک کم
+- علل: COPD، تضعیف مرکز تنفس (اپیوئید، آرام‌بخش)، ضعف عصبی‌عضلانی (GBS، بوتولیسم)، اختلال قفسه (چاقی مفرط، کیفواسکولیوز)
+
+@ddx
+- !Opioid / sedative overdose | 
+- !COPD exacerbation | 
+- Neuromuscular disease | 
+- Thoracic cage disorders | 
+
+@redflags
+- کاهش هوشیاری (نیاز به تهویه مکانیکی)
+
+@guide
+حفظ راه هوایی حیاتی؛ BiPAP یا CPAP ممکن است کمک کند ولی در تضعیف هوشیاری مراقب باش؛ ریت تنفس را برای دفع CO2 تنظیم کن؛ درمان اختصاصی (برونکودیلاتور در COPD، پادزهر در اپیوئید).
+
+@variant hypercapnia-main
+name: Acute hypercapnia
+level: I
+imp: Acute hypercapnia
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: portable
+
+@scenario
+مردی ۶۸ ساله با COPD، خواب‌آلود، PCO2 برابر 90.
+
+@why
+افزایش حجم دقیقه‌ای و درمان علت؛ BiPAP در صورت مناسب.
+
+@L
+- ABG (PaCO2 > 45 mm Hg with respiratory acidosis)
+
+@T
+- Airway maintenance; trial of BiPAP or CPAP (vigilance in depressed mental status; mechanical ventilation may be needed; set the respiratory rate to facilitate CO2 removal)
+- Condition-specific therapy: bronchodilators for COPD; reversal agents for opiate overdose
+
+@Co
+- Admission and monitoring
+
+@cond cough
+ch: 29
+name: Cough (acute, subacute and chronic)
+name_fa: سرفه
+cc: cough-hemoptysis
+keywords: cough, acute cough, chronic cough, upper airway cough syndrome, ACE inhibitor cough, GERD, pertussis, nebulized lidocaine
+status: draft
+
+@features
+- حاد (< 3 هفته): عفونت تنفسی یا آلرژی؛ سرفه مولد نشانه بارز برونشیت حاد؛ سیاه‌سرفه 1 تا 6 هفته
+- تحت‌حاد (3 تا 8 هفته): اغلب پس‌عفونی؛ مزمن (> 6 تا 8 هفته): شایع‌ترین علت سیگار؛ سرفه صبحگاهی با خلط
+- سندرم سرفه راه هوایی فوقانی (postnasal drip)؛ آسم (شب، محرک‌ها، ویز)؛ GERD (سوزش سردل، بدتر خوابیده)؛ ACEI/ARB (خشک؛ شروع از 1 هفته تا 1 سال؛ 1 تا 4 هفته بعد از قطع بهتر می‌شود)
+
+@ddx
+- !Pneumonia | 
+- !Pertussis | 
+- Asthma | 
+- GERD | 
+- ACE inhibitor / ARB cough | 
+- Upper airway cough syndrome | 
+
+@redflags
+- خلط چرکی و/یا تب (CXR)
+
+@guide
+CXR در خلط چرکی و/یا تب. اسپیرومتری در آسم. درمان علامتی: ضد سرفه، demulcent؛ در سرفه‌های حمله‌ای لجوج نبولایز لیدوکائین. مسیر مزمن: قطع سیگار و ACEI؛ UACS: آنتی‌هیستامین/دکونژستان نسل اول؛ آسم: برونکودیلاتور، ICS، LTRA؛ NAEB: ICS؛ GERD: PPI و تغییر سبک زندگی.
+
+@variant cough-main
+name: Cough
+level: III
+imp: Cough
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: PA
+
+@scenario
+مردی ۵۰ ساله و سیگاری با سرفه صبحگاهی مزمن؛ بدون تب.
+
+@why
+درمان بر اساس علت؛ CXR در خلط چرکی/تب.
+
+@T
+- Disease-specific therapy; symptomatic treatment with antitussives or demulcents
+- [intractable coughing paroxysms in the ED] Nebulized lidocaine {note: dose not given in the book}
+- Chronic cough: stop smoking, stop ACE inhibitor; UACS first-generation antihistamine/decongestant; asthma bronchodilators, ICS, LTRA; NAEB ICS; GERD PPI, diet and lifestyle changes
+
+@cond hiccups
+ch: 29
+name: Hiccups
+name_fa: سکسکه
+cc: nausea-vomiting
+keywords: hiccups, chlorpromazine, metoclopramide, haloperidol
+status: draft
+
+@features
+- انقباض اسپاسمودیک غیرارادی عضلات دمی
+- خوش‌خیم: اتساع معده از غذا یا نوشیدنی (کربنات، الکل)؛ پایدار: آسیب یا تحریک شاخه‌ای از واگ یا فرنیک
+- بررسی محرک؛ قطع در خواب به نفع روان‌زاد؛ CXR برای بیماری داخل قفسه
+
+@ddx
+- !Intrathoracic pathology | 
+- Gastric distention | 
+- Psychogenic | 
+
+@redflags
+- سکسکه پایدار با علائم دیگر
+
+@guide
+مانورهای فیزیکی و داروها؛ کلرپرومازین تنها داروی دارای تأیید FDA است؛ متوکلوپرامید و هالوپریدول هم استفاده شده‌اند.
+
+@variant hiccups-main
+name: Hiccups
+level: III
+imp: Hiccups
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: PA
+
+@scenario
+مردی ۴۰ ساله با سکسکه مداوم از ۲ روز قبل.
+
+@why
+شناسایی محرک و داروی مهار سکسکه.
+
+@T
+- Physical maneuvers
+- Chlorpromazine (only FDA-approved drug for hiccups); metoclopramide or haloperidol have also been used {note: doses not given in the book}
+
+@cond cyanosis
+ch: 29
+name: Cyanosis
+name_fa: سیانوز
+cc: dyspnea
+keywords: cyanosis, methemoglobinemia, carboxyhemoglobin, sulfhemoglobin, co-oximetry, right-to-left shunt
+status: draft
+
+@features
+- رنگ آبی پوست یا مخاط از افزایش دئوکسی‌هموگلوبین (> 5 mg/dL)؛ ذهنی و ناحساس برای اکسیژناسیون شریانی
+- مرکزی (زیر زبان و مخاط باکال): اکسیژناسیون ریوی ناکافی یا هموگلوبین غیرطبیعی؛ محیطی: کاهش جریان خون
+- مت‌همو‌گلوبینمی: خون «شکلاتی» که با هوا رنگ نمی‌گیرد؛ کربوکسی‌هموگلوبین: مخاط «گیلاسی»؛ هماتوکریت: پلی‌سیتمی یا آنمی شدید
+- ABG به‌تنهایی ممکن است گمراه‌کننده باشد: ABG با co-oximetry
+
+@ddx
+- !Methemoglobinemia | 
+- !Carboxyhemoglobinemia | 
+- Hypoxemia / right-to-left shunt | 
+- Reduced cardiac output / shock | 
+- Polycythemia | 
+
+@redflags
+- هیپوکسی بافتی
+
+@guide
+پالس‌اکسی‌متری ممکن است در هموگلوبینوپاتی غلط باشد. ABG همراه co-oximetry، هماتوکریت.
+
+@variant cyanosis-main
+name: Cyanosis
+level: II
+imp: Cyanosis
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: once
+cxr: PA
+
+@scenario
+مردی ۳۰ ساله با سیانوز لب‌ها و SpO2 85٪ ولی PaO2 طبیعی؛ خون قهوه‌ای.
+
+@why
+علت را تعیین کن: هیپوکسمی، هموگلوبین غیرطبیعی یا جریان کم.
+
+@L
+- ABG with co-oximetry; hematocrit
+
+@T
+- Supplemental oxygen; treat the cause (see methemoglobinemia and carbon monoxide)
+
+@cond pleural-effusion
+ch: 29
+name: Pleural effusion
+name_fa: افیوژن پلور
+cc: dyspnea, chest-pain
+keywords: pleural effusion, thoracentesis, empyema, parapneumonic, thoracostomy, re-expansion pulmonary edema
+status: draft
+
+@features
+- تجمع مایع بین پلورا؛ ممکن است بی‌علامت یا همراه تنگی نفس و درد پلورتیک؛ کدورت در دق و کاهش صداهای تنفسی
+- شایع‌ترین علل در کشورهای توسعه‌یافته: نارسایی قلب، پنومونی و سرطان
+
+@ddx
+- !Parapneumonic effusion / empyema | 
+- Heart failure | 
+- Malignancy | 
+
+@redflags
+- تنگی نفس در حال استراحت
+
+@guide
+توراکوسنتز تشخیصی (اگزودا در برابر ترانسودا یا عفونت) یا درمانی اگر دیسپنه در استراحت (معمولاً 1–1.5 L؛ بیشتر ادم ریوی re-expansion). افیوژن پاراپنومونیک و empyema: آنتی‌بیوتیک و لوله توراکوستومی.
+
+@variant effusion-main
+name: Symptomatic pleural effusion
+level: II
+imp: Pleural effusion
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: once
+cxr: PA
+
+@scenario
+مردی ۶۵ ساله با CHF، تنگی نفس در استراحت و کدورت قاعده ریه راست.
+
+@why
+توراکوسنتز درمانی برای تنگی نفس در استراحت و علت‌یابی.
+
+@I
+- Chest radiograph or ultrasound; search for the underlying cause
+
+@T
+- Thoracentesis for diagnosis (exudate vs transudate, infection) or therapeutic (dyspnea at rest): typically remove 1 to 1.5 L; more may precipitate re-expansion pulmonary edema
+- [parapneumonic effusion or empyema] Antibiotics targeting the underlying infectious agent and thoracostomy tube
+
+@Co
+- Admission by acuity and severity of symptoms

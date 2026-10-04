@@ -1,0 +1,190 @@
+@cond asthma-exacerbation
+ch: 34
+name: Acute asthma exacerbation
+name_fa: حمله حاد آسم
+cc: dyspnea
+keywords: asthma, albuterol, ipratropium, prednisone, methylprednisolone, magnesium sulfate, ketamine, heliox, terbutaline, peak flow, آسم
+status: draft
+
+@features
+- بیماری التهابی مزمن با پاسخ‌دهی بیش‌ازحد درخت تراکئوبرونکیال؛ طیف برونکواسپاسم و التهاب؛ شایع‌ترین بیماری مزمن کودکی
+- تریگرها: سیگار، عفونت تنفسی، محرک‌ها (آلاینده، سرما، استرس، آنتی‌ژن، ورزش)، داروها (دکونژستان، بتابلوکر، NSAID)، آلرژی، هورمونی، عدم رعایت درمان
+- عوامل خطر مرگ: سابقه حمله شدید، ≥ 2 بستری یا > 3 مراجعه اورژانس در سال، > 2 اسپری SABA در ماه، فقر یا مواد، بیماری روانی
+- ویز با بازدم طولانی؛ ویز با شدت انسداد هم‌خوان نیست («قفسه ساکت» انسداد شدید است)؛ حمله شدید: نشستن رو به جلو، pursed-lip، عضلات فرعی، تنفس پارادوکسیکال، تعریق، پالس پارادوکس ≥ 20
+- شدت: FEV1 یا PEFR < 40٪ پیش‌بینی = شدید؛ PaCO2 طبیعی یا بالا در حمله شدید شوم است (خستگی)
+- علائم نارسایی قریب‌الوقوع: تغییر هوشیاری، بی‌حالی، صدای تنفسی ناچیز یا غایب، اسیدوز، هیپوکسی و هیپرکاپنی بدتر
+
+@ddx
+- !Acute heart failure ("cardiac asthma") | 
+- !Upper airway obstruction | 
+- !Pulmonary embolism | 
+- Aspiration / endobronchial mass / interstitial lung disease | 
+- Vocal cord dysfunction | 
+- COPD | 
+
+@redflags
+- قفسه ساکت، خستگی، کاهش هوشیاری، PaCO2 طبیعی یا بالا
+- FEV1/PEFR < 25٪ (منیزیم)
+
+@guide
+# منطق
+- اکسیژن SaO2 > 90٪.
+- SABA خط اول؛ آلبوترول 2.5–5 mg هر 20 دقیقه × 3؛ ایپراتروپیوم 0.5 mg همراه؛ کورتیکواستروئید معادل prednisone 40–60 mg.
+- منیزیم 1–2 g طی 30 دقیقه در حمله شدید (FEV1 < 25٪).
+- NPPV (CPAP تا 15؛ BiPAP IPAP 8–20 و EPAP 4–15)؛ اینتوباسیون در خستگی تنفسی، اسیدوز، تغییر هوشیاری یا هیپوکسی مقاوم.
+
+@pearls
+- بتابلوکر ممکن است برونکواسپاسم را بدتر کند؛ آنتی‌هیستامین و دکونژستان، موکولیتیک و مدیفایرهای ماست‌سل/لوکوترین در حمله حاد نقشی ندارند.
+- هلیوکس (80:20) مقاومت راه هوایی را کم می‌کند ولی از اینتوباسیون یا مرگ جلوگیری نمی‌کند؛ مراقب FiO2 < 21٪.
+
+@variant asthma-mild-moderate
+name: Mild to moderate exacerbation
+level: II
+imp: Acute asthma exacerbation
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+زنی ۲۵ ساله آسمی با ویز و تنگی نفس از دیشب؛ جمله‌ها را کامل می‌گوید؛ SpO2 94٪؛ PEFR 60٪ پیش‌بینی.
+
+@why
+SABA آئروسل و ایپراتروپیوم و استروئید خوراکی؛ CXR روتین لازم نیست.
+
+@I
+- [pneumonia or pneumothorax suspected] Chest x-ray (not routinely indicated in mild to moderate exacerbations)
+
+@L
+- Peak expiratory flow rate or FEV1 {note: if cooperative}
+
+@T
+- Oxygen to maintain SaO2 above 90%
+- Albuterol 2.5 to 5 mg by nebulizer or metered-dose inhaler with spacer every 20 minutes for three doses, then 2.5 to 10 mg every 1 to 4 hours as needed (or continuous nebulization 10 to 15 mg/h)
+- Ipratropium 0.5 mg (2.5 mL) nebulized added to the SABA every 20 minutes for three doses, then as needed
+- Corticosteroid: the equivalent of 40 to 60 mg of prednisone (PO; if unable, methylprednisolone 1 mg/kg IV); additional doses every 4 to 6 hours
+- [not tolerating aerosolized therapy] Terbutaline 0.25 mg SC or Epinephrine 1:1000 0.3 to 0.5 mg SC every 20 minutes for three doses {ci: epinephrine with caution in underlying cardiovascular disease}
+- Discharge improved patients on a 5- to 10-day course of prednisone 40 to 60 mg/dose; consider inhaled corticosteroids for chronic symptoms; education and close follow-up
+
+@variant asthma-severe
+name: Severe or refractory exacerbation
+level: I
+imp: Severe asthma exacerbation
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: portable
+
+@scenario
+مردی ۳۰ ساله آسمی با تنفس 34، SpO2 86٪، ناتوانی در گفتن جمله کامل، پالس پارادوکس و قفسه ساکت.
+
+@why
+حمله شدید: برونکودیلاتور مکرر، استروئید، منیزیم و آمادگی برای NPPV یا اینتوباسیون.
+
+@I
+- Chest x-ray (pneumonia, pneumothorax)
+
+@L
+- Arterial or venous blood gas (hypercapnia, acidosis); normal or elevated PaCO2 is ominous; end-tidal CO2 and oxygen saturation monitoring
+
+@T
+- Oxygen to maintain SaO2 above 90%
+- Albuterol 2.5 to 5 mg every 20 minutes for three doses, then continuous nebulization 10 to 15 mg/h; Ipratropium 0.5 mg nebulized every 20 minutes for three doses
+- Methylprednisolone 1 mg/kg IV (equivalent of prednisone 40 to 60 mg)
+- Magnesium sulfate 1 to 2 g IV over 30 minutes (FEV1 < 25% predicted) {hi}
+- [very severe] Heliox 80:20 {note: does not reliably avert intubation, change admission rates or decrease mortality; FiO2 may be less than 21%}
+- [refractory, controlled studies lacking] Ketamine 0.2 mg/kg IV bolus followed by infusion 0.5 mg/kg/h {hi}
+- NPPV by CPAP (titrated up to 15 cm H2O) or BiPAP (inspiration 8 to 20 and expiration 4 to 15 cm H2O) {note: likely to fail with poor mask fit, obtundation, inability to clear secretions, hemodynamic instability}
+- Mechanical ventilation (respiratory muscle fatigue, respiratory acidosis, altered mental status, hypoxia refractory): rapid inspiratory flow rates at a reduced respiratory frequency (12 to 14 breaths/min) with adequate expiratory phase to reduce air-trapping; continue sedation and bronchospasm therapy
+- Avoid sedatives and hypnotics in the absence of intubation; methylxanthines third-line at best
+
+@Co
+- ICU / admission (failure of outpatient treatment, persistent dyspnea, PEFR or FEV1 < 40%, hypoxia, hypercarbia, altered mental status)
+
+@cond copd-exacerbation
+ch: 34
+name: Acute COPD exacerbation
+name_fa: تشدید حاد COPD
+cc: dyspnea, cough-hemoptysis
+keywords: COPD, emphysema, chronic bronchitis, exacerbation, BiPAP, NPPV, doxycycline, azithromycin, albuterol, ipratropium, prednisone
+status: draft
+
+@features
+- دو شکل: آمفیزم (تخریب برونشیول و آلوئول) و برونشیت مزمن (سرفه مولد 3 ماه در هر یک از دو سال متوالی)؛ تعریف GOLD شامل برونشکتازی و آسم؛ شایع‌ترین علت مرگ رو به افزایش؛ زنان > 50٪ مرگ‌ها
+- تشدید حاد بیشتر به‌دلیل عدم تطابق V/Q؛ تریگرها: سیگار، عفونت، محرک‌ها، دارو، آلرژی، عدم رعایت درمان
+- دیسپنه، گرفتگی قفسه، ویز و سرفه؛ هیپرکاپنی و هیپوکسی جبران‌شده شایع (مقایسه با ABG قبلی کمک می‌کند)
+- CHF اغلب همراه یا تقلیدکننده COPD است؛ CXR، BNP و JVD تفکیک می‌کنند
+
+@ddx
+- !Acute heart failure | 
+- !Pulmonary embolism | 
+- !Pneumonia / pneumothorax | 
+- Upper airway obstruction | 
+- Asthma | 
+
+@redflags
+- خستگی تنفسی، اسیدوز تنفسی، تغییر هوشیاری، هیپوکسی مقاوم
+
+@guide
+اکسیژن برای SaO2 > 90٪ با احتیاط (ممکن است هیپرکاپنی را بدتر کند). SABA + ایپراتروپیوم؛ کورتیکواستروئید؛ آنتی‌بیوتیک اگر تغییر حجم یا چرکی بودن خلط (S. pneumoniae، H. influenzae، M. catarrhalis). منیزیم برای COPD شواهد ندارد. NPPV مرگ‌ومیر و نرخ اینتوباسیون را کم می‌کند.
+
+@variant copd-moderate
+name: COPD exacerbation, moderate
+level: II
+imp: Acute COPD exacerbation
+cond: Urgent
+act: CBR
+diet: PO
+ecg: once
+cxr: PA
+
+@scenario
+مردی ۶۸ ساله با COPD، تنگی نفس و افزایش خلط چرکی از ۳ روز قبل؛ SpO2 89٪؛ هوشیار.
+
+@why
+اکسیژن محتاطانه، برونکودیلاتور، استروئید و آنتی‌بیوتیک در خلط چرکی.
+
+@I
+- Chest x-ray (pneumonia, pneumothorax, differentiate from CHF)
+
+@L
+- BNP {note: helps differentiate COPD from CHF}
+
+@T
+- Oxygen to maintain SaO2 above 90%; caution: may exacerbate hypercapnia; monitor with end-tidal CO2, oxygen saturation and venous blood gases
+- Albuterol 2.5 to 5 mg nebulized every 20 minutes for three doses, then 2.5 to 10 mg every 1 to 4 hours as needed
+- Ipratropium 0.5 mg (2.5 mL) nebulized with the SABA every 20 minutes for three doses, then as needed
+- Corticosteroid equivalent of 40 to 60 mg prednisone; if unable to take oral, methylprednisolone 1 mg/kg IV; discharge on 5 to 10 days prednisone 40 to 60 mg/dose
+- [change in sputum volume or purulence] Antibiotic: doxycycline, a macrolide (azithromycin), or amoxicillin with or without clavulanic acid {note: doses not given in this chapter}
+- Avoid beta-blockers, antihistamines, decongestants and mucolytics
+
+@variant copd-severe
+name: Severe COPD exacerbation (NPPV or intubation)
+level: I
+imp: Severe COPD exacerbation, respiratory failure
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: portable
+
+@scenario
+مردی ۷۲ ساله با COPD شدید، خواب‌آلودگی، تنفس 32، pH برابر 7.25 و PCO2 برابر 80.
+
+@why
+خستگی تنفسی و اسیدوز: NPPV (کاهش اینتوباسیون و مرگ) یا اینتوباسیون در شکست.
+
+@L
+- ABG (hypercapnia and acidosis; compare with previous ABG)
+
+@T
+- Oxygen (caution); albuterol and ipratropium as above; corticosteroid prednisone 40 to 60 mg equivalent
+- NPPV by CPAP (titrated up to 15 cm H2O) or BiPAP (inspiration 8 to 20 and expiration 4 to 15 cm H2O; BiPAP reduces the work of breathing)
+- [NPPV not viable: poor mask fit, obtunded, unable to clear secretions, hemodynamically unstable] Oral intubation with mechanical ventilation (rapid inspiratory flow rates at a reduced respiratory frequency 12 to 14 breaths/min to reduce air-trapping)
+- Antibiotic if change in sputum volume or purulence (doxycycline, azithromycin or amoxicillin ± clavulanic acid)
+- Magnesium sulfate is not supported in COPD exacerbations; avoid sedatives without intubation
+
+@Co
+- Admission (therapeutic failure, severe dyspnea, significant comorbidities, arrhythmias, worsening hypoxia and hypercapnia with acidosis, impaired mental status)
