@@ -1,0 +1,256 @@
+@cond als-complications
+ch: 147
+name: Amyotrophic lateral sclerosis (ALS) — respiratory and acute complications
+name_fa: اسکلروز جانبی آمیوتروفیک (ALS) — عوارض تنفسی و حاد
+cc: weakness, dyspnea, focal-neuro
+keywords: ALS, amyotrophic lateral sclerosis, motor neuron disease, aspiration pneumonia, forced vital capacity, noninvasive ventilation, ALS
+status: draft
+
+@features
+- آتروفی و ضعف پیشرونده عضلانی؛ نورون حرکتی فوقانی: اسپاستیسیتی اندام، هایپررفلکسی، ناپایداری هیجانی؛ تحتانی: ضعف، آتروفی، فاسیکولاسیون، دیزآرتری، دیسفاژی، اشکال در جویدن؛ اوایل ممکن است نامتقارن
+- ضعف عضلات تنفسی ← تنگی نفس با فعالیت یا در استراحت؛ حس و شناخت اغلب سالم (تا 15% دمانس و Parkinsonism)
+- تشخیص زودرس دشوار (میانه تشخیص 14 ماه)؛ شک: علائم نورون حرکتی فوقانی و تحتانی بدون سایر اختلال CNS؛ افتراق: دیابت، اختلال تیروئید/پاراتیروئید، کمبود B12، فلزات سنگین، واسکولیت، تومور CNS
+
+@ddx
+- !Respiratory failure / aspiration pneumonia (complications) |
+- B12 deficiency / thyroid disease / heavy metal / CNS tumor |
+- Cervical myelopathy / myasthenia gravis |
+
+@redflags
+- FVC < 25 mL/kg یا 50% کاهش، ناتوانی در کنترل ترشحات، پنومونی آسپیراسیون، دیسترس تنفسی
+
+@guide
+تشخیص جدید ALS در ED غیرمعمول؛ بیمار پایدار با علائم مشکوک: ارجاع به نورولوژیست اگر ورک‌آپ اولیه علت اورژانس نیافت. بیمار شناخته‌شده: نارسایی تنفسی، پنومونی آسپیراسیون، choking یا آسیب تروماتیک. بهینه‌سازی عملکرد ریه با نبولایزر، استروئید، آنتی‌بیوتیک و اینتوباسیون بر حسب اندیکاسیون؛ گاز خون پیش‌بینی نارسایی قابل‌اعتماد نیست؛ FVC < 25 mL/kg یا 50% کاهش از پیش‌بینی ← احتمال پنومونی و نارسایی تنفسی. پنومونی، ناتوانی در کنترل ترشحات، دیسترس تنفسی یا نیاز به ونتیلاتور: بستری سطح مناسب.
+
+@variant als-acute-complication
+name: Known ALS with respiratory failure / aspiration / choking
+level: I
+imp: ALS with respiratory failure / aspiration pneumonia
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+o2: titrate cautiously to SpO2 ≥ 92% (hypercapnia risk)
+
+@scenario
+مرد ۶۰ ساله مبتلا به ALS با تنگی نفس، سرفه ضعیف، تب و ناتوانی در کنترل ترشحات.
+
+@why
+حمایت تنفسی (NIV/اینتوباسیون)، آنتی‌بیوتیک پنومونی و FVC.
+
+@I
+- CXR portable (aspiration pneumonia / atelectasis)
+
+@L
+- Blood gas (may not reliably predict failure); FVC / NIF (FVC < 25 mL/kg or 50% decrease from predicted raises likelihood of pneumonia / respiratory failure); CBC, electrolytes, lactate, cultures
+
+@S
+- Nebulizer treatments; steroids as indicated (optimize pulmonary function)
+- IV fluids as needed {ci: caution in heart failure}
+
+@A
+- Antibiotics for aspiration pneumonia (per community / aspiration regimen)
+
+@T
+- Noninvasive ventilation or intubation as indicated; suction / cough assistance; NPO; aspiration precautions; honor goals-of-care / advance directives
+
+@Co
+- Admit appropriate level of care (pneumonia, secretions, respiratory distress, ventilator need); neurology / palliative care; pulmonology
+
+@cond myasthenia-crisis
+ch: 147
+name: Myasthenia gravis and myasthenic crisis
+name_fa: میاستنی گراویس و بحران میاستنیک
+cc: weakness, dyspnea, eye
+keywords: myasthenia gravis, myasthenic crisis, cholinergic crisis, edrophonium, neostigmine, pyridostigmine, IVIG, plasma exchange, drugs to avoid, میاستنی گراویس
+status: draft
+
+@features
+- اختلال خودایمن اتصال عصبی-عضلانی؛ ضعف و خستگی عضلانی؛ ضعف عضلات پروگزیمال اندام، اکستانسورهای گردن، صورت و بولبار؛ پتوز و دوبینی شایع؛ بدتر در طول روز و بهتر با استراحت؛ بحران میاستنیک: ضعف شدید عضلات تنفسی ← نارسایی تنفس
+- افتراق: Lambert-Eaton، بوتولیسم، اختلال تیروئید، سکته؛ تشخیص: edrophonium (مهارکننده استیل‌کولین‌استراز)، EMG، آنتی‌بادی گیرنده استیل‌کولین؛ edrophonium یا neostigmine باید ضعف را در اندام/چشم/حلق بهبود دهد
+- نارسایی تنفس: عفونت، جراحی اخیر، تغییر ایمونوساپرسانت؛ بحران میاستنیک ممکن در بیمار تشخیص‌داده‌نشده یا شناخته با تشدید یا درمان ناکافی
+
+@ddx
+- !Cholinergic crisis (overmedication) |
+- !Botulism / Guillain–Barré syndrome |
+- Lambert–Eaton / thyroid disease / stroke |
+
+@redflags
+- نارسایی تنفسی، دیسفاژی/آسپیراسیون، ضعف بولبار، عفونت یا داروی محرک
+
+@guide
+درمان: مهارکننده‌های استیل‌کولین‌استراز (pyridostigmine یا neostigmine)، تیمکتومی، سرکوب ایمنی (استروئید یا azathioprine)، تعدیل ایمنی (plasma exchange یا IVIG). بسیاری داروهای ED بر عملکرد عصبی-عضلانی اثر دارند: تداخل را بررسی کن (جدول 147-1: استروئید، ضدتشنج (phenytoin، منیزیم، باربیتورات، لیتیوم)، ضدمalaria (chloroquine، quinine)، محلول lactate، آنتی‌بیوتیک (آمینوگلیکوزید، فلوروکینولون، macrolide، clindamycin، tetracycline، sulfonamide، polymyxin، metronidazole)، روان‌گردان (chlorpromazine، droperidol، haloperidol)، قلبی (β-blocker، quinidine، procainamide، lidocaine، منیزیم، CCB)، بی‌حس‌کننده موضعی، اوپیوئید، thyroid، diphenhydramine، شل‌کننده، آرام‌بخش و مضعف تنفس، داروهای مسدودکننده عصبی-عضلانی). اینتوباسیون: در صورت امکان اجتناب از شل‌کننده‌های دپولاریزان و غیردپولاریزان. edrophonium 1 mg IV آهسته: تمایز بحران میاستنیک (درمان ناکافی) از کولینرژیک (اغلب overmedication)؛ رفع ضعف طی چند دقیقه ← تشدید میاستنی ← neostigmine 0.5 تا 2 mg IM/IV/SC یا افزایش‌های 15 mg PO.
+
+@variant myasthenic-crisis-main
+name: Myasthenic crisis / suspected respiratory failure
+level: I
+imp: Myasthenic crisis
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+o2: titrate to SpO2 ≥ 94%
+
+@scenario
+زن ۴۰ ساله مبتلا به میاستنی با عفونت تنفسی، پتوز، دیسفاژی و تنگی نفس.
+
+@why
+FVC/NIF، پشتیبانی تنفسی، IVIG/plasma exchange؛ پرهیز از داروهای مضر.
+
+@I
+- CXR portable (infection / thymoma / aspiration)
+
+@L
+- FVC / NIF; blood gas; CBC, electrolytes (K, Mg, Ca, phosphate), glucose, TSH, cultures (infection trigger); acetylcholine receptor antibodies (if undiagnosed)
+
+@S
+- Edrophonium 1 mg IV slowly (diagnostic: myasthenic vs cholinergic crisis; improvement within minutes suggests myasthenic crisis) then neostigmine 0.5–2 mg IM / IV / SC (or 15 mg PO increments) {ci: edrophonium — bradycardia; have atropine ready}
+- IV immunoglobulin or plasma exchange (neurology) for crisis; steroids (monitor — transient worsening possible)
+
+@A
+- Antibiotics for infection triggers — avoid aminoglycosides, fluoroquinolones, macrolides, clindamycin (worsen weakness); use agents compatible with MG
+
+@T
+- Respiratory support (noninvasive ventilation / intubation); when possible avoid depolarizing and nondepolarizing paralytic agents; check all ED drugs against Table 147-1 (avoid magnesium, β-blockers, lidocaine, phenytoin, opioids / sedatives where possible)
+
+@Co
+- Neurology; ICU admission
+
+@cond multiple-sclerosis-exacerbation
+ch: 147
+name: Multiple sclerosis exacerbation
+name_fa: عود (exacerbation) مولتیپل اسکلروزیس
+cc: focal-neuro, eye, weakness
+keywords: multiple sclerosis, MS relapse, optic neuritis, Lhermitte sign, internuclear ophthalmoplegia, methylprednisolone, مولتیپل اسکلروزیس, MS
+status: draft
+
+@features
+- دمیلیناسیون چندکانونی CNS: اختلال حرکتی، حسی، بینایی و/یا مخچه‌ای؛ انواع: relapsing-remitting (90%)، relapsing-progressive، progressive مزمن
+- Lhermitte: شوک الکتریکی/لرزش/درد از پشت به بازو/پا با خم کردن گردن؛ معاینه: کاهش قدرت، افزایش تون، هایپررفلکسی، clonus، کاهش حس ارتعاش و proprioception، Babinski مثبت، کاهش حس درد/دما؛ optic neuritis با از دست رفتن بینایی مرکزی (30% شروع): نقص مردمکی آوران (Marcus–Gunn)؛ internuclear ophthalmoplegia دوطرفه: ادداکشن غیرطبیعی و نیستاگموس افقی ← قویاً MS؛ مشکلات شناختی/هیجانی
+- شک: دو یا چند دوره طولانی اختلال عصبی با آسیب ماده سفید در بیش از یک محل؛ MRI: ضایعات متعدد supratentorial ماده سفید، حاشیه همگن اطراف بطن‌ها، ضایعات infratentorial یا نخاع؛ CSF: پروتئین و γ-globulin بالا؛ افتراق: SLE، Lyme، نوروسیفیلیس، HIV و GBS
+
+@ddx
+- !Stroke / spinal cord compression / transverse myelitis |
+- Infection (UTI — pseudo-exacerbation) / Lyme / SLE / neurosyphilis / HIV |
+
+@redflags
+- از دست رفتن بینایی، ضعف پیشرونده، احتباس ادرار، تب، عفونت
+
+@guide
+مشاوره نورولوژی برای MS با شک تشدید؛ علائم جدید مشکوک: ارجاع نورولوژی. methylprednisolone با دوز بالا 500 تا 1000 mg روزانه مدت تشدید را کوتاه می‌کند. آزمایش UTI در بیمار با اختلال مثانه و باقیمانده پس از ادرار > 100 mL. منبع عفونت در تب؛ کاهش تب ضعف عضلانی وابسته به دما را کم می‌کند. بستری در تشدید قابل‌توجه با نیاز به استروئید یا آنتی‌بیوتیک IV.
+
+@variant ms-exacerbation-main
+name: MS exacerbation (relapse)
+level: II
+imp: Multiple sclerosis exacerbation
+cond: Urgent
+act: CBR
+diet: PO
+ecg: once
+cxr: none
+
+@scenario
+زن ۳۲ ساله مبتلا به MS با ضعف پای راست، بی‌حسی و تاری دید یک‌چشمی طی 3 روز.
+
+@why
+عفونت را رد و استروئید دوز بالا با مشورت نورولوژی.
+
+@I
+- MRI brain / cervical / thoracic spine with gadolinium (new lesions; exclude cord compression)
+
+@L
+- Urinalysis and culture (postvoid residual > 100 mL); CBC, BMP, glucose (before steroids); ESR / CRP; consider Lyme / syphilis / HIV if atypical
+
+@S
+- Methylprednisolone 500–1000 mg IV daily (high-dose; shortens exacerbation) {ci: uncontrolled infection; diabetes — monitor glucose}
+
+@T
+- Fever reduction (reduces temperature-related weakness); bladder scan / catheterization if retention; fall precautions
+
+@Co
+- Neurology (consult); admit significant exacerbation requiring IV steroids / antibiotics
+
+@cond lambert-eaton-parkinson-polio
+ch: 147
+name: Lambert–Eaton syndrome, Parkinson's disease, poliomyelitis and postpolio syndrome
+name_fa: سندرم Lambert–Eaton، پارکینسون، فلج اطفال و سندرم پس از فلج اطفال
+cc: weakness, focal-neuro
+keywords: Lambert-Eaton, Parkinson disease, parkinsonism, drug-induced parkinsonism, poliomyelitis, postpolio syndrome, 3,4-diaminopyridine, پارکینسون, فلج اطفال
+status: draft
+
+@features
+- Lambert–Eaton (LEMS): اختلال خودایمن؛ ضعف و خستگی نوسانی عضلات پروگزیمال اندام؛ کلاسیک: مردان سالمند با سرطان ریه؛ قدرت با ورزش مداوم/مکرر بهتر می‌شود (علامت Lambert)؛ میالژی، سفتی، پارستزی، طعم فلزی و علائم اتونوم؛ حرکات چشم سالم؛ EMG غیرطبیعی؛ آنتی‌بادی کانال کلسیم وابسته به ولتاژ
+- Parkinson: اختلال حرکتی اکستراپیرامیدال پیشرونده؛ چهار علامت: لرزش استراحت، cogwheel rigidity، برادی/آکینزی، اختلال وضعیت و تعادل؛ ابتدا لرزش «pill rolling» یک‌طرفه اندام فوقانی که با حرکت ارادی بهتر می‌شود؛ تشخیص بالینی؛ parkinsonism ثانویه: مواد مخدر، سموم، نورولپتیک، هیدروسفالی، ضربه سر؛ دارویی: معمولاً آکینزی
+- داروهای Parkinson (افزایش دوپامین، آنتی‌کولینرژیک، آگونیست دوپامین): عوارض: اختلال روانی/خواب، بی‌اشتهایی، تهوع، استفراغ، دیسریتمی، هیپوتانسیون ارتواستاتیک، دیسکینزی و دیستونی
+- پولیومیلیت: انتروویروس؛ اغلب بدون علامت یا بیماری ویروسی خفیف؛ 1 تا 2% بیماری عمده: ضعف و شلی نامتقارن پروگزیمال اندام، arefleksia، فاسیکولاسیون؛ حداکثر فلج ≤ 5 روز، آتروفی؛ بهبود تا 1 سال؛ در آمریکا ریشه‌کن (1979) ولی endemic در نیجریه، پاکستان، افغانستان و هند؛ postpolio syndrome: بازگشت علائم حرکتی پس از دهه‌ها: خستگی عضلانی، درد مفصل، ضعف عضلات جدید و قبلی، مشکلات بولبار/تنفسی/خواب
+- پولیو حاد: تب، منژیت آسپتیک و فلج شل نامتقارن با ریفلکس از دست رفته و حس سالم؛ CSF: پلئوسیتوز و کشت ویروس؛ سواب حلق/رکتوم؛ افتراق: GBS، نوروپاتی (mono، Lyme، پورفیری)، الکترولیت، سموم، میوپاتی، سایر ویروس‌ها
+
+@ddx
+- !Guillain–Barré syndrome / myasthenia gravis |
+- Drug-induced parkinsonism (neuroleptics) / NPH |
+- Paraneoplastic syndromes (lung cancer) |
+
+@redflags
+- ضعف تنفسی/بولبار، فلج شل حاد پس از سفر به منطقه endemic
+
+@guide
+Lambert–Eaton: درمان عمدتاً حمایتی؛ 3,4-diaminopyridine انتقال عصبی-عضلانی را افزایش می‌دهد؛ ایمونوساپرسانت ممکن است شدت را کم کند. Parkinson: بیماران دارویی با اختلال حرکتی/روانی جدید یا کاهش اثر دارو: «drug holiday» یک‌هفته‌ای با مشورت نورولوژیست. پولیو: درمان حاد پس‌پولیو حمایتی با مسکن و ضدالتهاب؛ تمرین عضلانی و ورزش روزانه؛ lamotrigine ممکن کیفیت زندگی را بهتر کند؛ مشاوره نورولوژیست.
+
+@variant parkinson-ed-visit
+name: Parkinson's disease — medication-related or motor / psychiatric change
+level: III
+imp: Parkinson's disease, acute complication
+cond: Urgent
+act: CBR
+diet: PO
+ecg: stat
+cxr: none
+
+@scenario
+مرد ۷۰ ساله پارکینسونی با توهم، دیسکینزی و هیپوتانسیون ارتواستاتیک پس از افزایش دوز دارو.
+
+@why
+بازنگری دارو؛ علل ثانویه (عفونت، متابولیک) و نورولوژی.
+
+@L
+- Glucose, BMP, CBC, urinalysis (infection precipitating); orthostatic vital signs; ECG
+
+@S
+- (IV fluids if orthostatic / dehydrated) {ci: caution in heart failure}
+
+@T
+- Review medications (avoid dopamine antagonists: haloperidol, metoclopramide, prochlorperazine); "drug holiday" 1 week may be considered with neurologist for new motor / psychiatric disturbance or decreased drug efficacy
+
+@Co
+- Neurology follow-up
+
+@variant lems-postpolio
+name: Lambert–Eaton syndrome / postpolio syndrome / acute poliomyelitis (supportive)
+level: III
+imp: Lambert–Eaton / postpolio syndrome / poliomyelitis
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: PA
+
+@scenario
+مرد ۶۵ ساله سیگاری با ضعف پروگزیمال پاها که با ورزش بهتر می‌شود؛ یا بیمار با پولیوی دوران کودکی و ضعف جدید و خستگی.
+
+@why
+حمایتی و ارجاع؛ جستجوی سرطان در LEMS.
+
+@I
+- CXR PA / CT chest (lung cancer screening in LEMS)
+
+@L
+- Electrolytes, CBC, TSH, CK; voltage-gated calcium channel antibodies (outpatient); CSF + stool / throat swab culture if acute febrile flaccid paralysis from endemic area
+
+@T
+- Supportive care: analgesics, anti-inflammatory medications; muscle training / daily exercise (postpolio); respiratory monitoring (acute polio / bulbar symptoms)
+- LEMS: 3,4-diaminopyridine and immunosuppressants per neurology; lamotrigine may improve quality of life in postpolio syndrome
+
+@Co
+- Neurology for disposition and follow-up; admit / infection control if acute poliomyelitis suspected

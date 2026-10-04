@@ -1,0 +1,167 @@
+@cond vertigo-undifferentiated
+ch: 144
+name: Acute vertigo — peripheral vs central (HINTS)
+name_fa: ورتیگو حاد — محیطی در برابر مرکزی (HINTS)
+cc: dizziness-vertigo
+keywords: vertigo, HINTS exam, head impulse, nystagmus, test of skew, central vertigo, peripheral vertigo, posterior circulation stroke, ورتیگو, سرگیجه, HINTS
+status: draft
+
+@features
+- ورتیگو: ادراک حرکت در نبود حرکت؛ ناشی از عدم تطابق سیستم‌های دیداری، وستیبولار و پروپریوسپتیو؛ «اتاق می‌چرخد»؛ محیطی (دستگاه وستیبولار و عصب هشتم): شروع ناگهانی، شدید، تهوع، استفراغ، عدم تحمل حرکت سر، تعریق؛ مرکزی (ساقه/مخچه): ناگهانی یا تدریجی، معمولاً خفیف‌تر و کم‌تعریف
+- جدول 144-1 محیطی در برابر مرکزی: شروع: ناگهانی یا پنهان | ناگهانی؛ شدت: چرخشی شدید | کم‌تعریف و کمتر؛ پیش‌علامت: تا 25% معمولاً یک دوره | تا 25% و دوره‌های راجعه ← TIA؛ عدم تحمل حرکت سر/Dix–Hallpike: بله | گاه؛ تهوع/تعریق: شایع | متغیر؛ علائم شنوایی: به محیطی اشاره می‌کند | ممکن؛ تناسب علائم: معمولاً متناسب | اغلب نامتناسب؛ سردرد/درد گردن: غیرمعمول | محتمل‌تر؛ نیستاگموس: چرخشی-عمودی، افقی | عمودی؛ علائم CNS: ندارد | معمولاً دارد؛ head impulse: غیرطبیعی | معمولاً طبیعی؛ HINTS: علائم محیطی در هر سه | علائم مرکزی در حداقل یکی
+- HINTS: Head Impulse (VOR)، Nystagmus با جهت متغیر با نگاه، Test of Skew (انحراف عمودی با cover-uncover)؛ یک یا چند یافته مرکزی در HINTS (توسط متخصص) برای سکته حساس و اختصاصی؛ Dix–Hallpike برای BPPV (حساسیت 75 تا 82%)؛ مانورهای چرخش سر/گردن در دیسکسیون شریان گردن، VBI یا آسیب ستون ممنوع
+- جدول 144-2 علل: وستیبولار/اتولوژیک (BPPV، تروما، عفونت: لابیرنتیت، نورونیت وستیبولار، Ramsay Hunt، Ménière، otosclerosis، Paget، سمی: aminoglycoside)؛ عصبی (VBI یا دیسکسیون ورتبرال، Wallenberg، AICA، تومور زاویه پونتوسربلار، مخچه، گانگلیون‌های بازال، MS، عفونت، صرع، میگرن، عروقی)؛ سیستمیک/عمومی (خونی: کم‌خونی، پلی‌سیتمی، هیپرویسکوزیته؛ سمی: الکل؛ نارسایی کلیه؛ متابولیک: تیروئید، هیپوگلیسمی)
+- آزمایش در ورتیگوی محیطی معمول نیست؛ تصویربرداری (CT، CTA، MRI/MRA) در شک مرکزی: سالمند با علائم عصبی/مخچه‌ای، عوامل خطر سکته، کوآگولوپاتی/ضدانعقاد، سردرد، تروما سر/گردن، علائم پایدار > 72 ساعت
+
+@ddx
+- !Cerebellar / brainstem stroke or hemorrhage (posterior circulation) |
+- !Vertebral artery dissection |
+- Peripheral vestibulopathy (BPPV, neuronitis, labyrinthitis, Ménière) |
+- Acoustic neuroma / MS / vestibular migraine / hypoglycemia / drug toxicity |
+
+@redflags
+- HINTS مرکزی، سردرد/درد گردن، علائم کرانیال/مخچه‌ای، ضدانعقاد، سن بالا و عوامل خطر عروقی، نقص عصبی
+
+@guide
+شکل 144-1 رویکرد: LOC: سنکوپ، تشنج، فرایند داخل‌جمجمه‌ای ← ECG، تصویربرداری، الکترولیت، بستری. ورتیگوی واقعی با علائم CNS: CT/MRI/MRA و بستری و ارجاع نورولوژی/نوروسرجری. بدون علائم CNS: مدت: دقیقه (TIA: بررسی کاروتید، اکو، آنتی‌پلاکت/ضدانعقاد)؛ ناشی از حرکات ناگهانی سر ← BPPV؛ کاهش شنوایی ← URI/اوتیت (لابیرنتیت باکتریال: CT/MRI، آنتی‌بیوتیک، ENT) یا وزوز (neuroma آکوستیک: CT/MRI و جراحی/ENT) یا Ménière (آنتی‌هیستامین/ضداستفراغ، دیورتیک، نمک < 1 g/روز، ENT)؛ سایر: نورونیت وستیبولار (آنتی‌هیستامین/ضداستفراغ، اطمینان). دارودرمانی (جدول 144-4): anticholinergic: scopolamine 0.5 mg ترانس‌درمال (پشت گوش) 3 تا 4 بار روزانه؛ آنتی‌هیستامین: dimenhydrinate 50 تا 100 mg IM/IV/PO هر 4 ساعت؛ diphenhydramine 25 تا 50 mg IM/IV/PO؛ meclizine 25 mg PO؛ hydroxyzine 25 mg 2 تا 4 بار؛ ضداستفراغ: metoclopramide 10 mg؛ ondansetron 4 mg IV؛ promethazine 25 mg IM/PO/PR؛ بنزودیازپین: diazepam 2 تا 5 mg؛ clonazepam 0.5 mg دو بار؛ مسدودکننده کلسیم: cinnarizine 25 mg PO؛ nimodipine 30 mg؛ flunarizine 20 mg؛ وازودیلاتور betahistine 48 mg سه بار تا 6 تا 12 ماه (Ménière)؛ کورتیکواستروئید methylprednisolone 100 mg/d با کاهش 20 mg هر 4 روز (نورونیت)؛ ضدویروس valacyclovir 1000 mg سه بار 7 روز (نورونیت)؛ ضدتشنج: carbamazepine 200 تا 600 mg/d، topiramate 50 تا 100، valproate 300 تا 900، gabapentin 300 mg چهار بار؛ β-blocker: metoprolol 100 mg/d.
+
+@variant vertigo-central-suspected
+name: Suspected central vertigo (HINTS central / red flags) — stroke workup
+level: I
+imp: Acute vertigo, suspected central cause (posterior circulation stroke)
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: none
+o2: only if SpO2 < 94%
+
+@scenario
+مرد ۶۵ ساله هیپرتانسیو با ورتیگوی ناگهانی، سردرد، استفراغ، آتاکسی تنه و نیستاگموس عمودی؛ HINTS مرکزی.
+
+@why
+سکته خلفی را زود رد کن؛ MRI/CTA و مشاوره نورولوژی.
+
+@I
+- Noncontrast CT head (hemorrhage); MRI brain with diffusion (preferred for posterior circulation infarct; CT insensitive) and MR / CT angiography (vertebrobasilar, dissection)
+
+@L
+- Glucose (bedside); CBC, electrolytes, BUN / creatinine, PT/INR, aPTT, troponin; ECG (AF)
+
+@S
+- Antiemetic (ondansetron 4 mg IV) for symptom relief {ci: avoid neuroleptics in orthostatic patients}
+
+@T
+- Cardiac monitor; neuro checks; HINTS exam (head impulse, nystagmus, test of skew) and gait / truncal ataxia assessment {ci: avoid head / neck twisting maneuvers if cervical artery dissection suspected}
+- See ischemic stroke / TIA protocol (antiplatelet, thrombolysis candidacy) when confirmed
+
+@Co
+- Neurology (emergent); neurosurgery for posterior fossa hemorrhage / tumor; admit monitored
+
+@variant vertigo-peripheral-symptomatic
+name: Acute peripheral vertigo — vestibular neuronitis / labyrinthitis (symptomatic)
+level: III
+imp: Acute peripheral vertigo (vestibular neuronitis / labyrinthitis)
+cond: Urgent
+act: CBR
+diet: PO
+ecg: once
+cxr: none
+
+@scenario
+زن ۴۰ ساله با ورتیگوی شدید ناگهانی، تهوع و استفراغ بعد از عفونت تنفسی؛ نیستاگموس افقی یک‌طرفه، head impulse غیرطبیعی و بدون علائم CNS.
+
+@why
+علامتی؛ HINTS محیطی.
+
+@L
+- (no routine labs; glucose bedside; electrolytes if vomiting)
+
+@S
+- Diphenhydramine 25–50 mg IM, IV, or PO; meclizine 25 mg PO {ci: drowsiness / anticholinergic effects; caution in elderly}
+- Ondansetron 4 mg IV for vomiting; IV fluids if dehydrated {ci: caution in heart failure}
+- Second-line: calcium antagonists, neuroleptics (not in orthostatic patients); benzodiazepines sparingly (diazepam 2–5 mg) {note: benzodiazepines impair vestibular rehabilitation}
+
+@T
+- Symptomatic treatment; fall precautions; early ambulation; transdermal scopolamine 0.5 mg best as discharge medication (onset 4–8 h) {note: methylprednisolone and antivirals of no proven benefit for vestibular neuronitis}
+
+@Co
+- Discharge with follow-up; ENT referral if suspected perilymph fistula or bacterial labyrinthitis
+
+@variant vertigo-bppv
+name: Benign paroxysmal positional vertigo (BPPV) — Dix–Hallpike / Epley
+level: III
+imp: Benign paroxysmal positional vertigo
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+زن ۵۵ ساله با ورتیگوی کوتاه (< 1 دقیقه) هنگام چرخش در تخت؛ Dix–Hallpike مثبت سمت راست.
+
+@why
+مانور Epley درمان قطعی.
+
+@T
+- Dix–Hallpike maneuver (patient seated, head turned 45°, lower rapidly supine with head hanging 20°; positive: short-lived rotatory nystagmus beating toward dependent ear)
+- Epley maneuver: seated, head 45° toward affected ear → supine head hanging 20° (wait 30–60 s) → rotate head 90° to unaffected side (30–60 s) → roll onto unaffected shoulder with head turned further 90° nearly facedown (30–60 s) → sit upright; may repeat {ci: avoid in cervical artery dissection / vertebrobasilar insufficiency / spinal pathology}
+- If unsuccessful: vestibular rehabilitation exercises; antiemetics or antivertigo drugs as adjunct
+
+@Co
+- Discharge; ENT / neurology follow-up if recurrent
+
+@variant vertigo-menieres
+name: Ménière syndrome / perilymph fistula / ototoxic vertigo
+level: III
+imp: Ménière syndrome / perilymph fistula
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مرد ۵۰ ساله با حملات راجعه ورتیگو، وزوز یک‌طرفه و کاهش شنوایی؛ یا ورتیگوی ناگهانی هنگام غواصی/بلند کردن بار.
+
+@why
+علامتی؛ ENT برای fistula.
+
+@L
+- (audiometry outpatient; no routine labs)
+
+@S
+- Antihistamines / antiemetics (meclizine 25 mg PO; ondansetron 4 mg IV); diuretics; betahistine 48 mg PO three times daily for 6–12 months (Ménière)
+
+@T
+- Low-salt diet (< 1 g added salt/day); avoid ototoxic drugs (NSAIDs, salicylates, aminoglycosides, loop diuretics, cytotoxics); pneumatic otoscopy for perilymph fistula
+
+@Co
+- ENT referral (Ménière diagnosis needs multiple episodes with progressive hearing loss; perilymph fistula)
+
+@variant vertigo-ramsay-hunt
+name: Ramsay Hunt syndrome / vestibular ganglionitis
+level: III
+imp: Ramsay Hunt syndrome (herpes zoster oticus)
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+زن ۶۵ ساله با ورتیگو، کم‌شنوایی، فلج صورت و وزیکول در مجرای گوش خارجی.
+
+@why
+درمان ضدویروس؛ نورونیت ویروسی نوروتروپیک.
+
+@S
+- Antiviral agents (e.g., valacyclovir 1000 mg PO three times daily for 7 days) {ci: dose adjust in renal impairment}
+- Antiemetic / antihistamine for vertigo
+
+@T
+- Eye protection for facial palsy; analgesia
+
+@Co
+- ENT / neurology follow-up

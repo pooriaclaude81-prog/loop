@@ -1,0 +1,270 @@
+@cond delirium
+ch: 142
+name: Delirium
+name_fa: دلیریوم
+cc: altered-mental-status, behavioral
+keywords: delirium, acute confusion, sundowning, haloperidol, lorazepam, encephalopathy, دلیریوم, گیجی حاد
+status: draft
+
+@features
+- اختلال گذرا: اختلال توجه، ادراک، تفکر، حافظه و شناخت؛ طی روزها؛ چرخه خواب-بیداری مختل (خواب‌آلودگی روز، بی‌قراری شب «sundowning»)؛ هوشیاری کاهش‌یافته یا بیش‌هشیار؛ نوسان سریع؛ لرزش، asterixis، تاکی‌کاردی، تعریق، هیپرتانسیون، طغیان عاطفی و توهم
+- جدول 142-1: دلیریوم: شروع طی روزها، نوسان در 24 ساعت، هوشیاری کم یا بیش‌هشیار، توجه و شناخت و جهت‌یابی مختل، توهم دیداری/شنوایی، هذیان گذرا و نامنظم، asterixis/لرزش؛ دمانس: تدریجی، پایدار، هوشیار، توجه طبیعی؛ اختلال روانی: ناگهانی، پایدار، هوشیار، توهم اغلب شنوایی
+- جدول 142-2 علل: عفونی (پنومونی، UTI، منژیت/انسفالیت، سپسیس)؛ متابولیک/سمی (هیپوگلیسمی، الکل، اختلال الکترولیت، انسفالوپاتی کبدی، تیروئید، ترک الکل/دارو)؛ عصبی (CVA/TIA، تشنج/postictal، SAH، ICH، توده، SDH)؛ قلبی-ریوی (CHF، MI، PE، هیپوکسی/CO2 narcosis)؛ دارو (آنتی‌کولینرژیک، ترک الکل/دارو، آرام‌بخش، اوپیوئید، SSRI/SNRI، polypharmacy)
+- آزمایش: BMP، کبد، آمونیاک، UA، CBC، CXR؛ CT مغز اگر توده؛ LP اگر منژیت یا SAH مشکوک و تشخیص جایگزین نیست
+
+@ddx
+- !Hypoglycemia / hypoxia / sepsis |
+- !Meningitis / encephalitis / SAH / stroke / nonconvulsive status |
+- Alcohol / drug withdrawal / toxicity |
+- Dementia / psychiatric disorder |
+
+@redflags
+- تب، سفتی گردن، علائم کانونی، هیپوگلیسمی، هیپوکسی، ترک الکل
+
+@guide
+درمان بیماری زمینه‌ای مسبب؛ تغییر محیط (نور کافی و حمایت عاطفی). آژیتاسیون حاد: haloperidol 5 تا 10 mg PO یا IM (در سالمند دوز کمتر)؛ lorazepam 0.5 تا 2 mg PO، IM یا IV نیز ممکن. بستری مگر علت قابل برگشت سریع یافت، درمان شروع و بهبود دیده شود.
+
+@variant delirium-main
+name: Delirium (acute, medical cause workup)
+level: II
+imp: Delirium
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: PA
+
+@scenario
+مرد ۷۸ ساله با گیجی و بی‌قراری شبانه از 2 روز پیش، تب 38.2 و سرفه.
+
+@why
+جستجوی علت (عفونت، متابولیک، دارو)؛ آرام‌سازی در صورت لزوم.
+
+@I
+- CXR PA (pneumonia); CT head noncontrast if mass lesion / trauma / focal findings suspected
+
+@L
+- Glucose (bedside); BMP (Na, Ca, BUN, creatinine), hepatic studies, ammonia, urinalysis (+ culture), CBC; ± troponin, TSH, blood cultures, medication / drug levels; lumbar puncture if meningitis / SAH suspected and no alternate diagnosis
+
+@S
+- Treat underlying cause (e.g., IV fluids / antibiotics as indicated) {ci: caution in heart failure / CKD}
+
+@T
+- Environmental manipulation (adequate lighting, emotional support, reorientation)
+- Agitation: haloperidol 5–10 mg PO or IM (reduced dose in elderly), or lorazepam 0.5–2 mg PO, IM, or IV {ci: avoid benzodiazepines in alcohol-unrelated delirium when possible; QT prolongation with haloperidol}
+
+@A
+- Antibiotics for identified infection (pneumonia, UTI, sepsis, meningitis per source)
+
+@Co
+- Admit (unless readily reversible cause found, treated, and improved); geriatrics / medicine
+
+@cond dementia-acute-change
+ch: 142
+name: Dementia (acute change in function / new diagnosis)
+name_fa: دمانس (تغییر حاد عملکرد / تشخیص جدید)
+cc: altered-mental-status, behavioral
+keywords: dementia, Alzheimer, vascular dementia, normal pressure hydrocephalus, memory loss, دمانس, آلزایمر
+status: draft
+
+@features
+- از دست رفتن تدریجی ظرفیت ذهنی؛ بزرگ‌ترین گروه‌ها: آلزایمر و دمانس عروقی؛ شروع پنهان با اختلال پیشرونده حافظه (به‌ویژه اخیر)؛ توهم، هذیان و رفتار تکراری؛ مشکل نام‌گذاری، فراموشی اشیا، از دست رفتن خواندن و جهت‌یابی، ناتوانی در خودمراقبتی، تغییر شخصیت، اضطراب، افسردگی و اختلال گفتار؛ دمانس عروقی: رفلکس تاندونی اغراق‌شده/نامتقارن، اختلال راه رفتن و ضعف اندام
+- معاینه ممکن است محرک یا علت تغییر حاد را بیابد؛ علائم کانونی: دمانس عروقی یا توده؛ افزایش تون و علائم اکستراپیرامیدال: Parkinson؛ NPH: بی‌اختیاری ادرار و اختلال راه رفتن + بطن‌های بزرگ در CT
+- مطالعات: CBC، BMP، UA، تیروئید، B12، سیفیلیس، ESR، فولات، HIV و CXR؛ CT/MRI و LP اگر تشخیص روشن نیست و فرایند داخل‌جمجمه‌ای یا عفونت CNS مشکوک؛ افتراق: دلیریوم، افسردگی و علل قابل‌درمان
+
+@ddx
+- !Delirium / depression |
+- Normal pressure hydrocephalus / subdural hematoma |
+- B12 deficiency / hypothyroidism / neurosyphilis |
+
+@redflags
+- شروع حاد یا بدتر شدن سریع، علائم کانونی، خطر به خود/دیگران، تروما
+
+@guide
+شروع ورک‌آپ برای علل طبی بدتر شدن عملکرد؛ آنتی‌سایکوتیک برای سایکوز پایدار یا رفتار بسیار مخل/خطرناک با توجه به عوارض؛ دمانس عروقی: عوامل خطر (فشار). بسیاری از موارد جدید نیاز به بستری؛ ترخیص: علائم مزمن و پایدار، مراقبان ثابت، پیگیری سرپایی معتبر.
+
+@variant dementia-main
+name: Dementia with acute worsening or new presentation
+level: III
+imp: Dementia, acute change in function
+cond: Urgent
+act: CBR
+diet: PO
+ecg: stat
+cxr: PA
+
+@scenario
+مرد ۸۰ ساله با دمانس شناخته‌شده و بدتر شدن گیجی طی 3 روز؛ بدون تب.
+
+@why
+علل قابل‌درمان را بررسی کن (عفونت، دارو، متابولیک، SDH).
+
+@I
+- CT head noncontrast (SDH / hydrocephalus / mass); CXR PA if respiratory symptoms
+
+@L
+- Glucose; BMP, CBC, urinalysis, TSH, vitamin B12, folate, ESR; syphilis and HIV testing if indicated
+
+@S
+- (treat reversible cause; no routine IV fluids unless dehydrated) {ci: caution in heart failure}
+
+@T
+- Review medications; antipsychotic only for persistent psychosis or dangerous behavior (mind adverse reactions); environmental support
+
+@Co
+- Admit if new diagnosis / unsafe; discharge if long-standing stable symptoms with consistent caregivers and reliable follow-up
+
+@cond coma
+ch: 142
+name: Coma
+name_fa: کما
+cc: altered-mental-status
+keywords: coma, Glasgow Coma Scale, GCS, FOUR score, unresponsive, naloxone, thiamine, increased ICP, mannitol, pseudocoma, nonconvulsive status epilepticus, کما, گلاسگو
+status: draft
+
+@features
+- حالت کاهش هوشیاری و پاسخ‌دهی که بیمار قابل بیدار شدن نیست؛ GCS (جدول 142-3) و FOUR score؛ مردمک، اعصاب کرانیال، همی‌پارزی و پاسخ به تحریک → دسته: اختلال منتشر CNS (سمی-متابولیک) یا کانونی (ساختاری)
+- سمی-متابولیک: بدون یافته کانونی؛ مردمک معمولاً کوچک و واکنش‌دار (ممکن بزرگ در مسمومیت شدید آرام‌بخش مثل باربیتورات)
+- ضایعه supratentorial: همی‌پارزی پیشرونده یا تون/رفلکس نامتقارن؛ ICP بالا: رفلکس Cushing (هیپرتانسیون و برادیکاردی)؛ posterior fossa/infratentorial: شروع ناگهانی، اکستانسور پوسچرینگ، از دست رفتن رفلکس مردمک و حرکات چشم؛ هموراژی pons: مردمک نقطه‌ای
+- pseudocoma: مردمک، حرکات چشم، تون و رفلکس سالم؛ مقاومت در باز کردن چشم، اجتناب از نگاه، nystagmus در تست کالریک ← غیرفیزیولوژیک
+- شروع ناگهانی: سکته فاجعه‌بار یا status؛ تدریجی: متابولیک یا ضایعه پیشرونده؛ تست‌های عصبی ظریف ممکن نیست؛ مردمک نامتقارن، رفلکس قرنیه و oculovestibular؛ پوسچرینگ اکستانسور/فلکسور ← اختلال عمیق CNS
+- CT سر و سپس LP اگر غیرتشخیصی و SAH یا عفونت مشکوک؛ ترومبوز basilar: MRI یا آنژیوگرافی؛ بعد از تشنج و بیدار نشدن: nonconvulsive status → EEG؛ در کودک: مسمومیت، عفونت، تروما غیرتصادفی
+- جدول 142-4 علل: منتشر: انسفالوپاتی (هیپوکسیک، متابولیک، هیپرتانسیو)، هیپوگلیسمی، حالت هیپراسمولار، اختلال الکترولیت، نارسایی عضو (کبد/اورمی)، اندوکرین (آدیسون، هیپوتیروئیدی)، هیپوکسی، CO2 narcosis، سم/دارو (NMS)، محیطی (هیپو/هیپرترمی)، Wernicke، سپسیس؛ CNS اولیه/تروما: DAI، SDH/EDH، خونریزی پارانشیم (نیمکره، گانگلیون‌های بازال، ساقه، مخچه)، SAH، انفارکت، عفونت CNS، نئوپلاسم، تشنج (NCSE، postictal)
+
+@ddx
+- !Hypoglycemia / opioid overdose / hypoxia / CO2 narcosis |
+- !Intracranial hemorrhage / stroke / nonconvulsive status epilepticus |
+- Meningitis / encephalitis / sepsis / toxic-metabolic encephalopathy |
+- Psychogenic coma (pseudocoma) |
+
+@redflags
+- GCS ≤ 8، مردمک نامتقارن/ثابت، Cushing reflex، پوسچرینگ، تب با سفتی گردن
+
+@guide
+حمایتی و شناسایی علت. 1) ثبات ABC. 2) درمان علل برگشت‌پذیر: هیپوگلیسمی و مسمومیت اپیوئید؛ naloxone تجربی؛ thiamine قبل از گلوکز در الکلی یا سوءتغذیه. 3) NCSE را در بیمار بعد از تشنج که به پایه نرسیده در نظر بگیر. 4) ICP بالا: سر 30°، mannitol 0.5 تا 1.0 g/kg؛ dexamethasone 10 mg IV برای ادم واژوژنیک تومور؛ هایپرونتیلاسیون موقت ICP را کم می‌کند؛ PaCO2 زیر 35 mmHg نرود. 5) ترخیص: علت کاملاً رفع‌شده و مراقبت/پیگیری کافی؛ در غیر این صورت بستری.
+
+@variant coma-undifferentiated
+name: Coma, undifferentiated (empiric reversible causes, CT)
+level: I
+imp: Coma, undifferentiated
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+o2: titrate to SpO2 ≥ 94%
+
+@scenario
+مردی ۵۵ ساله بدون سابقه یافت‌شده بی‌پاسخ، GCS 6، مردمک 2 mm واکنش‌دار، فشار 130/80.
+
+@why
+گلوکز، نالوکسان، تیامین، CT و جستجوی علت.
+
+@I
+- Noncontrast head CT STAT (then lumbar puncture if nondiagnostic and SAH / infection suspected); MRI / angiography if basilar thrombosis suspected; CXR portable
+
+@L
+- Bedside glucose (STAT); BMP (Na, Ca), BUN, creatinine, liver function and ammonia, CBC, blood gas (CO2 narcosis), lactate, troponin, osmolality, ethanol and toxicology screen, APAP / salicylate, TSH / cortisol as indicated, blood cultures; EEG if nonconvulsive status suspected
+
+@S
+- Dextrose (50% 50 mL IV) for hypoglycemia; thiamine 100 mg IV BEFORE glucose in alcohol abuse / malnutrition
+- Naloxone empiric (opioid toxicity)
+- If raised ICP: mannitol 0.5–1.0 g/kg IV; dexamethasone 10 mg IV for tumor-associated vasogenic edema {ci: avoid hypotension; avoid PaCO2 < 35 mmHg}
+
+@T
+- Stabilize airway (intubate for GCS ≤ 8 / airway risk), breathing, circulation; cardiac monitor
+- Raise head of bed 30° if ICP suspected; transient hyperventilation only if herniation
+- Consider nonconvulsive status epilepticus (EEG) if seizure and not returned to baseline; examine for trauma, toxidromes
+
+@A
+- Empiric antibiotics ± acyclovir if meningitis / encephalitis suspected (do not delay for LP / CT)
+
+@Co
+- Neurology / neurosurgery / ICU admission; toxicology if ingestion; pediatrics: consider toxic ingestion, infection, nonaccidental trauma
+
+@cond ataxia-gait-disturbance
+ch: 143
+name: Ataxia and gait disturbances (incl. Wernicke–Korsakoff, B12 deficiency)
+name_fa: آتاکسی و اختلالات راه رفتن
+cc: dizziness-vertigo, weakness, focal-neuro
+keywords: ataxia, gait disturbance, Romberg, cerebellar ataxia, sensory ataxia, Wernicke encephalopathy, thiamine, B12 deficiency, normal pressure hydrocephalus, آتاکسی, راه رفتن, ورنیکه
+status: draft
+
+@features
+- آتاکسی: حرکت ناهماهنگ؛ اختلال راه رفتن: الگوی غیرطبیعی؛ در بسیاری بیماری‌ها؛ ابتدا ببین ثانویه به بیماری سیستمیک است (سردرد، تهوع، تب، کاهش هوشیاری؛ تغییر علائم ارتواستاتیک)
+- ارزیابی آتاکسی اولیه: موتور مخچه‌ای در برابر حسی: dysmetria (finger-to-nose)؛ dysdiadochokinesia؛ heel-to-shin: overshoot ← مخچه، مسیر لرزان ← نقص proprioception؛ Romberg: بی‌ثباتی با چشم باز ← مخچه‌ای؛ بدتر با چشم بسته ← حسی؛ ارتعاش و حس موقعیت (tabes dorsalis، کمبود B12)؛ مشاهده راه رفتن: ضعف پروگزیمال/دیستال، tandem، heel/toe؛ گام پایه گشاد = آتاکسی موتور؛ آتاکسی حسی: حرکات ناگهانی و کوبیدن پا؛ senile gait (آهسته، گشاد، کوتاه)؛ Parkinson: festinating گام کوتاه؛ foot drop: equine gait
+- جدول 143-1 علل حاد: مسمومیت (اتانول، آرام‌بخش، phenytoin، carbamazepine، valproate، فلزات)، متابولیک (هیپوناترمی، اختلال ارثی متابولیسم، Wernicke)؛ مخچه (خونریزی، انفارکت، دژنراتیو، آبسه)، قشر (تومور/خونریزی/تروما فرونتال، هیدروسفالی)، ساب‌کورتیکال (تالاموس، Parkinson، NPH)، نخاع (spondylosis و فشار نخاع، ستون خلفی)، نوروپاتی محیطی، وستیبولوپاتی
+- Wernicke: آتاکسی، تغییر هوشیاری، افتالموپلژی (نیستاگموس شایع‌ترین یافته چشمی)؛ کلاسیک در الکلی ولی در هر فرد سوءتغذیه؛ Korsakoff: confabulation؛ B12: از دست رفتن حس موقعیت انگشت دوم پا + Romberg مثبت؛ سطح B12 و CBC (نورولوژیک اغلب مقدم بر آنمی ماکروسیتیک)؛ نوروسیفیلیس: VDRL/RPR
+- کودک: مسمومیت شایع؛ 2 تا 4 سال: پس از واکسن/ویروس/واریسلا؛ توده posterior fossa؛ opsoclonus-myoclonus ← نوروبلاستوما
+
+@ddx
+- !Cerebellar stroke / hemorrhage |
+- !Wernicke encephalopathy |
+- Drug toxicity (phenytoin, carbamazepine, alcohol) / hyponatremia |
+- B12 deficiency / neurosyphilis / NPH / spinal cord compression |
+
+@redflags
+- شروع ناگهانی، سردرد، تهوع، کاهش هوشیاری، نیستاگموس مرکزی، عدم توانایی ناگهانی راه رفتن
+
+@guide
+میزان ارزیابی ED با حدت و شدت علائم؛ شروع حاد یا پیشرفت اخیر ورک‌آپ وسیع‌تر. CT یا MRI در صورت اندیکاسیون؛ LP برای شک عفونت CNS. 1) thiamine 100 mg IV برای الکلی و بزرگسال سوءتغذیه با احتمال Wernicke–Korsakoff. 2) بستری بیمار با ناتوانی حاد و بی‌توضیح در راه رفتن برای ارزیابی و تست.
+
+@variant ataxia-acute
+name: Acute ataxia / gait disturbance, unexplained (central vs systemic vs toxic)
+level: II
+imp: Acute ataxia / gait disturbance
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: none
+
+@scenario
+مرد ۵۰ ساله الکلی با راه رفتن ناپایدار، دوبینی، نیستاگموس و گیجی از 2 روز پیش.
+
+@why
+تیامین فوری؛ CT/MRI برای ضایعه مخچه.
+
+@I
+- CT head noncontrast (cerebellar hemorrhage / infarct) → MRI brain if CT negative and posterior circulation suspected; MRI spine if cord compression / myelopathy
+
+@L
+- Glucose (bedside); BMP (Na), ethanol and drug levels (phenytoin, carbamazepine, valproate) as indicated, CBC, vitamin B12, magnesium, liver function; VDRL / RPR; lumbar puncture if CNS infection suspected
+
+@S
+- Thiamine 100 mg IV (alcoholics and malnourished adults, before glucose) {hi}
+- Electrolyte correction (hyponatremia etc.)
+
+@T
+- Observe gait; orthostatic vital signs; cardiac / neuro checks; fall precautions
+
+@Co
+- Admit patients with acute unexplained inability to walk; neurology; toxicology if ingestion
+
+@variant gait-chronic-b12-nph
+name: Subacute gait disturbance — B12 deficiency / neurosyphilis / normal pressure hydrocephalus / Parkinson
+level: III
+imp: Gait disturbance, subacute (B12 deficiency / NPH / Parkinson)
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مرد ۷۵ ساله با راه رفتن گشاد و آهسته، بی‌اختیاری ادرار و فراموشی؛ یا بی‌حسی انگشتان پا با Romberg مثبت.
+
+@why
+CT برای NPH و B12/VDRL؛ ارجاع.
+
+@I
+- CT head (ventriculomegaly — NPH); MRI as indicated
+
+@L
+- Vitamin B12 level and CBC; VDRL / RPR; TSH, BMP, glucose
+
+@T
+- Observe ambulation (rise from chair, heel / toe walk, tandem); fall-prevention counseling
+
+@Co
+- Neurology follow-up (Parkinson's disease / NPH); admit if unable to ambulate safely

@@ -1,0 +1,260 @@
+@cond ischemic-stroke
+ch: 141
+name: Acute ischemic stroke
+name_fa: سکته ایسکمیک حاد
+cc: focal-neuro, headache, dizziness-vertigo
+keywords: stroke, ischemic stroke, rtPA, alteplase, thrombolysis, NIHSS, MCA, posterior circulation, cerebellar stroke, last known well, سکته مغزی, tPA
+status: draft
+
+@features
+- سکته: هر بیماری که جریان خون مغز را مختل کند؛ ایسکمیک (87%)، ICH (10%)، SAH غیرتروماتیک (3%)؛ TIA: اختلال گذرای عصبی ناشی از ایسکمی بدون انفارکت (معمولاً < 1 تا 2 ساعت؛ مدت بی‌اعتبار؛ طیف پیوسته)
+- انواع (جدول 141-1): ترومبوتیک (آترواسکلروز، واسکولیت، دیسکسیون، پلی‌سیتمی، هیپرکوآگولابل، عفونت)؛ آمبولیک (وژتاسیون دریچه، ترومبوس جداری، آمبولی paradoxical، میکزوم، شریانی-شریانی، چربی، ذره‌ای، سپتیک؛ 20% از ایسکمیک‌ها، ناگهانی)؛ هیپوپرفیوژن (نارسایی قلبی/هیپوتانسیون، آسیب watershed)
+- یافته‌ها بسته به ناحیه مغز: ACA: ضعف و تغییر حسی پای مقابل؛ MCA: همی‌پارزی مقابل (دست > پا)، فلج صورت، از دست رفتن حس؛ آفازی در نیمکره غالب (معمولاً چپ)؛ بی‌توجهی (neglect)، دیزآرتری بدون آفازی در نیمکره غیرغالب؛ گردش خلفی (اغلب ظریف): ضعف یک‌طرفه اندام، سرگیجه، ورتیگو، تاری دید، سردرد، دیزآرتری، نقص میدان بینایی، آتاکسی راه رفتن، فلج صورت، لتارژی؛ اشغال basilar: علائم اکولوموتور، Horner و «locked-in»؛ سکته مخچه: بدتر شدن سریع با هماتوم/ادم
+- دیسکسیون شریان گردن: کاروتید: درد یک‌طرفه سر (68%)، گردن (39%)، صورت (10%)؛ ورتبرال: درد گردن (66%) و سردرد (65%)
+- فاکتورهای خطر: AF، HTN، دیابت، سیگار، آترواسکلروز کرونر، دریچه مصنوعی، MI اخیر؛ زمان آخرین وضعیت پایه (last known well) حیاتی؛ افتراق (جدول 141-3): تشنج/فلج Todd، سنکوپ، منژیت/انسفالیت، میگرن پیچیده، تومور/آبسه، ساب‌دورال/اپی‌دورال، SAH، هیپوگلیسمی، هیپوناترمی، انسفالوپاتی هیپرتانسیو، کمای هیپراسمولار، Wernicke، لابیرنتیت، مسمومیت دارو، Bell، Ménière، MS، اختلال تبدیلی
+- CT بدون کنتراست اورژانس (ترجیحاً تفسیر نورورادیولوژیست) برای HEM یا mimic؛ اکثر سکته‌های ایسکمیک حاد ساعات اول در CT دیده نمی‌شوند؛ NIHSS در کاندیدای ترومبولیز
+
+@ddx
+- !Intracerebral / subarachnoid hemorrhage |
+- !Hypoglycemia / seizure with Todd paralysis |
+- Migraine / meningitis / tumor / peripheral vestibular disorder |
+
+@redflags
+- سمپتوم < 4.5 ساعت (پنجره درمان)، NIHSS بالا، علائم گردش خلفی/مخچه، دیسکسیون
+
+@guide
+1) بیمار با نقص عصبی حاد: ABC، IV، قند بالین، مانیتور قلبی و پالس‌اکسیمتری؛ اکسیژن فقط در هیپوکسی با SpO2 > 94%. 2) آخرین زمان پایه عصبی. 3) پس از تثبیت: فوراً CT مغز بدون کنتراست و آزمایش از جمله انعقادی. 4) اهداف زمانی AHA/ASA از ورود: ارزیابی پزشک 10 دقیقه، فعال‌سازی تیم سکته 15، شروع CT 25، تفسیر CT 45، شروع ترومبولیتیک 1 ساعت (60 دقیقه)، پذیرش واحد سکته 3 ساعت. 5) غیرکاندید ترومبولیز: «permissive hypertension» بدون درمان فشار مگر SBP > 220 یا DBP > 120؛ در صورت نیاز کاهش SBP 15% طی 24 ساعت. 6) کاندیدای ترومبولیز: هدف SBP ≤ 185 و DBP ≤ 110 با labetalol 10 تا 20 mg IV طی 1 تا 2 دقیقه (یک تکرار) یا nicardipine 5 mg/h تا حداکثر 15 mg/h و سپس 3 mg/h؛ اگر کنترل نشد کاندید خوبی نیست. 7) rtPA IV برای ایسکمیک ≤ 3 ساعت (FDA) و 3 تا 4.5 ساعت (AHA/ASA، off-label) با معیارهای جداول 141-4 و 141-5. معیارهای ورود: تشخیص قابل‌اندازه‌گیری سکته ایسکمیک حاد (NIHSS)، شروع < 3 ساعت (آخرین وضعیت پایه)، سن ≥ 18. معیارهای خروج: تروما شدید سر یا سکته قبلی در 3 ماه، شک SAH، پونکسیون شریان غیرقابل فشار ≤ 7 روز، سابقه ICH، نئوپلاسم/AVM/آنوریسم، جراحی داخل جمجمه/نخاع اخیر، فشار > 185/110 با وجود درمان، خونریزی داخلی فعال، پلاکت < 100,000، هپارین ظرف 48 ساعت با aPTT بالا، INR > 1.7 یا PT > 15، DOAC با تست‌های آزمایشگاهی بالا، قند < 50، CT: ICH، نئوپلاسم یا انفارکت چندلوبی (> 1/3 نیمکره)؛ نسبی: سکته خفیف یا رو به بهبود سریع (مگر ناتوان‌کننده مثل آفازی/hemianopia)، بارداری، تشنج در شروع با نقص بعد از تشنج (اگر ناشی از سکته)، جراحی بزرگ/تروما 14 روز، خونریزی GI/ادراری 21 روز، MI 3 ماه؛ 3 تا 4.5 ساعت: خروج اضافی: سن > 80، سکته شدید (NIHSS > 25 یا > 1/3 MCA)، ضدانعقاد خوراکی (بدون توجه به INR)، سکته ایسکمیک قبلی + دیابت؛ قند > 400 (ECASS III، در راهنمای AHA نیست). 8) رضایت آگاهانه؛ خطر ICH علامت‌دار 6.4% (مرگ 45%) در ≤ 3 ساعت و 7.9% در 3 تا 4.5. 9) rtPA: 0.9 mg/kg IV (حداکثر 90 mg)؛ 10% بولوس، باقی طی 60 دقیقه؛ 24 ساعت اول بدون آسپرین یا هپارین؛ پایش فشار؛ بدتر شدن عصبی: CT فوری مجدد. 11) ایسکمیک: aspirin 325 mg PO در 24 تا 48 ساعت (نه ظرف 24 ساعت پس از rtPA)؛ heparin یا warfarin حاد توصیه نمی‌شود (حتی در AF). 12) حمایتی: پیشگیری آسپیراسیون، نرمال‌سازی قند، احتیاط سقوط؛ بستری مانیتور در واحد آشنا با سکته. 16) مشاوره زودهنگام نورولوژی/جراحی مغز/مراقبت ویژه نورولوژیک؛ انتقال به مرکز سکته.
+
+@variant stroke-tpa-candidate
+name: Acute ischemic stroke within window — thrombolysis candidate (< 4.5 h)
+level: I
+imp: Acute ischemic stroke, within thrombolysis window
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: none
+o2: only if SpO2 < 94%
+
+@scenario
+مرد ۶۵ ساله با ضعف ناگهانی دست و پای راست و آفازی از 90 دقیقه پیش؛ NIHSS 12، فشار 175/100 و قند 140.
+
+@why
+CT بلافاصله و rtPA در پنجره؛ هدف فشار ≤ 185/110.
+
+@I
+- Noncontrast head CT STAT (begin ≤ 25 min, interpret ≤ 45 min from arrival); CT angiography / MRI as indicated (large vessel occlusion — endovascular therapy)
+
+@L
+- Bedside glucose (STAT); CBC with platelets, PT/INR, aPTT, electrolytes, BUN, creatinine, troponin; ECG; (blood alcohol, toxicology as indicated) {note: rtPA may be given before platelet / coagulation results if no history of thrombocytopenia or anticoagulant use}
+
+@S
+- Alteplase (rtPA) 0.9 mg/kg IV (max 90 mg): 10% as bolus, remainder infused over 60 min {hi} {ci: see inclusion / exclusion criteria (Tables 141-4 / 141-5); informed consent; no aspirin or heparin for 24 h after; sICH risk 6.4%}
+- If SBP > 185 or DBP > 110: labetalol 10–20 mg IV over 1–2 min (may repeat once) or nicardipine 5 mg/h titrated up to 15 mg/h then 3 mg/h {ci: if BP cannot be controlled, not a thrombolysis candidate; avoid rtPA with INR > 1.7, platelets < 100,000, glucose < 50}
+
+@T
+- ABC, IV access, cardiac monitoring and pulse oximetry; oxygen only if hypoxic (> 94% target); NPO until swallow screen; aspiration precautions; frequent neuro checks and BP monitoring; repeat urgent CT for any neurologic worsening (suspect ICH)
+- Determine time last known at baseline; stroke team activation within 15 min
+
+@Co
+- Stroke team / neurology (emergent); interventional neuroradiology for thrombectomy; admit stroke unit / ICU (monitored)
+
+@variant stroke-non-candidate
+name: Acute ischemic stroke — not a thrombolysis candidate (late window / contraindicated)
+level: I
+imp: Acute ischemic stroke, not thrombolysis candidate
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: none
+o2: only if SpO2 < 94%
+
+@scenario
+زن ۷۵ ساله با همی‌پارزی چپ از 10 ساعت قبل؛ فشار 195/105؛ INR 2.5 تحت warfarin.
+
+@why
+permissive hypertension؛ آسپرین در 24 تا 48 ساعت؛ بدون هپارین.
+
+@I
+- Noncontrast head CT (rule out hemorrhage / mimic); CT angiography / MRI diffusion as available
+
+@L
+- Bedside glucose; CBC, PT/INR, aPTT, electrolytes, BUN, creatinine, troponin; ECG; toxicology / blood alcohol as indicated
+
+@S
+- Aspirin 325 mg PO within 24–48 h (not within 24 h after rtPA) {ci: active GI bleeding; do not start heparin or warfarin acutely, even with atrial fibrillation}
+- BP: permissive hypertension, no active BP management unless SBP > 220 or DBP > 120; if needed, reduce SBP ~15% over first 24 h
+
+@T
+- ABC, IV access, glucose normalization, cardiac monitor; oxygen only if SpO2 < 94%; NPO until swallow screen; aspiration prevention; fall precautions; treat comorbidities
+
+@Co
+- Neurology / stroke unit admission (monitored); consider transfer to designated stroke center
+
+@cond transient-ischemic-attack
+ch: 141
+name: Transient ischemic attack (TIA)
+name_fa: حمله ایسکمیک گذرا (TIA)
+cc: focal-neuro, dizziness-vertigo
+keywords: TIA, transient ischemic attack, ABCD2, aspirin, clopidogrel, dipyridamole, carotid, حمله ایسکمیک گذرا
+status: draft
+
+@features
+- اختلال گذرای عصبی از ایسکمی بدون انفارکت حاد؛ معمولاً < 1 تا 2 ساعت؛ طیف پیوسته با سکته؛ ABCD2 (جدول 141-6): سن ≥ 60 (1)، فشار ≥ 140/90 (1)، بالینی: ضعف یک‌طرفه (2) یا اختلال گفتار بدون ضعف (1)، مدت ≥ 60 دقیقه (2) یا 10 تا 59 (1)، دیابت (1)؛ خطر سکته 2 روزه: 1% (0 تا 3)، 4.1% (4 تا 5)، 8.1% (6 تا 7)
+
+@ddx
+- !Stroke / hypoglycemia / seizure |
+- Migraine aura / syncope / vestibular disorder |
+
+@redflags
+- ABCD2 ≥ 4، AF، تنگی کاروتید، علائم حاضر هنگام ارزیابی
+
+@guide
+aspirin 75 تا 325 mg PO روزانه، clopidogrel 75 mg PO روزانه یا aspirin + dipyridamole آهسته‌رهش (25/200 mg دو بار روزانه). heparin یا warfarin در ED توصیه نمی‌شود. بستری یا شروع ورک‌آپ در ED (بر حسب منابع، وضعیت اجتماعی): برخی متخصصان بستری بیشتر TIAها را توصیه می‌کنند؛ ترخیص در بیمار کم‌خطر بدون علامت با آموزش و دستور بازگشت صریح.
+
+@variant tia-main
+name: Transient ischemic attack
+level: II
+imp: Transient ischemic attack
+cond: Urgent
+act: CBR
+diet: PO
+ecg: stat
+cxr: none
+
+@scenario
+مرد ۶۸ ساله با ضعف دست راست و اختلال گفتار 30 دقیقه که کاملاً برطرف شد؛ فشار 150/90.
+
+@why
+ورک‌آپ سریع، آنتی‌پلاکت و تعیین ABCD2.
+
+@I
+- Noncontrast CT head (MRI diffusion preferred); CT angiography / MR angiography / carotid duplex; echocardiogram as indicated
+
+@L
+- Glucose (bedside), CBC, electrolytes, creatinine, PT/INR, aPTT, lipid panel, troponin; ECG (AF); pulse oximetry
+
+@S
+- Aspirin 75–325 mg PO daily, or clopidogrel 75 mg PO daily, or aspirin + extended-release dipyridamole (25 mg / 200 mg twice daily) {ci: active bleeding; avoid starting heparin / warfarin in ED}
+
+@T
+- Cardiac monitoring; ABCD2 calculation; education on risk modification
+
+@Co
+- Admission or expedited TIA clinic workup (ABCD2 ≥ 4 admit); neurology; discharge low-risk with explicit return precautions
+
+@cond subarachnoid-hemorrhage
+ch: 141
+name: Spontaneous subarachnoid hemorrhage (SAH)
+name_fa: خونریزی ساب‌آراکنوئید خودبه‌خودی (SAH)
+cc: headache, altered-mental-status, seizure
+keywords: subarachnoid hemorrhage, SAH, thunderclap headache, aneurysm, nimodipine, xanthochromia, CT angiography, رگ مغزی, خونریزی زیر عنکبوتیه
+status: draft
+
+@features
+- کلاسیک: سردرد ناگهانی با حداکثر شدت («thunderclap»)؛ تغییر در شدت یا کیفیت نسبت به سردردهای قبلی؛ 20% با فعالیت افزایش‌دهنده فشار (مقاربت، وزنه، دفع، سرفه)؛ از دست رفتن هوشیاری، تشنج، دوبینی، استفراغ، فوتوفوبیا، سفتی گردن، تب خفیف، تغییر هوشیاری؛ علائم کانونی بسته به محل آنوریسم؛ ممکن sentinel headache («warning leak»)
+- علل: پارگی آنوریسم berry، پارگی malformation؛ عوامل خطر: الکل، polycystic kidney، سابقه خانوادگی، Marfan، Ehlers–Danlos؛ دیسکسیون
+- CT مدرن: حساسیت 98% ظرف 6 تا 12 ساعت، 91 تا 93% در 24 ساعت، 50% در یک هفته؛ CT منفی: LP (RBC، xanthochromia) توسط بسیاری؛ بعضی مطالعات: LP لازم نیست اگر CT نسل سوم < 6 ساعت توسط نورورادیولوژیست منفی؛ CT + CTA: NPV 99.4% (ضرر: تابش و آنوریسم تصادفی)
+
+@ddx
+- !Meningitis / encephalitis |
+- !Intracranial hemorrhage / CVT / dissection |
+- Migraine / cluster / tumor / drug toxicity |
+
+@redflags
+- thunderclap، تغییر هوشیاری، نقص کانونی، تشنج، خطر خونریزی مجدد در 24 ساعت اول
+
+@guide
+خطر خونریزی مجدد بیشتر در 24 ساعت اول: کنترل فشار در سطح پیش از خونریزی یا MAP < 140 mmHg اگر پایه نامعلوم؛ در صورت لزوم داروی تیتراژپذیر: labetalol 10 تا 20 mg IV طی 1 تا 2 دقیقه یا انفوزیون از 2 mg/min؛ nicardipine انفوزیون از 5 mg/h با افزایش 2.5 mg/h تا حداکثر 15 mg/h. بستری ICU با مشاوره نوروسرجری؛ nimodipine 60 mg PO هر 4 ساعت (کاهش وازواسپاسم)؛ پیشگیری تشنج بحث‌برانگیز؛ برگرداندن کوآگولوپاتی با vitamin K، FFP و/یا PCC.
+
+@variant sah-main
+name: Spontaneous SAH (suspected or confirmed)
+level: I
+imp: Subarachnoid hemorrhage
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+o2: if SpO2 < 94%
+
+@scenario
+زن ۵۰ ساله با سردرد ناگهانی «thunderclap»، استفراغ، سفتی گردن و CT: خون در شکاف سیلوین.
+
+@why
+کنترل فشار، نوروسرجری و nimodipine.
+
+@I
+- Noncontrast head CT STAT; if negative: CT angiography or lumbar puncture (xanthochromia, RBC); CTA / DSA to find aneurysm
+- CXR portable
+
+@L
+- CBC, PT/INR, aPTT, electrolytes, glucose, creatinine, troponin; type and screen; ECG (SAH-related changes)
+
+@S
+- Labetalol 10–20 mg IV bolus over 1–2 min or infusion starting at 2 mg/min titrated; or nicardipine infusion starting 5 mg/h titrated by 2.5 mg/h to max 15 mg/h — target prehemorrhage BP or MAP < 140 mmHg if baseline unknown {hi}
+- Nimodipine 60 mg PO every 4 h (reduces vasospasm)
+- Reverse coagulopathy: vitamin K, fresh frozen plasma, and / or prothrombin complex concentrate
+
+@T
+- Airway protection / intubation if depressed consciousness; head of bed elevation; analgesia, antiemetic; seizure prophylaxis controversial (discuss with admitting specialist)
+
+@Co
+- Neurosurgery (immediate); ICU admission
+
+@cond intracerebral-hemorrhage
+ch: 141
+name: Intracerebral hemorrhage (ICH)
+name_fa: خونریزی داخل مغزی (ICH)
+cc: headache, focal-neuro, altered-mental-status
+keywords: intracerebral hemorrhage, ICH, hypertensive hemorrhage, anticoagulant reversal, increased intracranial pressure, خونریزی داخل مغز
+status: draft
+
+@features
+- خونریزی داخل پارانشیم از آرتریول‌های ضعیف‌شده؛ علل: HTN، آمیلوئیدوز، ضدانعقاد ایاتروژنیک، malformation عروقی، کوکائین؛ بالینی غیرقابل‌تفکیک از انفارکت؛ ممکن ICP بالا
+
+@ddx
+- !Ischemic stroke |
+- SAH / tumor / abscess |
+
+@redflags
+- ICP بالا، کاهش هوشیاری، ضدانعقاد، توسعه خونریزی
+
+@guide
+بستری مراقبت ویژه مانیتورشده: ضدصرع در تشنج، مدیریت هیپرگلیسمی، مدیریت فشار، برگرداندن کوآگولوپاتی با vitamin K، FFP و/یا PCC. ICP بالا: بالا بردن سر 30°، ضددرد و آرام‌بخشی؛ اقدامات شدیدتر: دیورتیک اسمزی یا اینتوباسیون با شل‌کننده عضلانی و هایپرونتیلاسیون ملایم؛ پایش ICP تهاجمی توسط نوروسرجری. مشاوره زودهنگام نوروسرجری در ICP بالا، محل خونریزی یا شرایط نیازمند جراحی.
+
+@variant ich-main
+name: Intracerebral hemorrhage
+level: I
+imp: Intracerebral hemorrhage
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+o2: if SpO2 < 94%
+
+@scenario
+مرد ۶۰ ساله هیپرتانسیو با سردرد ناگهانی، استفراغ، همی‌پلژی راست و CT: هماتوم گانگلیونی.
+
+@why
+کنترل فشار، برگرداندن ضدانعقاد و نوروسرجری.
+
+@I
+- Noncontrast head CT STAT; CT angiography (spot sign / vascular malformation) as indicated
+- CXR portable
+
+@L
+- CBC, PT/INR, aPTT, electrolytes, glucose, creatinine, troponin, type and screen; toxicology (cocaine)
+
+@S
+- IV antihypertensive titration (labetalol 10–20 mg IV or nicardipine infusion) for BP management {note: individualized targets per specialist}
+- Reverse coagulopathy with vitamin K, fresh frozen plasma and / or prothrombin complex concentrate
+- Hyperglycemia management; antiepileptic medications if seizures
+
+@T
+- Head elevation 30°, analgesia, sedation for increased ICP; osmotic diuretics (mannitol / hypertonic saline) or intubation with neuromuscular blockade and mild hyperventilation if more aggressive ICP reduction indicated
+
+@Co
+- Neurosurgery early (increased ICP, location, surgical indication; ICP monitoring); neurocritical care ICU

@@ -1,0 +1,466 @@
+@cond seizure-adult-first-or-known
+ch: 145
+name: Seizure in adults (first seizure and known seizure disorder)
+name_fa: تشنج در بزرگسالان (اولین تشنج و صرع شناخته‌شده)
+cc: seizure
+keywords: seizure, first seizure, epilepsy, generalized tonic-clonic, postictal, Todd paralysis, provoked seizure, anticonvulsant level, تشنج, صرع
+status: draft
+
+@features
+- تشنج: دوره اختلال عملکرد عصبی از تخلیه الکتریکی نامناسب نورون‌ها؛ اولیه (بدون علت مشخص) و ثانویه (توده، ضربه سر، سکته) (جدول 145-1: تروما، خونریزی داخل‌جمجمه‌ای، ضایعات ساختاری CNS (عروقی، توده، دژنراتیو، مادرزادی)، عفونت (منژیت، انسفالیت، آبسه)، متابولیک (قند، Na، هیپراسمولار، اورمی، نارسایی کبد، Ca/Mg)، سموم/دارو (کوکائین، lidocaine، ضدافسردگی، theophylline، INH، Gyromitra، hydrazine)، ترک الکل/دارو، اکلامپسی تا 8 هفته پس از زایمان، انسفالوپاتی هیپرتانسیو، آسیب ایسکمیک-آنوکسیک)
+- منتشر (grand mal): از دست رفتن ناگهانی هوشیاری؛ فاز سفتی (tonic) سپس تکان‌های ریتمیک متقارن (clonic)؛ بی‌اختیاری؛ فاز postictal شل؛ 60 تا 90 ثانیه؛ گیجی postictal تا ساعت‌ها؛ absence (petit mal): کودک مدرسه، چند ثانیه، بدون از دست رفتن تون؛ جزئی: ساده (هوشیاری سالم) و پیچیده (تغییر هوشیاری؛ لوب تمپورال؛ automatism، توهم، اختلال حافظه)؛ فلج Todd: نقص کانونی گذرا پس از تشنج کانونی (تا 48 ساعت)
+- تشخیص: شرح حال دقیق (aura، شروع، پیشرفت، بی‌اختیاری، کانونی/منتشر، مدت، postictal)، سابقه سردرد مداوم/شدید/ناگهانی (فرایند داخل‌جمجمه‌ای)؛ در صرع شناخته: قند و سطح داروها؛ اولین تشنج بزرگسال: قند، BMP، Ca، Mg، تست بارداری، توکسیکولوژی؛ CT بدون کنتراست در اولین تشنج یا تغییر الگو؛ MRI سرپایی؛ LP در شک عفونت یا SAH؛ افتراق: سنکوپ، pseudoseizure، سندرم هیپرونتیلاسیون، اختلال حرکتی، میگرن
+
+@ddx
+- !Hypoglycemia / hyponatremia / eclampsia / toxic cause |
+- !Intracranial hemorrhage / mass / CNS infection |
+- Syncope / psychogenic nonepileptic seizure |
+- Alcohol or drug withdrawal |
+
+@redflags
+- تشنج اول در بزرگسال، سردرد شدید، تب و سفتی گردن، نقص کانونی، بارداری/پس از زایمان، ترک الکل، ضدانعقاد
+
+@guide
+در تشنج فعال: محافظت از آسیب و آسپیراسیون؛ ضدتشنج IV در تشنج بدون عارضه که خودبه‌خود فروکش می‌کند اغلب لازم نیست. صرع شناخته با سطح پایین یا دوز فراموش‌شده: دوز مکمل. phenytoin خوراکی 20 mg/kg در 3 دوز هر 2 تا 4 ساعت وقت‌گیر است؛ جایگزین: phenytoin 20 mg/kg IV با سرعت 25 mg/min؛ fosphenytoin 20 PE/kg حداکثر 150 PE/min. اکلامپسی: magnesium sulfate IV و مشاوره زودهنگام زنان. ترخیص بیمار با اولین تشنج: معاینه عصبی طبیعی، بدون بیماری همراه حاد/مزمن، تست و تصویربرداری طبیعی و وضعیت ذهنی طبیعی؛ شروع ضدصرع، MRI و تست‌های بیشتر می‌تواند سرپایی. توصیه‌ها: پرهیز از شنا، ابزار/ماشین خطرناک و کار در ارتفاع؛ رانندگی تا مجوز نورولوژیست/پزشک و طبق قانون.
+
+@variant seizure-first-uncomplicated
+name: First seizure, resolved, normal exam (discharge pathway)
+level: III
+imp: First seizure, adult, resolved
+cond: Urgent
+act: CBR
+diet: PO
+ecg: stat
+cxr: none
+
+@scenario
+مرد ۳۰ ساله با اولین تشنج منتشر 2 دقیقه‌ای با گیجی postictal که اکنون کاملاً هوشیار است؛ معاینه عصبی طبیعی.
+
+@why
+علل ثانویه را رد و ترخیص با پیگیری.
+
+@I
+- Noncontrast head CT (first seizure or change in seizure pattern); MRI as outpatient
+
+@L
+- Glucose, BMP (Na), calcium, magnesium; pregnancy test; toxicology / alcohol as indicated; CBC; anticonvulsant levels if known epilepsy {note: serum prolactin / CK not routine}
+
+@S
+- (no IV anticonvulsant needed if seizure resolved spontaneously)
+
+@T
+- Protect from injury / aspiration during active seizure; seizure precautions; observe until return to baseline
+- Counseling: no swimming, hazardous tools / machinery, working at heights; no driving until cleared by neurologist / physician per state law
+
+@Co
+- Discharge with outpatient neurology follow-up (antiepileptic initiation, MRI deferred) if normal exam, mental status, comorbidity-free and normal testing; admit otherwise
+
+@variant seizure-known-epilepsy
+name: Breakthrough seizure in known epilepsy (low levels / missed doses)
+level: III
+imp: Breakthrough seizure, known seizure disorder
+cond: Urgent
+act: CBR
+diet: PO
+ecg: once
+cxr: none
+
+@scenario
+زن ۴۰ ساله مبتلا به صرع تحت phenytoin که 2 روز دوز را فراموش کرده و تشنج منتشر تیپیک داشته؛ اکنون هوشیار.
+
+@why
+سطح دارو، دوز مکمل و ترخیص.
+
+@L
+- Glucose; anticonvulsant levels (e.g., phenytoin, valproate, carbamazepine); BMP; pregnancy test
+
+@S
+- Supplemental dose of anticonvulsant if levels low / missed doses: phenytoin 20 mg/kg IV at ≤ 25 mg/min (or oral load divided in 3 doses every 2–4 h); fosphenytoin 20 PE/kg at ≤ 150 PE/min {ci: phenytoin infusion — cardiac monitoring; hypotension / bradycardia}
+
+@T
+- Seizure precautions; review compliance and precipitants (sleep deprivation, alcohol, drugs)
+
+@Co
+- Discharge with neurology follow-up if back to baseline; CT head if change in seizure pattern or head injury
+
+@cond status-epilepticus
+ch: 145
+name: Status epilepticus (convulsive and nonconvulsive)
+name_fa: ایستای صرعی (Status epilepticus)
+cc: seizure, altered-mental-status
+keywords: status epilepticus, refractory status, lorazepam, diazepam, fosphenytoin, levetiracetam, midazolam, propofol, phenobarbital, EEG, استاتوس اپی‌لپتیکوس, لورازپام
+status: draft
+
+@features
+- تشنج واحد > 5 دقیقه یا دو یا چند تشنج متوالی بدون بازگشت هوشیاری؛ nonconvulsive: تغییر هوشیاری بدون فعالیت عضلانی قابل‌مشاهده؛ با EEG تأیید می‌شود
+- علل: جدول 145-1 (قند، Na، تروما/خونریزی، توده، عفونت، سم، ترک، اکلامپسی، HTN، آنوکسی)
+
+@ddx
+- !Hypoglycemia / eclampsia / toxic seizure (isoniazid, theophylline) |
+- !CNS infection / intracranial hemorrhage |
+- Psychogenic nonepileptic status |
+
+@redflags
+- تشنج > 5 دقیقه، نبود بازگشت هوشیاری، تب، علائم عصبی کانونی
+
+@guide
+IV، مانیتور قلبی و پالس‌اکسیمتری؛ ممکن اینتوباسیون؛ در صورت شل‌کننده، نوع کوتاه‌اثر تا فعالیت تشنجی قابل‌پایش یا EEG. شکل 145-1: 0 تا 5 دقیقه: حمایتی: IV، مانیتور، راه هوایی، اکسیژن، قند نقطه‌ای و گلوکز IV در صورت لزوم، محافظت بیمار. status مستقر (هدف 5 تا 10 دقیقه): lorazepam IV 2 mg تا 0.1 mg/kg یا diazepam IV 10 تا 20 mg (انتخاب اول lorazepam) سپس یکی از: fosphenytoin 20 PE/kg با 150 mg/min، phenytoin 20 mg/kg با 50 mg/min، levetiracetam 2000 تا 4000 mg IV؛ phenobarbital 20 mg/kg با 50 تا 75 mg/min. status مقاوم (هدف < 30 دقیقه): midazolam IV بار 0.2 mg/kg سپس انفوزیون 0.05 تا 2 mg/kg/h؛ propofol 1 mg/kg IV سپس 1 تا 10 mg/kg/h؛ ketamine 5 mg/kg/h؛ pentobarbital؛ اینتوباسیون، بستری ICU نورولوژی و EEG پیوسته. مشاوره زودهنگام نورولوژی.
+
+@variant status-epilepticus-main
+name: Status epilepticus (adult)
+level: I
+imp: Status epilepticus
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+o2: high-flow oxygen
+
+@scenario
+مرد ۴۵ ساله با تشنج منتشر مداوم 8 دقیقه بدون بازگشت هوشیاری.
+
+@why
+لورازپام IV بلافاصله؛ سپس خط دوم؛ راه هوایی و علت.
+
+@I
+- Noncontrast head CT after stabilization; CXR portable (aspiration)
+- EEG (continuous if refractory or nonconvulsive status suspected)
+
+@L
+- Point-of-care glucose (STAT); BMP (Na, Ca, Mg), CBC, blood gas, lactate, CK, anticonvulsant levels, toxicology / alcohol, pregnancy test; LP if CNS infection suspected
+
+@S
+- Dextrose IV if hypoglycemia (thiamine 100 mg IV first if alcohol abuse / malnutrition)
+- Lorazepam IV 2 mg up to 0.1 mg/kg (repeat once) or diazepam IV 10–20 mg — first line (goal 5–10 min) {hi}
+- Then one of: fosphenytoin 20 PE/kg IV at ≤ 150 PE/min; phenytoin 20 mg/kg IV at ≤ 50 mg/min; levetiracetam 2000–4000 mg IV; phenobarbital 20 mg/kg IV at 50–75 mg/min {ci: phenytoin / fosphenytoin — cardiac monitoring for hypotension / dysrhythmia}
+- Refractory (goal < 30 min): midazolam IV load 0.2 mg/kg then infusion 0.05–2 mg/kg/h; or propofol 1 mg/kg then 1–10 mg/kg/h; or ketamine; pentobarbital {note: intubate; short-acting paralytic only}
+
+@T
+- IV access, cardiac monitor, pulse oximetry, airway maintenance (intubation as required), oxygen; protect from injury
+- If paralytic used: short-acting agent so ongoing seizure activity can be monitored; otherwise EEG monitoring
+- Isoniazid toxicity: pyridoxine; eclampsia: magnesium sulfate {note: see specific causes}
+
+@Co
+- Neurology early; neuro ICU admission with continuous EEG if refractory
+
+@cond eclamptic-seizure-adult
+ch: 145
+name: Eclamptic seizure (pregnancy / postpartum)
+name_fa: تشنج اکلامپتیک
+cc: seizure, pregnancy
+keywords: eclampsia, magnesium sulfate, postpartum seizure, preeclampsia, اکلامپسی, منیزیم سولفات
+status: draft
+
+@features
+- اختلال زنان باردار از هفته 20 تا 8 هفته پس از زایمان: تشنج منتشر، هیپرتانسیون، ادم و پروتئینوری
+
+@ddx
+- !Intracranial hemorrhage / PRES / CVT |
+- Epilepsy / hypoglycemia / toxic seizure |
+
+@redflags
+- فشار بالا، تشنج در بارداری یا پس از زایمان
+
+@guide
+magnesium sulfate IV به مشکوک اکلامپسی؛ مشاوره زودهنگام زنان؛ جزئیات فصل 61 (پره‌اکلامپسی/اکلامپسی).
+
+@variant eclampsia-seizure-main
+name: Eclamptic seizure
+level: I
+imp: Eclampsia
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: none
+
+@scenario
+زن ۲۵ ساله در هفته 36 با تشنج منتشر، فشار 170/110 و ادم.
+
+@why
+منیزیم سولفات IV و مشاوره زنان فوری.
+
+@I
+- Obstetric ultrasound / fetal monitoring; head CT if focal deficit / atypical
+
+@L
+- CBC with platelets, liver enzymes, creatinine, uric acid, urinalysis (proteinuria), glucose; type and screen
+
+@S
+- Magnesium sulfate IV (loading and maintenance per obstetric protocol) {hi} {ci: monitor reflexes / respiratory rate / urine output; renal impairment}
+- IV antihypertensive for severe hypertension (labetalol or hydralazine per obstetric protocol)
+
+@T
+- Protect airway and from injury; left lateral decubitus; fetal monitoring
+
+@Co
+- Obstetrics (early / emergent consult; delivery planning); ICU
+
+@cond guillain-barre-syndrome
+ch: 146
+name: Guillain–Barré syndrome (GBS)
+name_fa: سندرم گیلن‌باره
+cc: weakness, focal-neuro
+keywords: Guillain-Barre, GBS, ascending paralysis, areflexia, IVIG, plasmapheresis, cytoalbuminologic dissociation, گیلن باره, فلج صعودی
+status: draft
+
+@features
+- پلی‌نوروپاتی حاد ایمن: تخریب میلین یا آکسون اعصاب محیطی؛ همراه عفونت ویروسی/تب، Campylobacter jejuni یا واکسیناسیون
+- تیپیک: ضعف یا فلج صعودی متقارن و از دست رفتن رفلکس تاندونی؛ نارسایی تنفسی و نوسان اتونوم؛ CSF: پروتئین بالا و WBC طبیعی
+- جدول 146-1 مرکزی در برابر محیطی؛ جدول 146-2 معیارها: لازم: ضعف پیشرونده بیش از یک اندام و arefleksia؛ حمایت‌کننده: پیشرفت روزها تا هفته‌ها، بهبود 2 تا 4 هفته پس از توقف پیشرفت، تقارن نسبی، علائم حسی خفیف، درگیری عصب کرانیال (Bell، دیسفاژی، دیزآرتری، افتالموپلژی)، اختلال اتونوم (تاکی/برادی‌کاردی، دیسریتمی، نوسان فشار، هیپوتانسیون وضعیتی، احتباس ادرار، یبوست، flushing، آنهیدروز، هیپرسالیواسیون)، نبود تب در شروع، dissociation سیتوآلبومینیک، EMG/NCS تیپیک
+
+@ddx
+- !Spinal cord compression / transverse myelitis |
+- !Myasthenia gravis / botulism / tick paralysis |
+- Hypokalemic paralysis / acute myopathy |
+
+@redflags
+- نارسایی تنفسی (FVC پایین)، اختلال اتونوم، ضعف بولبار
+
+@guide
+درمان اولیه حمایتی (پشتیبانی تنفسی هنگام پیشرفت)؛ مشاوره نورولوژی برای بستری مانیتورشده؛ IV immunoglobulin و plasmapheresis ممکن است زمان بهبود را کوتاه کنند.
+
+@variant gbs-main
+name: Guillain–Barré syndrome
+level: I
+imp: Guillain–Barré syndrome
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: PA
+
+@scenario
+مرد ۴۰ ساله 2 هفته پس از اسهال با ضعف صعودی پاها، arefleksia و تنگی نفس خفیف.
+
+@why
+پایش تنفسی (FVC/NIF)، IVIG/plasmapheresis و بستری.
+
+@I
+- CXR PA (respiratory status / aspiration); MRI spine to exclude cord compression if atypical
+
+@L
+- Lumbar puncture (CSF: high protein, normal cell count); electrolytes (K, Mg, phosphate), CBC, creatinine, CK; forced vital capacity / negative inspiratory force; ECG
+
+@S
+- IV immunoglobulin or plasmapheresis (neurology) — may shorten time to recovery {ci: IVIG — renal impairment / IgA deficiency}
+
+@T
+- Respiratory support as disease progresses (intubation if FVC < 20 mL/kg / NIF worsening); continuous cardiac monitoring (autonomic instability); DVT prophylaxis; supportive care
+
+@Co
+- Neurology; admit monitored / ICU
+
+@cond bell-palsy
+ch: 146
+name: Bell's palsy and Ramsay Hunt syndrome
+name_fa: فلج بل و سندرم Ramsay Hunt
+cc: focal-neuro, ent
+keywords: Bell palsy, facial nerve palsy, prednisone, Ramsay Hunt, famciclovir, valacyclovir, eye protection, فلج بل, فلج صورت
+status: draft
+
+@features
+- اختلال عصب کرانیال هفتم: ضعف یک‌طرفه صورت (از جمله پیشانی)، مشکل تکلم، ناتوانی در بستن چشم، ریزش غذا از یک سمت دهان؛ بدون یافته کانونی دیگر
+- افتراق: سکته، Lyme، GBS، تومور پاروتید، ضایعه گوش میانی، تومور زاویه پونتوسربلار، ضایعات عصب هشتم، HIV و بیماری عروقی؛ گوش را برای زخم ناشی از zoster بررسی کن (Ramsay Hunt)؛ حفظ قدرت پیشانی بل را بعید و ضایعه مرکزی ممکن (تصویربرداری مغز)
+
+@ddx
+- !Stroke (forehead spared) |
+- Lyme disease / HIV / GBS / otitis media / tumor |
+- Ramsay Hunt syndrome |
+
+@redflags
+- حفظ قدرت پیشانی (مرکزی)، سایر یافته‌های کانونی، وزیکول گوش
+
+@guide
+کورتیکواستروئید سیستمیک شانس بهبود کامل را افزایش می‌دهد: prednisone 1 mg/kg/روز PO به مدت 7 روز. ضدویروس بدون فایده اثبات‌شده مگر Ramsay Hunt: famciclovir 500 mg PO سه بار روزانه × 7 روز یا valacyclovir 1 g PO سه بار روزانه × 7 روز. پماد مرطوب‌کننده چشم شب برای جلوگیری از خشکی قرنیه. پیگیری PCP یا ENT.
+
+@variant bell-palsy-main
+name: Bell's palsy
+level: III
+imp: Bell's palsy
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+زن ۳۵ ساله با افتادگی یک‌طرفه صورت از صبح، ناتوانی در بستن چشم و حرکت پیشانی ضعیف.
+
+@why
+پردنیزون 7 روز و حفاظت چشم؛ رد سکته.
+
+@I
+- (CT / MRI brain only if forehead strength preserved / other focal signs)
+
+@L
+- (glucose; Lyme serology / HIV per risk and region)
+
+@S
+- Prednisone 1 mg/kg/day PO for 7 days {ci: diabetes — monitor glucose; peptic ulcer}
+
+@T
+- Ophthalmic moisturizing ointment at night (and artificial tears; tape eye closed) to prevent corneal drying
+- Inspect ear canal for vesicles (Ramsay Hunt)
+
+@Co
+- Follow-up with primary care or ENT; ophthalmology if eye symptoms
+
+@variant ramsay-hunt-facial
+name: Ramsay Hunt syndrome with facial palsy
+level: III
+imp: Ramsay Hunt syndrome
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مرد ۶۰ ساله با فلج صورت، درد گوش و وزیکول در مجرای گوش خارجی.
+
+@why
+ضدویروس + پردنیزون.
+
+@S
+- Famciclovir 500 mg PO three times daily for 7 days, or valacyclovir 1 g PO three times daily for 7 days {ci: dose adjust in renal impairment}
+- Prednisone 1 mg/kg/day PO for 7 days
+
+@T
+- Ophthalmic moisturizing ointment at night; analgesia
+
+@Co
+- ENT follow-up
+
+@cond focal-mononeuropathy-plexopathy
+ch: 146
+name: Focal mononeuropathies and plexopathies (carpal tunnel, cubital tunnel, peroneal, meralgia paresthetica)
+name_fa: مونونوروپاتی‌های کانونی و پلکسوپاتی‌ها
+cc: weakness, joint-limb-pain, focal-neuro
+keywords: carpal tunnel syndrome, cubital tunnel, foot drop, meralgia paresthetica, mononeuritis multiplex, brachial plexopathy, lumbosacral plexopathy, تونل کارپال, پلکسوپاتی
+status: draft
+
+@features
+- مونونوروپاتی: اغلب فشار کانونی عصب؛ سیستمیک ممکن؛ carpal tunnel: فشار عصب median در مچ: درد، پارستزی و بی‌حسی در توزیع median؛ Tinel (ضربه سبک روی median ← شوک الکتریکی) و Phalen (فلکشن مچ 60 ثانیه ← تشدید)؛ cubital tunnel: عصب اولنار در آرنج: گزگز انگشت پنجم و نیمه خارجی چهارم؛ پیشرفت به فلج و آتروفی عضلات اینترینسیک دست؛ deep peroneal entrapment: foot drop و بی‌حسی بین انگشت اول و دوم؛ meralgia paresthetica: عصب لترال فمورال کوتانئوس: بی‌حسی و درد قدامی-خارجی ران؛ mononeuritis multiplex: چند عصب جدا از نظر زمان و آناتومی
+- پلکسوپاتی: تروما، جراحی، نئوپلاسم یا پرتودرمانی؛ بازوی پلکسوپاتی: ضعف بازو/شانه سپس درد و پارستزی؛ ED: علل قابل برگشت حاد (در رفتگی مفصل یا آسیب) و ارجاع (نئوپلاسم)؛ لومبوساکرال: کمتر ضربه؛ پرتو، آمیوتروفی دیابتی، آنوریسم آئورت، خونریزی رتروپریتوان، AVM؛ ضعف، کاهش حس، کاهش رفلکس؛ رادیوگرافی، MRI و CT شکم
+
+@ddx
+- !Cervical / lumbar radiculopathy |
+- !Stroke / spinal cord lesion |
+- Diabetic neuropathy / vasculitis / compartment syndrome |
+
+@redflags
+- ضعف پیشرونده، آتروفی، نقص عروقی، شک نئوپلاسم، خونریزی رتروپریتوان
+
+@guide
+درمان محافظه‌کارانه: ضدالتهاب؛ آتل برای راحتی؛ carpal tunnel: مچ در وضعیت خنثی؛ درمان علت زمینه‌ای نوروپاتی.
+
+@variant mononeuropathy-main
+name: Focal mononeuropathy (carpal / cubital tunnel, peroneal, meralgia)
+level: III
+imp: Focal mononeuropathy
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+زن ۴۵ ساله با بی‌حسی و درد شبانه شست و انگشتان 2-3 دست راست، Phalen مثبت.
+
+@why
+آتل مچ خنثی و NSAID؛ پیگیری.
+
+@L
+- (glucose / TSH / HbA1c as underlying cause screening)
+
+@S
+- NSAID (anti-inflammatory) {ci: renal disease, peptic ulcer, anticoagulation}
+
+@T
+- Splint in neutral position (carpal tunnel) or appropriate splint for comfort; avoid provocative positions; treat underlying cause
+
+@Co
+- Outpatient follow-up (EMG / nerve conduction studies; surgical referral if persistent / motor weakness)
+
+@variant plexopathy-main
+name: Plexopathy (brachial / lumbosacral)
+level: II
+imp: Plexopathy
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: none
+cxr: PA
+
+@scenario
+مرد ۵۵ ساله با ضعف پیشرونده بازوی چپ و درد شانه پس از پرتودرمانی سرطان ریه.
+
+@why
+علل قابل برگشت را رد کن؛ MRI و ارجاع.
+
+@I
+- Plain radiographs; MRI (plexus / spine); CT abdomen / pelvis for lumbosacral plexopathy (hemorrhage, aneurysm)
+
+@L
+- CBC, glucose / HbA1c, ESR / CRP, electrolytes, coagulation
+
+@T
+- Evaluation for acutely reversible causes (joint dislocation, traumatic injury); analgesia; sling / splint
+
+@Co
+- Referral by cause (neoplasm: oncology / neurosurgery); neurology; vascular / surgery if aneurysm / retroperitoneal hemorrhage
+
+@cond botulism-neuromuscular
+ch: 146
+name: Botulism (foodborne, wound, infant)
+name_fa: بوتولیسم (غذایی، زخم، شیرخوار)
+cc: weakness, focal-neuro, dyspnea
+keywords: botulism, Clostridium botulinum, descending paralysis, antitoxin, infant botulism, BabyBIG, wound botulism, بوتولیسم
+status: draft
+
+@features
+- اختلال اتصال عصبی-عضلانی ناشی از سم Clostridium botulinum؛ غذایی: کنسرو ناکافی؛ شیرخوار: اسپور خورده (اغلب عسل) و سم جذب سیستمیک؛ زخم: زخم یا سابقه تزریق IV
+- علائم 6 تا 48 ساعت پس از بلع؛ ممکن تهوع، استفراغ، اسهال قبلی؛ شکایت زودرس: چشم یا عضلات بولبار؛ ضعف متقارن نزولی؛ نارسایی تنفسی بالقوه
+
+@ddx
+- !Guillain–Barré syndrome / myasthenia gravis |
+- Tick paralysis / stroke (brainstem) / diphtheria |
+
+@redflags
+- فلج نزولی، دیسفاژی/دیزآرتری، نارسایی تنفسی
+
+@guide
+حمایت تنفسی، trivalent botulinum antitoxin 10 mL IV و بستری؛ شیرخوار: human botulism immunoglobulin نیاز به تهویه مکانیکی و مدت ICU را کم می‌کند.
+
+@variant botulism-main
+name: Botulism
+level: I
+imp: Botulism
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: PA
+
+@scenario
+مرد ۳۵ ساله پس از خوردن کنسرو خانگی با دوبینی، پتوز، دیزآرتری و ضعف نزولی.
+
+@why
+آنتی‌توکسین زود و پایش تنفسی؛ اطلاع به بهداشت.
+
+@I
+- CXR PA (respiratory status / aspiration)
+
+@L
+- FVC / NIF; electrolytes, CBC; stool / serum toxin assay (public health); CSF if GBS in question
+
+@S
+- Trivalent botulinum antitoxin 10 mL IV (infants: human botulism immunoglobulin)
+
+@T
+- Respiratory support (intubation / ventilation as needed); NPO; wound debridement and antibiotics for wound botulism {ci: avoid aminoglycosides / magnesium (neuromuscular blockade)}
+
+@Co
+- Admit ICU; public health notification; infectious disease / toxicology

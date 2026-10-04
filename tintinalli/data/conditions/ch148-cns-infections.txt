@@ -1,0 +1,264 @@
+@cond meningitis-adult
+ch: 148
+name: Meningitis in adults (bacterial and aseptic)
+name_fa: منژیت بزرگسال (باکتریال و آسپتیک)
+cc: headache, fever, altered-mental-status
+keywords: bacterial meningitis, aseptic meningitis, lumbar puncture, ceftriaxone, vancomycin, ampicillin, dexamethasone, Kernig, Brudzinski, nuchal rigidity, منژیت, پونکسیون کمری
+status: draft
+
+@features
+- منژیت: التهاب پرده‌های مغز و نخاع؛ باکتریال (اغلب ارگانیسم کپسول‌دار): اورژانس تهدیدکننده حیات با مرگ‌ومیر و عوارض قابل‌توجه حتی با درمان به‌موقع؛ آسپتیک: علل غیرباکتریال (دارو، روماتولوژیک، قارچ، ویروس؛ انتروویروس و اکوویروس شایع‌ترین)
+- تریاد کلاسیک: تب، سفتی گردن و تغییر هوشیاری (کمتر از نیمی هر سه)؛ سردرد، تب، درد گردن، تهوع و استفراغ غیراختصاصی؛ دشواری در سنین خیلی پایین/بالا
+- معاینه: تب؛ علائم مننژیال: nuchal rigidity، Kernig (درد کمر و پا با فلکسیون هیپ و اکستانسیون زانو)، Brudzinski (فلکسیون هیپ با خم کردن غیرفعال گردن) ولی حساسیت پایین؛ وضعیت ذهنی و نقص عصبی (فلج کرانیال)؛ پتشی و splinter hemorrhage
+- LP فوری تشخیصی؛ CT قبل از LP در: تغییر هوشیاری، تشنج جدید، نقص ایمنی، علائم کانونی یا پاپیلادم (رد توده و herniation؛ شکل 148-1: LP نباید با جابه‌جایی مغز در CT انجام شود و درمان تجربی ادامه یابد)؛ CSF: cell count/diff، پروتئین، گلوکز، Gram و کشت؛ اضافی در نقص ایمنی یا شک اختصاصی: PCR HSV/انتروویروس، آنتی‌ژن باکتری، قارچ؛ سایر: CBC، قند/الکترولیت، BUN، کراتینین؛ کشت خون (به‌ویژه اگر آنتی‌بیوتیک قبل از LP)
+- جدول 148-1 CSF: باکتریال: فشار باز بالا، کدر؛ WBC > 1000–2000/mm³ با > 80% PMN؛ گلوکز < 40 (CSF/خون < 0.3–0.4)؛ پروتئین > 200؛ Gram مثبت (60 تا 80% قبل از آنتی‌بیوتیک، 7 تا 41% بعد)؛ ویروسی: فشار نرمال، شفاف یا خونی؛ WBC < 300 با لنفوسیت؛ گلوکز نرمال؛ پروتئین < 200؛ قارچی: WBC < 500؛ گلوکز نرمال تا کمی کم؛ پروتئین > 200؛ نئوپلاستیک: WBC < 300؛ سیتولوژی مثبت
+- افتراق: SAH، نئوپلاسم مننژ، آبسه مغز، توکسوپلاسموز مغزی و عفونت‌های سیستمیک
+
+@ddx
+- !Subarachnoid hemorrhage |
+- !Encephalitis (HSV) / brain abscess |
+- Meningeal neoplasm / cerebral toxoplasmosis / systemic infection |
+
+@redflags
+- تب + سفتی گردن + تغییر هوشیاری، پتشی (مننگوکوک)، نقص ایمنی، تشنج، علائم کانونی
+
+@guide
+شک بالا به منژیت باکتریال: شروع آنتی‌بیوتیک تجربی بر اساس عوامل خطر و پاتوژن‌های محتمل: به‌محض ممکن پس از LP سریع، یا فوراً پس از کشت خون اگر تصویربرداری/تست دیگر انجام می‌شود. < 50 سال: ceftriaxone 2 g IV + vancomycin 15 mg/kg IV؛ ریسک Listeria (≥ 50 سال، باردار، الکلی، نقص ایمنی): افزودن ampicillin 2 g IV. dexamethasone 10 mg IV هر 6 ساعت × 4 روز بزرگسال (0.15 mg/kg هر 6 ساعت × 4 روز کودک ≥ 3 ماه) همزمان یا قبل از اولین دوز آنتی‌بیوتیک ممکن مرگ‌ومیر و عوارض را در برخی زیرگروه‌ها کم کند. بستری برای آنتی‌بیوتیک IV و مراقبت.
+
+@variant meningitis-bacterial-suspected
+name: Suspected bacterial meningitis (empiric antibiotics + LP)
+level: I
+imp: Suspected bacterial meningitis
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+
+@scenario
+مرد ۳۰ ساله با تب 39.5، سردرد شدید، سفتی گردن و گیجی از 12 ساعت قبل.
+
+@why
+کشت خون، آنتی‌بیوتیک و دگزامتازون فوراً؛ LP یا CT.
+
+@I
+- CT head BEFORE LP if altered mental status, new seizure, immunocompromise, focal deficit, or papilledema (do not delay antibiotics); no LP if significant brain shift
+- CXR portable
+
+@L
+- Lumbar puncture: opening pressure, cell count with differential, protein, glucose (with serum glucose), Gram stain and bacterial culture; consider HSV / enterovirus PCR, bacterial antigen, fungal studies in immunocompromised
+- Blood cultures ×2 (BEFORE antibiotics); CBC, glucose, electrolytes, BUN, creatinine, coagulation, lactate; HIV as indicated
+
+@S
+- Dexamethasone 10 mg IV every 6 h for 4 days (0.15 mg/kg every 6 h in children ≥ 3 months) given before or with first antibiotic dose {hi}
+
+@A
+- Ceftriaxone 2 g IV plus vancomycin 15 mg/kg IV (adults < 50 years) {hi}
+- Add ampicillin 2 g IV for Listeria risk (age ≥ 50, pregnancy, alcoholism, immunocompromised)
+- Start antibiotics immediately after blood cultures if CT / diagnostic delay; otherwise as soon as possible after prompt LP
+
+@T
+- Droplet isolation until meningococcus excluded; neuro checks; seizure precautions; antipyretic / analgesia
+
+@Co
+- Admit ICU / monitored (IV antibiotics); infectious disease; public health / prophylaxis of close contacts if meningococcal
+
+@variant meningitis-aseptic-viral
+name: Aseptic (viral) meningitis — supportive care
+level: III
+imp: Aseptic (viral) meningitis
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+زن ۲۵ ساله در تابستان با تب، سردرد و سفتی خفیف گردن؛ CSF: WBC 150 لنفوسیتی، گلوکز و پروتئین نرمال، Gram منفی.
+
+@why
+حمایتی؛ باکتریال را رد کن.
+
+@L
+- Lumbar puncture (cell count, protein, glucose, Gram stain, culture; enterovirus / HSV PCR); CBC, electrolytes
+
+@S
+- IV / oral hydration {ci: caution in heart failure / CKD}; antiemetic, analgesics
+
+@T
+- Supportive care; consider empiric antibiotics until bacterial meningitis excluded if CSF equivocal
+
+@Co
+- Admit if bacterial meningitis not excluded; discharge with follow-up only if low-risk and CSF reliably viral
+
+@cond encephalitis-hsv
+ch: 148
+name: Encephalitis (HSV and other viral)
+name_fa: انسفالیت (HSV و سایر ویروسی)
+cc: altered-mental-status, fever, seizure, headache
+keywords: encephalitis, HSV encephalitis, acyclovir, ganciclovir, CMV encephalitis, temporal lobe, انسفالیت, آسیکلوویر
+status: draft
+
+@features
+- عفونت پارانشیم مغز با التهاب CNS؛ اغلب ویروسی؛ HSV قابل‌درمان‌ترین علت؛ تب، سفتی گردن، سردرد مثل منژیت باکتریال + تغییر هوشیاری، نقص شناختی، علائم روانی یا تشنج
+- LP: pleocytosis؛ HSV PCR؛ MRI: ضایعات لوب تمپورال داخلی و فرونتال تحتانی ← HSV (معمولاً بخشی از ED نیست)
+
+@ddx
+- !Bacterial meningitis / brain abscess |
+- Autoimmune encephalitis / toxic-metabolic encephalopathy |
+
+@redflags
+- تشنج، تغییر شخصیت، تب، علائم کانونی
+
+@guide
+acyclovir 10 mg/kg IV برای پوشش HSV یا zoster؛ CMV: ganciclovir 5 mg/kg IV؛ سایر انسفالیت‌های ویروسی بدون درمان ضدمیکروبی مؤثر: حمایتی. بستری برای درمان IV.
+
+@variant encephalitis-main
+name: Suspected viral encephalitis (HSV)
+level: I
+imp: Suspected viral encephalitis
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: none
+
+@scenario
+زن ۴۰ ساله با تب، گیجی، تغییر رفتار و تشنج؛ MRI: ضایعه تمپورال.
+
+@why
+acyclovir فوری و LP؛ بدون انتظار PCR.
+
+@I
+- CT head before LP (AMS / seizure); MRI brain (medial temporal / inferior frontal lobes — HSV)
+
+@L
+- Lumbar puncture with HSV / VZV / enterovirus PCR; cell count, protein, glucose, Gram stain / culture; CBC, electrolytes, glucose, creatinine (acyclovir dosing), blood cultures; HIV
+
+@S
+- Acyclovir 10 mg/kg IV every 8 h {hi} {ci: renal impairment — adjust dose; ensure hydration}
+- Cytomegalovirus encephalitis: ganciclovir 5 mg/kg IV {ci: neutropenia / renal impairment}
+- Antiepileptic therapy for seizures; empiric antibacterial meningitis coverage until bacterial excluded
+
+@T
+- Seizure precautions; supportive care; neuro checks
+
+@Co
+- Admit ICU / monitored; neurology; infectious disease
+
+@cond brain-abscess
+ch: 148
+name: Brain abscess
+name_fa: آبسه مغز
+cc: headache, fever, focal-neuro, altered-mental-status
+keywords: brain abscess, ring-enhancing lesion, otogenic, sinogenic, odontogenic, metronidazole, ceftriaxone, آبسه مغز
+status: draft
+
+@features
+- عفونت باکتریال پارانشیم مغز؛ حفره چرکی مرکزی با گرانولاسیون و کپسول فیبروز؛ علائم غیراختصاصی: سردرد، سفتی گردن، تب، استفراغ، گیجی یا تغییر هوشیاری؛ علائم منبع (درد گوش یا سینوس)؛ 1 تا 8 هفته قبل از تشخیص
+- تصویربرداری لازم: CT بدون کنتراست (ادم اطراف)، CT با کنتراست (حلقه نازک enhancement دور مرکز کم‌دانسیته)، MRI حساس؛ از LP در شک یا وجود آبسه/توده اجتناب؛ کشت خون/سایر محل‌ها
+
+@ddx
+- !Meningitis / encephalitis |
+- Brain neoplasm / cerebrovascular disease / subacute hemorrhage / toxoplasmosis |
+
+@redflags
+- تب + سردرد + علائم کانونی، منبع گوش/سینوس/دندان، ICP بالا
+
+@guide
+آنتی‌بیوتیک تجربی زودهنگام بر اساس منبع محتمل (جدول 148-2): otogenic: cefotaxime 2 g IV هر 4 تا 6 ساعت یا ceftriaxone 2 g IV هر 12 ساعت + metronidazole 500 mg IV هر 8 ساعت؛ odontogenic: penicillin G 4 میلیون واحد IV هر 4 ساعت (جایگزین: ceftriaxone 2 g هر 12 ساعت + metronidazole 500 mg هر 6 ساعت)؛ sinogenic: cefotaxime 2 g IV هر 6 ساعت یا ceftriaxone 2 g هر 12 ساعت + metronidazole 500 mg هر 8 ساعت؛ تروما نافذ: cefotaxime 2 g هر 6 ساعت یا ceftriaxone 2 g هر 12 ساعت + metronidazole 500 mg هر 8 ساعت ± rifampin 10 mg/kg/24 ساعت؛ پس از جراحی مغز: vancomycin بار 25 تا 30 mg/kg IV یا linezolid 600 mg IV هر 12 ساعت + ceftazidime 2 g IV هر 8 ساعت ± rifampin (جایگزین: meropenem 2 g هر 8 ساعت یا piperacillin/tazobactam 4.5 g هر 6 ساعت یا cefepime 2 g هر 8 ساعت به جای ceftazidime)؛ منبع نامعلوم: cefotaxime 2 g IV هر 6 ساعت + metronidazole 500 mg IV هر 6 ساعت. مشاوره نوروسرجری و بستری (بسیاری نیاز به جراحی برای تشخیص، شناسایی پاتوژن و درمان قطعی).
+
+@variant brain-abscess-main
+name: Brain abscess (empiric antibiotics by source)
+level: I
+imp: Brain abscess
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+
+@scenario
+مرد ۴۵ ساله با اوتیت مزمن، تب، سردرد 10 روزه و همی‌پارزی خفیف؛ CT با کنتراست: ضایعه حلقه‌ای.
+
+@why
+آنتی‌بیوتیک بر اساس منبع و مشاوره نوروسرجری؛ بدون LP.
+
+@I
+- CT head with contrast (ring-enhancing lesion; thin ring around low-density center) or MRI with gadolinium; CT noncontrast first if unstable
+- CXR portable; sinus / mastoid imaging for source
+
+@L
+- Blood cultures ×2 (before antibiotics); CBC, ESR / CRP, electrolytes, glucose, creatinine, coagulation; HIV; cultures of other infected sites {ci: avoid lumbar puncture when abscess / mass lesion suspected or identified}
+
+@A
+- Otogenic: cefotaxime 2 g IV every 4–6 h or ceftriaxone 2 g IV every 12 h PLUS metronidazole 500 mg IV every 8 h
+- Sinogenic: cefotaxime 2 g IV every 6 h or ceftriaxone 2 g IV every 12 h PLUS metronidazole 500 mg IV every 8 h
+- Odontogenic: penicillin G 4 million units IV every 4 h (alt: ceftriaxone 2 g every 12 h PLUS metronidazole 500 mg every 6 h)
+- Penetrating trauma: cefotaxime 2 g IV every 6 h or ceftriaxone 2 g every 12 h PLUS metronidazole 500 mg every 8 h ± rifampin 10 mg/kg every 24 h
+- After neurosurgical procedure: vancomycin 25–30 mg/kg IV load (or linezolid 600 mg IV every 12 h) PLUS ceftazidime 2 g IV every 8 h ± rifampin 10 mg/kg every 24 h (substitutions: meropenem 2 g every 8 h, piperacillin/tazobactam 4.5 g every 6 h, or cefepime 2 g every 8 h for ceftazidime)
+- Unknown source: cefotaxime 2 g IV every 6 h PLUS metronidazole 500 mg IV every 6 h {hi}
+
+@T
+- Seizure precautions; antiepileptic if seizures; ICP management if raised (head elevation)
+
+@Co
+- Neurosurgery (admission; surgery for diagnosis, pathogen identification, definitive treatment); infectious disease; ENT / dental source control
+
+@cond spinal-epidural-abscess
+ch: 148
+name: Spinal epidural abscess
+name_fa: آبسه اپیدورال ستون فقرات
+cc: back-neck-pain, fever, focal-neuro
+keywords: spinal epidural abscess, vertebral osteomyelitis, back pain fever, MRI gadolinium, vancomycin, ceftazidime, cauda equina, آبسه اپیدورال
+status: draft
+
+@features
+- عفونت نادر: تجمع ماده چرکی در فضای اپیدورال؛ تا نیمی از انتشار هماتوژن از بافت نرم، ادرار یا تنفس؛ بیشتر توراسیک و لومبار
+- تریاد کلاسیک (درد پشت، تب، علائم عصبی) در اقلیت؛ درد پشت 70 تا 90% و تب شایع؛ چهار مرحله: (1) درد پشت، تب، حساسیت موضعی ستون؛ (2) تحریک ستون با درد رادیکولر، هایپررفلکسی و سفتی گردن؛ (3) بی‌اختیاری مدفوع/ادرار + نقص عصبی کانونی؛ (4) فلج حرکتی اندام تحتانی
+- عوامل خطر: نقص ایمنی، تزریق IV مواد، جراحی ستون، پروسیجر اخیر (LP، بی‌حسی اپیدورال)؛ معاینه: حساسیت یا پرکاشن midline ستون؛ cauda equina: کاهش تون رکتال (حساسیت 60 تا 80%)، کاهش حس پرینه (75%)
+- تشخیص اغلب دیررس؛ CBC، ESR، CRP؛ کشت خون در 40% مثبت؛ MRI با gadolinium ارجح؛ CT myelography اگر MRI ممکن نیست
+
+@ddx
+- !Cauda equina syndrome / disc herniation / spinal cord compression (tumor) |
+- Vertebral osteomyelitis / discitis / pyelonephritis |
+- Transverse myelitis / GBS |
+
+@redflags
+- تب + درد پشت، نقص عصبی، احتباس ادرار، IVDU، پروسیجر ستون اخیر
+
+@guide
+مشاوره اورژانس با جراح ستون؛ داده قطعی عمل در برابر آنتی‌بیوتیک تنها نیست ولی بسیاری دبریدمان جراحی می‌شوند. آنتی‌بیوتیک تجربی اگر نقص عصبی، علائم سپسیس یا جراحی فوری در دسترس نیست: vancomycin 25 تا 30 mg/kg IV + ceftazidime 2 g IV یا cefepime 2 g IV؛ در پروسیجر نوروسرجری اخیر: gentamicin 5 mg/kg IV اضافی. بستری برای آنتی‌بیوتیک IV، پایش، چک عصبی و احتمال دبریدمان.
+
+@variant spinal-epidural-abscess-main
+name: Spinal epidural abscess
+level: I
+imp: Spinal epidural abscess
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: PA
+
+@scenario
+مرد ۵۰ ساله مصرف‌کننده تزریقی با تب، درد شدید کمر، حساسیت midline و ضعف خفیف پاها.
+
+@why
+MRI با گادولینیوم و مشاوره جراحی؛ آنتی‌بیوتیک در نقص عصبی.
+
+@I
+- MRI spine (whole spine) with gadolinium (preferred); CT with myelography if MRI not possible
+- CXR PA (source: endocarditis / pneumonia)
+
+@L
+- CBC, ESR, CRP; blood cultures ×2 (positive in ~40%; draw before antibiotics); BMP, glucose, creatinine, coagulation; urinalysis; HIV; postvoid residual
+
+@A
+- Vancomycin 25–30 mg/kg IV PLUS ceftazidime 2 g IV or cefepime 2 g IV (start in ED if neurologic dysfunction, sepsis or systemic illness, or surgery not immediately available) {hi}
+- Add gentamicin 5 mg/kg IV if recent neurosurgical procedure {ci: renal impairment}
+
+@T
+- Neurologic checks (motor, sensory, rectal tone, perineal sensation, bladder); bed rest / spine precautions; analgesia
+
+@Co
+- Emergent spine surgery consultation (surgical debridement common); admit for IV antibiotics and close monitoring; infectious disease

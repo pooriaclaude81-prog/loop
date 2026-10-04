@@ -1,0 +1,310 @@
+@cond headache-high-risk-workup
+ch: 140
+name: Headache with high-risk features / thunderclap headache (screening and workup)
+name_fa: سردرد با ویژگی‌های پرخطر / سردرد ناگهانی شدید (thunderclap)
+cc: headache
+keywords: thunderclap headache, red flags headache, subarachnoid hemorrhage, cerebral venous thrombosis, RCVS, pituitary apoplexy, dissection, brain tumor, سردرد ناگهانی, علائم خطر سردرد
+status: draft
+
+@features
+- اغلب خوش‌خیم (96%)؛ جدول 140-1 «red flags»: شروع: ناگهانی، تروما، فعالیت؛ علائم: تغییر هوشیاری، تشنج، تب، علائم عصبی، تغییر بینایی؛ دارو: ضدانعقاد/آنتی‌پلاکت، آنتی‌بیوتیک اخیر، سرکوب ایمنی؛ سابقه: بدون سردرد قبلی، تغییر کیفیت یا بدتر شدن پیشرونده طی هفته/ماه؛ بیماری همراه: بارداری/پس از زایمان، SLE، Behçet، واسکولیت، سارکوئیدوز، سرطان؛ معاینه: تغییر هوشیاری، تب، سفتی گردن، پاپیلادم، علائم کانونی
+- سن > 50 با سردرد جدید یا بدتر شونده؛ thunderclap (حداکثر شدت ناگهانی): 10 تا 14% علت پرخطر؛ جدول 140-2 علل: خونریزی (داخل‌جمجمه‌ای، «sentinel»، ICH خودبه‌خودی)، عروقی (دیسکسیون کاروتید/vertebrobasilar، RCVS، ترومبوز سینوس وریدی، PRES)، سایر (coital، Valsalva، افت فشار داخل‌جمجمه خودبه‌خودی، هیدروسفالی حاد (colloid cyst)، apoplexy هیپوفیز)
+- تومور مغز: دوطرفه یا یک‌طرفه، ثابت یا متناوب؛ بدتر هنگام بیدار شدن، با Valsalva، وضعیتی و با تهوع/استفراغ؛ در بیمار سرطانی، تشنج یا تغییر هوشیاری
+- ترومبوز سینوس وریدی (CVT): OCP، پس از زایمان/جراحی، کمبود فاکتور انعقادی، پلی‌سیتمی؛ پاپیلادم، علائم عصبی نوسانی؛ LP: فشار باز بالا؛ MR venography تشخیصی؛ هماتوم ساب‌دورال/ICH: سالمند، الکلی، سوءمصرف، مصرف ضدانعقاد؛ خونریزی مخچه با علائم وستیبولار ← مشاوره جراحی
+- ارزیابی: کیفیت، الگو، فراوانی، شدت، محل و علائم همراه؛ آزمایش اغلب محدود؛ ESR/CRP در شک آرتریت temporal؛ CT بدون کنتراست: ICH، SDH، توده، ICP بالا، SAH؛ منفی با شک بالا: ادامه (LP، CTA)؛ MRI/MRV (CVT)، MRA/CTA (دیسکسیون، SAH کوچک)؛ LP: منژیت/انسفالیت یا SAH پس از CT منفی
+
+@ddx
+- !Subarachnoid hemorrhage |
+- !Meningitis / encephalitis |
+- !Intracranial hemorrhage / SDH / mass lesion |
+- Cerebral venous thrombosis / dissection / RCVS / PRES |
+- Pituitary apoplexy / acute hydrocephalus |
+
+@redflags
+- سردرد ناگهانی، تب و سفتی گردن، پاپیلادم، علائم کانونی، تغییر هوشیاری، سن > 50، ضدانعقاد
+
+@guide
+ارزیابی اولیه با شرح حال و معاینه؛ در صورت اندیکاسیون تست و تصویربرداری بر اساس عوامل خطر؛ درمان اختصاصی بیماری و مشاوره تخصصی. مشاوره بر اساس علت مشکوک، کنترل ناکافی علائم در ED یا نیاز به بستری. هنگام ترخیص: دستور بازگشت (بدتر شدن، عدم بهبود، علائم جدید: تب، سفتی گردن، تغییر بینایی، علائم عصبی)، عوارض دارو و پیگیری.
+
+@variant headache-high-risk-main
+name: Thunderclap / red-flag headache — SAH and mimics workup
+level: I
+imp: Headache with red-flag features, rule out SAH / intracranial pathology
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: none
+
+@scenario
+زن ۴۵ ساله با سردرد ناگهانی و شدیدترین سردرد عمر، استفراغ و گردن‌درد.
+
+@why
+CT بدون کنتراست بلافاصله؛ منفی: CTA یا LP.
+
+@I
+- Noncontrast CT head STAT (ICH, SAH, SDH, mass, signs of raised ICP; most sensitive early — 98% within 6–12 h)
+- If CT negative and suspicion remains: CT angiography or lumbar puncture (RBCs, xanthochromia); MRI / MR venography for cerebral venous thrombosis; MRA / CTA for dissection or small SAH
+
+@L
+- Glucose (bedside); CBC, PT/INR, aPTT, electrolytes, creatinine; ESR / CRP if age > 50; pregnancy test; troponin / ECG (SAH-related changes); toxicology if indicated
+
+@S
+- Analgesia (avoid anticoagulants / antiplatelets); antiemetic as needed
+
+@T
+- Neurological monitoring; BP control only if SAH confirmed (see stroke / SAH)
+
+@Co
+- Neurosurgery / neurology if positive; admit for diagnostic workup if undiagnosed high-risk
+
+@cond migraine-headache
+ch: 140
+name: Migraine headache
+name_fa: میگرن
+cc: headache, nausea-vomiting
+keywords: migraine, aura, sumatriptan, DHE, metoclopramide, prochlorperazine, chlorpromazine, ketorolac, dexamethasone, میگرن
+status: draft
+
+@features
+- شایع‌ترین علت خوش‌خیم سردرد در ED؛ شروع تدریجی، 4 تا 72 ساعت، معمولاً یک‌طرفه، ضربان‌دار، بدتر با فعالیت؛ تهوع، استفراغ، فوتوفوبیا و فونوفوبیا؛ با یا بدون aura
+
+@ddx
+- !SAH / meningitis (red flags) |
+- Tension / cluster headache |
+- IIH / intracranial hypotension |
+
+@redflags
+- تغییر الگوی سردرد، نقص عصبی، تب، شروع ناگهانی (سردرد ثانویه)
+
+@guide
+درمان علامتی: dihydroergotamine (DHE)، sumatriptan، ضداستفراغ‌های آنتاگونیست دوپامین (metoclopramide، chlorpromazine، prochlorperazine) (جدول 140-4)؛ dexamethasone 6 تا 10 mg IV کمکی (کاهش عود). جدول 140-4: ketorolac 30 mg IV/IM (منع: زخم پپتیک؛ حاملگی B، پرهیز سه‌ماهه سوم)؛ metoclopramide 10 mg IV؛ prochlorperazine 5 تا 10 mg IV/PR؛ droperidol 2.5 mg IV آهسته یا IM (QT/torsades)؛ chlorpromazine 7.5 mg IV (با پیش‌درمان NS برای کاهش هیپوتانسیون)؛ همه آنتی‌دوپامین‌ها: diphenhydramine همزمان برای پیشگیری از دیستونی؛ magnesium sulfate 2 g IV طی 30 دقیقه (تأییدنشده)؛ DHE 1 mg IV طی 3 دقیقه (منع: حاملگی، IHD، HTN کنترل‌نشده، میگرن basilar/hemiplegic، sumatriptan اخیر؛ پیش‌درمان ضداستفراغ)؛ valproate 500 mg IV؛ sumatriptan 6 mg SC (منع: IHD، HTN کنترل‌نشده، basilar/hemiplegic، DHE اخیر)؛ methylprednisolone 125 mg IV/IM یا dexamethasone 6 تا 10 mg IV (کمکی/rescue).
+
+@variant migraine-main
+name: Acute migraine (typical, no red flags)
+level: III
+imp: Migraine headache
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+زن ۳۰ ساله با سردرد ضربان‌دار یک‌طرفه، تهوع و فوتوفوبیا مشابه حملات قبلی.
+
+@why
+ضداستفراغ دوپامینی + دیفن‌هیدرامین؛ دگزامتازون کمکی.
+
+@L
+- (no routine labs; pregnancy test if childbearing age before DHE / ketorolac)
+
+@S
+- Normal saline bolus (pretreat before chlorpromazine to minimize hypotension) {ci: caution in heart failure}
+- Metoclopramide 10 mg IV, or prochlorperazine 5–10 mg IV, or chlorpromazine 7.5 mg IV, or droperidol 2.5 mg IV slow (concurrent diphenhydramine for dystonic reaction prevention) {hi}
+- Ketorolac 30 mg IV or IM {ci: peptic ulcer disease, renal disease, pregnancy 3rd trimester}
+- Dexamethasone 6–10 mg IV (adjunct to reduce recurrence)
+- Sumatriptan 6 mg SC, or DHE 1 mg IV over 3 min (with antiemetic pretreat) {ci: ischemic heart disease, uncontrolled hypertension, basilar / hemiplegic migraine, pregnancy; no DHE within 24 h of sumatriptan}
+- Rescue: magnesium sulfate 2 g IV over 30 min, valproate 500 mg IV, methylprednisolone 125 mg IV/IM
+
+@T
+- Dark quiet room; reassess response
+
+@Co
+- Discharge when relieved with outpatient follow-up; neurology if refractory
+
+@cond cluster-headache
+ch: 140
+name: Cluster headache
+name_fa: سردرد خوشه‌ای
+cc: headache, eye
+keywords: cluster headache, high-flow oxygen, sumatriptan, trigeminal autonomic cephalalgia, سردرد خوشه ای
+status: draft
+
+@features
+- نادر؛ درد شدید یک‌طرفه اربیتال، سوپراربیتال یا تمپورال؛ همراه: اشک‌ریزش، گرفتگی بینی، آبریزش بینی، احتقان ملتحمه و قدم زدن بی‌قرار؛ روزانه طی هفته‌ها با دوره‌های بهبود هفته تا سال
+
+@ddx
+- !Acute angle-closure glaucoma |
+- Migraine / SAH / carotid dissection |
+
+@redflags
+- تغییر بینایی، نقص عصبی، شروع ناگهانی
+
+@guide
+اکسیژن پرجریان 12 L/min به مدت 15 دقیقه با ماسک non-rebreather؛ sumatriptan 6 mg SC برای دردی که با اکسیژن رفع نشود.
+
+@variant cluster-main
+name: Cluster headache
+level: III
+imp: Cluster headache
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+o2: 12 L/min via non-rebreather for 15 min
+
+@scenario
+مرد ۳۵ ساله با درد شدید پشت چشم راست، اشک‌ریزش، گرفتگی بینی و بی‌قراری؛ هر شب مشابه.
+
+@why
+اکسیژن 12 L/min و sumatriptan.
+
+@S
+- Sumatriptan 6 mg SC for pain unresolved with oxygen {ci: ischemic heart disease, uncontrolled hypertension}
+
+@T
+- High-flow oxygen 12 L/min via nonrebreathing facemask for 15 min {hi}
+
+@Co
+- Neurology follow-up for preventive therapy
+
+@cond temporal-arteritis
+ch: 140
+name: Temporal (giant cell) arteritis
+name_fa: آرتریت تمپورال (سلول غول‌پیکر)
+cc: headache, eye
+keywords: temporal arteritis, giant cell arteritis, ESR, CRP, jaw claudication, prednisone, temporal artery biopsy, آرتریت تمپورال
+status: draft
+
+@features
+- معمولاً سن ≥ 50 و شیوع با سن افزایش؛ علائم: خستگی، تب، claudication فک، اختلال بینایی؛ شریان تمپورال حساس، بدون نبض یا با نبض کاهش‌یافته (یا طبیعی)
+- معیارهای ACR (جدول 140-3): سن شروع ≥ 50، سردرد جدید، ناهنجاری شریان تمپورال (حساسیت یا کاهش ضربان)، ESR ≥ 50 mm/h (Westergren)، بیوپسی غیرطبیعی (می‌تواند پس از شروع استروئید انجام شود): واسکولیت با ارتشاح تک‌هسته‌ای یا گرانولوماتو، سلول غول‌پیکر چندهسته‌ای
+- ESR و CRP در تشخیص کمک می‌کنند؛ بیوپسی تشخیص قطعی
+
+@ddx
+- !Acute vision loss (ischemic optic neuropathy) |
+- Migraine / other secondary headache / polymyalgia rheumatica |
+
+@redflags
+- کاهش یا از دست رفتن بینایی (استروئید IV با دوز بالا و چشم‌پزشکی فوری)، claudication فک
+
+@guide
+شک بدون از دست رفتن بینایی: prednisone خوراکی 60 mg روزانه تجربی؛ مشاوره چشم‌پزشکی یا سایر تخصص‌ها برای بیوپسی شریان تمپورال و پیگیری/ادامه درمان.
+
+@variant gca-suspected
+name: Suspected giant cell arteritis (no vision loss)
+level: II
+imp: Suspected temporal (giant cell) arteritis
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+زن ۷۲ ساله با سردرد جدید تمپورال، claudication فک، تب خفیف و ESR 85.
+
+@why
+استروئید خوراکی زودهنگام قبل از بیوپسی.
+
+@L
+- ESR, CRP, CBC, glucose
+
+@S
+- Prednisone 60 mg PO daily (empiric treatment before biopsy) {hi} {note: if vision loss — urgent ophthalmology and high-dose IV steroids}
+
+@T
+- Examine temporal arteries; fundoscopy
+
+@Co
+- Ophthalmology / appropriate specialist to arrange temporal artery biopsy (can be done after steroids started) and follow-up
+
+@cond idiopathic-intracranial-hypertension
+ch: 140
+name: Idiopathic intracranial hypertension (pseudotumor cerebri)
+name_fa: افزایش فشار داخل جمجمه ایدیوپاتیک (pseudotumor cerebri)
+cc: headache, eye
+keywords: IIH, pseudotumor cerebri, papilledema, acetazolamide, lumbar puncture opening pressure, افزایش فشار داخل جمجمه
+status: draft
+
+@features
+- شایع در زنان چاق 20 تا 44 سال؛ سردرد، اختلال بینایی گذرا، درد پشت و وزوز ضربان‌دار؛ بدون درمان: از دست رفتن دائم بینایی؛ تشخیص: پاپیلادم + معاینه عصبی نرمال + فشار باز LP بالا
+
+@ddx
+- !Cerebral venous thrombosis / mass lesion |
+- Vitamin A toxicity / medications (tetracyclines) |
+
+@redflags
+- از دست دادن بینایی، پاپیلادم شدید
+
+@guide
+acetazolamide خوراکی 250 تا 500 mg دو بار روزانه و کاهش وزن در چاقی؛ حین LP تشخیصی با برداشتن CSF اضافی فشار را به 15 تا 20 cm H2O کاهش بده؛ مشاوره نورولوژی و/یا چشم‌پزشکی.
+
+@variant iih-main
+name: Idiopathic intracranial hypertension
+level: II
+imp: Idiopathic intracranial hypertension
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+زن ۲۸ ساله چاق با سردرد روزانه، تاری گذرای دید و پاپیلادم.
+
+@why
+MRI/MRV، LP با فشار باز و acetazolamide.
+
+@I
+- CT / MRI brain and MR venography (exclude mass / CVT) before LP
+
+@L
+- Lumbar puncture with opening pressure (remove CSF to reduce to 15–20 cm H2O); electrolytes, creatinine (acetazolamide); pregnancy test
+
+@S
+- Acetazolamide 250–500 mg PO twice daily {ci: sulfa allergy; renal impairment}
+
+@T
+- Weight loss counseling for obese patients; visual acuity / fields
+
+@Co
+- Neurology and/or ophthalmology for ongoing evaluation and treatment
+
+@cond intracranial-hypotension-headache
+ch: 140
+name: Post-dural puncture / intracranial hypotension headache
+name_fa: سردرد افت فشار داخل جمجمه (پس از LP / بی‌حسی اپیدورال)
+cc: headache
+keywords: post-dural puncture headache, intracranial hypotension, epidural blood patch, spinal headache, سردرد پس از LP
+status: draft
+
+@features
+- پس از اقدام نفوذکننده دورا (LP، بی‌حسی اپیدورال)؛ بدتر در حالت ایستاده و بهتر با خوابیدن؛ تغییر شنوایی یا بینایی، تهوع و استفراغ
+
+@ddx
+- !Meningitis / CVT / SAH |
+- Migraine |
+
+@redflags
+- تب، سفتی گردن، علائم عصبی کانونی
+
+@guide
+اغلب به درمان علامتی پاسخ می‌دهد؛ شواهد برای مایع IV و caffeine محدود؛ مؤثرترین: epidural blood patch (معمولاً توسط متخصص بیهوشی).
+
+@variant pdph-main
+name: Post-dural puncture headache
+level: III
+imp: Intracranial hypotension headache (post-dural puncture)
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+زن ۳۰ ساله 2 روز پس از بی‌حسی اپیدورال با سردرد ایستاده که با خوابیدن بهتر می‌شود.
+
+@why
+علامتی و blood patch.
+
+@S
+- Oral hydration; IV fluids / caffeine limited evidence {note: symptomatic treatment}; analgesics
+
+@T
+- Supine rest; analgesia
+
+@Co
+- Anesthesiology: epidural blood patch (most effective) if persistent
