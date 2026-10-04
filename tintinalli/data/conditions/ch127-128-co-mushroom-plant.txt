@@ -1,0 +1,337 @@
+@cond carbon-monoxide-poisoning
+ch: 127
+name: Carbon monoxide poisoning
+name_fa: مسمومیت با مونوکسید کربن
+cc: poisoning, headache, altered-mental-status, dyspnea
+keywords: carbon monoxide, CO poisoning, carboxyhemoglobin, COHb, hyperbaric oxygen, HBO, smoke inhalation, methylene chloride, مونوکسید کربن, هیپرباریک
+status: draft
+
+@features
+- گاز بی‌رنگ، بی‌بو و غیرتحریکی که اکسیژن را از هموگلوبین جابه‌جا می‌کند ← هیپوکسی بافتی زودرس و آسیب عصبی تأخیری؛ منابع: احتراق ناقص هر سوخت کربنی (بنزین، نفت سفید، گاز طبیعی، زغال) یا متابولیسم methylene chloride استنشاقی
+- شک: مواجهه با موتور/بخاری گازی یا پروپان، استنشاق دود یا چند قربانی با تغییر هوشیاری، اسیدوز یا کما
+- بسیار متغیر؛ اثر هیپوکسی بر قلب-عروق و عصب (جدول 127-1): سردرد، اختلال بینایی، استفراغ، گیجی، آتاکسی، تنگی نفس/تاکی‌پنه، تشنج، تغییر ECG ایسکمیک و/یا دیسریتمی، سنکوپ، خونریزی شبکیه، درد قفسه، ضایعات تاولی پوست، نقص عصبی کانونی؛ از «شبه‌آنفلوانزا» تا کما؛ لب «cherry red» به‌ندرت در بیمار زنده؛ پیامد طولانی عصبی/شناختی
+- تشخیص: co-oximetry خون مطمئن‌ترین؛ COHb تأیید مواجهه ولی همبسته با علائم یا پیش‌آگهی نیست؛ پایه تا 5% در غیرسیگاری و 10% در سیگاری؛ پالس‌اکسیمتری معمول غیرقابل‌اعتماد (SpO2 کاذب نرمال/بالا)؛ علائم‌دار: اسیدوز متابولیک anion gap، لاکتات بالا، CPK، troponin، ECG ایسکمیک و ضایعات دوطرفه globus pallidus در تصویربرداری مغز
+- افتراق: بیماری شبه‌آنفلوانزا، گاستروانتریت، مسمومیت‌های دیگر، علل عفونی تغییر هوشیاری؛ اختلال قلبی-عروقی پس از مسمومیت ممکن MI همزمان باشد
+
+@ddx
+- !Cyanide poisoning (fires) |
+- !Acute coronary syndrome |
+- Flu-like illness / gastroenteritis |
+- Other toxic exposure / CNS infection |
+
+@redflags
+- سنکوپ، گیجی، تشنج، کما، نقص کانونی، ایسکمی میوکارد، COHb > 25%، بارداری با COHb > 15%
+
+@guide
+خارج کردن از منبع و ABC. در همه مشکوکان بیشترین غلظت اکسیژن موجود (100% با ماسک ذخیره‌دار) تا بدون علامت شدن؛ پایش مداوم علائم حیاتی و ریتم؛ IV. اندیکاسیون HBO (جدول 127-2): سنکوپ، گیجی/تغییر هوشیاری، تشنج، کما، نقص کانونی، بارداری با COHb > 15%، COHb > 25% در هر بیمار، شواهد ایسکمی حاد میوکارد؛ اندیکاسیون کودک و بزرگسال مشابه؛ آستانه COHb در باردار کمتر؛ مشاوره متخصص هیپرباریک؛ راه هوایی ایمن و همودینامیک پایدار قبل از انتقال. ترخیص (جدول 127-3): حداقل/بدون علامت: خانه با بررسی ایمنی؛ سردرد: اکسیژن 100% در ED و خانه پس از رفع علائم؛ استفراغ، سطح CO بالا، آتاکسی، تشنج، سنکوپ، درد قفسه، نقص کانونی، تنگی نفس، تغییر ECG: بستری و اکسیژن 100% در ED، مشورت هیپرباریک (سطح CO، بیماری همراه از جمله بارداری، سن و پایداری در تصمیم انتقال)؛ مشاهده 4 ساعت. اطمینان از رفع منبع در خانه/کار.
+
+@variant co-mild
+name: Mild CO exposure (headache, nausea; no neuro / cardiac features)
+level: III
+imp: Carbon monoxide poisoning, mild
+cond: Urgent
+act: CBR
+diet: PO
+ecg: stat
+cxr: none
+o2: 100% oxygen via non-rebreather mask until asymptomatic
+
+@scenario
+خانواده‌ای با سردرد و تهوع پس از روشن کردن بخاری گازی؛ هوشیار، ECG طبیعی، COHb 12%.
+
+@why
+اکسیژن 100%، مشاهده 4 ساعت و بررسی ایمنی خانه.
+
+@L
+- Carboxyhemoglobin level by blood co-oximetry (pulse oximetry unreliable); lactate, electrolytes (anion gap); troponin if chest pain / ECG changes; pregnancy test in women of childbearing age
+
+@T
+- 100% oxygen by facemask with reservoir until asymptomatic; continuous monitoring of vital signs, heart rate and rhythm
+- Observe 4 h; ensure home / work environment no longer a source of CO
+
+@Co
+- Discharge home after symptom resolution with safety assessment
+
+@variant co-severe
+name: Moderate–severe CO poisoning (syncope, AMS, seizure, chest pain, ECG changes, COHb > 25%, pregnancy with > 15%)
+level: I
+imp: Carbon monoxide poisoning, severe
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+o2: 100% oxygen via non-rebreather mask
+
+@scenario
+مردی ۵۰ ساله یافت‌شده بی‌هوش در گاراژ با موتور روشن؛ تشنج، COHb 34% و ST depression.
+
+@why
+اکسیژن 100% و انتقال برای HBO پس از ایمن‌سازی راه هوایی.
+
+@I
+- CXR portable
+- CT / MRI brain if focal neurologic findings (globus pallidus lesions) as indicated
+
+@L
+- COHb by co-oximetry; arterial blood gas (anion gap acidosis), lactate; troponin, CK; electrolytes, BUN, creatinine; glucose; pregnancy test; cyanide considered in smoke inhalation
+
+@S
+- IV access; isotonic fluid as needed {ci: caution in heart failure / pulmonary edema}
+
+@T
+- 100% oxygen by facemask with reservoir until asymptomatic; secure airway and stable hemodynamics before transport to HBO
+- Continuous cardiac monitoring (ECG ischemia / dysrhythmias); benzodiazepine for seizures
+
+@Co
+- Hyperbaric specialist consultation for HBO (syncope, confusion/AMS, seizure, coma, focal deficit, ischemia, COHb > 25%, pregnancy with COHb > 15%)
+- Hospitalize; cardiology if ischemia; toxicology / poison center
+
+@cond mushroom-poisoning
+ch: 128
+name: Mushroom poisoning
+name_fa: مسمومیت با قارچ
+cc: poisoning, nausea-vomiting, abdominal-pain, diarrhea
+keywords: mushroom poisoning, Amanita phalloides, amatoxin, Gyromitra, Inocybe, muscarinic, psilocybin, Coprinus, N-acetylcysteine, silymarin, penicillin G, liver transplant, قارچ, آمانیتا
+status: draft
+
+@features
+- چهار گروه: جمع‌کنندگان مواد غذایی، نوجوانان/جوانان برای «high» شدن، کودکان پیش‌دبستانی حین بازی بیرون و (نادر) سوء قصد/خودکشی
+- شروع زودرس: ≤ 2 ساعت؛ تأخیری: 6 ساعت تا 20 روز؛ تعیین یک یا چند نوع قارچ و فاصله تا علائم؛ توصیف قارچ از جمع‌کننده
+- بیشتر بیماران با علائم GI ≤ 2 ساعت سیر مطمئن دارند؛ استثنا: Amanita smithiana (GI زودرس و نارسایی کلیه تأخیری)؛ قارچ‌های با اثر کبد، کلیه و CNS معمولاً استفراغ ≥ 6 ساعت تأخیر؛ گونه‌های سمی: Amanita، Galerina، Gyromitra، Lepiota؛ ممکن است به‌اشتباه گاستروانتریت ویروسی یا مسمومیت غذایی تشخیص داده شود
+- جدول 128-1: GI زودرس (< 2 ساعت): Chlorophyllum molybdites، Omphalotus illudens، Cantharellus cibarius: تهوع، استفراغ، اسهال (گاه خونی)؛ GI 6 تا 24 ساعت (تأخیری): A. smithiana (نارسایی کلیه تأخیری)، A. phalloides/verna/virosa، Lepiota (نارسایی کبد تأخیری): اولیه تهوع/استفراغ/اسهال، روز 2: افزایش AST/ALT، روز 3: نارسایی کبد، کوآگولوپاتی، نارسایی کلیه با همولیز؛ Gyromitra esculenta: همان + سردرد، لرزش، آتاکسی، تشنج
+- موسکارینی (SLUDGE) (< 30 دقیقه): Inocybe، Clitocybe: سالیواسیون، اشک‌ریزش، اسهال، ترشحات GI؛ تحریک CNS (< 30 دقیقه): Amanita muscaria/pantherina/gemmata: مستی، سرگیجه، آتاکسی، اختلال بینایی، تشنج، تاکی‌کاردی، هیپرتانسیون، پوست گرم خشک، خشکی دهان، میدریاز (آنتی‌کولینرژیک)؛ توهم (< 30 دقیقه): Paneolus، Psilocybe، Gymnopillus: توهم بینایی و آتاکسی؛ شبه‌disulfiram: Coprinus atramentarius و Clitocybe clavipes (2 تا 72 ساعت بعد از قارچ و < 30 دقیقه بعد الکل): سردرد، flushing، تاکی‌کاردی، هیپرونتیلاسیون، تپش
+
+@ddx
+- !Viral gastroenteritis / food poisoning |
+- !Acute liver failure of other cause (APAP, viral hepatitis) |
+- Other toxic ingestion (plants, organophosphate) |
+
+@redflags
+- شروع تأخیری استفراغ/اسهال (> 6 ساعت)، افزایش آنزیم کبد، کوآگولوپاتی، آنسفالوپاتی، نارسایی کلیه
+
+@guide
+مشاوره با مرکز سموم (تفاوت منطقه‌ای). درمان طبق جدول 128-1. GI زودرس: هیدراتاسیون IV و ضداستفراغ. تأخیری (Amanita/Lepiota): هیدراتاسیون IV؛ پایش دقیق الکترولیت، گلوکز، کلیه، کبد و انعقاد؛ acetylcysteine بار 140 mg/kg PO/NG؛ penicillin G 300,000 تا 1,000,000 U/kg/روز IV؛ silymarin 5 mg/kg IV طی 1 ساعت سپس 20 mg/kg/روز IV (خوراکی در آمریکا). Gyromitra: همان + تشنج با بنزودیازپین و pyridoxine 5 g IV. موسکارینی: حمایتی؛ atropine 0.01 mg/kg IV در دیسترس شدید با تکرار؛ تحریک CNS: حمایتی و آرام‌بخشی با diazepam 2 تا 5 mg IV بزرگسال؛ توهم: حمایتی و diazepam؛ disulfiram-like: حمایتی و هیدراتاسیون IV. بستری همه با شروع تأخیری استفراغ/اسهال برای 48 ساعت پایش کلیه، کبد و مایع. پیشرفت سریع به انسفالوپاتی کبدی، سندرم هپاتورنال یا کوآگولوپاتی: اندیکاسیون پیوند؛ انتقال زودهنگام به مرکز پیوند. هالوسینوژن یا فقط موسکارینی: ترخیص پس از فروکش علائم.
+
+@variant mushroom-early-gi
+name: Early-onset (< 2 h) GI mushroom poisoning
+level: III
+imp: Mushroom poisoning, early-onset GI
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: once
+cxr: none
+
+@scenario
+مردی ۴۰ ساله 1 ساعت پس از خوردن قارچ وحشی با تهوع، استفراغ و اسهال؛ علائم حیاتی پایدار.
+
+@why
+مایع و ضداستفراغ؛ مراقب نوع تأخیری باش.
+
+@L
+- (electrolytes, glucose as per fixed block); liver enzymes and coagulation if time course uncertain
+
+@S
+- IV hydration (isotonic) {ci: caution in AKI, heart failure / pulmonary edema}
+
+@T
+- Antiemetics (e.g., ondansetron)
+- Poison center consultation; identify mushroom type and time to onset (observe for delayed toxicity)
+
+@Co
+- Discharge when symptoms subside if early onset (< 2 h) and course reassuring; admit if delayed onset
+
+@variant mushroom-amatoxin-delayed
+name: Delayed-onset (6–24 h) mushroom poisoning — amatoxin (Amanita / Lepiota) / Gyromitra / A. smithiana
+level: I
+imp: Mushroom poisoning, delayed onset (risk of hepatic / renal failure)
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: none
+
+@scenario
+زنی ۳۵ ساله 10 ساعت پس از خوردن قارچ شبیه Amanita با استفراغ شدید، اسهال و ضعف.
+
+@why
+شروع NAC/پنی‌سیلین/silymarin و پایش کبد؛ بستری 48 ساعت.
+
+@L
+- AST, ALT, bilirubin, PT/INR (coagulation), glucose, electrolytes, BUN, creatinine, CBC (hemolysis); monitored serially
+
+@S
+- IV hydration; closely monitor electrolytes, glucose, renal and hepatic function
+- Acetylcysteine loading 140 mg/kg PO/NG
+- Penicillin G 300,000 to 1,000,000 U/kg IV per day
+- Silymarin 5 mg/kg IV over 1 h, then 20 mg/kg IV per day
+
+@T
+- Gyromitra: benzodiazepines for seizures AND pyridoxine 5 g IV
+- Antiemetics; supportive care
+
+@Co
+- Admit all delayed-onset patients for 48 h monitoring (renal and hepatic function, fluid status)
+- Early transfer to liver transplant center if rapid progression to hepatic encephalopathy, hepatorenal syndrome, or coagulopathy; toxicology / poison center
+
+@variant mushroom-neuro-muscarinic
+name: Muscarinic / anticholinergic CNS / hallucinogenic / disulfiram-like mushroom syndromes
+level: III
+imp: Mushroom poisoning, neurologic / muscarinic / disulfiram-like syndrome
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: none
+
+@scenario
+جوانی ۲۰ ساله پس از خوردن قارچ جادویی با توهم و آتاکسی؛ یا فردی با تعریق و ترشحات پس از Inocybe.
+
+@why
+حمایتی؛ آتروپین فقط در موسکارینی شدید؛ دیازپام برای هیجان.
+
+@L
+- Glucose; electrolytes; CK if agitated
+
+@S
+- IV hydration (disulfiram-like reaction)
+
+@T
+- Muscarinic (SLUDGE): supportive; atropine 0.01 mg/kg IV repeated as needed for severe distress / secretions
+- CNS excitement / hallucinogenic: supportive; diazepam 2–5 mg IV as needed for adults
+- Disulfiram-like (Coprinus): supportive and IV hydration
+
+@Co
+- Discharge when symptoms subside (hallucinogenic or muscarinic only); poison center
+
+@cond plant-poisoning-severe
+ch: 128
+name: Severely poisonous plant ingestion (castor bean, jequirity, oleander, foxglove, hemlock, yew, coyotillo)
+name_fa: مسمومیت شدید با گیاه (کرچک، jequirity، خرزهره، انگشتانه، شوکران، سرخدار)
+cc: poisoning, nausea-vomiting, altered-mental-status
+keywords: castor bean, ricin, jequirity bean, abrin, oleander, foxglove, poison hemlock, water hemlock, yew, Taxus, coyotillo, خرزهره, کرچک, شوکران
+status: draft
+
+@features
+- جدول 128-2: castor bean (Ricinus) و jequirity (Abrus): گاستروانتریت تأخیری، دلیریوم، تشنج، کما، مرگ؛ coyotillo (Karwinskia): فلج صعودی؛ foxglove (Digitalis) و oleander (Nerium): تهوع، استفراغ، اسهال، درد شکم، گیجی و دیسریتمی قلبی (مانند مسمومیت دیگوکسین)؛ poison hemlock (Conium): تاکی‌کاردی، لرزش، تعریق، میدریاز، ضعف عضلانی، تشنج، بلوک عصبی-عضلانی؛ water hemlock (Cicuta): تهوع، استفراغ، درد شکم، دلیریوم، تشنج، مرگ؛ yew (Taxus): شایع: تهوع، استفراغ، درد شکم؛ نادر: تشنج، دیسریتمی قلبی و کما
+- بیشتر مواجهه‌های گیاهی درمان نمی‌خواهند و پس از مشاهده کوتاه ترخیص
+
+@ddx
+- !Digoxin toxicity (foxglove / oleander) |
+- !Cholinergic / seizure of other cause |
+- Gastroenteritis |
+
+@redflags
+- دیسریتمی، تشنج، فلج، کما، گاستروانتریت تأخیری
+
+@guide
+castor bean/jequirity: WBI و حمایتی؛ coyotillo: حمایتی؛ foxglove/oleander: دکونتامیناسیون با زغال فعال، پایش پتاسیم، آنتی‌دیسریتمیک و digoxin-specific Fab برای دیسریتمی؛ poison hemlock: زغال و حمایتی؛ water hemlock: دکونتامیناسیون GI و حمایتی؛ yew: زغال فعال و در نظر گرفتن WBI، حمایتی.
+
+@variant plant-severe-main
+name: Severely poisonous plant ingestion (agent-specific)
+level: II
+imp: Severe plant poisoning
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: none
+
+@scenario
+کودک ۳ ساله پس از جویدن برگ خرزهره با استفراغ، برادیکاردی و PVC؛ یا بزرگسال پس از خوردن دانه کرچک.
+
+@why
+زغال برای گلیکوزید، WBI برای ریسین/abrus و Fab برای دیسریتمی.
+
+@L
+- Electrolytes (potassium), BUN, creatinine, glucose; digoxin level (cross-reacts with cardiac glycoside plants); liver enzymes
+
+@S
+- Digoxin-specific Fab antibody for dysrhythmias (foxglove, oleander)
+- Antidysrhythmics as needed
+
+@T
+- Cardiac glycoside plants (foxglove, oleander) and hemlock / yew: GI decontamination with activated charcoal; monitor potassium
+- Castor bean / jequirity bean: whole-bowel irrigation; supportive care; yew: consider whole-bowel irrigation
+- Benzodiazepines for seizures (hemlock, water hemlock); supportive care
+
+@Co
+- Admit if symptomatic; poison center; discharge after short observation if asymptomatic
+
+@cond plant-poisoning-common
+ch: 128
+name: Common plant ingestions and exposures (anticholinergic plants, oral irritants, dermatitis, others)
+name_fa: مسمومیت‌ها و تماس‌های شایع گیاهی
+cc: poisoning, rash, ent
+keywords: jimsonweed, Datura, nightshade, dieffenbachia, philodendron, poison ivy, Toxicodendron, aconite, monkshood, fava beans, ackee, colchicum, pokeweed, cactus, lantana, لولوی, دم گاو, پیچک سمی
+status: draft
+
+@features
+- جدول 128-3: ackee: هیپوگلیسمی؛ aloe: درد شکم، اسهال، ادرار قرمز، نفریت؛ azalea (Rhododendron): معمولاً خفیف؛ شدید: سالیواسیون، اشک‌ریزش، برادیکاردی، هیپوتانسیون، فلج پیشرونده؛ cactus: خار فرورفته؛ Caladium، dumbcane (Dieffenbachia)، philodendron، pothos: معمولاً خفیف؛ شدید: سوزش و تحریک مخاط دهان، تورم، آب‌ریزش، دیسفاژی و اختلال تنفسی؛ Colchicum: گاستروانتریت دیررس و شدید ← نارسایی چندارگانی؛ fava beans (Vicia faba) در کمبود G6PD: اختلال GI، تب، سردرد، کم‌خونی همولیتیک، هموگلوبینوری، یرقان
+- آنتی‌کولینرژیک: henbane، jimsonweed (Datura)، deadly nightshade (Atropa belladonna): توهم، میدریاز، تاکی‌کاردی، آژیتاسیون، تشنج، کما؛ lily of the valley: مثل دیگوکسین؛ monkshood (Aconitum): برادیکاردی، بلوک قلبی، torsades، VF؛ nettle: سوزش موضعی؛ common/woody nightshade (Solanum) و سیب‌زمینی/بادمجان خام: تهوع، استفراغ، اسهال، درد شکم؛ دوز بالا: دلیریوم، توهم، کما؛ هسته هلو، زردآلو، گلابی، سیب وحشی، yam bean، hydrangea: سیانید حاد در مصرف زیاد: تعریق، تهوع، استفراغ، درد شکم، لتارژی؛ pepper (Capsicum): تحریک و درد تماسی؛ pokeweed: تحریک مخاط، درد شکم، استفراغ، اسهال شدید؛ شدید: کما و مرگ؛ yellow sage (Lantana): میدریاز، استفراغ، اسهال، ضعف، کما؛ Toxicodendron (پیچک، بلوط و sumac سمی): درماتیت؛ holly: گاستروانتریت (در مصرف قابل‌توجه می‌تواند کشنده باشد)؛ poinsettia: تحریک موضعی گاه؛ American mistletoe: گاستروانتریت؛ Easter lily: در انسان سمیت گزارش نشده
+
+@ddx
+- !Anticholinergic toxidrome of other cause |
+- Allergic contact dermatitis |
+- Gastroenteritis |
+
+@redflags
+- دیسریتمی/بلوک قلبی (monkshood، lily of valley)، آنتی‌کولینرژیک شدید، اختلال تنفسی (تورم دهان)، هیپوگلیسمی (ackee)
+
+@guide
+ackee: گلوکز؛ aloe: حمایتی؛ azalea: زغال، atropine برای برادیکاردی علامت‌دار، مایع یا وازوپرسور برای هیپوتانسیون؛ cactus: برداشتن خار (rubber cement peel)؛ سوزش دهان (dumbcane، philodendron، pothos، Caladium): شیر یا بستنی سرد، مسکن، استروئید در علائم شدید؛ Colchicum: زغال، احیای مایع تهاجمی؛ fava: درمان بر اساس شدت همولیز؛ آنتی‌کولینرژیک گیاهی: حمایتی و physostigmine در موارد شدید؛ lily of the valley/monkshood: زغال، پایش K، آنتی‌آریتمیک، Fab؛ nettle: درمان علامتی؛ nightshade/potato: زغال و حمایتی؛ هسته‌ها (سیانید): زغال، WBI و آنتی‌دوت سیانید؛ pepper: شستشوی فراوان با آب؛ pokeweed: زغال و مایع؛ Toxicodendron: محافظت پوست، ضدخارش و موضعی، استروئید سیستمیک برای صورت، ژنیتال یا گسترده؛ holly، mistletoe، lantana: زغال و حمایتی؛ poinsettia: درمان لازم نیست؛ Easter lily: —.
+
+@variant plant-common-main
+name: Common plant ingestion / contact
+level: III
+imp: Plant ingestion / exposure
+cond: Urgent
+act: CBR
+diet: PO
+ecg: once
+cxr: none
+
+@scenario
+کودک ۲ ساله پس از جویدن برگ dumbcane با سوزش دهان و آب‌ریزش؛ یا بزرگسال با درماتیت خطی پس از تماس با پیچک سمی.
+
+@why
+بیشتر نیاز به درمان ندارند؛ مشاهده کوتاه و علامتی.
+
+@T
+- Oral irritants (Dieffenbachia, philodendron, pothos): cold milk or ice cream, analgesics, consider steroids if severe
+- Toxicodendron dermatitis: skin protection, antipruritic and topical therapies; systemic steroids for facial, genital or widespread involvement
+- Activated charcoal GI decontamination for toxic ingestions as appropriate (e.g., nightshade, azalea, holly); supportive care
+
+@Co
+- Discharge after short observation if no significant symptoms
+
+@variant plant-anticholinergic-cardiac
+name: Anticholinergic plant (Datura / belladonna) or cardiotoxic plant (lily of the valley, monkshood, azalea)
+level: II
+imp: Plant poisoning, anticholinergic / cardiotoxic
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: none
+
+@scenario
+نوجوانی پس از خوردن بذر Datura با توهم، میدریاز، تاکی‌کاردی، پوست گرم و خشک و آژیتاسیون.
+
+@why
+حمایتی و بنزودیازپین؛ physostigmine شدید؛ مانیتور قلب.
+
+@L
+- Electrolytes (potassium), glucose, BUN, creatinine; CK if agitated
+
+@S
+- Digoxin-specific Fab antibody for arrhythmias from lily of the valley
+- Fluids or vasopressors for hypotension (azalea); atropine for symptomatic bradycardia (azalea)
+
+@T
+- Activated charcoal GI decontamination; monitor potassium; antiarrhythmics (cardiac glycoside plants)
+- Anticholinergic plants: supportive care, benzodiazepines for agitation / seizures; consider physostigmine in severe cases
+
+@Co
+- Admit if cardiac toxicity or severe anticholinergic syndrome; poison center

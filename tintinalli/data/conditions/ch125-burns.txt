@@ -1,0 +1,325 @@
+@cond thermal-burn
+ch: 125
+name: Thermal burns
+name_fa: سوختگی حرارتی
+cc: burn-electrical, trauma-major
+keywords: thermal burn, burn, scald, Parkland formula, rule of nines, Lund and Browder, silver sulfadiazine, escarotomy, inhalation injury, burn center, سوختگی, پارکلند
+status: draft
+
+@features
+- اغلب سرپایی؛ از بستری‌ها > 60% در مراکز سوختگی؛ خطر مرگ: سوختگی بزرگ‌تر، سن بالا، آسیب استنشاقی همراه و جنس مؤنث
+- اندازه: درصد BSA با قانون نه‌ها (Rule of Nines)؛ دقیق‌تر (به‌ویژه کودک): Lund and Browder؛ سوختگی کوچک: کف دست بیمار ≈ 1% BSA
+- عمق (جدول 125-1): سطحی (درجه 1): اپیدرم، بدون تاول، دردناک (آفتاب‌سوختگی، 7 روز)؛ ضخامت جزئی سطحی: اپیدرم و درم سطحی، تاول، بسیار دردناک (آب داغ، 14 تا 21 روز بدون اسکار)؛ ضخامت جزئی عمیق: درم عمیق، غدد عرق و فولیکول مو، تاول (مایع داغ، بخار، گریس، شعله؛ 3 تا 8 هفته با اسکار دائمی)؛ تمام‌ضخامت (درجه 3): اپیدرم و درم کامل سوخته، رنگ‌پریده، چرمی، بی‌درد (ماه‌ها، اسکار شدید، گرافت)؛ درجه 4: تا استخوان، چربی و/یا عضله (ماه‌ها، جراحی‌های متعدد)
+- آسیب استنشاقی: شایع در آتش فضای بسته و کاهش شناخت (مسمومیت، اوردوز، ضربه سر)؛ آسیب راه هوایی فوقانی و تحتانی با حرارت، ذرات و گازهای سمی؛ نشانه‌ها: سوختگی صورت، موی سوخته بینی، دوده راه هوایی فوقانی، گرفتگی صدا، خلط کربنی، ویزینگ؛ مسمومیت CO در همه آسیب استنشاقی؛ سیانید در آتش پلیمرهای نیتروژن‌دار (پشم، ابریشم، پلی‌یورتان، وینیل)
+- ABA (جدول 125-2): بزرگ: ضخامت جزئی > 25% BSA (10 تا 50 سال) یا > 20% (< 10 یا > 50 سال)؛ تمام‌ضخامت > 10% در هر سن؛ دست، صورت، پا یا پرینه؛ عبور از مفصل بزرگ؛ دورتادور اندام؛ آسیب استنشاقی؛ سوختگی الکتریکی؛ شکستگی/تروما؛ بیماران پرخطر ← مرکز سوختگی؛ متوسط: ضخامت جزئی 15 تا 25% (10 تا 50 سال) یا 10 تا 20% (< 10 یا > 50 سال)، تمام‌ضخامت ≤ 10% بدون ویژگی بزرگ ← بستری؛ خفیف: ضخامت جزئی < 15% (یا < 10% در سن‌های حدی)، تمام‌ضخامت < 2%، بدون ویژگی بزرگ ← سرپایی
+
+@ddx
+- !Inhalation injury / CO / cyanide |
+- !Associated trauma |
+- Toxic epidermal necrolysis / SSSS (blistering) |
+- Child abuse (scald patterns) |
+
+@redflags
+- سوختگی صورت/راه هوایی، گرفتگی صدا، سوختگی دورتادور، > 20 تا 25% BSA، سوختگی الکتریکی/شیمیایی
+
+@guide
+مرحله‌ها: پیش از بیمارستان (توقف سوختن، راه هوایی، مایع، تسکین درد، محافظت زخم)، احیا و تثبیت ED، انتقال به مرکز سوختگی. ED: ارزیابی مجدد راه هوایی، O2 100%، اینتوباسیون در علائم تهدید راه هوایی، سوختگی راه هوایی یا دیسترس تنفسی؛ ABG، سطح COHb و CXR؛ پایش علائم حیاتی و SpO2. دو IV در ناحیه سالم. فرمول Parkland/Baxter (جدول 125-3): بزرگسال: LR 4 mL × وزن (kg) × %BSA (ضخامت جزئی و تمام‌ضخامت) در 24 ساعت: نیمی در 8 ساعت اول از زمان سوختگی و نیم دیگر در 16 ساعت بعد (مثال: 70 kg با 40%: 11,200 mL)؛ کودک: LR 3 mL × وزن × %BSA + نگهدارنده؛ ادامه بر اساس علائم حیاتی، پرفیوژن و برون‌ده ادراری. درمان تروما طبق راهنماها. مراقبت زخم: کمپرس خنک روی سوختگی کوچک؛ سوختگی بزرگ با ملحفه خشک استریل (پانسمان سالین خیس هیپوترمی می‌دهد). آنتی‌بیوتیک تجربی و ضدمیکروب موضعی حین احیا توصیه نمی‌شود. اوپیوئید IV زود و تیتر بر اساس درد. آسیب استنشاقی: اکسیژن مرطوب، اینتوباسیون و تهویه، برونکودیلاتور و pulmonary toilet؛ CO شدید: اکسیژن هیپرباریک. سوختگی دورتادور گردن/قفسه/اندام: escharotomy. کزاز. بستری برای متوسط و بزرگ؛ معیارهای ارجاع ABA (جدول 125-4): تمام‌ضخامت در هر سن، الکتریکی/رعد، شیمیایی، استنشاقی، بیماری زمینه‌ای، تروما همزمان، کودک در مرکز بدون امکانات، نیاز به حمایت اجتماعی/توانبخشی، سن < 10 و > 50. سوختگی خفیف (جدول 125-5): مسکن قبل مراقبت و برای سرپایی، شستشو با صابون ملایم و آب یا آنتی‌سپتیک رقیق، دبریدمان، ضدمیکروب موضعی (silver sulfadiazine 1% (نه روی صورت یا آلرژی سولفا)، bacitracin یا triple-antibiotic)، پانسمان occlusive سنتتیک، آموزش و پیگیری 24 تا 48 ساعت.
+
+@variant burn-minor
+name: Minor burn (outpatient, ABA minor criteria)
+level: III
+imp: Thermal burn, minor
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+زنی ۳۰ ساله با سوختگی آب داغ 5% BSA ضخامت جزئی روی ساعد؛ سایر اندام‌ها سالم.
+
+@why
+مراقبت زخم و ترخیص با پیگیری 24 تا 48 ساعت.
+
+@L
+- (CBC / BUN / Cr / electrolytes per fixed block; no additional labs)
+
+@T
+- Appropriate analgesics before burn care and for outpatient use
+- Cleanse with mild soap and water or dilute antiseptic; debride as needed
+- Topical antimicrobial: 1% silver sulfadiazine cream (not on face or in sulfa allergy), bacitracin ointment, or triple-antibiotic ointment; consider synthetic occlusive dressings
+- Cool compresses for small burns; update tetanus prophylaxis
+
+@Co
+- Discharge with detailed burn care instructions and follow-up in 24–48 h
+
+@variant burn-major
+name: Moderate–major burn (> 15–25% BSA, inhalation injury, hands/face/perineum) — resuscitation and burn center
+level: I
+imp: Thermal burn, moderate to major
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+o2: 100% oxygen
+
+@scenario
+مرد ۴۵ ساله ۷۰ kg پس از آتش‌سوزی خانه با سوختگی 40% BSA، موی سوخته بینی، گرفتگی صدا و سوختگی دست‌ها.
+
+@why
+راه هوایی زودهنگام، Parkland و انتقال به مرکز سوختگی.
+
+@I
+- CXR portable
+- Imaging for associated trauma per trauma guidelines
+
+@L
+- Arterial blood gas, carboxyhemoglobin level; lactate; electrolytes, creatinine, CK, urinalysis (myoglobin), type and screen; troponin / ECG if electrical or smoke exposure; cyanide considered in nitrogen-containing polymer fires
+
+@S
+- Lactated Ringer's per Parkland formula: adult 4 mL × weight (kg) × %BSA (partial and full thickness) over 24 h — half over first 8 h from time of burn, remainder over next 16 h (e.g., 70 kg, 40% BSA: 11,200 mL); children 3 mL × kg × %BSA plus maintenance; titrate to vital signs, perfusion and urine output {note: not subject to usual maintenance-fluid rule; monitor urine output with Foley}
+- Two IV lines in unburned areas
+- IV opioid analgesia early, titrated to pain {hi}
+
+@T
+- Reevaluate airway; 100% oxygen; intubate and ventilate if airway compromise, airway burn, or respiratory distress
+- Humidified oxygen, bronchodilators, pulmonary toilet for inhalation injury; hyperbaric oxygen for severe carbon monoxide poisoning
+- Cover large burns with sterile dry sheets; avoid saline-soaked dressings (hypothermia); no empiric antibiotics or topical antimicrobials during resuscitation
+- Escharotomy for circumferential burns of neck, chest or limbs compromising breathing / circulation
+- Update tetanus prophylaxis; treat traumatic injuries per trauma guidelines
+
+@Co
+- Burn center / burn surgery (ABA referral criteria); admit moderate and major burns
+- Trauma surgery if associated injuries
+
+@cond chemical-burn
+ch: 125
+name: Chemical burns (skin and eye)
+name_fa: سوختگی شیمیایی (پوست و چشم)
+cc: burn-electrical, eye, wound-bite
+keywords: chemical burn, alkali, acid, hydrofluoric acid, phenol, cement, white phosphorus, tar, mustard, tear gas, pepper spray, ocular chemical burn, سوختگی شیمیایی
+status: draft
+
+@features
+- بیش از 25,000 محصول؛ درصد کوچک ولی 30% مرگ‌های سوختگی؛ بسته به عامل، غلظت، حجم، مدت و عمق نفوذ؛ قلیا معمولاً آسیب بیشتر از اسید (نکروز liquefaction عمیق‌تر؛ اسید: coagulation و escar محدودکننده)؛ HF: نفوذ سریع از پوست سالم و درد پیشرونده و تخریب عمیق بدون آسیب سطحی واضح
+- سمیت سیستمیک (هیپوتانسیون، اسیدوز، شوک) در جذب برخی مواد؛ سوختگی چشم اورژانس واقعی: اسید: رسوب پروتئین و قرنیه «ground glass»؛ قلیا شدیدتر و نفوذ عمیق‌تر؛ lacrimators (گاز اشک‌آور، اسپری فلفل): تحریک چشم، مخاط و ریه
+- تشخیص: شرح حال؛ در هر تحریک/درد پوستی فکر کن؛ pH paper برای چشم
+
+@ddx
+- !Systemic toxicity (HF: hypocalcemia, arrhythmia) |
+- Thermal burn |
+- Contact dermatitis |
+
+@redflags
+- HF، سوختگی چشم، سمیت سیستمیک، اشتعال فلز/فسفر، مواجهه دهانی
+
+@guide
+اولویت: قطع فرآیند سوختن: لباس را خارج، ذرات خشک را پاک و فوراً شستشوی فراوان با آب؛ فلزات عنصری (سدیم، لیتیم، کلسیم، منیزیم) را با روغن معدنی بپوشان (آب واکنش گرمازا). چشم: 1 تا 2 L NS برای هر چشم؛ در اسید و قلیا تا pH طبیعی؛ قلیا شستشوی طولانی‌تر؛ بینایی و pH بعد از شستشوی اولیه؛ چشم‌پزشک. جدول 125-6: اسیدها: شستشوی فراوان؛ acetic acid: در سوختگی وسیع پوست سر آنتی‌بیوتیک سیستمیک؛ phenol: شستشو، ایزوپروپیل الکل نیز، اسفنج با PEG 200 تا 400 غلیظ؛ chromic: پایش سمیت سیستمیک؛ formic: دیالیز در سمیت شدید؛ HF: calcium gluconate تزریق داخل‌جلدی 10% یا داخل‌شریانی در شدید و ژل 25 mL از 10% در 75 mL لوبریکانت محلول در آب و پایش Ca/Mg؛ nitric: شستشو و مشاوره سوختگی؛ oxalic: الکترولیت و کلیه، Ca IV و مانیتور. قلیاها: شستشوی طولانی؛ سیمان پورتلند: برس برای ذرات؛ فلزات عنصری: آب منع در فلز مشتعل؛ پوشاندن با شن، فوم CO2/class D یا روغن معدنی؛ برش فلز غیرقابل پاک‌کردن. هیدروکربن: بنزین: دکونتامیناسیون؛ قیر: خنک کردن، baby oil، پماد آنتی‌بیوتیک با polysorbate. vesicants (خردل): دکونتامیناسیون؛ در کمبود آب پودر جاذب (آرد، talc، fuller's earth). alkyl mercury: شستشو و دبریدمان/تخلیه تاول (جیوه). lacrimators: شستشوی فراوان. white phosphorus: خارج کردن لباس، شستشو و مرطوب یا غوطه‌ور نگه داشتن تا همه ذرات خارج (اشتعال در هوا)، دبریدمان ذرات؛ airbag: شستشوی طولانی. جدول 125-7 HF پوستی: 1) شستشو 15 تا 30 دقیقه فوراً؛ 2) ژل calcium gluconate (25 mL از 10% در 75 mL)؛ 3) تزریق داخل‌جلدی calcium gluconate 10% با 0.5 mL/cm²، تزریق شریانی طی 4 ساعت (40 mL D5W + 10 mL calcium gluconate 10%)، Mg و Ca IV؛ مشاوره جراحی پلاستیک در HF دست، پا، انگشت و ناخن؛ سپس مایع IV، مسکن، کزاز و سمیت سیستمیک.
+
+@variant chemical-skin
+name: Chemical burn, skin (decontamination, agent-specific)
+level: II
+imp: Chemical burn, skin
+cond: Emergent
+act: CBR
+diet: PO
+ecg: once
+cxr: none
+
+@scenario
+کارگر با پاشیده شدن قلیا روی دست و ساعد با سوزش شدید.
+
+@why
+شستشوی فوری و طولانی؛ درمان اختصاصی عامل.
+
+@L
+- Serum electrolytes and renal function (oxalic acid, HF: calcium, magnesium); ECG / cardiac monitoring for serious dermal HF or oxalic exposure
+
+@S
+- IV fluid resuscitation and analgesia after decontamination; treat systemic toxicity as needed
+- HF skin burn: calcium gluconate gel 25 mL of 10% in 75 mL water-soluble lubricant; dermal injection of 10% calcium gluconate 0.5 mL/cm² (small-gauge needle); arterial infusion over 4 h (40 mL D5W + 10 mL of 10% calcium gluconate); consider IV calcium and magnesium
+- Oxalic acid: IV calcium may be required
+
+@T
+- Remove garments; brush off dry particles; immediate copious water irrigation (alkali: prolonged); elemental metals (sodium, lithium, calcium, magnesium): cover with mineral oil / sand / class D extinguisher, no water
+- Phenol: sponge with undiluted polyethylene glycol 200–400 (or isopropyl alcohol); white phosphorus: keep skin wet / submerged and debride particles; cement: remove particles with scrub brush; tar: cool, baby oil, polysorbate ointment; mustard: decontaminate (adsorbent powders if water limited)
+- Tetanus prophylaxis; analgesia
+
+@Co
+- Burn center / burn specialist (nitric acid, HF of hands/feet/digits/nails: plastic surgery); poison center / toxicology
+
+@variant chemical-eye
+name: Chemical eye burn (acid, alkali, lacrimator)
+level: I
+imp: Chemical eye burn
+cond: Emergent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مرد ۲۸ ساله پس از پاشیده شدن قلیای بازکننده لوله به چشم با درد شدید و تاری دید.
+
+@why
+شستشوی فوری قبل از هر چیز؛ سپس pH و بینایی.
+
+@T
+- Immediate irrigation of each involved eye with 1–2 L normal saline; continue until pH normal (prolonged for alkali) {note: visual acuity check and pH testing follow, not precede, initial irrigation}
+- Lacrimators (tear gas, pepper spray): copious irrigation
+- Analgesia
+
+@Co
+- Ophthalmology consultation (urgent)
+
+@cond electrical-injury
+ch: 126
+name: Electrical injuries (including TASER / electronic control devices)
+name_fa: آسیب‌های الکتریکی (شامل TASER)
+cc: burn-electrical, trauma-major, palpitations
+keywords: electrical injury, high voltage, low voltage, electrocution, rhabdomyolysis, compartment syndrome, TASER, stun gun, labial artery bleeding, برق گرفتگی, الکتریسیته
+status: draft
+
+@features
+- از سوختگی سطحی تا آسیب چند‌سیستمی؛ ولتاژ پایین (≤ 1000 V) و بالا (> 1000 V)؛ مکانیسم‌ها: آسیب مستقیم انرژی الکتریکی، آسیب حرارتی، تروما (سقوط یا انقباض عضله)
+- فوری: دیسریتمی از جمله VF، ایست تنفسی، تشنج؛ عوارض قلبی بیشتر در ولتاژ بالا؛ از دست رفتن هوشیاری گذرا شایع؛ سوختگی شدید با خط ولتاژ بالا؛ اندازه پوست با آسیب داخلی همبسته نیست؛ تروما همراه شایع
+- جدول 126-1: قلب: مرگ ناگهانی (VF، آسیستول)، درد قفسه، دیسریتمی، تغییر ST-T، بلوک شاخه، آسیب میوکارد، MI (نادر)، هیپوتانسیون، هیپرتانسیون؛ عصبی: تغییر هوشیاری، آژیتاسیون، کما، تشنج، ادم مغز، آنسفالوپاتی هیپوکسیک، سردرد، آفازی، ضعف، پاراپلژی، کوادری‌پلژی، اختلال نخاع (ممکن تأخیری)، نوروپاتی؛ پوست: سوختگی تماسی، قوس و «flash»، سوختگی ثانویه؛ عروق: ترومبوز، نکروز coagulation، DIC، پارگی دیررس رگ، آنوریسم، کمپارتمان؛ ریه: ایست تنفسی، پنومونی آسپیراسیون، ادم ریوی، کوفتگی، آسیب استنشاقی؛ کلیه/متابولیک: AKI (رنگدانه هم و هیپوولمی)، میوگلوبینوری، اسیدوز لاکتیک، هیپوکالمی، هیپوکلسمی، هیپرگلیسمی؛ GI: سوراخ شدن، زخم استرس، خونریزی؛ عضله: میونکروز، کمپارتمان؛ اسکلتی: شکستگی فشاری مهره، شکستگی استخوان بلند، در رفتگی شانه (قدامی و خلفی)، شکستگی اسکاپولا؛ چشم: سوختگی قرنیه، آب مروارید تأخیری، خونریزی/ترومبوز داخل‌چشمی، uveitis، جداشدگی شبکیه؛ گوش: کم‌شنوایی، وزوز، پارگی پرده (نادر)، ماستوئیدیت/منژیت تأخیری؛ دهان: خونریزی تأخیری شریان لبیال، اسکار و بدشکلی، تأخیر گفتار؛ بارداری: سقط و مرگ جنین
+- تشخیص بر اساس شرح تماس و ضایعات پوستی/دهانی (کودک)؛ بیمار با فراموشی یا تغییر هوشیاری بدون ضایعه پوستی: معاینه دقیق‌تر (رعد/طوفان)؛ ECG: دیسریتمی دهلیزی/بطنی، برادی‌آریتمی، QT طولانی، ST-T؛ CK، میوگلوبین؛ آزمایش و تصویربرداری مثل تروما (ولتاژ بالا)
+- ECDs (cattle prod، stun gun، TASER): ولتاژ بالا/آمپر پایین: انقباض غیرارادی عضله، ناتوانی عصبی-عضلانی و درد؛ آسیب الکتریکی حداقل؛ سوراخ‌های سطحی و بریدگی/سوختگی جزئی؛ بیشتر مرگ‌ها در افراد بسیار بیمار و آژیته (سایکوز، محرک)
+
+@ddx
+- !Myocardial ischemia / arrhythmia of other cause |
+- !Head / spinal cord injury / stroke |
+- Compartment syndrome / rhabdomyolysis |
+
+@redflags
+- ولتاژ > 600 V، دیسریتمی، درد قفسه، تغییر هوشیاری، میوگلوبینوری، کمپارتمان، سوختگی عمیق
+
+@guide
+تروما بلانت چندگانه: ACLS و ایمبیلیزاسیون گردن/ستون. راه هوایی: سوختگی صورت ناشی از flash معمولاً راه هوایی را درگیر نمی‌کند؛ اکسیژن پرجریان و پالس‌اکسیمتری. VF، آسیستول، VT: ACLS استاندارد؛ سایر دیسریتمی‌ها معمولاً گذرا. تشنج بلافاصله پس از شوک؛ تشنج جدید: درمان استاندارد و بررسی آسیب کانونی مغز. کمپارتمان: مشاوره فوری جراحی عمومی/تروما/سوختگی. پایش هیپرکالمی، رابدومیولیز و AKI با Foley؛ کریستالوئید در سوختگی وسیع یا عضله آسیب‌دیده؛ فرمول‌های سوختگی معمولاً کمتر از نیاز تخمین می‌زنند؛ رابدومیولیز شدید/میوگلوبینوری: هیدراتاسیون تهاجمی با هدف UOP 2 mL/kg/h تا CK < 5 برابر نرمال یا میوگلوبین ادرار طبیعی. سوختگی با پانسمان خشک استریل؛ آنتی‌بیوتیک پروفیلاکتیک معمولاً لازم نیست مگر زخم باز آلوده وسیع. کزاز. اوپیوئید. شکستگی/در رفتگی: جا انداختن و ایمبیلیزاسیون. باردار: مشاوره زنان و پایش جنین. بستری: بیش از آسیب ولتاژ پایین خفیف (جدول 126-3): ولتاژ > 600 V؛ علائم سیستمیک (قلبی: درد قفسه و تپش؛ عصبی: LOC، گیجی، ضعف، سردرد، پارستزی؛ تنفسی: تنگی نفس؛ GI: درد شکم و استفراغ)؛ آسیب عصبی/عروقی انگشت یا اندام؛ سوختگی با آسیب زیرجلدی؛ دیسریتمی یا ECG غیرطبیعی؛ شبهه سوء قصد/سوءاستفاده/خودکشی یا وضعیت اجتماعی ناپایدار؛ بارداری؛ آسیب همراه؛ بیماری قلبی/کلیه/عصبی. کودک با آسیب دهانی یا دست منفرد: ترخیص پس از مشاوره ENT/پلاستیک؛ آموزش کنترل خونریزی دیررس شریان لبیال و پیگیری. بدون علامت با ولتاژ پایین (≤ 240 V)، ECG و معاینه طبیعی: ترخیص. ECD: ارزیابی مثل تروما بلانت/مسمومیت ناشناخته در بیمار بدحال/آژیته؛ مانیتور قلبی و آزمایش‌های دیگر فقط به‌علت TASER لازم نیست.
+
+@variant electrical-low-voltage
+name: Low-voltage (≤ 240 V) injury, asymptomatic with normal ECG; ECD (TASER) exposure
+level: III
+imp: Electrical injury, low voltage / ECD exposure
+cond: Urgent
+act: CBR
+diet: PO
+ecg: stat
+cxr: none
+
+@scenario
+مرد ۳۵ ساله پس از برق‌گرفتگی 220 V خانگی بدون علامت، معاینه و ECG طبیعی؛ یا فرد پس از TASER با سوراخ سطحی.
+
+@why
+ECG و معاینه طبیعی: ترخیص؛ مراقبت زخم.
+
+@L
+- (no additional labs if asymptomatic; CK if symptomatic)
+
+@T
+- Dry sterile dressing for any burn; tetanus prophylaxis; superficial puncture wound care (ECD)
+- Delayed labial artery bleeding instructions if oral injury in child
+
+@Co
+- Discharge: asymptomatic, low voltage (≤ 240 V), normal ECG and normal examination; children with isolated oral / hand injury after ENT / plastic surgery consultation
+
+@variant electrical-high-voltage
+name: High-voltage (> 600 V) or symptomatic electrical injury (cardiac, neuro, rhabdomyolysis)
+level: I
+imp: Electrical injury, high voltage / symptomatic
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+o2: high-flow oxygen
+
+@scenario
+لاین‌من ۴۰ ساله پس از تماس با خط 10,000 V با سوختگی دست و پا، گیجی، ادرار تیره و ECG: PVC.
+
+@why
+مانند ترومای چندگانه، ECG، CK، کریستالوئید برای UOP 2 mL/kg/h و بستری.
+
+@I
+- CXR portable; CT head as needed for altered mental status; imaging of spine, pelvis, long bones per trauma guidelines
+
+@L
+- CK, serum and urine myoglobin; electrolytes (K, Ca), BUN, creatinine; urinalysis; CBC, coagulation; troponin; blood gas; lactate; type and screen
+
+@S
+- Aggressive crystalloid resuscitation with Foley urine output monitoring: target 2 mL/kg/h until CK < 5 times normal or urine myoglobin normal {ci: caution in heart failure; usual burn-resuscitation formulas often underestimate requirements}
+- IV opioids for pain
+
+@T
+- Treat as blunt multiple trauma: ACLS protocols, cervical and spine immobilization; high-flow oxygen and pulse oximetry; continuous cardiac monitoring
+- VF / asystole / VT: standard ACLS; seizures: standard therapy and consider focal cerebral injury
+- Cover burns with dry sterile dressings; tetanus prophylaxis; reduce and immobilize fractures and dislocations {note: prophylactic antibiotics not necessary unless large contaminated open wounds}
+- Assess for compartment syndrome and need for fasciotomy
+
+@Co
+- Admit for cardiac monitoring (high voltage > 600 V; symptoms; dysrhythmia / abnormal ECG; deep burns)
+- General / trauma / burn surgery (priority for compartment syndrome); obstetrics for pregnant patients (fetal monitoring); ophthalmology / ENT as indicated
+
+@cond lightning-injury
+ch: 126
+name: Lightning injuries
+name_fa: آسیب صاعقه
+cc: burn-electrical, trauma-major, altered-mental-status
+keywords: lightning strike, lightning injury, keraunoparalysis, Lichtenberg figures, feathering burns, reverse triage, صاعقه
+status: draft
+
+@features
+- جریان یک‌طرفه با ولتاژ بسیار بالا؛ اغلب روی پوست (flashover) ← بیشتر بقا؛ ولی نسبت قابل‌توجهی عوارض دائمی
+- اثر در چند سطح: الکتریکی، حرارت بالا و شوک‌ویو؛ شایع‌ترین علت فوری مرگ: ایست قلبی هیپوکسیک اولیه یا ثانویه ناشی از ایست تنفسی؛ هیپرتانسیون و تاکی‌کاردی (فعال‌سازی سمپاتیک)؛ از دست رفتن هوشیاری گذرا، گیجی و فراموشی؛ سوختگی «feathering» یا سرخسی پاتوگنومونیک ولی گذرا و نادر؛ پارگی پرده تمپان (blast)؛ آسیب عمیق بافتی، میوگلوبینوری و نارسایی کلیه نادر
+- جدول 126-4: قلب: آسیستول، VF/VT، PVC، ECG، MI (غیرمعمول)؛ عصبی (فوری یا تأخیری، گذرا یا دائمی): LOC، گیجی، فراموشی، خونریزی داخل‌جمجمه‌ای، همی‌پلژی، فلج مرکز تنفس، ادم مغز، نوریت، تشنج، سندرم پارکینسونی، انفارکت مغز، میلوپاتی، آتروفی عضلانی پیشرونده، سندرم مخچه‌ای پیشرونده، فلج گذرا، پارستزی، اختلال اتونوم؛ پوست: سوختگی (درجه 1 تا 3)، اسکار، کنتراکچر؛ چشم: آب مروارید (اغلب تأخیری)، ضایعات قرنیه، uveitis، iridocyclitis، خونریزی ویتره، دژنراسیون ماکولا، آتروفی عصب بینایی، دوبینی، chorioretinitis، جداشدن شبکیه، hyphema؛ گوش: پارگی پرده، کم‌شنوایی موقت یا دائم، وزوز، آتاکسی، ورتیگو، نیستاگموس؛ کلیه: میوگلوبینوری، هموگلوبینوری، نارسایی نادر؛ بارداری: مرگ جنین، جدا شدن جفت؛ متفرقه: تروما بلانت ثانویه، کمپارتمان، DIC
+- تشخیص بر اساس شرح؛ در هر بیمار بدحال یافت‌شده بیرون حین یا پس از طوفان؛ مواجهه داخل ساختمان (استخر، تلفن سیمی، سازه ضعیف) نادر؛ ارزیابی دقیق عصبی، قلبی-عروقی، گوش، چشم و تروما؛ آزمایش و تصویربرداری مثل تروما؛ افتراق: سکته/خونریزی داخل‌جمجمه‌ای، صرع، تروما به مغز/نخاع
+
+@ddx
+- !Stroke / intracranial hemorrhage |
+- !Blunt trauma / spinal cord injury |
+- Seizure disorder |
+
+@redflags
+- ایست تنفسی/قلبی، تغییر هوشیاری، هیپوتانسیون (به خونریزی فکر کن)، حاملگی
+
+@guide
+تروما بلانت چندگانه: ACLS و ایمبیلیزاسیون ستون. در حوادث با تلفات انبوه برخلاف تریاژ معمول، احیای تهاجمی برای بیماران با ایست تنفسی و قلبی (reverse triage)؛ ایست تنفسی ممکن است از ایست قلبی طولانی‌تر باشد و تهویه کافی از آسیب هیپوکسیک تا ROSC پیشگیری می‌کند. دیسریتمی طبق ACLS. پایش مداوم علائم حیاتی، ریتم و SpO2؛ اکسیژن پرجریان و کریستالوئید IV. هیپرتانسیون شایع و گذرا و اندیکاسیون درمان نیست؛ هیپوتانسیون غیرمنتظره: بررسی خونریزی. تشنج زودرس احتمالاً آنوکسی؛ پایدار: درمان استاندارد و بررسی آسیب کانونی. keraunoparalysis (ضعف گذرا اندام) تشخیص حذفی: سایر علل پارزی ناشی از تروما را بررسی کن. اندام بدون نبض: فاسیوتومی فقط با فشار کمپارتمان بالا. کزاز؛ آنتی‌بیوتیک پروفیلاکتیک فقط با آلودگی ارگانیک. بستری ICU: علائم عضلانی-اسکلتی پایدار، اختلال عصبی، ریتم قلبی یا عروقی، یا سوختگی قابل‌توجه؛ مشاوره جراحی؛ باردار: مشاوره زنان و پایش جنین. آسیب خفیف با ورک‌آپ منفی: ترخیص و پیگیری سرپایی برای اثرات تأخیری.
+
+@variant lightning-main
+name: Lightning strike
+level: I
+imp: Lightning injury
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+o2: high-flow oxygen
+
+@scenario
+کوهنورد ۲۵ ساله پس از اصابت صاعقه با بی‌هوشی گذرا، گیجی، فراموشی، ضعف پاها، پارگی پرده تمپان و HR 120، BP 170/100.
+
+@why
+مانند تروما + ECG؛ ایست تنفسی را فوراً تهویه کن.
+
+@I
+- CXR portable; CT head / spine and trauma imaging per trauma guidelines
+
+@L
+- CK, myoglobin, electrolytes, BUN, creatinine, CBC, troponin, urinalysis; coagulation; type and screen
+
+@S
+- IV crystalloids {ci: caution in heart failure; hypotension should prompt search for hemorrhage}
+
+@T
+- Treat as blunt multiple trauma: ACLS protocols, cervical and spine immobilization; continuous monitoring (vital signs, rhythm, pulse oximetry); high-flow oxygen
+- Mass casualty: aggressive resuscitation of respiratory / cardiac arrest victims (ventilate until ROSC)
+- Hypertension frequent and transient: no therapy; early seizures (anoxia): standard therapy
+- Keraunoparalysis is a diagnosis of exclusion; fasciotomy only with high compartment pressure
+- Tetanus prophylaxis if burns / wounds (no prophylactic antibiotics unless organic contamination)
+
+@Co
+- Admit critical care unit if persistent musculoskeletal, neurologic, cardiac rhythm or vascular abnormalities, or significant burns; general / trauma / burn surgery; ophthalmology / ENT follow-up; obstetrics for pregnant patients
+- Discharge with outpatient follow-up (delayed effects) for minor injuries with negative workup

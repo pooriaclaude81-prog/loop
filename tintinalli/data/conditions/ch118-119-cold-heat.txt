@@ -1,0 +1,398 @@
+@cond nonfreezing-cold-injury
+ch: 118
+name: Nonfreezing cold injury (trench foot, chilblains / pernio)
+name_fa: سرمازدگی بدون انجماد (trench foot و chilblains)
+cc: environmental, joint-limb-pain, rash
+keywords: trench foot, chilblains, pernio, nonfreezing cold injury, nifedipine, pentoxifylline, سرمازدگی, پای سنگر
+status: draft
+
+@features
+- trench foot: آسیب مستقیم بافت نرم ناشی از مواجهه طولانی با سرما و رطوبت بدون انجماد؛ پا ابتدا رنگ‌پریده، لکه‌دار، بدون نبض و بی‌حس و با گرم کردن سریع بهتر نمی‌شود؛ چند ساعت بعد از گرم کردن (2 تا 3 روز) هیپرمیک و دردناک با برگشت پرفیوژن؛ تاول و ادم دیررس؛ بی‌حسی ممکن است هفته‌ها یا دائمی؛ هیپرهیدروز و حساسیت به سرما ماه‌ها تا سال‌ها
+- chilblains (pernio): ضایعات التهابی دردناک گوش، دست و پا از مواجهه مزمن متناوب با شرایط مرطوب بدون انجماد؛ ادم موضعی، اریتم و سیانوز تا 12 ساعت بعد، با خارش و پارستزی سوزشی؛ ندول‌های آبی دردناک پس از گرم شدن تا چند روز
+
+@ddx
+- !Frostbite |
+- !Acute limb ischemia |
+- Raynaud phenomenon / vasculitis |
+
+@redflags
+- پای بدون نبض و بی‌حس، گانگرن، تاول
+
+@guide
+trench foot و chilblains: خشک کردن، بالا نگه داشتن، گرم کردن و پانسمان. chilblains: افزودن nifedipine 20 mg PO سه بار در روز، pentoxifylline 400 mg PO سه بار در روز یا limaprost 20 µg PO سه بار در روز، و کورتیکواستروئید موضعی مثل fluocinolone 0.025%.
+
+@variant nonfreezing-cold-main
+name: Trench foot / chilblains
+level: III
+imp: Nonfreezing cold injury (trench foot / chilblains)
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مردی بی‌خانمان با پای سرد، رنگ‌پریده و بی‌حس پس از روزها پوشیدن جوراب خیس؛ یا زنی با ندول‌های آبی دردناک انگشتان دست.
+
+@why
+خشک و گرم کردن؛ chilblains دارودرمانی.
+
+@L
+- (none specific; add CBC / glucose if systemically unwell)
+
+@T
+- Drying, elevation, warming, and bandaging of the affected body part
+- Chilblains: nifedipine 20 mg PO three times daily, or pentoxifylline 400 mg PO three times daily, or limaprost 20 µg PO three times daily; topical corticosteroid (e.g., 0.025% fluocinolone cream)
+
+@Co
+- Discharge with follow-up; surgical / vascular consult if necrosis or non-viable tissue
+
+@cond frostbite
+ch: 118
+name: Frostbite
+name_fa: سرمازدگی انجمادی (Frostbite)
+cc: environmental, joint-limb-pain, limb-injury
+keywords: frostbite, frostnip, rewarming, hemorrhagic bullae, aloe vera, tetanus, یخ زدگی
+status: draft
+
+@features
+- انجماد بافت؛ ابتدا سوزش، گزگز و بی‌حسی؛ درجه‌بندی بر اساس ظاهر پس از گرم کردن: درجه 1 (frostnip): انجماد بخشی ضخامت پوست، اریتم، ادم، بدون تاول و بدون از دست رفتن بافت؛ درجه 2: انجماد تمام‌ضخامت پوست، تاول شفاف، بی‌حسی سپس درد زونکی؛ درجه 3: انجماد پوست و شبکه زیرجلدی، تاول هموراژیک و نکروز پوست؛ درجه 4: تا عضله، تاندون و استخوان با پوست لکه‌دار، سیانوز غیرقابل رنگ‌پریدگی و بالاخره escar خشک سیاه مومیایی
+- در ابتدا بهتر است سطحی یا عمیق دسته‌بندی شود؛ آزمایش و تصویربرداری برای تشخیص لازم نیست
+
+@ddx
+- !Hypothermia (concurrent) |
+- Chilblains / trench foot |
+- Acute arterial occlusion |
+
+@redflags
+- تاول هموراژیک، پوست سیاه، سیانوز نایل‌بلانش، هیپوترمی همزمان
+
+@guide
+گرم کردن سریع در آب در گردش 37 تا 39 درجه سانتی‌گراد (98.6 تا 102.2 F) به مدت 20 تا 30 دقیقه تا نرم و اریتماتو شدن بافت. دبریدمان تاول شفاف و آسپیراسیون تاول هموراژیک بحث‌برانگیز: با جراح مشورت (ترجیح محلی). aloe vera موضعی هر 6 ساعت. مدیریت درد، مراقبت از زخم، پانسمان، آتل و بالا نگه داشتن؛ ممکن است اوپیوئید تزریقی ابتدا و سپس NSAID خوراکی. واکسیناسیون کزاز در صورت نیاز. سطحی موضعی: ترخیص با پیگیری نزدیک؛ عمیق‌تر: بستری. پروفیلاکسی با bacitracin، آنتی‌بیوتیک و silver sulfadiazine بحث‌برانگیز.
+
+@variant frostbite-superficial
+name: Superficial frostbite (frostnip / first-second degree)
+level: III
+imp: Frostbite, superficial
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+اسکی‌باز با سفیدی و بی‌حسی نوک انگشتان که پس از گرم شدن اریتماتو و دردناک شد، تاول شفاف.
+
+@why
+گرم کردن با آب 37 تا 39 درجه، aloe vera و ترخیص با پیگیری.
+
+@L
+- (none required; laboratory testing and imaging not needed to diagnose frostbite)
+
+@S
+- IV access if needed for analgesia
+
+@T
+- Rapid rewarming in circulating water at 37–39°C (98.6–102.2°F) for 20–30 min until tissue pliable and erythematous
+- Topical aloe vera every 6 h
+- Analgesia (parenteral opioids initially, then oral NSAIDs); local wound care and dressing; splint and elevate
+- Tetanus immunoprophylaxis if needed {note: debridement of clear blisters / aspiration of hemorrhagic blisters controversial; prophylactic bacitracin, antibiotics, silver sulfadiazine controversial}
+
+@Co
+- Discharge home with close follow-up for superficial local frostbite
+
+@variant frostbite-deep
+name: Deep frostbite (third–fourth degree, hemorrhagic bullae, nonblanching cyanosis)
+level: II
+imp: Frostbite, deep
+cond: Urgent
+act: CBR
+diet: PO
+ecg: once
+cxr: none
+
+@scenario
+کوهنورد با انگشتان سیاه، تاول هموراژیک و سیانوز مقاوم پس از گرم کردن.
+
+@why
+گرم کردن، مسکن و بستری؛ مشاوره جراحی.
+
+@L
+- CBC, electrolytes, glucose (if systemically ill / hypothermic)
+
+@S
+- IV access for parenteral analgesia
+
+@T
+- Rapid rewarming in circulating water at 37–39°C for 20–30 min
+- Topical aloe vera every 6 h; analgesia (parenteral opioids initially, then oral NSAIDs); splint and elevate; dressing
+- Tetanus immunoprophylaxis if needed
+
+@Co
+- Admit for ongoing care; surgical consultation (blister management, local preference)
+
+@cond accidental-hypothermia
+ch: 118
+name: Accidental hypothermia
+name_fa: هیپوترمی تصادفی
+cc: environmental, altered-mental-status, hypotension-shock
+keywords: hypothermia, Osborn J wave, ECMO, rewarming, core temperature, cold diuresis, HT staging, هیپوترمی, موج اوسبورن
+status: draft
+
+@features
+- دمای مرکزی < 35°C (< 95°F)؛ اتلاف حرارت با هدایت، همرفت، تابش یا تبخیر
+- طیف پیوسته: خفیف (32 تا 35°C): تاکی‌کاردی، تاکی‌پنه، هیپرتانسیون، لرز و هوشیاری طبیعی؛ زیر 32: لرز قطع، کاهش HR و BP؛ سپس گیجی، لتارژی، کما، از دست رفتن رفلکس مردمک، کاهش RR، کاهش رفلکس gag و سرفه، برونکوره؛ آسپیراسیون شایع؛ دیورز سرد و هموکونسانتراسیون
+- قلب: برادیکاردی سینوسی → AF با پاسخ بطنی آهسته → VF → آسیستول؛ زیر 32 خطر دیسریتمی؛ زیر 28°C خطر ایست قلبی و دیسریتمی بدخیم
+- تشخیص بر اساس دمای مرکزی؛ ممکن است بدون شرح حال مواجهه واضح نباشد؛ ترمومتر low-reading؛ آزمایش: گلوکز، CBC، الکترولیت، TSH، کورتیزول تصادفی، پروفایل انعقادی، لاکتات، لیپاز، کراتینین، گاز خون و ECG؛ اختلال اسید-باز الگوی قابل‌پیش‌بینی ندارد؛ ترومبوز داخل‌عروقی، آمبولی و DIC
+- ECG: طولانی شدن PR، QRS و QT، T وارونه، موج Osborn J
+- علل: مواجهه محیطی، هیپوگلیسمی، هیپوتیروئیدی، هیپوآدرنالیسم، هیپوپیتوئیتاریسم، اختلال CNS، مسمومیت دارویی، سپسیس، بیماری پوستی
+
+@ddx
+- !Sepsis |
+- !Hypoglycemia |
+- Hypothyroidism / adrenal insufficiency (myxedema, Addisonian crisis) |
+- Drug intoxication / CNS dysfunction |
+
+@redflags
+- دمای < 32°C، ناپایداری قلبی، بیهوشی، فشار < 90، آریتمی بطنی، دمای < 28°C
+
+@guide
+محیط گرم؛ پایش مداوم علائم حیاتی، پالس‌اکسیمتری و دمای مرکزی (رکتال، مثانه یا مری)؛ اندیکاسیون اینتوباسیون مثل نورموترمیک؛ مایع IV گرم شده با سرعت بر اساس حجم؛ لباس خیس خارج، خشک و پوشاندن. جابه‌جایی آرام برای جلوگیری از دیسریتمی کشنده. نبض و تنفس 30 تا 45 ثانیه؛ اگر نبود CPR؛ یا سونوگرافی بالین. برادیکاردی سینوسی، AF، فلوتر معمولاً درمان لازم ندارد و با گرم شدن برطرف؛ VF مقاوم تا گرم شدن (AHA یک تلاش شوک). روش‌های گرم کردن (جدول 118-1): پاسیو، فعال خارجی، فعال مرکزی؛ انتخاب بر اساس وضعیت قلبی-عروقی. پایدار و دمای > 30°C: پاسیو. ناپایدار: گرم کردن مرکزی سریع؛ extracorporeal (ECMO/CPB) انتخاب شده. ادامه احیا تا دمای 32°C. علت زمینه‌ای: دکستروز 50 mL IV در هیپوگلیسمی؛ جایگزینی هورمون در هیپوتیروئیدی/هیپوآدرنالیسم. بستری: همه علامت‌دار یا ثانویه؛ سالم با هیپوترمی خفیف محیطی که سریع رفع شد: ترخیص اگر شرایط اجتماعی اجازه دهد.
+
+@variant hypothermia-mild
+name: Mild hypothermia, HT I (32–35°C, conscious, shivering)
+level: III
+imp: Accidental hypothermia, mild (HT I)
+cond: Urgent
+act: CBR
+diet: PO
+ecg: stat
+cxr: none
+
+@scenario
+مرد جوان پس از شب سرد با لرز، هوشیار، دمای مرکزی 34°C.
+
+@why
+گرم کردن پاسیو، نوشیدنی شیرین گرم؛ علت زمینه‌ای را رد کن.
+
+@L
+- Glucose (fingerstick); CBC, electrolytes, BUN, creatinine; TSH and random cortisol if secondary hypothermia suspected
+
+@S
+- Warm IV fluid titrated to volume status if needed {ci: caution in heart failure / pulmonary edema}
+- Dextrose 50 mL IV if hypoglycemia
+
+@T
+- Warm environment and clothing; remove wet clothing, dry and cover; warm sweet drinks; active movement if possible
+- Continuous monitoring: vital signs, pulse oximetry, core temperature (rectal, bladder, or esophageal low-reading thermometer)
+- HT I with significant trauma, comorbidities, or suspected secondary hypothermia: treat as HT II
+
+@Co
+- Discharge if hypothermia resolves quickly and social circumstances allow; admit if symptomatic or secondary
+
+@variant hypothermia-moderate
+name: Moderate–severe hypothermia, HT II–III (< 32°C, impaired consciousness, bradycardia/AF)
+level: I
+imp: Accidental hypothermia, moderate to severe (HT II–III)
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+o2: warmed humidified oxygen
+
+@scenario
+مرد ۶۰ ساله یافت‌شده در برف با گیجی، لرز قطع، دمای مرکزی 29°C، HR 38 و موج Osborn.
+
+@why
+گرم کردن فعال خارجی/مینیمال تهاجمی، جابه‌جایی آرام و ECMO در ناپایداری.
+
+@I
+- CXR portable (aspiration)
+- Bedside ultrasonography to assess cardiovascular status
+
+@L
+- Glucose, CBC, electrolytes (potassium), BUN, creatinine, TSH, random cortisol, clotting profile, lactate, lipase, blood gas (DIC / acid–base)
+
+@S
+- Warmed IV fluids titrated to volume status {ci: caution in heart failure / pulmonary edema}
+- Dextrose 50 mL IV for hypoglycemia
+- Hormone replacement if hypothyroidism / hypoadrenalism suspected
+
+@T
+- Continuous cardiac monitoring, pulse oximetry, core temperature (rectal, bladder, or esophageal low-reading)
+- Warm environment; active external and minimally invasive rewarming (chemical, electrical, or forced air heating packs or blankets; warm parenteral fluids); full-body insulation, horizontal position; minimal and cautious movements
+- Airway management as required (intubation indications as normothermic)
+- Bradycardia, AF and flutter usually require no therapy; VF refractory until rewarmed (single defibrillation attempt per AHA)
+- Active core rewarming / extracorporeal rewarming (ECMO or CPB) for cardiovascular instability
+
+@Co
+- Prefer treatment at ECMO/CPB center for HT III; consider ECMO for cardiac instability refractory to medical management or comorbid patients unlikely to tolerate low cardiac output
+- Admit ICU; toxicology if drug intoxication
+
+@variant hypothermia-arrest
+name: Hypothermic cardiac arrest (HT IV, vital signs absent)
+level: I
+imp: Accidental hypothermia, cardiac arrest (HT IV)
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+
+@scenario
+مرد بی‌خانمان یافت‌شده بدون نبض و تنفس، دمای مرکزی 24°C.
+
+@why
+CPR ادامه، انتقال به مرکز ECMO؛ CPR را قطع نکن.
+
+@L
+- Core temperature; serum potassium (< 12 mmol/L required before ECMO/CPB consideration); glucose, electrolytes, blood gas
+
+@T
+- CPR (palpate pulse / respirations 30–45 s first; or bedside ultrasonography); airway management; up to three doses of epinephrine and defibrillation (further dosing guided by clinical response)
+- Prevent further heat loss (insulation, warm environment); do not apply heat to head
+- Active external and minimally invasive rewarming during transport (recommended but controversial)
+- If ECMO not available within a few hours (6 h): on-site rewarming with hot packs / forced air blankets, warm IV fluid, ± warm thoracic, bladder, peritoneal lavage
+- Do NOT terminate CPR until rewarmed to ≥ 32°C unless obvious irreversible death, valid DNR, unsafe conditions, avalanche burial > 35 min with packed airway, or serum K ≥ 12
+
+@Co
+- Transport to ECMO/CPB center (may reduce mortality by 40–90%); post-arrest management and targeted temperature management after ROSC
+
+@cond heat-stroke
+ch: 119
+name: Heat stroke (exertional and nonexertional)
+name_fa: گرمازدگی (Heat stroke)
+cc: environmental, altered-mental-status, fever
+keywords: heat stroke, exertional heat stroke, hyperthermia, evaporative cooling, rhabdomyolysis, DIC, گرمازدگی, هیپرترمی
+status: draft
+
+@features
+- هیپرترمی (دمای مرکزی > 40°C / 104°F) + آسیب ارگان انتهایی؛ ارتفاع دما و مدت مواجهه شدت آسیب را تعیین می‌کند؛ بافت عصبی، هپاتوسیت‌ها، نفرون‌ها و اندوتلیوم عروقی حساس‌ترین
+- نورولوژیک: گیجی، آژیتاسیون، رفتار عجیب، آتاکسی، تشنج و کما؛ هیپرونتیلاسیون، استفراغ، اسهال، الیگوری؛ آنهیدروز یا تعریق شدید؛ کوآگولوپاتی/DIC: پورپورا، هموپتیزی، خونریزی GI
+- اگزرشنال: فعالیت فیزیکی در گرما/رطوبت؛ تبخیر مکانیسم اصلی اتلاف حرارت ولی با رطوبت > 75% بی‌اثر؛ غیراگزرشنال: ناتوان، بیمار مزمن و کسانی که نمی‌توانند از محیط گرم بگریزند (ماشین بسته، نوزاد بسیار پوشیده، خانه گرم)
+- یافته‌های زودرس آزمایشگاه: هیپوگلیسمی، هیپوفسفاتمی، هیپوکالمی، افزایش آنزیم کبد، هیپرکلسمی، هماتوکریت بالا، CPK و میوگلوبین (رابدومیولیز)؛ DIC و نارسایی کلیه با گذشت زمان
+
+@ddx
+- !Sepsis / meningitis / encephalitis / malaria / tetanus |
+- !Thyroid storm / DKA |
+- Toxic: sympathomimetics, anticholinergics, salicylates, serotonin syndrome, NMS, malignant hyperthermia, alcohol / benzodiazepine withdrawal |
+- Stroke / status epilepticus |
+
+@redflags
+- دمای > 40°C، تغییر هوشیاری، تشنج، کوآگولوپاتی، الیگوری، CPK بالا
+
+@guide
+شناسایی دقیق هیپرترمی با آسیب ارگان و کاهش سریع عدم تعادل حرارتی. ABC؛ اینتوباسیون در تغییر هوشیاری قابل‌توجه، کاهش gag یا هیپوکسی. پایش مداوم علائم حیاتی و دمای مرکزی (رکتال، مثانه یا مری)؛ اکسیژن پرجریان؛ کریستالوئید IV برای MAP > 80 تا 90 mmHg؛ از اضافه‌بار حجم بپرهیز؛ ممکن است وازوپرسور. خنک‌سازی سریع تا 38°C: خارجی مؤثرترین: پتوی خنک، خیس کردن پوست و فن (تبخیری)، یخ در کشاله ران/زیربغل/گردن؛ غوطه‌وری در آب سرد مؤثر ولی عملی نیست؛ داخلی: مایع IV دمای اتاق، کاتتر مرکزی تبادل حرارت و در شدید cardiopulmonary bypass؛ lavage معده، رکتوم و مثانه برتر از خارجی نیست (جدول 119-1). تشنج و لرز زیاد: بنزودیازپین (lorazepam 1 تا 2 mg IV یا diazepam 5 mg IV). رابدومیولیز: هیدراتاسیون IV (قلیایی‌سازی ادرار یا دیورز اجباری با mannitol یا دیورتیک لوپ بهبود پیامد ثابت نکرده). الکترولیت هر ساعت در ابتدا؛ هیپرکالمی و DIC با رژیم استاندارد. ضدتب (acetaminophen، ibuprofen) و dantrolene بی‌اثر و نباید استفاده شوند. اغلب بستری ICU.
+
+@variant heat-stroke-main
+name: Heat stroke (core temperature > 40°C with CNS dysfunction)
+level: I
+imp: Heat stroke
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+o2: high-flow oxygen
+
+@scenario
+دونده ۲۵ ساله ماراتن در گرما با گیجی، دمای رکتال 41.5°C، تاکی‌کاردی و تشنج.
+
+@why
+خنک‌سازی تبخیری فوری تا 38°C؛ بدون ضدتب.
+
+@I
+- CXR portable
+- CT head / neuroimaging as clinically indicated
+
+@L
+- Electrolytes (hourly initially), BUN, creatinine, glucose, phosphate, calcium, liver enzymes, CBC, PT/INR (DIC), CPK and myoglobin, urinalysis, blood gas; toxicology screen and septic workup as indicated
+
+@S
+- IV crystalloid to maintain MAP above 80–90 mmHg {ci: avoid volume overload; caution in heart failure / pulmonary edema}
+- IV hydration for rhabdomyolysis {ci: no proven benefit of urine alkalinization or forced diuresis with mannitol / loop diuretics}
+
+@T
+- Continuous monitoring: vital signs and core temperature (rectal, bladder, esophageal); high-flow oxygen; intubate if significantly altered mental status, diminished gag, or hypoxia
+- Rapid cooling until core temperature 38°C (100.4°F): evaporative cooling (wet skin + fan), cooling blanket, ice packs to groin / axillae / neck; cold water immersion if practical; internal cooling (room temperature IV fluid, central heat exchange catheter) in severe cases; CPB in extreme cases {ci: antipyretics (acetaminophen, ibuprofen) and dantrolene are ineffective}
+- Lorazepam 1–2 mg IV or diazepam 5 mg IV for seizures / excessive shivering
+- Vasopressors if required; treat hyperkalemia and DIC with standard regimens
+
+@Co
+- ICU admission
+
+@cond minor-heat-illness
+ch: 119
+name: Minor heat illness (heat syncope, cramps, edema, rash)
+name_fa: بیماری‌های خفیف گرما (سنکوپ، گرفتگی، ادم، راش)
+cc: environmental, syncope, joint-limb-pain, rash
+keywords: heat syncope, heat cramps, heat edema, heat rash, prickly heat, گرمازدگی خفیف, گرفتگی عضلانی, سنکوپ گرمایی
+status: draft
+
+@features
+- سنکوپ گرمایی: کمبود حجم، اتساع عروق محیطی و کاهش تون وازوموتور؛ شایع در سالمند و غیرسازگار؛ علائم وضعیتی ممکن است در ED دیده نشود؛ سایر علل سنکوپ را رد کن
+- گرفتگی گرمایی: اسپاسم دردناک عضله (ساق، ران، شانه) حین ورزش؛ جایگزینی تلفات تبخیری با آب آزاد بدون نمک؛ دمای مرکزی طبیعی یا بالا
+- ادم گرمایی و راش گرمایی: خودمحدود در روزهای اول مواجهه؛ تورم اندام‌های آویزان یا راش در نواحی پوشیده
+
+@ddx
+- !Other causes of syncope (arrhythmia, ACS) |
+- !Heat stroke |
+- Electrolyte disturbance / rhabdomyolysis |
+
+@redflags
+- دمای مرکزی > 40، تغییر هوشیاری (به heat stroke ارتقا ده)
+
+@guide
+علائم معمولاً بدون درمان برطرف و ترخیص. ادم گرمایی: بالا نگه داشتن اندام یا جوراب فشاری؛ دیورتیک کمبود حجم را بدتر می‌کند و باید پرهیز شود. راش گرمایی: آنتی‌هیستامین، کورتیکواستروئید موضعی کم‌قدرت یا calamine؛ لباس سبک و گشاد. سنکوپ و گرفتگی: استراحت و هیدراتاسیون خوراکی یا IV.
+
+@variant heat-syncope-cramps
+name: Heat syncope / heat cramps
+level: III
+imp: Minor heat illness (heat syncope / heat cramps)
+cond: Urgent
+act: CBR
+diet: PO
+ecg: stat
+cxr: none
+
+@scenario
+ورزشکار ۲۰ ساله با گرفتگی دردناک ساق پس از بازی در گرما؛ یا سالمند با سنکوپ در هوای گرم.
+
+@why
+هیدراتاسیون با نمک؛ ECG برای رد علل سنکوپ.
+
+@L
+- Electrolytes, BUN, creatinine, glucose; CPK if severe cramps
+
+@S
+- Oral or IV rehydration {ci: caution in heart failure / CKD}; (isotonic fluid) for volume depletion
+
+@T
+- Rest; oral or IV rehydration (replace salt as well as free water)
+
+@Co
+- Discharge home; exclude other causes of syncope
+
+@variant heat-edema-rash
+name: Heat edema / heat rash
+level: III
+imp: Minor heat illness (heat edema / heat rash)
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+گردشگر با تورم دست و پا و راش زیر لباس در روزهای اول سفر گرم.
+
+@why
+خودمحدود؛ بالا نگه داشتن و آنتی‌هیستامین.
+
+@T
+- Heat edema: elevation of extremities or compressive stockings {ci: avoid diuretics (exacerbate volume depletion)}
+- Heat rash: antihistamines, low-potency topical corticosteroids, or calamine lotion; light, loose-fitting clothing
+
+@Co
+- Discharge home

@@ -1,0 +1,424 @@
+@cond acute-mountain-sickness
+ch: 122
+name: Acute mountain sickness (AMS)
+name_fa: بیماری حاد کوهستان (AMS)
+cc: headache, nausea-vomiting, environmental
+keywords: acute mountain sickness, AMS, altitude sickness, acetazolamide, dexamethasone, descent, بیماری ارتفاع, استازولامید
+status: draft
+
+@features
+- معمولاً در افراد سازگار نشده با صعود سریع به ارتفاع > 2000 m؛ علائم شبیه خماری تا 6 ساعت پس از ورود (گاه تا یک روز تأخیر): سردرد دوطرفه فرونتال همراه ترکیبی از علائم GI، سرگیجه، خستگی یا اختلال خواب؛ بدتر شدن سردرد، استفراغ، الیگوری، تنگی نفس و ضعف = پیشرفت
+- معاینه محدود: هیپوتانسیون وضعیتی، ادم محیطی و صورت، رال موضعی (تا 20%)؛ فوندوس: وریدهای پرپیچ و متسع؛ خونریزی شبکیه شایع در > 5000 m؛ SaO2 استراحت معمولاً طبیعی برای ارتفاع و با تشخیص همبسته ضعیف
+- تشخیص بر اساس سابقه صعود سریع و علائم؛ افتراق: هیپوترمی، مسمومیت CO، عفونت ریوی/CNS، میگرن، دهیدراتاسیون و خستگی شدید
+
+@ddx
+- !CO poisoning / hypothermia |
+- !HAPE / HACE |
+- Migraine / dehydration / exhaustion |
+- Pulmonary or CNS infection |
+
+@redflags
+- تغییر هوشیاری، آتاکسی، ادم ریوی (ارتقا به HACE/HAPE)
+
+@guide
+اهداف: جلوگیری از پیشرفت، قطع بیماری و بهبود سازگاری. قطع صعود تا برطرف شدن علائم. خفیف: مسکن (acetaminophen یا NSAID) و ضداستفراغ (ondansetron ODT 4 تا 8 mg PO هر 4 تا 6 ساعت)؛ معمولاً در 12 تا 36 ساعت با توقف صعود بهبود. نزول 300 تا 1000 m سریعاً علائم را رفع می‌کند؛ نزول فوری و درمان برای AMS متوسط یا تغییر هوشیاری، آتاکسی یا ادم ریوی. اکسیژن کم‌جریان. اکسیژن هیپرباریک برای AMS متوسط اگر نزول ممکن نیست. دارو برای متوسط: acetazolamide 125 تا 250 mg بزرگسال و 2.5 mg/kg کودک PO دو بار روزانه تا رفع علائم؛ و dexamethasone 4 mg PO/IM/IV هر 6 ساعت با کاهش تدریجی طی چند روز. اندیکاسیون acetazolamide: سابقه بیماری ارتفاع، صعود ناگهانی > 3000 m، AMS، تنفس دوره‌ای علامت‌دار در خواب؛ اثر: دیورز بیکربنات و اسیدوز متابولیک (پیشگیری و درمان)؛ در آلرژی سولفا اجتناب. بیماران با پاسخ خوب ترخیص: مشاوره: صعود تدریجی، پروفیلاکسی با acetazolamide از یک روز قبل تا حداقل دو روز پس از رسیدن، پرهیز از فعالیت شدید، الکل و داروهای مضعف تنفس.
+
+@variant ams-mild
+name: Mild AMS
+level: III
+imp: Acute mountain sickness, mild
+cond: Urgent
+act: CBR
+diet: PO
+ecg: once
+cxr: none
+
+@scenario
+کوهنورد ۳۰ ساله در 3500 m با سردرد، تهوع و بی‌خوابی بدون آتاکسی.
+
+@why
+قطع صعود و درمان علامتی.
+
+@L
+- (SpO2 monitoring; labs not usually required)
+
+@T
+- Terminate further ascent until symptoms resolve
+- Analgesic (acetaminophen or NSAID); ondansetron ODT 4–8 mg PO every 4–6 h
+- Low-flow oxygen if available
+
+@Co
+- Discharge with counseling on graded ascent and prophylaxis
+
+@variant ams-moderate
+name: Moderate AMS
+level: II
+imp: Acute mountain sickness, moderate
+cond: Urgent
+act: CBR
+diet: PO
+ecg: once
+cxr: PA
+
+@scenario
+مرد ۴۰ ساله با سردرد شدید، استفراغ، ضعف و الیگوری پس از صعود سریع به 4200 m.
+
+@why
+نزول 300 تا 1000 m؛ acetazolamide و dexamethasone.
+
+@I
+- CXR PA if rales / dyspnea (rule out HAPE)
+
+@L
+- (SpO2; electrolytes, glucose as indicated)
+
+@S
+- Acetazolamide 125–250 mg PO twice daily (children 2.5 mg/kg) until symptoms resolve {ci: sulfa allergy}
+- Dexamethasone 4 mg PO, IM or IV every 6 h with taper over several days
+
+@T
+- Descent 300–1000 m (immediate descent if mental status change, ataxia, or pulmonary edema); low-flow oxygen; hyperbaric therapy if descent not possible
+- Ondansetron 4–8 mg PO every 4–6 h; analgesic
+
+@Co
+- Discharge if good response; counsel graded ascent, acetazolamide prophylaxis starting 1 day before ascent, avoid overexertion, alcohol and respiratory depressants
+
+@cond hape
+ch: 122
+name: High-altitude pulmonary edema (HAPE)
+name_fa: ادم ریوی ارتفاع (HAPE)
+cc: dyspnea, cough-hemoptysis, environmental
+keywords: HAPE, high altitude pulmonary edema, nifedipine, tadalafil, descent, ادم ریوی ارتفاع
+status: draft
+
+@features
+- عوامل خطر: صعود سریع، فعالیت شدید، سرما، هیپرتانسیون ریوی، داروی خواب؛ کودک با عفونت تنفسی حساس‌تر؛ ممکن است کشنده باشد
+- معمولاً شب دوم تا چهارم در ارتفاع جدید: سرفه خشک و کاهش ظرفیت ورزش → تنگی نفس در استراحت، سرفه خلط‌دار، ضعف شدید و سیانوز؛ تاکی‌کاردی، تاکی‌پنه، رال، علائم هیپرتانسیون ریوی (P2 برجسته و heave بطن راست)؛ SaO2 استراحت پایین برای ارتفاع و با فعالیت بسیار افت می‌کند
+- CXR: بینابینی → موضعی → آلوئولار منتشر؛ ECG: انحراف محور راست و strain بطن راست
+- افتراق: پنومونی، آسم، CHF، ایسکمی میوکارد، PE؛ کاهش عملکرد ورزشی و سرفه خشک برای شک زودرس کافی؛ پاسخ به درمان کلید تشخیص
+
+@ddx
+- !Pneumonia |
+- !CHF / myocardial ischemia |
+- Acute asthma / PE |
+
+@redflags
+- SaO2 پایین، سیانوز، تغییر هوشیاری (HACE همزمان)
+
+@guide
+شناسایی زودهنگام ضروری. استراحت و گرم نگه داشتن. اکسیژن تکمیلی و تیتر به SaO2 ≥ 90%. نزول فوری درمان انتخابی؛ حداقل فعالیت حین نزول؛ هیپرباریک اگر نزول ممکن نیست؛ موارد بسیار خفیف: استراحت و اکسیژن. دارو معمولاً لازم نیست اگر نزول و اکسیژن در دسترس؛ در شرایط میدانی: nifedipine 20 تا 30 mg آهسته‌رهش PO هر 12 ساعت یا tadalafil 10 mg PO دو بار روزانه (کاهش vasoconstriction هیپوکسیک)؛ همچنین پروفیلاکسی برای سابقه HAPE؛ albuterol استنشاقی 2 تا 4 پاف هر 4 تا 6 ساعت (مطالعه ناکافی). ترخیص: بهبود بالینی و رادیوگرافیک و SaO2 هوای اتاق > 90%.
+
+@variant hape-main
+name: HAPE
+level: I
+imp: High-altitude pulmonary edema
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+o2: titrate to SaO2 ≥ 90%
+
+@scenario
+کوهنورد ۳۵ ساله شب سوم در 4500 m با تنگی نفس در استراحت، سرفه صورتی و SpO2 72%.
+
+@why
+اکسیژن و نزول فوری؛ بدون فعالیت.
+
+@I
+- CXR portable (interstitial → alveolar infiltrates)
+
+@L
+- (CBC, electrolytes, troponin as needed to exclude alternatives; SaO2 monitoring)
+
+@S
+- Nifedipine 20–30 mg extended release PO every 12 h or tadalafil 10 mg PO twice daily (if descent / oxygen unavailable) {ci: hypotension}
+
+@T
+- Supplemental oxygen titrated to SaO2 ≥ 90%; rest, keep warm
+- Immediate descent (minimize exertion); hyperbaric treatment if descent not possible
+- Albuterol inhaled 2–4 puffs every 4–6 h (not well studied)
+
+@Co
+- Admit; discharge when clinical and radiographic improvement and room air SaO2 > 90%
+
+@cond hace
+ch: 122
+name: High-altitude cerebral edema (HACE)
+name_fa: ادم مغزی ارتفاع (HACE)
+cc: altered-mental-status, headache, environmental
+keywords: HACE, high altitude cerebral edema, dexamethasone, ataxia, descent, ادم مغز ارتفاع
+status: draft
+
+@features
+- تخریب عصبی پیشرونده همراه با AMS یا HAPE؛ تغییر هوشیاری، آتاکسی، استوپور و در صورت عدم درمان کما؛ علائم کانونی مثل فلج اعصاب کرانیال 3 و 6
+- افتراق: سکته/TIA، تومور، منژیت، انسفالیت و اختلال متابولیک؛ MRI: افزایش T2 در splenium جسم پینه‌ای؛ آزمایش برای رد علل دیگر نباید درمان را به تأخیر اندازد
+
+@ddx
+- !Stroke / TIA |
+- !Meningitis / encephalitis |
+- Tumor / metabolic disturbance |
+
+@redflags
+- آتاکسی، تغییر هوشیاری، کما
+
+@guide
+اکسیژن تکمیلی با تیتر SaO2 ≥ 90%؛ کمایی: اینتوباسیون و تهویه. نزول فوری؛ هیپرباریک اگر نزول ممکن نیست. dexamethasone 8 mg PO/IM/IV سپس 4 mg هر 6 ساعت. اینتوبه: پایش ABG و پرهیز از PaCO2 < 30 mmHg؛ پایش ICP و سرعت جریان مغزی با TCD در صورت امکان. آتاکسیک یا گیج پس از نزول: بستری.
+
+@variant hace-main
+name: HACE
+level: I
+imp: High-altitude cerebral edema
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+o2: titrate to SaO2 ≥ 90%
+
+@scenario
+کوهنورد با AMS قبلی، اکنون آتاکسی، گیجی و خواب‌آلودگی در 5000 m.
+
+@why
+نزول فوری و دگزامتازون.
+
+@I
+- CT head / MRI brain (T2 signal in splenium of corpus callosum) as indicated and not delaying treatment
+- CXR portable (concurrent HAPE)
+
+@L
+- Glucose (bedside), electrolytes, CBC; arterial blood gas if intubated (avoid PaCO2 < 30 mmHg)
+
+@S
+- Dexamethasone 8 mg PO, IM or IV, then 4 mg every 6 h
+
+@T
+- Supplemental oxygen titrated to SaO2 ≥ 90%; intubation and ventilation if comatose
+- Immediate descent; hyperbaric therapy if descent not possible
+- Intubated: monitor ICP and cerebral blood velocities (transcranial Doppler) if possible
+
+@Co
+- Admit if ataxic or confused after descent; neurology / critical care
+
+@cond decompression-illness-dive
+ch: 123
+name: Decompression illness (DCS / cerebral arterial gas embolism)
+name_fa: بیماری رفع فشار (DCS / آمبولی گاز شریانی مغز)
+cc: environmental, altered-mental-status, joint-limb-pain
+keywords: decompression sickness, DCS, CAGE, arterial gas embolism, scuba diving, hyperbaric oxygen, recompression, Divers Alert Network, غواصی, بیماری رفع فشار
+status: draft
+
+@features
+- قوانین گاز: Boyle (فشار و حجم معکوس)، Henry (گاز محلول ∝ فشار جزئی)، Dalton (فشار کل = جمع فشار جزئی)
+- DCS: غواصان هوای فشرده، کارگران caisson، خلبانان ارتفاع بالا؛ در غواص معمولاً با فراتر رفتن از حدود جدول عمق/زمان؛ از چند دقیقه تا ساعت (به‌ندرت روزها) پس از سطح؛ تشکیل بیش از حد حباب → اثر مسدودکننده حاد و التهابی تأخیری
+- نوع I («pain-only»): پوست لکه‌دار و درد عمقی مفصل (شانه یا زانو) که با حرکت تغییر نمی‌کند؛ نوع II («serious»): CNS (معمولاً نخاع): تنگی تنه و فلج صعودی؛ مواجهه طولانی در عمق: chokes (سرفه و هموپتیزی قلبی-ریوی) یا staggers (ورتیگو و کم‌شنوایی)
+- CAGE: بارو‌تروما حین صعود (پارگی ریه با پنوموموتوراکس/پنومومدیاستن/آمفیزم)؛ علائم عصبی حین صعود یا بلافاصله پس از سطح: کاهش هوشیاری، تشنج، کوری، آشفتگی، همی‌پلژی یا علائم سکته؛ چون DCS و CAGE گاهی قابل‌تفکیک نیستند، اصطلاح «decompression illness»
+- تشخیص: پروفایل غواصی (عمق، مدت، تکرار) و زمان شروع؛ CXR: پنومومدیاستن، پنوموتوراکس، آمفیزم زیرجلدی؛ آزمایش: هماتوکریت بالا (هموکونسانتراسیون) و CPK بالا؛ افتراق: کشیدگی مفصل، دیسک گردن، ایسکمی قلب، ادم ریوی غوطه‌وری، تشنج اکسیژن (> 1.4 ATA)؛ آزمایش فشار با اکسیژن هیپرباریک معمولاً بهبود می‌دهد
+
+@ddx
+- !Stroke / cardiac ischemia |
+- !Pneumothorax |
+- Musculoskeletal strain / cervical disc |
+- Immersion pulmonary edema / oxygen toxicity seizure |
+
+@redflags
+- علائم عصبی پس از غواصی، کاهش هوشیاری، تشنج، پنوموموتوراکس
+
+@guide
+100% اکسیژن و مایع IV. CAGE مشکوک: وضعیت supine؛ در استفراغ left lateral decubitus. ترتیب سریع recompression با اکسیژن هیپرباریک (Divers Alert Network 1-919-684-9111). lidocaine 1 mg/kg IV بولوس سپس 1 mg/min ممکن است نوروپروتکشن در CAGE بدهد. overinflation ریوی حین صعود: سوزن‌گذاری یا chest tube در پنوموتوراکس.
+
+@variant dci-main
+name: Decompression illness (DCS / CAGE)
+level: I
+imp: Decompression illness (DCS / cerebral arterial gas embolism)
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+o2: 100% oxygen (non-rebreather)
+
+@scenario
+غواص ۳۵ ساله ۳۰ دقیقه پس از صعود سریع با ضعف پاها، درد شانه، سردرد و گیجی.
+
+@why
+اکسیژن 100% و اعزام فوری برای recompression.
+
+@I
+- CXR portable (pneumothorax, pneumomediastinum, subcutaneous air)
+- CT head / brain as indicated for neurologic symptoms (do not delay recompression)
+
+@L
+- CBC (hemoconcentration), CPK, electrolytes, glucose, BUN, creatinine
+
+@S
+- IV fluids (isotonic) {ci: caution in heart failure / pulmonary edema}
+- Lidocaine 1 mg/kg IV bolus then 1 mg/min infusion (possible neuroprotection in CAGE)
+
+@T
+- 100% oxygen; supine position if CAGE suspected (left lateral decubitus if vomiting)
+- Rapidly arrange recompression therapy with hyperbaric oxygen (Divers Alert Network 1-919-684-9111)
+- Needle decompression or tube thoracostomy if pneumothorax from pulmonary overinflation
+
+@Co
+- Hyperbaric medicine / dive medicine; transfer to chamber
+
+@cond barotrauma-diving-ear-sinus
+ch: 123
+name: Diving barotrauma (middle ear squeeze, inner ear, sinus)
+name_fa: بارو‌تروما در غواصی (گوش میانی، گوش داخلی، سینوس)
+cc: ent, dizziness-vertigo, environmental
+keywords: barotitis media, middle ear squeeze, inner ear barotrauma, alternobaric vertigo, reverse squeeze, perilymph fistula, sinus barotrauma, بارو تروما, غواصی
+status: draft
+
+@features
+- شایع‌ترین آسیب غواصی؛ squeeze گوش میانی (barotitis media) هنگام نزول: عدم برابری فشار → خونریزی/پارگی پرده تمپان و کم‌شنوایی هدایتی؛ Valsalva شدید → بارو‌تروما گوش داخلی با پارگی پنجره گرد یا بیضی: وزوز، کم‌شنوایی حسی-عصبی و ورتیگو
+- انسداد ostia سینوس در نزول: خونریزی از ماگزیلاری یا فرونتال با درد و اپیستاکسی
+- صعود: انبساط گاز؛ alternobaric vertigo (تفاوت فشار نامتقارن گوش میانی)؛ «reverse squeeze» نادر (گوش یا سینوس)
+- fistula test: دمیدن در پرده تمپان طرف مبتلا و انحراف چشم‌ها به سمت مقابل ← کمک به تشخیص بارو‌تروما گوش داخلی
+
+@ddx
+- !Decompression illness (inner ear DCS) |
+- Otitis media / labyrinthitis |
+
+@redflags
+- ورتیگو و کم‌شنوایی حسی-عصبی (گوش داخلی)، علائم عصبی (DCI)
+
+@guide
+بارو‌تروما گوش میانی: ضداحتقان و مسکن؛ آنتی‌بیوتیک اگر عفونت مشکوک؛ ممنوعیت غواصی تا بهبودی. بارو‌تروما گوش داخلی: استراحت با سر بالا تا ارزیابی ENT برای احتمال اکتشاف جراحی.
+
+@variant barotrauma-middle-ear
+name: Middle ear / sinus barotrauma
+level: III
+imp: Diving barotrauma (middle ear / sinus)
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+غواص با درد گوش، کاهش شنوایی هدایتی و خونریزی پرده تمپان پس از نزول.
+
+@why
+حمایتی؛ منع غواصی.
+
+@T
+- Decongestants and analgesics; antibiotics if infection suspected
+- Advise against diving until healing completed
+
+@Co
+- ENT follow-up
+
+@variant barotrauma-inner-ear
+name: Inner ear barotrauma
+level: II
+imp: Inner ear barotrauma (diving)
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: none
+cxr: none
+
+@scenario
+غواص پس از Valsalva شدید با ورتیگو، وزوز و کم‌شنوایی حسی-عصبی.
+
+@why
+استراحت با سر بالا و ENT اورژانس.
+
+@T
+- Bed rest with head upright; fistula test as diagnostic aid
+- Rule out decompression illness (hyperbaric consult if neurologic features)
+
+@Co
+- Otolaryngology evaluation for possible surgical exploration
+
+@cond drowning-submersion
+ch: 124
+name: Drowning (submersion injury)
+name_fa: غرق‌شدگی
+cc: environmental, dyspnea, altered-mental-status
+keywords: drowning, near drowning, submersion, aspiration, hypothermia, cervical spine, غرق شدگی, خفگی در آب
+status: draft
+
+@features
+- غرق‌شدگی: غوطه‌وری در مایع با دیسترس یا نارسایی تنفسی؛ پیش‌آگهی وابسته به آسیب ریه و CNS و نجات و احیای زودهنگام؛ پیشگیری مهم‌ترین
+- تا 20% بدون آسپیراسیون آب (آسیب از آسفیکسی)؛ آسپیراسیون: شستشوی surfactant ← کاهش تبادل گاز، آتلکتازی، عدم تطابق V/Q، هیپوکسی؛ آسپیراسیون متوسط تا شدید: ادم ریوی غیرقلبی؛ معاینه متغیر: ریه تمیز یا رال/رونکای/ویزینگ؛ هوشیاری طبیعی تا کما؛ خطر هیپوترمی حتی در «آب گرم»
+- آسیب‌های همراه (مغز و نخاع) و علل زمینه‌ای: سنکوپ، تشنج، هیپوگلیسمی، MI یا دیسریتمی؛ اسیدوز تنفسی زودهنگام و بعد متابولیک؛ اختلال الکترولیت زودرس غیرمعمول؛ CXR اغلب طبیعی در بیمار بدون علامت؛ بدون شرح غواصی یا تروما، ایمبیلیزاسیون گردن روتین و CT مغز لازم نیست
+
+@ddx
+- !Cervical spine / head injury |
+- !Syncope / seizure / MI / hypoglycemia as precipitant |
+- Hypothermia |
+
+@redflags
+- GCS < 13، SaO2 < 95%، رال/ویزینگ/رتراکشن، هیپوترمی، ایست
+
+@guide
+الگوریتم (شکل 124-1): قبل از بیمارستان: نجات سریع و محتاط؛ احتیاط C-spine در صورت شک؛ CPR؛ انتقال و اکسیژن همه. ED: ABC؛ GCS؛ درمان آسیب/وضعیت همراه (هیپوولمی، هیپوترمی، تشنج، MI). GCS ≥ 13 و SaO2 ≥ 95%: پاک‌سازی C-spine، پایش SaO2، آزمایش ancillary معمولاً لازم نیست؛ مشاهده 4 تا 6 ساعت؛ اگر SaO2 و معاینه ریه طبیعی ترخیص؛ اگر SaO2 < 95% یا معاینه غیرطبیعی مثل GCS < 13. GCS < 13 یا SaO2 < 95%: پاک‌سازی C-spine، اکسیژن برای SaO2 ≥ 95%، اینتوباسیون و تهویه فشار مثبت (CPAP، PEEP) در صورت نیاز؛ CXR، CBC، الکترولیت، گلوکز، troponin I، PT/PTT، UA، CK، میوگلوبین ادرار، غربالگری دارو؛ پایش اسید-باز، دما و حجم؛ بستری/ICU. دمای مرکزی اندازه‌گیری و هیپوترمی درمان؛ ایست در غرق آب سرد: احیای طولانی و تهاجمی تا نورموترمی یا غیرقابل‌زنده‌ماندن. پروفیلاکسی آنتی‌بیوتیک روتین ندارد. «brain resuscitation» (mannitol، دیورتیک، سالین هایپرتونیک، محدودیت مایع، هایپرونتیلاسیون، هیپوترمی کنترل‌شده، باربیتورات، ICP) فایده نشان نداده. ایست/آسیستول پس از غرق آب گرم در بیمار نورموترمیک: پیش‌آگهی ضعیف.
+
+@variant drowning-asymptomatic
+name: Submersion, GCS ≥ 13 and SaO2 ≥ 95% (observe 4–6 h)
+level: III
+imp: Drowning (submersion), asymptomatic
+cond: Urgent
+act: CBR
+diet: PO
+ecg: stat
+cxr: PA
+o2: if SpO2 < 95%
+
+@scenario
+کودک ۸ ساله پس از افتادن در استخر و نجات سریع؛ سرفه گذرا، هوشیار، SpO2 98%.
+
+@why
+مشاهده 4 تا 6 ساعت؛ سطح اکسیژن و معاینه ریه.
+
+@I
+- CXR PA (often normal in asymptomatic patient); cervical spine imaging only if diving history or trauma
+
+@L
+- (usually not indicated if asymptomatic)
+
+@T
+- Monitor oxygen saturation; observe 4–6 hours; measure core temperature
+- If SaO2 < 95% or abnormal pulmonary examination, manage as GCS < 13
+
+@Co
+- Discharge home if SaO2 and pulmonary examination normal after observation
+
+@variant drowning-severe
+name: Submersion with GCS < 13, SaO2 < 95%, respiratory distress or hypothermia
+level: I
+imp: Drowning with respiratory failure / altered consciousness
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+o2: supplemental oxygen to keep SaO2 ≥ 95%
+
+@scenario
+مرد ۳۰ ساله یافت‌شده در رودخانه با GCS 9، رال دوطرفه، SpO2 82% و دمای 33°C.
+
+@why
+اکسیژن، تهویه فشار مثبت، گرم کردن و بستری.
+
+@I
+- CXR portable
+- CT head / C-spine only if diving history or associated trauma
+
+@L
+- CBC, electrolytes, glucose, troponin I, PT/PTT, urinalysis, CK, urine myoglobin, urine drug screen; arterial blood gas (acid–base)
+
+@S
+- IV fluids for hypovolemia as needed {ci: caution in heart failure / pulmonary edema}; dextrose for hypoglycemia
+
+@T
+- ABC; oxygen to SaO2 ≥ 95%; endotracheal intubation and positive-pressure ventilation (CPAP, PEEP) as needed
+- Measure core temperature; treat hypothermia (cold-water submersion cardiac arrest: prolonged aggressive resuscitation until normothermic or not viable)
+- Treat associated injury or condition (seizure, MI, hypoglycemia) {ci: no routine antibiotic prophylaxis; no benefit from mannitol, diuretics, hypertonic saline, fluid restriction, hyperventilation, barbiturate coma or ICP monitoring}
+- Monitor acid–base status, temperature, volume status
+
+@Co
+- Admit ICU or transfer to facility with inpatient / ICU monitoring

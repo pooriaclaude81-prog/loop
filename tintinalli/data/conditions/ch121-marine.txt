@@ -1,0 +1,287 @@
+@cond marine-wound-infection
+ch: 121
+name: Marine trauma and marine-associated wound infection
+name_fa: ترومای دریایی و عفونت زخم‌های دریایی
+cc: wound-bite, environmental, fever
+keywords: shark bite, marine wound, Vibrio vulnificus, Aeromonas, Erysipelothrix, Mycobacterium marinum, coral cut, fish handler, زخم دریایی, ویبریو
+status: draft
+
+@features
+- ترومای عمده: کوسه، باراکودا، مارماهی moray، فک، تمساح، needlefish، wahoo، piranha، triggerfish؛ گاز کوسه: از دست رفتن بافت قابل‌توجه (به‌ویژه پا) و شوک هموراژیک؛ ترومای جزئی: بریدگی و خراش مرجان: درد سوزشی موضعی، اریتم، کهیر و خارش
+- زخم دریایی: فلور معمول پوست (Staphylococcus و Streptococcus) + باکتری‌های ویژه دریا؛ خطرناک‌ترین Vibrio (گرم‌منفی هالوفیل): عفونت سریع: درد، تورم، تاول هموراژیک، واسکولیت، نکروتیزان فاشیئیت و سپسیس؛ مبتلایان به سرکوب ایمنی (به‌ویژه بیماری کبدی): سپسیس و مرگ (تا 60%) با V. vulnificus
+- Erysipelothrix rhusiopathiae (fish-handler's disease): پلاک‌های حاشیه‌دار دردناک پس از پونکچر؛ Mycobacterium marinum (اسیدفاست): گرانولوم پوستی مزمن 3 تا 4 هفته بعد؛ آب شیرین: Aeromonas
+
+@ddx
+- !Necrotizing fasciitis / Vibrio sepsis |
+- Cellulitis / abscess |
+- Retained foreign body / osteomyelitis |
+
+@redflags
+- تاول هموراژیک، بیماری کبدی یا سرکوب ایمنی، شوک، درگیری استخوان/مفصل
+
+@guide
+شستشوی فراوان زخم‌های پاره، سوراخ و گاز؛ جستجوی جسم خارجی و دبریدمان بافت غیرزنده؛ رادیوگرافی نسج نرم یا سونوگرافی برای یافتن جسم خارجی (برداشتن به‌ویژه داخل مفصل)؛ بازگذاشتن زخم برای بستن اولیه تأخیری؛ کزاز. آنتی‌بیوتیک پروفیلاکسی برای زخم‌های جزئی روتین در بیمار سالم لازم نیست (جدول 121-1): بدون آنتی‌بیوتیک: بیمار سالم، مراقبت سریع، بدون جسم خارجی/استخوان/مفصل، آسیب کوچک/سطحی؛ پروفیلاکسی/سرپایی: مراقبت دیر، تروما بزرگ، بیماری زمینه‌ای، تأخیر طولانی، زخم عمیق، جسم خارجی باقی‌مانده؛ بستری IV: التهاب پیشرونده، نفوذ به پریوست/مفصل/حفره بدن، آسیب عمده همراه با envenomation یا بیماری سیستمیک. Staphylococcus/Streptococcus: cephalexin 500 mg PO چهار بار در روز (کودک 10 تا 25 mg/kg) یا cefazolin 1 تا 2 g IV هر 8 ساعت (کودک 25 mg/kg)؛ جایگزین: doxycycline 100 mg PO/IV دو بار روزانه (پوشش MRSA در بزرگسال). افزودن ceftriaxone 1 g IV روزانه (کودک 50 mg/kg) یا cefotaxime 2 g IV هر 8 ساعت (کودک 50 mg/kg) یا فلوروکینولون (levofloxacin یا ciprofloxacin 500 mg PO/IV روزانه؛ در کودک نه) برای Vibrio. Aeromonas (آب شیرین): فلوروکینولون یا سفالوسپورین نسل 3 یا TMP-SMX DS 1 قرص دو بار روزانه (کودک 4 mg/kg trimethoprim) یا imipenem 500 mg (کودک 10 تا 25 mg/kg) IV هر 6 ساعت. M. marinum: ماه‌ها clarithromycin یا rifampin + ethambutol.
+
+@variant marine-wound-minor
+name: Minor marine wound / coral scrape, healthy patient, early care
+level: III
+imp: Marine wound, minor
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+غواص سالم با خراش مرجان روی ساق؛ زخم سطحی بدون جسم خارجی.
+
+@why
+شستشو و مراقبت زخم؛ بدون آنتی‌بیوتیک.
+
+@I
+- Soft tissue radiograph or ultrasound if retained foreign body suspected
+
+@T
+- Copious irrigation; explore for foreign matter and debride devitalized tissue; leave open for delayed primary closure; update tetanus {ci: prophylactic antibiotics not indicated for routine minor wounds in healthy patients}
+
+@Co
+- Discharge with wound-care instructions and follow-up
+
+@variant marine-wound-prophylaxis
+name: Higher-risk marine wound (deep, delayed care, retained FB, comorbidity) — oral antibiotic prophylaxis / early infection
+level: II
+imp: Marine-associated wound, high infection risk / early infection
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+ماهیگیر ۵۵ ساله دیابتی با زخم عمیق دست پس از خار ماهی و تورم و قرمزی ۲ روز بعد.
+
+@why
+آنتی‌بیوتیک بر اساس شرایط؛ Vibrio در آب شور.
+
+@I
+- Soft tissue radiograph or ultrasound for foreign body (especially if intra-articular)
+
+@L
+- Wound culture (sensitivity); CBC if systemic signs
+
+@A
+- Cephalexin 500 mg PO four times daily (children 10–25 mg/kg) or doxycycline 100 mg PO twice daily (adults, MRSA coverage) for Staphylococcus / Streptococcus
+- Add ceftriaxone 1 g IV daily (children 50 mg/kg) or a fluoroquinolone (levofloxacin or ciprofloxacin 500 mg PO daily) for Vibrio (ocean) {ci: avoid fluoroquinolones in children}
+- Freshwater (Aeromonas): fluoroquinolone, third-generation cephalosporin, or trimethoprim-sulfamethoxazole DS 1 tablet PO twice daily (children 4 mg/kg trimethoprim)
+
+@T
+- Copious irrigation, exploration and debridement; remove foreign bodies; leave open for delayed closure; update tetanus
+- Mycobacterium marinum granuloma: months of clarithromycin or rifampin plus ethambutol
+
+@Co
+- Follow-up in 24–48 h; admit if progressive inflammation
+
+@variant marine-wound-severe
+name: Major marine trauma or severe marine infection (shark bite, Vibrio necrotizing infection, IV antibiotics)
+level: I
+imp: Major marine trauma / severe marine wound infection
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+
+@scenario
+مرد ۶۰ ساله دچار سیروز با تاول هموراژیک، درد شدید و شوک پس از زخم پا در آب دریا؛ یا مصدوم گاز کوسه با خونریزی شدید پا.
+
+@why
+کنترل خونریزی/احیا، آنتی‌بیوتیک IV و جراحی.
+
+@I
+- Soft tissue radiograph / ultrasound for foreign bodies; CT as indicated
+
+@L
+- CBC, electrolytes, BUN, creatinine, lactate, coagulation studies, blood cultures, wound culture; type and crossmatch for hemorrhage
+
+@S
+- IV crystalloid / blood products for hemorrhagic shock {ci: caution in heart failure / pulmonary edema}
+
+@A
+- Cefazolin 1–2 g IV every 8 h (children 25 mg/kg) plus ceftriaxone 1 g IV daily (children 50 mg/kg) or cefotaxime 2 g IV every 8 h (children 50 mg/kg), plus doxycycline 100 mg IV twice daily (adults) or fluoroquinolone (not children) for Vibrio {hi}
+- Freshwater: imipenem 500 mg IV every 6 h (children 10–25 mg/kg) covers Aeromonas
+
+@T
+- Hemorrhage control, irrigation, exploration, surgical debridement; leave wounds open; tetanus
+
+@Co
+- Surgery (trauma / orthopedic / plastic); ICU; infectious disease
+
+@cond marine-envenomation-cnidaria
+ch: 121
+name: Jellyfish, Portuguese man-of-war and other cnidarian stings
+name_fa: گزش عروس دریایی، Portuguese man-of-war و سایر Cnidaria
+cc: wound-bite, rash, environmental
+keywords: jellyfish, box jellyfish, Chironex, Irukandji, Portuguese man-of-war, Physalia, fire coral, anemone, seabather's eruption, vinegar, عروس دریایی
+status: draft
+
+@features
+- Cnidaria سلول‌های گزنده (nematocyst) دارند: درد موضعی، تورم، خارش، کهیر و گاه تاول و نکروز؛ برخی واکنش سیستمیک
+- Hydrozoans: hydroids، Millepora (fire coral) و Physalia (Portuguese man-of-war): راش خطی اریتماتو؛ نادراً ایست تنفسی (احتمالاً آنافیلاکسی)
+- Scyphozoans (عروس دریایی حقیقی): شکل‌های لاروی اقیانوس اطلس: درماتیت پایدار زیر لباس شنا روزها (Seabather's eruption)
+- Cubozoans (box jellyfish): Chironex fleckeri (استرالیا) و Chiropsalmus (خلیج مکزیک): مرگ قلبی-سمی بعد از گزش شدید؛ Carybdea (هاوایی): گزش دردناک بدون مرگ؛ Carukia barnesi: سندرم Irukandji: درد منتشر، هیپرتانسیون، تاکی‌کاردی، تعریق و حتی ادم ریوی
+- Anthozoans (anemone): واکنش موضعی خفیف؛ Porifera (اسفنج): درماتیت خارشی گزنده با spicule؛ Annelida (کرم‌های خاردار و آتشین): خار در پوست، درد و اریتم
+
+@ddx
+- !Anaphylaxis |
+- Contact dermatitis |
+- Irukandji syndrome vs sympathomimetic toxicity / ACS |
+
+@redflags
+- شوک، ایست قلبی-تنفسی (box jellyfish)، هیپرتانسیون شدید و ادم ریوی (Irukandji)
+
+@guide
+درمان جلیفیش بحث‌برانگیز و وابسته به گونه؛ آبشویی اولیه با آب دریا برای برداشتن شاخک‌های حاوی nematocyst مفید است؛ آب گرم (43.3 تا 45.6°C / 111 تا 114°F) و lidocaine موضعی ممکن است اثر سم موضعی را کم کند (جدول 121-2). غیرنافذ: fire coral، hydroid، anemone: شستشو با آب دریا یا سالین؛ Portuguese man-of-war، bluebottle و جلیفیش غیر box: غوطه‌وری در آب گرم، شستشوی آب دریا، lidocaine موضعی، برداشتن شاخک‌ها و nematocyst؛ box jellyfish: غوطه‌وری آب گرم، شستشو با سالین/آب دریا، سرکه (acetic acid 5%) موضعی، برداشتن شاخک، lidocaine موضعی، اوپیوئید تزریقی برای درد، پادزهر Chironex، منیزیم برای ایست قلبی؛ Irukandji: شستشو، آب گرم، برداشتن شاخک‌ها، حمایتی. اسفنج: سرکه 5% و استروئید موضعی؛ کرم خاردار: برداشتن خارها، استروئید موضعی برای خارش؛ استروئید موضعی برای خارش و مشاهده برای علائم سیستمیک.
+
+@variant cnidaria-local
+name: Local jellyfish / man-of-war / fire coral sting
+level: III
+imp: Cnidarian sting, local reaction
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+شناگر با راش خطی دردناک و خارش پس از تماس با شاخک جلیفیش.
+
+@why
+آبشویی دریا، آب گرم و lidocaine.
+
+@T
+- Irrigate with seawater or saline; remove tentacles and nematocysts; hot water immersion 43.3–45.6°C (111–114°F) until pain relieved; topical lidocaine
+- Box jellyfish: topical 5% acetic acid (vinegar)
+- Topical corticosteroid for itching; observe for development of systemic symptoms {note: treatment controversial / species dependent}
+
+@Co
+- Discharge after observation
+
+@variant cnidaria-box-irukandji
+name: Box jellyfish or Irukandji syndrome (systemic)
+level: I
+imp: Box jellyfish / Irukandji envenomation
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+
+@scenario
+شناگر پس از گزش در آب استرالیا با درد منتشر، هیپرتانسیون 200/110، تاکی‌کاردی، تعریق و تنگی نفس.
+
+@why
+مسکن اوپیوئیدی، پایش قلبی و پادزهر Chironex؛ منیزیم در ایست.
+
+@I
+- CXR portable (pulmonary edema)
+
+@L
+- Troponin, electrolytes (Mg, K, Ca), blood gas as indicated
+
+@S
+- Chironex antivenin (box jellyfish, per local protocol); parenteral opioids for pain
+- Magnesium for cardiac arrest
+
+@T
+- Irrigate with saline or seawater; hot water immersion; remove tentacles and nematocysts; topical 5% acetic acid (vinegar) for box jellyfish; topical lidocaine
+- Continuous cardiac monitoring; supportive care
+
+@Co
+- Admit ICU / monitored bed; toxicology / poison center
+
+@cond marine-envenomation-penetrating
+ch: 121
+name: Penetrating marine envenomation (stingray, spined fish, sea urchin, cone snail, blue-ringed octopus, sea snake)
+name_fa: گزش نافذ دریایی (سفره‌ماهی، ماهی خاردار، خارپشت دریایی، حلزون مخروطی، هشت‌پا، مار دریایی)
+cc: wound-bite, environmental, focal-neuro
+keywords: stingray, lionfish, stonefish, scorpionfish, catfish, sea urchin, cone snail, blue-ringed octopus, sea snake, hot water immersion, pressure immobilization, سفره ماهی, مار دریایی
+status: draft
+
+@features
+- مهره‌داران: stingray (خار سمی دم، پونکچر/پارگی با درد شدید موضعی)، ماهی‌های خاردار (scorpion fish، lionfish، catfish، weeverfish، stonefish): غدد سم پس از سوراخ شدن: درد، اریتم و ادم؛ خار باقی‌مانده: عفونت؛ مار دریایی (Indo-Pacific): نوروتوکسیسیتی و میوتوکسیسیتی، مرگ از فلج صعودی
+- خارپشت دریایی: درد فوری، گاهی سم با اریتم و تورم؛ خار باقی‌مانده: عفونت و گرانولوم؛ crown-of-thorns sea star: درد سوزشی و التهاب موضعی؛ sea cucumber: درماتیت خفیف
+- Mollusca: cone shell (Indo-Pacific Conus) و blue-ringed octopus (Hapalochlaena): سم فلج‌کننده با فلج تنفسی سریع
+
+@ddx
+- !Anaphylaxis |
+- Retained spine / foreign body infection |
+- Neuromuscular paralysis of other cause |
+
+@redflags
+- ضعف تنفسی/فلج، شوک، گزش مار دریایی، گزش stonefish
+
+@guide
+جدول 121-2: stingray/lionfish/catfish/scorpionfish: غوطه‌وری آب گرم (43.3 تا 45.6°C تا رفع درد) و infiltrate lidocaine؛ مراقبت معمول (شستشو، اکتشاف، دبریدمان، آنتی‌بیوتیک و مسکن)؛ جستجوی خار stingray (رادیوگرافی یا اکتشاف)؛ مشاهده علائم سیستمیک. stonefish: همین + آنتی‌ونین stonefish در واکنش سیستمیک شدید. sea snake: pressure immobilization؛ آنتی‌ونین در واکنش سیستمیک شدید؛ مشاهده 8 ساعت از نظر میوتوکسیسیتی/نوروتوکسیسیتی. blue-ringed octopus و cone snail: pressure immobilization و حمایتی (تنفسی). sea urchin: غوطه‌وری آب گرم، lidocaine موضعی، سرکه 5%، اکتشاف زخم و برداشتن خار، استروئید موضعی؛ fireworms: برداشتن bristle و استروئید موضعی برای خارش.
+
+@variant marine-spine-envenomation
+name: Stingray / lionfish / catfish / stonefish / sea urchin spine
+level: III
+imp: Marine spine envenomation
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+شناگر با پونکچر دردناک پا پس از پا گذاشتن روی سفره‌ماهی.
+
+@why
+آب گرم، lidocaine و جستجوی خار.
+
+@I
+- Soft tissue radiograph or ultrasound to assess for retained spines
+
+@T
+- Hot water immersion 43.3–45.6°C (111–114°F) until pain relieved; lidocaine infiltration (sea urchin: topical lidocaine, topical 5% acetic acid)
+- Usual wound care: irrigate, explore, debride, remove spines, consider antibiotics and analgesia; tetanus
+- Stonefish: antivenin if severe systemic reaction; observe for systemic symptoms
+
+@A
+- Antibiotics per wound-risk table (see marine wound infection) if retained spine / high risk
+
+@Co
+- Discharge after observation; surgical exploration if retained spine
+
+@variant marine-neurotoxic-envenomation
+name: Neurotoxic marine envenomation (sea snake, blue-ringed octopus, cone snail)
+level: I
+imp: Neurotoxic marine envenomation (paralytic)
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+o2: high-flow oxygen
+
+@scenario
+غواص پس از گزش هشت‌پای حلقه‌آبی با بی‌حسی دهان، ضعف و دیسپنه سریع.
+
+@why
+pressure immobilization و حمایت تنفسی.
+
+@I
+- CXR portable (respiratory compromise)
+
+@L
+- CPK (sea snake myotoxicity), electrolytes, BUN, creatinine, urinalysis (myoglobin)
+
+@S
+- Sea snake antivenom if severe systemic reaction
+
+@T
+- Pressure immobilization; airway management and ventilatory support as needed (supportive care for blue-ringed octopus / cone snail)
+- Observe 8 h for myotoxicity / neurotoxicity (sea snake)
+
+@Co
+- ICU; toxicology / poison center

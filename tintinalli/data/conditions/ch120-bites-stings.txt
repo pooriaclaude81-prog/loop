@@ -1,0 +1,630 @@
+@cond hymenoptera-sting
+ch: 120
+name: Hymenoptera stings (bees, wasps, ants) and anaphylaxis
+name_fa: گزش زنبور، زنبور سرخ و مورچه (Hymenoptera)
+cc: wound-bite, rash, hypotension-shock
+keywords: bee sting, wasp sting, fire ant, Africanized bee, anaphylaxis, epinephrine, EpiPen, hymenoptera, گزش زنبور, آنافیلاکسی
+status: draft
+
+@features
+- واکنش موضعی: درد، اریتم، ادم و خارش؛ واکنش موضعی شدید خطر واکنش سیستمیک در مواجهه مجدد را بالا می‌برد؛ مورچه آتشین: پوستول استریل در 6 تا 24 ساعت و گاه نکروز و اسکار
+- سیستمیک: کهیر، آنژیوادم، هیپوتانسیون، برونکواسپاسم؛ مسمومیت عظیم (زنبور آفریقایی‌شده با حمله گروهی): استفراغ و اسهال شدید، رابدومیولیز، آسیب میوکارد، نارسایی کبد و کلیه؛ سم مورچه آتشین ممکن است با سایر Hymenoptera cross-react کند
+- واکنش تأخیری (5 تا 14 روز بعد): شبیه serum sickness: تب، بی‌حالی، سردرد، کهیر، لنفادنوپاتی و پلی‌آرتریت
+
+@ddx
+- !Other causes of anaphylaxis / angioedema |
+- Cellulitis (local reaction) |
+- Serum sickness |
+
+@redflags
+- هیپوتانسیون، استریدور/ادم راه هوایی، ویزینگ، > 100 گزش، رابدومیولیز
+
+@guide
+آنافیلاکسی/آنافیلاکتوئید: مایع + epinephrine 1:1000 (0.3 تا 0.5 cc IM بزرگسال یا 0.01 mg/kg تا حداکثر 0.5 cc کودک)؛ علائم مقاوم یا شوک: انفوزیون IV؛ اینتوباسیون در ادم راه هوایی؛ استروئید (methylprednisolone 2 mg/kg حداکثر 125 mg یا prednisone 1 mg/kg PO حداکثر 60 mg)؛ H1 (diphenhydramine 1 mg/kg IV حداکثر 50 mg)؛ H2 (famotidine 0.5 mg/kg IV حداکثر 40 mg)؛ برونکواسپاسم: albuterol 2.5 تا 5 mg نبولایزر. کهیر تنها: H1 و H2 و استروئید، بدون epinephrine و albuterol. نیش پس از تثبیت برداشته شود. یک گزش با علائم جزئی: ترخیص پس از مشاهده. چند گزش: بستری اگر > 100 گزش، بیماری زمینه‌ای مهم، سن حدی یا علائم سیستمیک شدید؛ < 100 گزش بدون علامت و بدون عارضه آزمایشگاهی (بدون رابدومیولیز، کلیه طبیعی) پس از 6 ساعت مشاهده: ترخیص. همه را به آلرژیست ارجاع، epinephrine autoinjector (EpiPen) تجویز، شناسه آلرژی و آموزش مصرف در اولین علامت سیستمیک.
+
+@variant hymenoptera-local
+name: Local reaction, single/few stings
+level: III
+imp: Hymenoptera sting, local reaction
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مرد ۳۰ ساله با یک گزش زنبور و درد و تورم موضعی.
+
+@why
+برداشتن نیش و مشاهده.
+
+@T
+- Remove the stinger (after stabilization); cold compress; oral antihistamine as needed
+
+@Co
+- Discharge after observation; refer to allergist if severe local reaction
+
+@variant hymenoptera-anaphylaxis
+name: Anaphylaxis after Hymenoptera sting (urticaria with airway, hypotension or bronchospasm)
+level: I
+imp: Anaphylaxis, Hymenoptera sting
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+o2: high-flow oxygen
+
+@scenario
+زنی ۴۰ ساله پس از گزش زنبور با کهیر منتشر، تنگی نفس، ویزینگ و فشار 70/40.
+
+@why
+epinephrine IM فوری و مایع.
+
+@I
+- CXR portable if respiratory distress
+
+@L
+- (CBC and electrolytes as per baseline set; tryptase as available)
+
+@S
+- IV fluid resuscitation (normal saline bolus) {ci: caution in heart failure / pulmonary edema}
+- Epinephrine 1:1000, 0.3–0.5 mL IM in adults (0.01 mg/kg up to 0.5 mL in children) {hi}; continuous IV epinephrine infusion if persistent symptoms or shock
+- Methylprednisolone 2 mg/kg IV (max 125 mg) or prednisone 1 mg/kg PO (max 60 mg)
+- Diphenhydramine 1 mg/kg IV (max 50 mg); famotidine 0.5 mg/kg IV (max 40 mg)
+
+@T
+- Albuterol 2.5–5 mg nebulized for bronchospasm
+- Endotracheal intubation if airway edema
+- Remove stinger after stabilization
+
+@Co
+- Admit / observation; allergist referral; prescribe epinephrine autoinjector (EpiPen); allergy alert identification
+
+@variant hymenoptera-urticaria-only
+name: Urticaria only (no other systemic features)
+level: III
+imp: Urticaria after Hymenoptera sting
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مرد ۲۵ ساله پس از گزش با کهیر منتشر اما بدون تنگی نفس و فشار طبیعی.
+
+@why
+H1، H2 و استروئید بدون epinephrine.
+
+@S
+- Diphenhydramine 1 mg/kg IV (max 50 mg); famotidine 0.5 mg/kg IV (max 40 mg)
+- Methylprednisolone 2 mg/kg IV (max 125 mg) or prednisone 1 mg/kg PO (max 60 mg) {note: no epinephrine or albuterol without other systemic manifestations}
+
+@T
+- Remove stinger; observation
+
+@Co
+- Allergist referral; epinephrine autoinjector prescription
+
+@variant hymenoptera-massive
+name: Massive envenomation (multiple stings, > 100, Africanized bees)
+level: I
+imp: Massive Hymenoptera envenomation
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+
+@scenario
+مردی ۵۰ ساله با > 150 گزش زنبور با استفراغ، اسهال، ادرار تیره و فشار 90/55.
+
+@why
+رابدومیولیز، نارسایی کلیه/کبد و آسیب میوکارد را بررسی کن.
+
+@I
+- CXR portable
+
+@L
+- Electrolytes, BUN, creatinine, CPK, urinalysis (myoglobin), liver enzymes, troponin, CBC, coagulation studies
+
+@S
+- IV fluid resuscitation {ci: caution in AKI, anuria, heart failure / pulmonary edema}
+- Epinephrine IM / IV infusion, steroids, H1 and H2 blockers if anaphylaxis (as above)
+
+@T
+- Remove stingers after stabilization; continuous cardiac monitoring
+
+@Co
+- Admit (> 100 stings, substantial comorbidity, extremes of age, or severe systemic manifestations); nephrology if renal failure
+- Discharge only if < 100 stings, asymptomatic, no rhabdomyolysis and normal renal function after 6 h observation
+
+@cond brown-recluse-hobo-spider-bite
+ch: 120
+name: Brown recluse (Loxosceles) and hobo spider bites
+name_fa: گزش عنکبوت قهوه‌ای گوشه‌نشین و hobo
+cc: wound-bite, rash
+keywords: brown recluse, loxoscelism, Loxosceles reclusa, hobo spider, necrotic wound, hemolysis, dapsone, عنکبوت قهوه‌ای
+status: draft
+
+@features
+- گزش اولیه بی‌درد؛ ضایعه سفت اریتماتو که طی روزها تا هفته‌ها بهبود می‌یابد؛ گاه واکنش شدید با درد فوری، تاول هموراژیک و رنگ‌پریدگی موضعی و سپس نکروز طی 3 تا 4 روز و اسکار قابل‌توجه
+- loxoscelism (گونه‌های آمریکای جنوبی؛ در L. reclusa نادر): علائم سیستمیک (شایع‌تر در کودک) 1 تا 3 روز: تب، لرز، استفراغ، آرترالژی، میالژی، پتشی و همولیز؛ شدید: تشنج، نارسایی کلیه، DIC و مرگ
+- Loxosceles سه جفت چشم (بیشتر عنکبوت‌ها هشت چشم)؛ الگوی ویولن روی سفالوتوراکس مشخص ولی غیرقابل‌اعتماد؛ تشخیص بالینی (گزش به‌ندرت دیده می‌شود)؛ آزمایش تأییدی در دسترس نیست؛ آبسه‌های موضعی اغلب به‌اشتباه Loxosceles تشخیص داده می‌شود
+- hobo spider: تظاهر مشابه: بی‌درد، سپس سفتی، اریتم، تاول و نکروز؛ سردرد، استفراغ، خستگی؛ آزمایش یا درمان اختصاصی ندارد
+
+@ddx
+- !Skin abscess / MRSA (frequent misdiagnosis) |
+- !Necrotizing soft tissue infection |
+- Other arthropod bite |
+
+@redflags
+- همولیز، نارسایی کلیه، DIC، تشنج، ضایعه > 2 cm
+
+@guide
+حمایتی: مسکن، پروفیلاکسی کزاز، آنتی‌بیوتیک اگر عفونت. پادزهر در آمریکا تجاری نیست و معمولاً لازم نیست. بیشتر زخم‌ها بدون مداخله بهبود. dapsone اثربخشی روشن ندارد و به‌علت عوارض توصیه نمی‌شود. ارزیابی سریال زخم برای سرپایی. علائم سیستمیک و همولیز: بستری. جراحی برای ضایعه > 2 cm و 2 تا 3 هفته بعد. hobo: ترمیم جراحی زخم زخمی شدید پس از اتمام روند نکروتیک.
+
+@variant recluse-local
+name: Brown recluse / hobo bite, local lesion
+level: III
+imp: Brown recluse spider bite, local
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+زنی ۳۵ ساله با ضایعه سفت قرمز دردناک ساق پس از گزش احتمالی عنکبوت.
+
+@why
+حمایتی و پیگیری سریال زخم؛ بدون dapsone.
+
+@T
+- Analgesia; wound care; tetanus prophylaxis; antibiotics only if infection present
+- Serial wound evaluations for outpatients {ci: dapsone not recommended}
+
+@Co
+- Surgery only for lesions > 2 cm, deferred 2–3 weeks after the bite
+
+@variant recluse-systemic
+name: Loxoscelism with systemic reaction / hemolysis
+level: I
+imp: Loxoscelism with hemolysis
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: none
+
+@scenario
+کودک ۶ ساله با نکروز ران، تب، استفراغ، ادرار تیره و رنگ‌پریدگی 2 روز پس از گزش.
+
+@why
+همولیز، کلیه و DIC.
+
+@L
+- CBC with smear, reticulocyte, LDH, bilirubin, coagulation studies (PT/INR, PTT, fibrinogen, D-dimer), electrolytes, BUN, creatinine, urinalysis; type and screen
+
+@S
+- IV hydration {ci: caution in AKI, anuria, heart failure}
+
+@T
+- Supportive care (analgesia, tetanus prophylaxis, antibiotics if infection); no antivenom commercially available in the United States
+
+@Co
+- Hospitalize patients with systemic reaction and hemolysis; nephrology / hematology as needed
+
+@cond black-widow-spider-bite
+ch: 120
+name: Black widow spider bite
+name_fa: گزش عنکبوت بیوه سیاه
+cc: wound-bite, abdominal-pain, back-neck-pain
+keywords: black widow, Latrodectus, latrodectism, antivenom, muscle cramps, بیوه سیاه
+status: draft
+
+@features
+- درد سوزنی فوری که به کل اندام گسترش می‌یابد؛ اریتم با ضایعه «target» ظرف 1 ساعت
+- میالژی منتشر (عضلات بزرگ: کمر، شکم، تنه)؛ درد شدید که روزها موج می‌زند؛ هیپرتانسیون، تاکی‌کاردی، فاسیکولاسیون، سردرد، تهوع، استفراغ، تعریق (موضعی یا منتشر)؛ نادر: میوکاردیت، پریاپیسم، تنگی نفس
+
+@ddx
+- !Acute abdomen |
+- !ACS / hypertensive emergency |
+- Other muscle spasm syndromes |
+
+@redflags
+- درد مقاوم به اوپیوئید و بنزودیازپین، هیپرتانسیون شدید، میوکاردیت، تنگی نفس
+
+@guide
+اولیه: مراقبت موضعی از زخم و حمایتی؛ مسکن و بنزودیازپین به‌طور آزاد برای کاهش درد و گرفتگی. پادزهر Latrodectus (سرم اسب) سریعاً مؤثر در موارد شدید حتی با تأخیر؛ آنافیلاکسی کشنده گزارش شده: فقط برای موارد شدید مقاوم به اوپیوئید و بنزودیازپین؛ دوز طبق بروشور. پس از پادزهر و رفع علائم: ترخیص پس از مشاهده کوتاه.
+
+@variant black-widow-main
+name: Black widow bite (pain, cramps)
+level: III
+imp: Black widow spider bite
+cond: Urgent
+act: CBR
+diet: PO
+ecg: stat
+cxr: none
+
+@scenario
+مردی ۳۰ ساله با درد شدید شکم و کمر و تعریق پس از گزش عنکبوت سیاه در انبار.
+
+@why
+مسکن و بنزودیازپین؛ پادزهر فقط در شدید.
+
+@L
+- (CBC, electrolytes, CPK as indicated)
+
+@S
+- Opioid analgesia and benzodiazepines liberally for pain and cramping
+
+@T
+- Local wound care; supportive care; cardiac monitoring if hypertensive / tachycardic
+
+@Co
+- Observation; discharge when pain controlled
+
+@variant black-widow-severe
+name: Severe black widow envenomation refractory to analgesics (antivenom)
+level: II
+imp: Severe Latrodectus envenomation
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: none
+
+@scenario
+زنی ۵۰ ساله با درد غیرقابل کنترل با مورفین و دیازپام، فشار 190/110.
+
+@why
+پادزهر اسب (خطر آنافیلاکسی) فقط وقتی مقاوم.
+
+@S
+- Latrodectus antivenom (equine serum) per package insert; reserved for severe cases refractory to opioids and benzodiazepines {ci: fatal anaphylaxis described}
+- IV opioids and benzodiazepines
+
+@T
+- Continuous cardiac monitoring; local wound care
+
+@Co
+- Observation after antivenom; discharge after short observation if symptoms resolve
+
+@cond tarantula-scorpion-envenomation
+ch: 120
+name: Tarantula and scorpion envenomation
+name_fa: گزش تارانتولا و عقرب
+cc: wound-bite, eye
+keywords: tarantula, urticating hairs, scorpion, bark scorpion, Centruroides, tap test, scorpion antivenom, عقرب, تارانتولا
+status: draft
+
+@features
+- تارانتولا: موهای خاردار؛ در قرنیه و ملتحمه عمیق فرو می‌روند و التهاب ایجاد می‌کنند؛ گزش دردناک با اریتم و ادم موضعی
+- عقرب: در آمریکای شمالی فقط bark scorpion (Centruroides sculpturatus) سمیت سیستمیک: درد فوری و پارستزی؛ «tap test» مثبت؛ علائم سیستمیک نادر و بیشتر در کودک: درگیری حرکتی منتشر و/یا اعصاب کرانیال (حرکت چرخان چشم، دوبینی، اشکال بلع)؛ 24 تا 48 ساعت بدون پادزهر؛ گونه‌های پرسمیت در کارائیب، آسیا و آفریقا
+
+@ddx
+- !Airway compromise (hypersalivation) |
+- Other envenomation / seizure |
+
+@redflags
+- هیپرسالیواسیون و استریدور، درگیری اعصاب کرانیال، علائم ریوی
+
+@guide
+تارانتولا: علائم چشمی پس از تماس: معاینه کامل slit lamp؛ استروئید موضعی و مشاوره چشم‌پزشکی برای برداشتن؛ گزش: مراقبت موضعی و مسکن. عقرب: اکثر بیماران فقط مسکن خوراکی و/یا بنزودیازپین؛ علائم سیستمیک: بنزودیازپین و اوپیوئید IV؛ هیپرسالیواسیون قابل‌توجه و استریدور ممکن است اینتوباسیون بخواهد؛ atropine برای ترشحات (داده ناکافی)؛ F(ab) اسبی بسیار مؤثر در سمیت سیستمیک شدید؛ بدون علائم سیستمیک: مشاهده کوتاه و ترخیص با مسکن.
+
+@variant scorpion-local
+name: Scorpion sting, local / no systemic signs; tarantula bite or hair exposure
+level: III
+imp: Scorpion sting / tarantula exposure, local
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مردی با درد سوزشی و پارستزی دست پس از گزش عقرب، بدون علائم سیستمیک؛ یا کودک با چشم قرمز پس از تماس با تارانتولا.
+
+@why
+مسکن؛ slit lamp برای چشم.
+
+@T
+- Oral analgesics and/or benzodiazepines; local wound care
+- Tarantula ocular exposure: thorough slit lamp examination for embedded hairs; topical steroids
+
+@Co
+- Ophthalmology for surgical removal of embedded hairs; discharge with analgesics after brief observation
+
+@variant scorpion-systemic
+name: Bark scorpion systemic toxicity (cranial nerve / motor involvement, hypersalivation)
+level: I
+imp: Scorpion envenomation with systemic toxicity
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: none
+
+@scenario
+کودک ۳ ساله پس از گزش عقرب با حرکات چرخان چشم، هیپرسالیواسیون، بی‌قراری و حرکات عضلانی منتشر.
+
+@why
+بنزودیازپین و پادزهر F(ab) در درجه بالا.
+
+@L
+- (as clinically indicated; CPK, electrolytes if prolonged agitation / rhabdomyolysis)
+
+@S
+- IV benzodiazepines and opiates
+- Equine F(ab) scorpion antivenom for high-grade systemic toxicity
+
+@T
+- Airway protection; endotracheal intubation if significant hypersalivation with stridor {note: atropine has been used for secretions; supporting data lacking}
+
+@Co
+- Admit; poison center / toxicology
+
+@cond ectoparasite-bites
+ch: 120
+name: Ectoparasite infestations and bites (scabies, ticks, chiggers, fleas, lice, bed bugs)
+name_fa: عفونت‌ها و گزش‌های انگل‌های خارجی (گال، کنه، لارو مایت، کک، شپش، ساس)
+cc: rash, wound-bite
+keywords: scabies, permethrin, ivermectin, tick removal, tick paralysis, chiggers, fleas, lice, pediculosis, bed bugs, kissing bug, گال, کنه, شپش, ساس
+status: draft
+
+@features
+- scabies (Sarcoptes scabiei): بیشتر بین انگشتان، زیربغل، ناحیه تناسلی، صورت/سر کودک و نوک پستان زنان؛ انتقال تماس مستقیم؛ خارش شدید با «burrow»؛ مایت ماده با لبه تیغ قابل خراش دادن؛ وزیکول، پاپول، کراست و اگزمایی ممکن است تشخیص را بپوشاند
+- کنه‌ها: بیماری‌های منتقله: Lyme، RMSF، ehrlichiosis، babesiosis، Colorado tick fever، tularemia، tick-borne encephalitis؛ tick paralysis: فلج شل صعودی متقارن شبیه GBS؛ قبل از تشخیص GBS باید کنه چسبیده جستجو شود
+- chiggers: لارو مایت؛ خارش شدید؛ نقاط لباس تنگ (کمربند)؛ کودکان روی چمن: ناحیه تناسلی؛ پاپول سپس ندول؛ ممکن است تب و اریتم مولتی‌فرم
+- کک: زیگزاگ روی پاها و کمر؛ پونکچر هموراژیک با اریتم و کهیر؛ شپش بدن: کمر، شانه، زیربغل، گردن؛ شپش سر: تخم سفید چسبیده به ساقه مو؛ شپش ناحیه عانه از راه جنسی؛ ساس و kissing bugs: گزش بی‌درد خطی/متعدد، wheals، پاپول و بول؛ لکه تیره مدفوع روی ملحفه
+
+@ddx
+- !Eczema / contact dermatitis |
+- Guillain–Barré syndrome (tick paralysis) |
+- Cellulitis / impetigo |
+
+@redflags
+- فلج صعودی (tick paralysis)، تب پس از گزش کنه
+
+@guide
+scabies: permethrin کرم از گردن به پایین؛ شیرخوار: سر، شقیقه و پیشانی هم؛ قبل حمام، مصرف، و 12 ساعت بعد دوباره حمام؛ تکرار فقط اگر 2 هفته بعد مایت یافت شد (خارش ممکن هفته‌ها بماند)؛ جایگزین: ivermectin 200 µg/kg PO و دوز دوم 10 روز بعد. کنه: با فورسپس نزدیک نقطه اتصال و کشیدن ثابت و ملایم؛ برداشتن سریع (انتقال وابسته به زمان). chiggers: آنتی‌هیستامین خوراکی/موضعی؛ استروئید خوراکی در شدید؛ permethrin یا اسکابیسید موضعی دیگر. کک: calamine، کمپرس سرد و آنتی‌هیستامین؛ استروئید موضعی؛ ایمپتیگو/عفونت: آنتی‌بیوتیک موضعی یا خوراکی. شپش: permethrin (بدن)؛ مو: pyrethrin با piperonyl butoxide پس از شستن و تکرار 10 روز بعد؛ شانه ریز خیس؛ لباس و ملحفه آب داغ > 52°C. ساس/kissing bug: مراقبت موضعی، استروئید موضعی و آنتی‌هیستامین خوراکی.
+
+@variant scabies-lice
+name: Scabies / lice infestation
+level: III
+imp: Scabies / pediculosis
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+کودک ۸ ساله با خارش شدید شبانه بین انگشتان و دور کمر و افراد خانواده مشابه.
+
+@why
+permethrin و درمان تماس‌ها.
+
+@T
+- Scabies: permethrin cream neck down (infants also scalp, temple, forehead); bathe before and again 12 h after; reapply only if mites found at 2 weeks
+- Alternative: ivermectin 200 µg/kg PO, second dose in 10 days
+- Body lice: permethrin; hair lice: pyrethrin with piperonyl butoxide after washing, reapply in 10 days; wet combing; wash clothing and bedding in hot (> 52°C) water
+
+@Co
+- Discharge; treat close contacts
+
+@variant tick-bite-paralysis
+name: Tick bite / tick paralysis
+level: II
+imp: Tick attachment (tick paralysis if ascending paralysis)
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+کودک ۴ ساله با ضعف صعودی پاها و ریفلکس کاهش‌یافته؛ کنه چسبیده پشت سر.
+
+@why
+برداشتن کنه درمان قطعی؛ قبل از GBS.
+
+@L
+- (as clinically indicated; consider serology / CBC for tick-borne illness)
+
+@T
+- Remove tick: grasp with forceps near point of attachment and pull with steady gentle traction (prompt removal essential)
+- Thorough search for engorged tick before diagnosing Guillain–Barré syndrome
+
+@Co
+- Observation / admit if paralysis; follow-up for tick-borne illness
+
+@variant chiggers-fleas-bedbugs
+name: Chigger / flea / bed bug / kissing bug bites
+level: III
+imp: Arthropod bites (chiggers / fleas / bed bugs)
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+کودک با پاپول‌های خارش‌دار زیگزاگ روی پاها یا نواحی لباس تنگ.
+
+@why
+درمان علامتی.
+
+@T
+- Oral or topical antihistamines; calamine lotion and cool soaks; topical steroid creams for severe irritation; oral steroids in severe chigger reactions
+- Chiggers: topical permethrin or other scabicide to annihilate mites
+- Secondary infection (impetigo): topical or oral antibiotics
+
+@Co
+- Discharge
+
+@cond pit-viper-bite
+ch: 120
+name: Pit viper (Crotalinae) snake bite
+name_fa: گزش مار زنگی/pit viper
+cc: wound-bite, limb-injury
+keywords: snake bite, rattlesnake, copperhead, cottonmouth, pit viper, FabAV, CroFab, antivenom, coagulopathy, compartment syndrome, مارگزیدگی, پادزهر
+status: draft
+
+@features
+- دو نیش جمع‌شونده و حفره حساس به گرما بین چشم و بینی؛ فقط 25% گزش‌ها با envenomation
+- اثرات بسته به اندازه و گونه مار، سن و اندازه قربانی، زمان سپری‌شده و ویژگی گزش؛ نشانه اصلی: یک یا چند اثر نیش + درد و ادم پیشرونده؛ لنفادنوپاتی دردناک؛ تهوع، استفراغ و طعم فلزی؛ نادر: هیپوتانسیون، تاکی‌کاردی و شوک؛ ترومبوسیتوپنی، کوآگولوپاتی و هیپوفیبرینوژنمی
+- نبود هر علامتی بعد از 8 تا 12 ساعت: dry bite؛ خفیف: تورم موضعی بدون علائم سیستمیک و آزمایش طبیعی؛ شدید: تورم وسیع، علائم تهدیدکننده و اختلال شدید انعقاد؛ سندرم خفیف ممکن است طی ساعت‌ها پیشرفت کند
+- آزمایش: CBC، انعقاد، UA، گروه خون
+
+@ddx
+- !Coral snake bite |
+- Soft tissue infection / cellulitis |
+- Other envenomation / dry bite |
+
+@redflags
+- تورم پیشرونده، کوآگولوپاتی، ترومبوسیتوپنی، هیپوتانسیون، سندرم کمپارتمان
+
+@guide
+مشاوره سم‌شناس/مرکز سموم در همه. مانیتور قلبی و IV در اندام غیرگزیده. مراقبت زخم و کزاز. دور اندام چند نقطه بالا و پایین زخم هر 30 تا 60 دقیقه. تورم پیشرونده، علائم سیستمیک یا کوآگولوپاتی: FabAV (Polyvalent Crotalidae Immune Fab، ساخته‌شده از گوسفند) بدون تست پوستی؛ «initial control» دوز 4 تا 6 ویال IV (پایان پیشرفت همه اجزا: موضعی، سیستمیک و آزمایشگاهی)؛ هر دوز در 250 mL NS طی 1 ساعت؛ دوز کودک و بزرگسال یکسان (حجم رقیق‌کننده کمتر در کودک کوچک)؛ واکنش آلرژیک: قطع و epinephrine و آنتی‌هیستامین. عدم کنترل: تکرار 4 تا 6 ویال. CBC و انعقاد هر 4 ساعت یا بعد هر دوره (هر کدام بیشتر) و کلیه. نگهداری: دوز 2 ویال در ساعت 6، 12 و 18 پس از کنترل اولیه. سندرم کمپارتمان نادر: بالا بردن اندام و 4 تا 6 ویال دیگر؛ فاسیوتومی فقط اگر مشکوک و فشار بالا علی‌رغم این؛ خونریزی فعال: فرآورده خونی (FabAV ستون درمان). مشاهده ≥ 6 تا 8 ساعت؛ شدید یا دریافت آنتی‌ونین: ICU؛ بدون envenomation پس از 8 ساعت: ترخیص (بعضی کودکان با گزش اندام تحتانی را 24 ساعت بستری می‌کنند). مشاوره درباره 5% خطر serum sickness: prednisone 1 mg/kg/d با کاهش تدریجی طی 1 تا 2 هفته.
+
+@variant pit-viper-observe
+name: Pit viper bite, no or minimal envenomation (observe 8 h)
+level: II
+imp: Pit viper bite, minimal / no envenomation
+cond: Urgent
+act: CBR
+diet: PO
+ecg: stat
+cxr: none
+
+@scenario
+مردی ۳۰ ساله با گزش مار زنگی پا؛ نیش دیده می‌شود، تورم موضعی کم.
+
+@why
+مشاهده 8 تا 12 ساعت برای dry bite و پیشرفت.
+
+@L
+- CBC (platelets), coagulation tests (PT/INR, fibrinogen), urinalysis, blood typing; repeat every 4 h or per antivenom course
+
+@S
+- IV access in non-envenomated extremity
+
+@T
+- Cardiac monitoring; local wound care; tetanus immunization
+- Measure limb circumference at several sites above and below the wound; check every 30–60 min
+- Observe at least 6–8 h (dry bite if no findings after 8–12 h)
+
+@Co
+- Consult medical toxicologist / poison control center (all pit viper bites)
+- Discharge if no evidence of envenomation after 8 h (consider 24 h admission for children with lower extremity bites)
+
+@variant pit-viper-antivenom
+name: Pit viper envenomation, progressive swelling / systemic effects / coagulopathy (antivenom)
+level: I
+imp: Pit viper envenomation, antivenom indicated
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: none
+
+@scenario
+مرد ۴۰ ساله با گزش مار زنگی دست؛ تورم تا ساعد در 2 ساعت، INR 2.5، پلاکت 70،000.
+
+@why
+FabAV تا کنترل اولیه و سپس دوزهای نگهدارنده.
+
+@L
+- CBC, PT/INR, fibrinogen, urinalysis, type and screen; monitor CBC and coagulation every 4 h or after each course; renal function
+
+@S
+- FabAV (Polyvalent Crotalidae Immune Fab) 4–6 vials IV as "initial control" dose, diluted in 250 mL normal saline over 1 hour; repeat 4–6 vials if control not achieved; then maintenance 2 vials at 6, 12, and 18 h after initial control {hi} {note: no skin testing; same dose in children; if allergic reaction stop infusion and give epinephrine and antihistamines}
+- Blood components only for active bleeding from severe coagulopathy
+
+@T
+- Cardiac monitoring; IV in non-envenomated extremity; wound care; tetanus immunization; serial limb circumference every 30–60 min
+- Compartment syndrome: limb elevation and additional 4–6 vials FabAV; fasciotomy only if suspected and pressures persist
+
+@Co
+- Medical toxicologist / poison control center; ICU admission for severe bites / antivenom
+- Counsel on 5% risk of serum sickness (prednisone 1 mg/kg/day tapering over 1–2 weeks)
+
+@cond coral-snake-gila-monster-bite
+ch: 120
+name: Coral snake and Gila monster bites
+name_fa: گزش مار مرجانی و Gila monster
+cc: wound-bite, focal-neuro
+keywords: coral snake, Micrurus fulvius, elapid, neurotoxin, antivenom, Gila monster, مار مرجانی
+status: draft
+
+@features
+- coral snake (Elapidae) آمریکا: نوارهای قرمز و زرد مجاور؛ فقط eastern coral snake (Micrurus fulvius fulvius) درمان قابل‌توجه می‌خواهد: نوروتوکسین قوی: لرزش، هیپرسالیواسیون، فلج تنفسی، تشنج و فلج بولبار (دیزآرتری، دوبینی، دیسفاژی)؛ گزش Sonoran (Arizona) خفیف
+- Gila monster: درد و تورم؛ سمیت سیستمیک نادر: تعریق، پارستزی، ضعف، هیپرتانسیون و آنژیوادم؛ جانور محکم می‌چسبد
+
+@ddx
+- !Pit viper bite |
+- Guillain–Barré / botulism |
+
+@redflags
+- ضعف بولبار، دیسپنه، کاهش ظرفیت حیاتی
+
+@guide
+coral snake: مشاوره سم‌شناس؛ اثرات سمی قابل پیشگیری ولی به‌سختی برگشت‌پذیر: همه گزیده‌شدگان 3 تا 5 ویال آنتی‌ونین (M. fulvius) در اولین علامت سمیت؛ دوز بیشتر با بروز علائم؛ دسترسی بسیار محدود (در آمریکا دیگر ساخته نمی‌شود). پایش پارامترهای ریوی و معاینه عصبی (inspiratory pressure و vital capacity) و بستری 24 تا 48 ساعت. Gila monster: جدا کردن جانور (روی سطح محکم قرار دادن)؛ مراقبت استاندارد و جستجوی دندان باقی‌مانده؛ مشاهده ≥ 6 ساعت از نظر ادم راه هوایی؛ بدون علائم سیستمیک: ترخیص.
+
+@variant coral-snake
+name: Eastern coral snake bite
+level: I
+imp: Coral snake bite, risk of neurotoxicity
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+
+@scenario
+کودک ۱۰ ساله پس از گزش مار با نوارهای قرمز/زرد؛ دیزآرتری و پتوز.
+
+@why
+آنتی‌ونین زود و پایش تنفس.
+
+@I
+- CXR portable if respiratory compromise
+
+@L
+- Pulmonary function parameters (inspiratory pressure, vital capacity); CBC, electrolytes, CPK
+
+@S
+- Coral snake antivenom (Micrurus fulvius) 3–5 vials at first sign of toxicity; additional doses if symptoms appear {note: access extremely limited; no longer manufactured in the United States}
+
+@T
+- Follow pulmonary function parameters and neurological examinations; airway management; wound care; tetanus
+
+@Co
+- Medical toxicologist / poison control center; admit 24–48 hours
+
+@variant gila-monster
+name: Gila monster bite
+level: III
+imp: Gila monster bite
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مردی با گزش Gila monster به دست و تورم و درد؛ جانور هنوز چسبیده.
+
+@why
+جدا کردن جانور و مشاهده 6 ساعت برای ادم راه هوایی.
+
+@T
+- Remove the reptile (place on solid surface to loosen bite); standard wound care including search for implanted teeth; tetanus
+- Observe for airway edema at least 6 hours after removal {note: no further treatment required}
+
+@Co
+- Discharge if no systemic manifestations (including angioedema)
