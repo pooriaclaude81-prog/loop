@@ -1,0 +1,305 @@
+@cond leukemia-peds
+ch: 85
+name: Childhood leukemia and its emergency complications (anemia, thrombocytopenia, infection, tumor lysis, hyperleukocytosis)
+name_fa: لوسمی کودکان و عوارض اورژانس (آنمی، ترومبوسیتوپنی، عفونت، تومور لیز، هیپرلکوسیتوز)
+cc: bleeding-bruising, pediatric-fever, pediatric-other
+keywords: acute lymphoblastic leukemia, ALL, tumor lysis syndrome, hyperleukocytosis, febrile neutropenia, rasburicase, allopurinol, leukapheresis, hydroxyurea, لوسمی کودکان
+status: draft
+
+@features
+- ALL شایع‌ترین بدخیمی اطفال؛ اوج 3 تا 5 سال؛ بقای 5 ساله 75٪ تا 80٪
+- تظاهر: تب، کاهش وزن، رنگ‌پریدگی، خستگی، کبودی/خونریزی آسان، درد استخوان (به‌ویژه شبانه)، هپاتومگالی یا اسپلنومگالی؛ AML گاهی هیپرپلازی لثه یا کلروما
+- CBC با دیفرانسیل دستی مفیدترین؛ ممکن است لکوسیتوز و بلاست در ابتدا نباشد؛ WBC < 4000، آنمی خفیف و ترومبوسیتوپنی خفیف مشکوک؛ ≥ 2 رده سلولی غیرطبیعی: لوسمی محتمل‌تر
+- اگر CBC مشکوک: CXR (توده مدیاستن)؛ الکترولیت با کراتینین، کلسیم، اسیداوریک و فسفات (تومور لیز)؛ LFT و LDH؛ PT/PTT (DIC)؛ اسمیر محیطی؛ type and screen اگر آنمیک؛ کشت خون و ادرار اگر تب‌دار
+- افتراق: آپلاستیک آنمی، عفونت ویروسی، بیماری‌های روماتولوژیک، ITP (تخریب ایزوله پلاکت)
+- شیمی‌درمانی در اکثر موارد فوری نیست؛ ED عوارض و علائم را درمان می‌کند
+- عفونت: تب (دمای دهانی واحد > 38.3°C یا چند دمای > 38°C با فاصله ≥ 1 ساعت) و نوتروپنی (ANC < 500 یا < 1000 با کاهش مورد انتظار)؛ در لوسمیک تازه تشخیص عملکرد گرانولوسیت مختل است: تب با هر ANC اورژانس؛ نوتروپنی شناخته‌شده: آبسه/سلولیت پری‌رکتال و typhlitis
+- تومور لیز: آزادسازی K، فسفات و اوریک اسید و افت کلسیم؛ معمولاً با شیمی‌درمانی ولی ممکن است پیش از آن (ALL یا لنفوم غیرهوجکین با بار تومور بالا)
+- هیپرلکوسیتوز (WBC > 100000): درمان اگر علائم استاز (سکته، تغییر بینایی، تنگی نفس، پریاپیسم) یا WBC > 200000 در AML و > 300000 در ALL بدون علامت
+
+@ddx
+- !Tumor lysis syndrome |
+- !Sepsis in a neutropenic child |
+- !Hyperleukocytosis with stasis symptoms |
+- Aplastic anemia / viral marrow suppression |
+- Immune thrombocytopenia |
+- Rheumatologic disease |
+
+@redflags
+- تب در لوسمیک، خونریزی تهدیدکننده، هیپرکالمی/کراتینین بالا، علائم استاز، توده مدیاستن
+
+@guide
+# آنمی
+PRBC تابش‌دیده و leukodepleted 10 mL/kg برای خونریزی تهدیدکننده یا همولیز (Hb حدود 2–3 g/dL ↑)؛ غیر اورژانس با هدف Hb > 8 تا 10 با هماهنگی انکولوژیست؛ Hb کمتر در hyperleukocytosis.
+# ترومبوسیتوپنی
+پلاکت 10 mL/kg برای خونریزی تهدیدکننده، مصرف یا نیاز پروسیجر (LP: > 50000؛ جراحی 50000 تا 100000)؛ غیراورژانس: نگه‌داشتن > 10000 (نه الزاماً در ED).
+# تب/نوتروپنی
+کشت خون؛ سایر مطالعات (UA) بر اساس بالین؛ پرهیز از دستکاری رکتال (دمای رکتال)؛ cefepime (50 mg/kg) یا ceftazidime (50 mg/kg) یا piperacillin-tazobactam (80 mg/kg) IV؛ بدحال: gentamycin (2.5 mg/kg) اضافه؛ شک گرم‌مثبت: vancomycin (15 mg/kg)؛ منبع بی‌هوازی (typhlitis): clindamycin (10 mg/kg) یا metronidazole (7.5 mg/kg).
+# تومور لیز
+آزمایش هر 4 ساعت؛ هیپرکالمی استاندارد؛ هیدراتاسیون تهاجمی؛ allopurinol یا rasburicase برای اسیداوریک؛ هیپوکلسمی فقط علامت‌دار (فصل ۱۳۹).
+# هیپرلکوسیتوز
+بولوس NS 20 mL/kg و تکرار تا حد تحمل؛ علامت‌دار پس از هیدراتاسیون: leukapheresis؛ پرهیز از PRBC و دیورتیک؛ درمان پیشگیرانه تومور لیز؛ بدون علامت با WBC بالا: hydroxyurea (نصف WBC در 24 تا 48 ساعت).
+
+@variant leukemia-peds-febrile
+name: Fever in a child with leukemia / febrile neutropenia
+level: I
+imp: Fever in a child with leukemia (febrile neutropenia)
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: portable
+o2: O2 therapy: if SpO2 < 94%, nasal cannula or face mask with flow by age and weight
+
+@scenario
+پسر ۵ ساله با ALL تحت شیمی‌درمانی، تب 39 و ANC 300.
+
+@why
+تب با نوتروپنی: آنتی‌بیوتیک وسیع‌الطیف فوری؛ پرهیز از دستکاری رکتال.
+
+@I
+- Chest radiograph; imaging as clinically indicated (typhlitis, perirectal abscess)
+
+@L
+- Blood cultures; urinalysis and other studies as clinically indicated; CBC with manual differential {ci: avoid rectal manipulation including rectal temperatures}
+
+@A
+- Cefepime 50 mg/kg IV, or Ceftazidime 50 mg/kg IV, or Piperacillin-tazobactam 80 mg/kg IV
+- If ill-appearing add Gentamycin 2.5 mg/kg IV; if gram-positive infection suspected add Vancomycin 15 mg/kg IV; if anaerobic source (e.g., typhlitis) add Clindamycin 10 mg/kg IV or Metronidazole 7.5 mg/kg IV
+
+@Co
+- Admit; oncology
+
+@variant leukemia-peds-new-lysis
+name: New leukemia presentation / tumor lysis / hyperleukocytosis
+level: I
+imp: Childhood leukemia with tumor lysis / hyperleukocytosis
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: PA
+o2: O2 therapy: if SpO2 < 94%, nasal cannula or face mask with flow by age and weight
+
+@scenario
+دختر ۴ ساله با رنگ‌پریدگی، کبودی، درد استخوان و WBC 250000 با بلاست؛ پتاسیم 6.1 و اسید اوریک بالا.
+
+@why
+تومور لیز و استاز تهدیدکننده؛ هیدراتاسیون تهاجمی، کنترل اوریک اسید و leukapheresis.
+
+@I
+- Chest radiograph (mediastinal mass)
+
+@L
+- CBC with manual differential, peripheral smear; electrolytes with creatinine, calcium, uric acid and phosphate (repeat every 4 hours); liver function tests and LDH; PT/PTT; type and screen if anemic; blood and urine cultures if febrile
+
+@S
+- Aggressive hydration: normal saline bolus of 20 mL/kg repeated as tolerated (hyperleukocytosis)
+
+@T
+- Hyperkalemia treated in the standard fashion; Allopurinol or recombinant urate oxidase (Rasburicase) for uric acid management {note: doses not given in this chapter; hypocalcemia not treated unless symptomatic}
+- PRBC (irradiated, leukodepleted) 10 mL/kg for life-threatening hemorrhage or hemolysis; Platelets 10 mL/kg for life-threatening hemorrhage, consumption or urgent invasive procedure {ci: avoid PRBC transfusions and diuretics in hyperleukocytosis if possible}
+- If symptomatic after hydration: leukapheresis; if asymptomatic with high levels: Hydroxyurea (reduces WBC by half in 24 to 48 hours)
+
+@Co
+- Oncology; admit (ICU as needed)
+
+@cond peds-onc-masses
+ch: 85
+name: Pediatric lymphoma, CNS tumors and solid tumors (mediastinal mass, SVC syndrome)
+name_fa: لنفوم، تومورهای CNS و تومورهای توپر کودکان (توده مدیاستن، سندرم SVC)
+cc: pediatric-other, headache, limb-injury
+keywords: Hodgkin lymphoma, non-Hodgkin lymphoma, mediastinal mass, superior vena cava syndrome, brain tumor, neuroblastoma, Wilms tumor, retinoblastoma, osteosarcoma, Ewing sarcoma, لنفوم کودکان
+status: draft
+
+@features
+- هوچکین: نوجوانان؛ غدد گردنی/سوپراکلاویکولار بدون درد، لاستیکی؛ علائم سیستمیک 39٪ تا 50٪؛ CXR: توده مدیاستن قدامی؛ غیرهوچکین: هر عضو و سن (ایمنوساپرس)؛ CBC، الکترولیت/کراتینین (تومور لیز) و CXR
+- ED: مدیریت عوارض حاد، پرهیز از استروئید (مگر تهدیدکننده حیات)، مشاوره انکولوژی و توجه به خطر مسدود شدن راه هوایی داخل قفسه سینه؛ فشار SVC یا SVC + تراشه (superior mediastinal syndrome): علائم تنفسی، ادم بالاتنه، سردرد، تغییر هوشیاری
+- تومور مغزی: سردرد (به‌ویژه صبحگاهی)، تحریک‌پذیری، استفراغ و تغییر رفتار؛ شیرخوار: فونتانل برجسته و sunsetting؛ استفراغ، آتاکسی، فلج اعصاب کرانیال؛ CT یا MRI؛ تومور نخاعی: کمردرد ± علائم عصبی (MRI)؛ تشنج درمان شود؛ dexamethasone (1 mg به‌ازای هر سال سن تا 10 mg) برای ادم وازوژنیک در مواردی که لوسمی/لنفوم مطرح نیست؛ ادامه با انکولوژی و جراحی مغز
+- نوروبلاستوم: توده بدون درد، هپاتومگالی یا علائم فشار (روده، مثانه، لنفاتیک، نخاع، تراشه، SVC)؛ raccoon eyes و پروپتوز؛ فشار خون بالا، اسهال آبکی، opsoclonus-myoclonus؛ CBC، CXR؛ HVA و VMA ادرار
+- ویلمز: < 10 سال؛ توده شکمی؛ متاستاز ریه یا فشار بالا؛ پارگی با ضربه/لمس شدید
+- ژرم‌سل: توده تخمدان/بیضه؛ سونوگرافی؛ رتینوبلاستوم: لکوکوریا (< 2 سال)؛ یک‌چهارم دوطرفه؛ چشم‌پزشکی و CT/MRI؛ ساکروم: روابدومیوسارکوم، استئوسارکوم («sunburst»)، Ewing («moth-eaten»)
+
+@ddx
+- !Mediastinal mass with airway compromise |
+- !Tumor lysis syndrome |
+- !Increased intracranial pressure |
+- Hodgkin / non-Hodgkin lymphoma |
+- Neuroblastoma / Wilms tumor |
+
+@redflags
+- توده مدیاستن با تنگی نفس، SVC syndrome، علائم ICP بالا، توده شکمی ممکن است پاره شود
+
+@guide
+هوچکین/غیرهوچکین: CBC، الکترولیت و کراتینین، CXR؛ پرهیز از استروئید؛ انکولوژی؛ مراقب راه هوایی در توده مدیاستن. تومور مغزی: CT/MRI؛ تشنج: درمان؛ dexamethasone 1 mg/yr of age حداکثر 10 mg. نوروبلاستوم/ویلمز: CBC و CXR؛ از لمس شدید شکم پرهیز (ویلمز).
+
+@variant onc-masses-main
+name: Suspected pediatric malignancy (mediastinal mass / CNS tumor / solid tumor)
+level: II
+imp: Suspected pediatric solid tumor / lymphoma / brain tumor
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: once
+cxr: PA
+o2: O2 therapy: if SpO2 < 94% or airway compromise from mediastinal mass, oxygen with flow by age and weight
+
+@scenario
+نوجوان ۱۵ ساله با گره‌های گردنی لاستیکی، تب، تعریق شبانه و سرفه؛ CXR: توده مدیاستن.
+
+@why
+توده مدیاستن: خطر راه هوایی؛ پرهیز از استروئید؛ انکولوژی.
+
+@I
+- Chest radiograph (mediastinal mass); CT or MRI for CNS tumors (MRI for spinal cord tumors); ultrasound for germ cell tumors and rhabdomyosarcoma (or CT); ophthalmology consultation with CT/MRI for retinoblastoma; plain radiograph for osteosarcoma / Ewing sarcoma
+
+@L
+- CBC, electrolytes and creatinine (tumor lysis); urine homovanillic acid and vanillylmandelic acid (neuroblastoma)
+
+@T
+- CNS tumor: treat seizures if present; Dexamethasone 1 mg/yr of age up to 10 mg to reduce vasogenic edema {ci: avoid steroids in suspected leukemia/lymphoma except in life-threatening situations}
+- Management of acute complications; recognize potential for intrathoracic airway compromise (superior vena cava syndrome / superior mediastinal syndrome)
+
+@Co
+- Oncology; neurosurgery for CNS tumors
+
+@cond hemophilia-peds
+ch: 85
+name: Hemophilia and bleeding disorders in children
+name_fa: هموفیلی و اختلالات خونریزی‌دهنده در کودکان
+cc: bleeding-bruising, joint-limb-pain
+keywords: hemophilia A, hemophilia B, factor VIII, factor IX, hemarthrosis, von Willebrand disease, vitamin K deficiency bleeding, هموفیلی
+status: draft
+
+@features
+- کمبود ارثی فاکتور 8 (A) یا 9 (B): خفیف (> 5٪ فعالیت)، متوسط (1٪ تا 5٪)، شدید (< 1٪)
+- شک: سابقه خانوادگی، خونریزی/کبودی نامتناسب با آسیب، خونریزی راجعه یا در محل‌های غیرمعمول (GI، مفصل)
+- مشکلات شایع: همارتروز (آرتروپاتی مخرب)، خونریزی عضلانی (گاهی کمپارتمان) و خونریزی داخل جمجمه
+- PTT بالا با پلاکت، زمان خونریزی و PT نرمال؛ سطح فاکتور تشخیصی؛ افتراق: ترومبوسیتوپنی، کمبود ویتامین K (2 تا 14 روز پس از تولد در نبود پروفیلاکسی)، von Willebrand
+
+@ddx
+- !Intracranial hemorrhage |
+- !Compartment syndrome |
+- Hemarthrosis |
+- Von Willebrand disease / vitamin K deficiency |
+- Thrombocytopenia |
+
+@redflags
+- سردرد یا تغییر عصبی (ICH)، تورم عضله با درد شدید، خونریزی GI
+
+@guide
+درمان: جایگزینی فاکتور مناسب: تا 100٪ اصلاح در خونریزی‌های شدید و کمتر در خفیف‌تر.
+
+@variant hemophilia-bleed
+name: Hemophilia with acute bleeding
+level: II
+imp: Hemophilia with acute hemorrhage
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: none
+cxr: none
+o2: O2 therapy: if SpO2 < 94%, nasal cannula or face mask with flow by age and weight
+
+@scenario
+پسر ۶ ساله با هموفیلی A، تورم دردناک زانو پس از ضربه کوچک.
+
+@why
+جایگزینی فاکتور؛ ICH و کمپارتمان را رد کن.
+
+@I
+- Head CT if intracranial hemorrhage suspected; ultrasound for joint/muscle bleeding {note: imaging not specified in this chapter}
+
+@L
+- PTT (elevated; normal platelets, bleeding time and PT); quantitative factor levels (diagnostic)
+
+@T
+- Appropriate factor replacement: up to 100% correction with severe bleeds, and less with more minor bleeds {note: factor dose not given in the book}
+
+@Co
+- Hematology
+
+@cond anemia-itp-neutropenia-peds
+ch: 85
+name: Pediatric anemia, immune thrombocytopenia (ITP) and neutropenia
+name_fa: آنمی، ترومبوسیتوپنی ایمنی (ITP) و نوتروپنی در کودکان
+cc: bleeding-bruising, pediatric-other
+keywords: iron deficiency anemia, hemolytic anemia, immune thrombocytopenic purpura, ITP, IVIG, WinRho, prednisone, neutropenia, ceftriaxone, آنمی کودکان, ITP
+status: draft
+
+@features
+- آنمی: بی‌علامت یا رنگ‌پریدگی، خستگی یا نارسایی قلبی؛ فقر آهن (شیر گاو زیاد) 6 ماه تا 3 سال (خارج از این سن: خون مخفی GI را بررسی کن): رتیکولوسیت پایین و MCV پایین؛ همولیتیک: MCV بالا، اسفروسیت و شیستوسیت، بیلی‌روبین غیرمستقیم بالا و آزمون مستقیم آنتی‌بادی مثبت
+- ITP: تخریب اتوایمیون پلاکت؛ اغلب ایزوله در پیش‌دبستانی؛ پتشی یا خونریزی (بینی، لثه)؛ بعد از عفونت ویروسی با روزها تا هفته‌ها فاصله؛ در نوجوان: لوپوس، HIV، هپاتیت C؛ سایر رده‌ها طبیعی، پلاکت اغلب < 20000 با حجم بزرگ؛ 70٪ ظرف 6 ماه خودبه‌خود بهبود؛ DIC و HUS در بیمار بدحال
+- نوتروپنی: ANC < 1500؛ شدید < 500؛ خوش‌خیم (ویروسی/دارو، اتوایمیون، سیکلیک 4 تا 6 روز در چرخه 21 روزه) در برابر مزمن (آگرانولوسیتوز مادرزادی، شیمی‌درمانی)؛ افتراق در ED دشوار
+
+@ddx
+- !Leukemia (pancytopenia) |
+- !DIC / hemolytic-uremic syndrome |
+- Immune thrombocytopenia |
+- Iron deficiency / hemolytic anemia |
+- Benign or severe neutropenia |
+
+@redflags
+- خونریزی تهدیدکننده، پلاکت < 20000 با خونریزی، تب با نوتروپنی، Hb < 5
+
+@guide
+فقر آهن بی‌علامت/کم‌علامت: ترخیص با پیگیری، کاهش شیر < 24 oz/d و آهن المنتال 2 تا 3 mg/kg/dose سه بار روزانه. همولیتیک: مشاهده یا ترانسفوزیون؛ استروئید در اتوایمیون؛ Hb < 5: PRBC 3 تا 5 mL/kg طی 2 تا 3 ساعت؛ Hb > 5: 10 mL/kg. ITP: بدون علامت و پلاکت > 20000: پیگیری؛ خونریزی قابل‌توجه یا پلاکت < 20000: prednisone 1 تا 2 mg/kg/d 2 تا 4 هفته (فقط با هماتولوژیست بعد از رد لوسمی)؛ IVIG 1 g/kg طی 4 تا 6 ساعت (پیش‌دارو acetaminophen و diphenhydramine)؛ anti-Rh(D) immunoglobulin (WinRho) 75 μg/kg طی 1 ساعت در Rh+ (هشدار FDA؛ 8 ساعت پایش همولیز؛ Hb 1 تا 2 g/dL افت)؛ خونریزی تهدیدکننده: پلاکت single-donor 20 تا 30 mL/kg، IVIG 1 g/kg طی 30 دقیقه و methylprednisolone 30 mg/kg. نوتروپنی خوش‌خیم شناخته‌شده با عفونت: ترخیص؛ مشاوره هماتولوژی و یک دوز ceftriaxone 50 mg/kg؛ بی‌علامت اتفاقی: هماتولوژی سرپایی؛ تب با نوتروپنی نامشخص/غیرخوش‌خیم: کشت خون و آنتی‌بیوتیک وسیع‌الطیف.
+
+@variant itp-peds
+name: Immune thrombocytopenic purpura
+level: III
+imp: Immune thrombocytopenic purpura (ITP)
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+o2: O2 therapy: if SpO2 < 94%, nasal cannula or face mask with flow by age and weight
+
+@scenario
+دختر ۴ ساله ۲ هفته پس از سرماخوردگی با پتشی منتشر و اپیستاکسی؛ پلاکت 12000.
+
+@why
+ITP با پلاکت < 20000 یا خونریزی: استروئید (پس از رد لوسمی)، IVIG یا anti-D؛ خونریزی تهدیدکننده: ترکیب.
+
+@L
+- CBC and blood type; peripheral smear (exclude leukemia); consider lupus, HIV, hepatitis C in teens; DIC / HUS in ill patient
+
+@T
+- Prednisone 1 to 2 mg/kg/d for 2 to 4 weeks (only with a hematologist once leukemia has been excluded)
+- Intravenous immunoglobulin (IVIG) 1 g/kg over 4 to 6 hours (premedication with acetaminophen and diphenhydramine)
+- Anti-Rh(D) immunoglobulin (WinRho) 75 μg/kg over 1 hour in Rh+ patients {ci: hemolysis; monitor 8 hours; premedicate with acetaminophen and diphenhydramine}
+- Life-threatening bleed: single-donor platelet transfusion 20 to 30 mL/kg, IVIG 1 g/kg over 30 minutes and high-dose methylprednisolone 30 mg/kg {hi}
+
+@Co
+- Hematology; children with minimal symptoms and platelets > 20,000/mm3 followed without intervention (70% resolve spontaneously within 6 months)
+
+@variant anemia-neutropenia-peds
+name: Pediatric anemia / neutropenia
+level: III
+imp: Pediatric anemia / neutropenia
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+o2: O2 therapy: if SpO2 < 94%, nasal cannula or face mask with flow by age and weight
+
+@scenario
+کودک ۱۸ ماهه با رنگ‌پریدگی، MCV پایین و مصرف زیاد شیر گاو.
+
+@why
+فقر آهن: ترخیص با آهن و کاهش شیر؛ نوتروپنی با تب: آنتی‌بیوتیک.
+
+@L
+- CBC with reticulocyte count and MCV; stool guaiac testing if outside the age range 6 months to 3 years; direct antibody test and peripheral smear for hemolytic anemia
+
+@T
+- Iron deficiency: elemental iron 2 to 3 mg/kg/dose three times daily; reduce milk intake below 24 oz/day
+- Hemolytic anemia: observation or transfusion by clinical status; steroids for autoimmune hemolytic anemia; PRBC 3 to 5 mL/kg over 2 to 3 hours if Hb < 5 g/dL, 10 mL/kg if Hb > 5 g/dL
+
+@A
+- Febrile child with undifferentiated or nonbenign neutropenia: blood cultures and broad-spectrum antibiotics; known benign neutropenia with infection: consider single-dose Ceftriaxone 50 mg/kg after hematology consultation
+
+@Co
+- Hematology follow-up (careful follow-up)

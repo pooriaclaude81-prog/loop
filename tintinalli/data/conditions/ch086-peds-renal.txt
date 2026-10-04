@@ -1,0 +1,229 @@
+@cond aki-peds
+ch: 86
+name: Acute kidney injury in infants and children
+name_fa: آسیب حاد کلیه در شیرخواران و کودکان
+cc: urinary-symptoms, metabolic
+keywords: pediatric acute kidney injury, prerenal, intrinsic renal, postrenal, hyperkalemia, نارسایی حاد کلیه کودکان
+status: draft
+
+@features
+- از دست رفتن ناگهانی عملکرد کلیه؛ نسبتاً پراکنده؛ معمولاً آسیب هیپوکسیک (شوک سپتیک، دهیدراتاسیون) یا نفروتوکسین (آنتی‌بیوتیک، کنتراست، NSAID)
+- علائم به علت: اسهال خونی و درد شکم در HUS؛ تب، افت فشار و پتشی در سپسیس؛ نهایتاً اورمی: تهوع و بی‌اشتهایی، سردرد (فشار)، ادم (دور چشم، اسکروتوم/لابیا، وابسته، منتشر) و کاهش ادرار
+- پیش‌کلیوی/ذاتی/پس‌کلیوی (جدول 86-1): پیش‌کلیوی: دهیدراتاسیون GI، خونریزی، نشت مویرگی، کاهش برون‌ده قلبی؛ ذاتی: گلومرولی (HSP، GN، نفروتیک، پیلونفریت)، عروقی (HUS، واسکولیت، ترومبوز)، بینابینی، توبولی (ایسکمی، نفروتوکسین)؛ پس‌کلیوی: سنگ، ترومبوز ورید کلیوی، توده لگنی، انسداد مجرا (دریچه‌های مجرای خلفی، UPJ)
+- UA با میکروسکوپی: پیش‌کلیوی: طبیعی به‌جز وزن مخصوص > 1.025؛ ATN: کست هیالین با وزن مخصوص پایین تا نرمال؛ GN: هماچوری، کست، پروتئینوری؛ پروتئینوری ایزوله: نفروتیک
+- الکترولیت (Na، K)، BUN، کراتینین و CBC در همه؛ هیپرکالمی و سایر یافته‌ها ممکن است مداخله اورژانس بخواهد
+
+@ddx
+- !Hemolytic-uremic syndrome |
+- !Sepsis / septic shock |
+- !Posterior urethral valves / obstruction |
+- Prerenal azotemia |
+- Glomerulonephritis / nephrotic syndrome |
+- Nephrotoxin-induced injury |
+
+@redflags
+- هیپرکالمی شدید، اورژانس هیپرتانسیو، اضافه حجم، آنوری
+
+@guide
+درمان بر اساس علت؛ شناسایی علت و اصلاح اختلال مایع/الکترولیت؛ عوارض تهدیدکننده (هیپرکالمی، اورژانس فشار) فوری؛ مشاوره نفرولوژی اطفال در اغلب موارد (بیشتر بستری). پیش‌کلیوی: کریستالوئید 10 تا 20 mL/kg نرمال سالین بدون پتاسیم افزوده؛ شوک هموراژیک: کریستالوئید تا آماده شدن فرآورده خونی سپس PRBC با aliquot 10 mL/kg. ذاتی: وابسته به وضعیت بالینی و علت؛ ممکن است محدودیت مایع (حتی در الیگوری) در هیپرولمیک؛ پایش وزن و جذب/دفع؛ قطع نفروتوکسین‌ها؛ درمان فشار. پس‌کلیوی: Foley برای رفع انسداد؛ آنتی‌هیپرتانسیو و/یا دیورتیک در صورت نیاز.
+
+@variant aki-peds-prerenal
+name: Prerenal AKI in a child (dehydration, shock)
+level: II
+imp: Prerenal acute kidney injury in a child
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: once
+cxr: none
+o2: O2 therapy: if SpO2 < 94%, nasal cannula or face mask with flow by age and weight
+
+@scenario
+کودک ۵ ساله با اسهال شدید ۴ روزه، کم‌ادراری و کراتینین بالا.
+
+@why
+پیش‌کلیوی: کریستالوئید 10 تا 20 mL/kg بدون پتاسیم؛ پایش ادرار.
+
+@L
+- Urinalysis with microscopy (high specific gravity > 1.025 in prerenal AKI); serum electrolytes including sodium and potassium; BUN and creatinine; CBC
+
+@S
+- Crystalloid resuscitation starting with 10 to 20 mL/kg of normal saline without added potassium; hemorrhagic shock: crystalloid until blood products available then PRBC in aliquots of 10 mL/kg {ci: caution in heart failure / pulmonary edema; fluid restriction in hypervolemic intrinsic AKI}
+
+@T
+- Discontinue nephrotoxic medications; monitor weight and fluid intake and output
+
+@Co
+- Pediatric nephrologist (many cases require inpatient admission)
+
+@variant aki-peds-intrinsic-postrenal
+name: Intrinsic or postrenal AKI in a child
+level: I
+imp: Acute kidney injury in a child (intrinsic or postrenal)
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+o2: O2 therapy: if SpO2 < 94%, nasal cannula or face mask with flow by age and weight
+
+@scenario
+کودک ۳ ساله با ادم، فشار بالا، آنوری و پتاسیم 6.8.
+
+@why
+هیپرکالمی و فشار تهدیدکننده؛ محدودیت مایع در هیپرولمی؛ Foley در انسداد.
+
+@I
+- Ultrasound / imaging for obstruction {note: not specified in this chapter}
+
+@L
+- Urinalysis with microscopy (hyaline casts in ATN; RBC casts and proteinuria in GN); serum electrolytes, BUN, creatinine, CBC
+
+@T
+- Fluid restriction despite oliguria in hypervolemic patients; monitor weight and liquid intake and output; discontinue all nephrotoxic medications
+- Treat hypertension with antihypertensive agents and/or diuretics {note: drugs and doses not given in the chapter}
+- Postrenal AKI: Foley catheter to relieve the obstruction
+- Severe hyperkalemia or hypertensive emergency addressed immediately {note: treatment of hyperkalemia per Chapter 81}
+
+@Co
+- Pediatric nephrologist; admit
+
+@cond nephrotic-gn-peds
+ch: 86
+name: Nephrotic syndrome and acute glomerulonephritis in children
+name_fa: سندرم نفروتیک و گلومرولونفریت حاد در کودکان
+cc: urinary-symptoms, leg-swelling
+keywords: nephrotic syndrome, minimal change disease, proteinuria, edema, furosemide, albumin, post-streptococcal glomerulonephritis, IgA nephropathy, نفروتیک, گلومرولونفریت
+status: draft
+
+@features
+- نفروتیک: بیماری مزمن نفوذپذیری مویرگ گلومرولی با دفع پروتئین؛ شاخص: پروتئینوری قابل‌توجه، هیپوآلبومینمی، هیپرلیپیدمی و ادم
+- ادم (صورت، شکم، اسکروتوم/لابیا، اندام تحتانی)؛ ادم دور چشم غیراختصاصی و گاهی با واکنش آلرژیک اشتباه می‌شود؛ ادرار کف‌دار یا خونی؛ هیپوآلبومینمی شدید: افیوژن پلور، ادم دیواره روده یا آسیت؛ عوارض: ترومبوآمبولی و عفونت شدید
+- اولیه (minimal change، FSGS، ...) و ثانویه (لوپوس، HSP، سیکل‌سل، سموم)؛ TORCH: نفروتیک مادرزادی
+- معیارها: (1) آلبومین < 3 g/dL، (2) نسبت پروتئین به کراتینین ادرار > 2 (نمونه صبحگاهی) یا پروتئین 24 ساعته > 50 mg/kg، (3) کلسترول > 200، (4) ادم منتشر؛ بیوپسی در اپیزود اول لازم نیست
+- GN حاد: التهاب با هماچوری و پروتئینوری؛ ادرار خونی/کف‌دار/رنگ چای، الیگوری، خستگی؛ فشار شدید: سردرد؛ پس‌استرپتوکوکی: گلودرد یا عفونت پوست 1 تا 2 هفته قبل؛ IgA: URI همزمان یا هفته قبل
+- UA: کست RBC، RBC دیسمورفیک و پروتئینوری؛ CBC، الکترولیت، BUN/کراتینین، آلبومین، کشت ادرار؛ کمپلمان پایین در > 90٪ پس‌استرپتوکوکی؛ ASO و streptozyme
+
+@ddx
+- !Hypertensive emergency / acute kidney injury |
+- !Thromboembolism / severe infection (nephrotic syndrome) |
+- Post-streptococcal glomerulonephritis / IgA nephropathy |
+- Henoch-Schonlein purpura / lupus |
+- Allergic reaction (periorbital edema) |
+
+@redflags
+- فشار شدید، تشنج، ادم شدید، علائم عفونت، علائم ترومبوز
+
+@guide
+نفروتیک: هدف درمان علائم حاد؛ وضعیت مایع چالش‌برانگیز (کاهش حجم داخل عروقی با ادم). شوک هیپوولمیک: NS 20 mL/kg؛ دهیدراتاسیون خفیف تا متوسط: محلول خوراکی کم‌نمک مکرر و کم؛ اضافه حجم و ادم: furosemide 1 تا 2 mg/kg/dose؛ اگر آلبومین بسیار پایین دیورتیک کم‌اثر: albumin 0.5 تا 1 g/kg سپس furosemide؛ درمان قطعی: کورتیکواستروئید خوراکی با نفرولوژیست. ترخیص با رژیم کم‌نمک (< 2 g/d) و پیگیری PCP/نفرولوژیست؛ بستری: ادم شدید، عارضه ترومبوتیک یا عفونت سیستمیک. GN: پس‌استرپتوکوکی حمایتی (علائم طی چند هفته)؛ ایمنوساپرسیو در موارد شدید؛ ACE inhibitor برای فشار به‌ویژه با پروتئینوری؛ مشاوره نفرولوژی در GN تازه؛ خفیف: ترخیص با رژیم کم‌سدیم و محدودیت مایع و پیگیری نزدیک.
+
+@variant nephrotic-peds-main
+name: Nephrotic syndrome
+level: III
+imp: Nephrotic syndrome
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+o2: O2 therapy: if SpO2 < 94%, nasal cannula or face mask with flow by age and weight
+
+@scenario
+پسر ۴ ساله با ورم صورت و شکم و ادرار کف‌دار؛ پروتئین ادرار 4+.
+
+@why
+درمان علائم حاد: فوروزماید ± آلبومین؛ استروئید با نفرولوژیست.
+
+@L
+- Urinalysis (proteinuria), urine protein-to-creatinine ratio (> 2 on first morning void), serum albumin (< 3 g/dL), cholesterol (> 200 mg/dL), electrolytes, BUN and creatinine
+
+@S
+- Hypovolemic shock: 20 mL/kg normal saline; mild to moderate dehydration: small, frequent amounts of a low-salt oral solution
+
+@T
+- Furosemide 1 to 2 mg/kg/dose for volume overload and edema; if serum albumin extremely low: Albumin 0.5 to 1 g/kg followed by a dose of furosemide
+- Oral corticosteroids (definitive treatment) initiated in conjunction with a pediatric nephrologist {note: drug and dose not given in the book}
+
+@Co
+- Discharge on a low-salt diet (< 2 g/d) with close PCP or nephrologist follow-up; admit for severe edema, thrombotic complications or systemic infection
+
+@variant gn-peds-main
+name: Acute glomerulonephritis
+level: II
+imp: Acute glomerulonephritis
+cond: Urgent
+act: CBR
+diet: PO
+ecg: once
+cxr: none
+o2: O2 therapy: if SpO2 < 94%, nasal cannula or face mask with flow by age and weight
+
+@scenario
+دختر ۷ ساله ۲ هفته پس از گلودرد با ادرار رنگ چای، ورم صورت و فشار 150/95.
+
+@why
+GN پس‌استرپتوکوکی: حمایتی، کنترل فشار؛ نفرولوژی.
+
+@L
+- Urinalysis with microscopy (RBC casts, dysmorphic RBCs, proteinuria), CBC, electrolytes, BUN and creatinine, serum albumin, urine culture; serum complement (low in > 90% of poststreptococcal GN), antistreptolysin-O and streptozyme
+
+@T
+- ACE inhibitors for hypertension, particularly with proteinuria {ci: renal impairment / hyperkalemia}; immunosuppressive agents for inflammation depending on severity; supportive care
+- Fluid-restricted low-sodium diet {note: drugs and doses not given in the book}
+
+@Co
+- Nephrology consultation for new-onset GN; mild disease may be discharged with close follow-up
+
+@cond hus-peds
+ch: 86
+name: Hemolytic-uremic syndrome
+name_fa: سندرم همولیتیک-اورمیک (HUS)
+cc: urinary-symptoms, pediatric-gi, bleeding-bruising
+keywords: hemolytic uremic syndrome, HUS, Shiga toxin, E. coli O157:H7, schistocytes, dialysis, سندرم همولیتیک اورمیک
+status: draft
+
+@features
+- نارسایی حاد کلیه، ترومبوسیتوپنی و آنمی همولیتیک میکروآنژیوپاتیک؛ حدود 90٪ ناشی از E. coli O157:H7 تولیدکننده Shiga toxin (شیر غیرپاستوریزه، گوشت نیم‌پز، محصولات آلوده)
+- بیشتر: تهوع، استفراغ و اسهال خونی؛ ظرف یک هفته: الیگوری، آنمی، تشنج و آنسفالوپاتی
+- CBC: Hb 5 تا 9 g/dL و پلاکت < 150000؛ اسمیر: schistocyte، helmet cell و burr cell؛ نمونه مدفوع برای Shiga toxin و E. coli O157:H7
+
+@ddx
+- !Thrombotic thrombocytopenic purpura / DIC |
+- !Sepsis |
+- Inflammatory bowel disease / bacterial colitis |
+- Intussusception |
+
+@redflags
+- الیگوری/آنوری، تشنج، آنمی شدید، پلاکت پایین
+
+@guide
+درمان حمایتی. هیپوولمی: بولوس 10 تا 20 mL/kg NS با پایش اضافه‌بار در بیمار الیگوریک. ترانسفوزیون پلاکت توصیه نمی‌شود (عوارض ترومبوتیک). آنتی‌بیوتیک ممنوع در بیماری اسهالی اطفال (خطر HUS). ضدحرکت روده (loperamide) ممنوع. همه بستری؛ تا 70٪ دیالیز.
+
+@variant hus-peds-main
+name: Hemolytic-uremic syndrome
+level: I
+imp: Hemolytic-uremic syndrome
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: none
+o2: O2 therapy: if SpO2 < 94%, nasal cannula or face mask with flow by age and weight
+
+@scenario
+کودک ۳ ساله ۵ روز پس از اسهال خونی با رنگ‌پریدگی، الیگوری و Hb 6.
+
+@why
+HUS حمایتی؛ هیپوولمی با مایع محتاطانه؛ بدون پلاکت و آنتی‌بیوتیک.
+
+@L
+- CBC (Hb 5 to 9 g/dL, platelets < 150,000/mm3), peripheral smear (schistocytes, helmet cells, burr cells); stool for Shiga toxin and E. coli O157:H7; electrolytes, BUN, creatinine
+
+@S
+- Hypovolemia: 10 to 20 mL/kg boluses of normal saline while monitoring for fluid overload in oliguric patients {ci: caution in oliguria / heart failure}
+
+@T
+- Supportive treatment {ci: no platelet transfusions (increase thrombotic complications); antibiotics and antiperistaltic agents (loperamide) contraindicated}
+
+@Co
+- Hospitalize all patients (up to 70% will require dialysis); pediatric nephrology

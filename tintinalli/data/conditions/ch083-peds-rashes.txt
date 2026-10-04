@@ -1,0 +1,347 @@
+@cond peds-viral-exanthems
+ch: 83
+name: Viral exanthems in children (hand-foot-and-mouth, measles, rubella, fifth disease, varicella, roseola, erythema multiforme)
+name_fa: راش‌های ویروسی کودکان (دست-پا-دهان، سرخک، سرخجه، بیماری پنجم، آبله‌مرغان، رزئولا، اریتم مولتی‌فرم)
+cc: rash, pediatric-fever
+keywords: hand foot and mouth disease, measles, Koplik spots, rubella, fifth disease, erythema infectiosum, varicella, chickenpox, roseola, erythema multiforme, سرخک, آبله مرغان
+status: draft
+
+@features
+- سرنخ‌ها: علائم قبل/همراه راش، درگیری مخاط، واکسیناسیون، تماس با انسان/حیوان، مواجهه محیطی، طغیان بین چند کودک؛ بیشتر سرپایی
+- انتروویروس: تابستان/اوایل پاییز؛ راش‌های متنوع؛ HFMD: تب، بی‌اشتهایی، ناخوشی و دهان دردناک؛ ضایعات دهانی روز 2 تا 3 (وزیکول 4 تا 8 mm روی پایه اریتماتو که زخم می‌شود: مخاط گونه، زبان، کام نرم، لثه) سپس پوست (پاپول قرمز → وزیکول خاکستری 3 تا 7 mm؛ کف دست/پا و باسن؛ بهبود 7 تا 10 روز)؛ هرپانژین: انانتم مشابه بدون دست و پا (coxsackie A)
+- سرخک: واکسیناسیون کم‌شیوع؛ طغیان در گروه‌های واکسن‌نزده؛ زمستان و بهار؛ نهفتگی 10 روز، 3 روز پرودروم (URI، ناخوشی، تب، coryza، ملتحمه، فتوفوبی، سرفه)، ظاهر بدحال؛ Koplik spots («دانه ماسه») پاتونومونیک؛ راش 14 روز پس از مواجهه: ماکولوپاپولار قرمز بلانچ شونده از سر به پا، سریع در صورت به‌هم می‌پیوندد، یک هفته؛ پوسته‌ریزی؛ خودمحدود و حمایتی
+- سرخجه: نوجوانان، بهار؛ نهفتگی 12 تا 25 روز؛ ماکول/پاپول ریز صورتی از صورت به گردن، تنه و بازوها؛ آدنوپاتی سوب‌اکسی‌پیتال و خلف گوش؛ حمایتی
+- erythema infectiosum (پاروویروس B19): بهار؛ 5 تا 15 سال؛ «slapped cheek»؛ رنگ‌پریدگی دور دهان؛ 1 تا 2 روز بعد راش بدون خارش تنه/اندام با ظاهر لیسی؛ کف دست/پا نادر؛ عود با آفتاب یا حمام داغ
+- واریسلا: زمستان/اوایل بهار؛ < 10 سال؛ مسری از پرودروم تا خشک‌شدن همه ضایعات؛ ماکول قرمز → وزیکول روی پایه قرمز در مراحل مختلف، مرکزگریز، کف دست/پا معمولاً سالم؛ تب خفیف
+- رزئولا (HHV-6): 6 ماه تا 3 سال؛ تب بالای ناگهانی 3 تا 5 روز؛ با فروکش تب راش ماکولار/ماکولوپاپولار صورتی؛ گردن، تنه، باسن؛ مخاط سالم؛ 1 تا 2 روز
+- اریتم مولتی‌فرم: شروع ناگهانی بدون خارش، کودک خوش‌ظاهر؛ ضایعات target سه ناحیه‌ای؛ کف دست/پا؛ مخاط سالم؛ علت: دارو یا (شایع‌تر) HSV؛ بدون درمان
+
+@ddx
+- !Measles |
+- !Meningococcemia / Kawasaki disease |
+- Hand-foot-and-mouth disease / herpangina |
+- Varicella / roseola / fifth disease |
+- Rubella / erythema multiforme |
+
+@redflags
+- ظاهر بدحال با پتشی/پورپورا، سرخک با تنفس مشکل، ضایعات در ایمنوساپرس
+
+@guide
+HFMD/آنتروویروس: درمان علامتی (هیدراتاسیون، تب‌بر/ضددرد) یا سوسپانسیون ترکیبی diphenhydramine مایع و Maalox موضعی کم (swish and spit) سه بار روزانه و قبل از تغذیه؛ گاهی مخدر. سرخک، سرخجه، فیفث، رزئولا و EM: حمایتی. واریسلا: diphenhydramine 1.25 mg/kg/dose هر 6 ساعت برای خارش و acetaminophen 15 mg/kg/dose هر 4 ساعت برای تب؛ در ایمنوساپرس: varicella-zoster immune globulin و acyclovir 20 mg/kg تا 800 mg PO پنج بار روزانه.
+
+@variant exanthem-peds-supportive
+name: Viral exanthem, well-appearing (supportive care)
+level: III
+imp: Viral exanthem (HFMD / measles / rubella / fifth disease / varicella / roseola / erythema multiforme)
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+o2: O2 therapy: if SpO2 < 94%, nasal cannula or face mask with flow by age and weight
+
+@scenario
+پسر ۳ ساله با تب 38.5، زخم دهان و وزیکول کف دست/پا و باسن.
+
+@why
+HFMD و اکثر راش‌های ویروسی: درمان علامتی؛ هیدراتاسیون.
+
+@S
+- Adequate hydration {note: oral; narcotics occasionally required to facilitate adequate outpatient hydration}
+
+@T
+- Antipyretics/analgesics: Acetaminophen 15 mg/kg/dose every 4 hours as needed for fever
+- Combined suspension of diphenhydramine liquid and Maalox in small quantities to oral lesions (or swish and spit) three times daily and before feeding
+- Varicella: Diphenhydramine 1.25 mg/kg/dose every 6 hours as needed for itching
+
+@A
+- [varicella in immunocompromised] Varicella-zoster immune globulin and Acyclovir 20 mg/kg up to 800 mg PO five times daily
+
+@cond eczema-herpeticum
+ch: 83
+name: Eczema herpeticum
+name_fa: اگزمای هرپتیکوم
+cc: rash, pediatric-fever
+keywords: eczema herpeticum, herpes simplex, acyclovir, Kaposi varicelliform eruption, اگزمای هرپتیکوم
+status: draft
+
+@features
+- عفونت ویروسی نادر و تهدیدکننده حیات در کودک با اگزمای موجود؛ شایع‌ترین عامل HSV؛ فرض سوپرایمپوز باکتریال (استافیلوکوک یا استرپتوکوک)
+- تب و ضایعات وزیکولار در نواحی درگیر اگزما
+
+@ddx
+- !Eczema herpeticum |
+- !Staphylococcal superinfection / cellulitis |
+- Impetigo / varicella |
+
+@redflags
+- تب، وزیکول منتشر روی اگزما، سمیت
+
+@guide
+acyclovir 20 mg/kg/dose PO هر 6 ساعت و trimethoprim-sulfamethoxazole 5 mg/kg/dose دو بار روزانه یا clindamycin 10 mg/kg/dose سه بار روزانه، 10 روز؛ بستری اغلب لازم.
+
+@variant eczema-herpeticum-main
+name: Eczema herpeticum
+level: II
+imp: Eczema herpeticum
+cond: Emergent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+o2: O2 therapy: if SpO2 < 94%, nasal cannula or face mask with flow by age and weight
+
+@scenario
+کودک ۴ ساله با اگزما، تب 39 و وزیکول‌های متراکم روی اگزما.
+
+@why
+تهدیدکننده؛ acyclovir و پوشش آنتی‌استاف؛ بستری.
+
+@A
+- Acyclovir 20 mg/kg/dose PO every 6 hours; plus Trimethoprim-sulfamethoxazole 5 mg/kg/dose twice daily or Clindamycin 10 mg/kg/dose three times daily for 10 days
+
+@Co
+- Inpatient admission often necessary
+
+@cond peds-skin-infections-infestations
+ch: 83
+name: Tinea, impetigo, scarlet fever, cellulitis/erysipelas, scabies and lice in children
+name_fa: تینه‌آ، ایمپتیگو، مخملک، سلولیت/اریزیپل، گال و شپش در کودکان
+cc: rash, wound-bite
+keywords: tinea capitis, griseofulvin, impetigo, mupirocin, bullous impetigo, scarlet fever, penicillin V, cellulitis, erysipelas, scabies, permethrin, lice, کچلی, گال
+status: draft
+
+@features
+- تینه‌آ: پچ‌های پوسته‌دار خارش‌دار؛ درمان با کرم موضعی (clotrimazole، miconazole، tolnaftate؛ ketoconazole، oxiconazole، ciclopirox، terbinafine) تا 7 تا 10 روز بعد از رفع؛ tinea capitis: از پوسته‌ریزی خفیف تا kerion؛ درمان خوراکی: griseofulvin ultramicrosize 15 mg/kg/dose روزانه و شامپوی selenium sulfide؛ حداقل 8 هفته و پایش LFT
+- ایمپتیگو: GAS یا S. aureus؛ کودکان کوچک؛ ماکول/پاپول → وزیکول/پوستول → پوسته طلایی؛ لنفادنوپاتی ناحیه‌ای؛ صورت، گردن و اندام؛ بولوز: بول‌های نازک روی اندام، پارگی، قاعده برهنه
+- مخملک: GAS (گاهی C)؛ سن مدرسه؛ فارنژیت اگزودایی، تب و راش؛ گردن، کشاله و زیربغل با تشدید در چین‌ها (Pastia lines)؛ قرمز نقطه‌ای، بلانچ شونده، زبر مثل کاغذ سنباده؛ «white strawberry tongue»؛ خال خونریزی در کام نرم؛ گُرگرفتگی صورت و رنگ‌پریدگی دور دهان؛ پوسته‌ریزی ~2 هفته؛ تشخیص بالینی؛ کشت حلق
+- سلولیت: تب نادر (نشانه عفونت جدی‌تر)؛ CA-MRSA شایع؛ آبسه زیرین: آسپیراسیون یا سونوگرافی بالین؛ اریزیپل: سلولیت و لنفانژیت GAS؛ تب، لرز، سردرد، استفراغ؛ صورت و اندام؛ پلاک قرمز با لبه برجسته مشخص و ایندوره
+- گال (Sarcoptes scabiei): خارش شدید پس از 4 تا 6 هفته نهفتگی؛ لانه‌های خطی، پاپول، پوستول؛ اعضای خانواده علامت‌دار
+- شپش (Pediculus humanus capitis): مدرسه/مهدکودک؛ موهای بلند صاف؛ تخم و شپش
+
+@ddx
+- !Meningococcemia / necrotizing soft tissue infection |
+- !Staphylococcal scalded skin / abscess |
+- Impetigo / bullous impetigo |
+- Scarlet fever / erysipelas |
+- Scabies / lice / tinea |
+
+@redflags
+- تب با سلولیت، ظاهر سمی، آبسه، پتشی
+
+@guide
+ایمپتیگو موضعی: mupirocin 2٪ سه بار روزانه؛ وسیع: cephalexin 12.5 تا 25 mg/kg/dose چهار بار روزانه، TMP-SMX 5 mg/kg/dose دو بار روزانه یا clindamycin 10 mg/kg/dose سه بار روزانه؛ تمیز کردن موضعی. بولوز: تمیز کردن، mupirocin موضعی و آنتی‌استافیلوکوکی خوراکی (clindamycin 10 mg/kg/dose سه بار روزانه یا TMP-SMX 5 mg/kg/dose دو بار روزانه). مخملک: penicillin V 16 mg/kg/dose سه بار روزانه یا clindamycin 10 mg/kg/dose سه بار روزانه در آلرژی؛ آنتی‌بیوتیک دوره را کوتاه و تب روماتیسمی را کم می‌کند. سلولیت: cephalexin 12.5 تا 25 mg/kg/dose چهار بار روزانه؛ با CA-MRSA: clindamycin 10 mg/kg/dose سه بار روزانه یا TMP-SMX 5 تا 10 mg/kg/dose دو بار روزانه. اریزیپل: بستری با penicillin G 50000 U/kg/dose هر 6 ساعت یا clindamycin 10 mg/kg/dose هر 8 ساعت؛ سرپایی: cephalexin 12.5 تا 25 mg/kg/dose چهار بار روزانه، TMP-SMX 5 تا 10 mg/kg/dose دو بار روزانه یا clindamycin 10 mg/kg/dose سه بار روزانه. گال: permethrin کرم موضعی (پرهیز مخاط) 8 تا 12 ساعت قبل از شست‌وشو؛ lindane ممنوع در شیرخوار/خردسال و نوجوان باردار. شپش: permethrin 1٪ لوسیون یا piperonyl butoxide/pyrethrum شامپو، شانه ریز؛ تکرار بعد از 1 هفته.
+
+@variant skin-peds-impetigo-cellulitis
+name: Impetigo / scarlet fever / cellulitis / erysipelas
+level: III
+imp: Pediatric skin and soft tissue infection (impetigo / scarlet fever / cellulitis)
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+o2: O2 therapy: if SpO2 < 94%, nasal cannula or face mask with flow by age and weight
+
+@scenario
+دختر ۵ ساله با پوسته‌های طلایی دور دهان؛ یا پسر ۸ ساله با قرمزی و تورم گرم ساق.
+
+@why
+ایمپتیگو و سلولیت: آنتی‌بیوتیک مناسب (در CA-MRSA کلیندامایسین یا TMP-SMX).
+
+@L
+- Throat culture (scarlet fever); needle aspiration or bedside ultrasonography to identify an underlying abscess (cellulitis)
+
+@A
+- Impetigo localized: Mupirocin 2% ointment three times daily; larger: Cephalexin 12.5 to 25 mg/kg/dose four times daily, or Trimethoprim-sulfamethoxazole 5 mg/kg/dose twice daily, or Clindamycin 10 mg/kg/dose three times daily
+- Bullous impetigo: topical mupirocin plus Clindamycin 10 mg/kg/dose three times daily or Trimethoprim-sulfamethoxazole 5 mg/kg/dose twice daily
+- Scarlet fever: Penicillin V 16 mg/kg/dose three times daily, or Clindamycin 10 mg/kg/dose three times daily if penicillin-allergic
+- Cellulitis: Cephalexin 12.5 to 25 mg/kg/dose four times daily; CA-MRSA: Clindamycin 10 mg/kg/dose three times daily or Trimethoprim-sulfamethoxazole 5 to 10 mg/kg/dose twice daily
+- Erysipelas inpatient: Penicillin G 50,000 U/kg/dose every 6 hours, or Clindamycin 10 mg/kg/dose every 8 hours if penicillin-allergic; outpatient: Cephalexin, TMP-SMX or Clindamycin as above
+
+@T
+- Local wound cleaning
+
+@variant skin-peds-scabies-tinea-lice
+name: Scabies / lice / tinea
+level: III
+imp: Scabies / lice / tinea
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+o2: O2 therapy: if SpO2 < 94%, nasal cannula or face mask with flow by age and weight
+
+@scenario
+پسر ۶ ساله با خارش شدید شبانه، لانه‌های خطی بین انگشتان و اعضای خانواده با علائم مشابه.
+
+@why
+گال با permethrin؛ شپش و تینه‌آ درمان موضعی.
+
+@T
+- Scabies: topical Permethrin cream applied avoiding mucous membranes, left on for 8 to 12 hours before washing {ci: lindane contraindicated in infants, young children and pregnant teens}
+- Lice: Permethrin 1% lotion or piperonyl butoxide/pyrethrum extract shampoo; fine-toothed comb; repeat treatment after 1 week
+- Tinea (not capitis/unguium): topical clotrimazole, miconazole, tolnaftate (or prescription ketoconazole, oxiconazole, ciclopirox, terbinafine) continued 7 to 10 days after resolution
+- Tinea capitis: Griseofulvin ultramicrosize 15 mg/kg/dose once daily plus selenium sulfide shampoo for at least 8 weeks (monitor liver function tests)
+
+@cond meningococcemia-peds
+ch: 83
+name: Meningococcemia (petechial/purpuric fever in a child)
+name_fa: منینگوکوکسمی (تب با پتشی/پورپورا در کودک)
+cc: rash, pediatric-fever
+keywords: meningococcemia, Neisseria meningitidis, petechial rash, purpura, rifampin prophylaxis, ciprofloxacin, منینگوکوکسمی
+status: draft
+
+@features
+- کودک بدحال تب‌دار با راش پتشیال یا پورپوریک؛ توزیع سنی دومودال: شیرخوار/نوپا ≤ 2 سال و نوجوان 16 تا 21 سال
+- Neisseria meningitidis؛ درمان تجربی: cefotaxime یا ceftriaxone 50 mg/kg/dose
+- پروفیلاکسی تماس نزدیک (مهدکودک یا ترشحات دهانی): rifampin 5 mg/kg PO هر 12 ساعت 2 روز (نوزاد)؛ 10 mg/kg تا 600 mg/dose هر 12 ساعت 2 روز (کودک)؛ ciprofloxacin 500 mg دوز واحد (بزرگسال)
+
+@ddx
+- !Meningococcemia / septic shock |
+- !Meningitis |
+- Henoch-Schonlein purpura / ITP |
+- Viral exanthem with petechiae |
+
+@redflags
+- پتشی/پورپورا با تب و بدحالی، شوک، تغییر هوشیاری
+
+@guide
+فوراً آنتی‌بیوتیک؛ مراقبت مثل سپسیس (فصل ۶۶)؛ ایزولاسیون تنفسی؛ پروفیلاکسی تماس‌ها.
+
+@variant meningococcemia-main
+name: Suspected meningococcemia
+level: I
+imp: Meningococcemia (suspected)
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: portable
+o2: O2 therapy: high-flow oxygen as for sepsis; nasal cannula or face mask with flow by age and weight
+
+@scenario
+نوجوان ۱۷ ساله با تب 40، پتشی و پورپورا منتشر و فشار 85/50.
+
+@why
+آنتی‌بیوتیک فوری و احیای سپسیس؛ پروفیلاکسی تماس‌ها.
+
+@L
+- CBC, blood culture, lumbar puncture {note: per sepsis/meningitis (Chapter 66); do not delay antibiotics}
+
+@S
+- Fluid resuscitation as for pediatric septic shock (20 mL/kg boluses of normal saline) {note: see Chapter 66}
+
+@A
+- Cefotaxime or Ceftriaxone 50 mg/kg/dose
+
+@T
+- Close-contact chemoprophylaxis: Rifampin 5 mg/kg orally every 12 hours for 2 days (neonates); 10 mg/kg up to 600 mg per dose every 12 hours for 2 days (children); Ciprofloxacin 500 mg single dose (adults)
+
+@Co
+- Admit; PICU
+
+@cond kawasaki-disease
+ch: 83
+name: Kawasaki disease
+name_fa: بیماری کاوازاکی
+cc: rash, pediatric-fever
+keywords: Kawasaki disease, IVIG, aspirin, coronary aneurysm, mucocutaneous lymph node syndrome, کاوازاکی
+status: draft
+
+@features
+- واسکولیت منتشر با علت نامعلوم؛ معمولاً < 9 سال
+- تشخیص: تب حداقل 5 روز بدون منبع دیگر به‌علاوه 4 از 5 معیار: ملتحمه، راش، لنفادنوپاتی، تغییرات اوروفارنکس (قرمزی حلق، ترک لب، پاپیلای برجسته زبان)، اریتم و ادم اندام
+- راش‌ها: اریتماتو، morbilliform، کهیری، scarlatiniform، EM-مانند؛ راش پرینه
+- یافته‌ها: لکوسیتوز، ESR/CRP بالا، LFT بالا، هیپوآلبومینمی، آنمی، آرتریت، تحریک‌پذیری؛ دیررس: افزایش پلاکت (> 1 میلیون)، پوسته‌ریزی انگشتان، آنوریسم کرونر (1٪ تا 2٪ مرگ ناگهانی قلبی)
+
+@ddx
+- !Kawasaki disease |
+- !Scarlet fever / measles |
+- Toxic shock syndrome / Stevens-Johnson syndrome |
+- Adenovirus / juvenile idiopathic arthritis |
+
+@redflags
+- تب ≥ 5 روز با ملتحمه/لب ترک‌خورده/تورم دست و پا، اتساع کرونر
+
+@guide
+درمان: IVIG و آسپیرین؛ استروئید جنجالی. آزمایش تشخیصی: CBC، ESR، CRP، LFT، آلبومین؛ اکو. دوز IVIG و آسپیرین در این فصل ذکر نشده است.
+
+@variant kawasaki-main
+name: Suspected Kawasaki disease
+level: II
+imp: Kawasaki disease
+cond: Urgent
+act: CBR
+diet: PO
+ecg: once
+cxr: none
+o2: O2 therapy: if SpO2 < 94%, nasal cannula or face mask with flow by age and weight
+
+@scenario
+پسر ۳ ساله با تب ۶ روزه، ملتحمه، لب ترک‌خورده، لنفادنوپاتی گردنی و راش.
+
+@why
+IVIG و آسپیرین؛ اکوکاردیوگرافی برای کرونر.
+
+@I
+- Echocardiography {note: not specified in this chapter; for coronary artery aneurysms}
+
+@L
+- Erythrocyte sedimentation rate, C-reactive protein, liver function tests, albumin (leukocytosis, hypoalbuminemia, anemia); platelet count (rises later, usually more than 1 million)
+
+@T
+- Intravenous immunoglobulin and aspirin {note: doses not given in the book; steroids controversial}
+
+@Co
+- Pediatric cardiology; admit
+
+@cond neonatal-rashes
+ch: 83
+name: Benign neonatal rashes (erythema toxicum, pustular melanosis, neonatal acne, seborrheic dermatitis, diaper dermatitis)
+name_fa: راش‌های خوش‌خیم نوزادی (erythema toxicum، ملانوز پوستولار گذرا، آکنه نوزادی، سبورئیک، التهاب پوشک)
+cc: rash, pediatric-other
+keywords: erythema toxicum, transient neonatal pustular melanosis, neonatal acne, cradle cap, seborrheic dermatitis, diaper dermatitis, nystatin, zinc oxide, راش نوزادی
+status: draft
+
+@features
+- erythema toxicum: تا 50٪ نوزادان در هفته اول؛ ماکول اریتماتو 2 تا 3 cm با پوستول مرکزی؛ خودمحدود
+- ملانوز پوستولار گذرا: پوستول ریز روی پایه غیراریتماتو، ماکول اریتماتو با پوسته، ماکول قهوه‌ای؛ هفته‌ها تا ماه‌ها؛ بدون درمان
+- آکنه نوزادی: تا 20٪؛ هفته 3؛ پاپول/پوستول صورت؛ بدون آزمایش یا درمان
+- سبورئیک: هفته 2 تا 6 و بهبود تا 6 ماهگی؛ پوسته‌های چرب زرد/قرمز (cradle cap)؛ درمان: روغن معدنی یا زیتون و شانه ملایم
+- التهاب پوشک: تحریکی (رطوبت طولانی؛ ماکولار/پاپولار با حاشیه مشخص) و کاندیدایی (ضایعات ماهواره‌ای)
+
+@ddx
+- !Neonatal herpes / bacterial sepsis (vesicopustular rash) |
+- Erythema toxicum |
+- Candida dermatitis |
+- Neonatal acne |
+
+@redflags
+- وزیکول یا پوستول با تب یا بدحالی (HSV نوزادی/سپسیس)
+
+@guide
+تحریکی: تعویض مکرر پوشک و کرم مانع حاوی zinc oxide. کاندیدایی: همان + nystatin کرم یا پماد 100000 U/g سه بار روزانه 10 تا 14 روز. بقیه: اطمینان‌بخشی.
+
+@variant neonatal-rash-benign
+name: Benign neonatal rash / diaper dermatitis
+level: III
+imp: Benign neonatal rash / diaper dermatitis
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+o2: O2 therapy: if SpO2 < 94%, nasal cannula or face mask with flow by age and weight
+
+@scenario
+نوزاد ۵ روزه با لکه‌های اریتماتو با پوستول مرکزی؛ خوش‌ظاهر. یا نوزاد با قرمزی ناحیه پوشک و ضایعات ماهواره‌ای.
+
+@why
+راش‌های نوزادی خوش‌خیم؛ کاندیدایی با nystatin.
+
+@T
+- Irritant diaper dermatitis: frequent diaper changes and a zinc oxide-containing barrier cream
+- Candida diaper dermatitis: frequent diaper changes, zinc oxide barrier cream and Nystatin cream or ointment 100,000 U/g three times per day for 10 to 14 days
+- Seborrheic dermatitis: mineral or olive oil and gentle combing; erythema toxicum, pustular melanosis, neonatal acne: no testing or treatment

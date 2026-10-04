@@ -1,0 +1,329 @@
+@cond sickle-pain-crisis-peds
+ch: 84
+name: Sickle cell pain crisis (vaso-occlusive) in children
+name_fa: بحران دردناک سیکل‌سل (vaso-occlusive) در کودکان
+cc: joint-limb-pain, abdominal-pain, bleeding-bruising
+keywords: sickle cell pain crisis, vaso-occlusive crisis, dactylitis, ketorolac, morphine, hydromorphone, incentive spirometry, avascular necrosis, سیکل سل
+status: draft
+
+@features
+- اورژانس‌های سیکل‌سل: بحران‌های vaso-occlusive، خونی و عفونت؛ هر کودک SCA با تب، درد، دیسترس تنفسی یا تغییر عصبی نیاز به ارزیابی سریع و کامل دارد
+- سیکلینگ داخل عروقی → ایسکمی و انفارکتوس بافت (استخوان، بافت نرم، احشا، CNS)؛ درد ممکن است تنها علامت باشد
+- شایع‌ترین تظاهر ED: درد استخوان بلند و کمر؛ محرک: استرس، سرما، دهیدراتاسیون، هیپوکسی، عفونت (اغلب بدون علت)؛ مشابه اپیزودهای قبلی؛ معمولاً بدون یافته؛ تب خفیف (تب واقعی نادر)؛ شیرخوار/نوپا: dactylitis (تورم دست/پا)
+- افتراق عفونت: تب، محدودیت حرکت مفصل، درد با محل/کیفیت متفاوت؛ لکوسیتوز در بحران ممکن است ولی left shift مشکوک به عفونت؛ ESR غیرقابل‌اعتماد (آنمی)؛ انفارکت استخوانی: درد شدید و مقاوم، تندرنس و لکوسیتوز؛ خطر آمبولی چربی
+- درد لگن/کشاله با تحمل وزن: AVN سر فمور (چپ‌شدگی/کولاپس)؛ درد شکم ناشی از VOC: ناگهانی و نامحدود با تندرنس و guarding بدون rebound/سفتی؛ در غیرتیپیک: آپاندیسیت، کوله‌سیستیت، کلستاز داخل کبدی، sequestration طحال/کبد، یبوست، UTI، PUD
+
+@ddx
+- !Acute chest syndrome |
+- !Splenic sequestration / aplastic crisis |
+- !Osteomyelitis / septic arthritis / sepsis |
+- Avascular necrosis of the femoral head |
+- Appendicitis / cholecystitis / constipation |
+
+@redflags
+- تب، محدودیت مفصل، درد با کیفیت متفاوت، درد قفسه سینه/تنگی نفس، تغییر عصبی
+
+@guide
+درد باید فردمحور و با رژیم قبلاً مؤثر؛ هدف: ضددرد ظرف 1 ساعت از ثبت.
+1) درد خفیف: هیدراتاسیون (خوراکی؛ IV در maintenance اگر euvolemic و عدم تحمل خوراکی؛ اصلاح دهیدراتاسیون)؛ NSAID خوراکی (ibuprofen 10 mg/kg)؛ مخدر خوراکی (hydrocodone 0.15 تا 0.2 mg/kg).
+2) متوسط تا شدید: IV D5½NS با 1× maintenance سنی؛ NSAID خوراکی/IV (ketorolac 0.5 mg/kg)؛ مخدر تزریقی (morphine 0.1 تا 0.15 mg/kg یا hydromorphone 0.015 mg/kg)؛ در درد شدید دوز را هر 15 تا 30 دقیقه 25٪ افزایش بده.
+3) آنتی‌هیستامین خوراکی در صورت نیاز؛ 4) اکسیژن برای SpO2 < 95٪؛ 5) گرما؛ 6) PRBC توصیه نمی‌شود مگر اندیکاسیون دیگر؛ 7) بستری: کنترل ضعیف درد یا ناکافی بودن مایع خوراکی؛ مراجعه مکرر برای همان بحران؛ 8) incentive spirometry برای بیماران با مخدر؛ 9) ترخیص: ضددرد زمان‌بندی‌شده در منزل و پیگیری PCP یا هماتولوژی روز بعد.
+
+@pearls
+- همیشه عفونت و acute chest را در بحران دردناک رد کن.
+- NSAID و مخدر را در دقایق اول بده.
+
+@variant sickle-pain-mild
+name: Mild sickle cell pain crisis
+level: III
+imp: Sickle cell pain crisis (mild)
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+o2: O2 therapy: oxygen for saturation < 95%; nasal cannula or face mask with flow by age and weight
+
+@scenario
+پسر ۸ ساله با SCA و درد خفیف ران که مشابه بحران‌های قبلی است؛ بدون تب.
+
+@why
+درد خفیف با هیدراتاسیون، NSAID و مخدر خوراکی؛ ترخیص با ضددرد زمان‌بندی‌شده.
+
+@L
+- CBC, reticulocyte count {note: tests to differentiate infection; ESR unreliable in SCA}
+
+@S
+- Oral hydration if possible; IV hydration at maintenance rate if euvolemic and not tolerating oral fluids; correct dehydration
+
+@T
+- Oral NSAIDs such as Ibuprofen 10 mg/kg; oral narcotics such as Hydrocodone 0.15 to 0.2 mg/kg if needed {hi}
+- Oral antihistamines if needed; heat may be an effective adjunct; incentive spirometry for patients receiving narcotics {ci: PRBC transfusion not recommended unless another indication exists}
+
+@Co
+- Discharge on scheduled analgesics with PCP or hematology follow-up next day; admit for poor pain control or inadequate oral fluid intake
+
+@variant sickle-pain-severe
+name: Moderate to severe sickle cell pain crisis
+level: II
+imp: Sickle cell pain crisis (moderate to severe)
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: once
+cxr: PA
+o2: O2 therapy: oxygen for saturation < 95%; nasal cannula or face mask with flow by age and weight
+
+@scenario
+دختر ۱۲ ساله با SCA و درد شدید پشت و پاها، ۸/۱۰، تحمل خوراکی ضعیف.
+
+@why
+مخدر تزریقی با افزایش 25٪ تا کنترل درد؛ مایع IV؛ جستجوی عفونت و ACS.
+
+@I
+- Chest radiograph if chest symptoms or concern for acute chest syndrome; ultrasound / CT for non-vaso-occlusive abdominal causes {note: per differential}
+
+@L
+- CBC with differential (left shift suspicious for infection), reticulocyte count; urine culture / blood culture if febrile
+
+@S
+- IV hydration with D5½NS at 1 × age-appropriate maintenance rate
+
+@T
+- Ketorolac 0.5 mg/kg (oral or IV NSAID) {renal: caution in renal impairment}
+- Morphine 0.1 to 0.15 mg/kg IV, or Hydromorphone 0.015 mg/kg IV; maintain or escalate IV narcotic dose by 25% every 15 to 30 minutes until pain control is achieved for severe pain {hi}
+- Oral antihistamines if needed; incentive spirometry once on narcotics
+
+@Co
+- Admit for poor pain control or inadequate oral fluid intake (also children who presented repeatedly for the same crisis); hematology
+
+@cond sickle-acute-chest-peds
+ch: 84
+name: Acute chest syndrome in children with sickle cell disease
+name_fa: سندرم قفسه سینه حاد در کودکان مبتلا به سیکل‌سل
+cc: chest-pain, pediatric-respiratory, dyspnea
+keywords: acute chest syndrome, sickle cell, azithromycin, ceftriaxone, exchange transfusion, سندرم قفسه سینه حاد
+status: draft
+
+@features
+- ترکیبی از پنومونی، انفارکتوس ریه و آمبولی از مغز استخوان نکروتیک؛ از علل اصلی مرگ در SCA به‌ویژه > 10 سال
+- در هر بیمار SCA با درد قفسه سینه به‌ویژه با تاکی‌پنه، تنگی نفس، سرفه یا دیسترس؛ هیپوکسی قابل‌توجه و زوال سریع به نارسایی تنفسی
+- CXR ممکن است در ساعات/روزهای اول نرمال باشد؛ تشخیص با انفیلتره جدید CXR همراه درد قفسه سینه و علائم تنفسی؛ لکوسیتوز؛ ترومبوسیتوپنی در بحران شدید؛ کشت خلط/خون به‌ندرت مثبت؛ پنومونی بیشتر باکتری آتیپیک (کلامیدیا، مایکوپلاسما) یا S. pneumoniae
+- همراهی: آسم، اضافه‌بار حجم قلبی و در بزرگسالی فشار ریوی
+
+@ddx
+- !Pneumonia |
+- !Pulmonary embolism / fat embolism |
+- Asthma / cardiac volume overload |
+- Vaso-occlusive pain crisis |
+
+@redflags
+- هیپوکسی، تنگی نفس پیشرونده، افت هموگلوبین، انفیلتره پیشرونده
+
+@guide
+زوال سریع: پایش نزدیک، معمولاً ICU. 1) اکسیژن برای SpO2 > 95٪، هیدراتاسیون با 50٪ تا 75٪ maintenance (از اضافه‌بار پرهیز)، ضددرد. 2) آنتی‌بیوتیک: ماکرولاید مثل azithromycin 10 mg/kg PO یا IV + سفالوسپورین نسل 3 مثل ceftriaxone یا cefotaxime 50 تا 100 mg/kg روزانه IV. 3) ترانسفوزیون ساده PRBC در ACS علامت‌دار با افت Hgb > 1 g/dL از پایه؛ بالا بردن Hgb بالای 10 توصیه نمی‌شود (معمولاً Hgb < 9). 4) exchange transfusion: پیشرفت سریع، SpO2 < 90٪ با وجود اکسیژن، دیسترس فزاینده، انفیلتره پیشرونده یا افت Hgb با ترانسفوزیون. 5) بستری همه.
+
+@variant sickle-acs-main
+name: Acute chest syndrome
+level: I
+imp: Acute chest syndrome in sickle cell disease
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: portable
+o2: O2 therapy: oxygen to maintain saturation > 95%; nasal cannula or face mask with flow by age and weight
+
+@scenario
+پسر ۱۱ ساله با SCA، تب، درد قفسه سینه، تاکی‌پنه و SpO2 90٪.
+
+@why
+ACS با زوال سریع: اکسیژن، آنتی‌بیوتیک (ماکرولاید + سفالوسپورین) و ترانسفوزیون در صورت اندیکاسیون.
+
+@I
+- Chest radiograph (new infiltrate; may be normal during the first hours to days)
+
+@L
+- CBC (leukocytosis, thrombocytopenia), hemoglobin versus baseline; blood and sputum cultures (rarely positive)
+
+@S
+- Hydration at 50% to 75% maintenance fluids
+
+@A
+- Azithromycin 10 mg/kg PO or IV plus a third-generation cephalosporin: Ceftriaxone or Cefotaxime 50 to 100 mg/kg daily IV
+
+@T
+- Analgesia as per pain crisis (morphine 0.1 to 0.15 mg/kg or hydromorphone 0.015 mg/kg IV) {hi}
+- Simple PRBC transfusion for symptomatic ACS with Hgb drop > 1 g/dL from baseline (usually Hgb < 9 g/dL); exchange transfusion for rapid progression, saturation < 90% despite oxygen, increasing respiratory distress, progressive infiltrates or declining Hgb despite transfusion {ci: do not raise hemoglobin above 10 g/dL}
+
+@Co
+- Admit all (ICU for close monitoring); hematology
+
+@cond sickle-cns-priapism-peds
+ch: 84
+name: Sickle cell: stroke / CNS events and priapism
+name_fa: سیکل‌سل: سکته مغزی/رویدادهای CNS و پریاپیسم
+cc: focal-neuro, headache, genital-complaint
+keywords: sickle cell stroke, exchange transfusion, HbS, priapism sickle cell, epinephrine corpora, سکته سیکل سل
+status: draft
+
+@features
+- CNS: در هر بیمار SCA با سردرد ناگهانی یا تغییر عصبی: همی‌پارزی، تشنج، اختلال تکلم، اختلال بینایی، TIA، ورتیگو، فلج اعصاب کرانیال، پارستزی، تغییر هوشیاری یا کما؛ خطر سکته ایسکمیک به‌طور قابل‌توجه بالاتر
+- محدودیت تشخیص: MRI و CT منفی در فاز حاد؛ ممکن است فقط بر شک بالینی درمان شود؛ با افزایش سن خطر سکته هموراژیک (آنوریسم)؛ شک SAH: ورک‌آپ مثل غیرSCA؛ علل دیگر: ACS، آنمی ناگهانی شدید، مننژیت
+- پریاپیسم: نعوظ دردناک پایدار > 4 ساعت بدون تحریک جنسی؛ تجمع سلول‌های سیکل در کورپورا؛ هر مذکر SCA؛ ادم و تندرنس آلت و مشکل ادرار
+
+@ddx
+- !Ischemic stroke |
+- !Intracranial hemorrhage / subarachnoid hemorrhage |
+- Acute chest syndrome / severe anemia |
+- Meningitis |
+
+@redflags
+- نقص عصبی ناگهانی، نعوظ > 4 ساعت
+
+@guide
+CNS: تثبیت فوری و پایش دقیق؛ exchange transfusion فوری ترجیح بر ترانسفوزیون ساده؛ Hgb نباید از 10 g/dL بالاتر برود؛ هدف HbS < 30٪؛ کنترل دما، گلوکز و اکسیژناسیون؛ alteplase نقشی در سکته ایسکمیک SCA کودکان ندارد؛ خونریزی داخل جمجمه با جراح مغز؛ همه PICU. پریاپیسم: هیدراتاسیون شدید خوراکی/IV و ضددرد؛ آسپیراسیون سوزنی کورپورا و وازوکانستریکتور مثل epinephrine 1:1000000؛ ترانسفوزیون درمان فوری نیست؛ مشاوره اورولوژی و هماتولوژی اطفال.
+
+@variant sickle-stroke
+name: Suspected stroke / CNS vaso-occlusion
+level: I
+imp: Suspected stroke in sickle cell disease
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+o2: O2 therapy: monitor and control oxygenation; nasal cannula or face mask with flow by age and weight
+
+@scenario
+پسر ۹ ساله با SCA و همی‌پارزی ناگهانی راست و اختلال تکلم.
+
+@why
+سکته ایسکمیک SCA: exchange transfusion فوری؛ CT ممکن است منفی باشد.
+
+@I
+- CT / MRI (may be negative in the acute setting); if subarachnoid hemorrhage suspected, work up as for a patient without SCA
+
+@L
+- Temperature, glucose and oxygenation monitored and controlled; tests for acute chest syndrome, sudden severe anemia and meningitis as indicated; HbS level
+
+@T
+- Urgent exchange transfusion (goal < 30% HbS) {ci: hemoglobin not raised above 10 g/dL; no role for alteplase in children}
+
+@Co
+- Pediatric intensive care admission; neurosurgery for intracranial hemorrhage; hematology
+
+@variant sickle-priapism
+name: Priapism in sickle cell disease
+level: I
+imp: Priapism in sickle cell disease
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: none
+cxr: none
+o2: O2 therapy: if SpO2 < 95%, nasal cannula or face mask with flow by age and weight
+
+@scenario
+پسر ۱۴ ساله با SCA و نعوظ دردناک ۶ ساعته.
+
+@why
+هیدراتاسیون و ضددرد؛ آسپیراسیون و وازوکانستریکتور در صورت لزوم؛ ترانسفوزیون فوری نه.
+
+@S
+- Vigorous oral or IV hydration
+
+@T
+- Analgesia {note: per pain crisis protocol}
+- Needle aspiration of the corpora cavernosa and administration of a vasoconstrictor such as 1:1,000,000 epinephrine solution, if required {ci: transfusion not recommended as immediate therapy}
+
+@Co
+- Urology and pediatric hematology promptly
+
+@cond sickle-hematologic-crises-fever-peds
+ch: 84
+name: Sickle cell: splenic sequestration, aplastic and hemolytic crises, and fever / infection
+name_fa: سیکل‌سل: سکوستراسیون طحال، بحران آپلاستیک و همولیتیک، تب و عفونت
+cc: bleeding-bruising, pediatric-fever, weakness
+keywords: splenic sequestration, aplastic crisis, parvovirus B19, hemolytic crisis, sickle cell fever, ceftriaxone, vancomycin, سکوستراسیون طحال
+status: draft
+
+@features
+- سکوستراسیون حاد طحال: < 5 سال (و در SC بزرگ‌تر)؛ اغلب بعد از سندرم ویروسی؛ درد ناگهانی LUQ، رنگ‌پریدگی، بی‌حالی، اسپلنومگالی دردناک؛ هیپوتانسیون، شوک و مرگ؛ Hb < 6 g/dL یا > 2 g/dL کمتر از پایه؛ ممکن است نوتروپنی/ترومبوسیتوپنی؛ اپیزود خفیف: Hb معمولاً > 6؛ کبد: کبد بزرگ دردناک، هیپربیلی‌روبینمی، آنمی و رتیکولوسیت بالا؛ کولاپس قلبی-عروقی نادر
+- بحران آپلاستیک: عفونت ویروسی (پاروویروس B19)؛ رنگ‌پریدگی تدریجی، تنگی نفس، خستگی؛ Hb و رتیکولوسیت بسیار پایین؛ WBC و پلاکت نرمال؛ بهبود خودبه‌خود 1 تا 2 هفته
+- بحران همولیتیک: عفونت ویروسی/باکتریال؛ ایکتر و رنگ‌پریدگی ناگهانی؛ Hb کمتر از پایه و رتیکولوسیتوز واضح
+- عفونت: اسپلنکتومی کارکردی؛ باکتریمی 0.3٪ تا 1.1٪؛ عوامل خطر سپسیس: دمای > 40°C، WBC > 30000 یا < 5000، پلاکت < 100000، Hb < 5، ظاهر بدحال، سابقه سپسیس پنوموکوکی
+
+@ddx
+- !Splenic sequestration crisis |
+- !Sepsis (pneumococcus, Haemophilus) |
+- Aplastic crisis (parvovirus B19) |
+- Hemolytic crisis |
+- Acute chest syndrome |
+
+@redflags
+- Hb < 6، شوک، تب > 38.5 با ویژگی پرخطر
+
+@guide
+سکوستراسیون: هیدراتاسیون، ترانسفوزیون PRBC و بستری در اپیزود بزرگ؛ ترانسفوزیون آهسته (5 mL/kg) به‌علت بازگشت RBC به عروق و هایپرویسکوزیته؛ اپیزود خفیف: مشاهده و پیگیری نزدیک هماتولوژی. آپلاستیک: ترانسفوزیون PRBC در ED و پیگیری 7 تا 10 روز یا بستری. همولیتیک: معمولاً درمان خاص لازم نیست؛ ترانسفوزیون در علامت‌دار؛ درمان عفونت زمینه‌ای؛ پیگیری Hb و رتیکولوسیت. تب > 38.5°C با ویژگی پرخطر: CBC، کشت خون، رتیکولوسیت و کشت ادرار در صورت لزوم و آنتی‌بیوتیک تزریقی فعال بر S. pneumoniae و H. influenzae مثل ceftriaxone 50 mg/kg IV یا IM سریعاً؛ vancomycin در خطر بالای پنوموکوک مقاوم؛ شوک سپتیک: early goal-directed therapy؛ علائم تنفسی: CXR؛ خوش‌ظاهر با پیگیری مطمئن روز بعد: ترخیص پس از یک دوز ceftriaxone؛ بدحال با دمای > 39.5: بستری.
+
+@variant sickle-sequestration-aplastic
+name: Splenic sequestration / aplastic / hemolytic crisis
+level: I
+imp: Sickle cell hematologic crisis (sequestration / aplastic / hemolytic)
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: none
+o2: O2 therapy: if SpO2 < 95%, nasal cannula or face mask with flow by age and weight
+
+@scenario
+کودک ۲ ساله با SCA، رنگ‌پریدگی، بی‌حالی، LUQ دردناک و Hb 4.
+
+@why
+سکوستراسیون: تعدیل حجم و ترانسفوزیون آهسته.
+
+@L
+- CBC (hemoglobin < 6 g/dL or > 2 g/dL below baseline), reticulocyte count; type and cross-match
+
+@S
+- Hydration; major sequestration: PRBC transfusion given gradually (5 mL/kg) as return of sequestered RBCs can cause hyperviscosity {ci: heart failure / pulmonary edema}
+
+@T
+- Aplastic episode: PRBC transfusion in the ED to temporize; hemolytic crisis: treat the underlying infection, transfusion if symptomatic
+
+@Co
+- Admission for major episodes; hematology; minor sequestration episodes may be observed and discharged with close hematology follow-up; aplastic: outpatient follow-up in 7 to 10 days for repeat labs
+
+@variant sickle-fever-infection
+name: Fever in sickle cell disease (temperature > 38.5°C)
+level: II
+imp: Fever in sickle cell disease (possible bacteremia)
+cond: Emergent
+act: CBR
+diet: PO
+ecg: once
+cxr: PA
+o2: O2 therapy: if SpO2 < 94%, nasal cannula or face mask with flow by age and weight
+
+@scenario
+کودک ۴ ساله با SCA و تب 39.8.
+
+@why
+اسپلنکتومی کارکردی: آنتی‌بیوتیک تزریقی فوری؛ ترخیص فقط خوش‌ظاهر با پیگیری مطمئن.
+
+@I
+- Chest radiograph for any respiratory symptoms
+
+@L
+- CBC, blood culture, reticulocyte count, urine culture if clinically indicated (risk factors: temperature > 40°C, WBC > 30,000 or < 5000, platelets < 100,000, Hgb < 5 g/dL, ill appearance, history of pneumococcal sepsis)
+
+@A
+- Ceftriaxone 50 mg/kg IV or IM as soon as possible (activity against S. pneumoniae and H. influenzae); add Vancomycin if high risk for penicillin-resistant pneumococcal infection
+
+@T
+- Septic shock managed aggressively with early goal-directed therapy {note: see Chapter 66}
+
+@Co
+- Well-appearing with reliable next-day follow-up: discharge after parenteral ceftriaxone pending cultures; ill-appearing with temperatures > 39.5°C: admit

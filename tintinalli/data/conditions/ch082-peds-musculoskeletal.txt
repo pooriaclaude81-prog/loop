@@ -1,0 +1,430 @@
+@cond peds-fractures-physeal-forearm
+ch: 82
+name: Pediatric fractures: physeal (Salter-Harris), torus, greenstick, plastic deformity, forearm and wrist
+name_fa: شکستگی‌های کودکان: فیزیس (Salter-Harris)، torus، greenstick، تغییر شکل پلاستیک، ساعد و مچ
+cc: limb-injury, pediatric-other
+keywords: Salter-Harris, growth plate fracture, torus fracture, buckle fracture, greenstick, plastic deformity, Monteggia, Galeazzi, scaphoid, thumb spica, شکستگی کودکان
+status: draft
+
+@features
+- فیزیس (صفحه رشد) ضعیف‌ترین نقطه استخوان‌های بلند و محل شایع شکستگی؛ لیگامان و پریوست قوی‌ترند؛ خون‌رسانی از اپی‌فیز: جدا شدن می‌تواند توقف رشد دهد؛ طبقه‌بندی Salter-Harris
+- SH I: جدا شدن اپی‌فیز از متافیز؛ بدون قطعه استخوانی؛ تندرنس نقطه‌ای روی فیزیس؛ رادیوگرافی ممکن است نرمال؛ بدون جابه‌جایی: تشخیص بالینی؛ فیبولای دیستال بدون توقف رشد
+- SH II: از فیزیس عبور و از متافیز خارج؛ قطعه مثلثی متافیزی؛ رشد حفظ
+- SH III: داخل مفصلی اپی‌فیز با ادامه شکاف در فیزیس؛ ردکشن آناتومیک سطح مفصل حیاتی؛ گاهی باز
+- SH IV: از سطح مفصل از اپی‌فیز، فیزیس و متافیز؛ معمولاً ردکشن باز
+- SH V: له‌شدگی فیزیس؛ تشخیص دشوار (ممکن است نرمال)؛ گچ، عدم تحمل وزن، پیگیری دقیق ارتوپدی
+- Torus (buckle): برآمدگی کورتکس متافیز؛ تندرنس نقطه‌ای و تورم؛ بدون جابه‌جایی و ردکشن لازم نیست؛ اسپلینت 3 تا 4 هفته؛ greenstick: شکستن یک طرف کورتکس و پریوست؛ پلاستیک: خم‌شدگی ساعد/ساق همراه شکستگی کامل استخوان مجاور؛ مشاوره فوری ارتوپدی
+- ساعد: torus: NSAID، اسپلینت ولار، پیگیری 1 تا 3 هفته؛ متافیزی با دفورمیتی چرخشی یا > 10 درجه زاویه (> 8 سال) یا > 15 تا 20 (کوچک‌تر): مشاوره ارتوپدی؛ دیافیزی: مشاوره فوری؛ Monteggia (اولنا + دررفتگی سر رادیوس) و Galeazzi (شفت رادیوس + دررفتگی DRUJ) پیش‌آگهی بد
+- مچ: اسکافوئید: شک بالا؛ تندرنس snuffbox یا تندرنس جانبی مچ با فشار محوری شست: اسپلینت thumb spica و پیگیری ارتوپدی حتی با رادیوگرافی نرمال
+
+@ddx
+- !Nonaccidental trauma (fractures in various stages of healing) |
+- !Compartment syndrome / neurovascular injury |
+- Sprain |
+- Osteomyelitis / septic arthritis |
+
+@redflags
+- نقص عصبی-عروقی، شکستگی باز، شکستگی در مراحل مختلف بهبود (NAT)
+
+@guide
+SH I: اسپلینت، یخ، بالا نگه‌داشتن و ارجاع ارتوپدی؛ فیبولای دیستال: پزشک عمومی یا ارتوپدی پس از اسپلینت. SH II: ردکشن بسته (در صورت لزوم) با ضددرد و سداسیون سپس اسپلینت یا گچ و پیگیری ارتوپدی. SH III/IV: ردکشن؛ گاهی باز. SH V: گچ، عدم تحمل وزن و پیگیری نزدیک. torus: اسپلینت در وضعیت عملکرد 3 تا 4 هفته؛ greenstick با زاویه قابل‌توجه: ردکشن بسته و بی‌حرکتی؛ پلاستیک: مشاوره ارتوپدی فوری.
+
+@variant fracture-peds-torus-nondisplaced
+name: Torus / nondisplaced fracture or Salter-Harris I (splint and follow-up)
+level: III
+imp: Pediatric torus fracture / nondisplaced physeal fracture
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+o2: O2 therapy: if SpO2 < 94%, nasal cannula or face mask with flow by age and weight
+
+@scenario
+دختر ۸ ساله پس از افتادن روی دست بازشده با درد و تورم مچ؛ رادیوگرافی: torus رادیوس.
+
+@why
+torus بدون جابه‌جایی: اسپلینت و NSAID؛ ردکشن لازم نیست.
+
+@I
+- Radiograph of the injured area (may be subtle but show cortical disruption); scaphoid concern: snuffbox tenderness warrants thumb spica splint and orthopedic follow-up even when radiographs show no fracture
+
+@T
+- NSAIDs {note: drug and dose per child weight, e.g., Ibuprofen 10 mg/kg (Chapter 66)}
+- Volar splint in a position of function for 3 to 4 weeks (torus fractures: splinting often preferred over casting); ice and elevation
+
+@Co
+- Follow-up with PCP or orthopedics in 1 to 3 weeks
+
+@variant fracture-peds-displaced
+name: Displaced physeal fracture (Salter-Harris II-IV), greenstick, plastic deformity, diaphyseal / Monteggia / Galeazzi
+level: II
+imp: Displaced pediatric fracture
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: none
+cxr: none
+o2: O2 therapy: if SpO2 < 94%, nasal cannula or face mask with flow by age and weight
+
+@scenario
+پسر ۱۰ ساله با تغییر شکل واضح ساعد پس از سقوط؛ رادیوگرافی: شکستگی دیافیزی رادیوس و اولنا.
+
+@why
+شکستگی دیافیزی ساعد نیاز به مشاوره فوری ارتوپدی؛ NPO برای ردکشن/سداسیون.
+
+@I
+- Radiographs; CT scan for Salter-Harris type IV (triplane) fracture where indicated
+
+@T
+- Closed reduction (if necessary) with analgesia and sedation, then splint or cast immobilization {note: drugs and doses not given in this chapter}
+- Metaphyseal fracture with rotational deformity or > 10 degrees angulation (age > 8 years) or > 15 to 20 degrees (younger): orthopedic consultation for reduction; otherwise splint with orthopedic follow-up within 1 week
+
+@Co
+- Urgent orthopedic consultation (most diaphyseal forearm fractures; plastic deformity; Monteggia and Galeazzi fractures; type III/IV fractures often need open reduction)
+
+@cond peds-elbow-injuries
+ch: 82
+name: Supracondylar and condylar fractures; radial head subluxation (nursemaid's elbow)
+name_fa: شکستگی سوپراکوندیلار و کوندیل؛ سابلوکساسیون سر رادیوس (nursemaid's elbow)
+cc: limb-injury, joint-limb-pain
+keywords: supracondylar fracture, condylar fracture, brachial artery, Volkmann, nursemaid's elbow, radial head subluxation, hyperpronation, supination flexion, آرنج نرس‌میدز
+status: draft
+
+@features
+- supracondylar: شایع‌ترین شکستگی آرنج کودکی؛ سقوط روی دست بازشده؛ درد با فلکسیون پاسیو آرنج و ساعد pronated؛ شریان براکیال نزدیک: آسیب، اسپاسم یا فشار گچ؛ کمپارتمان ساعد (انقباض Volkmann)
+- رادیوگرافی ممکن است ظریف: نوع I بدون جابه‌جایی یا فقط fat pad خلفی؛ نوع II زاویه‌دار با کورتکس خلفی سالم؛ نوع III جابه‌جایی کامل؛ تأیید با رادیوگرافی 2 تا 4 هفته بعد (واکنش پریوستی)
+- کوندیل جانبی/داخلی و اینترکوندیلار/ترانس‌کوندیلار: خطر آسیب عصبی-عروقی (اولنار)؛ تورم و تندرنس با نگه‌داشتن آرنج در فلکسیون
+- Nursemaid's elbow: 1 تا 4 سال؛ کشیدن دست/مچ (50٪ بدون سابقه)؛ امتناع از استفاده؛ بازو در آداکشن، فلکسیون آرنج و ساعد pronated؛ بدون تندرنس لمسی ولی درد با سوپیناسیون یا حرکت آرنج؛ در شرح حال/معاینه کلاسیک رادیوگرافی لازم نیست؛ شرح حال آتیپیک، تندرنس نقطه‌ای یا علائم تروما: رادیوگرافی
+
+@ddx
+- !Supracondylar fracture with neurovascular compromise |
+- !Nonaccidental trauma |
+- Radial head subluxation |
+- Condylar fracture |
+- Septic arthritis of the elbow |
+
+@redflags
+- نبض رادیال از دست رفته، کمپارتمان، آسیب عصبی
+
+@guide
+نوع I: درمان سرپایی بعد از بی‌حرکتی؛ بازارزیابی ارتوپدی ظرف 2 تا 7 روز. نوع II/III: مشاوره ارتوپدی و بستری؛ اغلب باز با پین‌گذاری. آسیب عصبی-عروقی: ردکشن فوری؛ مشکوک به کمپارتمان پس از ردکشن: دکمپرسیون جراحی یا اکسپلور شریان. نرس‌میدز: روش سوپیناسیون/فلکسیون (آرنج 90°، سوپینه محکم مچ و همزمان فلکسیون تا مچ به شانه هم‌طرف، ممکن است «click»)؛ روش hyperpronation (آرنج 90°، pronation محکم مچ و اکستانسیون آرنج) موفق‌تر؛ فعالیت طبیعی ظرف 5 تا 10 دقیقه؛ اگر بعد از ردکشن دوم بهتر نشد: رادیوگرافی و تشخیص‌های دیگر؛ بعد از موفقیت درمان خاصی لازم نیست؛ پرهیز از کشش خطی بازو (عود).
+
+@variant elbow-supracondylar
+name: Supracondylar / condylar fracture
+level: II
+imp: Supracondylar fracture of the humerus
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: none
+cxr: none
+o2: O2 therapy: if SpO2 < 94%, nasal cannula or face mask with flow by age and weight
+
+@scenario
+پسر ۶ ساله پس از سقوط از تاب با درد آرنج، ساعد pronated و تورم؛ نبض رادیال لمس می‌شود.
+
+@why
+نوع II/III: ارتوپد و بستری؛ نوع I: سرپایی بعد از بی‌حرکتی.
+
+@I
+- Elbow radiographs (may be subtle; posterior fat pad; follow-up x-ray at 2 to 4 weeks shows periosteal reaction)
+
+@T
+- Immobilization; neurovascular assessment; immediate fracture reduction in cases of neurovascular compromise; surgical decompression or arterial exploration if ischemic forearm compartment is suspected after reduction
+- Analgesia {note: drug and dose per child weight}
+
+@Co
+- Type I: outpatient with orthopedic reassessment within 2 to 7 days; type II or III: orthopedic consultation and admission (open reduction with operative pinning usually required)
+
+@variant elbow-nursemaid
+name: Radial head subluxation (nursemaid's elbow)
+level: III
+imp: Radial head subluxation (nursemaid's elbow)
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+o2: O2 therapy: if SpO2 < 94%, nasal cannula or face mask with flow by age and weight
+
+@scenario
+دختر ۲ ساله پس از کشیده شدن دست توسط والد از استفاده بازو امتناع می‌کند؛ بدون تورم.
+
+@why
+تشخیص کلاسیک بدون رادیوگرافی؛ ردکشن با hyperpronation.
+
+@I
+- Radiographs only if the history is atypical, point tenderness, or signs of trauma (not needed when history and examination are strongly suggestive)
+
+@T
+- Hyperpronation technique (elbow at 90°, firmly pronate the wrist while extending the elbow; reported more successful) or supination/flexion technique (elbow at 90°, firmly supinate the wrist while simultaneously flexing the elbow so the wrist goes to the ipsilateral shoulder)
+- No specific therapy needed after successful reduction; avoid linear traction on the arm (recurrence)
+
+@Co
+- If not better after a second reduction attempt, consider alternate diagnoses and radiographs
+
+@cond peds-clavicle-lowerlimb-injuries
+ch: 82
+name: Clavicle fracture, SCFE, femoral and tibial fractures (toddler's fracture), patellar dislocation, foot injuries
+name_fa: شکستگی کلاویکل، SCFE، شکستگی فمور و تیبیا (toddler's fracture)، دررفتگی کشکک، آسیب پا
+cc: limb-injury, joint-limb-pain, pediatric-other
+keywords: clavicle fracture, slipped capital femoral epiphysis, SCFE, femoral shaft fracture, toddler's fracture, patellar dislocation, triplane fracture, Tillaux fracture, fifth metatarsal, لغزش اپی‌فیز فمور
+status: draft
+
+@features
+- کلاویکل: شایع؛ نوزاد در زایمان سخت (عدم استفاده از بازو؛ کالوس بعد از 2 تا 3 هفته)؛ سقوط روی دست/شانه؛ مدیریت: کنترل درد؛ بند ساده آسان‌تر و کم‌دردتر؛ نوزاد درمان خاصی نمی‌خواهد؛ مشاوره ارتوپدی در ED برای باز (آنتی‌بیوتیک)، جابه‌جایی کلاویکل داخلی یا قطعه skin tenting؛ بقیه پیگیری PCP
+- SCFE: چاق، اوج 14 تا 16 سال (11 تا 13 دختر)؛ درد لگن یا ارجاعی به ران/زانو؛ مزمن: درد گنگ کشاله ران و ران قدامی-داخلی و زانو با فعالیت بدتر؛ پا خارج‌چرخیده و لنگش آنتالژیک؛ فلکسیون لگن محدود با خارج‌چرخش؛ بدون تب/سمیت و WBC/ESR نرمال؛ افتراق: آرتریت سپتیک، synovitis، Perthes، شکستگی؛ رادیوگرافی دوطرفه AP و frog-leg lateral لگن در هر نوجوان با درد لگن؛ خط از سطح فوقانی گردن فمور باید یک‌چهارم جانبی اپی‌فیز را قطع کند
+- فمور: همه شکستگی‌های شفت: مشاوره فوری ارتوپدی؛ در شیرخوار و غیرمتحرک: ارزیابی NAT؛ هیپوتانسیون نادر: دنبال خونریزی دیگر
+- فیزیس دیستال فمور: خطر شریان پوپلیته و عصب پرونئال؛ ارزیابی فوری ارتوپدی
+- دررفتگی کشکک: «بیرون زدن»؛ ردکشن: اکستانسیون زانو و بلند کردن ملایم کشکک به داخل؛ رادیوگرافی بعد از ردکشن؛ زانوبند و عصا و پیگیری ارتوپدی
+- Toddler's fracture: شکستگی اسپیرال ایزوله تیبیا دیستال در نوپا؛ چرخش خارجی پا با زانوی خم؛ امتناع از تحمل وزن، درد با لمس/چرخش (تورم ممکن است حداقل)؛ رادیوگرافی استاندارد و oblique در نوپای لنگان حتی بدون یافته
+- SH I و II دیستال تیبیا شایع‌ترین؛ SH III (Tillaux: قدامی-جانبی فیزیس): معمولاً جراحی؛ triplane (SH IV): CT و معمولاً جراحی
+- پا: متاتارس و فالانژ بدون جابه‌جایی: اسپلینت کوتاه خلفی ساق؛ شکستگی قاعده متاتارس پنجم با پیچ‌خوردگی inversion: در درد این ناحیه رادیوگرافی پا
+
+@ddx
+- !SCFE / septic arthritis of the hip |
+- !Nonaccidental trauma (femur fracture in non-ambulatory child) |
+- !Neurovascular injury (distal femoral physis) |
+- Transient synovitis / Legg-Calve-Perthes disease |
+- Toddler's fracture |
+
+@redflags
+- عدم تحمل وزن در نوجوان با درد لگن (SCFE)، آسیب عصبی-عروقی، شکستگی باز، شکستگی فمور در نوزاد/غیرمتحرک
+
+@guide
+SCFE: مدیریت جراحی؛ بلافاصله بدون تحمل وزن و بستری برای پین‌گذاری؛ عارضه بلندمدت AVN و بسته‌شدن زودرس فیزیس. toddler's fracture: اگر رادیوگرافی منفی و شک بالینی: بی‌حرکتی و بدون بی‌حرکتی هر دو گزینه با پیگیری 1 هفته و رادیوگرافی تکراری یا bone scan/MRI؛ گچ دورتادور اگر تشخیص مشخص نیست نگذار؛ شکستگی واضح: اسپلینت long leg یا گچ بالای زانو با فلکسیون کافی برای صندلی ماشین و پیگیری ارتوپدی ظرف 72 ساعت.
+
+@variant lowerlimb-scfe
+name: Slipped capital femoral epiphysis
+level: II
+imp: Slipped capital femoral epiphysis (SCFE)
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: none
+cxr: none
+o2: O2 therapy: if SpO2 < 94%, nasal cannula or face mask with flow by age and weight
+
+@scenario
+پسر ۱۳ ساله چاق با درد زانو و ران چپ و لنگش، پا خارج‌چرخیده.
+
+@why
+SCFE جراحی است؛ عدم تحمل وزن فوری؛ NPO برای پین‌گذاری.
+
+@I
+- Bilateral hip radiographs: anteroposterior and frog-leg lateral (medial slips on AP; posterior slips on frog-leg)
+
+@T
+- Immediate non-weight-bearing upon diagnosis {note: crutches/bed rest}
+
+@Co
+- Orthopedic consultation; admission for surgical pinning
+
+@variant lowerlimb-toddler-clavicle-patella
+name: Toddler's fracture, clavicle fracture, patellar dislocation, foot fractures (outpatient)
+level: III
+imp: Pediatric lower limb / clavicle injury
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+o2: O2 therapy: if SpO2 < 94%, nasal cannula or face mask with flow by age and weight
+
+@scenario
+نوپای ۲ ساله با امتناع از تحمل وزن روی پای راست پس از چرخش پا.
+
+@why
+رادیوگرافی ساق در نوپای لنگان؛ اسپلینت long leg و پیگیری ارتوپدی.
+
+@I
+- Standard and oblique radiographs of the leg in the limping toddler (even without examination findings); radiographs after patellar reduction (fracture); foot radiographs when tenderness over the fifth metatarsal; radiographs of clavicle
+
+@T
+- Toddler's fracture: long leg splint or above-knee cast with adequate flexion for car seat use (or immobilization vs no immobilization if radiographs negative; follow-up in 1 week with repeat x-rays and/or bone scan or MRI); not a circumferential cast if diagnosis unclear
+- Clavicle fracture: pain control; simple sling (newborns require no treatment)
+- Patellar dislocation: extend the knee while gently lifting the patella medially; knee immobilizer and crutches
+- Nondisplaced metatarsal/phalanx fractures: posterior short-leg splint
+
+@Co
+- Orthopedic follow-up (within 72 hours for definitive casting if not done in the ED); orthopedic consultation in the ED for open fracture (with antibiotics), displacement of the medial clavicle or skin-tenting fragment; femoral shaft fracture: emergent orthopedic consultation
+
+@cond peds-hip-joint-disease
+ch: 82
+name: Pediatric joint disease: septic arthritis, transient synovitis, Legg-Calve-Perthes, Osgood-Schlatter
+name_fa: بیماری مفصلی کودکان: آرتریت سپتیک، synovitis گذرا، Perthes، Osgood-Schlatter
+cc: joint-limb-pain, pediatric-fever
+keywords: septic arthritis children, transient synovitis, toxic synovitis, Legg-Calve-Perthes, Osgood-Schlatter, vancomycin, clindamycin, cefotaxime, arthrocentesis, آرتریت سپتیک کودکان
+status: draft
+
+@features
+- آرتریت سپتیک: همه سنین به‌ویژه < 3 سال؛ لگن بیشتر سپس زانو و آرنج؛ بدون درمان: تخریب کامل مفصل؛ رادیوگرافی: افیوژن غیراختصاصی؛ افتراق: استئومیلیت، synovitis گذرا، سلولیت، بورسیت سپتیک، JIA، ARF، همارتروز، SCFE
+- استئومیلیت: تندرنس بیشتر روی متافیز؛ آرتریت سپتیک: روی خط مفصل با محدودیت حرکتی بسیار بیشتر؛ آرتروسنتز سریع کلید تشخیص (لگن: با هدایت سونوگرافی)
+- synovitis گذرا: شایع‌ترین علت درد لگن < 10 سال؛ اوج 3 تا 6 سال؛ درد لگن/ران/زانو و لنگش؛ برخلاف سپتیک حرکت پاسیو ممکن؛ تب خفیف ولی غیرسمی؛ WBC/ESR نرمال تا کمی بالا؛ رادیوگرافی نرمال یا افیوژن؛ مایع استریل شفاف؛ آرتروسنتز تشخیصی در صورت تردید
+- Legg-Calvé-Perthes: نکروز آواسکولار سر فمور با شکستگی استرس ساب‌کندرال؛ لنگش و درد گنگ کشاله ران/ران/زانو با فعالیت بدتر؛ بدون علائم سیستمیک؛ محدودیت حرکت؛ رادیوگرافی: پهن شدن فضای غضروف و کاهش هسته استخوانی؛ bone scan و MRI زودتر
+- Osgood-Schlatter: 10 تا 15 سال؛ پسران؛ استرس تکراری کوادریسپس روی توبروزیته تیبیا؛ درد و تندرنس (معمولاً دوطرفه)، تاندون پاتلا ضخیم؛ رادیوگرافی: تورم نسج نرم و ضخامت تاندون بدون افیوژن؛ خودمحدود
+
+@ddx
+- !Septic arthritis (hip) |
+- !Osteomyelitis |
+- !SCFE |
+- Transient synovitis |
+- Legg-Calve-Perthes disease |
+- Juvenile idiopathic arthritis / acute rheumatic fever |
+
+@redflags
+- تب، سمیت، عدم تحمل وزن، حرکت پاسیو بسیار دردناک لگن، WBC/ESR بالا
+
+@guide
+آرتریت سپتیک: درناژ و washout جراحی فوری در لگن (یا آرتروسکوپی/آرتروسنتز در مفاصل سطحی)؛ ارگانیسم نامعلوم: vancomycin 10 mg/kg IV هر 6 ساعت یا clindamycin 10 mg/kg IV هر 6 ساعت و cefotaxime 50 mg/kg؛ پیش‌آگهی وابسته به تأخیر، لگن (بدتر)، استئومیلیت همراه و سن (کوچک‌تر بدتر). synovitis گذرا: بعد از رد آرتریت سپتیک و شکستگی: تحمل وزن به‌اندازه تحمل، بدون فعالیت شدید 1 تا 2 هفته، ibuprofen 10 mg/kg هر 6 ساعت و پیگیری نزدیک. Perthes: ابتدا بدون تحمل وزن و ارجاع به ارتوپد اطفال. Osgood-Schlatter: پرهیز موقت از فعالیت، عصا در صورت نیاز، زانوبند یا گچ استوانه‌ای به‌ندرت؛ ورزش‌های کششی کوادریسپس.
+
+@variant hipjoint-septic-arthritis
+name: Suspected septic arthritis
+level: I
+imp: Septic arthritis in a child
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: none
+cxr: none
+o2: O2 therapy: if SpO2 < 94%, nasal cannula or face mask with flow by age and weight
+
+@scenario
+پسر ۲ ساله با تب، امتناع از راه رفتن و درد شدید با حرکت پاسیو لگن راست.
+
+@why
+آرتروسنتز سریع و آنتی‌بیوتیک؛ درناژ جراحی لگن بدون تأخیر.
+
+@I
+- Radiographs of the joint (effusion nonspecific); ultrasound-guided arthrocentesis for the hip
+
+@L
+- Prompt arthrocentesis (synovial fluid WBCs and organisms); WBC and ESR {note: ESR/WBC mentioned for differentiating from transient synovitis}
+
+@A
+- Vancomycin 10 mg/kg IV every 6 hours, or Clindamycin 10 mg/kg IV every 6 hours and Cefotaxime 50 mg/kg (unknown organism)
+
+@Co
+- Orthopedic surgery for prompt open joint drainage and washout (hip), or arthroscopically or via arthrocentesis in more superficial joints; admit
+
+@variant hipjoint-transient-synovitis
+name: Transient synovitis / Perthes / Osgood-Schlatter (outpatient)
+level: III
+imp: Transient synovitis of the hip / Perthes / Osgood-Schlatter
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+o2: O2 therapy: if SpO2 < 94%, nasal cannula or face mask with flow by age and weight
+
+@scenario
+پسر ۴ ساله با لنگش و درد ران بعد از سرماخوردگی؛ بدون سمیت، حرکت پاسیو ممکن.
+
+@why
+synovitis گذرا پس از رد سپتیک آرتریت و شکستگی با ibuprofen درمان می‌شود.
+
+@I
+- Radiographs of the hip (normal or mild to moderate effusion); bone scan or MRI for Legg-Calve-Perthes (before plain films); knee radiographs for Osgood-Schlatter (soft tissue swelling, patellar tendon thickening, no effusion)
+
+@T
+- Transient synovitis: weight-bearing as tolerated, no strenuous activity for 1 to 2 weeks, Ibuprofen 10 mg/kg every 6 hours (diagnostic arthrocentesis, fluoroscopic or ultrasound guided, if diagnosis in doubt)
+- Legg-Calve-Perthes: non-weight-bearing
+- Osgood-Schlatter: temporary avoidance of the offending activity, crutches if necessary, quadriceps stretching exercises
+
+@Co
+- Close follow-up; pediatric orthopedics for Perthes
+
+@cond peds-rheumatic
+ch: 82
+name: Acute rheumatic fever, post-infectious reactive arthritis, juvenile idiopathic arthritis
+name_fa: تب روماتیسمی حاد، آرتریت واکنشی پس از عفونت، آرتریت ایدیوپاتیک جوانان
+cc: joint-limb-pain, pediatric-fever
+keywords: acute rheumatic fever, ARF, carditis, Sydenham chorea, benzathine penicillin, aspirin, post-streptococcal reactive arthritis, PIRA, juvenile idiopathic arthritis, JIA, تب روماتیسمی
+status: draft
+
+@features
+- ARF: بیماری التهابی چندسیستمی در سن مدرسه؛ پس از عفونت با سویه‌های GAS؛ 2 تا 6 هفته بعد از فارنژیت علامت‌دار یا بی‌علامت؛ آرتریت مهاجر و پلی‌آرتیکولار مفاصل بزرگ؛ کاردیت 33٪؛ کره Sydenham 10٪ (ماه‌ها بعد)؛ راش erythema marginatum؛ ندول‌های زیرجلدی نادر؛ کاردیت بیشترین مرگ‌ومیر
+- تأیید عفونت استرپتوکوکی قبلی (کشت حلق، سرولوژی) یا کاردیت (ECG، CXR، اکو)؛ افتراق: JIA، آرتریت سپتیک، Kawasaki، لوسمی، کاردیومیوپاتی و واسکولیت‌ها؛ بیشتر بستری
+- PIRA: آرتریت استریل غیرمهاجر مونو/اولیگوآرتریت با عفونت استرپتوکوک β-همولیتیک (کمتر استافیلوکوک/سالمونلا) در محل دور؛ بدون کاردیت؛ خفیف‌تر ولی آرتریت شدیدتر و طولانی‌تر از ARF؛ تشخیص با اثبات عفونت قبلی GAS (کشت حلق یا افزایش 4 برابر ASO یا anti-DNase B)
+- JIA: سینوویت و آرتریت مزمن غیرعفونی با تظاهرات سیستمیک؛ پاوسی‌آرتیکولار شایع‌ترین (یک مفصل بزرگ مثل زانو)؛ پلی‌آرتیکولار یک‌سوم؛ سیستمیک 20٪ با تب بالا، لرز، راش ماکولار به‌هم‌پیوسته، هپاتواسپلنومگالی و سروزیت؛ آزمایش CBC، ESR، CRP ممکن است نرمال؛ آرتروسنتز برای رد سپتیک؛ تشخیص JIA در ED بعید
+
+@ddx
+- !Septic arthritis |
+- !Kawasaki disease / carditis |
+- Acute rheumatic fever |
+- Post-infectious reactive arthritis |
+- Juvenile idiopathic arthritis / leukemia |
+
+@redflags
+- کاردیت، تب بالا با علائم سیستمیک، کره
+
+@guide
+ARF: کاردیت مسئله اصلی ED؛ کاردیت قابل‌توجه: prednisone 1 تا 2 mg/kg/d؛ آرتریت: aspirin دوز بالا 75 تا 100 mg/kg/d؛ همه: penicillin (یا erythromycin در آلرژی): benzathine penicillin 600000 تا 1.2 میلیون U IM بر اساس وزن یا penicillin VK خوراکی 250 mg (کوچک) و 500 mg (بزرگ‌تر) دو بار روزانه 10 روز؛ پروفیلاکسی طولانی‌مدت و مادام‌العمر در کاردیت. PIRA: به NSAID پاسخ می‌دهد؛ اگر GAS از حلق کشت شد: penicillin یا erythromycin. JIA: NSAID؛ گلوکوکورتیکوئید گاهی برای uveitis مقاوم یا پریکاردیت/میوکاردیت دکمپانسه.
+
+@variant rheumatic-arf
+name: Acute rheumatic fever
+level: II
+imp: Acute rheumatic fever
+cond: Urgent
+act: CBR
+diet: PO
+ecg: once
+cxr: PA
+o2: O2 therapy: if SpO2 < 94%, nasal cannula or face mask with flow by age and weight
+
+@scenario
+دختر ۱۰ ساله ۳ هفته پس از گلودرد با آرتریت مهاجر مفاصل بزرگ، تب و سوفل جدید.
+
+@why
+کاردیت: اکو و استروئید؛ آرتریت: آسپیرین؛ پنی‌سیلین برای همه.
+
+@I
+- Chest radiograph and echocardiogram (carditis); ECG
+
+@L
+- Throat culture and streptococcal serology (prior streptococcal infection); CBC, ESR, CRP
+
+@A
+- Benzathine penicillin 600,000 to 1.2 million U IM based on weight, or oral Penicillin VK 250 mg (young children) or 500 mg (older children) twice daily for 10 days; erythromycin if allergic
+
+@T
+- Significant carditis: Prednisone 1 to 2 mg/kg/d
+- Arthritis: high-dose Aspirin 75 to 100 mg/kg/d to start
+
+@Co
+- Admit most patients; long-term prophylaxis, lifelong if carditis
+
+@variant rheumatic-pira-jia
+name: Post-infectious reactive arthritis / juvenile idiopathic arthritis
+level: III
+imp: Post-infectious reactive arthritis / juvenile idiopathic arthritis
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+o2: O2 therapy: if SpO2 < 94%, nasal cannula or face mask with flow by age and weight
+
+@scenario
+پسر ۷ ساله با آرتریت زانوی راست بدون تب پس از فارنژیت استرپتوکوکی.
+
+@why
+PIRA به NSAID پاسخ می‌دهد؛ رد آرتریت سپتیک با آرتروسنتز در صورت لزوم.
+
+@I
+- Radiographs (joint effusions, nonspecific)
+
+@L
+- Throat culture; ASO or anti-DNase B titer (fourfold rise) for PIRA; CBC, ESR, CRP (may be normal in JIA); arthrocentesis if septic arthritis must be excluded
+
+@A
+- [group A Streptococcus recovered from the throat] penicillin or erythromycin {note: doses per ARF section}
+
+@T
+- Nonsteroidal anti-inflammatory drugs {note: drug and dose per child weight, e.g., Ibuprofen 10 mg/kg (Chapter 66)}
+- JIA: glucocorticoids occasionally (unresponsive uveitis, decompensated pericarditis or myocarditis)
+
+@Co
+- Pediatric rheumatology follow-up
