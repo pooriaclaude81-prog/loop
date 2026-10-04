@@ -1,0 +1,555 @@
+@cond acute-pancreatitis
+ch: 42
+name: Acute pancreatitis
+name_fa: پانکراتیت حاد
+cc: abdominal-pain, nausea-vomiting
+keywords: pancreatitis, lipase, amylase, gallstone pancreatitis, ERCP, imipenem, meropenem, pancreatic pseudocyst, پانکراتیت
+status: draft
+
+@features
+- التهاب پانکراس؛ از التهاب موضعی خفیف تا نارسایی چندارگانی؛ شایع‌ترین علل: سنگ صفرا و الکل؛ دارو (استامینوفن، کاربامازپین، انالاپریل، استروژن، اریترومایسین، فوروزماید، HCTZ، اپیوئید، استروئید، تتراسایکلین، TMP-SMX) یا هیپرلیپیدمی شدید
+- درد ثابت و «حفاری» میان اپی‌گاستر با انتشار به پشت، بدتر در خوابیده؛ تهوع، استفراغ و اتساع؛ تب خفیف، تاکی‌کاردی و افت فشار؛ پریتونیت دیرهنگام؛ ایلئوس
+- تشخیص: دو از سه: (1) بالین، (2) لیپاز یا آمیلاز ≥ 2 تا 3 برابر حد بالا، (3) تصویربرداری؛ لیپاز ارجح؛ آمیلاز طبیعی رد نمی‌کند؛ هر دو لازم نیست
+- ALP بالا: سنگ صفرا؛ پیش‌آگهی بد: هیپوکلسمی پایدار (< 7)، هیپوکسی، افزایش BUN، اسیدوز
+- CT ارجح بر سونوگرافی (گاز روده)؛ در بالین و آزمایش تیپیک تصویربرداری اورژانس لازم نیست
+
+@ddx
+- !Acute aortic pathology (aneurysm, dissection) | 
+- !Myocardial ischemia | 
+- Cholecystitis / biliary colic / ascending cholangitis | 
+- Peptic ulcer disease | 
+- Small bowel obstruction | 
+- Pneumonia / renal colic / hepatitis | 
+
+@redflags
+- شوک مقاوم، نارسایی کلیه، تب، تغییر هوشیاری، نارسایی تنفسی
+
+@guide
+مایع تهاجمی کریستالوئید؛ NPO؛ ضدتهوع؛ مسکن تزریقی؛ اکسیژن برای SpO2 95٪؛ آنتی‌بیوتیک در کیست کاذب/آبسه/مایع عفونی؛ پرسور برای افت فشار پاسخ‌نده؛ بستری اکثر بیماران. سنگ صفرا: مشاوره گوارش برای ERCP.
+
+@variant pancreatitis-mild
+name: Mild pancreatitis
+level: II
+imp: Acute pancreatitis
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: once
+cxr: PA
+
+@scenario
+مردی ۴۵ ساله با درد اپی‌گاستر تیر به پشت، تهوع و لیپاز 5 برابر؛ علائم حیاتی پایدار.
+
+@why
+مایع و ضدتهوع و مسکن؛ بیمار خفیف بدون بیماری صفراوی ممکن است سرپایی با پیگیری.
+
+@I
+- Abdominal CT (preferred over ultrasound) if the diagnosis is unclear; ultrasound for biliary involvement
+
+@L
+- Lipase (preferred; no benefit to ordering both); CBC; liver studies and alkaline phosphatase (biliary involvement); calcium
+
+@S
+- Aggressive fluid resuscitation with crystalloid IV
+
+@T
+- All patients with nausea and vomiting initially NPO
+- Ondansetron 4 mg or Prochlorperazine 5 to 10 mg (antiemetic)
+- Morphine 0.1 mg/kg IV (parenteral analgesia) {hi}
+- Oxygen to maintain a pulse oximetry reading of 95%
+
+@Co
+- Outpatient management only if mild, no biliary tract disease, no systemic complications, tolerating clear liquids and oral analgesics in the ED
+
+@variant pancreatitis-severe
+name: Severe or complicated pancreatitis
+level: I
+imp: Severe acute pancreatitis
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: portable
+
+@scenario
+مردی ۵۵ ساله الکلی با درد شدید شکم، فشار 80/50، SpO2 88٪ و کراتینین بالا.
+
+@why
+نارسایی ارگان: احیای تهاجمی، پرسور، اکسیژن یا اینتوباسیون و ICU؛ آنتی‌بیوتیک در عفونت.
+
+@I
+- Abdominal CT
+
+@L
+- Lipase, CBC, liver studies, calcium (persistent hypocalcemia < 7 mg/100 mL), BUN, creatinine, blood gas (hypoxia, metabolic acidosis)
+
+@S
+- Aggressive crystalloid fluid resuscitation; pressors for hypotension not responsive to adequate fluid
+
+@A
+- [infected pseudocyst, abscess or infected peripancreatic fluid] Imipenem-cilastatin 500 mg IV, or Meropenem 1 g IV, or Ciprofloxacin 400 mg IV and Metronidazole 500 mg IV
+
+@T
+- Oxygen to maintain 95% saturation; treat respiratory failure aggressively (intubation)
+- Ondansetron 4 mg or Prochlorperazine 5 to 10 mg; Morphine 0.1 mg/kg IV {hi}
+- Bladder catheterization, intensive monitoring, transfusion of blood and blood products as needed; correct symptomatic hypocalcemia
+- Laparotomy may be indicated for hemorrhage or abscess drainage
+
+@Co
+- Intensive care unit with surgical consultation (dropping hemoglobin, poor urine output, persistent hypotension, hypoxia, acidosis, hypocalcemia); gastroenterology for ERCP and sphincterotomy in gallstone pancreatitis
+
+@cond biliary-disease-cholecystitis
+ch: 42
+name: Biliary colic, acute cholecystitis, cholangitis
+name_fa: کولیک صفراوی، کولسیستیت حاد و کولانژیت
+cc: abdominal-pain, nausea-vomiting, fever, jaundice
+keywords: biliary colic, cholecystitis, Murphy sign, cholangitis, Charcot triad, choledocholithiasis, ceftriaxone, metronidazole, ERCP, ultrasound, HIDA, صفرا
+status: draft
+
+@features
+- بیشتر ناشی از انسداد کیسه یا مجرای صفرا با سنگ: کولیک صفراوی، کولسیستیت، پانکراتیت سنگی و کولانژیت صعودی
+- عوامل خطر: سن، جنس مؤنث و پاریتی، چاقی، کاهش وزن سریع یا ناشتایی، فامیلی، دارو، نژاد آسیایی، بیماری مزمن کبد، همولیز (سیکل‌سل)
+- کولیک: درد اپی‌گاستر یا RUQ ثابت یا متناوب با تهوع/استفراغ و انتشار به شانه راست یا پشت چپ؛ 1 تا 5 ساعت؛ اوج 9 شب تا 4 صبح؛ معاینه بدون پریتونیت
+- کولسیستیت: درد > 5 ساعت، تب، لرز، تهوع، بی‌اشتهایی، تندرنس RUQ و Murphy (حساس‌ترین یافته)؛ کولسیستیت بدون سنگ در 5 تا 10٪ با سیر تهاجمی‌تر (دیابت، سالمند، تروما/سوختگی، جراحی)
+- کولانژیت صعودی: انسداد کامل مجرای صفرا با سوپراینفکشن؛ ایکتر، تب، گیجی و شوک؛ تریاد Charcot (تب، ایکتر، RUQ)؛ مرگ‌ومیر بالا
+- سونوگرافی انتخاب اول (سنگ تا 2 mm، دیواره > 3–5 mm، اتساع > 4 cm، مایع اطراف، Murphy سونوگرافیک؛ PPV 92٪)؛ مجرای مشترک > 5–7 mm: سنگ مجرا؛ HIDA/DISIDA حساسیت 97٪ ویژگی 90٪
+
+@ddx
+- !Ascending cholangitis | 
+- !Gallstone pancreatitis | 
+- Acute pancreatitis / peptic ulcer disease | 
+- Hepatitis / myocardial ischemia | 
+- Perforation / diffuse peritonitis | 
+
+@redflags
+- ایکتر، تب، گیجی یا شوک (کولانژیت)، سفتی منتشر شکم (سوراخ‌شدگی)
+
+@guide
+مایع تهاجمی، NPO، ضدتهوع، مسکن (مورفین ± کتورولاک)، NG در اتساع یا استفراغ مقاوم، آنتی‌بیوتیک زودهنگام در شک به کولسیستیت یا کولانژیت، دکمپرسیون با اسفنکتروتومی اندوسکوپیک در انسداد حاد. کولسیستیت و کولانژیت: مشاوره فوری جراحی و بستری.
+
+@variant biliary-colic
+name: Uncomplicated biliary colic
+level: III
+imp: Biliary colic
+cond: Urgent
+act: RBR
+diet: NPO
+ecg: once
+cxr: none
+
+@scenario
+زنی ۴۰ ساله و چاق با درد RUQ بعد از غذای چرب ۲ ساعت پیش، تهوع، بدون تب.
+
+@why
+کولیک ساده بدون مشاور درمان می‌شود؛ اگر ظرف 4 تا 6 ساعت بهتر شد ترخیص.
+
+@I
+- Ultrasound of the hepatobiliary tract (initial study of choice)
+
+@L
+- CBC, liver function tests, serum lipase or amylase (exclude pancreatitis)
+
+@S
+- Aggressive fluid resuscitation with crystalloid IV
+
+@T
+- NPO
+- Ondansetron 4 mg or Prochlorperazine 5 to 10 mg
+- Morphine 0.1 mg/kg IV; Ketorolac 30 mg IV may also help {hi} {renal: NSAID}
+- [distended or actively vomiting] Nasogastric tube to low suction
+- Discharge if symptoms abate within 4 to 6 hours and oral hydration maintained; oral opioid analgesics for 24 to 48 hours; timely follow-up with a surgical consultant or primary care physician; return if fever, worsening pain, intractable vomiting, another attack
+
+@variant cholecystitis-acute
+name: Acute cholecystitis
+level: II
+imp: Acute cholecystitis
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: once
+cxr: PA
+
+@scenario
+مردی ۵۵ ساله با درد RUQ ۱۰ ساعته، تب 38.5، استفراغ و Murphy مثبت.
+
+@why
+آنتی‌بیوتیک زودهنگام و مشاوره فوری جراحی با بستری.
+
+@I
+- Ultrasound; radionuclide cholescintigraphy (HIDA/DISIDA) if ultrasound fails to establish the diagnosis; CT abdomen when other intra-abdominal processes suspected
+
+@L
+- WBC, bilirubin, alkaline phosphatase, lipase or amylase
+
+@S
+- Aggressive crystalloid fluid resuscitation
+
+@A
+- Cefotaxime or Ceftriaxone 1 g IV every 12 to 24 hours plus Metronidazole 500 mg IV
+
+@T
+- NPO; Ondansetron 4 mg or Prochlorperazine 5 to 10 mg; Morphine 0.1 mg/kg IV; Ketorolac 30 mg IV {hi}
+- [distended or vomiting] Nasogastric tube to low suction
+
+@Co
+- Surgery (immediate) with hospital admission
+
+@variant cholangitis-ascending
+name: Ascending cholangitis or sepsis
+level: I
+imp: Ascending cholangitis
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: portable
+
+@scenario
+مردی ۷۰ ساله با ایکتر، تب 39.5، درد RUQ، گیجی و فشار 80/50.
+
+@why
+تهدید حیات: آنتی‌بیوتیک سه‌گانه، احیا و دکمپرسیون اورژانس مجرای صفرا.
+
+@I
+- Ultrasound (common bile duct > 5 to 7 mm)
+
+@L
+- WBC, bilirubin and alkaline phosphatase (usually elevated), lipase, blood cultures {note: cultures not stated in the chapter}
+
+@S
+- Aggressive crystalloid fluid resuscitation; pressors for hypotension not responsive to fluids
+
+@A
+- Ampicillin 0.5 to 1.0 g IV every 6 hours plus Gentamicin 1 to 2 mg/kg IV every 8 hours plus Clindamycin 600 mg IV every 6 hours (or equivalent substitutes: metronidazole for clindamycin; third-generation cephalosporin, piperacillin/tazobactam or a fluoroquinolone for ampicillin)
+
+@T
+- NPO; antiemetic; analgesia as above
+
+@Co
+- Surgery and gastroenterology (urgent endoscopic sphincterotomy of the ampulla of Vater / ERCP); intensive care unit pending surgical treatment
+
+@cond acute-appendicitis
+ch: 43
+name: Acute appendicitis
+name_fa: آپاندیسیت حاد
+cc: abdominal-pain, nausea-vomiting, fever
+keywords: appendicitis, McBurney, Rovsing, psoas sign, obturator sign, CT appendix, graded compression ultrasound, appendectomy, آپاندیسیت
+status: draft
+
+@features
+- از شایع‌ترین اورژانس‌های جراحی؛ عوارض تشخیص اشتباه: آبسه، عفونت زخم، چسبندگی، انسداد، ناباروری
+- درد از ناف یا اپی‌گاستر شروع و به RLQ مهاجرت می‌کند؛ بی‌اشتهایی، تهوع و استفراغ (غیراختصاصی)؛ تحریک مثانه یا کولون: دیزوری و تنسموس؛ علامت «bump»؛ کاهش ناگهانی درد: به فکر پارگی باش
+- نقطه McBurney؛ Rovsing؛ psoas؛ obturator؛ آپاندیس لگنی: تندرنس رکتال؛ رتروسکال: درد پهلو
+- تب دیررس (به‌ندرت > 39)؛ مفیدترین نشانه تب، سپس rebound و مهاجرت درد
+- تشخیص عمدتاً بالینی؛ نمره‌های Alvarado و Samuel از قضاوت پزشک مجرب حساسیت کمتر دارند؛ WBC و CRP هر دو طبیعی ارزش غربال منفی دارند؛ تست بارداری در همه زنان؛ UA ممکن است پیوری و هماچوری با تحریک حالب نشان دهد
+- CT انتخاب (حساسیت 96٪)؛ بدون کنتراست هم قابل‌قبول (92٪/96٪)؛ سونوگرافی فشاری تدریجی اولین انتخاب در کودک و باردار (حساسیت 86٪، PPV 95٪)؛ MRI بدون گادولینیوم در بارداری
+- سالمند، کودک < 6 سال و باردار: تشخیص اشتباه بیشتر؛ آپاندیسیت شایع‌ترین اورژانس جراحی بارداری
+
+@ddx
+- !Ectopic pregnancy / ovarian torsion | 
+- !Testicular torsion / renal colic | 
+- Inflammatory bowel disease / diverticulitis | 
+- Hernia / abscess / volvulus | 
+- Genitourinary infection | 
+
+@redflags
+- پریتونیت، کاهش ناگهانی درد، سن < 6 یا بارداری یا سالمند
+
+@guide
+مشاوره جراحی پیش از تصویربرداری وقتی تشخیص واضح است؛ NPO، IV و مایع؛ درمان آپاندکتومی؛ آنتی‌بیوتیک قبل از جراحی؛ بیمار با تشخیص نامشخص: بستری مشاهده و معاینه سریال (به‌ویژه کودک، سالمند، باردار، ایمنی‌سرکوب).
+
+@variant appendicitis-main
+name: Acute appendicitis
+level: II
+imp: Acute appendicitis
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: once
+cxr: none
+
+@scenario
+مردی ۲۵ ساله با درد ناف که ۱۲ ساعته به RLQ منتقل شده، بی‌اشتهایی و تب 38؛ rebound مثبت.
+
+@why
+تشخیص بالینی با CT در موارد نامشخص؛ NPO، مسکن، آنتی‌بیوتیک و جراحی.
+
+@I
+- CT abdomen (96% sensitive; unenhanced acceptable; no contrast for contrast allergy or renal disease); graded compression ultrasonography first in children and pregnant patients; MRI (no gadolinium in pregnancy or renal disease)
+
+@L
+- CBC, C-reactive protein, urinalysis; pregnancy test in all females of reproductive age
+
+@S
+- IV access and fluids
+
+@A
+- Piperacillin/tazobactam 3.375 g IV, or Ampicillin/sulbactam 3 g IV (consult the surgeon regarding the regimen and timing)
+
+@T
+- Nothing by mouth
+- Fentanyl 1 to 2 μg/kg IV every 1 to 4 hours, or Morphine 0.1 mg/kg {hi}
+
+@Co
+- Surgery (before imaging when the diagnosis is clear; appendectomy); admit for observation and serial examinations if unclear (pediatric, geriatric, pregnant, immunocompromised)
+
+@cond diverticulitis
+ch: 44
+name: Diverticulitis
+name_fa: دیورتیکولیت
+cc: abdominal-pain, fever
+keywords: diverticulitis, LLQ pain, metronidazole, ciprofloxacin, levofloxacin, ertapenem, piperacillin-tazobactam, colonoscopy
+status: draft
+
+@features
+- التهاب یا عفونت دیورتیکول‌های کولون؛ کلاسیک: درد LLQ ثابت و عمقی، تب و لکوسیتوز؛ تغییر اجابت مزاج، تهوع، استفراغ، بی‌اشتهایی؛ علائم ادراری کمتر
+- سیگموئید زائد، نژاد آسیایی یا راست‌طرفه: درد سوپراپوبیک یا RLQ؛ تب خفیف (بالاتر در پریتونیت یا آبسه)؛ خون مخفی ممکن
+- تشخیص: بالینی؛ بیمار پایدار با حمله مشابه قبلی نیاز به تست ندارد؛ در تشخیص جدید یا الگوی متفاوت: CT با کنتراست IV و دهانی (حساسیت 97٪ و ویژگی نزدیک 100٪)
+- عوارض: فلگمون، آبسه، انسداد، فیستول، سوراخ‌شدگی
+
+@ddx
+- !Acute appendicitis | 
+- !Ischemic colitis / mesenteric infarction | 
+- Colon cancer | 
+- Inflammatory bowel disease | 
+- Ovarian torsion / ectopic / PID | 
+
+@redflags
+- علائم پریتونیت، آبسه، انسداد یا سوراخ‌شدگی، ایمنی‌سرکوب
+
+@guide
+مایع و الکترولیت، مسکن و ضدتهوع. غیرعارضه‌دار: آنتی‌بیوتیک خوراکی و رژیم مایع (داده‌های جدید ممکن است آنتی‌بیوتیک را لازم ندانند). کولونوسکوپی ظرف 6 هفته. بستری در ظاهر بیمار، درد یا استفراغ کنترل‌نشده، علائم پریتونیت یا سیستمیک، بیماری همراه یا ایمنی‌سرکوب، موارد عارضه‌دار.
+
+@variant diverticulitis-outpatient
+name: Uncomplicated diverticulitis (outpatient)
+level: III
+imp: Uncomplicated diverticulitis
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مردی ۵۵ ساله با درد LLQ ۲ روزه، تب 37.8 و سابقه دیورتیکولیت؛ پایدار و تحمل خوراکی.
+
+@why
+آنتی‌بیوتیک خوراکی و رژیم مایع؛ پیگیری و کولونوسکوپی در 6 هفته.
+
+@I
+- [new diagnosis or different from past episodes] CT scan with IV and oral contrast
+
+@L
+- CBC, liver function tests, urinalysis (not diagnostic but exclude other diagnoses)
+
+@A
+- First line: Metronidazole 500 mg PO q6h 4 to 7 days PLUS Ciprofloxacin 750 mg PO BID, OR Levofloxacin 750 mg PO q24h, OR Trimethoprim-sulfamethoxazole 1 tab PO BID
+- Alternate: Amoxicillin-clavulanate extended release 1000/62.5 mg 2 tabs PO BID; Moxifloxacin 400 mg PO q24h
+
+@T
+- Liquid diet
+- Follow up with a gastroenterology specialist for colonoscopy in 6 weeks if improved; worsening requires admission
+
+@variant diverticulitis-inpatient
+name: Complicated or severe diverticulitis (admit)
+level: I
+imp: Complicated diverticulitis
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: portable
+
+@scenario
+زنی ۶۸ ساله با درد شدید LLQ، تب 39، پریتونیت موضعی و آبسه در CT.
+
+@why
+بستری، آنتی‌بیوتیک وریدی و مشاوره جراحی.
+
+@I
+- CT scan (severity and complications: phlegmon, abscess, obstruction, fistula, perforation)
+
+@S
+- Fluid and electrolyte replacement
+
+@A
+- Moderate, first line: Metronidazole 500 mg IV TID PLUS (Ciprofloxacin 400 mg IV BID, OR Levofloxacin 750 mg IV q24h, OR Aztreonam 2 g IV TID, OR Ceftriaxone 1 g IV q24h)
+- Moderate, alternative: Ertapenem 1 g IV q24h; Piperacillin-tazobactam 4.5 g IV q8h; Moxifloxacin 400 mg IV q24h
+- Severe, life-threatening, first line: Imipenem 500 mg IV q6h; Meropenem 1 g IV q8h; Piperacillin-tazobactam 4.5 g IV q8h
+- Severe, alternative: Ampicillin 2 g IV q6h PLUS Metronidazole 500 mg IV q6h PLUS (Ciprofloxacin 400 mg IV q12h OR amikacin, gentamicin or tobramycin); penicillin allergy: Aztreonam 2 g IV q6h PLUS metronidazole 500 mg IV q6h
+
+@T
+- Pain and nausea control
+
+@Co
+- Surgery (consultation and admission)
+
+@cond bowel-obstruction-volvulus
+ch: 45
+name: Intestinal obstruction, ileus and volvulus
+name_fa: انسداد روده و ولولوس
+cc: abdominal-pain, nausea-vomiting, anorectal
+keywords: small bowel obstruction, SBO, large bowel obstruction, sigmoid volvulus, cecal volvulus, ileus, pseudo-obstruction, Ogilvie, nasogastric tube, strangulation
+status: draft
+
+@features
+- انسداد مکانیکی یا از دست رفتن پریستالتیسم؛ ایلئوس آدینامیک شایع‌تر و معمولاً خودمحدود
+- SBO: چسبندگی بعد از جراحی، فتق گیرکرده، بیماری التهابی؛ LBO: سرطان، دیورتیکولیت با تنگی، ولولوس سیگموئید، ایمپکشن مدفوع؛ سیگموئید سالمند با آنتی‌کولینرژیک؛ سکوم در باردار؛ کودکان: اینتوساسپشن؛ pseudo-obstruction (Ogilvie) در سالمند، بستری و TCA
+- درد کرامپی متناوب پیشرونده، عدم دفع مدفوع/گاز؛ استفراغ صفراوی در انسداد پروگزیمال و مدفوعی در دیستال؛ SBO نسبی هنوز گاز دفع می‌کند؛ اتساع، تندرنس، پریتونیت؛ صداهای روده پرصدا و تیز در SBO مکانیکی و کم یا غایب بعد از ساعت‌ها
+- وجود مدفوع در رکتوم انسداد را رد نمی‌کند؛ لکوسیتوز > 20,000 یا شیفت چپ: آبسه، گانگرن یا پریتونیت
+- گرافی ایستاده و خوابیده + CXR ایستاده؛ CT با کنتراست IV و دهانی: انتخاب در ED (نسبی/کامل، SBO/ایلئوس، استرانگوله/ساده)
+
+@ddx
+- !Strangulated bowel / perforation | 
+- !Sigmoid or cecal volvulus | 
+- Paralytic ileus / pseudo-obstruction | 
+- Incarcerated hernia | 
+- Intussusception (children) | 
+
+@redflags
+- پریتونیت، لکوسیتوز شدید، اتساع، افت فشار
+
+@guide
+مایع تهاجمی با کریستالوئید، NG برای دکمپرسیون (به‌ویژه با استفراغ یا اتساع)، آنتی‌بیوتیک قبل از جراحی با طیف وسیع و مشاوره سریع جراحی. در ایلئوس آدینامیک یا تردید: مایع و مشاهده. Pseudo-obstruction: کولونوسکوپی تشخیصی و درمانی؛ جراحی لازم نیست.
+
+@variant obstruction-mechanical
+name: Mechanical obstruction or volvulus
+level: I
+imp: Intestinal obstruction
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: PA
+
+@scenario
+مردی ۶۵ ساله با سابقه جراحی شکم، درد کرامپی، استفراغ صفراوی، اتساع و عدم دفع گاز.
+
+@why
+مایع، NG، آنتی‌بیوتیک وسیع‌الطیف و مشاوره فوری جراحی.
+
+@I
+- Flat and upright abdominal radiographs plus upright chest x-ray; CT scanning with IV and oral contrast when possible (partial versus complete, partial SBO versus ileus, strangulated versus simple)
+
+@L
+- CBC, electrolytes, BUN, creatinine, lactate, coagulation profile, type and cross-match
+
+@S
+- Vigorous fluid resuscitation with crystalloids
+
+@A
+- Piperacillin/tazobactam 3.375 g IV every 6 hours, or Ticarcillin-clavulanate 3.1 g IV every 6 hours, or Ampicillin/sulbactam 3.0 g
+- [or double coverage] Cefotaxime 2 g or Ceftriaxone 2 g plus Clindamycin 600 mg or Metronidazole 1 g; or a carbapenem such as Meropenem 1 g IV every 8 hours
+
+@T
+- Decompress with a nasogastric tube (especially if vomiting or distension)
+
+@Co
+- Surgery (prompt consultation; surgical intervention is usually necessary)
+
+@variant ileus-pseudo-obstruction
+name: Adynamic ileus or pseudo-obstruction (Ogilvie)
+level: II
+imp: Adynamic ileus / pseudo-obstruction
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: once
+cxr: PA
+
+@scenario
+مردی ۸۰ ساله بستری با اتساع شکم و تحمل نشدن غذا؛ بدون پریتونیت؛ CT بدون نقطه انسداد.
+
+@why
+اقدامات محافظه‌کارانه: مایع و مشاهده؛ pseudo-obstruction با کولونوسکوپی.
+
+@I
+- Abdominal radiograph / CT
+
+@S
+- Intravenous fluids
+
+@T
+- Observation without surgical intervention when adynamic ileus is suspected
+- Pseudo-obstruction: colonoscopy is both diagnostic and therapeutic; surgery is not indicated
+
+@cond hernia
+ch: 46
+name: Hernia (reducible, incarcerated, strangulated; adults and children)
+name_fa: فتق
+cc: abdominal-pain, genital-complaint
+keywords: inguinal hernia, femoral hernia, ventral hernia, umbilical hernia, incarcerated, strangulated, hernia reduction, فتق
+status: draft
+
+@features
+- بیرون‌زدگی ارگان از حفره طبیعی؛ شایع‌ترین: اینگوینال، ونترال، فمورال
+- عوامل: سابقه خانوادگی، نارس بودن، بیضه نزول‌نکرده، افزایش فشار داخل شکم (آسیت، بارداری، COPD)، محل جراحی
+- قابل‌برگشت؛ گیرکرده (incarcerated: غیرقابل‌برگشت) و استرانگوله (strangulated: اختلال عروقی، اورژانس جراحی؛ درد و تندرنس شدید، سفتی و اریتم)؛ ممکن است به انسداد، گانگرن، سوراخ‌شدگی، پریتونیت و شوک برسد
+- کودکان: تحریک‌پذیری و تغذیه ضعیف؛ بررسی انسداد
+- تشخیص عمدتاً با معاینه؛ سونوگرافی در کودک و باردار؛ CT بهترین برای انواع نادر (Spigelian، obturator)
+- افتراق توده کشاله: تورشن بیضه، تومور، آبسه، هیدروسل، واریکوسل
+
+@ddx
+- !Testicular torsion | 
+- Groin abscess / tumor | 
+- Hydrocele / varicocele | 
+- Undescended testis in children | 
+
+@redflags
+- علائم استرانگولاسیون: ردکشن ممنوع
+
+@guide
+ردکشن اگر علائم استرانگولاسیون وجود دارد انجام نشود (ورود روده مرده به شکم). مراحل: NPO؛ مسکن مناسب (کودکان سدیشن)؛ Trendelenburg؛ چرخش خارجی و فلکسیون پا؛ کیسه یخ؛ گرفتن و کشیدن گردن فتق با یک دست و فشار ثابت با دست دیگر روی نقص فاسیال.
+
+@variant hernia-reducible
+name: Reducible hernia (adult) and umbilical hernia (child)
+level: III
+imp: Hernia, reducible
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مردی ۵۰ ساله با برآمدگی قابل‌برگشت کشاله ران که با زور زدن بیرون می‌زند؛ بدون درد حاد.
+
+@why
+فتق قابل‌برگشت: ارجاع سرپایی جراحی؛ آموزش علائم انسداد.
+
+@T
+- Outpatient surgical evaluation and repair; avoid heavy lifting; return if herniation recurs and cannot be reduced promptly; discuss signs of obstruction before discharge
+- Children with uncomplicated umbilical hernias: discharge and follow with primary care; refer if older than 4 years or hernia greater than 2 cm
+
+@variant hernia-incarcerated
+name: Incarcerated or strangulated hernia
+level: I
+imp: Incarcerated / strangulated hernia
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: none
+
+@scenario
+زنی ۷۰ ساله با فتق فمورال دردناک و غیرقابل‌برگشت، استفراغ و تندرنس شدید.
+
+@why
+استرانگوله یا ناموفق در ردکشن: مشاوره اورژانس جراحی.
+
+@I
+- Ultrasonography (operator and habitus dependent; helpful in pediatric and pregnant patients); CT (best radiographic test; Spigelian, obturator)
+
+@S
+- Intravenous fluid resuscitation
+
+@A
+- [evidence of perforation or strangulation] Cefoxitin 2 g IV or Piperacillin/tazobactam 3.375 g IV
+
+@T
+- Nothing by mouth; intravenous opioid analgesia
+- Reduction attempts only without signs of strangulation: NPO, analgesia (procedural sedation in children), Trendelenburg, externally rotate and flex the ipsilateral leg, padded icepack, elongate the hernia neck with one hand, firm steady pressure on the proximal hernia at the fascial defect with the other hand
+- Infants with successfully reduced inguinal hernias: surgical repair within 24 to 72 hours (one-third redevelop incarceration)
+
+@Co
+- Surgery (emergent consultation and intervention)

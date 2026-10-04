@@ -1,0 +1,1026 @@
+@cond anorectal-benign
+ch: 47
+name: Hemorrhoids, anal fissure, cryptitis, anal tags, pruritus ani
+name_fa: هموروئید، فیشر مقعدی، کریپتیت، زائده پوستی مقعد و خارش مقعد
+cc: anorectal, gi-bleeding
+keywords: hemorrhoids, thrombosed hemorrhoid, clot excision, anal fissure, sentinel pile, cryptitis, skin tags, pruritus ani, pinworm, sitz bath, هموروئید, فیشر
+status: draft
+
+@features
+- هموروئید: احتقان، پرولاپس یا ترومبوز وریدهای هموروئیدی داخلی/خارجی؛ خونریزی بدون درد قرمز روشن روی مدفوع، دستمال یا چکه در توالت؛ ترومبوزه معمولاً دردناک و توده بنفش-آبی
+- هموروئید بزرگ: پرولاپس خودبه‌خود جا می‌رود یا نیاز به جا انداختن دستی دارد؛ ممکن است گیر کرده و گانگرنه شود؛ ترشح مخاطی و خارش
+- هموروئید داخلی لمس نمی‌شود و با آنوسکوپ دیده می‌شود (ساعت 2، 5 و 9 در وضعیت prone)؛ علل: یبوست، حاملگی، آسیت، تومور تخمدان، فیبروز پرتویی، افزایش فشار پورت
+- فیشر مقعدی: پارگی خطی سطحی (اغلب خط وسط خلفی)؛ شایع‌ترین علت خونریزی دردناک رکتوم؛ درد تیز و برنده هنگام اجابت مزاج که بین دفعات کم می‌شود؛ خون قرمز روشن کم؛ در مزمن sentinel pile
+- فیشر غیر از خط وسط خلفی: Crohn، کولیت اولسراتیو، کارسینوم، AIDS، سل و بیماری‌های آمیزشی را در نظر بگیر
+- کریپتیت: درد حین دفع و خارش با یا بدون خونریزی؛ کریپت‌های متورم و دردناک با پاپیلای هیپرتروفیک؛ پیامد: آبسه، فیشر، فیستول
+- زائده پوستی (anal tag) معمولاً بی‌علامت است؛ sentinel tag ممکن است با IBD همراه باشد؛ خارش مقعد در کودکان اغلب کرم‌ریشه (Enterobius) است
+
+@ddx
+- !Rectal or sigmoid tumor (older than 40 years) |
+- !Crohn disease / ulcerative colitis (non-midline fissure, sentinel tag) |
+- Anorectal abscess / fistula |
+- Infectious proctitis / sexually transmitted infection |
+- Rectal prolapse |
+
+@redflags
+- خونریزی شدید یا ادامه‌دار، گیرکردگی/استرانگولاسیون یا گانگرن، احتباس ادرار یا سپسیس
+- سن بالای 40 سال با خونریزی رکتوم (تومور را در نظر بگیر)
+
+@guide
+# هموروئید
+حمام سیتز گرم حداقل ۱۵ دقیقه، سه بار در روز و بعد از هر اجابت مزاج، سپس خشک کردن ملایم. استروئید و بی‌حس‌کننده موضعی موقتاً کمک می‌کند. ملین حجیم‌کننده (psyllium) یا نرم‌کننده مدفوع بعد از فاز حاد؛ ملین‌هایی که مدفوع آبکی می‌دهند ممنوع‌اند (کریپتیت و سپسیس).
+
+هموروئید ترومبوزه حاد کمتر از ۴۸ ساعت: خارج‌کردن لخته (clot excision) با بی‌حسی موضعی طولانی‌اثر مثل bupivacaine 0.5٪ با اپی‌نفرین، برش بیضی‌شکل و تخلیه لخته؛ هموستاز با پک و پانسمان فشاری؛ پانسمان بعد از حدود ۶ ساعت با اولین حمام سیتز برداشته می‌شود؛ ارجاع به جراح برای هموروئیدکتومی قطعی.
+
+جراحی: درد شدید و مقاوم، خونریزی ادامه‌دار، گیرکردگی یا استرانگولاسیون.
+
+# فیشر و کریپتیت
+هدف: رفع اسپاسم اسفنکتر و درد و پیشگیری از تنگی؛ حمام سیتز، فیبر (سبوس)، بی‌حس‌کننده یا استروئید موضعی؛ اگر بعد از ۶ هفته درمان کافی بهبود نیافت، برداشتن جراحی. کریپتیت: ملین حجیم‌کننده، فیبر بیشتر، سیتز و شست‌وی گرم رکتوم؛ موارد مقاوم جراحی.
+
+# خارش مقعد
+فیبر بیشتر، حمام سیتز، آنتی‌هیستامین، پماد اکسید روی یا هیدروکورتیزون 1٪؛ درمان علت زمینه‌ای؛ مقاوم: ارجاع به پروکتولوژیست یا پوست.
+
+@pearls
+- خونریزی بدون درد قرمز روشن = هموروئید؛ خونریزی دردناک = فیشر تا خلاف آن ثابت شود.
+- لزوم معاینه دیجیتال رکتوم و سپس آنوسکوپی در پوزیشن لترال چپ.
+
+@variant anorectal-hemorrhoid-fissure
+name: Hemorrhoids / fissure, stable (outpatient care)
+level: III
+imp: Hemorrhoids / anal fissure
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مردی ۳۵ ساله با درد تیز هنگام اجابت مزاج و کمی خون قرمز روشن روی دستمال؛ علائم حیاتی پایدار.
+
+@why
+درمان غیرجراحی: سیتز، فیبر و ضددرد موضعی؛ بیمار سرپایی با پیگیری.
+
+@T
+- Hot sitz baths for at least 15 minutes, three times per day and after each bowel movement; dry the anus gently but thoroughly afterwards
+- Topical steroid and topical analgesic (temporary relief) {note: drug and dose not given in the book}
+- Bulk laxative such as psyllium seed compound or stool softener after the acute phase; avoid laxatives that cause liquid stool | liquid stool may cause cryptitis and sepsis
+
+@Co
+- Surgical referral for fissure not healing in 6 weeks after adequate treatment, or for sentinel tag (possible inflammatory bowel disease)
+
+@escalate
+- جراحی فوری: خونریزی ادامه‌دار، گیرکردگی یا استرانگولاسیون، درد غیرقابل کنترل
+
+@variant anorectal-thrombosed-hemorrhoid
+name: Thrombosed external hemorrhoid (< 48 hours)
+level: III
+imp: Thrombosed hemorrhoid
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+زنی ۳۰ ساله با توده بنفش دردناک مقعد از دیروز.
+
+@why
+در کمتر از ۴۸ ساعت، خارج‌کردن لخته با بی‌حسی موضعی بهترین تسکین را می‌دهد.
+
+@T
+- Local anesthesia with a long-acting agent such as 0.5% bupivacaine with epinephrine, then elliptical skin incision over the hemorrhoid and evacuation of the thrombosed clot (clot excision)
+- Hemostasis with packing and pressure dressing; pressure dressing may be removed after about 6 hours with the first sitz bath
+- Hot sitz baths for at least 15 minutes, three times per day and after each bowel movement
+
+@Co
+- Surgeon for definitive hemorrhoidectomy
+
+@variant anorectal-complicated-hemorrhoid
+name: Incarcerated / gangrenous / intractably bleeding hemorrhoid
+level: II
+imp: Complicated hemorrhoid (incarceration, strangulation or severe bleeding)
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: once
+cxr: none
+
+@scenario
+مردی ۶۰ ساله با پرولاپس هموروئید غیرقابل جا انداختن، درد شدید و احتباس ادرار.
+
+@why
+گیرکردگی، استرانگولاسیون، خونریزی ادامه‌دار یا درد مقاوم نیاز به جراحی دارد؛ NPO برای احتمال عمل.
+
+@T
+- Analgesia {note: drug and dose not given in the book}
+- Hot sitz baths and gentle drying while awaiting surgery
+
+@Co
+- Surgery for severe intractable pain, continued bleeding, incarceration or strangulation
+
+@cond anorectal-abscess-fistula
+ch: 47
+name: Anorectal abscess, fistula in ano, pilonidal sinus
+name_fa: آبسه آنورکتال، فیستول مقعدی و سینوس پیلونیدال
+cc: anorectal, fever
+keywords: perianal abscess, ischiorectal abscess, supralevator, fistula in ano, pilonidal abscess, incision and drainage, ciprofloxacin, metronidazole, آبسه پری‌آنال
+status: draft
+
+@features
+- آبسه از کریپت‌های مقعد شروع می‌شود و پری‌آنال، اینترسفنکتریک، ایسکیورکتال یا فضای عمیق را درگیر می‌کند؛ آبسه پری‌آنال شایع‌ترین و در لبه مقعد است
+- درد گنگ، ضرباندار و پایدار که قبل از اجابت مزاج بیشتر می‌شود؛ با پیشرفت، نشستن و راه رفتن دردناک؛ تب، لکوسیتوز و توده دردناک در معاینه رکتال
+- عفونت‌های شدیدتر و تهدیدکننده حیات در بافت‌های عمیق (ایسکیورکتال، پلویورکتال) دیده می‌شود
+- فیستول: مسیر التهابی غیرطبیعی از غده مقعد عفونی؛ اغلب پس از آبسه؛ علل دیگر: Crohn، کولیت اولسراتیو، سل، پروکتیت گنوکوکی و کارسینوم؛ ترشح خونی بدبو مداوم
+- سونوگرافی اندوپروب 7 MHz با آب اکسیژنه 3٪ در تشخیص فیستول کمک می‌کند
+- سینوس پیلونیدال: در خط وسط بالای شکاف بین باسن روی ساکروم و کوکسیکس، واکنش گرانولومای جسم خارجی به مو؛ ممکن است کیست بدون درد، آبسه یا کیست مزمن با ترشح باشد؛ گاهی به اشتباه آبسه پری‌رکتال تشخیص داده می‌شود؛ سونوگرافی وسعت را پیش از برش نشان می‌دهد
+
+@ddx
+- !Necrotizing soft tissue infection of perineum |
+- !Deep supralevator / ischiorectal abscess |
+- Crohn disease |
+- Pilonidal abscess vs perirectal abscess |
+- Gonococcal proctitis / tuberculosis / carcinoma (fistula) |
+
+@redflags
+- تب و سمیت سیستمیک، بیمار ایمنوساپرس یا دیابتی، درد شدید با درگیری فضای عمیق (باید در اتاق عمل تخلیه شود)
+
+@guide
+آبسه ساده پری‌آنال بدون بیماری سیستمیک در ED با بی‌حسی کافی موضعی و ضددرد سیستمیک تخلیه می‌شود: برش صلیبی (cruciate) روی آبسه و برداشتن dog ears؛ معمولاً پک لازم نیست؛ سیتز از روز بعد. سایر آبسه‌های پری‌رکتال (supralevator و ischiorectal) در اتاق عمل. آنتی‌بیوتیک معمولاً لازم نیست مگر عفونت سیستمیک یا سمیت.
+
+فیستول: بیمار غیرسمی با ضددرد، تب‌بر و آنتی‌بیوتیک خوراکی؛ سیتز و تمیزکردن موضعی تا زمان جراحی؛ برش جراحی قطعی نباید در بیمار بدحال به تأخیر بیفتد.
+
+پیلونیدال: بیمار prone، تخلیه و شکستن لوکولاسیون‌ها، پک شل با گاز و پانسمان حجیم؛ سیتز از روز بعد؛ آنتی‌بیوتیک و کشت فقط در ایمنوساپرس یا سلولیت اطراف.
+
+@pearls
+- پیلونیدال را با آبسه پری‌رکتال اشتباه نگیر؛ با نزدیکی به مقعد اشتباه رایج است.
+
+@variant anorectal-simple-perianal-abscess
+name: Simple isolated perianal abscess (no systemic illness)
+level: III
+imp: Perianal abscess
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مردی ۴۰ ساله با درد ضرباندار و توده دردناک کنار مقعد؛ بدون تب.
+
+@why
+آبسه ساده پری‌آنال فقط با برش و تخلیه در ED درمان می‌شود؛ آنتی‌بیوتیک لازم نیست.
+
+@T
+- Local and systemic analgesia, then incision and drainage of the abscess (cruciate incision over the abscess, excise the "dog ears"); packing usually not required
+- Sitz baths starting the next day
+
+@Co
+- Surgeon follow-up
+
+@variant anorectal-complicated-abscess-fistula
+name: Complicated perirectal abscess / ill-appearing / fistula
+level: II
+imp: Perirectal abscess (supralevator or ischiorectal) / fistula in ano
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: once
+cxr: none
+
+@scenario
+مردی ۵۵ ساله دیابتی با تب، درد شدید لگن و توده عمقی ایسکیورکتال.
+
+@why
+آبسه‌های عمقی باید در اتاق عمل تخلیه شوند؛ بیمار بدحال بدون تأخیر جراحی می‌شود؛ NPO برای عمل.
+
+@I
+- Ultrasonography with a 7 MHz endoprobe enhanced with 3% hydrogen peroxide may aid diagnosis of fistula in ano
+
+@T
+- Analgesics and antipyretics {note: drugs and doses not given in the book}
+- Sitz baths and local cleaning until surgery
+
+@A
+- [non-ill-appearing patient with fistula in ano] Ciprofloxacin 750 mg twice daily and Metronidazole 500 mg four times daily for 7 days
+- [systemic infection or toxicity] Antibiotics {note: drug and dose not given in the book}
+
+@Co
+- Surgery: other perirectal abscesses drained in the operating room; surgical excision of the fistula is definitive treatment and should not be delayed in ill-appearing patients
+
+@escalate
+- شوک یا سپسیس، درد غیرمتناسب با معاینه یا کرپیتوس (فاشئیت نکروزان، فصل ۹۰)
+
+@variant anorectal-pilonidal
+name: Pilonidal abscess
+level: III
+imp: Pilonidal abscess
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مردی ۲۲ ساله با توده دردناک و ترشح‌دار در شکاف بین باسن روی ساکروم.
+
+@why
+تخلیه در ED با بی‌حسی؛ آنتی‌بیوتیک فقط در ایمنوساپرس یا سلولیت اطراف.
+
+@I
+- Ultrasound to determine the extent of the abscess before incision and drainage
+
+@T
+- Patient prone with buttocks retracted; appropriate sedation and local anesthesia; drain abscess, gently break loculations; pack the wound loosely with gauze and apply a bulky dressing
+- Sitz baths starting the following day
+
+@A
+- [immunocompromised patient or surrounding cellulitis] Antibiotics and cultures {note: drug and dose not given in the book}
+
+@cond proctitis-rectal-prolapse
+ch: 47
+name: Proctitis, rectal prolapse, anorectal tumors
+name_fa: پروکتیت، پرولاپس رکتوم و تومورهای آنورکتال
+cc: anorectal, gi-bleeding
+keywords: proctitis, rectal prolapse, procidentia, sugar technique, anorectal tumor, anal cancer, sexually transmitted infection, پرولاپس رکتوم
+status: draft
+
+@features
+- پروکتیت: التهاب مخاط رکتوم؛ علل: پرتودرمانی قبلی، اختلالات خودایمنی، واسکولیت، ایسکمی، عفونت‌های آمیزشی (سیفلیس، گنوره، کلامیدیا، LGV، هرپس، شانکروئید، HPV) و سایر عفونت‌ها
+- علائم پروکتیت: درد آنورکتال، خارش، ترشح، اسهال، خونریزی و کرامپ تحتانی شکم؛ در آنوسکوپی التهاب، اریتم، زخم یا ترشح
+- پرولاپس رکتوم: ناقص (فقط مخاط، چند سانتی‌متر از خط دندانه‌ای) یا کامل (همه لایه‌ها، توده قرمز گلوله‌ای تا 15 cm)؛ ترشح مخاطی، خونریزی و خارش؛ درد معمولاً شاخص نیست
+- اینتوساسپشن رکتوم ممکن است به شکل پرولاپس ظاهر شود
+- تومور آنورکتال: سیگار، رابطه مقعدی، HIV و زگیل تناسلی؛ آدنوکارسینوم، ملانوم بدخیم، سارکوم کاپوزی؛ علائم غیراختصاصی (توده، خارش، درد، خون)؛ بعداً یبوست، بی‌اشتهایی، کاهش وزن، باریک شدن قطر مدفوع و تنسموس؛ زخم غیربهبودیابنده حاشیه مقعد
+- عوارض تومور: پرولاپس رکتوم، خونریزی طولانی، آبسه پری‌رکتال و فیستول
+
+@ddx
+- !Ischemic proctitis |
+- !Anorectal malignancy |
+- Inflammatory bowel disease |
+- Hemorrhoids / anal fissure |
+- Rectal foreign body |
+
+@redflags
+- پرولاپس غیرقابل جا انداختن یا نشانه ایسکمی (نیاز به جراحی اورژانس)
+- زخم غیربهبودیابنده، کاهش وزن، باریک شدن مدفوع (بدخیمی)
+
+@guide
+# پروکتیت
+در صورت شک به عفونت کشت بگیر؛ نرم‌کننده مدفوع، سیتز، بهداشت مقعد و ضددرد؛ آنتی‌بیوتیک مختص پاتوژن روده‌ای یا آمیزشی؛ پیگیری سرپایی.
+
+# پرولاپس رکتوم
+کودکان: جا انداختن ملایم با ضددرد و سداسیون مناسب سپس ارجاع به متخصص برای رد علت زمینه‌ای؛ جلوگیری از یبوست. بزرگسالان: اگر ادم دیواره جا انداختن را سخت کند، مقدار زیادی شکر دانه‌ای ۱۵ دقیقه قبل از جا انداختن با فشار مستقیم و مداوم؛ گاز لغزنده (lubricated) تا چند ساعت روی مقعد چسبانده شود. اگر به‌راحتی جا نرفت یا ایسکمی: مشاوره فوری جراحی و بستری.
+
+# تومورها
+در شک بالینی: ارجاع برای پروکتوسکوپی/سیگموئیدوسکوپی و بیوپسی.
+
+@variant proctitis-stable
+name: Proctitis, stable
+level: III
+imp: Proctitis
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مردی ۳۰ ساله با درد و ترشح مقعد و اسهال خفیف.
+
+@why
+حمایتی، کشت در شک به عفونت و آنتی‌بیوتیک مختص پاتوژن.
+
+@L
+- Cultures if an infectious cause is suspected
+
+@A
+- [enteric pathogen or sexually transmitted infection] Antibiotics directed at the suspected underlying pathogen {note: drug and dose not given in the book}
+
+@T
+- Stool softeners, sitz baths, good anal hygiene and analgesics
+
+@Co
+- Arrange outpatient follow-up
+
+@variant rectal-prolapse-reducible
+name: Rectal prolapse (adult or child), reducible
+level: III
+imp: Rectal prolapse
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+زنی ۷۰ ساله با توده قرمز بیرون‌زده از مقعد و ترشح مخاطی.
+
+@why
+جا انداختن در ED با شکر؛ در کودک با سداسیون؛ ارجاع برای علت زمینه‌ای.
+
+@T
+- Adult: generous amounts of granulated sugar applied 15 minutes before reduction, then reduction with direct, continuous pressure; tape lubricated gauze over the anal verge for a few hours after reduction
+- Child: gentle reduction under proper analgesia and sedation {note: drug and dose not given in the book}
+
+@Co
+- Refer to a specialist (child: to ensure the prolapse is not due to an underlying condition; prevent constipation)
+
+@variant rectal-prolapse-irreducible
+name: Rectal prolapse, irreducible or ischemic
+level: II
+imp: Rectal prolapse with possible ischemia
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: once
+cxr: none
+
+@scenario
+مردی ۷۵ ساله با پرولاپس سیاه‌رنگ و غیرقابل جا انداختن.
+
+@why
+ایسکمی یا عدم موفقیت جا انداختن نیاز به جراحی اورژانس و بستری دارد.
+
+@T
+- Analgesia {note: drug and dose not given in the book}
+
+@Co
+- Emergency surgical consultation and hospitalization (if the prolapse cannot be easily reduced or there is evidence of ischemia)
+
+@cond rectal-foreign-body
+ch: 47
+name: Rectal foreign body
+name_fa: جسم خارجی رکتوم
+cc: anorectal, abdominal-pain
+keywords: rectal foreign body, retained object, vacuum effect, Foley, obstetric forceps, perforation, جسم خارجی رکتوم
+status: draft
+
+@features
+- همه بیماران تاریخچه درست نمی‌دهند؛ ممکن است با درد شکم، خونریزی آنورکتال یا ترشح مراجعه کنند
+- بیشتر اجسام در آمپول رکتوم‌اند و در معاینه دیجیتال و پروکتوسکوپی لمس می‌شوند
+- رادیوگرافی شکم و لگن برای موقعیت، شکل و تعداد؛ فیلم upright یا CT برای جسم رادیولوسنت و هوای آزاد (سوراخ‌شدگی)
+
+@ddx
+- !Rectal or colonic perforation |
+- Anorectal laceration / hemorrhage |
+- Peritonitis |
+
+@redflags
+- درد شکم، هوای آزاد در تصویربرداری، اجسام شیشه‌ای یا تیز
+
+@guide
+اجسام کم‌ارتفاع را می‌توان در ED خارج کرد؛ بسیاری نیاز به مشاوره و مداخله جراحی دارند (شیشه یا لبه تیز). سداسیون پروسیجرال همراه با بی‌حسی اطراف مقعد و زیر مخاط؛ ریلکسیشن اسفنکتر ضروری است: تزریق بی‌حسی موضعی با سوزن 30 gauge دور تا دور عضله اسفنکتر داخلی. روان‌کننده، فورسپس مامایی، اسپکولوم یا اسنار و زور زدن بیمار کمک می‌کنند. اجسام بزرگ بولبی اثر خلأ ایجاد می‌کنند: کاتتر را دور جسم عبور داده و هوا تزریق کن. گاهی عبور Foley از بالای جسم، باد کردن بالون و کشش ملایم کمک می‌کند. بعد از خروج، رکتوم و مقعد را برای پارگی و سوراخ‌شدگی دوباره ارزیابی کن.
+
+@variant rectal-fb-low
+name: Rectal foreign body (low-lying, no perforation)
+level: II
+imp: Rectal foreign body
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: once
+cxr: PA
+
+@scenario
+مردی ۴۰ ساله با جسم خارجی داخل رکتوم و درد خفیف شکم.
+
+@why
+خروج در ED با سداسیون و ریلکسیشن اسفنکتر؛ NPO برای سداسیون و احتمال عمل.
+
+@I
+- Abdominal and pelvis x-rays to demonstrate position, shape and number of foreign bodies
+- Upright film or CT scan for radiolucent foreign body and free air (perforation)
+
+@T
+- Procedural sedation with perianal and submucosal analgesia; local infiltration anesthesia via 30-gauge needle into the internal sphincter muscle circumferentially for sphincter relaxation
+- Anal lubrication, obstetric forceps, speculum or snares, and patient bearing down
+- [large bulbar object with vacuum effect] pass a catheter around the foreign body into the ampulla and inject air
+- Foley catheter passed proximal to the foreign body, balloon inflated, gentle traction
+- Reevaluate anus and rectum after removal for lacerations and perforation
+
+@Co
+- Surgical consultation (glass, sharp edges, high-lying, or removal not possible in the ED)
+
+@cond jaundice
+ch: 48
+name: Jaundice
+name_fa: ایکتر (زردی)
+cc: jaundice
+keywords: jaundice, hyperbilirubinemia, conjugated, unconjugated, Gilbert, hemolysis, cholestasis, ALP, GGT, ascending cholangitis, ایکتر
+status: draft
+
+@features
+- زردی پوست، صلبیه و مخاط به‌دلیل بیلی‌روبین بالا؛ معمولاً در سطح > 2.5 mg/dL آشکار می‌شود؛ علل: افزایش تولید (همولیز)، پردازش ناکافی سلولی (عفونت، دارو، سم)، کاهش دفع (تومور پانکراس، سنگ مجرای مشترک)
+- تقسیم‌بندی: پره‌هپاتیک، هپاتیک و پست‌هپاتیک؛ غیرکونژوگه (تولید زیاد یا اختلال کونژوگاسیون) و کونژوگه (کلستاز داخل یا خارج کبدی)
+- هپاتیت حاد در جوان سالم: شروع ناگهانی زردی با پرودروم تب، ضعف، تهوع، استفراغ و درد RUQ؛ بیماری الکلی و سیروز: شروع تدریجی
+- پیرها با بی‌اشتهایی، کاهش وزن و زردی بدون درد: بدخیمی هپاتوبیلیر یا پانکراس؛ متاستاز کبدی: کبد بزرگ، سخت، ندولار و دردناک
+- بیماری‌های ارثی (Gilbert، کمبود G6PD) با سابقه فامیلی یا زردی خفیف راجعه
+- سنگ مجرای مشترک، سابقه جراحی صفراوی، پانکراتیت، کولانژیت یا IBD (تنگی)؛ احتقان کبدی در نارسایی قلبی (هپاتومگالی، ادم پا، JVD، گالوپ)
+- شرح حال و معاینه و آزمایش‌های معمول در 85٪ بیماران به تشخیص دقیق می‌رسد
+
+@ddx
+- !Ascending cholangitis |
+- !Acute hepatitis / fulminant hepatic failure |
+- !Hepatobiliary or pancreatic malignancy |
+- Hemolysis / hemoglobinopathy |
+- Gilbert syndrome / G6PD deficiency |
+- Passive hepatic congestion or ischemic hepatitis (heart failure) |
+
+@redflags
+- تب، ایکتر و درد RUQ یا شوک (کولانژیت)؛ تغییر هوشیاری، خونریزی یا اختلال انعقادی (نارسایی کبد)
+
+@guide
+تست‌های اولیه: بیلی‌روبین توتال و دایرکت (ایندایرکت با تفریق)، ترانس‌آمینازها، ALP، CBC و آنالیز ادرار (بیلی‌روبین و اوروبیلینوژن). بر اساس بالین: لیپاز یا آمیلاز، PT، الکترولیت و گلوکز، BUN و کراتینین، GGT، آلبومین، پانل هپاتیت ویروسی، سطح دارو، تست حاملگی.
+- بیلی‌روبین توتال و ایندایرکت بالا: تولید زیاد یا آسیب هپاتوسیت؛ توتال و دایرکت بالا: انسداد دفع.
+- ترانس‌آمیناز نرمال با زردی: سپسیس، حاملگی یا خطای متابولیک؛ همراه با کم‌خونی: همولیز (Coombs، الکتروفورز هموگلوبین).
+- ALP بالا: انسداد صفراوی و کلستاز؛ GGT: الکل و دارو.
+- سونوگرافی کبد، مجاری صفراوی و پانکراس برای علت انسدادی یا توده؛ CT برای تومورهای پانکراس و داخل شکم برتر است.
+
+درمان بر اساس علت؛ عمدتاً حمایتی؛ کریستالوئید ایزوتونیک در دهیدراتاسیون؛ آنتی‌بیوتیک وریدی (شوک سپتیک در کولانژیت صعودی سریع رخ می‌دهد)؛ ایکتر انسدادی خارج کبدی بدون کولانژیت: بستری برای درناژ. بیمار پایدار بدون نارسایی کبد یا انسداد حاد صفراوی و قابل پیگیری: سرپایی.
+
+@variant jaundice-stable
+name: Jaundice, stable (no hepatic failure or acute biliary obstruction)
+level: III
+imp: Jaundice
+cond: Urgent
+act: CBR
+diet: PO
+ecg: once
+cxr: none
+
+@scenario
+مردی ۳۸ ساله با زردی خفیف و بدون تب یا درد، علائم حیاتی پایدار.
+
+@why
+بررسی اولیه در ED و ادامه کار سرپایی در بیمار پایدار با پیگیری مطمئن و حمایت اجتماعی.
+
+@I
+- Ultrasonogram of the liver, biliary tract and pancreas (obstructive cause, mass or tumor)
+
+@L
+- Serum bilirubin total and direct, AST, ALT, ALP, urinalysis (bilirubin and urobilinogen)
+- Additional tests according to clinical features: lipase or amylase, PT, glucose, GGT, albumin, viral hepatitis panel, drug levels, pregnancy test
+
+@S
+- [if dehydrated and tachycardic] @fluid
+
+@Co
+- Outpatient follow-up (hemodynamically stable, no hepatic failure or acute biliary obstruction, reliable follow-up and adequate social support)
+
+@variant jaundice-obstructive-cholangitis
+name: Obstructive jaundice / suspected ascending cholangitis
+level: I
+imp: Obstructive jaundice with possible ascending cholangitis
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: portable
+
+@scenario
+زنی ۶۵ ساله با زردی، تب، درد RUQ و فشار 85/50.
+
+@why
+کولانژیت صعودی به‌سرعت به شوک سپتیک می‌رود؛ آنتی‌بیوتیک وریدی زودهنگام و درناژ.
+
+@I
+- Ultrasonogram of the liver, biliary tract and pancreas; CT for pancreatic or intra-abdominal tumors
+
+@L
+- Serum bilirubin total and direct, AST, ALT, ALP, lipase or amylase, PT, glucose, albumin, urinalysis
+
+@S
+- Isotonic IV fluid therapy if dehydrated
+
+@A
+- IV antibiotics (septic shock may develop expeditiously in ascending cholangitis) {note: drug and dose not given in the book}
+
+@Co
+- Admit extrahepatic obstructive jaundice for drainage (gastroenterology / surgery)
+
+@cond acute-hepatitis
+ch: 48
+name: Acute hepatitis (viral, alcoholic) and fulminant hepatic failure
+name_fa: هپاتیت حاد (ویروسی، الکلی) و نارسایی فولمینانت کبد
+cc: jaundice, abdominal-pain, nausea-vomiting, altered-mental-status
+keywords: hepatitis A, hepatitis B, hepatitis C, alcoholic hepatitis, fulminant hepatic failure, acetaminophen, AST ALT, lactulose, neomycin, هپاتیت
+status: draft
+
+@features
+- هپاتیت: التهاب کبد ناشی از آسیب عفونی، سمی یا متابولیک؛ شایع‌ترین علل: عفونت ویروسی و مصرف سم؛ طیف از بی‌علامت تا نارسایی فولمینانت و سیروز
+- علائم: تهوع، استفراغ و درد RUQ؛ تب، اسهال، ایکتر، بیلی‌روبینوری (ادرار تیره)، مدفوع رنگ‌پریده و کبد بزرگ و دردناک
+- تغییر هوشیاری، خونریزی غیرطبیعی (کبودی، خونریزی لثه، اپیستاکسی، مدفوع خونی)، آسیت و ادم پا: بیماری مزمن یا نارسایی فولمینانت
+- شرح حال: استامینوفن (دوز واحد یا مزمن بالا)، قارچ، صدف خام، داروهای گیاهی؛ تزریق خون، HIV، تزریق مواد، الکل مزمن، رفتار پرخطر، سفر
+- A: مدفوعی-دهانی؛ B: جنسی، خون، سوزن آلوده و پری‌ناتال؛ C: خون آلوده؛ B و C می‌توانند به عفونت مزمن، سیروز و HCC برسند؛ D، E، CMV، HSV، کوکساکی و EBV
+- سموم: استامینوفن، الکل، داروها (برخی آنتی‌بیوتیک‌ها، استاتین، ایزونیازید)، گیاهان (black cohosh، chaparral، Echinacea، kava) و مکمل‌ها
+- هپاتیت الکلی: بی‌اشتهایی، تهوع، تب، ادرار تیره، ایکتر، کاهش وزن، درد شکم و ضعف؛ AST > ALT (کمتر از 5 برابر نرمال؛ چند صد واحد)
+- نارسایی فولمینانت: بروز انسفالوپاتی ظرف 8 هفته از شروع علائم در کبد قبلاً سالم؛ ادم مغزی، ایکتر، آسیت، تندرنس RUQ و کواگولوپاتی
+
+@ddx
+- !Acetaminophen toxicity |
+- !Fulminant hepatic failure |
+- Viral, drug or toxin-induced, alcoholic or autoimmune hepatitis |
+- Cholecystitis and cholangitis |
+- HELLP syndrome |
+- Hepatic, pancreatic or biliary tumors / metastatic liver disease |
+
+@redflags
+- انسفالوپاتی، کواگولوپاتی، هیپوگلیسمی، بیلی‌روبین ≥ 20 mg/dL، PT بیش از 50٪ بالاتر از نرمال
+
+@guide
+# آزمایش‌ها
+- ترانس‌آمینازها: صدها = آسیب خفیف؛ هزاران = نکروز وسیع؛ ALT اختصاصی‌تر از AST؛ AST/ALT > 2 و GGT بالا: الکل.
+- ALP > 4 برابر: کلستاز.
+- گلوکز فوری در تغییر هوشیاری (هیپوگلیسمی)؛ الکترولیت، BUN و کراتینین (دهیدراتاسیون)؛ آمونیاک بالا و PT/INR (معیار واقعی عملکرد کبد) و آلبومین پایین: پیش‌آگهی بد.
+- سرولوژی: IgM anti-HAV برای A؛ HBsAg برای B؛ anti-HCV برای C (تاخیر 6 تا 8 هفته).
+- سطح استامینوفن پایه تشخیص و درمان در شک به مسمومیت.
+
+# درمان
+حمایتی (به جز استامینوفن، فصل ۱۰۶): ضددرد، ضدتهوع، مایع. هیپوگلیسمی: یک آمپول D50W IV. بستری: سالمند، حاملگی، اختلال مایع/الکترولیت، استفراغ مقاوم، بیلی‌روبین ≥ 20، PT بیش از 50٪ بالا، هیپوگلیسمی، آلبومین پایین، خونریزی گوارشی، انسفالوپاتی، ایمنوساپرسیون، شک به هپاتیت سمی. هپاتیت ویروسی حاد: سرپایی با استراحت، دریافت خوراکی کافی، بهداشت و پرهیز از سموم کبدی؛ بازگشت در صورت بدتر شدن.
+
+هپاتیت الکلی: حمایتی؛ تغذیه با تیامین، منیزیم، پتاسیم و فولات؛ پرهیز از الکل و سموم کبدی؛ ارجاع برای ترک؛ پروفیلاکسی ترک الکل در بیماران بستری.
+
+نارسایی فولمینانت: مراقبت ویژه در ED و ICU؛ حمایت تنفس و گردش خون، درمان افزایش ICP، اصلاح هیپوگلیسمی و کواگولوپاتی؛ لاکتولوز خوراکی، آنتی‌بیوتیک خوراکی آمینوگلیکوزید (neomycin، vancomycin) و محدودیت شدید پروتئین؛ مشاوره زودهنگام هپاتولوژی و پیوند.
+
+@pearls
+- AST/ALT > 2 و GGT بالا = الکل.
+- بیمار مبتلا به تغییر هوشیاری: اول قند خون.
+
+@variant hepatitis-viral-outpatient
+name: Acute viral hepatitis, stable
+level: III
+imp: Acute viral hepatitis
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مردی ۲۸ ساله با تهوع، ایکتر، ادرار تیره و درد RUQ؛ پایدار، قادر به نوشیدن.
+
+@why
+بیشتر هپاتیت ویروسی حاد نیاز به بستری ندارد؛ حمایتی و بازگشت در صورت بدتر شدن.
+
+@L
+- AST, ALT, ALP, total and direct bilirubin, PT/INR, albumin, glucose, viral hepatitis serologies (IgM anti-HAV, HBsAg, anti-HCV), serum acetaminophen level if toxic ingestion suspected
+
+@S
+- [if dehydrated and tachycardic] @fluid
+
+@T
+- Pain management and antiemetic medication {note: drugs and doses not given in the book}
+- Rest, adequate oral intake, strict personal hygiene, avoid hepatotoxins
+
+@Co
+- Arrange follow-up; return to the ED for poor oral intake or worsening vomiting, jaundice or abdominal pain
+
+@variant hepatitis-alcoholic
+name: Alcoholic hepatitis
+level: II
+imp: Acute alcoholic hepatitis
+cond: Urgent
+act: CBR
+diet: PO
+ecg: once
+cxr: none
+
+@scenario
+مردی ۴۸ ساله با سابقه الکل مزمن، ایکتر، تب و درد شکم؛ AST دو برابر ALT.
+
+@why
+حمایتی؛ تغذیه و پرهیز؛ پروفیلاکسی ترک در بستری‌ها.
+
+@L
+- AST, ALT, ALP, GGT, total and direct bilirubin, PT/INR, albumin, glucose
+
+@S
+- Thiamine, magnesium, potassium and folate supplementation {note: doses not given in the book}
+- [if dehydrated and tachycardic] @fluid
+
+@T
+- Prophylactic treatment for alcohol withdrawal if admission is required {note: drug and dose not given in the book}
+- Advise to avoid further alcohol ingestion and hepatotoxins
+
+@Co
+- Refer patient and family for detoxification or alcohol-dependency treatment
+
+@variant hepatitis-fulminant
+name: Fulminant hepatic failure
+level: I
+imp: Fulminant hepatic failure
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: portable
+
+@scenario
+زنی ۲۵ ساله با زردی، گیجی، خونریزی لثه و PT طولانی بعد از مصرف دارو.
+
+@why
+نیاز به مراقبت ویژه، درمان ICP و کواگولوپاتی و مشاوره زودهنگام پیوند.
+
+@L
+- AST, ALT, bilirubin, PT/INR, albumin, ammonia, glucose, BUN, creatinine, electrolytes, serum acetaminophen level
+
+@S
+- 1 ampule D50W IV if hypoglycemia
+
+@T
+- Aggressive support of circulation and respiration; monitor and treat increased intracranial pressure if present
+- Correct coagulopathy
+- Oral lactulose, oral aminoglycoside antibiotic (neomycin, vancomycin), significant protein restriction
+
+@Co
+- Intensive care unit admission; early consultation with hepatologist and liver transplant service
+
+@cond cirrhosis-complications
+ch: 48
+name: Cirrhosis: ascites, spontaneous bacterial peritonitis, hepatic encephalopathy
+name_fa: سیروز: آسیت، پریتونیت باکتریال خودبه‌خودی و انسفالوپاتی کبدی
+cc: abdominal-pain, altered-mental-status, leg-swelling, jaundice, fever
+keywords: cirrhosis, ascites, paracentesis, spontaneous bacterial peritonitis, SBP, hepatic encephalopathy, lactulose, spironolactone, hepatorenal syndrome, cefotaxime, سیروز, آسیت
+status: draft
+
+@features
+- سیروز: جایگزینی پارانشیم کبد با فیبروز؛ علل: الکل، هپاتیت مزمن ویروسی؛ کمتر: دارو، همو‌کروماتوز، Wilson، سیروز صفراوی اولیه
+- علائم عمومی: خستگی، بی‌اشتهایی، ضعف، تحلیل عضلانی، تهوع، درد شکم، تب خفیف؛ دکمپانساسیون: آسیت، هپاتومگالی، انسفالوپاتی، ادم پا، ایکتر، خارش، اسپلنومگالی، آنژیوم عنکبوتی
+- آسیت علامت شاخص؛ می‌تواند دیافراگم را بالا برده و با پلورال افیوژن باعث اختلال تنفس شود
+- انسفالوپاتی کبدی: از خستگی مزمن یا گیجی خفیف تا خواب‌آلودگی حاد، هیپررفلکسی، اسپاستیسیته، تشنج و کما؛ تشدید با پروتئین زیاد، خونریزی گوارشی پنهان، یبوست، هیپو/هیپرگلیسمی، اختلال الکترولیت، ترک الکل، سپسیس، نارسایی کلیه، دارو
+- SBP: عارضه ظریف و مهم آسیت؛ تشخیص دشوار چون درد شکم و تب همیشه نیست و تندرنس ممکن است نباشد؛ شایع‌ترین ارگانیسم‌ها: Enterobacteriaceae مثل E. coli و Klebsiella (63٪) و S. pneumoniae (15٪)
+- سندرم هپاتورنال: نارسایی عملکردی کلیه در سیروز بدون بیماری ذاتی کلیه؛ اغلب همراه SBP
+- معمولاً با تشدید آسیت و ادم، تغییر هوشیاری، درد شکم، خونریزی گوارشی/واریس، پنومونی یا UTI مراجعه می‌کنند
+
+@ddx
+- !Spontaneous bacterial peritonitis |
+- !Gastroesophageal / variceal bleeding |
+- !Intracranial hemorrhage (altered mental status) |
+- Hepatic encephalopathy vs hypoglycemia, sepsis, electrolyte imbalance |
+- Hepatorenal syndrome |
+- Portal or hepatic vein thrombosis / hepatocellular carcinoma |
+
+@redflags
+- تب، درد شکم، لکوسیتوز یا اسیدوز در آسیت (SBP)؛ هماتمز/ملنا؛ انسفالوپاتی تازه یا بدتر شونده؛ کواگولوپاتی همراه خونریزی
+
+@guide
+# آزمایش‌ها
+AST، ALT، ALP، بیلی‌روبین توتال و دایرکت، LDH، آلبومین، آمونیاک، گلوکز، BUN و کراتینین، الکترولیت، PT/INR، CBC؛ ترانس‌آمینازها در مرحله نهایی ممکن است نزدیک نرمال باشند؛ آمونیاک با سطح هوشیاری همبستگی قابل اتکا ندارد و علل دیگر تغییر هوشیاری را رد نمی‌کند.
+
+# پاراسنتز تشخیصی
+آسیت تازه‌تشخیص یا آسیت با تب، درد شکم، خونریزی گوارشی یا انسفالوپاتی: نمونه 50 cc برای شمارش سلولی، گلوکز، پروتئین، گرم و کشت؛ ۱۰ mL در بطری کشت خون کنار تخت. SBP: WBC > 1000/mm3 یا نوتروفیل > 250/mm3. سونوگرافی بالین برای آسیت و هدایت پاراسنتز؛ دوپلر برای ترومبوز ورید پورت و هپاتیک؛ CT سر در تغییر هوشیاری.
+
+# درمان
+- آسیت خفیف تا متوسط: رژیم کم‌نمک و دیورتیک سرپایی (spironolactone 50 تا 200 mg/d و amiloride 5 تا 10 mg/d)؛ فوروزماید مشکل‌ساز (دیورز بیش از حد)؛ محدودیت مایع فقط اگر Na < 120–125.
+- آسیت حجیم: پاراسنتز درمانی؛ برداشتن بیش از 1 L ممکن است افت فشار بدهد؛ بیش از 4 L: آلبومین 6 تا 8 (در کتاب «mg/L» چاپ شده؛ احتمالاً g به ازای هر لیتر مایع خارج‌شده) برای حجم بیش از 4 L.
+- SBP: آنتی‌بیوتیک تجربی؛ cefotaxime 2 g IV هر 8 ساعت خط اول؛ فلوروکینولون وریدی (مگر پروفیلاکسی کینولون)؛ خوراکی در موارد بسیار خفیف با پیگیری نزدیک.
+- انسفالوپاتی: لاکتولوز خط اصلی، خوراکی یا رکتال.
+- کواگولوپاتی: فقط اگر خونریزی کنترل‌نشده یا پروسیجر؛ ویتامین K 10 mg PO یا IV؛ FFP؛ پلاکت.
+- مسکن‌ها: NSAID پرهیز؛ استامینوفن حداکثر 2 g در روز؛ اپیوئید ممنوع در سابقه انسفالوپاتی یا سوءمصرف؛ فنتانیل و ترامادول با دوز کم و فاصله بیشتر در موارد منتخب؛ بنزودیازپین پرهیز؛ پروپوفول برای سداسیون کوتاه ایمن است.
+
+@pearls
+- مایع آسیت را در هر آسیت تازه یا تب/درد/انسفالوپاتی بفرست؛ SBP شایع و خاموش است.
+- آمونیاک بالا جایگزین جستجوی علل دیگر تغییر هوشیاری نیست.
+
+@variant cirrhosis-ascites-mild
+name: Cirrhosis with mild to moderate ascites, no complications
+level: III
+imp: Cirrhosis with ascites
+cond: Urgent
+act: CBR
+diet: PO
+ecg: once
+cxr: PA
+
+@scenario
+مردی ۵۸ ساله با سیروز الکلی، شکم برآمده و ادم پا؛ بدون تب یا درد.
+
+@why
+در نبود نشانه عفونت یا عارضه، سرپایی با رژیم کم‌نمک و دیورتیک.
+
+@I
+- Bedside ultrasound to identify ascites and guide paracentesis
+
+@L
+- AST, ALT, ALP, total and direct bilirubin, albumin, glucose, PT/INR, LDH, ammonia
+
+@T
+- Salt-restricted diet; spironolactone 50 to 200 mg/d and amiloride 5 to 10 mg/d {ci: avoid furosemide as the main diuretic (overdiuresis); fluid restriction only if serum sodium < 120 to 125 mEq/L}
+
+@Co
+- Outpatient follow-up (no signs of infection or other complications)
+
+@variant cirrhosis-large-ascites-paracentesis
+name: Large-volume ascites (therapeutic paracentesis)
+level: II
+imp: Cirrhosis with large-volume ascites
+cond: Urgent
+act: CBR
+diet: PO
+ecg: once
+cxr: PA
+
+@scenario
+مردی ۶۰ ساله با آسیت حجیم و تنگی نفس خفیف.
+
+@why
+پاراسنتز درمانی توصیه می‌شود؛ بیش از 1 L ممکن است افت فشار بدهد.
+
+@I
+- Bedside ultrasound to guide paracentesis
+
+@L
+- Ascitic fluid (50 cc): cell count, glucose, protein, Gram stain and culture (10 mL in a blood culture bottle at the bedside); AST, ALT, ALP, total and direct bilirubin, albumin, glucose, PT/INR, ammonia
+
+@T
+- Therapeutic paracentesis; removal of more than 1 L can cause hypotension so close monitoring is necessary
+- Albumin 6 to 8 per L of fluid removed, for amounts greater than 4 L, to prevent fluid shift and intravascular collapse {note: unit printed as "mg/L" in the book, probably g per L of fluid removed}
+
+@Co
+- Admit if respiratory compromise, abdominal pain, fever, acidosis or leukocytosis; gastroenterology
+
+@variant cirrhosis-sbp
+name: Spontaneous bacterial peritonitis
+level: I
+imp: Spontaneous bacterial peritonitis
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: portable
+
+@scenario
+مردی ۶۲ ساله با سیروز، آسیت، تب و درد شکم؛ مایع آسیت با نوتروفیل 600.
+
+@why
+SBP: نوتروفیل > 250 یا WBC > 1000؛ آنتی‌بیوتیک تجربی فوری و بستری.
+
+@I
+- Bedside ultrasound for ascites and guide paracentesis; duplex Doppler for portal or hepatic vein thrombosis; abdominal CT for hepatic lesions
+
+@L
+- Diagnostic paracentesis: ascitic fluid 50 cc for cell count, glucose, protein, Gram stain, culture (10 mL in blood culture bottle at the bedside); total WBC > 1000/mm3 or neutrophils > 250/mm3 = SBP
+- AST, ALT, ALP, total and direct bilirubin, LDH, albumin, ammonia, glucose, PT/INR
+
+@A
+- Cefotaxime 2 g IV every 8 hours (first-line parenteral treatment)
+- Alternative: IV fluoroquinolone, except in patients who received prophylactic quinolone treatment {note: drug and dose not given in the book}
+
+@Co
+- Admit for SBP evaluation and treatment; hepatorenal syndrome often accompanies SBP
+
+@variant cirrhosis-hepatic-encephalopathy
+name: Hepatic encephalopathy (new or worsening)
+level: I
+imp: Hepatic encephalopathy
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: portable
+
+@scenario
+مردی ۵۵ ساله با سیروز، گیجی و خواب‌آلودگی از دیروز؛ یبوست.
+
+@why
+لاکتولوز خط اصلی؛ علت تشدید (خونریزی، سپسیس، دارو) را پیدا و درمان کن؛ CT سر برای رد خونریزی.
+
+@I
+- Head CT to identify intracranial hemorrhage in patients with altered mental status
+
+@L
+- Ammonia, glucose, BUN, creatinine, electrolytes, PT/INR, albumin, AST, ALT, ALP, bilirubin, LDH; diagnostic paracentesis if ascites {note: ammonia does not reliably correlate with mental status}
+
+@T
+- Lactulose 20 g PO diluted in a glass of water, fruit juice or carbonated drink
+- Lactulose enema: 300 mL of syrup in 700 mL of water or normal saline PR, retained for 30 minutes
+- Aggressively treat comorbidities (electrolyte abnormalities, hypoglycemia, ventilatory and circulatory dysfunction, sepsis, alcohol-related syndromes)
+- Avoid benzodiazepines {ci: avoid in cirrhosis}
+
+@Co
+- Admit (new or worsening hepatic encephalopathy); gastroenterology / liver transplant center if liver failure
+
+@variant cirrhosis-coagulopathy-bleeding
+name: Cirrhosis with coagulopathy and bleeding
+level: I
+imp: Cirrhosis with coagulopathy and suspected gastroesophageal bleeding
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: portable
+
+@scenario
+مرد ۵۰ ساله سیروزی با هماتمز و INR بالا.
+
+@why
+خونریزی با کواگولوپاتی نیاز به اصلاح دارد؛ واریس طبق فصل ۳۹.
+
+@L
+- PT/INR, albumin
+
+@T
+- Vitamin K 10 mg PO or IV
+- Fresh frozen plasma in doses appropriate for patient's PT level
+- Pooled donor platelets for decreased or malfunctioning platelets
+- Specific treatments for variceal bleeding (see Chapter 39)
+
+@Co
+- Gastroenterology; liver failure requires critical care in the ED and consultation with a gastroenterologist and a liver transplant center
+
+@cond postoperative-complications
+ch: 49
+name: Complications of general surgical procedures (postoperative fever, wound, ileus, thrombophlebitis, pseudomembranous colitis)
+name_fa: عوارض پس از اعمال جراحی عمومی
+cc: fever, wound-bite, abdominal-pain, diarrhea
+keywords: postoperative fever, atelectasis, wound infection, hematoma, seroma, dehiscence, ileus, thrombophlebitis, pseudomembranous colitis, dumping syndrome, anastomotic leak, colonoscopy perforation, PEG tube, stoma, عوارض بعد از جراحی
+status: draft
+
+@features
+- تب بعد از عمل (5 Ws): wind (تنفسی)، water (UTI)، wound (زخم)، walking (DVT)، wonder drugs (تب دارویی یا PMC)
+- تب در 24 ساعت اول: معمولاً آتلکتازی؛ در نظر داشتن فاشئیت نکروزان و کلستریدیال؛ 72 ساعت اول: پنومونی، آتلکتازی، ترومبوفلبیت کاتتر وریدی؛ UTI روز 1 تا 5؛ DVT از روز 5؛ عفونت زخم روز 7 تا 10؛ PMC تا 6 هفته بعد
+- آتلکتازی: تب، تاکی‌پنه، تاکی‌کاردی و هیپوکسی خفیف؛ پنومونی 24 تا 96 ساعت بعد (فصل ۳۰)؛ آمبولی ریه هر زمان (فصل ۲۵)
+- احتباس ادراری در مردان سالمند، جراحی آنورکتال یا طولانی و بی‌حسی نخاعی/اپیدورال (فصل ۵۴)؛ کاهش ادرار: نارسایی کلیه یا حجم کم (فصل ۵۰)
+- هماتوم (خونریزی ناکافی)؛ سروما (مایع شفاف زیر زخم)؛ عفونت زخم: درد، تورم، اریتم، ترشح؛ عوامل خطر: سن‌های حدی، دیابت، سوءتغذیه، بافت نکروتیک، خون‌رسانی ضعیف، جسم خارجی؛ فاشئیت نکروزان در بیمار بدحال با عفونت در حال گسترش و درد نامتناسب (فصل ۹۰)
+- دهیسانس سطحی یا عمقی فاشیا: دیابت، سوءتغذیه، استروئید مزمن، بستن نامناسب
+- ترومبوفلبیت سطحی: اریتم، گرما، پری ورید؛ بعد از کاتتر وریدی یا واریس؛ DVT بیشتر در پاها (فصل ۲۵)
+- PMC: سم Clostridium difficile؛ اسهال آبکی یا خونی، تب، کرامپ؛ آزمایش سیتوتوکسین ممکن است در 27٪ منفی باشد
+- ایلئوس بعد از جراحی گوارشی: روده کوچک ظرف 24 ساعت، کولون 3 تا 5 روز؛ طولانی بودن: پریتونیت، آبسه، خونریزی، پنومونی، سپسیس، الکترولیت، دارو
+- آبسه داخل شکم: آلودگی، نشت یا نشت آناستوموز (CT یا سونوگرافی)
+- پانکراتیت (لیپاز مطمئن‌تر)، کولسیستیت بدون سنگ در سالمندان، فیستول، نشت آناستوموز (ازوفاژ تا 10 روز با مرگ‌ومیر بالا)
+- جراحی چاقی: نشت و خونریزی در هفته‌های اول؛ دامپینگ (تهوع، استفراغ، درد اپی‌گاستر، تپش، سرگیجه، سنکوپ)
+- لاپاروسکوپی، لوله‌های تغذیه، استوما و کولونوسکوپی (خونریزی و سوراخ‌شدگی؛ CT حساس‌تر)
+
+@ddx
+- !Necrotizing fasciitis / clostridial wound infection |
+- !Pulmonary embolism / DVT |
+- !Anastomotic leak / peritonitis / intra-abdominal abscess |
+- Atelectasis / pneumonia |
+- Urinary tract infection / urinary retention |
+- Drug fever / pseudomembranous colitis |
+
+@redflags
+- فاشئیت نکروزان (درد نامتناسب، سمیت)، نشت آناستوموز، سوراخ‌شدگی کولون، بیمار سمی یا بیماری زمینه‌ای مضعف یا سالمند
+
+@guide
+با جراحی که پروسیجر را انجام داده تماس بگیرید. بیمار سمی، با بیماری مضعف یا سالمند: بستری.
+1. آتلکتازی خفیف بدون هیپوکسمی: سرپایی با کنترل درد و تنفس عمیق.
+2. پنومونی بعد از عمل: چندمیکروبی؛ بستری و آنتی‌بیوتیک پوشش‌دهنده عفونت‌های بیمارستانی (Pseudomonas و MRSA) (فصل ۳۰).
+3. UTI غیرسمی: سرپایی با آنتی‌بیوتیک خوراکی؛ در دستکاری، فلور گرم‌مثبت؛ بدحال: بستری.
+4. هماتوم زخم: برداشتن بخیه‌ها و تخلیه؛ مشورت با جراح؛ سروما: آسپیراسیون با سوزن.
+5. عفونت زخم: آنتی‌بیوتیک خوراکی مگر سمیت یا بیماری زمینه‌ای؛ عفونت پرینه: چندمیکروبی، آنتی‌بیوتیک تزریقی و بستری؛ فاشئیت نکروزان: دبریدمان فوری و آنتی‌بیوتیک وسیع‌الطیف (فصل ۹۰).
+6. ترومبوفلبیت سطحی: سرپایی با NSAID، گرما و بالا نگه‌داشتن اندام؛ آنتی‌بیوتیک در سلولیت یا لنفانژیت؛ ترومبوفلبیت چرکی: بستری و برداشتن جراحی.
+7. PMC: مایع، درمان تجربی؛ metronidazole خوراکی یا وریدی و vancomycin خوراکی.
+
+@pearls
+- در تب بعد از عمل به 5 Ws فکر کن و زمان بروز را با تشخیص تطبیق بده.
+- لوله PEG جابه‌جا شده با لوله هم‌اندازه جایگزین شود (در صورت نبود: Foley موقت).
+
+@variant postop-fever-resp-uti
+name: Postoperative fever: atelectasis / pneumonia / UTI
+level: II
+imp: Postoperative fever (atelectasis / pneumonia / UTI)
+cond: Urgent
+act: CBR
+diet: PO
+ecg: once
+cxr: PA
+
+@scenario
+مردی ۶۵ ساله ۲ روز بعد از جراحی شکم با تب، تاکی‌پنه و درد پهلو.
+
+@why
+تب زودهنگام معمولاً تنفسی یا ادراری است؛ CXR و آنالیز ادرار.
+
+@I
+- Chest x-ray; additional imaging like CT or ultrasound based on the operative procedure performed
+
+@L
+- Urinalysis and urine culture
+- Evaluation focusing on the 5 Ws
+
+@A
+- [postoperative pneumonia] Antibiotic therapy covering nosocomial infections such as Pseudomonas and methicillin-resistant Staph aureus, with admission (see Chapter 30) {note: drug and dose not given in the book}
+- [nontoxic UTI] Oral antibiotic geared toward appropriate organisms; consider gram-positive flora if instrumentation occurred {note: drug and dose not given in the book}
+
+@T
+- [mild atelectasis without hypoxemia] Pain control and increased deep breathing
+
+@Co
+- Contact the surgeon who performed the procedure
+
+@escalate
+- هیپوکسمی، سمیت، بیمار سالمند یا بیماری مضعف: بستری
+
+@variant postop-wound
+name: Wound hematoma / seroma / infection / dehiscence
+level: II
+imp: Postoperative wound complication
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+زنی ۵۰ ساله ۸ روز بعد از جراحی با قرمزی، تورم و ترشح زخم؛ تب خفیف.
+
+@why
+عفونت زخم روز 7 تا 10 است؛ بیمار غیرسمی با آنتی‌بیوتیک خوراکی؛ نشانه فاشئیت را بررسی کن.
+
+@T
+- [wound hematoma] Remove some sutures and evacuate; [seroma] needle aspiration
+
+@A
+- [wound infection without systemic toxicity or significant comorbidity] Oral antibiotics {note: drug and dose not given in the book}
+- [perineal infection] Parenteral antibiotics (polymicrobial) with admission {note: drug and dose not given in the book}
+
+@Co
+- Surgeon consultation before treating wound hematoma; operative exploration may be required for dehiscence
+
+@variant postop-necrotizing
+name: Suspected necrotizing fasciitis / clostridial wound infection
+level: I
+imp: Necrotizing fasciitis (postoperative)
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: portable
+
+@scenario
+مردی ۶۰ ساله دیابتی ۱ روز بعد از عمل با درد نامتناسب، گسترش سریع قرمزی و فشار 85/50.
+
+@why
+فاشئیت نکروزان: دبریدمان جراحی فوری و آنتی‌بیوتیک وسیع‌الطیف تزریقی (فصل ۹۰).
+
+@A
+- Broad-spectrum parenteral antibiotics (see Chapter 90) {note: drug and dose not given in the book}
+
+@Co
+- Immediate surgical debridement
+
+@variant postop-ileus-intraabdominal
+name: Postoperative ileus / abscess / leak / pancreatitis after GI surgery
+level: II
+imp: Postoperative GI complication (ileus, intra-abdominal abscess, anastomotic leak)
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: once
+cxr: PA
+
+@scenario
+مردی ۷۰ ساله ۴ روز بعد از کولکتومی با تهوع، استفراغ، اتساع و درد شکم.
+
+@why
+ایلئوس طولانی نیاز به بررسی علل غیرعصبی دارد؛ NPO و NG و مایع.
+
+@I
+- Abdominal imaging; CT or ultrasonography to confirm intra-abdominal abscess (upright chest or abdominal radiographs, CT most sensitive for colonoscopy perforation)
+
+@L
+- Basic metabolic panel, urinalysis, lipase (more reliable than amylase)
+
+@S
+- Intravenous hydration (bowel rest)
+
+@A
+- [intra-abdominal abscess or anastomotic leak] Antibiotic therapy {note: drug and dose not given in the book}
+
+@T
+- Bowel rest, nasogastric suction
+
+@Co
+- Surgery (obstruction due to adhesions, abscess drainage, anastomotic leak, fistula, perforation)
+
+@variant postop-thrombophlebitis-pmc
+name: Thrombophlebitis / antibiotic-induced pseudomembranous colitis
+level: III
+imp: Postoperative thrombophlebitis / pseudomembranous colitis
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+زنی ۶۸ ساله با اسهال آبکی و تب بعد از دوره آنتی‌بیوتیک پس از جراحی.
+
+@why
+PMC با مایع و متروندازول/وانکومایسین؛ ترومبوفلبیت سطحی با NSAID و گرما.
+
+@L
+- Stool C difficile cytotoxin (negative in 27% of cases)
+
+@S
+- [if dehydrated and tachycardic] @fluid | fluid resuscitation for suspected PMC
+
+@A
+- [suspected pseudomembranous colitis] Metronidazole (oral or IV) and oral vancomycin {note: dose not given in the book}
+- [superficial thrombophlebitis with cellulitis or lymphangitis] Antibiotics {note: drug and dose not given in the book}
+
+@T
+- [superficial thrombophlebitis] NSAIDs, local heat application and elevation {note: drug and dose not given in the book}
+
+@Co
+- Suppurative thrombophlebitis: hospitalization and surgical excision

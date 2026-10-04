@@ -1,0 +1,482 @@
+@cond constipation
+ch: 38
+name: Constipation (functional, fecal impaction, opioid-induced)
+name_fa: یبوست
+cc: abdominal-pain, anorectal
+keywords: constipation, fecal impaction, disimpaction, enema, lactulose, bisacodyl, polyethylene glycol, methylnaltrexone, opioid-induced, یبوست
+status: draft
+
+@features
+- ≥ 2 مورد: زور زدن، مدفوع سفت، تخلیه ناکامل، < 3 دفع در هفته؛ مزمن: علائم 12 هفته در 12 ماه گذشته
+- عملکردی: تغییر دارو یا مکمل، کاهش مایع یا فیبر، تغییر فعالیت؛ ارگانیک: شروع حاد، کاهش وزن، خونریزی رکتال/ملنا، تهوع/استفراغ، عدم دفع گاز، تب، درد رکتال، تغییر قطر مدفوع (اولویت: انسداد و کارسینوم)
+- اسهال ممکن است همراه باشد (مایع از کنار انسداد/ایمپکشن)
+- معاینه: فتق، توده، آسیت؛ صداهای روده کم در حرکت کند و زیاد در انسداد؛ معاینه رکتال: تون، توده، جسم خارجی، هموروئید، آبسه، ایمپکشن، شقاق و خون
+- علل حاد: تومور، تنگی، فتق، چسبندگی، ولولوس، دارو (اپیوئید، ضدروان‌پریشی، آنتی‌کولینرژیک)، آنال دردناک؛ مزمن: نوروپاتی، پارکینسون، هیپوتیروئیدی، هیپرپاراتیروئیدی، دیابت، اختلال الکترولیت، آمیلوئیدوز/اسکلرودرمی، سرب و آهن
+
+@ddx
+- !Bowel obstruction | 
+- !Colon carcinoma | 
+- Fecal impaction / pseudo-obstruction | 
+- Hypothyroidism / hypercalcemia / hypokalemia | 
+- Medication effect (opioids, anticholinergics) | 
+
+@redflags
+- شروع حاد، کاهش وزن، آنمی، خونریزی رکتال، تغییر قطر مدفوع، عدم دفع گاز
+
+@guide
+مهم‌ترین نسخه: مایع (1.5 L/d)، فیبر (10 g/d) و ورزش. ایمپکشن: خارج کردن دستی با بی‌حسی موضعی و مسکن/آرام‌بخش؛ سپس تنقیه و رژیم. موارد ارگانیک با انسداد: بستری و ارزیابی جراحی.
+
+@variant constipation-functional
+name: Functional constipation
+level: III
+imp: Constipation
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+زنی ۵۰ ساله با یبوست مزمن، مدفوع سفت و کم‌تحرکی؛ بدون علائم هشدار.
+
+@why
+رژیم و ورزش و ملین ملایم؛ آزمایش در شک ارگانیک.
+
+@I
+- [obstruction or pseudo-obstruction suspected, or to assess stool burden] Flat and erect abdominal films; CT abdomen and pelvis with contrast for organic causes
+
+@L
+- [by suspicion] CBC (anemia), TSH (hypothyroidism), electrolytes (hypokalemia, hypercalcemia)
+
+@T
+- Fluids 1.5 L/d, fiber 10 g/d, exercise; fiber as bran 1 cup/d or psyllium 1 tsp three times a day
+- Docusate sodium 100 mg daily or twice a day; or docusate sodium/sennosides 1 to 2 tablets PO daily or twice daily
+- [alternatively] Bisacodyl 10 mg PR three times daily (adults or children)
+- [no renal failure] Milk of magnesia 15 to 30 mL PO once or twice a day, or Magnesium citrate 240 mL PO once
+- [hyperosmolar] Lactulose or sorbitol 15 to 30 mL PO once or twice a day; polyethylene glycol 17 g PO
+- [children] Glycerin rectal suppositories; mineral oil (age 5 to 11 years 5 to 15 mL PO daily; age > 12 years 15 to 45 mL PO daily)
+
+@variant constipation-impaction
+name: Fecal impaction
+level: II
+imp: Fecal impaction
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مردی ۷۵ ساله با یبوست چند روزه، درد رکتال و ترشح مایع؛ معاینه رکتال ایمپکشن.
+
+@why
+خارج‌کردن دستی ایمپکشن پایه درمان است؛ سپس تنقیه و رژیم.
+
+@T
+- Manual disimpaction with local anesthetic lubricant and parenteral analgesia or sedation as needed (transvaginal pressure in female patients may assist)
+- Enemas after disimpaction: soapsuds 1500 mL PR or mineral oil 100 to 150 mL PR (avoid local trauma and rectal perforation)
+- Regimen of diet, exercise and medication to reestablish fecal flow
+- [palliative care, chronic opioid use or abuse, other measures unsuccessful] Methylnaltrexone 0.15 mg/kg subcutaneously (maximum dose 12 mg)
+
+@Co
+- Surgical evaluation and hospitalization (organic constipation due to obstruction)
+
+@cond upper-gi-bleeding
+ch: 39
+name: Gastrointestinal bleeding (upper and lower)
+name_fa: خونریزی گوارشی
+cc: gi-bleeding, weakness, hypotension-shock, syncope
+keywords: GI bleeding, hematemesis, melena, hematochezia, varices, pantoprazole, octreotide, Sengstaken-Blakemore, endoscopy, transfusion, خونریزی گوارشی
+status: draft
+
+@features
+- باید تا اثبات خلاف تهدیدکننده حیات تلقی شود؛ فوقانی (پروگزیمال به لیگامان Treitz) شایع‌تر: PUD، گاستریت/ازوفاژیت اروزیو، واریس مری/معده، Mallory-Weiss؛ تحتانی: دیورتیکولار، کولیت، پولیپ، بدخیمی
+- هماتمز یا قهوه‌ای: فوقانی؛ ملنا: پروگزیمال به کولون راست؛ هماتوشزی: دیستال، ولی 10٪ هماتوشزی با خونریزی فوقانی
+- کاهش وزن و تغییر عادات روده: بدخیمی؛ استفراغ و عق بعد از هماتمز: Mallory-Weiss؛ دارو و الکل: PUD، گاستریت، واریس؛ آنژیوم عنکبوتی، اریتم کف دست، ایکتر: بیماری کبدی
+- آهن یا بیسموت ملنا را شبیه می‌کنند و چغندر هماتوشزی؛ گایاک منفی است
+- تشخیص: بررسی گوش و حلق (خون بلعیده‌شده)، NG (منفی کاذب ممکن)، معاینه رکتال؛ هماتوکریت اولیه بازتاب‌دهنده خونریزی نیست؛ خونریزی فوقانی BUN را بالا می‌برد
+- خونریزی تحتانی: آنژیوگرافی، سینتی‌گرافی یا اندوسکوپی؛ 80٪ خودبه‌خود متوقف می‌شود
+
+@ddx
+- !Esophageal or gastric varices | 
+- !Peptic ulcer disease | 
+- Mallory-Weiss tear | 
+- Diverticular bleeding / colitis / polyps / malignancy | 
+- Aortoenteric fistula | 
+
+@redflags
+- هیپوتانسیون، تاکی‌کاردی، سنکوپ، آنژین، گیجی
+- پیشرفت علی‌رغم 2 L کریستالوئید
+
+@guide
+اولویت: ABC، اکسیژن، IV بزرگ و مانیتور. حجم: کریستالوئید ایزوتونیک؛ تصمیم ترانسفوزیون بر اساس شواهد بالینی (ادامه خونریزی فعال و عدم بهبود پرفیوژن بعد از 2 L) نه هماتوکریت؛ آستانه پایین‌تر در سالمند. NG در اغلب موارد مهم؛ اندوسکوپی درمانی زودهنگام در خونریزی فوقانی قابل‌توجه.
+
+@variant gib-upper-active
+name: Significant upper GI bleeding
+level: I
+imp: Upper gastrointestinal bleeding
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: portable
+
+@scenario
+مردی ۶۰ ساله با هماتمز و ملنا، فشار 85/50، نبض 120 و سابقه مصرف NSAID.
+
+@why
+خونریزی قابل‌توجه: احیا با کریستالوئید و خون در صورت نیاز، PPI، اندوسکوپی زودهنگام و بستری.
+
+@L
+- Type and crossmatch; CBC, electrolytes, BUN, creatinine, glucose, coagulation studies, liver function tests
+
+@S
+- Isotonic crystalloid (normal saline or Ringer lactate) for immediate volume replacement
+
+@T
+- Oxygen; large-bore IV catheters; continuous monitoring
+- Transfuse blood if active bleeding continues and perfusion does not improve after 2 L of crystalloid (lower threshold in the elderly); replace coagulation factors as needed
+- Nasogastric tube; [if bright red blood or clots] gentle gastric lavage
+- [nonvariceal bleeding from peptic ulcer disease] Pantoprazole 80 mg IV bolus followed by an infusion of 8 mg/h
+- [upper GI bleeding] Octreotide 25 to 50 μg IV bolus followed by 25 to 50 μg/h IV infusion {hi}
+- [adjunct or temporizing; rarely used due to complications] Balloon tamponade with Sengstaken-Blakemore tube or variants
+
+@Co
+- Gastroenterology (early therapeutic endoscopy) and surgery (uncontrolled bleeding; emergent surgery if no response to pharmacologic and endoscopic treatment); admission
+
+@variant gib-lower
+name: Lower GI bleeding
+level: II
+imp: Lower gastrointestinal bleeding
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: once
+cxr: none
+
+@scenario
+زنی ۷۰ ساله با هماتوشزی ماروونی ۳ بار؛ فشار 110/70 و نبض 95.
+
+@why
+بیشتر خودبه‌خود متوقف می‌شود؛ تثبیت و اندوسکوپی یا آنژیوگرافی بر اساس منابع.
+
+@L
+- Type and crossmatch; CBC, electrolytes, BUN, creatinine, glucose, coagulation studies
+
+@S
+- Isotonic crystalloid as needed
+
+@T
+- Oxygen; large-bore IV; monitor; rectal examination
+- Nasogastric tube to exclude upper GI bleeding in disguise
+- Angiography, scintigraphy or endoscopy depending on resources and consultant preference
+
+@Co
+- Gastroenterology / surgery; admission
+
+@cond esophageal-dysphagia-gerd
+ch: 40
+name: Dysphagia, GERD and esophagitis
+name_fa: دیسفاژی، ریفلاکس و ازوفاژیت
+cc: chest-pain, ent
+keywords: dysphagia, GERD, heartburn, esophagitis, ranitidine, omeprazole, metoclopramide, Barrett, pill esophagitis
+status: draft
+
+@features
+- دیسفاژی: انتقالی (اوروفارنژیال) یا انتقالی (مری)؛ جامد پیشرونده به مایع: مکانیکی؛ جامد و مایع هر دو: اختلال حرکتی؛ ممکن است خطر آسپیراسیون
+- علل ساختاری: نئوپلاسم (سنگفرشی)، تنگی، web، Schatzki، دیورتیکول؛ حرکتی: عصبی‌عضلانی (CVA شایع‌ترین)، آشالازی، اسپاسم منتشر
+- تمایز درد مری از ایسکمی قلب در ED دشوار یا ناممکن است: پیش‌فرض درد قلبی تا اثبات خلاف
+- GERD: سوزش سردل، ارتباط با غذا و وضعیت، بهبود با آنتی‌اسید؛ ارائه غیرتیپیک: علائم ریوی (آسم)، گوش و حلق، فرسایش دندان، لارنژیت، سینوزیت، سرفه؛ عوارض: تنگی، ازوفاژیت، Barrett
+- ازوفاژیت: التهابی (GERD، NSAID، KCl، داکسی‌سایکلین، تتراسایکلین، کلیندامایسین) یا عفونی در ایمنی‌سرکوب (Candida شایع‌ترین، HSV، CMV)
+
+@ddx
+- !Acute coronary syndrome (default assumption) | 
+- !Esophageal perforation | 
+- Peptic ulcer disease | 
+- Esophageal spasm / achalasia | 
+
+@redflags
+- ناتوانی در بلع ترشحات (خطر راه هوایی)، درد قفسه با ریسک قلبی
+
+@guide
+دیسفاژی اغلب سرپایی ارزیابی می‌شود (باریم، ویدئوازوفاگوگرافی، مانومتری، ازوفاگوسکوپی). GERD: درمان سرپایی با کاهش اسید، افزایش حرکت و حذف عوامل خطر. ازوفاژیت دارویی: قطع داروی مسبب.
+
+@variant gerd-main
+name: GERD or esophagitis
+level: III
+imp: Gastroesophageal reflux disease
+cond: Urgent
+act: RBR
+diet: PO
+ecg: once
+cxr: PA
+
+@scenario
+مردی ۴۰ ساله با سوزش سردل بعد از غذا و بهبود با آنتی‌اسید؛ ECG و CXR طبیعی.
+
+@why
+پس از رد ایسکمی درمان تجربی با H2 بلوکر یا PPI.
+
+@I
+- AP and lateral neck and chest x-rays (dysphagia); barium swallow (often the first test) as outpatient
+
+@T
+- Mild disease: H2 blocker (ranitidine 150 mg PO twice daily) or proton pump inhibitor (omeprazole 20 to 40 mg PO daily)
+- Prokinetic drugs (metoclopramide 10 to 15 mg PO 30 minutes before meals and at bedtime; reduce dose by 50% in the elderly)
+- Avoid ethanol, caffeine, nicotine, chocolate, fatty foods; head of the bed elevated 30°; no eating within 3 hours of bedtime
+- [medication-induced esophagitis] Withdraw the offending agent
+- ECG and chest radiograph in ambiguous presentations (cautious approach given ischemic disease)
+
+@cond esophageal-perforation
+ch: 40
+name: Esophageal perforation
+name_fa: سوراخ‌شدگی مری
+cc: chest-pain, abdominal-pain
+keywords: Boerhaave, esophageal rupture, mediastinitis, Hamman crunch, esophagram, piperacillin-tazobactam
+status: draft
+
+@features
+- ایاتروژنیک شایع‌ترین؛ دیگر: افزایش فشار داخل مری (Boerhaave)، تروما، جسم خارجی، عفونت، تومور، آئورت؛ مرگ‌ومیر بالا
+- درد حاد، شدید و بی‌امان، منتشر قفسه، گردن و شکم؛ انتشار به پشت و شانه؛ بلع تشدید می‌کند
+- زودهنگام: سفتی شکم با افت فشار و تب؛ تاکی‌کاردی و تاکی‌پنه؛ آمفیزم مدیاستن دیر؛ Hamman crunch؛ افیوژن پلور در 50٪ سوراخ‌شدگی داخل قفسه
+- CXR می‌تواند پیشنهاد کند؛ ازوفاگرام یا اندوسکوپی اورژانس برای تأیید (CT محدودیت دارد)
+
+@ddx
+- !Acute myocardial infarction | 
+- !Pulmonary embolism | 
+- !Acute abdomen | 
+- Aortic dissection | 
+
+@redflags
+- هر مشکوک: درمان فوری و جراحی
+
+@guide
+مدیریت سریع و تهاجمی. مایع، آنتی‌بیوتیک وسیع‌الطیف برای هوازی و بی‌هوازی؛ مشاوره اورژانس جراحی؛ همه بستری.
+
+@variant esoph-perf-main
+name: Esophageal perforation
+level: I
+imp: Esophageal perforation
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: portable
+
+@scenario
+مردی ۵۰ ساله بعد از استفراغ شدید با درد شدید قفسه، تب، فشار 90/60 و آمفیزم زیرجلدی گردن.
+
+@why
+تأخیر کشنده است: مایع، آنتی‌بیوتیک و جراحی اورژانس.
+
+@I
+- Esophagram or emergency endoscopy (confirm); chest radiograph (pleural effusion, pneumothorax, pneumomediastinum)
+
+@S
+- Fluid resuscitation
+
+@A
+- Piperacillin/tazobactam 3.375 g IV (single-drug coverage)
+- [or double coverage] Cefotaxime 2 g IV or Ceftriaxone 2 g IV PLUS Clindamycin 600 mg IV or Metronidazole 15 mg/kg IV once, then 7.5 mg/kg q6h (maximum 1 g/dose)
+
+@Co
+- Emergent surgical consultation; hospitalization
+
+@cond esophageal-foreign-body
+ch: 40
+name: Swallowed foreign body and food impaction (esophageal)
+name_fa: جسم خارجی مری و گیرکردن غذا
+cc: ent, chest-pain, pediatric-gi
+keywords: foreign body, coin ingestion, button battery, food impaction, sharp object, body packer, glucagon, endoscopy, Foley catheter
+status: draft
+
+@features
+- کودکان 18 تا 48 ماه و بیماران روانی؛ سکه، اسباب‌بازی و مداد رنگی در مری پروگزیمال؛ بالغین: بیشتر دیستال
+- پس از عبور از پیلور معمولاً از دستگاه عبور می‌کند؛ گیر کردن دیستال به پیلور: نامنظم، لبه تیز، پهن (> 2.5 cm) یا بلند (> 6 cm)
+- علائم: درد پشت جناغ، دیسفاژی، سرفه، خفگی، استفراغ، آسپیراسیون، ناتوانی در بلع ترشحات؛ کودکان: امتناع از غذا، استفراغ، استریدور، بزاق ریزش
+- سکه در مری در گرافی AP صورت گرد را نشان می‌دهد (در نای در لترال)
+- باتری دکمه‌ای: اورژانس واقعی؛ پرفوراسیون ظرف 6 ساعت
+
+@ddx
+- !Button battery in the esophagus | 
+- !Airway compromise | 
+- Esophageal stricture / underlying disease (adults) | 
+
+@redflags
+- ناتوانی در بلع ترشحات، خطر راه هوایی، باتری دکمه‌ای یا جسم تیز
+
+@guide
+بیمار در وضعیت بحرانی: احیا استاندارد؛ اندوسکوپی اورژانس در انسداد کامل دیستال مری با تجمع ترشحات. ادمیشن عموماً لازم نیست اگر اندوسکوپی ساده بود. غذا: انسداد کامل = اندوسکوپی فوری؛ بدون عارضه تا 12–24 ساعت؛ آنزیم‌های پروتئولیتیک (پاپایین) ممنوع؛ گلوکاگون 1–2 mg ممکن است با موفقیت کم.
+
+@variant fb-coin
+name: Coin ingestion
+level: II
+imp: Esophageal coin
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: none
+cxr: none
+o2: O2 therapy: if SpO2 < 94%, nasal cannula or face mask with flow by age and weight
+
+@scenario
+کودکی ۲ ساله که سکه بلعیده؛ بزاق ریزش و امتناع از غذا.
+
+@why
+گرافی برای تعیین محل؛ سکه مری باید با اندوسکوپی برداشته شود.
+
+@I
+- Radiographs of all children suspected of swallowing coins (AP and lateral to distinguish esophagus from trachea); CT for nonradiopaque objects
+
+@T
+- Coins lodged in the esophagus should be removed by endoscopy (Foley balloon catheter under fluoroscopy by experienced hands: complications include aspiration, airway compromise, mucosal laceration)
+- Coins in the stomach almost always pass spontaneously
+
+@variant fb-button-battery
+name: Button battery ingestion
+level: I
+imp: Esophageal button battery
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: none
+cxr: none
+o2: O2 therapy: if SpO2 < 94%, nasal cannula or face mask with flow by age and weight
+
+@scenario
+کودکی ۳ ساله که باتری دکمه‌ای بلعیده و استفراغ دارد؛ گرافی باتری در مری.
+
+@why
+باتری در مری اورژانس واقعی است و باید فوراً برداشته شود (نکروز ظرف 6 ساعت).
+
+@I
+- Radiographs to locate the battery; repeat x-ray at 48 hours to ensure passage through the pylorus (battery beyond the esophagus)
+
+@T
+- Resuscitate as needed
+- Emergency endoscopy if lodged in the esophagus; Foley balloon catheter technique may be considered if reliable history of ingestion ≤ 2 hours
+- Batteries past the esophagus: expectant management with 24-hour follow-up examination
+- National Button Battery Ingestion Hotline 202-625-3333 (24 hours, 7 days a week)
+
+@Co
+- Surgery if symptoms or signs of GI tract injury
+
+@variant fb-food-sharp-narcotic
+name: Food impaction, sharp object, or narcotic packets
+level: II
+imp: Esophageal foreign body / food impaction
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: none
+cxr: none
+
+@scenario
+مردی ۶۰ ساله که تکه گوشت بلعیده و نمی‌تواند بزاق را ببلعد؛ یا مردی با بسته‌های مواد مخدر ببلعیده (body packer).
+
+@why
+انسداد کامل مری با اندوسکوپی اورژانس؛ body packer اندوسکوپی ممنوع.
+
+@I
+- Plain films for radiopaque objects (narcotic packets often visible on plain x-ray); CT for nonradiopaque objects
+
+@T
+- Food impaction: complete esophageal obstruction needs emergency endoscopy; uncomplicated impaction may be treated expectantly but not > 12 to 24 hours; proteolytic enzymes (papain meat tenderizer) are contraindicated; Glucagon 1 to 2 mg for adults may be attempted but success rates are poor
+- Sharp objects in the esophagus, stomach or duodenum: immediate removal by endoscopy; if distal to the duodenum and asymptomatic, daily plain films; consider surgical removal if 3 days without passage
+- Narcotic packets (body packer): endoscopy is contraindicated (risk of fatal rupture); observation until the packet reaches the rectum; whole-bowel irrigation may aid removal
+- Indirect or fiberoptic laryngoscopy for very proximal objects in stable patients
+
+@Co
+- Surgery (worrisome distal foreign bodies; symptoms or signs of intestinal injury: pain, emesis, fever, GI bleeding)
+
+@cond peptic-ulcer-gastritis
+ch: 41
+name: Peptic ulcer disease and gastritis
+name_fa: زخم پپتیک و گاستریت
+cc: abdominal-pain, nausea-vomiting, gi-bleeding
+keywords: PUD, peptic ulcer, gastritis, dyspepsia, H. pylori, PPI, omeprazole, famotidine, antacid, perforation, gastric outlet obstruction, زخم معده
+status: draft
+
+@features
+- بیماری مزمن با زخم‌های راجعه معده و دوازدهه؛ اغلب به عفونت H. pylori یا NSAID مرتبط؛ گاستریت: التهاب مخاط معده؛ دیس‌پپسی: ناراحتی اپی‌گاستر
+- درد سوزشی اپی‌گاستر (گاه تیز، کسل‌کننده یا حس «گرسنگی/خالی»)، تسکین با غذا، شیر یا آنتی‌اسید و عود با تخلیه معده؛ بیدار شدن از خواب شبانه؛ سالمندان: بدون درد، تهوع، بی‌اشتهایی، کاهش وزن، خونریزی
+- تغییر ماهیت درد = عارضه؛ شروع ناگهانی و شدید: سوراخ‌شدگی (سفتی شکم)؛ درد پشت: پانکراتیت از سوراخ‌شدگی خلفی؛ استفراغ، سیری زودرس، کاهش وزن: انسداد خروجی معده یا سرطان؛ هماتمز یا ملنا: خونریزی
+- تشخیص قطعی: اندوسکوپی؛ علائم هشدار برای سرطان: سن > 55، کاهش وزن، سیری زودرس، استفراغ پایدار، دیسفاژی، آنمی، توده، ایکتر
+- ایسکمی قلبی ممکن است با درد اپی‌گاستر ظاهر شود (دیابتی و سالمند): ECG و تروپونین
+
+@ddx
+- !Myocardial ischemia | 
+- !Perforated ulcer | 
+- !Abdominal aortic aneurysm | 
+- Pancreatitis | 
+- Cholelithiasis / biliary colic | 
+- GERD | 
+- Gastric cancer | 
+
+@redflags
+- شکم سفت، هماتمز یا ملنا، استفراغ مداوم، ضعف و سنکوپ
+
+@guide
+هدف: بهبود زخم، رفع درد، پیشگیری از عارضه و عود. NSAID قطع شود. PPI زودتر زخم را بهبود می‌دهد؛ 30–60 دقیقه قبل از غذا. H. pylori: درمان سه‌دارویی 14 روز (PPI + کلاریترومایسین + آموکسی‌سیلین یا مترونیدازول) به‌ندرت در ED.
+
+@variant pud-uncomplicated
+name: Uncomplicated PUD or gastritis
+level: III
+imp: Peptic ulcer disease
+cond: Urgent
+act: RBR
+diet: PO
+ecg: once
+cxr: none
+
+@scenario
+مردی ۴۵ ساله با درد سوزشی اپی‌گاستر که با غذا بهتر می‌شود و شب‌ها بیدار می‌کند؛ پایدار با تندرنس خفیف.
+
+@why
+PUD ساده: PPI یا H2RA و آنتی‌اسید مایع؛ ارجاع برای اندوسکوپی و آزمایش H. pylori.
+
+@L
+- [to exclude complications] CBC (normal CBC rules out chronic bleeding), liver enzymes, lipase; ECG and troponin if myocardial ischemia suspected
+
+@T
+- PPI 30 to 60 minutes before a meal: omeprazole 20 to 40 mg daily; esomeprazole 20 to 40 mg daily; lansoprazole 15 to 30 mg daily; pantoprazole 20 to 40 mg daily; rabeprazole 20 mg daily
+- [alternatively] H2RA: cimetidine 200 to 400 mg twice a day; famotidine 10 to 20 mg twice a day; nizatidine 75 to 150 mg twice a day; ranitidine 75 to 150 mg twice a day
+- Liquid antacid 15 mL, 1 hour after meals and at bedtime, as needed for breakthrough pain
+- Stop NSAIDs whenever possible
+- [H. pylori present; rarely initiated in the ED] Triple therapy for 14 days: PPI, clarithromycin, and either amoxicillin or metronidazole
+
+@Co
+- Primary care follow-up; endoscopy referral for "alarm" features (age > 55, weight loss, early satiety, persistent vomiting, dysphagia, anemia, abdominal mass, jaundice)
+
+@variant pud-complicated
+name: Perforation, bleeding or gastric outlet obstruction
+level: I
+imp: Complicated peptic ulcer disease
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: PA
+
+@scenario
+مردی ۶۰ ساله با درد ناگهانی و شدید شکم و شکم سفت (سوراخ‌شدگی) در پس‌زمینه مصرف NSAID.
+
+@why
+عارضه دار: احیا، آنتی‌بیوتیک وسیع‌الطیف و مشاوره فوری جراحی؛ خونریزی و انسداد برنامه مخصوص.
+
+@I
+- Upright x-ray (free air in perforation); abdominal ultrasound as needed
+
+@L
+- CBC, liver enzymes, lipase
+
+@A
+- [perforation] Broad-spectrum antibiotics {note: agent and dose not given in this chapter}
+
+@T
+- [perforation] Resuscitation as needed
+- [bleeding] See gastrointestinal bleeding
+- [gastric outlet obstruction] Resuscitation, nasogastric tube
+
+@Co
+- Surgery (immediate for perforation); admission for all complications

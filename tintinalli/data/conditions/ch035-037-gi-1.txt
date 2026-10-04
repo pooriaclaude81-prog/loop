@@ -1,0 +1,500 @@
+@cond acute-abdominal-pain
+ch: 35
+name: Acute abdominal pain (undifferentiated)
+name_fa: درد حاد شکم
+cc: abdominal-pain, nausea-vomiting
+keywords: abdominal pain, acute abdomen, peritonitis, mesenteric ischemia, Carnett sign, lipase, CT abdomen, ketorolac, morphine, ondansetron, درد شکم
+status: draft
+
+@features
+- منشأ گوارشی، ادراری‌تناسلی، قلبی‌عروقی، ریوی، عضلانی‌اسکلتی، پوستی، عصبی؛ درد احشایی، جداری یا ارجاعی
+- ابتدا تهدیدهای فوری را در نظر بگیر؛ زمان شروع، کیفیت، شدت، محل و انتشار، عوامل تشدید/تسکین، دفعات قبلی؛ علائم قلبی‌ریوی و ادراری و سابقه تروما و تاریخچه زنان
+- پریتونیت: بیمار بی‌حرکت؛ مجموعه rigidity، تندرنس ارجاعی و به‌ویژه cough pain مناسب‌تر از rebound است (rebound کاذب در یک‌چهارم)
+- Carnett (sit-up test): تندرنس ثابت یا بیشتر در نیمه‌نشسته = درد دیواره شکم
+- معاینه لگنی در همه زنان پس از بلوغ؛ معاینه رکتال
+- سالمند، دیابتی و ایمنی‌سرکوب: علائم کم؛ تاکی‌کاردی ممکن است نباشد؛ عدم تب عفونت را رد نمی‌کند؛ علل شایع بالای 50 سال: صفراوی، انسداد روده، دیورتیکولیت، سرطان، فتق؛ ایسکمی مزانتر را در درد نامتناسب با معاینه در > 50 سال در نظر بگیر
+- تغییر محل: RUQ (صفرا، هپاتیت، آبسه کبد)، LUQ (زخم معده، پانکراتیت، طحال)، RLQ (آپاندیسیت، اکتوپیک، تورشن تخمدان/بیضه، سنگ حالب)، LLQ (دیورتیکولیت سیگموئید)، منتشر (AAA، ایسکمی مزانتر، سوراخ‌شدگی، انسداد)
+
+@ddx
+- !Leaking / ruptured abdominal aortic aneurysm | 
+- !Mesenteric ischemia | 
+- !Perforated viscus / peritonitis | 
+- !Ectopic pregnancy | 
+- !Bowel obstruction / volvulus | 
+- Appendicitis | 
+- Pancreatitis / cholecystitis | 
+- Renal colic | 
+- Myocardial ischemia / pneumonia / pulmonary embolism (referred) | 
+
+@redflags
+- ناپایداری همودینامیک، شکم سفت، پریتونیت
+- سن بالا با درد نامتناسب با معاینه
+
+@guide
+بیمار ناپایدار ابتدا احیا و تشخیص بالینی و مشاوره فوری جراحی. NPO در ارزیابی اولیه؛ مایع NS یا رینگر لاکتات؛ مسکن با احتیاط (می‌تواند معاینه را بهتر کند)؛ ضدتهوع؛ آنتی‌بیوتیک مناسب منبع. بستری در ظاهر سمی، تشخیص نامشخص در سالمند/ایمنی‌سرکوب، درد یا استفراغ مقاوم، تغییر هوشیاری.
+
+@variant abdpain-unstable
+name: Unstable patient or surgical abdomen
+level: I
+imp: Acute abdomen
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: portable
+
+@scenario
+مردی ۶۵ ساله با درد شدید شکم، فشار 85/50، نبض 120، شکم سفت و درد با سرفه.
+
+@why
+احیا و تشخیص بالینی و مشاوره فوری جراحی.
+
+@I
+- Bedside ultrasound (abdominal aortic aneurysm, free fluid); upright chest or abdominal radiograph for free air; CT with IV contrast when stable
+
+@L
+- Amylase or lipase, β-hCG (women of childbearing age), liver function tests, lactate, coagulation studies, glucose, urinalysis as goal-directed
+
+@S
+- Normal saline or lactated Ringer's solution (most common resuscitation need)
+
+@A
+- [when appropriate for the suspected source] Gentamicin 1.5 mg/kg IV plus Metronidazole 1 g IV; or Piperacillin-tazobactam 3.375 g IV
+
+@T
+- Nothing by mouth
+- Morphine 0.1 mg/kg IV or Hydromorphone 0.2 to 1 mg IV (reversal with naloxone 0.4 to 2 mg SC/IV if necessary) {hi}
+- Ondansetron 4 mg IM/IV or Metoclopramide 10 mg IM or slow IV
+
+@Co
+- Surgery (emergent); obstetrics/gynecology for ectopic pregnancy or gynecologic emergencies
+
+@variant abdpain-stable
+name: Stable, undifferentiated abdominal pain
+level: II
+imp: Acute abdominal pain
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: once
+cxr: PA
+
+@scenario
+زنی ۴۵ ساله با درد شکم ۱۲ ساعته و تهوع؛ فشار طبیعی و بدون پریتونیت.
+
+@why
+ارزیابی هدفمند با آزمایش و تصویربرداری؛ مشاهده و معاینه سریال.
+
+@I
+- Ultrasonography (cholelithiasis, cholecystitis, hydronephrosis, ectopic pregnancy, ovarian pathology, AAA, appendicitis per institution); CT (preferred for mesenteric ischemia, pancreatitis, aortic aneurysm, appendicitis, urolithiasis; IV contrast for vascular lesions and inflammatory conditions, not for urolithiasis; oral contrast for obstruction); plain abdominal radiographs (obstruction, free air)
+
+@L
+- Lipase (or amylase), β-hCG, urinalysis, liver function tests, lactate, glucose, electrolytes, renal function as indicated
+
+@T
+- Nothing by mouth during initial evaluation
+- Ketorolac 30 mg IV or Ibuprofen 200 to 400 mg PO in renal colic (controversial in other conditions; can mask peritoneal inflammation) {renal: NSAID}
+- Morphine 0.1 mg/kg IV or Hydromorphone 0.2 to 1 mg IV {hi}
+- Ondansetron 4 mg IM/IV or Metoclopramide 10 mg IM or slow IV
+
+@Co
+- [toxic appearance, unclear diagnosis in elderly or immunocompromised, intractable pain or vomiting, altered mental status] Admission; otherwise 12 to 24 hours follow-up with return precautions
+
+@cond nausea-vomiting
+ch: 36
+name: Nausea and vomiting
+name_fa: تهوع و استفراغ
+cc: nausea-vomiting
+keywords: vomiting, nausea, ondansetron, promethazine, prochlorperazine, metoclopramide, meclizine, oral rehydration, Mallory-Weiss, تهوع
+status: draft
+
+@features
+- علل گوارشی و سیستمیک: عصبی، عفونی، قلبی، غدد، کلیه، مامایی، دارویی، سمی، روانی
+- تاریخچه: شروع، دفعات، محتوا (غذای هضم‌نشده، صفرا، مدفوعی)، علائم همراه (تب، درد، اسهال)، مواجهه غذایی و تماس بیمار
+- هماتمز بعد از استفراغ شدید غیرخونی: Mallory-Weiss؛ صفرا انسداد خروجی معده را رد می‌کند؛ اتساع و اسکار جراحی یا فتق گیرکرده: انسداد روده کوچک
+- تب: عفونت یا التهاب؛ درد قفسه: MI؛ سرفه و استفراغ: پنومونی؛ درد کمر/پهلو: آنوریسم یا دایسکشن، پانکراتیت، پیلونفریت، کولیک؛ سردرد: افزایش ICP؛ ورتیگو و نیستاگموس: وستیبولر/CNS؛ بارداری: هیپراِمزیس (سه‌ماهه اول) یا پره‌اکلامپسی (سوم)
+- دیابت: کتواسیدوز؛ بیماری عروق محیطی: ایسکمی مزانتر؛ لیتیوم یا دیگوکسین: مسمومیت؛ هیپرکالمی و هیپوناترمی: نارسایی آدرنال
+
+@ddx
+- !Myocardial infarction | 
+- !Intracranial hypertension (SAH, tumor, head injury) | 
+- !Bowel obstruction | 
+- !Diabetic ketoacidosis / adrenal insufficiency | 
+- Gastroenteritis / appendicitis / cholecystitis | 
+- Pregnancy-related (hyperemesis, preeclampsia) | 
+- Drug or toxin effect | 
+
+@redflags
+- هیپوتانسیون، بی‌حالی، دهیدراسیون شدید
+- علت تهدیدکننده حیات
+
+@guide
+اصلاح مایع و الکترولیت و درمان اختصاصی علت تهدیدکننده؛ تحمل مایع خوراکی؛ آنتی‌امتیک در بیمار فعالانه استفراغی با دهیدراسیون. تغذیه سریع از مایعات شفاف به جامد؛ پرهیز از میوه خام، کافئین، لاکتوز و سوربیتول.
+
+@variant nv-dehydrated
+name: Vomiting with dehydration
+level: II
+imp: Nausea and vomiting with dehydration
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: none
+cxr: none
+
+@scenario
+مردی ۳۵ ساله با استفراغ مکرر ۲ روزه، مخاط خشک و نبض 110.
+
+@why
+اصلاح مایع و الکترولیت و ضدتهوع.
+
+@L
+- [vomiting associated with abdominal pain] Liver function tests, urinalysis, lipase or amylase; electrolytes and renal function in severe dehydration or prolonged vomiting; pregnancy test in women of childbearing age; drug levels (acetaminophen, salicylate, digoxin) when toxicity suspected
+
+@S
+- [seriously ill] Normal saline boluses 20 mL/kg IV, repeat as necessary targeting euvolemia (caution in the elderly and compromised LV function)
+- [mildly dehydrated, tolerating oral] Oral rehydration solution containing sodium and glucose (e.g., Pedialyte)
+
+@T
+- Ondansetron 4 to 8 mg IV or ODT (children 0.15 mg/kg) (can be given to pregnant women, category B)
+- [alternatives] Promethazine 25 mg IM or PR every 4 to 6 hours (children over 2 years 0.25 to 1 mg/kg); Prochlorperazine 5 to 10 mg IM every 6 hours or 25 mg PR every 12 hours; Metoclopramide 10 mg IV/IM every 6 to 8 hours (children 0.1 mg/kg; can be given to pregnant women)
+- [vomiting associated with vertigo] Meclizine 25 mg PO every 6 hours
+
+@Co
+- Admission for life-threatening cause, toxic or severely dehydrated patients (infants, elderly), or intolerant of oral fluids after hydration
+
+@cond acute-diarrhea
+ch: 37
+name: Acute diarrhea (infectious gastroenteritis and traveler's diarrhea)
+name_fa: اسهال حاد
+cc: diarrhea, abdominal-pain, fever
+keywords: diarrhea, gastroenteritis, traveler's diarrhea, ciprofloxacin, azithromycin, loperamide, oral rehydration, BRAT diet, norovirus, Shigella, Salmonella, Giardia, cholera, اسهال
+status: draft
+
+@features
+- ≥ 3 مدفوع آبکی در روز؛ چهار مکانیسم: افزایش ترشح (وبا)، کاهش جذب، بار اسمزی، حرکت غیرطبیعی؛ حاد < 3 هفته؛ اغلب عفونی
+- نوروویروس 50 تا 80٪ اسهال عفونی در آمریکا؛ سفر خارجی با 80٪ احتمال باکتریال (E. coli)
+- علائم همراه: تب، درد، خون؛ غذاها: دریاچه و رود = Giardia؛ صدف = Vibrio؛ برنج = Bacillus cereus؛ تخم‌مرغ = Salmonella؛ گوشت = Campylobacter/Staph/Yersinia/E. coli/Clostridium؛ سیگواتوکسین: پارستزی و حس معکوس دما
+- آپاندیسیت تا 20٪ با اسهال؛ معاینه رکتال: خون = التهاب، عفونت یا ایسکمی
+- کشت مدفوع فقط در دهیدراسیون شدید یا سمی، خون یا چرک، ایمنی‌سرکوب و > 3 روز؛ ova و parasite در > 7 روز یا سفر؛ توکسین C. difficile در بیمار اخیر آنتی‌بیوتیک
+- HUS با E. coli O157:H7: نارسایی کلیه، ترومبوسیتوپنی، همولیز
+
+@ddx
+- !Hemolytic uremic syndrome (E. coli O157:H7) | 
+- !C. difficile colitis | 
+- !Mesenteric ischemia / appendicitis / diverticulitis | 
+- Food poisoning / toxin | 
+- Inflammatory bowel disease | 
+
+@redflags
+- دهیدراسیون شدید، ظاهر سمی، خون در مدفوع، نوزاد یا سالمند
+
+@guide
+اصلاح مایع و الکترولیت. اسهال همراه آنتی‌بیوتیک اغلب با قطع دارو بهتر می‌شود. ORS: 30–100 mL/kg طی 4 ساعت اول؛ سپس رژیم BRAT؛ پرهیز از میوه خام، کافئین، لاکتوز و سوربیتول. ضدحرکت در اسهال خونی یا مشکوک به التهابی ممنوع (مگاکولون سمی، HUS).
+
+@variant diarrhea-uncomplicated
+name: Uncomplicated acute diarrhea (viral or self-limited)
+level: III
+imp: Acute diarrhea, gastroenteritis
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+زنی ۳۰ ساله با اسهال آبکی ۲ روزه، بدون تب یا خون؛ دهیدراسیون خفیف.
+
+@why
+بیشتر ویروسی یا خودمحدودند: مایع، رژیم و ضدحرکت در غیرخونی.
+
+@S
+- [seriously ill] Normal saline boluses 500 mL IV in adults (20 mL/kg in children)
+- [mild dehydration, not vomiting] Oral rehydrating solution with sodium and glucose (Pedialyte, Gatorade): 30 to 100 mL/kg over the first 4 hours
+
+@T
+- Once oral fluids tolerated: BRAT diet (bananas, rice, apples, toast); avoid raw fruit, caffeine, lactose and sorbitol products
+- Loperamide 4 mg initially, then 2 mg after each unformed stool (maximum 16 mg/day) {ci: bloody or suspected inflammatory diarrhea (toxic megacolon in C. difficile, HUS in children with Shiga toxin-producing E. coli)}
+- [alternatives] Bismuth subsalicylate 30 mL or 2 tablets every 30 minutes for 8 doses; diphenoxylate and atropine 4 mg four times daily
+- Probiotics are safe and may be beneficial; hand washing; no return to work in the food, day care and health care industries until diarrhea resolves
+
+@variant diarrhea-infectious-antibiotics
+name: Infectious or traveler's diarrhea (antibiotic therapy)
+level: II
+imp: Acute infectious diarrhea
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مردی ۴۰ ساله بعد از سفر خارجی با اسهال شدید، تب و درد شکم و خون در مدفوع.
+
+@why
+بیمار با تب و اسهال خونی یا بیش از 3 روز: کشت مدفوع و درمان آنتی‌بیوتیکی بر اساس پاتوژن.
+
+@L
+- Stool studies: culture for Salmonella, Shigella, Campylobacter, E. coli O157:H7; Shiga toxin assay; microscopy or antigen assay for Entamoeba histolytica; ova and parasites (> 7 days, travel, untreated water) with enzyme immunoassay for E. histolytica, Giardia and Cryptosporidium antigen; C. difficile toxin if recent antibiotics or hospitalization
+- [extremely dehydrated or toxic] Electrolytes and renal function
+
+@S
+- Oral or IV rehydration as above
+
+@A
+- Empiric, traveler's diarrhea: Ciprofloxacin 500 mg single dose or 500 mg BID × 3 days; alternative Azithromycin 1000 mg single dose, or Trimethoprim/sulfamethoxazole 160/800 mg single dose or BID × 3 days, or Rifaximin 200 mg TID × 3 days
+- Empiric, infectious diarrhea: Ciprofloxacin 500 mg BID × 5 days; alternative Trimethoprim/sulfamethoxazole 160/800 mg BID × 5 days
+- Escherichia coli O157:H7: no antibiotics
+- Salmonella non-typhi: Ciprofloxacin 750 mg BID × 5 days; alternative Azithromycin 500 mg daily × 7 days
+- Shigella: Ciprofloxacin 750 mg BID × 3 days; alternative Azithromycin 500 mg daily × 3 days
+- Cyclospora: Trimethoprim/sulfamethoxazole 160/800 mg BID × 10 days
+- Giardia: Tinidazole 2 g single dose; alternative Nitazoxanide 500 mg BID × 3 days
+- Vibrio cholerae: Doxycycline 500 mg single dose or Azithromycin 1 g single dose; alternative Trimethoprim/sulfamethoxazole 160/800 mg BID × 3 days
+- Entamoeba histolytica: Metronidazole 750 mg TID × 10 days AND paromomycin 10 mg/kg TID × 7 days; alternative Metronidazole AND iodoquinol 650 mg TID × 20 days
+- Listeria monocytogenes: no antibiotics
+
+@T
+- Antimotility agents only when not bloody or inflammatory (shorten the duration when combined with an antibiotic)
+
+@Co
+- Admission for toxic-appearing patients; consider for extremes of age
+
+@cond clostridium-difficile-colitis
+ch: 37
+name: Clostridium difficile-associated diarrhea and colitis
+name_fa: اسهال و کولیت ناشی از کلستریدیوم دیفیسیل
+cc: diarrhea, abdominal-pain, fever
+keywords: C. difficile, pseudomembranous colitis, toxic megacolon, metronidazole, vancomycin, antibiotic-associated diarrhea
+status: draft
+
+@features
+- باسیل بی‌هوازی با دو توکسین؛ از اسهال تا کولیت پرده‌دار؛ آنتی‌بیوتیک وسیع‌الطیف (کلیندامایسین، سفالوسپورین، آمپی‌سیلین، آموکسی‌سیلین، فلوروکینولون) فلور روده را تغییر می‌دهد
+- شایع‌ترین علت اسهال عفونی بستری‌ها؛ حالا در بالغین سالم بدون مواجهه بیمارستانی هم
+- شروع 7 تا 10 روز بعد از آنتی‌بیوتیک (تا هفته‌ها)؛ اسهال آبکی مخاطی تا بیماری سمی با اسهال شدید، درد کرامپی، تب، لکوسیتوز و دهیدراسیون
+- تشخیص: توکسین در مدفوع؛ کولونوسکوپی لازم نیست
+- عود در 20 تا 30٪
+
+@ddx
+- !Toxic megacolon / perforation | 
+- Infectious colitis | 
+- Inflammatory bowel disease | 
+
+@redflags
+- مگاکولون سمی، سوراخ‌شدگی، تب با لکوسیتوز و درد شدید
+
+@guide
+ایزوله تماسی، PPE و شستن دست با آب و صابون (الکل بی‌اثر). خفیف در بیمار سالم: قطع آنتی‌بیوتیک مسبب، تأیید و پایش. متوسط: مترونیدازول خوراکی. شدید یا پاسخ سیستمیک: بستری و وانکومایسین خوراکی. مگاکولون سمی: مترونیدازول IV + وانکومایسین خوراکی و مشاوره فوری جراحی.
+
+@variant cdiff-mild-moderate
+name: Mild to moderate C. difficile
+level: III
+imp: Clostridium difficile infection, mild to moderate
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مردی ۶۵ ساله ۱۰ روز بعد از کلیندامایسین با اسهال آبکی ۸ بار در روز و درد کرامپی خفیف.
+
+@why
+قطع آنتی‌بیوتیک مسبب؛ اگر پاسخ نداد مترونیدازول.
+
+@L
+- Stool C. difficile toxin assay
+
+@A
+- [mild to moderate, not responding to conservative measures] Metronidazole 500 mg orally three times daily for 14 days
+
+@T
+- Contact isolation, PPE, hand hygiene with soap and water
+- Discontinue the offending antibiotic; antidiarrheal agents are controversial; probiotics not useful as an adjunct
+- First relapse: metronidazole 500 mg orally three times daily for 14 days; second relapse: vancomycin 125 mg orally four times daily for 14 days followed by a four-week taper
+
+@variant cdiff-severe
+name: Severe C. difficile or toxic megacolon
+level: I
+imp: Severe Clostridium difficile colitis
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: portable
+
+@scenario
+مردی ۷۵ ساله با تب 39، لکوسیتوز، درد شدید و اتساع شکم؛ X-ray قطر کولون > 6 cm.
+
+@why
+بستری و وانکومایسین خوراکی؛ در مگاکولون سمی ترکیب IV و خوراکی و مشاوره جراحی.
+
+@I
+- Abdominal x-ray (toxic megacolon: air-filled colon > 6 cm); CT as needed
+
+@L
+- Stool C. difficile toxin; electrolytes, renal function, white blood cell count
+
+@S
+- IV fluids for dehydration
+
+@A
+- [severe diarrhea, systemic response, or failure of outpatient management] Vancomycin 125 mg orally four times daily for 14 days
+- [pseudomembranous colitis complicated by toxic megacolon] Metronidazole 500 mg IV every 6 hours AND Vancomycin 500 mg orally every 6 hours
+
+@T
+- Contact isolation, PPE, hand hygiene with soap and water
+
+@Co
+- Surgery (immediate for toxic megacolon or intestinal perforation; rarely emergency colectomy for fulminant colitis)
+
+@cond crohn-disease
+ch: 37
+name: Crohn's disease (inflammatory bowel disease)
+name_fa: بیماری کرون
+cc: abdominal-pain, diarrhea, fever
+keywords: Crohn, IBD, sulfasalazine, mesalamine, hydrocortisone, azathioprine, infliximab, adalimumab, fistula, abscess, toxic megacolon
+status: draft
+
+@features
+- بیماری مزمن گرانولوماتوز با زخم قطعه‌ای در هر نقطه دهان تا مقعد؛ سیر متغیر با بهبودی و عود
+- درد شکم، بی‌اشتهایی، اسهال و کاهش وزن؛ عوارض: انسداد، آبسه، فیستول (ایلئوسیگموئید، پوست، واژن)، خونریزی، مگاکولون سمی؛ شقاق و فیستول پریآنال
+- تا 40٪ تظاهرات خارج‌روده‌ای: آرتریت، اووئیت، سنگ کلیه، اریتم ندوزوم، پیودرما گانگرنوزوم؛ بیماری کبدصفراوی؛ ترومبوآمبولی؛ سوءجذب و آنمی
+- CT شکم مفیدترین تست؛ X-ray برای انسداد، سوراخ‌شدگی و مگاکولون سمی (> 6 cm)؛ کولونوسکوپی تأیید و گسترش را تعیین می‌کند
+
+@ddx
+- !Toxic megacolon / perforation / obstruction | 
+- Ulcerative colitis | 
+- Infectious colitis (Campylobacter, Yersinia) | 
+- Tuberculosis / lymphoma | 
+- Ischemic colitis | 
+
+@redflags
+- کولیت فولمینانت، پریتونیت، انسداد، خونریزی قابل‌توجه، دهیدراسیون شدید
+
+@guide
+ارزیابی شدت و عوارض؛ CBC، شیمی، type and cross در صورت لزوم. درمان اولیه ED: مایع IV، مسکن تزریقی، استراحت روده، اصلاح الکترولیت و ساکشن NG در انسداد/ایلئوس/مگاکولون. تغییر درمان با مشورت گوارش.
+
+@variant crohn-flare
+name: Crohn's disease exacerbation
+level: II
+imp: Crohn's disease flare
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: once
+cxr: PA
+
+@scenario
+زنی ۳۰ ساله با کرون و تب، اسهال، درد شکم و کاهش وزن از ۲ هفته قبل.
+
+@why
+مایع و مسکن و استراحت روده؛ درمان اختصاصی با نظر گوارش.
+
+@I
+- Abdominal CT (most useful test); plain abdominal x-rays (obstruction, perforation, toxic megacolon)
+
+@L
+- Chemistries and type and cross-match when indicated
+
+@S
+- IV fluid replacement; correct electrolyte abnormalities
+
+@T
+- Parenteral analgesia; bowel rest; nasogastric suction if obstruction, ileus or toxic megacolon
+- Sulfasalazine 3 to 5 g/day (mild to moderate) or Mesalamine up to 4 g/day
+- [severe disease] Hydrocortisone IV 300 mg/day; oral prednisone 40 to 60 mg/day as induction
+- 6-Mercaptopurine up to 1.5 mg/kg/day or Azathioprine up to 2.5 mg/kg/day (steroid-sparing)
+- [perianal disease] Ciprofloxacin 1 to 1.5 mg/kg/day, Metronidazole 10 to 20 mg/kg/day, or Rifaximin 800 mg twice daily; [fulminant colitis] Piperacillin-tazobactam 4.5 g four times daily IV
+- [medically resistant moderate to severe] Infliximab 5 mg/kg IV, or Adalimumab 160 mg SC
+- Diarrhea: loperamide 4 to 16 mg/day, diphenoxylate 5 to 20 mg/day, or cholestyramine 4 g one to six times daily
+
+@Co
+- Gastroenterology; surgery (obstruction, hemorrhage, perforation, abscess or fistula, toxic megacolon, perianal disease); admission for fulminant colitis, peritonitis, obstruction, significant hemorrhage, severe dehydration or electrolyte imbalance
+
+@cond ulcerative-colitis
+ch: 37
+name: Ulcerative colitis
+name_fa: کولیت اولسراتیو
+cc: diarrhea, abdominal-pain, gi-bleeding
+keywords: ulcerative colitis, UC, mesalamine, prednisone, hydrocortisone, infliximab, toxic megacolon, proctitis
+status: draft
+
+@features
+- بیماری مزمن التهابی زخمی کولون و رکتوم با حملات درد کرامپی، اسهال خونی و تنسموس با بهبودی کامل بین حملات
+- خفیف (60٪؛ رکتوم): < 4 دفعه در روز بدون علائم سیستمیک؛ متوسط (25٪؛ تا خم طحالی)؛ شدید (پان‌کولیت): دفعات زیاد، کاهش وزن، تب، تاکی‌کاردی، آنمی
+- عوارض: خونریزی (شایع‌ترین)، آبسه/فیستول، انسداد، سوراخ‌شدگی؛ خطر کارسینوم کولون 10 تا 30 برابر؛ مگاکولون سمی (تب، تاکی‌کاردی، دهیدراسیون، شکم دردناک و متسع؛ > 6 cm)
+- تظاهرات خارج‌روده‌ای: آرتریت، اسپوندیلیت، اپی‌اسکلریت، اووئیت، پیودرما، اریتم ندوزوم، بیماری کبدصفراوی، ترومبوآمبولی
+
+@ddx
+- !Toxic megacolon / perforation | 
+- Crohn's colitis | 
+- Infectious / ischemic / radiation / pseudomembranous colitis | 
+- Sexually acquired proctitis (syphilis, gonorrhea, LGV, HSV) | 
+
+@redflags
+- مگاکولون سمی، پریتونیت، خونریزی
+
+@guide
+شدید: بستری، مایع، مسکن تزریقی، استراحت روده و ساکشن NG در انسداد/ایلئوس/مگاکولون؛ مشاوره گوارش و جراحی. خفیف تا متوسط سرپایی با نظر گوارش. ضداسهال ممکن است مگاکولون ایجاد کند: ممنوع.
+
+@variant uc-severe
+name: Severe ulcerative colitis (admit)
+level: I
+imp: Severe ulcerative colitis
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: portable
+
+@scenario
+مردی ۳۵ ساله با اسهال خونی ۱۲ بار در روز، تب، تاکی‌کاردی و آنمی.
+
+@why
+بستری با مایع، استروئید وریدی و آنتی‌بیوتیک؛ مشاوره گوارش و جراحی.
+
+@I
+- Abdominal x-ray (toxic megacolon > 6 cm); abdominal CT
+
+@L
+- CBC, albumin, liver function tests, stool studies (ova, parasites, enteric pathogens)
+
+@S
+- IV fluid replacement; correct electrolyte abnormalities
+
+@A
+- Piperacillin-tazobactam 4.5 g every 6 hours IV, OR Ampicillin 2 g every 6 hours + Metronidazole 500 mg every 8 hours + Levofloxacin 750 mg daily
+
+@T
+- Parenteral analgesia; bowel rest; nasogastric suction if obstruction, ileus or toxic megacolon
+- Hydrocortisone 100 mg every 8 hours, or Methylprednisolone 16 mg every 8 hours, or Prednisolone 30 mg every 12 hours
+- [fulminant colitis unresponsive to IV corticosteroids] Infliximab 5 mg/kg IV
+- Avoid antidiarrheal agents
+
+@Co
+- Gastroenterology and surgery (significant GI hemorrhage, toxic megacolon, bowel perforation)
+
+@variant uc-mild-moderate
+name: Mild to moderate ulcerative colitis (outpatient)
+level: III
+imp: Ulcerative colitis, mild to moderate
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+زن ۳۰ ساله با پروکتیت خفیف و اسهال خونی ۴ بار در روز.
+
+@why
+سرپایی با نظر گوارش: مزالامین موضعی یا خوراکی، سپس پردنیزون.
+
+@T
+- Mild active proctitis and left-sided colitis: Mesalamine suppositories 1000 mg at bedtime or enemas 4 g at bedtime (topical steroid preparations: beclomethasone, hydrocortisone, may be better tolerated)
+- [no response to topical therapy] Oral mesalamine 2.4 to 4 g/day
+- [unsuccessful] Prednisone 40 to 60 mg/day orally, tapered slowly after remission
+- [steroid-dependent or refractory] Infliximab 5 mg/kg IV
+- Supportive: nutritious diet, rest, iron replenishment, dietary elimination of lactose, bulking agents such as psyllium
+
+@Co
+- Gastroenterology follow-up
