@@ -1,0 +1,392 @@
+@cond hemophilia-bleeding
+ch: 135
+name: Hemophilia A / B (bleeding episode)
+name_fa: هموفیلی A و B (حمله خونریزی)
+cc: bleeding-bruising, joint-limb-pain, headache
+keywords: hemophilia, factor VIII, factor IX, hemarthrosis, factor replacement, inhibitor, FEIBA, NovoSeven, DDAVP, tranexamic acid, هموفیلی, فاکتور 8
+status: draft
+
+@features
+- شایع‌ترین: کمبود ژنتیک فاکتور VIII (هموفیلی A) یا IX (B)؛ شدید (< 1%): خونریزی خودبه‌خودی و دشوار بعد تروما؛ متوسط (1 تا 5%): خودبه‌خودی ولی بیشتر پس از تروما؛ خفیف (5 تا 40%): فقط پس از تروما
+- کبودی آسان، همارتروز راجعه و هماتوم عضلانی شایع‌ترین؛ خونریزی CNS شایع‌ترین علت مرگ؛ رتروپریتوان، GI و بافت نرم؛ مخاطی نادر؛ هماتوم گردن ممکن راه هوایی را مسدود کند؛ تقریباً همه مرد؛ زنان ناقل (و گاهی علامت‌دار با lyonization)
+- فرم نادر اکتسابی: آنتی‌بادی خودبه‌خود علیه فاکتور VIII (40% با بیماری خودایمن، سرطان، دارو یا پس از زایمان؛ دهه ششم/هفتم؛ پورپورای وسیع و خونریزی داخلی، همارتروز کمتر)
+- بالینی A و B قابل‌تفکیک نیست؛ PT نرمال، PTT طولانی و bleeding time نرمال (اگر > 30 تا 40% فعالیت PTT ممکن است نرمال باشد)؛ سنجش فاکتور اختصاصی؛ 10 تا 25% هموفیلی A و 1 تا 2% B مهارکننده (آنتی‌بادی) می‌سازند ← درمان با فاکتورهای پیش‌فعال (rFVIIa یا FEIBA)
+
+@ddx
+- !Intracranial hemorrhage |
+- !Septic arthritis (hemarthrosis vs infection) |
+- von Willebrand disease / acquired inhibitor / DIC |
+
+@redflags
+- سردرد یا ضربه سر، هماتوم گردن، رتروپریتوان، کمپارتمان، درد کنترل‌نشده
+
+@guide
+ستون درمان: جایگزینی زودهنگام فاکتور (جدول 135-1). 1) نوع هموفیلی و مهارکننده را مشخص کن؛ جایگزینی ممکن است پیش از تصویربرداری قطعی در ضربه سر و آسیب تهدیدکننده شروع شود؛ مهارکننده: جدول 135-3. 2) سطح فعالیت مطلوب: فاکتور VIII لازم = (هدف − پایه) × وزن (kg) × 0.5؛ فاکتور IX لازم = (هدف − پایه) × وزن؛ در شدید 0% پایه؛ نیمه‌عمر VIII حدود 8 تا 12 ساعت و IX حدود 16 تا 24 ساعت. 3) بیماران با اختلال خونریزی تشخیص‌داده‌نشده: FFP (1 واحد فاکتور VIII/mL). جدول 135-2 (شدید، دوز اولیه): جزئی پوست (کبودی/خراش): بدون جایگزینی؛ فشار و ترومبین موضعی؛ جزئی: همارتروز اولیه، خونریزی عضلانی/دهانی خفیف: هدف 0.2 تا 0.4 IU/mL؛ A: 10 تا 20 IU/kg، B: 20 تا 30؛ تکرار هر 12 تا 24 ساعت 1 تا 3 روز؛ متوسط: همارتروز قطعی، عضله/دهان متوسط: 0.3 تا 0.6؛ A: 15 تا 30، B: 25 تا 50؛ 3 تا 5 روز (ممکن ارتوپد)؛ عمده: رتروفارنکس، GI، داخل شکم، قفسه، رتروپریتوان: 0.6 تا 1.0؛ 30 تا 50 برای هر دو؛ تکرار هر 8 تا 24 ساعت تا 10 روز؛ CNS: 1.0 IU/mL (100%)؛ A: 50، B: 50 تا 100؛ قبل از CT درمان؛ نوروسرجری زودهنگام. با مهارکننده (جدول 135-3): FEIBA NF 50 تا 100 U/kg هر 6 تا 12 ساعت (حداکثر روزانه 200 U/kg) یا NovoSeven RT 90 µg/kg هر 2 ساعت تا هموستاز. 4) خونریزی جزئی در هموفیلی A خفیف: DDAVP 0.3 µg/kg IV طی 15 تا 30 دقیقه یا اسپری 150 µg در هر سوراخ بینی (کودک > 5 سال: یک سوراخ)؛ خونریزی مخاطی بسیار خفیف: EACA 75 تا 100 mg/kg (حداکثر 6 g) IV/PO هر 6 ساعت یا tranexamic acid 10 تا 25 mg/kg IV هر 6 ساعت. 5) بستری: خونریزی سر، گردن، فارنکس، رتروفارنکس یا رتروپریتوان، کمپارتمان بالقوه، درد غیرقابل کنترل، نیاز به جایگزینی مکرر.
+
+@variant hemophilia-minor-moderate
+name: Hemophilia, minor–moderate bleed (hemarthrosis, muscle, oral)
+level: II
+imp: Hemophilia, minor / moderate bleeding episode
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مرد ۲۰ ساله مبتلا به هموفیلی A شدید با همارتروز زانو از دیروز.
+
+@why
+جایگزینی فاکتور زود برای هدف 30 تا 60%.
+
+@I
+- Joint ultrasound / radiograph as indicated (do not delay factor replacement)
+
+@L
+- PTT, PT/INR, factor VIII / IX activity and inhibitor screen; CBC; type and screen
+
+@S
+- Factor VIII concentrate (hemophilia A) / factor IX (hemophilia B) per Table 135-2: minor bleed target 20–40% (A 10–20 IU/kg, B 20–30 IU/kg); moderate target 30–60% (A 15–30 IU/kg, B 25–50 IU/kg); repeat every 12–24 h for 1–3 (3–5) days {note: factor VIII required = (target − baseline) × weight (kg) × 0.5; factor IX = (target − baseline) × weight (kg); assume 0% baseline in severe disease}
+- Mild hemophilia A minor bleeding: DDAVP 0.3 µg/kg IV over 15–30 min, or 150 µg intranasal spray each nostril (children > 5 y: one nostril)
+- Very mild mucosal bleeding: e-aminocaproic acid 75–100 mg/kg (max 6 g) IV/PO every 6 h or tranexamic acid 10–25 mg/kg IV every 6 h
+- Undiagnosed bleeding disorder: fresh frozen plasma (1 unit factor VIII/mL)
+
+@T
+- Analgesia (avoid NSAIDs / aspirin); immobilization/splint, RICE; avoid IM injections and arterial punctures
+- Superficial abrasions / lacerations: pressure and topical thrombin, no factor needed
+
+@Co
+- Hematology / hemophilia treatment center; orthopedic consult for splinting / physical therapy
+
+@variant hemophilia-major-cns
+name: Hemophilia, major bleed (retroperitoneal, GI, neck/pharynx) or CNS — treat before imaging
+level: I
+imp: Hemophilia, major bleeding / suspected intracranial bleed
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: none
+
+@scenario
+مرد ۳۰ ساله هموفیلی A با سردرد شدید و استفراغ پس از ضربه خفیف به سر؛ یا درد فلانک و افت Hb با شک به رتروپریتوان.
+
+@why
+فاکتور 50 IU/kg قبل از CT؛ نوروسرجری زودهنگام.
+
+@I
+- CT head (after factor replacement — do not delay replacement for imaging); CT abdomen / pelvis for retroperitoneal bleed; ultrasound neck for hematoma
+
+@L
+- CBC, PTT, PT/INR, factor level / inhibitor titer, type and crossmatch, BUN, creatinine, electrolytes
+
+@S
+- CNS: factor VIII 50 IU/kg (hemophilia A) or factor IX 50–100 IU/kg (hemophilia B) for target 100%; major bleed (retropharyngeal, GI, intra-abdominal, intrathoracic, retroperitoneal): target 60–100% (30–50 IU/kg) repeat every 8–24 h up to 10 days {hi}
+- With inhibitor: FEIBA NF 50–100 units/kg every 6–12 h (max 200 units/kg/day) or NovoSeven RT 90 µg/kg every 2 h until hemostasis
+- PRBC / crystalloid if hemorrhagic shock {ci: caution in heart failure}
+
+@T
+- Airway assessment (neck hematoma may obstruct airway); neurological monitoring
+
+@Co
+- Early neurosurgical consultation (CNS); hematology; admit ICU (bleeding involving head, neck, pharynx, retropharynx, retroperitoneum, potential compartment syndrome)
+
+@cond von-willebrand-disease
+ch: 135
+name: von Willebrand disease (vWD)
+name_fa: بیماری فون ویلبراند
+cc: bleeding-bruising, vaginal-bleeding
+keywords: von Willebrand disease, vWD, vWF, DDAVP, desmopressin, cryoprecipitate, menorrhagia, ویلبراند
+status: draft
+
+@features
+- گروه اختلالات ناشی از نقص یا کمبود vWF (کوفاکتور چسبندگی پلاکت و حامل فاکتور VIII)؛ نوع 1 شایع‌ترین: 20 تا 50% vWF؛ خونریزی پوست و مخاط؛ نوع 2: vWF ناکارآمد؛ نوع 3: کمبود کامل مشابه هموفیلی؛ نوع خفیف اغلب تا خونریزی بعد تروما/جراحی ناشناخته
+- PT و PTT معمولاً نرمال؛ bleeding time طولانی (کمتر استفاده می‌شود) و فعالیت vWF پایین؛ تغییرپذیری سطح vWF افتراق از هموفیلی A را دشوار می‌کند
+
+@ddx
+- !Hemophilia A |
+- Platelet function disorder / acquired vWD |
+
+@redflags
+- خونریزی غیرقابل کنترل، منوراژی با افت Hb، خونریزی پس از جراحی/دندان
+
+@guide
+درمان بسته به نوع و شدت. معیارهای بستری مثل هموفیلی. 1) نوع 1: DDAVP 0.3 µg/kg (تا 20 µg) SC/IV هر 12 تا 24 ساعت تا 4 دوز یا اسپری 150 µg هر سوراخ بینی (کودک > 5 سال: یک سوراخ)؛ بی‌پاسخ: factor VIII concentrate یا cryoprecipitate. 2) نوع 2 یا 3: factor VIII concentrate حاوی vWF (جدول 135-1: Alphanate، Humate-P، Koate-DVI). 3) cryoprecipitate 10 bags IV هر 12 تا 24 ساعت (نوع 1 مقاوم یا نوع 2/3؛ خطر انتقال ویروس). 4) پلاکت در نوع 3 بی‌پاسخ به فرآورده‌های حاوی vWF. 5) OCP: افزایش vWF و کاهش منوراژی. 6) آسیب/اقدام دندانی: EACA 75 تا 100 mg/kg (حداکثر 6 g) PO هر 6 ساعت یا دهان‌شویه tranexamic acid 5 تا 10 روز.
+
+@variant vwd-type1
+name: von Willebrand disease type 1 bleeding (DDAVP-responsive)
+level: III
+imp: von Willebrand disease type 1, bleeding
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+زن ۲۵ ساله با منوراژی و اپیستاکسی راجعه، vWF 35%.
+
+@why
+DDAVP؛ در شکست فاکتور VIII/cryo.
+
+@L
+- CBC, PT, PTT, vWF antigen / activity, factor VIII level; type and screen if significant bleeding; pregnancy test
+
+@S
+- DDAVP 0.3 µg/kg (up to 20 µg) SC or IV every 12–24 h for up to four doses, or 150 µg intranasal spray each nostril (children > 5 y: one nostril) {ci: hyponatremia / fluid restriction}
+- If no response: factor VIII concentrate (with vWF) or cryoprecipitate 10 bags IV every 12–24 h
+
+@T
+- Oral contraceptives to increase vWF and limit menstrual bleeding in menorrhagia
+- Dental injury / procedure: e-aminocaproic acid 75–100 mg/kg (max 6 g) PO every 6 h, or tranexamic acid mouthwash for 5–10 days
+
+@Co
+- Hematology; admit if bleeding involves head / neck / retroperitoneum or uncontrolled
+
+@variant vwd-type2-3
+name: von Willebrand disease type 2 / 3 or DDAVP-refractory bleeding
+level: II
+imp: von Willebrand disease type 2 / 3 bleeding
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: none
+cxr: none
+
+@scenario
+مرد ۳۰ ساله با vWD نوع 3 و هماتوم عضلانی بزرگ و همارتروز.
+
+@why
+فاکتور VIII حاوی vWF؛ cryoprecipitate یا پلاکت در بی‌پاسخی.
+
+@L
+- CBC, PT, PTT, vWF activity, factor VIII level, type and screen
+
+@S
+- Factor VIII concentrate containing vWF (Alphanate, Humate-P, Koate-DVI) per hematology dosing
+- Cryoprecipitate 10 bags IV every 12–24 h (risk of viral transmission)
+- Platelet transfusion for type 3 not responding to vWF-containing plasma products
+
+@T
+- Analgesia (avoid NSAIDs); immobilization as needed
+
+@Co
+- Hematology; admit per hemophilia criteria
+
+@cond sickle-cell-crisis
+ch: 136
+name: Sickle cell disease — vaso-occlusive crisis
+name_fa: بیماری سلول داسی — بحران انسدادی-عروقی
+cc: joint-limb-pain, chest-pain, abdominal-pain, fever
+keywords: sickle cell, vaso-occlusive crisis, pain crisis, HbSS, hydromorphone, morphine, hypotonic fluids, سلول داسی, بحران درد
+status: draft
+
+@features
+- SCD (HbSS) یا trait (HbAS): درد، ضعف یا عفونت؛ رنگ‌پریدگی، تغییر ایستایی وریدی، یرقان، هپاتواسپلنومگالی، سوفل جریان قلبی، کاردیومگالی و CHF پرده‌برون‌ده
+- شایع‌ترین در ED: بحران درد انسدادی عضلانی-اسکلتی یا علائم اختصاصی عضو؛ گلبول داسی‌شده جریان را مسدود می‌کند ← ایسکمی، آسیب عضو و انفارکتوس؛ محرک: تب/عفونت (مخصوصاً H. influenzae و پنوموکوک)، سرما یا ارتفاع، کم‌آبی یا فعالیت شدید، عدم مصرف دارو، مواد
+- کم‌خونی حاد علامت‌دار: سکوستراسیون طحال، بحران آپلاستیک یا همولیز عفونی: خستگی، ضعف، تنگی نفس، CHF یا شوک
+- حوادث تهدیدکننده حیات/اندام: acute chest syndrome، سکته، انفارکت کلیه/مزانتر، سپسیس، AVN، استئومیلیت، پنومونی، پریاپیسم
+- ارزیابی (جدول 136-1): شرح حال: مدت و محل درد، تب، تورم/قرمزی کانونی، محرک، دارو؛ معاینه: درجه درد، محل‌های درد (تورم، گرمی، قرمزی)، دیسترس تنفسی، رنگ‌پریدگی، هیدراتاسیون، یرقان، علائم حیاتی (دما، SpO2)، ریه، قلب، شکم؛ آزمایش: CBC، تمایز، رتیکولوسیت، UA؛ CXR در علائم تحتانی؛ کشت و آزمایش‌های دیگر بر حسب بالین
+- سکوستراسیون طحال: اسپلنومگالی ± درد LUQ و رتیکولوسیت بالا؛ نارسایی مغز استخوان: رتیکولوسیت پایین؛ لکوسیتوز با bands: عفونت؛ الکترولیت، LFT، لیپاز؛ تست بارداری؛ SCD تب‌دار بدون علامت موضعی: کشت خون، UA و CXR
+- افتراق: درد عضلانی-اسکلتی: استئومیلیت، انفارکت استخوان، سلولیت، آرتریت؛ شکم: پانکراتیت، هپاتیت، کوله‌سیستیت، PID، پیلونفریت؛ قفسه: acute chest، پنومونی، PE؛ عصبی: منژیت، انفارکت/ایسکمی/خونریزی
+
+@ddx
+- !Acute chest syndrome / pneumonia / PE |
+- !Sepsis / osteomyelitis / meningitis |
+- Stroke / splenic sequestration / aplastic crisis |
+- Pancreatitis / cholecystitis / PID / pyelonephritis |
+
+@redflags
+- تب، SpO2 پایین، Hb < 5، WBC > 30,000، پلاکت < 100,000، علائم عصبی، پریاپیسم > 4 ساعت
+
+@guide
+مدیریت عمومی (جدول 136-1): استراحت، گرما و محیط آرام؛ حواس‌پرتی؛ مایع خوراکی حدود 3 L/d؛ IV برای اصلاح کم‌آبی یا عدم تمایل به نوشیدن/استفراغ (کریستالوئید تا 1.5 برابر نگهدارنده؛ مایع هیپوتونیک تمایل به داسی شدن را کم می‌کند)؛ اکسیژن فقط در هیپوکسمی؛ تنفس عمیق و incentive spirometry؛ درمان کمکی: ضد اضطراب، tinzaparin، ضداستفراغ. مسکن بر اساس درد: acetaminophen درد خفیف؛ NSAID خفیف تا متوسط (در نارسایی کلیه اجتناب)؛ اوپیوئید درد متوسط تا شدید: morphine 0.3 mg/kg PO یا 0.1 تا 0.15 mg/kg IV؛ hydromorphone 0.06 تا 0.08 mg/kg PO یا 0.015 تا 0.020 mg/kg IV؛ ارزیابی مجدد 15 تا 30 دقیقه و تکرار با یک‌چهارم تا نصف دوز اولیه؛ طرح فردی در عودهای مکرر. عفونت: کشت و آنتی‌بیوتیک وسیع‌الطیف. تبادل خون (exchange) در شرایط خاص: بحران آپلاستیک، تخریب قلبی-ریوی، بارداری، سکته، نارسایی تنفس، جراحی عمومی، پریاپیسم، معمولاً PaO2 < 60. پریاپیسم > 4 ساعت: آسپیراسیون جسم غاری و تزریق آگونیست α رقیق + اورولوژی. بستری: بحران ریوی، عصبی، آپلاستیک یا عفونی؛ سکوستراسیون طحال؛ درد غیرقابل کنترل؛ تهوع/استفراغ پایدار؛ تشخیص نامعلوم؛ یا Hb < 5، WBC > 30,000، پلاکت < 100,000، شک acute chest/سپسیس/استئومیلیت. ترخیص: درد کنترل، تحمل PO، مسکن خوراکی، همکاری و پیگیری، با دستور بازگشت فوری برای T > 38°C یا بدتر شدن.
+
+@variant scd-vaso-occlusive
+name: Sickle cell vaso-occlusive pain crisis, afebrile
+level: II
+imp: Sickle cell vaso-occlusive crisis
+cond: Urgent
+act: CBR
+diet: PO
+ecg: stat
+cxr: PA
+o2: only if hypoxemic
+
+@scenario
+مرد ۲۸ ساله مبتلا به HbSS با درد شدید ران و کمر از 2 روز پیش، بدون تب و SpO2 97%.
+
+@why
+مسکن اوپیوئیدی سریع و مایع؛ جستجوی علت.
+
+@I
+- CXR PA if lower respiratory tract signs; skeletal radiographs only for atypical focal bone pain
+
+@L
+- CBC with leukocyte differential, reticulocyte count, urinalysis; electrolytes / BUN / creatinine (dehydration, renal function); LFT and lipase if abdominal pain; pregnancy test in women; blood cultures if febrile
+
+@S
+- Oral fluids (about 3 L/day) or IV hypotonic / crystalloid up to 1.5 × maintenance if dehydrated, vomiting or reluctant to drink {ci: avoid over-aggressive IV fluids; caution in heart failure / CKD}
+- Morphine 0.1–0.15 mg/kg IV (0.3 mg/kg PO) or hydromorphone 0.015–0.020 mg/kg IV (0.06–0.08 mg/kg PO); reassess in 15–30 min, may repeat with one-fourth to one-half initial dose; consider patient's known effective dose {hi}
+- Acetaminophen for mild pain; NSAID for mild–moderate pain {ci: avoid NSAID in renal insufficiency}
+- Antiemetic; consider adjuvant anxiolytic
+
+@T
+- Bed rest, warmth, calm environment; incentive spirometry and deep breathing; oxygen only if hypoxemic; ECG / cardiac monitoring if cardiopulmonary symptoms
+
+@Co
+- Discharge if pain controlled, tolerating oral fluids and medications, oral analgesics, follow-up; return for temperature > 38°C; admit for acute chest, sepsis / osteomyelitis suspicion, Hb < 5, WBC > 30,000, platelets < 100,000, intractable pain
+
+@variant scd-acute-chest
+name: Sickle cell acute chest syndrome
+level: I
+imp: Sickle cell disease, acute chest syndrome
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+o2: titrate to SpO2 ≥ 94%
+
+@scenario
+زن ۲۲ ساله HbSS با تب 39°C، سرفه، درد قفسه، تنگی نفس و SpO2 88% و انفیلتره جدید در CXR.
+
+@why
+اکسیژن، آنتی‌بیوتیک CAP، مایع محدود و تبادل خون در شدید.
+
+@I
+- CXR portable (new infiltrate); repeat as needed
+
+@L
+- CBC with differential, reticulocyte count, urinalysis; cross-match sample (transfusion contemplated); arterial blood gas if moderate–severe distress or hypoxemia; blood cultures; troponin if chest pain; LFT / bilirubin
+
+@S
+- IV hypotonic fluids at about 1.5 × maintenance (overaggressive fluids worsen acute chest) {ci: caution in heart failure / pulmonary edema}
+- Potent parenteral opioids if needed (monitor respiratory suppression)
+
+@A
+- Empiric antibiotics for community-acquired pneumonia (broad-spectrum coverage including atypicals)
+
+@T
+- Oxygen adjusted to pulse oximetry; nebulized β2-agonists; chest physiotherapy / incentive spirometry
+- Transfusion if severe acute anemia; consider exchange transfusion for severe acute chest with prior ventilatory support, deterioration, intubation, or suspected fat / bone marrow embolism
+
+@Co
+- Admit ICU / monitored bed; hematology; pulmonary / critical care
+
+@variant scd-febrile-infection
+name: Febrile sickle cell patient (sepsis / osteomyelitis / pneumonia screen)
+level: I
+imp: Sickle cell disease with fever, rule out sepsis / serious infection
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: PA
+
+@scenario
+فرد HbSS با تب 38.8°C و درد ران؛ طحال عملکردی ندارد.
+
+@why
+عفونت با ارگانیسم کپسول‌دار؛ کشت و آنتی‌بیوتیک وسیع‌الطیف زودهنگام.
+
+@I
+- CXR PA; skeletal radiograph / MRI for focal bone pain (osteomyelitis vs infarct)
+
+@L
+- CBC with differential and bands, reticulocyte count, blood cultures, urinalysis and urine culture, electrolytes, lactate if sepsis suspected, LFT
+
+@A
+- Broad-spectrum antibiotics after cultures (e.g., third-generation cephalosporin), targeted to community-acquired pneumonia if acute chest suspected
+
+@S
+- IV fluids up to 1.5 × maintenance (hypotonic preferred when not septic) {ci: caution — avoid excess}
+- Analgesia as above
+
+@T
+- Oxygen for hypoxia; monitor
+
+@Co
+- Admit; hematology; infectious disease if osteomyelitis / sepsis
+
+@variant scd-priapism-sequestration
+name: Sickle cell — priapism > 4 h, splenic sequestration, aplastic crisis
+level: I
+imp: Sickle cell disease, priapism / splenic sequestration / aplastic crisis
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: none
+
+@scenario
+مرد ۲۰ ساله HbSS با نعوظ دردناک 6 ساعته؛ یا کودک با طحال بزرگ، Hb ناگهانی 4 و رتیکولوسیت بالا.
+
+@why
+پریاپیسم: آسپیراسیون و فنیل‌افرین رقیق + اورولوژی؛ سکوستراسیون: ترانسفیوژن.
+
+@L
+- CBC, reticulocyte count (high in sequestration, low in aplastic), type and crossmatch, electrolytes, BUN, creatinine
+
+@S
+- Analgesia; IV fluids as needed {ci: avoid overhydration}
+- Transfusion (or exchange) for aplastic crisis / sequestration with severe anemia / cardiopulmonary decompensation
+
+@T
+- Priapism > 4 h: corporal aspiration and injection of dilute α-adrenergic agonist
+
+@Co
+- Urology (priapism); hematology; admit
+
+@cond hereditary-hemolytic-anemia
+ch: 136
+name: Other hereditary hemolytic anemias (thalassemia, G6PD deficiency, hereditary spherocytosis)
+name_fa: سایر کم‌خونی‌های همولیتیک ارثی (تالاسمی، کمبود G6PD، اسفروسیتوز)
+cc: weakness, jaundice
+keywords: thalassemia, Cooley anemia, G6PD deficiency, fava beans, hereditary spherocytosis, hemolytic crisis, تالاسمی, G6PD, اسفروسیتوز
+status: draft
+
+@features
+- تالاسمی: نقص سنتز زنجیره گلوبین ← کم‌خونی میکروسیتیک هیپوکروم همولیتیک؛ β-تالاسمی مینور: کم‌خونی خفیف میکروسیتیک و بدون علامت؛ β-تالاسمی ماژور (Cooley): هپاتواسپلنومگالی، یرقان، تغییرات استخوانی، خطر عفونت و کم‌خونی شدید نیازمند ترانسفیوژن؛ اضافه‌بار آهن با عوارض
+- G6PD: شایع‌ترین آنزیم‌پاتی RBC؛ رسوب هموگلوبین، برداشتن طحالی و همولیز؛ اغلب بدون علامت تا استرس اکسیداتیو (دارو، عفونت، باقلا)؛ یرقان شدید نوزادی در هفته اول؛ بررسی: CBC، رتیکولوسیت، bilirubin، آمینوترانسفراز و LDH
+- اسفروسیتوز ارثی: نقص غشای RBC ← سلول‌های کوچک غیرمنعطف و تخریب طحالی؛ عوارض: بحران آپلاستیک یا مگالوبلاستیک، کوله‌سیستیت/سنگ صفرا، اسپلنومگالی، بحران همولیتیک و همولیز نوزاد با یرقان
+
+@ddx
+- !Acquired hemolytic anemia / TTP |
+- Iron deficiency |
+- Sickle cell disease |
+
+@redflags
+- همولیز شدید، Hb پایین علامت‌دار، عفونت همزمان، یرقان نوزادی
+
+@guide
+درمان بر اساس وضعیت کلی. G6PD: درمان زودهنگام عفونت، قطع عامل اکسیدان و ترانسفیوژن در کم‌خونی شدید. اسفروسیتوز: ترانسفیوژن و اسپلنکتومی در شدید. تالاسمی ماژور: ترانسفیوژن؛ عوارض اضافه‌بار آهن.
+
+@variant hemolytic-hereditary-main
+name: Hemolytic crisis in G6PD deficiency / hereditary spherocytosis / thalassemia
+level: II
+imp: Hereditary hemolytic anemia, hemolytic crisis
+cond: Urgent
+act: CBR
+diet: PO
+ecg: stat
+cxr: none
+
+@scenario
+مرد ۲۵ ساله با کمبود G6PD پس از مصرف سولفونامید و باقلا با ادرار تیره، یرقان و ضعف؛ Hb 6.
+
+@why
+قطع عامل، ترانسفیوژن در شدید و بررسی همولیز.
+
+@L
+- CBC, reticulocyte count, peripheral smear, bilirubin (direct / indirect), serum aminotransferases, LDH, haptoglobin, urinalysis (hemoglobinuria), BUN, creatinine, G6PD level (after acute phase); type and crossmatch
+
+@S
+- IV fluids to protect kidneys if hemoglobinuria {ci: caution in heart failure}
+- Packed red cell transfusion for severe anemia
+
+@T
+- Discontinue oxidant drug / exposure; early treatment of infection
+
+@Co
+- Hematology; admit if severe hemolysis or hemodynamic compromise; splenectomy in severe hereditary spherocytosis (elective)

@@ -1,0 +1,752 @@
+@cond malignant-airway-obstruction
+ch: 139
+name: Malignant airway obstruction
+name_fa: انسداد راه هوایی ناشی از بدخیمی
+cc: dyspnea, ent
+keywords: airway obstruction, tumor, stridor, heliox, awake fiberoptic intubation, cricothyroidotomy, tracheotomy, انسداد راه هوایی, تومور
+status: draft
+
+@features
+- تومورهای راه هوایی فوقانی و تحتانی: تنگی حاد راه هوایی از ادم، خونریزی، عفونت یا از دست رفتن مکانیسم‌های محافظ؛ تنگی نفس، تاکی‌پنه، ویزینگ و استریدور
+- تصویربرداری: رادیوگرافی ساده، CT و/یا مشاهده اندوسکوپیک
+
+@ddx
+- !Foreign body / angioedema / infection (epiglottitis) |
+- Bleeding / thrombus / mediastinal mass (SVC syndrome) |
+
+@redflags
+- استریدور، دیسترس تنفسی شدید، هموپتیزی
+
+@guide
+اقدامات اورژانس: اکسیژن مرطوب، وضعیت بهینه بیمار و احتمالاً مخلوط helium–oxygen. اگر اینتوباسیون لازم: «awake look» با برونکوسکوپ فیبراپتیک و لوله 5-0 یا 6-0 ترجیح داده می‌شود؛ ممکن است راه هوایی جراحی (cricothyroidotomy، transtracheal jet ventilation، tracheotomy) لازم شود.
+
+@variant malignant-airway-main
+name: Malignant airway obstruction
+level: I
+imp: Malignant airway obstruction
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+o2: humidified oxygen / helium-oxygen mixture
+
+@scenario
+مرد ۶۵ ساله با کارسینوم حنجره/نای، استریدور و SpO2 86%.
+
+@why
+حفظ راه هوایی با روش بیدار؛ آماده جراحی.
+
+@I
+- CXR portable; CT neck / chest and / or endoscopic visualization when airway permits (do not delay airway care)
+
+@L
+- Blood gas, CBC
+
+@T
+- Humidified oxygen; optimal patient positioning; consider helium–oxygen mixture
+- If intubation required: "awake look" with fiber-optic bronchoscope and 5-0 or 6-0 endotracheal tube; surgical airway (cricothyroidotomy, transtracheal jet ventilation, tracheotomy) may be needed
+
+@Co
+- Anesthesia / ENT / thoracic surgery (airway); oncology / radiation oncology; ICU
+
+@cond bone-metastases-pathologic-fracture
+ch: 139
+name: Bone metastases and pathologic fracture
+name_fa: متاستاز استخوانی و شکستگی پاتولوژیک
+cc: joint-limb-pain, back-neck-pain, limb-injury
+keywords: bone metastases, pathologic fracture, breast cancer, prostate cancer, radiotherapy, متاستاز استخوان, شکستگی پاتولوژیک
+status: draft
+
+@features
+- تومورهای solid (پستان، ریه، پروستات) با متاستاز استخوانی و شکستگی پاتولوژیک، معمولاً اسکلت محوری و اندام‌های پروگزیمال؛ رادیوگرافی ساده فقط نیمی از متاستازها را نشان می‌دهد: فیلم منفی ← CT با کنتراست یا MRI
+
+@ddx
+- !Spinal cord compression |
+- Osteoporotic fracture / infection |
+- Hypercalcemia of malignancy |
+
+@redflags
+- ضعف نورولوژیک (فشار نخاع)، هیپرکلسمی
+
+@guide
+کنترل درد با اوپیوئید. اغلب شکستگی پاتولوژیک مداخله جراحی می‌خواهد؛ متاستاز استخوانی دردناک: رادیوتراپی.
+
+@variant bone-mets-main
+name: Bone metastases / pathologic fracture
+level: II
+imp: Bone metastasis / pathologic fracture
+cond: Urgent
+act: CBR
+diet: PO
+ecg: once
+cxr: none
+
+@scenario
+زن ۶۰ ساله با سرطان پستان و درد ناگهانی ران پس از حرکت معمولی؛ فیلم: شکستگی لیتیک.
+
+@why
+مسکن و جراحی ارتوپد؛ کلسیم را بررسی کن.
+
+@I
+- Plain radiographs of painful site (detect only ~50% of metastases); CT with contrast or MRI if films negative
+
+@L
+- Calcium (hypercalcemia), CBC, creatinine, alkaline phosphatase
+
+@S
+- Opioid analgesia (IV / PO) {hi}
+
+@T
+- Splint / immobilize the fracture; analgesia
+
+@Co
+- Orthopedic surgery (most pathologic fractures require surgical intervention); radiation oncology (painful bone metastases); oncology
+
+@cond malignant-spinal-cord-compression
+ch: 139
+name: Malignant spinal cord compression
+name_fa: فشار نخاع بدخیم
+cc: back-neck-pain, focal-neuro, weakness
+keywords: spinal cord compression, malignant, dexamethasone, MRI spine, radiotherapy emergency, فشار نخاع, دگزامتازون
+status: draft
+
+@features
+- از متاستاز به جسم مهره‌ای: ضعف، درد رادیکولر، اختلال روده/مثانه
+- شایع‌ترین سرطان‌ها: ریه، پستان، پروستات؛ محل توراسیک 70%؛ درد پیشرونده و بدتر در حالت supine؛ ضعف حرکتی: پروگزیمال پاها؛ تغییرات حسی و اختلال مثانه/روده یافته‌های دیررس
+- MRI تصویربرداری انتخابی (کل ستون)؛ رادیوگرافی ساده کمتر حساس/اختصاصی؛ CT myelography اگر MRI نباشد
+
+@ddx
+- !Epidural abscess / hematoma |
+- !Cauda equina syndrome / disc herniation |
+- Vertebral fracture / transverse myelitis |
+
+@redflags
+- ضعف پروگزیمال پا، اختلال مثانه/روده، سطح حسی، درد شبانه/supine
+
+@guide
+در صورت تأخیر تصویربرداری: کورتیکواستروئید. فشار نخاع بدخیم یک اورژانس رادیوتراپی است. جدول 139-1: کورتیکواستروئید: dexamethasone 10 mg IV سپس 4 mg PO یا IV هر 6 ساعت؛ در ED اگر تصویربرداری به تأخیر بیفتد. رادیوتراپی: سودمند در حدود 70% و پیش‌آگهی وابسته به عملکرد عصبی پیش از درمان. جراحی در موارد منتخب: وضعیت عمومی خوب و تحمل جراحی وسیع، امید به زندگی مناسب، علائم به‌سرعت پیشرونده، بدتر شدن حین رادیوتراپی، ستون ناپایدار.
+
+@variant mscc-main
+name: Malignant spinal cord compression
+level: I
+imp: Malignant spinal cord compression
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: PA
+
+@scenario
+مرد ۶۸ ساله با سرطان پروستات و درد پشت پیشرونده و ضعف دو پا و احتباس ادرار.
+
+@why
+MRI کل ستون و دگزامتازون؛ رادیوتراپی/جراحی فوری.
+
+@I
+- MRI of entire vertebral column (modality of choice; urgent); CT myelography if MRI unavailable; plain radiographs (less sensitive)
+- CXR PA (primary / metastatic lung disease)
+
+@L
+- CBC, calcium, creatinine, electrolytes, PSA / alkaline phosphatase as indicated
+
+@S
+- Dexamethasone 10 mg IV then 4 mg PO / IV every 6 h; consider starting in ED if imaging delayed {hi}
+- Opioid analgesia
+
+@T
+- Neuro checks; bladder scan / catheterization; spinal precautions if unstable spine suspected
+
+@Co
+- Radiation oncology (radiotherapy emergency; beneficial ~70%); neurosurgery / spine surgery in selected cases (good general condition, rapidly progressive symptoms, clinical worsening on radiotherapy, unstable spine); oncology
+
+@cond malignant-pericardial-effusion
+ch: 139
+name: Malignant pericardial effusion and tamponade
+name_fa: افیوژن پریکارد بدخیم و تامپوناد
+cc: chest-pain, dyspnea, syncope
+keywords: pericardial effusion, malignant, cardiac tamponade, pericardiocentesis, electrical alternans, pulsus paradoxus, تامپوناد, افیوژن پریکارد
+status: draft
+
+@features
+- معمولاً بدون علامت ولی می‌تواند به تامپوناد تهدیدکننده حیات پیشرفت کند؛ علائم بسته به سرعت تجمع؛ علامت‌دار: سنگینی قفسه، تنگی نفس، سرفه و سنکوپ؛ تاکی‌کاردی، باریک شدن فشار نبض، هیپوتانسیون، افزایش JVP، صداهای قلب خفه و pulsus paradoxus
+- اکوکاردیوگرافی تست انتخابی (نشان‌دهنده تامپوناد)؛ CXR: سایه قلب بزرگ یا پلورال افیوژن؛ ECG: تاکی‌کاردی سینوسی، ولتاژ QRS پایین یا electrical alternans؛ افتراق: کاردیومیوپاتی ناشی از شیمی‌درمانی (doxorubicin) و پرتو
+
+@ddx
+- !Cardiac tamponade / PE |
+- Chemotherapy / radiation cardiomyopathy |
+- Heart failure / pericarditis |
+
+@redflags
+- هیپوتانسیون، افزایش JVP، pulsus paradoxus، سنکوپ
+
+@guide
+افیوژن بدون علامت: درمان اختصاصی لازم نیست. علامت‌دار: پریکاردیوسنتز با هدایت سونوگرافی.
+
+@variant malignant-pericardial-symptomatic
+name: Symptomatic malignant pericardial effusion / tamponade
+level: I
+imp: Malignant pericardial effusion with tamponade
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+o2: if SpO2 < 94%
+
+@scenario
+زن ۵۵ ساله با سرطان پستان، تنگی نفس، افزایش JVP، فشار 80/50 و صداهای خفه.
+
+@why
+اکو و پریکاردیوسنتز هدایت‌شده؛ مایع موقت.
+
+@I
+- Echocardiography (test of choice); CXR portable (enlarged cardiac silhouette / pleural effusion)
+
+@L
+- CBC, electrolytes, creatinine, troponin as indicated; pericardial fluid cytology / culture after drainage
+
+@S
+- IV crystalloid bolus as temporizing measure {ci: caution — only as bridge to drainage}
+
+@T
+- Ultrasound-guided pericardiocentesis for symptomatic effusion (asymptomatic effusions require no specific treatment)
+
+@Co
+- Cardiology / cardiothoracic surgery (pericardial window); oncology; ICU
+
+@cond svc-syndrome
+ch: 139
+name: Superior vena cava (SVC) syndrome
+name_fa: سندرم ورید اجوف فوقانی (SVC)
+cc: dyspnea, cough-hemoptysis, headache
+keywords: SVC syndrome, superior vena cava, mediastinal mass, lung cancer, lymphoma, stenting, سندرم SVC
+status: draft
+
+@features
+- معمولاً فشار خارجی روی SVC توسط توده بدخیم (سرطان ریه یا لنفوم)؛ کمتر ترومبوز داخل‌عروقی؛ شایع: تورم صورت یا بازو، افزایش JVP، تنگی نفس، سرفه و درد قفسه
+- CT قفسه با کنتراست IV روش تشخیصی انتخابی؛ CXR اغلب توده مدیاستن
+
+@ddx
+- !Cardiac tamponade |
+- !Airway obstruction |
+- Intravascular thrombosis (catheter) |
+
+@redflags
+- علائم عصبی (سردرد، گیجی)، استریدور، ادم راه هوایی
+
+@guide
+علائم عصبی: درمان فوری: اکسیژن تکمیلی و بالا بردن سر و بالاتنه. dexamethasone 20 mg IV یا methylprednisolone 125 تا 250 mg IV در افزایش ICP یا لنفوم ممکن است مفید باشد. بدون علائم عصبی: معمولاً تخریب سریع ندارد و می‌تواند تا مشاوره برای شیمی‌درمانی، رادیاسیون یا stent عروقی منتظر بماند. ترومبوز داخل‌عروقی: ممکن است ضدانعقاد، فیبرینولیز یا برداشتن کاتتر لازم باشد.
+
+@variant svc-syndrome-main
+name: SVC syndrome
+level: II
+imp: Superior vena cava syndrome
+cond: Urgent
+act: CBR
+diet: PO
+ecg: stat
+cxr: PA
+o2: if SpO2 < 94%
+
+@scenario
+مرد ۶۰ ساله با سرطان ریه، تورم صورت و بازو، وریدهای گردن برجسته و تنگی نفس.
+
+@why
+CT با کنتراست و مشاوره انکولوژی؛ استروئید در علائم عصبی.
+
+@I
+- CT chest with IV contrast (diagnostic procedure of choice); CXR (mediastinal mass)
+
+@L
+- CBC, electrolytes, creatinine, coagulation; tissue diagnosis later
+
+@S
+- Dexamethasone 20 mg IV or methylprednisolone 125–250 mg IV for increased intracranial pressure or lymphoma / neurologic symptoms
+
+@T
+- Supplemental oxygen; elevate head and upper body (neurologic symptoms need urgent treatment)
+- Intravascular thrombosis: anticoagulation, fibrinolysis, or catheter removal as indicated
+
+@Co
+- Oncology / radiation oncology / interventional radiology (chemotherapy, radiation, or intravascular stenting); admit
+
+@cond hypercalcemia-of-malignancy
+ch: 139
+name: Hypercalcemia of malignancy
+name_fa: هیپرکلسمی ناشی از بدخیمی
+cc: metabolic, weakness, altered-mental-status, abdominal-pain
+keywords: hypercalcemia, malignancy, zoledronic acid, pamidronate, calcitonin, normal saline, multiple myeloma, هیپرکلسمی, زولدرونیک اسید
+status: draft
+
+@features
+- شایع در سرطان پستان، ریه و مولتیپل میلوما؛ علائم غیراختصاصی: پلی‌دیپسی، پلی‌اوری، ضعف عمومی، بی‌حالی، بی‌اشتهایی، تهوع، یبوست، درد شکم، کم‌حجمی و تغییر هوشیاری؛ وابسته به سرعت افزایش؛ ممکن بالای 12 mg/dL (یونیزه > 5.5 mg/dL)؛ ECG: QT کوتاه، ST depression و بلوک AV
+
+@ddx
+- !Primary hyperparathyroidism |
+- Dehydration / AKI / other causes of AMS |
+
+@redflags
+- تغییر هوشیاری، نارسایی کلیه، دیسریتمی، کلسیم > 14
+
+@guide
+NS برای برگرداندن نورمووولمی و سپس انفوزیون 250 mL/h اگر تحمل شود (ستون درمان). furosemide توصیه نمی‌شود مگر برای جلوگیری از بار حجمی در نارسایی قلبی/کلیه. با انکولوژیست مشورت. بیس‌فسفونات: zoledronic acid 4 mg IV طی 15 دقیقه یا pamidronate 60 تا 90 mg IV طی 4 تا 24 ساعت (جلوگیری از بازجذب استخوان). calcitonin 4 IU/kg SC یا IM کاهش سریع‌تر کلسیم. گلوکوکورتیکوئید در لنفوم و میلوما. همودیالیز در تغییر هوشیاری عمیق و نارسایی کلیه یا عدم تحمل NS.
+
+@variant hypercalcemia-malignancy-main
+name: Hypercalcemia of malignancy
+level: II
+imp: Hypercalcemia of malignancy
+cond: Urgent
+act: CBR
+diet: PO
+ecg: stat
+cxr: none
+
+@scenario
+زن ۶۰ ساله با میلوما، بی‌حالی، پلی‌اوری، تهوع، گیجی و کلسیم 14.5.
+
+@why
+NS تهاجمی و بیس‌فسفونات؛ کالسی‌تونین سریع.
+
+@L
+- Calcium (ionized), phosphate, magnesium, electrolytes, BUN, creatinine, albumin, PTH / PTHrP as indicated, CBC
+
+@S
+- Normal saline IV to restore normovolemia, then infusion 250 mL/h if tolerated {ci: heart failure / renal failure — caution; furosemide only to prevent volume overload}
+- Zoledronic acid 4 mg IV over 15 min, or pamidronate 60–90 mg IV over 4–24 h {hi}
+- Calcitonin 4 IU/kg SC or IM (more rapid decrease in calcium)
+- Glucocorticoids in lymphoma and multiple myeloma
+
+@T
+- Cardiac monitoring (shortened QT, AV block)
+
+@Co
+- Oncology; nephrology: hemodialysis for profound mental status change and renal failure or inability to tolerate saline; admit
+
+@cond siadh-malignancy
+ch: 139
+name: SIADH hyponatremia in malignancy
+name_fa: هیپوناترمی ناشی از SIADH در بدخیمی
+cc: metabolic, headache, seizure, altered-mental-status
+keywords: SIADH, hyponatremia, small cell lung cancer, hypertonic saline, water restriction, هیپوناترمی, SIADH
+status: draft
+
+@features
+- بیشتر با سرطان برونکوژنیک ریه؛ شیمی‌درمانی یا دارو؛ بی‌اشتهایی، تهوع، سردرد، تغییر هوشیاری و تشنج؛ هیپوناترمی خفیف (> 125) معمولاً بدون علامت
+- شک در بیمار سرطانی با هیپوناترمی نورمووولمیک؛ osm سرم < 280، osm ادرار > 100، Na ادرار > 20؛ افتراق: هیپوتیروئیدی، نارسایی کلیه، سیروز، بحران آدرنال، هیپو/هیپرولمی
+
+@ddx
+- !Adrenal crisis / hypothyroidism |
+- Renal failure / cirrhosis / hypovolemia |
+
+@redflags
+- Na < 120، تشنج، کما
+
+@guide
+خفیف (> 125): محدودیت آب 500 mL/d و پیگیری. شدیدتر: furosemide 0.5 تا 1 mg/kg PO همراه NS برای حفظ نورمووولمی. سالین هیپرتونیک 3% برای Na < 120 با تشنج یا کما: انفوزیون 25 تا 100 mL/h با تیتر برای افزایش 0.5 تا 1 mEq/h و حداکثر 12 mEq/L/d.
+
+@variant siadh-mild
+name: SIADH, mild hyponatremia (> 125 mEq/L)
+level: III
+imp: SIADH hyponatremia, mild
+cond: Urgent
+act: CBR
+diet: PO
+ecg: once
+cxr: PA
+
+@scenario
+مرد ۶۵ ساله با سرطان کوچک‌سلول ریه، Na 128 و علائم خفیف.
+
+@why
+محدودیت آب و پیگیری.
+
+@L
+- Serum Na (repeat), serum osmolality, urine osmolality, urine Na; TSH, cortisol, creatinine, glucose, BUN
+
+@T
+- Water restriction 500 mL/day with close follow-up (no IV fluids needed) {ci: avoid hypotonic fluids}
+
+@Co
+- Oncology follow-up
+
+@variant siadh-severe
+name: SIADH, severe hyponatremia (< 120 mEq/L) with seizures / coma
+level: I
+imp: SIADH, severe hyponatremia with neurologic symptoms
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: PA
+
+@scenario
+مرد ۶۸ ساله با سرطان ریه، Na 112، تشنج و گیجی.
+
+@why
+سالین 3% با سرعت کنترل‌شده؛ سقف 12 mEq/L/d.
+
+@L
+- Serum Na (every 2 h during correction), osmolality (serum / urine), urine Na, glucose, electrolytes, creatinine, TSH, cortisol
+
+@S
+- 3% hypertonic saline 25–100 mL/h titrated to correction 0.5–1 mEq/L/h, maximum 12 mEq/L/day {hi} {ci: avoid overly rapid correction (osmotic demyelination)}
+- Furosemide 0.5–1 mg/kg PO with normal saline infusion to maintain normovolemia (for less severe cases)
+
+@T
+- Seizure precautions; benzodiazepines for seizures; frequent neuro checks
+
+@Co
+- ICU admission; nephrology / oncology
+
+@cond tumor-lysis-syndrome
+ch: 139
+name: Tumor lysis syndrome
+name_fa: سندرم لیز تومور
+cc: metabolic, weakness, palpitations
+keywords: tumor lysis syndrome, hyperkalemia, hyperuricemia, hyperphosphatemia, hypocalcemia, leukemia, lymphoma, سندرم لیز تومور
+status: draft
+
+@features
+- آزادسازی انبوه پتاسیم، فسفات و اوریک اسید؛ معمولاً 1 تا 3 روز پس از شیمی‌درمانی لوسمی حاد یا لنفوم؛ هیپراوریسمی، هیپرکالمی، هیپرفسفاتمی و هیپوکلسمی ← رسوب اوریک اسید و کلسیم فسفات در کلیه و نارسایی کلیه، آریتمی تهدیدکننده، تتانی و تشنج
+- ارزیابی: ECG ۱۲ لید، الکترولیت، CBC، اسید اوریک و فسفر؛ اقدام پیشگیرانه بروز را کاهش می‌دهد
+
+@ddx
+- !Hyperkalemia of other cause / renal failure |
+- Sepsis / DIC |
+
+@redflags
+- K > 6.0، QRS پهن، اوریک اسید > 10، فسفات > 10، کراتینین > 10، هیپوکلسمی علامت‌دار
+
+@guide
+هیپرکالمی فوری‌ترین تهدید: انسولین، گلوکز، بیکربنات (اگر اسیدوتیک) و albuterol؛ از کلسیم پرهیز مگر آریتمی بطنی یا QRS پهن (رسوب کلسیم فسفات). انفوزیون تهاجمی مایع ایزوتونیک برای برگرداندن کم‌حجمی و جلوگیری از رسوب اوریک اسید و کلسیم فسفات در کلیه. هیپرفسفاتمی: انسولین و گلوکز IV؛ چسباننده فسفات اثر محدود. همودیالیز: K > 6.0، اوریک اسید > 10 mg/dL، فسفات > 10 mg/dL، کراتینین > 10 mg/dL، هیپوکلسمی علامت‌دار یا بار حجمی. بستری ICU.
+
+@variant tls-main
+name: Tumor lysis syndrome
+level: I
+imp: Tumor lysis syndrome
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+
+@scenario
+مرد ۳۰ ساله با لنفوم 2 روز پس از شیمی‌درمانی: K 6.8، اوریک اسید 14، فسفات 9، Ca 6.5، کراتینین 3 و QRS پهن.
+
+@why
+مایع ایزوتونیک تهاجمی و درمان هیپرکالمی؛ کلسیم فقط برای QRS پهن/آریتمی.
+
+@L
+- Electrolytes (K, Ca, Mg, phosphate), uric acid, BUN, creatinine, LDH, CBC, blood gas; urinalysis; ECG
+
+@S
+- Aggressive isotonic IV fluids to reverse volume depletion and prevent renal deposition of uric acid / calcium phosphate {ci: caution in volume overload / oliguric renal failure}
+- Hyperkalemia: IV insulin + glucose, sodium bicarbonate (if acidotic), albuterol nebulized {hi}
+- Calcium gluconate / chloride ONLY for ventricular arrhythmias or widened QRS {note: may worsen calcium phosphate precipitation in kidney}
+- Hyperphosphatemia: IV insulin and glucose (phosphate binders limited effect)
+
+@T
+- Continuous cardiac monitoring; strict I&O
+
+@Co
+- Nephrology: hemodialysis for K > 6.0, uric acid > 10, phosphate > 10, creatinine > 10, symptomatic hypocalcemia or volume overload
+- ICU admission; oncology
+
+@cond febrile-neutropenia
+ch: 139
+name: Febrile neutropenia
+name_fa: نوتروپنی تب‌دار
+cc: fever
+keywords: febrile neutropenia, neutropenic fever, ANC, cefepime, piperacillin-tazobactam, vancomycin, chemotherapy, نوتروپنی تب دار, شیمی درمانی
+status: draft
+
+@features
+- تعریف: دمای > 38°C یک ساعت یا یک بار > 38.3°C با ANC < 1000/mm³؛ nadir نوتروفیل 10 تا 15 روز پس از شیمی‌درمانی و برگشت 5 روز بعد
+- اغلب بدون علامت موضعی (پاسخ ایمنی کاهش‌یافته): توجه دقیق به همه سطوح پوست، مخاط و محل‌های دسترسی عروقی؛ معاینه رکتال دیجیتال معمولاً تا بعد از آنتی‌بیوتیک اولیه به تعویق می‌افتد
+- ارزیابی: CBC با تمایز، کشت خون از همه lumenهای کاتتر و محیطی، UA و کشت ادرار، CXR، الکترولیت و عملکرد کلیه/کبد؛ بر اساس علائم: کشت مدفوع (اسهال)، خلط (سرفه)، LP (سردرد، سفتی گردن، تغییر هوشیاری)، کشت زخم و CT/سونوگرافی شکم
+
+@ddx
+- !Sepsis / septic shock |
+- Catheter-related infection / pneumonia / typhlitis |
+- Drug fever / transfusion reaction |
+
+@redflags
+- هیپوتانسیون، ANC < 500، موکوزیت شدید، عفونت محل کاتتر، تغییر هوشیاری
+
+@guide
+تصمیم برای آنتی‌بیوتیک تجربی و بستری با انکولوژیست؛ آنتی‌بیوتیک تجربی معمولاً برای ANC < 500؛ بین 500 تا 1000 بر اساس تظاهر. جدول 139-2: سرپایی (پرخطر نه؛ ارزیابی روزانه 3 روز اول): ciprofloxacin 500 mg PO هر 8 ساعت + amoxicillin/clavulanate 500 mg PO هر 8 ساعت. تک‌دارویی (مشابه دو دارو در بیشتر شرایط): cefepime 2 g IV هر 8 ساعت یا ceftazidime 2 g IV هر 8 ساعت یا imipenem/cilastatin 1 g IV هر 8 ساعت یا meropenem 1 g IV هر 8 ساعت یا piperacillin/tazobactam 4.5 g IV هر 6 ساعت. دو دارویی: یکی از موارد فوق + gentamicin 1.7 mg/kg IV هر 8 ساعت یا tobramycin 1.7 mg/kg IV هر 8 ساعت یا amikacin 5 mg/kg IV هر 8 ساعت (اثر هم‌افزا علیه برخی گرم‌منفی‌ها ولی خطر نفروتوکسیسیتی، اتوتوکسیسیتی و هیپوکالمی). vancomycin 1 g IV هر 12 ساعت + (cefepime، ceftazidime، imipenem/cilastatin یا meropenem) وقتی عامل خطر عفونت گرم‌مثبت شدید: موکوزیت شدید، عفونت محل کاتتر، مصرف اخیر پروفیلاکسی فلوروکینولون، هیپوتانسیون، بیمارستان با MRSA بیمارستانی، کلونیزاسیون مقاوم.
+
+@variant neutropenic-fever-inpatient
+name: Febrile neutropenia, standard / high-risk (IV empiric antibiotics)
+level: I
+imp: Febrile neutropenia
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: PA
+
+@scenario
+مرد ۵۰ ساله ۱۰ روز پس از شیمی‌درمانی با تب 38.9، لرز، HR 115، فشار 100/60 و ANC 200.
+
+@why
+کشت‌ها و آنتی‌بیوتیک وسیع‌الطیف بلافاصله؛ بستری با انکولوژیست.
+
+@I
+- CXR PA / portable; CT / ultrasound abdomen if abdominal pain
+
+@L
+- CBC with differential (ANC), blood cultures from all lumens of indwelling catheters plus a peripheral site, urinalysis and urine culture, electrolytes, BUN / creatinine, liver function tests, lactate; stool culture (diarrhea), sputum culture (cough), LP (headache / stiff neck / AMS), wound culture as indicated
+
+@S
+- IV crystalloid for hypotension / sepsis {ci: caution in heart failure}
+
+@A
+- Monotherapy: cefepime 2 g IV every 8 h, or ceftazidime 2 g IV every 8 h, or imipenem/cilastatin 1 g IV every 8 h, or meropenem 1 g IV every 8 h, or piperacillin/tazobactam 4.5 g IV every 6 h {hi}
+- Dual therapy option: one of the above plus gentamicin or tobramycin 1.7 mg/kg IV every 8 h, or amikacin 5 mg/kg IV every 8 h {note: nephrotoxicity, ototoxicity, hypokalemia}
+- Add vancomycin 1 g IV every 12 h for severe mucositis, catheter-site infection, recent fluoroquinolone prophylaxis, hypotension, hospital MRSA, or known resistant gram-positive colonization
+
+@T
+- Meticulous examination of skin, mucosa, vascular access sites; defer digital rectal examination until after initial antibiotics
+
+@Co
+- Oncology (decision on empiric antibiotics and admission); admit; ICU if septic shock
+
+@variant neutropenic-fever-outpatient
+name: Febrile neutropenia, low-risk outpatient oral therapy
+level: II
+imp: Febrile neutropenia, low risk
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: PA
+
+@scenario
+زن ۴۵ ساله با تب 38.5، ANC 700، بدون علائم عفونت موضعی و کاملاً پایدار؛ ارزیابی روزانه ممکن.
+
+@why
+فقط بیمار کم‌خطر با پیگیری روزانه 3 روز و مشورت انکولوژیست.
+
+@I
+- CXR PA
+
+@L
+- CBC with differential, blood cultures (all catheter lumens + peripheral), urinalysis and culture, electrolytes, renal and liver function tests
+
+@A
+- Ciprofloxacin 500 mg PO every 8 h plus amoxicillin/clavulanate 500 mg PO every 8 h (low-risk patients with daily assessments by a medical provider for initial 3 days)
+
+@T
+- Return precautions; daily follow-up
+
+@Co
+- Decision with patient's oncologist; admit if high-risk
+
+@cond hyperviscosity-syndrome
+ch: 139
+name: Hyperviscosity syndrome
+name_fa: سندرم هیپرویسکوزیته
+cc: headache, altered-mental-status, bleeding-bruising
+keywords: hyperviscosity, Waldenstrom macroglobulinemia, multiple myeloma, leukostasis, polycythemia, plasmapheresis, leukapheresis, هیپرویسکوزیته
+status: draft
+
+@features
+- اختلال جریان خون از افزایش غیرطبیعی پاراپروتئین یا سلول‌های خونی؛ شایع در دیس‌پروتئینمی (والدنستروم و میلوما)، لوسمی حاد یا پلی‌سیتمی؛ Hct > 60% و WBC > 100,000
+- خستگی، درد شکم، سردرد، تاری دید، تنگی نفس، تب یا تغییر هوشیاری؛ ترومبوز یا خونریزی؛ معاینه: خونریزی شبکیه، اگزودا و رگ‌های «sausage-linked»؛ ویسکوزیته سرم > 4 یا rouleaux؛ سنجش ویسکوزیته سرم هیپرویسکوزیته پلی‌سیتمی یا لوسمی را نشان نمی‌دهد
+
+@ddx
+- !Stroke / CNS bleed |
+- Leukostasis / sepsis |
+
+@redflags
+- کما، خونریزی شبکیه، WBC > 100,000، Hct > 60%
+
+@guide
+درمان اولیه: مایع ایزوتونیک IV و plasmapheresis یا leukopheresis با هماتولوژیست. اقدام موقت در کما: فلبوتومی 1000 mL با انفوزیون همزمان 2 تا 3 L NS.
+
+@variant hyperviscosity-main
+name: Hyperviscosity syndrome
+level: I
+imp: Hyperviscosity syndrome
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: PA
+
+@scenario
+مرد ۷۰ ساله با والدنستروم، سردرد، تاری دید، خونریزی بینی و گیجی؛ ویسکوزیته 5.
+
+@why
+مایع ایزوتونیک و plasmapheresis با هماتولوژی.
+
+@L
+- CBC with smear (rouleaux), serum viscosity (not for polycythemia / leukemia), serum protein electrophoresis, electrolytes, creatinine, calcium, coagulation
+
+@S
+- IV isotonic fluids {ci: caution in heart failure}
+
+@T
+- Plasmapheresis or leukopheresis (with hematology); temporizing in coma: 1000 mL phlebotomy with simultaneous infusion of 2–3 L normal saline
+
+@Co
+- Hematology / oncology urgent; admit ICU
+
+@cond cancer-thromboembolism
+ch: 139
+name: Thromboembolism in cancer patients
+name_fa: ترومبوآمبولی در بیماران سرطانی
+cc: leg-swelling, dyspnea, chest-pain
+keywords: cancer VTE, DVT, pulmonary embolism, LMWH, malignancy thrombosis, ترومبوآمبولی سرطان
+status: draft
+
+@features
+- دومین علت مرگ بیماران سرطانی؛ تشخیص و درمان DVT و PE (فصل 25)؛ LMWH درمان اولیه توصیه‌شده برای VTE در بیماران سرطانی و معمولاً در طول درمان لخته ادامه می‌یابد؛ تجربه کافی با داروهای ضدانعقاد خوراکی جدید برای توصیه وجود ندارد
+
+@ddx
+- !PE / DVT |
+- Cellulitis / tumor compression |
+
+@redflags
+- هیپوکسی، هیپوتانسیون، درد قفسه
+
+@guide
+LMWH (مثلاً enoxaparin 1 mg/kg SC هر 12 ساعت) درمان اولیه؛ ادامه برای مدت درمان.
+
+@variant cancer-vte-main
+name: Cancer-associated DVT / PE
+level: II
+imp: Cancer-associated venous thromboembolism
+cond: Urgent
+act: CBR
+diet: PO
+ecg: stat
+cxr: PA
+o2: if SpO2 < 94%
+
+@scenario
+زن ۶۰ ساله با سرطان لوزالمعده و تورم یک‌طرفه ساق و تنگی نفس.
+
+@why
+LMWH؛ تصویربرداری تأییدی.
+
+@I
+- Compression ultrasound (DVT); CT pulmonary angiography (PE) per Chapter 25
+
+@L
+- CBC, creatinine, coagulation, D-dimer (limited in cancer), troponin as indicated
+
+@S
+- Low-molecular-weight heparin (e.g., enoxaparin 1 mg/kg SC every 12 h) {hi} {ci: renal failure — dose adjust; active major bleeding; thrombocytopenia < 50,000}
+
+@T
+- Continue LMWH for duration of treatment of the clot
+
+@Co
+- Admit / follow-up per VTE risk; oncology
+
+@cond chemotherapy-nausea-extravasation
+ch: 139
+name: Chemotherapy-induced nausea and vomiting; chemotherapy extravasation; adrenal crisis in cancer
+name_fa: تهوع و استفراغ ناشی از شیمی‌درمانی؛ نشت داروی شیمی‌درمانی؛ بحران آدرنال در سرطان
+cc: nausea-vomiting, wound-bite, metabolic
+keywords: chemotherapy vomiting, ondansetron, granisetron, extravasation, anthracycline, vinca alkaloid, adrenal crisis cancer, تهوع شیمی درمانی, نشت شیمی درمانی
+status: draft
+
+@features
+- تهوع و استفراغ: شیمی‌درمانی؛ سایر علل: انتریت پرتویی، انسداد روده، عفونت یا انفیلتراسیون تومور و افزایش ICP؛ درمان: هیدراتاسیون، ضداستفراغ و اصلاح الکترولیت
+- extravasation: درد، اریتم و تورم معمولاً طی ساعات پس از انفوزیون؛ با انکولوژیست درباره پادزهر (anthracyclines، vinca alkaloids، mitomycin، cisplatin، mechlorethamine، paclitaxel) مشورت
+- بحران آدرنال: معمولاً استرس فیزیولوژیک حاد با سرکوب آدرنال ناشی از استروئید خارجی یا انفیلتراسیون بدخیم؛ ضعف یا تهوع، هیپوتانسیون مقاوم به مایع؛ هیپوگلیسمی، هیپوناترمی، هیپرکالمی؛ کورتیزول سرم ایده‌آل پیش از استروئید
+
+@ddx
+- !Bowel obstruction / increased ICP / hypercalcemia |
+- !Sepsis |
+
+@redflags
+- ضعف و هیپوتانسیون مقاوم (بحران آدرنال)، درد و تورم محل انفوزیون
+
+@guide
+جدول 139-3 ضداستفراغ‌ها: metoclopramide 10 mg IV/IM (EPS وابسته به دوز)؛ promethazine 25 mg IV/IM؛ dolasetron 0.35 mg/kg IV (حداکثر 12.5 mg طی 5 دقیقه)؛ granisetron 10 µg/kg IV طی 5 دقیقه؛ ondansetron 0.15 mg/kg IV (حداکثر 16 mg طی 15 دقیقه) (یبوست و سردرد برای همه)؛ dexamethasone 20 mg IV؛ lorazepam 1 تا 2 mg IV (آرام‌بخشی و ضداضطراب)؛ diphenhydramine 50 mg IV/IM (اثر درمانی ناچیز). بحران آدرنال: stress-dose hydrocortisone 100 تا 150 mg IV یا methylprednisolone 20 تا 30 mg IV یا dexamethasone 4 mg IV، کریستالوئید و حمایتی (فصل 132).
+
+@variant chemo-vomiting
+name: Chemotherapy-induced nausea and vomiting
+level: III
+imp: Chemotherapy-induced nausea and vomiting
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: once
+cxr: none
+
+@scenario
+زن ۵۰ ساله 2 روز پس از شیمی‌درمانی با استفراغ مکرر و کم‌آبی.
+
+@why
+ضداستفراغ، مایع و اصلاح الکترولیت؛ سایر علل را رد کن.
+
+@L
+- Electrolytes (K, Mg, Ca), BUN, creatinine, glucose
+
+@S
+- Normal saline IV for rehydration {ci: caution in heart failure / CKD}; correct electrolyte derangements
+- Ondansetron 0.15 mg/kg IV (max 16 mg over 15 min), or granisetron 10 µg/kg IV over 5 min, or dolasetron 0.35 mg/kg IV (max 12.5 mg); metoclopramide 10 mg IV/IM or promethazine 25 mg IV/IM
+- Dexamethasone 20 mg IV; lorazepam 1–2 mg IV (sedation / anxiolysis); diphenhydramine 50 mg IV/IM (minor effect)
+
+@T
+- Exclude other causes (bowel obstruction, raised ICP, hypercalcemia)
+
+@Co
+- Oncology follow-up; admit if refractory
+
+@variant chemo-extravasation
+name: Chemotherapy extravasation
+level: III
+imp: Chemotherapy extravasation
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+بیمار حین انفوزیون doxorubicin با درد، قرمزی و تورم محل ورید.
+
+@why
+قطع انفوزیون و مشاوره انکولوژی برای پادزهر.
+
+@T
+- Stop infusion; elevate limb; consult oncologist regarding antidote (anthracyclines, vinca alkaloids, mitomycin, cisplatin, mechlorethamine, paclitaxel)
+
+@Co
+- Oncology / pharmacy; plastic surgery if tissue necrosis
+
+@variant adrenal-crisis-cancer
+name: Adrenal crisis in cancer patient (steroid withdrawal / adrenal infiltration)
+level: I
+imp: Adrenal crisis in malignancy
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+
+@scenario
+مرد ۶۰ ساله با متاستاز آدرنال و قطع استروئید با ضعف، تهوع و فشار 75/45.
+
+@why
+هیدروکورتیزون استرس‌دوز و مایع؛ کورتیزول قبل از استروئید.
+
+@L
+- Serum cortisol (ideally before steroid), glucose, electrolytes (Na, K), BUN, creatinine, CBC
+
+@S
+- Hydrocortisone 100–150 mg IV, or methylprednisolone 20–30 mg IV, or dexamethasone 4 mg IV {hi}
+- IV crystalloids (normal saline / dextrose) {ci: caution in heart failure}
+
+@T
+- Supportive care; vasopressors if refractory shock
+
+@Co
+- ICU / monitored admission; endocrinology; oncology

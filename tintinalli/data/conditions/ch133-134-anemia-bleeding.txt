@@ -1,0 +1,365 @@
+@cond anemia-evaluation
+ch: 133
+name: Anemia (evaluation and acute blood loss)
+name_fa: کم‌خونی (ارزیابی و خونریزی حاد)
+cc: weakness, bleeding-bruising, dyspnea
+keywords: anemia, hemolytic anemia, TTP, HUS, MCV, reticulocyte, transfusion, packed red cells, کم خونی, همولیز
+status: draft
+
+@features
+- ممکن است مزمن و نامرتبط با شکایت اصلی یا ناشی از خونریزی حاد (تروما، خونریزی GI)؛ شدت علائم بسته به سرعت و میزان کم‌خونی، سن و توان جبران قلبی-عروقی
+- ضعف، خستگی، تپش، علائم ارتواستاتیک و تنگی نفس با فعالیت کم؛ رنگ‌پریدگی ملتحمه، پوست و ناخن؛ تاکی‌کاردی، precordium هیپردینامیک، سوفل سیستولیک؛ تاکی‌پنه استراحت و هیپوتانسیون علائم دیررس؛ الکل و دارو تواناییِ جبران را تغییر می‌دهند
+- کم‌خونی همولیتیک اکتسابی (خودایمن یا دارویی)؛ سندرم‌های میکروآنژیوپاتیک: TTP (پنتاد: CNS، کلیه، تب، MAHA، ترومبوسیتوپنی) و HUS (نفروپاتی/نارسایی حاد کلیه، MAHA، ترومبوسیتوپنی)؛ همولیز ماکروواسکولار با دریچه مصنوعی
+- تشخیص: کاهش RBC، Hb و Hct؛ ارزیابی اولیه: CBC، شاخص‌های RBC، شمارش رتیکولوسیت، hemoccult مدفوع، تست بارداری و اسمیر خون محیطی؛ MCV و رتیکولوسیت طبقه‌بندی (شکل 133-1: MCV کم: آهن، تالاسمی، بیماری مزمن، sideroblastic؛ MCV بالا: B12/فولات، الکل، کبد، شیمی‌درمانی، آپلاستیک؛ نرمال: مزمن، کلیه؛ رتیکولوسیت بالا: همولیز Coombs+/-)؛ همولیز (جدول 133-3): رتیکولوسیت بالا، اسمیر (schistocyte: داخل‌عروقی؛ spherocyte: خارج‌عروقی)، LDH، K، bilirubin غیرمستقیم بالا، haptoglobin پایین، هموگلوبین آزاد و هموگلوبینوری، urobilinogen ادرار
+- ارزیابی اختلال خونریزی: خونریزی خودبه‌خودی از چند محل، از محل‌های غیرتروماتیک، خونریزی تأخیری چند ساعت پس از آسیب، یا خونریزی عمقی/مفصلی؛ اختلال پلاکت: پتشی، کبودی، پورپورا، اپیستاکسی، GI، GU و قاعدگی سنگین؛ نقص فاکتور انعقادی: خونریزی تأخیری، همارتروز، فضاهای فاشیال و رتروپریتوان؛ DIC: هر دو
+- آزمایش‌های اولیه هموستاز (جدول 133-1): پلاکت (150–400)، bleeding time، PT/INR، aPTT، فیبرینوژن، TCT، mixing؛ پلاکت < 50,000 خونریزی و < 10,000 خطر خونریزی خودبه‌خود/CNS؛ INR 1.7 ≈ 30% فعالیت فاکتورها؛ D-dimer، FDP، سطح فاکتور، پروتئین C/S، factor V Leiden
+
+@ddx
+- !GI bleeding / trauma (acute blood loss) |
+- !TTP / HUS / DIC |
+- Hemolysis (autoimmune / G6PD / drug) |
+- Bone marrow failure / chronic disease / nutritional deficiency |
+
+@redflags
+- ناپایداری همودینامیک، هیپوکسی، اسیدوز، ایسکمی قلبی، پلاکت < 10,000، شواهد TTP/DIC
+
+@guide
+نوع و کراس‌مچ خون در کم‌خونی با خونریزی ادامه‌دار تا در صورت نیاز در دسترس باشد. ترانسفیوژن فوری PRBC در بیمار علامت‌دار ناپایدار یا با شواهد هیپوکسی بافتی. بستری: کم‌خونی با خونریزی ادامه‌دار؛ کم‌خونی مزمن یا جدید با علت نامشخص اگر ناپایدار، هیپوکسیک، اسیدوتیک یا ایسکمی قلبی. مشاوره هماتولوژی: علت نامشخص، اختلال همزمان پلاکت و WBC، شک به اختلال خونریزی.
+
+@variant anemia-stable
+name: Anemia, hemodynamically stable (new or chronic, workup)
+level: III
+imp: Anemia, stable, etiology to be determined
+cond: Urgent
+act: CBR
+diet: PO
+ecg: stat
+cxr: PA
+o2: if SpO2 < 94%
+
+@scenario
+زن ۶۰ ساله با خستگی چند هفته و Hb 8.5، MCV 72، بدون ناپایداری.
+
+@why
+شاخص‌ها، رتیکولوسیت، آهن/B12/فولات و منبع خونریزی.
+
+@L
+- CBC with RBC indices, reticulocyte count, peripheral smear; iron studies (ferritin, iron, TIBC), B12, folate; stool hemoccult; urine pregnancy test in women of childbearing age; LDH, bilirubin, haptoglobin if hemolysis suspected
+
+@S
+- (no routine IV fluid if stable)
+
+@T
+- Type and screen; investigate source (GI / gynecologic)
+
+@Co
+- Hematology consult if etiology unclear, concomitant platelet / WBC abnormalities, or suspected bleeding disorder; discharge with follow-up if stable, otherwise admit
+
+@variant anemia-symptomatic-bleeding
+name: Symptomatic or unstable anemia with ongoing blood loss
+level: I
+imp: Anemia with ongoing blood loss, symptomatic
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+o2: titrate to SpO2 ≥ 94%
+
+@scenario
+مرد ۷۰ ساله با ملنا، تپش، تنگی نفس، HR 125، فشار 90/55 و Hb 6.2.
+
+@why
+کراس‌مچ و ترانسفیوژن فوری؛ منبع خونریزی.
+
+@I
+- CXR portable; further imaging per source (e.g., CT for trauma)
+
+@L
+- CBC with indices, reticulocyte count, smear, type and crossmatch (blood available), PT/INR, PTT, fibrinogen, BUN, creatinine, electrolytes, lactate, troponin; stool hemoccult
+
+@S
+- Packed red blood cell transfusion for symptomatic hemodynamically unstable patients or tissue hypoxia {hi}
+- Crystalloid resuscitation as needed {ci: caution in heart failure / pulmonary edema}
+
+@T
+- Control source of bleeding; cardiac monitoring; pressors only as bridge
+
+@Co
+- Admit ICU / monitored bed; GI / surgery per source; hematology for unclear etiology
+
+@variant hemolytic-anemia
+name: Hemolytic anemia / microangiopathy (TTP, HUS) suspected
+level: I
+imp: Hemolytic anemia, suspected microangiopathic hemolysis
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+
+@scenario
+زن ۳۰ ساله با تب، گیجی، یرقان، پتشی، Hb 7، پلاکت 18,000، شیستوسیت و کراتینین بالا.
+
+@why
+اسمیر، LDH، haptoglobin؛ TTP را زود تشخیص و مشاوره هماتولوژی فوری (پلاکت ممکن است TTP را بدتر کند).
+
+@L
+- CBC with smear (schistocytes / spherocytes), reticulocyte count, LDH, haptoglobin, indirect bilirubin, free hemoglobin / urine hemoglobin, direct Coombs, creatinine / BUN, electrolytes, PT/PTT/fibrinogen, urinalysis, pregnancy test; type and crossmatch; ADAMTS13 as available
+
+@S
+- Packed red cells for symptomatic anemia {note: avoid platelet transfusion in TTP / DIC unless life-threatening bleeding — hematology guidance}
+
+@T
+- Cardiac monitoring; neurological monitoring
+
+@Co
+- Urgent hematology consultation; admit ICU
+
+@cond acquired-platelet-disorder
+ch: 134
+name: Acquired platelet disorders (thrombocytopenia) and immune thrombocytopenia (ITP)
+name_fa: اختلالات اکتسابی پلاکت و ترومبوسیتوپنی ایمنی (ITP)
+cc: bleeding-bruising
+keywords: thrombocytopenia, platelet transfusion, ITP, immune thrombocytopenia, TTP, HELLP, petechiae, prednisone, IVIG, ترومبوسیتوپنی, پلاکت
+status: draft
+
+@features
+- پتشی یا خونریزی مخاطی؛ اسپلنومگالی در جداسازی پلاکت
+- کمی: کاهش تولید (انفیلتراسیون مغز استخوان، آپلاستیک، دارو، ویروس، الکل مزمن) یا افزایش تخریب (ITP، TTP، HUS، DIC، ویروس، دارو، HELLP)؛ سایر: خونریزی حاد، دیالیز، سکوستراسیون طحال؛ کیفی: بیماری کلیه/کبد، DIC، دارو (آسپرین، NSAID، clopidogrel)، اختلال میلوپرولیفراتیو
+- ITP: پلاکت > 50,000 معمولاً بدون درمان؛ < 30,000 یا < 50,000 با خونریزی نیاز به درمان
+
+@ddx
+- !TTP / DIC / HELLP syndrome (platelet transfusion may worsen TTP / DIC) |
+- Drug-induced thrombocytopenia |
+- Marrow failure / leukemia |
+
+@redflags
+- پلاکت < 10,000، خونریزی CNS/فعال، TTP/DIC
+
+@guide
+ثبات گردش خون خونریزی‌دهنده: احیای حجم، PRBC و پرسور؛ شرح حال و معاینه متمرکز؛ CBC با اسمیر، PT/INR، PTT، BMP، type and screen، فیبرینوژن. ترانسفیوژن پلاکت: < 10,000/mm³ یا خونریزی فعال با < 50,000؛ مشاوره هماتولوژی (در DIC و TTP ترانسفیوژن ممکن است بدتر کند). ITP: پلاکت > 50,000 بدون درمان؛ < 30,000 یا < 50,000 با خونریزی: prednisone 60 تا 100 mg PO روزانه (شروع اثر 4 تا 14 روز)؛ immunoglobulin 1 g/kg روزانه IV (شروع 1 تا 3 روز) برای پلاکت بسیار پایین و خونریزی؛ در ترانسفیوژن پلاکت معمولاً 2 تا 3 برابر دوز معمول لازم است.
+
+@variant itp-treatment
+name: Immune thrombocytopenia (ITP) requiring treatment (< 30,000, or < 50,000 with bleeding)
+level: II
+imp: Immune thrombocytopenia (ITP)
+cond: Urgent
+act: CBR
+diet: PO
+ecg: once
+cxr: none
+
+@scenario
+زن ۳۰ ساله با پتشی منتشر و خونریزی لثه، پلاکت 12,000 و اسمیر بدون شیستوسیت.
+
+@why
+استروئید و در خونریزی IVIG؛ پلاکت فقط در خونریزی تهدیدکننده.
+
+@L
+- CBC with peripheral smear (exclude schistocytes), PT/INR, PTT, BMP, type and screen, fibrinogen; HIV / HCV as per workup; pregnancy test
+
+@S
+- Prednisone 60–100 mg PO daily (onset 4–14 days)
+- Immunoglobulin 1 g/kg IV daily (onset 1–3 days), reserved for very low platelet count with bleeding {hi}
+
+@T
+- Platelet transfusion for life-threatening bleeding (two to three times usual dose due to circulating antibodies)
+
+@Co
+- Hematology consultation; admit if platelets < 30,000 with bleeding or high bleeding risk; platelet > 50,000 usually no treatment
+
+@variant platelet-defect-bleeding
+name: Acquired platelet defect with active bleeding (circulatory stabilization, platelet transfusion)
+level: I
+imp: Acquired platelet disorder with bleeding
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: none
+
+@scenario
+مرد ۵۵ ساله با سابقه سوءمصرف الکل و پلاکت 30,000 با خونریزی فعال GI.
+
+@why
+احیا و پلاکت برای < 50,000 با خونریزی فعال.
+
+@L
+- CBC with smear, PT/INR, PTT, BMP, type and screen, fibrinogen
+
+@S
+- Volume resuscitation, packed red cell transfusion, pressors as necessary {ci: caution in heart failure / pulmonary edema}
+- Platelet transfusion if count < 10,000/mm³ or active bleeding with < 50,000/mm³ {note: platelet transfusion may worsen DIC and TTP}
+
+@T
+- Circulatory stabilization of the bleeding patient (paramount); focused history and examination
+
+@Co
+- Hematology consultation; admit
+
+@cond bleeding-liver-renal-disease
+ch: 134
+name: Bleeding in liver disease and renal disease
+name_fa: خونریزی در بیماری کبد و کلیه
+cc: bleeding-bruising, gi-bleeding
+keywords: coagulopathy of liver disease, uremic bleeding, desmopressin, fresh frozen plasma, cryoprecipitate, variceal bleeding, خونریزی بیماری کبدی, اورمی
+status: draft
+
+@features
+- بیماری کبد: کاهش سنتز فاکتورهای وابسته به vitamin K (II، VII، IX، X)، ترومبوسیتوپنی، افزایش فیبرینولیز؛ بیماری کلیه: اختلال عملکرد پلاکت به‌علت کم‌خونی، کمبود فاکتورهای انعقادی و ترومبوسیتوپنی
+
+@ddx
+- !Variceal bleeding / GI bleed |
+- DIC |
+
+@redflags
+- خونریزی واریسی، PT/INR بسیار بالا، پلاکت < 60,000
+
+@guide
+کبد: PRBC در صورت نیاز؛ پلاکت برای < 60,000؛ FFP 15 mL/kg IV با احتیاط (خطر ترومبوز و افزایش فشار پورت و بدتر شدن خونریزی واریسی). کلیه: PRBC در صورت نیاز؛ desmopressin 0.3 µg/kg SC یا IV عملکرد پلاکت را سریع بهبود می‌دهد؛ همودیالیز 1 تا 2 روز موقتاً؛ پلاکت و cryoprecipitate فقط در خونریزی تهدیدکننده حیات.
+
+@variant bleeding-liver-disease
+name: Bleeding in liver disease
+level: I
+imp: Coagulopathy of liver disease with bleeding
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: none
+
+@scenario
+مرد ۵۵ ساله سیروتیک با خونریزی GI، INR 2.8، پلاکت 45,000.
+
+@why
+PRBC، پلاکت < 60,000 و FFP محتاطانه.
+
+@L
+- CBC, PT/INR, PTT, fibrinogen, liver function tests, BMP, type and crossmatch
+
+@S
+- Packed red cell transfusion as needed
+- Platelet transfusion for thrombocytopenia < 60,000/mm³
+- Fresh frozen plasma 15 mL/kg IV with caution {ci: may increase thrombotic risk and portal hypertension (worsen variceal bleeding)}
+
+@T
+- Hemodynamic support; source control
+
+@Co
+- Admit ICU; gastroenterology / hepatology
+
+@variant bleeding-renal-disease
+name: Uremic bleeding
+level: II
+imp: Bleeding in renal disease (platelet dysfunction)
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: once
+cxr: none
+
+@scenario
+مرد ۶۰ ساله دیالیزی با خونریزی طولانی از محل فیستول و کبودی.
+
+@why
+دسموپرسین سریع، دیالیز و RBC.
+
+@L
+- CBC, PT/INR, PTT, BMP (BUN, creatinine, K), type and screen
+
+@S
+- Desmopressin 0.3 µg/kg SC or IV (improves platelet function rapidly)
+- Packed red cell transfusion as needed
+
+@T
+- Platelets and cryoprecipitate for life-threatening bleeding only
+
+@Co
+- Nephrology: hemodialysis improves platelet function transiently (1–2 days)
+
+@cond dic-and-circulating-anticoagulant
+ch: 134
+name: Disseminated intravascular coagulation (DIC) and acquired hemophilia
+name_fa: انعقاد منتشر داخل‌عروقی (DIC) و هموفیلی اکتسابی
+cc: bleeding-bruising, hypotension-shock, fever
+keywords: DIC, disseminated intravascular coagulation, fibrinogen, fresh frozen plasma, tranexamic acid, acquired hemophilia, factor VIII inhibitor, recombinant factor VIIa, DIC
+status: draft
+
+@features
+- DIC: خونریزی و ترومبوز همزمان بسته به بیماری زمینه‌ای؛ خونریزی غالب: از پتشی تا خونریزی منتشر GI/GU، زخم جراحی و محل ورید
+- مهارکننده فاکتور VIII (هموفیلی A اکتسابی): کبودی و هماتوم خودبه‌خودی
+
+@ddx
+- !Sepsis / trauma / obstetric catastrophe (underlying cause) |
+- TTP / liver failure |
+
+@redflags
+- خونریزی منتشر، فیبرینوژن < 150، پلاکت < 20,000
+
+@guide
+DIC: درمان بیماری زمینه‌ای و حمایت همودینامیک (پرسور و PRBC)؛ پلاکت اگر < 20,000 یا < 50,000 با خونریزی فعال؛ FFP 15 mL/kg برای بیمار خونریزی‌دهنده با PT/PTT > 1.5 برابر حد بالا یا فیبرینوژن < 150 mg/dL؛ fibrinogen concentrate در هیپوفیبرینوژنمی و خونریزی فعال با هدف 100 تا 150 mg/dL؛ vitamin K IV در خونریزی با PT بالا؛ heparin در تظاهر غالب ترومبوز؛ tranexamic acid فقط در DIC ناشی از تروما. مهارکننده فاکتور VIII: مشاوره هماتولوژی؛ خونریزی حاد: recombinant factor VIIa و activated prothrombin complex concentrate.
+
+@variant dic-main
+name: Disseminated intravascular coagulation (bleeding-predominant)
+level: I
+imp: Disseminated intravascular coagulation
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+
+@scenario
+مرد ۶۵ ساله با سپسیس شکمی، خونریزی از محل‌های ورید، PT 28، فیبرینوژن 90 و پلاکت 25,000.
+
+@why
+درمان علت و جایگزینی بر اساس معیارها.
+
+@I
+- CXR portable; source imaging per underlying cause
+
+@L
+- CBC with smear (schistocytes), PT/INR, PTT, fibrinogen, D-dimer / FDP, BMP, lactate, liver function tests; type and crossmatch; blood cultures if sepsis
+
+@S
+- Platelet transfusion if count < 20,000/mm³, or < 50,000/mm³ with active bleeding
+- Fresh frozen plasma 15 mL/kg for bleeding patient with PT or PTT > 1.5 × ULN or fibrinogen < 150 mg/dL
+- Fibrinogen concentrate for hypofibrinogenemia with active bleeding (goal 100–150 mg/dL)
+- Vitamin K IV for bleeding patients with elevated PT
+- Packed red cells and pressors as necessary
+- Heparin only for clinical picture dominated by thrombosis; tranexamic acid only for DIC due to trauma {ci: avoid in sepsis-related DIC}
+
+@T
+- Treat the underlying illness; hemodynamic support
+
+@Co
+- ICU admission; hematology
+
+@variant acquired-hemophilia
+name: Acquired hemophilia A (factor VIII inhibitor)
+level: II
+imp: Acquired hemophilia A (factor VIII inhibitor) with bleeding
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: none
+
+@scenario
+مرد ۷۰ ساله با کبودی‌ها و هماتوم‌های خودبه‌خودی بزرگ، aPTT بسیار طولانی که با mixing اصلاح نمی‌شود.
+
+@why
+مشاوره فوری هماتولوژی؛ rFVIIa یا aPCC.
+
+@L
+- CBC, PT/INR, aPTT with mixing study, factor VIII level and inhibitor titer (hematology), fibrinogen, BMP, type and screen
+
+@S
+- Recombinant factor VIIa or activated prothrombin complex concentrate for acute bleeding episodes (per hematology)
+
+@T
+- Hemodynamic support; avoid IM injections
+
+@Co
+- Urgent hematology consultation; admit

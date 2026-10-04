@@ -1,0 +1,419 @@
+@cond massive-hemorrhage-transfusion
+ch: 137
+name: Acute hemorrhage requiring transfusion (PRBC, massive transfusion, blood products)
+name_fa: خونریزی حاد نیازمند ترانسفیوژن (PRBC، ترانسفیوژن ماسیو و فرآورده‌های خونی)
+cc: hypotension-shock, bleeding-bruising, trauma-major
+keywords: transfusion, packed red blood cells, massive transfusion, fresh frozen plasma, cryoprecipitate, platelets, universal donor O negative, fibrinogen concentrate, PCC, ترانسفیوژن, گلبول قرمز
+status: draft
+
+@features
+- هدف ترانسفیوژن: بهبود رسانش اکسیژن به بافت، افزایش حجم داخل‌عروقی و جایگزینی فاکتورهای انعقادی از دست رفته؛ دقت فراوان برای تحویل فرآورده درست به بیمار درست
+- خون کامل: ندرتاً اندیکاسیون؛ نگهداری پلاکت و فاکتورها را غیرفعال می‌کند؛ لذا به اجزا تقسیم می‌شود
+- PRBC: هر واحد 250 mL، Hb بزرگسال را 1 g/dL (Hct 3%) بالا می‌برد؛ کودک 10 تا 15 mL/kg ← Hb حدود 2 تا 3 g/dL (Hct 6 تا 9%)؛ تصمیم بر اساس قضاوت بالینی؛ بیمار سالم نورمووولمیک تا Hb 7 g/dL رسانش کافی دارد؛ اندیکاسیون‌ها: خونریزی حاد حدود 30% حجم خون (1500 mL بزرگسال)، خونریزی حاد، بیمار ناپایدار تروما با پاسخ ناکافی به 2 L کریستالوئید (40 mL/kg کودک)، کم‌خونی علامت‌دار با Hb < 7 یا در خطر ایسکمی (Hb < 8 تا 9 با سپسیس یا ایسکمی قلب/مغز)
+- تعیین گروه حدود 15 دقیقه؛ cross-match سرولوژیک 45 تا 60 دقیقه؛ بحرانی: خون O/Rh-negative («دهنده جهانی») بدون انتظار cross-match؛ O/Rh-positive اگر Rh-negative نباشد ولی در دختران و زنان سن باروری اجتناب؛ قبل از ترانسفیوژن آزمایش پایه، تایپ و cross-match
+- PRBC ویژه: leukoreduced، irradiated، frozen deglycerolized، washed، CMV-negative (نوزاد، پیوند، ترانسفیوژن قبلی، بارداری، نقص ایمنی، حساسیت به پلاسما)
+- ماسیو ترانسفیوژن: جایگزینی یک حجم خون یا حدود 10 واحد PRBC در 24 ساعت؛ نسبت PRBC:پلاکت:FFP بحث‌برانگیز (1:1:1)؛ عوارض: کوآگولوپاتی، سمیت citrate، هیپوکلسمی، هیپومنیزمی و هیپوترمی
+- پلاکت: اندیکاسیون‌ها: < 5,000 بدون علامت، < 20,000 با اختلال انعقاد، < 50,000 با خونریزی فعال یا پروسیجر تهاجمی ظرف 4 ساعت، < 100,000 با جراحی نورو/قلب، یا پروتکل ماسیو؛ معمولاً در نقص عملکرد (اورمی) یا مصرف/جداسازی (DIC) تا اصلاح علت مفید نیست؛ یک apheresis تا 50,000 افزایش؛ دوز 1 واحد یا 5 mL/kg (pooled: 6 واحد)؛ شمارش 1 و 24 ساعت بعد
+- FFP: همه فاکتورها و فیبرینوژن؛ اندیکاسیون: کمبود چندگانه (نارسایی کبد، warfarin، ماسیو)، پیش از پروسیجر پرخطر با PT/INR > 1.5 برابر، aPTT > 1.5 برابر یا فعالیت فاکتور < 25%؛ برای INR طولانی بدون خونریزی فعال اندیکاسیون ندارد؛ 20 تا 40 دقیقه ذوب؛ هر واحد 3 تا 5% افزایش فاکتورها (70 kg)؛ ABO-compatible؛ AB دهنده جهانی؛ دوز اولیه 15 mL/kg (4 واحد/70 kg)؛ برای برگشت سریع VKA: PCC یا rFVIIa سریع‌تر و مطمئن‌تر
+- cryoprecipitate: هر bag: 80 U فاکتور VIII، vWF، 40 تا 60 U فیبرینوژن، فاکتور XIII؛ اندیکاسیون: خونریزی فعال با هیپوفیبرینوژنمی (< 100 mg/dL) (DIC، بیماری شدید کبد، abruptio، آمبولی مایع آمنیوتیک، ماسیو)؛ vWD (DDAVP بی‌اثر، نوع 2B یا فاکتور VIII-vWF در دسترس نیست)؛ هموفیلی A (در نبود فاکتور VIII ویروس‌زدایی‌شده)؛ دوز 1 واحد/5 kg (10 تا 14 واحد بزرگسال) ← فیبرینوژن به 75 mg/dL
+- fibrinogen concentrate: کمبود مادرزادی؛ دوز بر اساس پایه، هدف (> 150 mg/dL)، حجم توزیع و وزن؛ پایه نامعلوم: 70 mg/kg؛ PCC: فاکتورهای II، VII، IX، X (برخی با پروتئین C/S، آنتی‌ترومبین و هپارین)، بدون نیاز تست ABO؛ rFVIIa: هموفیلی با مهارکننده؛ جدول 137-2 کمبودهای مادرزادی فاکتور: I: cryoprecipitate/fibrinogen concentrate؛ II: 3 یا 4-factor PCC؛ V: FFP؛ VII: 4-factor PCC برای خونریزی عمده/rFVIIa؛ VIII: فاکتور VIII نوترکیب/desmopressin؛ vWD: desmopressin یا فاکتور VIII؛ IX: فاکتور IX نوترکیب؛ X: FFP خفیف/PCC عمده؛ XI: FFP؛ XII: بدون علائم خونریزی؛ XIII: FFP یا cryoprecipitate
+
+@ddx
+- !Hemorrhagic shock (trauma, GI bleed, ruptured AAA, ectopic) |
+- Septic / cardiogenic shock |
+
+@redflags
+- شوک هموراژیک، ماسیو ترانسفیوژن، کوآگولوپاتی، هیپوترمی، هیپوکلسمی
+
+@guide
+PRBC معمولاً طی 1 تا 2 ساعت (سریع‌تر در ناپایداری؛ هر واحد تا 4 ساعت)؛ فیلتر micropore؛ فقط NS با PRBC سازگار؛ گرم‌کن خون یا سالین گرم (39 تا 43°C). ماسیو: PRBC، FFP و پلاکت (1:1:1)؛ کلسیم برای سمیت citrate. عوارض حاد: febrile nonhemolytic (شایع‌ترین)، همولیز حاد، ناسازگاری ABO، آلرژی/آنافیلاکسی، TRALI؛ تأخیری: همولیز تأخیری، GVHD مرتبط با ترانسفیوژن، purpura پس از ترانسفیوژن، انتقال عفونت. در هر شک به واکنش: 1) فوراً ترانسفیوژن را قطع، 2) بانک خون را مطلع.
+
+@variant hemorrhage-transfusion-prbc
+name: Hemorrhage with indication for PRBC transfusion (non-massive)
+level: I
+imp: Acute blood loss / anemia requiring PRBC transfusion
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+o2: titrate to SpO2 ≥ 94%
+
+@scenario
+مرد ۵۵ ساله با خونریزی GI و Hb 6.5، HR 120 و فشار 90/60 پس از 2 L کریستالوئید.
+
+@why
+تایپ و cross-match؛ PRBC و منبع خونریزی.
+
+@L
+- Baseline CBC, coagulation (PT/INR, PTT, fibrinogen), BUN, creatinine, electrolytes, lactate; type and crossmatch (blood for baseline labs obtained BEFORE transfusion)
+
+@S
+- Packed red blood cells (1 unit = 250 mL raises Hb ~1 g/dL; children 10–15 mL/kg): transfuse over 1–2 h, faster if unstable (max 4 h per unit); in-line blood warmer / warmed saline 39–43°C; filter (micropore); NS is the only compatible crystalloid {hi}
+- Initial crystalloid bolus 2 L (40 mL/kg children) then PRBC if inadequate response {ci: caution in heart failure / pulmonary edema}
+- Emergency: group O/Rh-negative blood if no time for typing (Rh-positive acceptable if Rh-negative unavailable, but avoid in girls / women of childbearing potential)
+
+@T
+- Source control of bleeding; monitor for transfusion reaction (stop and contact blood bank if suspected)
+
+@Co
+- Admit ICU / monitored bed; surgery / GI as appropriate; hematology if coagulopathy
+
+@variant hemorrhage-massive-transfusion
+name: Massive transfusion protocol (≥ 10 units PRBC / 24 h)
+level: I
+imp: Hemorrhagic shock, massive transfusion
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+
+@scenario
+مصدوم تروما با شوک هموراژیک و خونریزی ادامه‌دار پس از 6 واحد PRBC.
+
+@why
+نسبت 1:1:1، کلسیم و پیشگیری از هیپوترمی.
+
+@L
+- CBC, PT/INR, PTT, fibrinogen, ionized calcium, magnesium, potassium, lactate, blood gas, thromboelastography if available; type and crossmatch ongoing
+
+@S
+- Massive transfusion protocol: PRBC : platelets : fresh frozen plasma at ~1:1:1 (ratio controversial)
+- Calcium (citrate toxicity / hypocalcemia) and magnesium replacement as needed
+- FFP starting dose 15 mL/kg (4 units in 70 kg); cryoprecipitate 1 unit/5 kg (10–14 units) for fibrinogen < 100 mg/dL; platelets 1 apheresis unit or 5 mL/kg for count < 50,000 with active bleeding
+- Fibrinogen concentrate 70 mg/kg if baseline unknown (target > 150 mg/dL); 4-factor PCC for coagulopathy as indicated {note: book dosing 70 "mL/dL/kg" typographical; use mg/kg per Table 138-2}
+
+@T
+- Warm all products (blood warmer; warmed saline 39–43°C) to prevent hypothermia; prevent / treat coagulopathy
+
+@Co
+- Surgery / trauma / interventional radiology; ICU; blood bank
+
+@cond acute-transfusion-reaction
+ch: 137
+name: Acute transfusion reaction (hemolytic, febrile non-hemolytic, allergic, TRALI)
+name_fa: واکنش حاد ترانسفیوژن
+cc: fever, hypotension-shock, dyspnea, rash
+keywords: transfusion reaction, acute hemolytic reaction, febrile nonhemolytic, TRALI, allergic transfusion reaction, ABO incompatibility, واکنش ترانسفیوژن
+status: draft
+
+@features
+- جدول 137-1: همولیز داخل‌عروقی حاد: تب، لرز، درد کمر، flushing، تنگی نفس، تاکی‌کاردی، شوک، هموگلوبینوری؛ همولیز خارج‌عروقی تأخیری: روزها تا هفته‌ها پس از ترانسفیوژن؛ تب خفیف یا بدون علامت؛ febrile nonhemolytic (شایع‌ترین): تب و لرز؛ آلرژیک: خفیف: کهیر و خارش؛ شدید: تنگی نفس، برونکواسپاسم، هیپوتانسیون، تاکی‌کاردی، شوک؛ TRALI: ادم ریوی غیرقلبی حاد
+- دو گام اول: فوراً ترانسفیوژن را قطع و بانک خون را مطلع
+
+@ddx
+- !Sepsis (contaminated product) |
+- !Anaphylaxis / TRALI / TACO |
+- Delayed hemolysis |
+
+@redflags
+- شوک، دیسپنه، هموگلوبینوری، درد کمر و flushing
+
+@guide
+همولیز حاد داخل‌عروقی: قطع فوری؛ هیدراتاسیون IV برای حفظ دیورز؛ ممکن دیورتیک؛ حمایت قلبی-ریوی. تب بدون همولیز: قطع؛ در ابتدا مانند همولیز (قابل تفکیک نیست)؛ acetaminophen برای تب و لرز؛ معمولاً خفیف ولی در وضعیت قلبی-ریوی شکننده خطرناک؛ بررسی عفونی؛ premedication با acetaminophen واکنش را می‌پوشاند. آلرژیک: قطع؛ خفیف: diphenhydramine؛ اگر علائم رفع شد ممکن است از سر گرفته شود؛ شدید: حمایت قلبی-ریوی و ازسرگیری نه. ارزیابی همولیز: retype و repeat cross-match، Coombs مستقیم و غیرمستقیم، CBC، کراتینین، PT، aPTT، haptoglobin، bilirubin غیرمستقیم، LDH، هموگلوبین آزاد پلاسما، ادرار برای هموگلوبین. آلرژیک خفیف که با diphenhydramine رفع شد: بدون ورک‌آپ بیشتر ولی اطلاع به بانک خون.
+
+@variant transfusion-reaction-hemolytic
+name: Suspected acute hemolytic / severe transfusion reaction
+level: I
+imp: Acute transfusion reaction, suspected hemolytic
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+o2: if SpO2 < 94%
+
+@scenario
+بیمار حین ترانسفیوژن PRBC با تب 39، لرز، درد کمر، تاکی‌کاردی و هیپوتانسیون.
+
+@why
+قطع فوری، بانک خون و هیدراتاسیون.
+
+@I
+- CXR portable (TRALI / pulmonary edema)
+
+@L
+- Retype and repeat cross-match; direct and indirect Coombs; CBC, creatinine, PT, aPTT; haptoglobin, indirect bilirubin, LDH, plasma free hemoglobin; urine for hemoglobin; blood cultures (infection workup)
+
+@S
+- IV hydration to maintain diuresis; diuretics may be necessary {ci: caution in heart failure / pulmonary edema}
+
+@T
+- Immediately STOP transfusion; keep IV line open; contact blood bank that issued the product; cardiorespiratory support as indicated
+
+@Co
+- Blood bank / transfusion medicine; ICU admission; hematology / nephrology
+
+@variant transfusion-reaction-febrile-allergic
+name: Febrile nonhemolytic or mild allergic transfusion reaction
+level: III
+imp: Transfusion reaction, febrile nonhemolytic / mild allergic
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: once
+cxr: none
+
+@scenario
+بیمار حین ترانسفیوژن با لرز و تب 38.5 یا کهیر و خارش خفیف، علائم حیاتی پایدار.
+
+@why
+قطع و رد همولیز؛ آنتی‌هیستامین/acetaminophen.
+
+@L
+- Hemolytic workup (retype / cross-match, direct Coombs, CBC, creatinine, haptoglobin, LDH, bilirubin, urine hemoglobin) for fever; notify blood bank
+
+@S
+- (none; IV line open)
+
+@T
+- Stop transfusion; fever / chills: acetaminophen; mild allergic: diphenhydramine {note: if symptoms resolve, may restart for mild allergic; if severe do not restart}
+- Consider infectious workup (fever); premedication with acetaminophen can mask this reaction
+
+@Co
+- Notify blood bank; no further workup if mild symptoms resolve with diphenhydramine
+
+@cond warfarin-over-anticoagulation
+ch: 138
+name: Warfarin over-anticoagulation and warfarin-related bleeding
+name_fa: افزایش INR و خونریزی ناشی از وارفارین
+cc: bleeding-bruising, gi-bleeding
+keywords: warfarin, INR, vitamin K, 4-factor PCC, fresh frozen plasma, reversal, supratherapeutic INR, وارفارین, INR بالا
+status: draft
+
+@features
+- warfarin شایع‌ترین داروی ضدانعقاد خوراکی در آمریکا؛ مهار فاکتورهای وابسته به vitamin K؛ INR درمانی 2 تا 3 (دریچه مصنوعی یا antiphospholipid: 2.5 تا 3.5)؛ 3 تا 4 روز تا ضدانعقاد کامل؛ ابتدا حالت ترومبوژنیک 24 تا 36 ساعت؛ تا 2 روز INR در محدوده، ضدانعقاد تزریقی (bridging) به‌ویژه دریچه مصنوعی یا خطر بالا؛ تراتوژن: منع در بارداری
+- عوارض: نکروز پوست (کمبود پروتئین C)، افزایش خطر خونریزی (HTN، کم‌خونی، بیماری عروق مغز، ضایعه GI، بیماری کلیه)؛ تداخل دارو/غذا/بیماری
+- سه رویکرد برگشت: قطع warfarin، vitamin K، جایگزینی فاکتورها (شکل 138-1)
+
+@ddx
+- !Intracranial hemorrhage |
+- !GI bleeding |
+- Liver disease coagulopathy / DIC |
+
+@redflags
+- INR > 10، خونریزی تهدیدکننده، خونریزی مغزی، سن > 75، آنتی‌پلاکت همزمان
+
+@guide
+شکل 138-1: INR بالا + خونریزی تهدیدکننده یا جدی: vitamin K1 5 تا 10 mg IV آهسته؛ 4-factor PCC: INR > 6: 50 U/kg (حداکثر 5000 U)؛ INR 4 تا 6: 35 U/kg (حداکثر 3500)؛ INR < 4: 25 U/kg (حداکثر 2500)؛ جایگزین: 3-factor PCC 50 U/kg، FFP 10 تا 15 mL/kg یا rFVIIa 80 µg/kg بولوس آهسته؛ دوز بیشتر بر حسب درجه کوآگولوپاتی. بدون خونریزی مهم و INR > 10: نگه داشتن 1 تا 2 دوز بعدی، vitamin K خوراکی 2.0 تا 2.5 mg، پایش مکرر، از سرگیری با دوز تنظیم‌شده. INR 4.5 تا 10 بدون خونریزی: نگه داشتن 1 تا 2 دوز؛ اگر خطر بالا (سن > 75، آنتی‌پلاکت، polypharmacy، بیماری کبد/کلیه، الکل، جراحی/تروما اخیر): vitamin K 1 تا 2 mg PO؛ پایش. INR 3.0 تا 4.5: کاهش یا حذف یک دوز در خطر بالا؛ پایش.
+
+@variant warfarin-supratherapeutic-no-bleeding
+name: Supratherapeutic INR without significant bleeding
+level: III
+imp: Supratherapeutic INR on warfarin, no significant bleeding
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مرد ۷۵ ساله تحت warfarin با INR 8 پس از آنتی‌بیوتیک؛ بدون خونریزی.
+
+@why
+نگه داشتن دوز و vitamin K خوراکی در خطر بالا.
+
+@L
+- INR (repeat with closer monitoring); CBC, creatinine, liver function tests
+
+@S
+- INR 4.5–10: hold next 1–2 doses; if high bleeding risk (age > 75, antiplatelet use, polypharmacy, liver / renal disease, alcoholism, recent surgery or trauma) consider vitamin K1 1–2 mg PO
+- INR > 10: hold next 1–2 doses and vitamin K 2.0–2.5 mg PO; more frequent monitoring and additional vitamin K as necessary
+- INR 3.0–4.5: lower dose or omit one dose for patients at high bleeding risk
+
+@T
+- Resume appropriately adjusted warfarin dose when INR is therapeutic; more frequent INR monitoring
+
+@Co
+- Discharge with anticoagulation clinic follow-up; admit for observation per physician judgment if high bleeding risk
+
+@variant warfarin-bleeding-reversal
+name: Elevated INR with life-threatening / serious bleeding (reversal)
+level: I
+imp: Warfarin-induced coagulopathy with serious bleeding
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: none
+
+@scenario
+زن ۸۰ ساله تحت warfarin با ملنا و هیپوتانسیون؛ INR 7.2.
+
+@why
+vitamin K IV و PCC بلافاصله.
+
+@I
+- CT head if neurologic symptoms / head trauma
+
+@L
+- INR/PT, PTT, CBC, fibrinogen, BUN, creatinine, type and crossmatch, electrolytes; repeat INR after reversal
+
+@S
+- Vitamin K1 5–10 mg slow IV bolus {hi}
+- 4-factor PCC IV infusion: 50 U/kg (max 5000 U) if INR > 6; 35 U/kg (max 3500 U) if INR 4–6; 25 U/kg (max 2500 U) if INR < 4
+- Alternatives: 3-factor PCC 50 U/kg IV; FFP 10–15 mL/kg IV; rFVIIa 80 µg/kg slow IV bolus; additional doses per degree of coagulopathy
+- Packed red cells / crystalloid for hemorrhagic shock {ci: caution in heart failure}
+
+@T
+- Hold warfarin; control bleeding source
+
+@Co
+- Admit ICU / monitored bed; GI / surgery / neurosurgery as indicated
+
+@cond doac-heparin-antiplatelet-bleeding
+ch: 138
+name: Bleeding on DOACs, heparins, antiplatelets or after fibrinolytics
+name_fa: خونریزی تحت داروهای ضدانعقاد/آنتی‌پلاکت و پس از فیبرینولیتیک
+cc: bleeding-bruising, gi-bleeding, headache
+keywords: dabigatran, rivaroxaban, apixaban, idarucizumab, andexanet, protamine, heparin, enoxaparin, fondaparinux, clopidogrel, aspirin, fibrinolytic, tPA, bleeding reversal, ضدانعقاد, پروتامین
+status: draft
+
+@features
+- داروهای خوراکی: warfarin؛ مهارکننده مستقیم ترومبین (dabigatran) و مهارکننده Xa (rivaroxaban، apixaban، edoxaban) برای AF غیر دریچه‌ای؛ TCT نرمال سمیت قابل‌توجه dabigatran را رد می‌کند؛ idarucizumab 5 g IV (قابل تکرار یک بار) برای برگشت dabigatran
+- پارنترال: UFH (aPTT 1.5 تا 2.5 برابر)، LMWH (enoxaparin، dalteparin)، fondaparinux، مهارکننده‌های مستقیم ترومبین (hirudin، lepirudin، bivalirudin، argatroban)؛ enoxaparin 1 mg/kg SC هر 12 ساعت در DVT سرپایی؛ عوارض: خونریزی و HIT (hirudin/lepirudin/argatroban در HIT)؛ LMWH خطر خونریزی کمتر از UFH ولی بیشتر در بیماری کلیه
+- آنتی‌پلاکت: aspirin (مهارکننده غیرقابل‌برگشت COX)، clopidogrel، prasugrel، ticagrelor، dipyridamole، cilostazol؛ aspirin 162 تا 325 mg (غیر enteric) در ACS؛ clopidogrel بار 600 mg ← اثر کامل در 2 ساعت و تا 48 ساعت؛ omeprazole اثر clopidogrel را کم می‌کند؛ GPIIb/IIIa: خطر خونریزی در کاتتریزاسیون/CABG ولی نه ICH
+- فیبرینولیتیک: streptokinase، anistreplase، alteplase/tPA، reteplase، tenecteplase؛ خونریزی از جمله ICH؛ موارد منع (جدول 138-1): مطلق: خونریزی داخلی فعال/اخیر (< 14 روز)، سکته ایسکمیک 2 تا 6 ماه، سکته هموراژیک، جراحی/تروما داخل جمجمه/نخاع < 2 ماه، نئوپلاسم/آنوریسم/AVM، دیاتز خونریزی‌دهنده شدید، ضدانعقاد فعلی (warfarin INR > 1.7 یا heparin با aPTT بالا)، DOAC با اثر آزمایشگاهی، پلاکت < 100,000، فشار > 185/110، شک دیسکسیون آئورت یا پریکاردیت، بارداری؛ نسبی: زخم پپتیک فعال، CPR > 10 دقیقه، بیماری چشم هموراژیک، پونکسیون عروق غیرقابل فشار < 10 روز، تروما/جراحی بزرگ 2 هفته تا 2 ماه، بیماری پیشرفته کلیه/کبد؛ قاعدگی منع نیست
+
+@ddx
+- !Intracranial hemorrhage |
+- !GI hemorrhage / hemorrhagic shock |
+- Heparin-induced thrombocytopenia |
+
+@redflags
+- خونریزی مغزی، شوک هموراژیک، دریافت فیبرینولیتیک، کلیه ناکارآمد (LMWH/dabigatran)
+
+@guide
+جدول 138-2: هپارین‌ها: خونریزی جزئی: قطع فوری؛ aPTT ممکن است بالا نباشد؛ اثر تا 3 ساعت از آخرین دوز IV؛ مشاهده و aPTT سریال؛ خونریزی عمده: protamine 1 mg IV برای هر 100 U UFH ظرف 3 ساعت اخیر؛ آهسته IV طی 1 تا 3 دقیقه حداکثر 50 mg در 10 دقیقه؛ خطر آنافیلاکسی؛ LMWH را کامل برنمی‌گرداند؛ enoxaparin: protamine 1 mg (حداکثر 50 mg) برای هر 1 mg ظرف 8 ساعت؛ 8 تا 12 ساعت: 0.5 mg برای هر 1 mg؛ dalteparin/tinzaparin: 1 mg برای هر 100 U و در aPTT طولانی 2 تا 4 ساعت پس از protamine دوز دوم 0.5 mg/100 U. fondaparinux: اثر 24 تا 30 ساعت؛ در خونریزی تهدیدکننده شواهد موردی rFVIIa 90 µg/kg IV. مهارکننده مستقیم ترومبین: dabigatran: زغال فعال اگر مصرف اخیر/زیاد؛ حفظ دیورز؛ همودیالیز یا hemoperfusion؛ خونریزی تهدیدکننده: به ترتیب aPCC، rFVIIa یا PCC؛ شدید/برگشت فوری: idarucizumab 5 g IV (تکرار یک بار). مهارکننده Xa: rivaroxaban: در خونریزی عمده شواهد تجربی PCC؛ apixaban: andexanet alfa (در صورت دسترسی؛ دوز ثابت نشده). آنتی‌پلاکت: aspirin: desmopressin 0.3 تا 0.4 µg/kg IV طی 30 دقیقه؛ پلاکت برای افزایش 50,000 (یک apheresis یا 6 واحد random)؛ مهار aspirin تا 7 روز و گاه تکرار؛ clopidogrel/prasugrel/ticagrelor: پلاکت و desmopressin مشابه؛ مهار NSAID معمولاً < 1 روز و clopidogrel/prasugrel/ticagrelor تا 5 تا 7 روز. فیبرینولیتیک: خونریزی خارجی جزئی: فشار دستی؛ خونریزی داخلی قابل‌توجه: قطع فیبرینولیتیک، آنتی‌پلاکت و/یا هپارین، protamine؛ type and cross؛ aPTT، CBC، TCT و فیبرینوژن؛ حجم با کریستالوئید و PRBC؛ خونریزی عمده/اختلال همودینامیک: همه موارد قبلی + fibrinogen concentrate 70 mg/kg IV و کنترل فیبرینوژن (اگر < 100 mg/dL تکرار)؛ اگر ادامه یا وجود فیبرینوژن > 100: FFP دو واحد؛ سپس ضدفیبرینولیتیک: aminocaproic acid 5 g IV طی 60 دقیقه و سپس 1 g/h برای 8 ساعت یا تا قطع خونریزی، یا tranexamic acid 10 mg/kg IV هر 6 تا 8 ساعت؛ پلاکت؛ ICH: همه موارد + مشاوره فوری نوروسرجری.
+
+@variant bleeding-heparin-lmwh
+name: Bleeding on heparin / LMWH / fondaparinux
+level: I
+imp: Bleeding complication of heparin / LMWH
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: none
+
+@scenario
+مرد ۶۵ ساله تحت enoxaparin 1 mg/kg با هماتوم رتروپریتوان و افت Hb.
+
+@why
+protamine بر اساس دوز و فاصله زمانی.
+
+@I
+- CT as indicated for site of bleeding (e.g., abdomen / pelvis, head)
+
+@L
+- aPTT (serial), CBC, platelets (HIT), creatinine, type and crossmatch, fibrinogen, TCT
+
+@S
+- Protamine slowly IV over 1–3 min (max 50 mg in 10 min) {hi} {note: anaphylaxis risk; does not completely reverse LMWH}: UFH — 1 mg per 100 units UFH given in past 3 h; enoxaparin — 1 mg per 1 mg given in past 8 h (max 50 mg; 0.5 mg per 1 mg if 8–12 h); dalteparin / tinzaparin — 1 mg per 100 units, second dose 0.5 mg per 100 units if aPTT remains prolonged 2–4 h after
+- Fondaparinux (antithrombotic effect 24–30 h): for life-threatening bleeding, rFVIIa 90 µg/kg IV (anecdotal)
+- Packed red cells / crystalloid for hemorrhagic shock {ci: caution in heart failure}
+
+@T
+- Immediate cessation of heparin; observation with serial aPTT for minor bleeding
+
+@Co
+- Admit; hematology; surgery / neurosurgery as indicated
+
+@variant bleeding-doac
+name: Bleeding on direct oral anticoagulants (dabigatran, rivaroxaban, apixaban)
+level: I
+imp: Bleeding complication of direct oral anticoagulant
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: none
+
+@scenario
+مرد ۷۸ ساله تحت dabigatran با خونریزی شدید GI یا ICH.
+
+@why
+idarucizumab برای dabigatran؛ PCC/andexanet برای مهارکننده Xa.
+
+@I
+- CT head if neurologic symptoms; imaging per bleeding site
+
+@L
+- Thrombin clotting time (normal excludes significant dabigatran effect), aPTT, PT/INR, anti-Xa level if available, CBC, creatinine (clearance), type and crossmatch
+
+@S
+- Dabigatran: idarucizumab 5 g IV for severe bleeding or urgent reversal (may repeat once) {hi}; if unavailable: aPCC, rFVIIa, or PCC (descending order)
+- Rivaroxaban: PCC for major bleeding (experimental evidence); apixaban: andexanet alfa when available (dose not established)
+- Packed red cells / crystalloid for hemorrhagic shock {ci: caution in heart failure}
+
+@T
+- Oral activated charcoal if recent or excessive dabigatran ingestion; maintain urine output
+- Consider hemodialysis (removes ≥ 60% of dabigatran; not effective for rivaroxaban) or charcoal hemoperfusion
+
+@Co
+- Admit ICU; hematology / neurosurgery as indicated
+
+@variant bleeding-antiplatelet
+name: Bleeding on antiplatelet agents (aspirin, clopidogrel, prasugrel, ticagrelor)
+level: II
+imp: Bleeding complication of antiplatelet therapy
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: none
+
+@scenario
+مرد ۷۰ ساله تحت aspirin + clopidogrel با اپیستاکسی مداوم و هماتوم؛ یا ICH.
+
+@why
+پلاکت و DDAVP؛ مدت اثر دارو را در نظر بگیر.
+
+@L
+- CBC with platelet count, PT/INR, PTT, creatinine, type and screen
+
+@S
+- Desmopressin 0.3–0.4 µg/kg IV over 30 min {ci: hyponatremia / fluid overload risk}
+- Platelet transfusion to raise count by 50,000/mm³ (one apheresis single-donor unit or six random-donor units); repeat if needed (aspirin inhibition up to 7 days; clopidogrel / prasugrel / ticagrelor 5–7 days; NSAID < 1 day)
+
+@T
+- Hold antiplatelet agents; local hemostasis / source control
+
+@Co
+- Admit; neurosurgery / GI / ENT as indicated
+
+@variant bleeding-post-fibrinolytic
+name: Bleeding after fibrinolytic therapy (including intracranial hemorrhage)
+level: I
+imp: Hemorrhage complicating fibrinolytic therapy
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: none
+
+@scenario
+مرد ۶۰ ساله ۳ ساعت پس از tPA برای MI با خونریزی GI یا سردرد ناگهانی و کاهش هوشیاری.
+
+@why
+قطع فیبرینولیتیک؛ فیبرینوژن/FFP/ضدفیبرینولیتیک؛ CT و نوروسرجری در ICH.
+
+@I
+- CT head STAT if neurologic change (do not delay treatment)
+
+@L
+- aPTT, CBC, thrombin clotting time, fibrinogen level (recheck after fibrinogen concentrate), PT/INR, type and crossmatch
+
+@S
+- Volume replacement with crystalloid and packed red blood cells as needed {ci: caution in heart failure}
+- Fibrinogen concentrate 70 mg/kg IV; recheck fibrinogen; repeat if < 100 mg/dL {note: book states "70 mL/kg"; per table units mg/kg}
+- If bleeding persists: FFP two units IV
+- If bleeding continues after FFP: aminocaproic acid 5 g IV over 60 min then 1 g/h infusion for 8 h or until bleeding stops, or tranexamic acid 10 mg/kg IV every 6–8 h; consider platelet transfusion
+- Protamine to reverse heparin as above (1 mg per 100 units UFH in past 3 h)
+
+@T
+- Immediate cessation of fibrinolytic, antiplatelet agent and/or heparin; manual pressure for minor external bleeding
+
+@Co
+- Immediate neurosurgery consultation if intracranial hemorrhage; ICU admission
