@@ -1,0 +1,231 @@
+@cond congenital-heart-cyanosis-shock
+ch: 72
+name: Congenital heart disease: neonatal cyanosis, ductal-dependent shock and tet spells
+name_fa: بیماری قلبی مادرزادی: سیانوز نوزاد، شوک وابسته به داکتوس و حمله tet
+cc: pediatric-other, hypotension-shock
+keywords: congenital heart disease, cyanotic heart disease, ductal dependent, coarctation, transposition of great arteries, tetralogy of Fallot, tet spell, prostaglandin E1, hyperoxia test, سیانوز مادرزادی
+status: draft
+
+@features
+- شش تظاهر شایع: سیانوز، شوک، CHF، سوفل پاتولوژیک، هیپرتانسیون و سنکوپ (جدول 72-1)؛ سیانوز و شوک معمولاً در 2 هفته اول و دراماتیک
+- نوزاد سیانوتیک: افتراق وسیع: سپسیس، پنومونی، متابولیک (فصل ۷۹) و NAT؛ hyperoxia test: با اکسیژن 100٪ در بیماری قلبی سیانوتیک PaO2/اشباع بالا نمی‌رود، در ریوی اغلب بهبود (ناقص)
+- سیانوز مرکزی (شامل مخاط) شاخص؛ سیانوز اندام دیستال ممکن است طبیعی باشد؛ در پوست تیره دشوار: اشباع پره‌داکتال (دست راست) و پست‌داکتال (پا) و فشار چهار اندام؛ سوفل همراه سیانوز: مطرح CHD ولی نبود سوفل رد نمی‌کند؛ تاکی‌پنه بدون زحمت و سطحی
+- شوک نوزاد (به‌ویژه 2 هفته اول): ductal-dependent: رنگ‌پریدگی/«خاکستری»، mottling، سیانوز، تغییر هوشیاری، تاکی‌کاردی و تاکی‌پنه؛ اختلاف نبض/فشار پره/پست‌داکتال (کوآرکتاسیون)
+- ارزیابی: CXR (اندازه/شکل قلب، جریان خون ریوی) و ECG (انحراف محور راست و RVH در سیانوتیک؛ LVH در انسداد خروجی چپ)؛ اکو تشخیص قطعی
+- TGA: شایع‌ترین سیانوتیک هفته اول؛ بدون کاردیومگالی یا سوفل؛ S2 بلند و منفرد؛ «egg on a string»؛ TOF: شایع‌ترین کلی؛ سوفل VSD و PS؛ سیانوز در شیرخوار/کودک؛ «boot-shaped»؛ squatting؛ tet spell: تنگی نفس حمله‌ای، سیانوز افزایش‌یافته و سنکوپ بعد از تغذیه/گریه/زور زدن
+- انسداد خروجی بطن چپ: بستن داکتوس → کاهش پرفیوژن، رنگ‌پریدگی، هیپوتانسیون، تاکی‌پنه و اسیدوز لاکتیک شدید؛ کاهش نبض پا نسبت به براکیال راست = کوآرکتاسیون
+
+@ddx
+- !Sepsis in a neonate |
+- !Ductal-dependent congenital heart disease |
+- !Inborn error of metabolism |
+- Pneumonia / pulmonary disease |
+- Nonaccidental trauma |
+
+@redflags
+- شوک نوزاد، اختلاف نبض/فشار بین بازو و پا، سیانوز بی‌پاسخ به اکسیژن، tet spell با سنکوپ
+
+@guide
+سیانوز و دیسترس: اکسیژن با جریان بالا، مانیتور قلبی و اکسیژن و IV/IO پایدار. هشدار: نوزاد با اشباع پایین را تحمل می‌کند (HbF)؛ اکسیژن واژودیلاتور ریوی قوی است و می‌تواند «pulmonary steal» ایجاد کند و شوک سیستمیک را در lesion های وابسته به داکتوس مثل کوآرکتاسیون بدتر کند: پروستاگلاندین حیاتی است. شوک شدید با شک به shunt-dependent: PGE1 شروع با 0.05 µg/kg/min، کاهش به کمترین دوز مؤثر؛ تا 0.2 μg/kg/min اگر بهبود نیافت؛ عوارض: تب، فلاشینگ، اسهال، آپنه دوره‌ای. مشاوره فوری کاردیولوژی اطفال و در شوک اینتنسیویست اطفال. tet spell: وضعیت knee-to-chest و morphine sulfate 0.2 mg/kg SC/IM/IO؛ موارد مقاوم: phenylephrine برای هیپوتانسیون یا propranolol برای تاکی‌کاردی با مشاوره. علل غیرقلبی را درمان کن؛ چالش مایع 10 تا 20 mL/kg نرمال سالین و آنتی‌بیوتیک تجربی؛ در CHD نوزاد محتاطانه (بولوس 10 mL/kg). epinephrine داروی اولیه هیپوتانسیون: انفوزیون 0.05 تا 0.5 μg/kg/min. بستری در NICU/PICU.
+
+@variant chd-cyanosis-neonate
+name: Cyanotic neonate / suspected cyanotic heart disease
+level: I
+imp: Neonatal cyanosis (suspected congenital heart disease)
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+o2: O2 therapy: high-flow oxygen; hyperoxia test on 100% oxygen; note neonates tolerate low saturations; preductal and postductal pulse oximetry
+
+@scenario
+نوزاد ۴ روزه با سیانوز مرکزی و تاکی‌پنه بدون زحمت؛ سوفل ندارد.
+
+@why
+hyperoxia test و ECG/CXR؛ اکو؛ PGE1 در شک به وابسته به داکتوس.
+
+@I
+- Chest radiograph (heart size, shape, pulmonary blood flow, position of aortic arch); echocardiography (generally required to define the diagnosis)
+
+@L
+- Preductal (right upper extremity) and postductal pulse oximetry and four-extremity blood pressures; hyperoxia test on 100% oxygen
+
+@T
+- High-flow oxygen, cardiac and oxygen monitoring, and a stable intravenous or intraosseous line
+- Prostaglandin E1 0.05 µg/kg/min, tapered to the lowest effective dose; may be increased to 0.2 μg/kg/min if no improvement (fever, skin flushing, diarrhea, periodic apnea) {hi}
+
+@Co
+- Immediate pediatric cardiologist consultation; NICU/PICU admission
+
+@variant chd-shock-neonate
+name: Neonatal shock from ductal-dependent lesion (coarctation, critical AS, HLHS)
+level: I
+imp: Neonatal cardiogenic shock (ductal-dependent congenital heart disease)
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+o2: O2 therapy: oxygen cautiously (pulmonary steal may worsen systemic shock in ductal-dependent systemic flow); preductal and postductal oximetry
+
+@scenario
+نوزاد ۱۰ روزه با رنگ خاکستری، نبض فمورال ضعیف، فشار پا کمتر از دست و اسیدوز لاکتیک.
+
+@why
+بستن داکتوس: PGE1 فوری؛ اکسیژن می‌تواند بدتر کند؛ بولوس‌های 10 mL/kg.
+
+@I
+- Chest radiograph; ECG with pediatric analysis; echocardiography
+
+@L
+- Four-extremity blood pressures (differential between preductal right brachial and postductal femoral pulses/BP); lactate {note: lactate not specified in this chapter}
+
+@S
+- Fluid challenge 10 to 20 mL/kg normal saline; in neonates with congenital heart disease more judiciously, typically 10 mL/kg boluses {ci: heart failure / pulmonary edema}
+
+@A
+- Empiric antibiotics as indicated for noncardiac causes (sepsis) {note: see Chapter 66}
+
+@T
+- Prostaglandin E1 0.05 µg/kg/min, tapered to the lowest effective dose; may increase to 0.2 μg/kg/min if no improvement {hi}
+- Epinephrine infusion 0.05 to 0.5 μg/kg/min titrated to desired blood pressure (initial drug of choice for hypotension)
+
+@Co
+- Immediate pediatric cardiologist and pediatric intensivist consultation; admit NICU/PICU
+
+@variant chd-tet-spell
+name: Hypercyanotic (tet) spell of tetralogy of Fallot
+level: I
+imp: Hypercyanotic spell (tetralogy of Fallot)
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: portable
+o2: O2 therapy: high-flow oxygen with cardiac and oxygen monitoring
+
+@scenario
+شیرخوار ۸ ماهه با TOF و سیانوز ناگهانی و سنکوپ بعد از گریه.
+
+@why
+وضعیت knee-to-chest و morphine؛ phenylephrine یا propranolol در مقاوم.
+
+@T
+- Knee-to-chest position; Morphine sulfate 0.2 mg/kg SC, IM or IO {hi}
+- Resistant cases: Phenylephrine for hypotension or Propranolol for tachycardia, after immediate consultation with a pediatric cardiologist {note: doses not given in the book}
+
+@Co
+- Pediatric cardiologist consultation; admit
+
+@cond pediatric-chf-myocarditis
+ch: 72
+name: Pediatric congestive heart failure, cardiogenic shock, myocarditis and pericarditis
+name_fa: نارسایی قلبی کودکان، شوک کاردیوژنیک، میوکاردیت و پریکاردیت
+cc: pediatric-respiratory, dyspnea, chest-pain
+keywords: pediatric heart failure, furosemide, digoxin, dopamine, dobutamine, milrinone, myocarditis, cardiomyopathy, pericarditis, troponin T, نارسایی قلبی اطفال
+status: draft
+
+@features
+- CHF بعد از دوره نوزادی: مادرزادی ماه 2 تا 3 (VSD/ASD)، اکتسابی بعد از 3 ماه؛ زودرس: lesion های وابسته به داکتوس (کوآرکتاسیون، PDA)؛ تمایز از پنومونی دشوار و هر دو ممکن است همزمان
+- علائم: خوردن ضعیف، تعریق، تحریک‌پذیری یا بی‌حالی با تغذیه، گریه ضعیف؛ شدید: grunting، nasal flaring و دیسترس؛ تاکی‌پنه اولیه «بدون زحمت»، سپس کار تنفسی و رال
+- CXR: کاردیومگالی (به‌جز پریکاردیت کانستریکتیو)؛ شاخص کاردیوتوراسیک > 0.6؛ نبود فضای رتروسترنال
+- کاردیومیوپاتی: دیسترس تنفسی و مشکل تغذیه؛ S3/S4 پاتولوژیک؛ رال و ارگانومگالی
+- میوکاردیت: بعد از بیماری ویروسی؛ بیشتر در سن مدرسه؛ تنگی نفس، استفراغ، خوردن ضعیف، بی‌حالی، تب؛ پرفیوژن ضعیف؛ ECG: تغییرات ST منتشر، دیس‌ریتمی (QRS > 120 ms پیش‌آگهی بد)؛ تروپونین T حساس (< 0.01 ng/mL میوکاردیت را رد می‌کند)
+- پریکاردیت: درد پلورتیک و وضعیتی؛ صدای قلب خفه و friction rub؛ اکو فوری
+- CHF راست خالص: معمولاً ریوی (cor pulmonale)؛ ادم دور چشم اولین نشانه
+
+@ddx
+- !Cardiogenic shock |
+- !Cardiac tamponade (pericardial effusion) |
+- !Myocarditis / dilated cardiomyopathy |
+- Pneumonia / bronchiolitis |
+- Congenital heart disease with decompensation (endocarditis) |
+
+@redflags
+- نبض دیستال از دست رفته، کاهش پرفیوژن، ECG با دیس‌ریتمی یا QRS پهن
+
+@guide
+نوزاد با تاکی‌پنه خفیف، هپاتومگالی و کاردیومگالی: نشسته و راحت، اکسیژن و محیط حرارتی خنثی. افزایش کار تنفسی یا CHF در CXR: furosemide 1 تا 2 mg/kg پارنترال. هیپوکسمی: اکسیژن، محدودیت مایع، دیورز، گاهی CPAP/BiPAP. دیگوکسین در CHF خفیف‌تر: دوز دیجیتالیزاسیون ED: 20 تا 30 μg/kg در نوزاد و 30 تا 50 μg/kg در 1 ماه تا 2 سال. شوک کاردیوژنیک: به‌جای دیگوکسین انفوزیون inotrope: dopamine 5 تا 15 μg/kg/min، dobutamine 2.5 تا 15 μg/kg/min (تاکی‌کاردی)، milrinone بار 50 μg/kg IV طی 10 تا 60 دقیقه سپس 0.25 تا 0.75 μg/kg/min. مدیریت تهاجمی عوارض ثانویه: نارسایی تنفسی، AKI، اسیدوز لاکتیک، DIC، هیپوگلیسمی، هیپوکلسمی و تب. درمان قطعی: کاتتریزاسیون و جراحی؛ PGE1 به‌عنوان موقت قبل از عمل.
+
+@variant chf-peds-stable
+name: Pediatric congestive heart failure, compensated
+level: II
+imp: Pediatric congestive heart failure
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: once
+cxr: PA
+o2: O2 therapy: oxygen; child seated upright in a neutral thermal environment; nasal cannula or face mask with flow by age and weight
+
+@scenario
+شیرخوار ۳ ماهه با خوردن ضعیف، تعریق، تاکی‌پنه بدون زحمت و کاردیومگالی.
+
+@why
+فوروزماید و اکسیژن؛ دیگوکسین در خفیف؛ اکو و کاردیولوژی.
+
+@I
+- Chest radiograph (cardiomegaly, cardiothoracic index > 0.6, lack of retrosternal air space); echocardiography
+
+@L
+- Cardiac troponin T for suspected myocarditis (< 0.01 ng/mL reliably excludes myocarditis)
+
+@T
+- Furosemide 1 to 2 mg/kg parenterally (increased work of breathing or CHF on radiograph) {ci: fluid restriction}
+- Digoxin first digitalizing dose in the ED: 20 to 30 μg/kg in neonates and 30 to 50 μg/kg in infants and children 1 month to 2 years (milder CHF)
+- CPAP or BiPAP if needed
+
+@Co
+- Pediatric cardiologist; definitive diagnosis often requires cardiac catheterization and surgical repair
+
+@variant chf-peds-shock
+name: Pediatric cardiogenic shock
+level: I
+imp: Pediatric cardiogenic shock
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+o2: O2 therapy: oxygen; nasal cannula or face mask with flow by age and weight
+
+@scenario
+کودک ۶ ماهه با نبض‌های دیستال غایب، پرفیوژن ضعیف و CHF.
+
+@why
+شوک کاردیوژنیک: انفوزیون inotrope به‌جای دیگوکسین.
+
+@I
+- Chest radiograph; ECG (diffuse ST changes, dysrhythmias, QRS > 120 ms); echocardiography urgently
+
+@T
+- Dopamine 5 to 15 μg/kg/min, or Dobutamine 2.5 to 15 μg/kg/min (may cause significant tachycardia in infants)
+- Milrinone 50 μg/kg IV over 10 to 60 minutes followed by continuous infusion 0.25 to 0.75 μg/kg/min
+- Aggressive management of respiratory insufficiency, acute renal failure, lactic acidosis, DIC, hypoglycemia, hypocalcemia and fever
+
+@Co
+- PICU; pediatric cardiologist
+
+@variant pericarditis-peds
+name: Pediatric pericarditis / effusion
+level: II
+imp: Pediatric pericarditis with possible effusion
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: PA
+o2: O2 therapy: if SpO2 < 94%, nasal cannula or face mask with flow by age and weight
+
+@scenario
+پسر ۱۰ ساله با درد پلورتیک و وضعیتی قفسه سینه، friction rub و کاردیومگالی.
+
+@why
+اکو فوری برای افیوژن و نیاز به پریکاردیوسنتز.
+
+@I
+- Chest radiograph (cardiomegaly); echocardiogram urgently to distinguish pericardial effusion from dilated or hypertrophic cardiomyopathy and determine need for pericardiocentesis
+
+@Co
+- Pediatric cardiologist

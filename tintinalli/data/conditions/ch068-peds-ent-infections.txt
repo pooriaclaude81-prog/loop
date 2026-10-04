@@ -1,0 +1,342 @@
+@cond acute-otitis-media-peds
+ch: 68
+name: Acute otitis media and mastoiditis in children
+name_fa: اوتیت میانی حاد و ماستوییدیت در کودکان
+cc: ent, pediatric-fever
+keywords: acute otitis media, AOM, mastoiditis, amoxicillin, wait-and-see prescription, bullous myringitis, tympanic membrane, اوتیت میانی
+status: draft
+
+@features
+- 7.4٪ ویزیت‌های ED در ایالات متحده؛ شایع در کودکان به‌علت نابالغی شیپور استاش؛ عوامل: S. pneumoniae (49٪) و H. influenzae غیرقابل تیپ (29٪)
+- اوج سنی 6 تا 18 ماه؛ تب، تغذیه ضعیف، تحریک‌پذیری، استفراغ، کشیدن گوش و درد گوش
+- علائم: برجستگی و چرک پشت پرده، بی‌حرکتی پرده تمپان، از دست رفتن نشانه‌های استخوانی و bullae (bullous myringitis)
+- ماستوییدیت: شایع‌ترین عارضه چرکی؛ تب، بیرون‌زدگی لاله و تندرنس ماستوئید
+- تشخیص نیازمند سه جزء: شروع حاد (< 48 ساعت)، افیوژن گوش میانی، علائم التهاب گوش میانی؛ قرمزی پرده به‌تنهایی کافی نیست (تب و گریه)؛ اتوسکوپی پنوماتیک مفید
+- افتراق: جسم خارجی مجرا و اوتیت اکسترنا
+
+@ddx
+- !Mastoiditis |
+- !Sepsis in infant < 60 days |
+- Otitis externa / foreign body in ear canal |
+- Viral upper respiratory infection |
+
+@redflags
+- بیرون‌زدگی لاله و تندرنس ماستوئید، شیرخوار < 60 روز، ظاهر بدحال
+
+@guide
+درد: بنزوکائین-آنتی‌پیرین موضعی (مگر سوراخ‌شدگی پرده) و acetaminophen 15 mg/kg یا ibuprofen 10 mg/kg. «wait-and-see prescription» در AOM بدون عارضه: اگر در 48 تا 72 ساعت بهتر نشد نسخه گرفته شود؛ ممنوع: < 6 ماه، نقص ایمنی، ظاهر بدحال، آنتی‌بیوتیک اخیر یا عفونت باکتریال دیگر. خط اول: amoxicillin 40 تا 45 mg/kg/dose PO دو بار روزانه. خط دوم: amoxicillin/clavulanate 40–45 mg/kg/dose (جزء آموکسی‌سیلین) دو بار روزانه؛ cefpodoxime 5 mg/kg/dose دو بار روزانه؛ cefuroxime 15 mg/kg/dose دو بار روزانه؛ cefdinir 7 mg/kg/dose دو بار روزانه؛ ceftriaxone 50 mg/kg/dose IM یک تا سه دوز روزانه؛ حساسیت: azithromycin 10 mg/kg/dose روز اول سپس 5 mg/kg/dose چهار روز. < 60 روز: ارزیابی و درمان به‌عنوان سپسیس (GBS، S. aureus، گرم‌منفی). علائم 48 تا 72 ساعته بهبود می‌یابد؛ افیوژن تا 8 تا 12 هفته. ماستوییدیت: CT ماستوئید، مشاوره ENT و آنتی‌بیوتیک تزریقی؛ بستری.
+
+@variant aom-uncomplicated
+name: Uncomplicated acute otitis media
+level: III
+imp: Acute otitis media
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+o2: O2 therapy: if SpO2 < 94%, nasal cannula or face mask with flow by age and weight
+
+@scenario
+کودک ۱۲ ماهه با تب، گریه و کشیدن گوش؛ پرده برجسته.
+
+@why
+AOM بدون عارضه: ضددرد و آموکسی‌سیلین یا wait-and-see.
+
+@T
+- Benzocaine-antipyrine topical analgesic (unless known perforation of the tympanic membrane)
+- Acetaminophen 15 mg/kg or Ibuprofen 10 mg/kg
+
+@A
+- Amoxicillin 40 to 45 mg/kg/dose PO twice daily (first choice); or wait-and-see prescription (fill if not better or worse within 48 to 72 hours) {ci: no wait-and-see if age < 6 months, immunocompromised, ill-appearing, recent antibiotics, or another bacterial infection}
+- Second-line: Amoxicillin/clavulanate 40 to 45 mg/kg/dose (amoxicillin component) twice daily; Cefpodoxime 5 mg/kg/dose twice daily; Cefuroxime 15 mg/kg/dose twice daily; Cefdinir 7 mg/kg/dose twice daily; Ceftriaxone 50 mg/kg/dose IM for one to three daily doses
+- Allergic to the above: Azithromycin 10 mg/kg/dose PO on the first day followed by 5 mg/kg/dose PO for four more days
+
+@Co
+- Routine follow-up not necessary unless symptoms persist or worsen
+
+@variant aom-mastoiditis-infant
+name: Mastoiditis or AOM in an infant younger than 60 days
+level: II
+imp: Mastoiditis / otitis media in young infant
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: none
+cxr: none
+o2: O2 therapy: if SpO2 < 94%, nasal cannula or face mask with flow by age and weight
+
+@scenario
+کودک ۲ ساله با تب و بیرون‌زدگی لاله و تندرنس ماستوئید.
+
+@why
+ماستوییدیت: CT و آنتی‌بیوتیک تزریقی؛ شیرخوار < 60 روز: درمان سپسیس.
+
+@I
+- CT scan of the mastoid if mastoiditis is suspected
+
+@L
+- Infant < 60 days with AOM: evaluation for presumed sepsis (see Chapter 66)
+
+@A
+- Parenteral antibiotics (confirmed mastoiditis) {note: drug and dose not given in the book}
+
+@Co
+- Otorhinolaryngology consultation; mastoiditis typically requires inpatient treatment
+
+@cond otitis-externa-peds
+ch: 68
+name: Otitis externa in children
+name_fa: اوتیت اکسترنا در کودکان
+cc: ent
+keywords: otitis externa, swimmer's ear, ciprofloxacin hydrocortisone, ofloxacin otic, malignant otitis externa, wick, اوتیت اکسترنا
+status: draft
+
+@features
+- التهاب لاله، مجرای گوش خارجی و سطح پرده؛ P. aeruginosa و S. aureus (اغلب همراه)
+- بهار و تابستان؛ اوج 7 تا 12 سال؛ درد گوش، خارش، گاهی تب؛ اریتم و ادم مجرا، اگزودای سفید، درد با حرکت تراگوس/لاله، آدنوپاتی پریاوریکولار/گردنی
+- تشخیص بالینی؛ جسم خارجی را با برداشتن دقیق دبری رد کن
+- اوتیت اکسترنای بدخیم: علائم سیستمیک و سلولیت لاله؛ بستری و آنتی‌بیوتیک تزریقی
+
+@ddx
+- !Malignant otitis externa |
+- Foreign body in the ear canal |
+- Acute otitis media |
+
+@redflags
+- علائم سیستمیک و سلولیت لاله
+
+@guide
+اول تمیز کردن مجرا با پنبه روی سیم؛ در ادم انسدادی wick. ضددرد: ibuprofen 10 mg/kg/dose هر 6 ساعت. قطره فلوروکینولون ترجیح بر نئومایسین: ciprofloxacin با hydrocortisone (Cipro HC) 0.2٪ و 1٪ سوسپانسیون 3 قطره دو بار روزانه یا ofloxacin 0.3٪ 5 تا 10 قطره دو بار روزانه (ofloxacin در پارگی یا شک به پارگی پرده). آنتی‌بیوتیک خوراکی در سلولیت لاله. پیگیری اگر در 48 ساعت بهتر نشد.
+
+@variant oe-uncomplicated
+name: Otitis externa
+level: III
+imp: Otitis externa
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+o2: O2 therapy: if SpO2 < 94%, nasal cannula or face mask with flow by age and weight
+
+@scenario
+پسر ۹ ساله پس از شنا با درد گوش و درد با کشیدن لاله.
+
+@why
+تمیز کردن و قطره فلوروکینولون.
+
+@T
+- Clean the ear canal with a small tuft of cotton attached to a wire applicator; wick in the canal if significant edema obstructs the canal
+- Ibuprofen 10 mg/kg/dose every 6 hours
+- Ciprofloxacin with hydrocortisone 0.2% and 1% suspension (Cipro HC) 3 drops twice daily, or Ofloxacin 0.3% solution 5 to 10 drops twice daily (ofloxacin when TM rupture is found or suspected)
+
+@A
+- [auricular cellulitis] oral antibiotics {note: drug and dose not given in the book}
+
+@Co
+- Follow-up if no improvement within 48 hours; malignant otitis externa: hospitalization with parenteral antibiotics
+
+@cond sinusitis-peds
+ch: 68
+name: Acute bacterial sinusitis in children
+name_fa: سینوزیت باکتریال حاد در کودکان
+cc: ent, pediatric-fever
+keywords: sinusitis, amoxicillin, amoxicillin clavulanate, purulent nasal drainage, سینوزیت
+status: draft
+
+@features
+- التهاب سینوس‌های پاراناسال؛ سینوزیت باکتریال حاد: عفونت با بهبود کامل < 30 روز؛ عوامل: S. pneumoniae، M. catarrhalis و H. influenzae غیرقابل تیپ
+- حاد شدید: تب، سردرد و تورم/تندرنس/اریتم موضعی (نوجوانان بزرگ‌تر)؛ تحت‌حاد خفیف: عفونت تنفسی فوقانی طولانی با ترشح چرکی بینی > 2 هفته؛ تب نادر
+- تشخیص بالینی بدون آزمایش/تصویربرداری؛ احتقان 3 تا 7 روز با عفونت ویروسی: سینوزیت نیست و آنتی‌بیوتیک ندارد؛ ترشح رنگی بینی به‌تنهایی نشانه نیست؛ تصویربرداری در < 6 سال لازم نیست
+
+@ddx
+- !Orbital cellulitis / intracranial extension |
+- Viral upper respiratory infection |
+- Allergic rhinitis |
+
+@redflags
+- تب > 39°C، ترشح چرکی > 3 روز و ظاهر بدحال
+
+@guide
+خفیف مشابه ویروسی: 7 تا 10 روز مشاهده بدون آنتی‌بیوتیک. خفیف تا متوسط: amoxicillin 40 تا 45 mg/kg/dose PO دو بار روزانه 10 تا 14 روز. شدید، مهدکودک یا آنتی‌بیوتیک اخیر: amoxicillin/clavulanate 40 تا 45 mg/kg/dose دو بار روزانه یا cefuroxime 15 mg/kg PO دو بار روزانه یا cefpodoxime 5 mg/kg PO دو بار روزانه.
+
+@variant sinusitis-peds-main
+name: Acute bacterial sinusitis
+level: III
+imp: Acute bacterial sinusitis
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+o2: O2 therapy: if SpO2 < 94%, nasal cannula or face mask with flow by age and weight
+
+@scenario
+کودک ۵ ساله با ترشح چرکی بینی ۴ روزه، تب 39.5 و ظاهر بدحال.
+
+@why
+علائم پایدار یا شدید: آنتی‌بیوتیک؛ خفیف: مشاهده.
+
+@A
+- Mild to moderate: Amoxicillin 40 to 45 mg/kg/dose PO twice daily for 10 to 14 days
+- Severe symptoms, day care or recent antibiotics: Amoxicillin/clavulanate 40 to 45 mg/kg/dose twice a day (amoxicillin component), or Cefuroxime 15 mg/kg PO twice a day, or Cefpodoxime 5 mg/kg PO twice a day
+
+@Co
+- Mild symptoms suggestive of viral infection: observe 7 to 10 days, no antibiotics
+
+@cond pharyngitis-stomatitis-peds
+ch: 68
+name: Pediatric stomatitis and pharyngitis (herpangina, HFMD, HSV gingivostomatitis, GABHS, EBV, gonococcal)
+name_fa: استوماتیت و فارنژیت کودکان (هرپانژین، HFMD، هرپس، استرپتوکوک، EBV، گنوکوک)
+cc: ent, pediatric-fever
+keywords: pharyngitis, strep throat, GABHS, Centor criteria, rapid antigen test, penicillin V, benzathine penicillin, herpangina, hand foot and mouth, infectious mononucleosis, EBV, گلودرد
+status: draft
+
+@features
+- هرپانژین، HFMD و گینگیوواستوماتیت هرپسی ویروسی‌اند؛ بیشتر فارنژیت ویروسی؛ GABHS و N. gonorrhoeae باکتریال: تشخیص دقیق لازم؛ درمان GABHS از عوارض چرکی و تب روماتیسمی پیشگیری می‌کند
+- هرپانژین: وزیکول‌های بنایی لوزه و کام نرم؛ 6 ماه تا 10 سال؛ اواخر تابستان تا پاییز؛ درد، تب، دیسفاژی
+- HFMD: ماکول تا وزیکول در کام، مخاط گونه، لثه و زبان و کف دست/پا و باسن
+- هرپس گینگیوواستوماتیت: شروع ناگهانی تب، تحریک‌پذیری، کاهش دریافت خوراکی، لثه ادماتو و شکننده، وزیکول و زخم قدام دهان
+- GABHS: اواخر زمستان/اوایل بهار؛ 5 تا 15 سال؛ نادر قبل از 2 سال؛ گلودرد، تب، سردرد، درد شکم، آدنوپاتی قدامی گردن، پتشی کام و هیپرتروفی لوزه؛ معمولاً بدون سرفه، آبریزش بینی، لارنژیت، استریدور، ملتحمه و اسهال؛ راش اسکارلاتینی
+- EBV: تب، گلودرد، بی‌حالی؛ آدنوپاتی (اغلب خلفی)، هپاتواسپلنومگالی؛ مشکوک اگر فارنژیت بدون پاسخ به آنتی‌بیوتیک با کشت منفی؛ monospot ممکن است < 2 سال و هفته اول منفی باشد؛ لنفوسیتوز با لنفوسیت آتیپیک
+- فارنژیت گنوکوکی در کودک یا نوجوان غیرفعال جنسی: سوءاستفاده جنسی را مطرح کن؛ کشت Thayer-Martin و کشت واژن، سرویکس، مجرا و رکتوم
+- Centor: اگزودای لوزه، آدنوپاتی قدامی دردناک، نبود سرفه، سابقه تب؛ ≥ 2 → تست آنتی‌ژن سریع و/یا کشت؛ منفی: کشت تأییدی
+
+@ddx
+- !Epiglottitis / retropharyngeal or peritonsillar abscess |
+- !Gonococcal pharyngitis (sexual abuse) |
+- Group A streptococcal pharyngitis |
+- Infectious mononucleosis (EBV) |
+- Viral pharyngitis / herpangina / HFMD |
+
+@redflags
+- ترشح بزاق (drooling)، استریدور، ترسمیس، ناتوانی در نوشیدن
+
+@guide
+هرپانژین/HFMD/HSV: حمایتی؛ ضددرد سیستمیک (ibuprofen و acetaminophen)؛ هیدراتاسیون وریدی اگر مایعات خوراکی تحمل نشود؛ گاهی مخدر خوراکی. GABHS: آنتی‌بیوتیک فقط با تست سریع یا کشت مثبت: penicillin V (کودک 250 mg PO دو بار روزانه؛ نوجوان/بزرگسال 500 mg دو بار روزانه) 7 تا 10 روز؛ benzathine penicillin G 1.2 میلیون واحد IM (600000 واحد زیر 27 kg) یک‌بار؛ amoxicillin 50 mg/kg یک‌بار در روز 7 تا 10 روز. گنوکوک: ceftriaxone 250 mg IM و azithromycin 1 g PO در ED؛ گزارش به مراجع محلی و بررسی اجتماعی. EBV: حمایتی (تب‌بر، مایع و استراحت).
+
+@variant pharyngitis-gabhs
+name: Streptococcal pharyngitis (GABHS)
+level: III
+imp: Group A streptococcal pharyngitis
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+o2: O2 therapy: if SpO2 < 94%, nasal cannula or face mask with flow by age and weight
+
+@scenario
+دختر ۸ ساله با گلودرد، تب، اگزودای لوزه و بدون سرفه.
+
+@why
+Centor ≥ 2: تست آنتی‌ژن سریع؛ مثبت: پنی‌سیلین.
+
+@L
+- Rapid antigen detection test and/or throat culture if two or more Centor criteria; confirmatory throat culture if rapid antigen is negative
+
+@A
+- Penicillin V (children 250 mg PO twice daily; adolescent/adult 500 mg PO twice daily) for 7 to 10 days; or Benzathine penicillin G 1.2 million units IM (600,000 units IM if weight < 27 kg) once; or Amoxicillin 50 mg/kg once daily for 7 to 10 days
+
+@T
+- Ibuprofen and acetaminophen (systemic analgesics) {note: doses per child weight, see Chapter 66}
+
+@variant stomatitis-viral-ebv
+name: Herpangina / HFMD / HSV gingivostomatitis / EBV (supportive)
+level: III
+imp: Viral stomatitis / pharyngitis (herpangina, HFMD, HSV, EBV)
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+o2: O2 therapy: if SpO2 < 94%, nasal cannula or face mask with flow by age and weight
+
+@scenario
+کودک ۳ ساله با تب و وزیکول دردناک کام و امتناع از نوشیدن.
+
+@why
+حمایتی؛ هیدراتاسیون وریدی اگر مایع خوراکی تحمل نشود.
+
+@S
+- [cannot tolerate oral fluids] Parenteral hydration {note: volume not given in the book}
+
+@T
+- Systemic analgesics: combination of ibuprofen and acetaminophen; occasionally oral narcotics may be required {note: doses per weight}
+- EBV: antipyretics, fluids and rest; monospot (may be negative in first week or < 2 years)
+
+@variant pharyngitis-gonococcal
+name: Gonococcal pharyngitis
+level: II
+imp: Gonococcal pharyngitis (consider sexual abuse)
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+o2: O2 therapy: if SpO2 < 94%, nasal cannula or face mask with flow by age and weight
+
+@scenario
+نوجوان ۱۴ ساله با گلودرد و کشت Thayer-Martin مثبت.
+
+@why
+در کودک و نوجوان غیرفعال جنسی سوءاستفاده جنسی را مطرح کن.
+
+@L
+- Culture on Thayer-Martin medium; vaginal, cervical, urethral and rectal cultures
+
+@A
+- Ceftriaxone 250 mg IM; Azithromycin 1 g PO given in the emergency department (empiric chlamydia treatment)
+
+@Co
+- Appropriate follow-up for treatment failure and symptomatic contacts; local reporting agencies and social service investigation
+
+@cond cervical-lymphadenitis-peds
+ch: 68
+name: Cervical lymphadenitis in children
+name_fa: لنفادنیت گردنی در کودکان
+cc: ent, pediatric-other
+keywords: cervical lymphadenitis, neck mass, Bartonella, cat scratch, clindamycin, amoxicillin clavulanate, sialadenitis, لنفادنیت گردن
+status: draft
+
+@features
+- یک‌طرفه حاد: S. aureus یا استرپتوکوک گروه A؛ دوطرفه: ویروسی (EBV، آدنوویروس)؛ مزمن: Bartonella henselae یا مایکوباکتریوم
+- حاد: گره‌های تندر > 1 cm با اریتم؛ دوطرفه: گره‌های کوچک لاستیکی، خودبه‌خود بهبود؛ Bartonella: خراش بچه‌گربه و لنفادنیت هم‌طرف
+- تشخیص بالینی؛ کشت راهنمای درمان؛ افتراق: سیالادنیت (S. aureus، گرم‌منفی، بی‌هوازی)
+
+@ddx
+- !Deep neck abscess |
+- Sialadenitis |
+- Viral reactive lymphadenopathy |
+- Bartonella / mycobacterial lymphadenitis |
+
+@redflags
+- توده فلوکتوان، ترسمیس، دیسترس راه هوایی
+
+@guide
+خط اول لنفادنیت حاد: amoxicillin + clavulanic acid 20 mg/kg/dose دو بار روزانه یا clindamycin 10 mg/kg/dose سه بار روزانه 7 تا 10 روز. توده فلوکتوان ممکن است نیاز به برش و درناژ داشته باشد. دوطرفه حاد معمولاً بدون آنتی‌بیوتیک بهبود می‌یابد. مزمن: اغلب جراحی با درمان هدفمند.
+
+@variant lymphadenitis-acute
+name: Acute unilateral cervical lymphadenitis
+level: III
+imp: Acute cervical lymphadenitis
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+o2: O2 therapy: if SpO2 < 94%, nasal cannula or face mask with flow by age and weight
+
+@scenario
+پسر ۴ ساله با گره تندر یک‌طرفه گردن 2 cm و اریتم.
+
+@why
+S. aureus یا استرپتوکوک: آموکسی‌سیلین-کلاولانات یا کلیندامایسین؛ درناژ در فلوکتواسیون.
+
+@A
+- Amoxicillin plus clavulanic acid 20 mg/kg/dose twice daily, or Clindamycin 10 mg/kg/dose three times daily for 7 to 10 days
+
+@T
+- Incision and drainage if a fluctuant mass is present
+- Acute bilateral lymphadenitis: most resolve without antibiotics (viral or reactive)

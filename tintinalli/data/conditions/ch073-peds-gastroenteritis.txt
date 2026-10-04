@@ -1,0 +1,127 @@
+@cond gastroenteritis-peds
+ch: 73
+name: Vomiting, diarrhea and dehydration in infants and children (gastroenteritis)
+name_fa: استفراغ، اسهال و دهیدراتاسیون در شیرخواران و کودکان (گاستروانتریت)
+cc: pediatric-gi, diarrhea, nausea-vomiting
+keywords: pediatric gastroenteritis, dehydration, oral rehydration solution, ORS, ondansetron, clinical dehydration score, Shigella, Salmonella, E coli O157, hemolytic uremic syndrome, loperamide, اسهال کودکان
+status: draft
+
+@features
+- گاستروانتریت تا 20٪ ویزیت‌های سرپایی حاد؛ بیشتر ویروسی و خودمحدود؛ از دست دادن آب و الکترولیت: دهیدراتاسیون، شوک هیپوولمیک یا اختلال الکترولیت
+- ارزیابی هیدراتاسیون سنگ‌بنای مدیریت (جدول 73-1: ظاهر عمومی، چشم، مخاط دهان/زبان، اشک؛ امتیاز > 0 = مقداری دهیدراتاسیون؛ > 5 = متوسط تا شدید)
+- مسیر مدفوعی-دهانی؛ ویروس‌ها جذب را مختل می‌کنند؛ باکتری‌ها با انتروتوکسین/سایتوتوکسین و تهاجم؛ dysentery: تهاجم ترمینال ایلئوم و کولون با خون، مخاط یا چرک
+- شیرخوار در خطر دهیدراتاسیون سریع و هیپوگلیسمی؛ همچنین بیماری مزمن، شرایط اجتماعی پرخطر یا سوءتغذیه
+- تشخیص بالینی: ≥ 3 مدفوع اسهالی در 24 ساعت ± استفراغ، درد شکم مبهم و تب؛ دهیدراتاسیون معمولاً ایزوتونیک: الکترولیت روتین نه مگر شدید یا قرار است مایع وریدی بدهیم؛ استثنا: شیرخوار 6 ماه اول (اختلال سدیم)
+- قند بالین در هر تغییر هوشیاری؛ کشت مدفوع: سفر به کشور پرخطر، تب بالا یا مداوم، > 10 مدفوع در 24 ساعت یا خون در مدفوع؛ شیوع E. coli O157:H7: کشت مدفوع و آزمایش همولیز، ترومبوسیتوپنی و AKI
+- افتراق: کولیت باکتریال، Hirschsprung، انسداد نسبی، IBD، HUS، آپاندیسیت (به‌ویژه پس از پرفوراسیون)؛ استفراغ ایزوله: اوتیت، UTI، سپسیس، malrotation، اینتوساسپشن، افزایش ICP، اسیدوز متابولیک، مسمومیت
+- استفراغ صفراوی/خونی، هماتوشزی یا درد شکم: علت غیر از گاستروانتریت ساده
+
+@ddx
+- !Bilious vomiting (malrotation) / intussusception / appendicitis |
+- !Hemolytic uremic syndrome |
+- !Sepsis / meningitis |
+- Urinary tract infection / otitis media |
+- Bacterial colitis / Hirschsprung disease / inflammatory bowel disease |
+- Ingestion / metabolic acidosis |
+
+@redflags
+- استفراغ صفراوی یا خونی، هماتوشزی، تغییر هوشیاری، دهیدراتاسیون شدید یا شوک، ظاهر سمی
+
+@guide
+# دهیدراتاسیون
+بیشتر موارد فقط ORS: استفراغ منع نیست؛ مقدار کم و مکرر. ORS تجاری با سدیم 45 تا 60 mmol/L؛ چای، آب‌میوه، نوشابه ورزشی ناکافی (سدیم کم و قند زیاد). ORS 50 تا 100 mL/kg به‌علاوه جبران ادامه از دست دادن‌ها؛ هدف حدود 30 mL (1 oz) به‌ازای kg در ساعت؛ در شکست: لوله NG. دهیدراتاسیون شدید، ناپایداری همودینامیک یا تغییر هوشیاری که مانع مایع خوراکی است: کریستالوئید ایزوتونیک وریدی یا IO: نرمال سالین یا Ringer لاکتات بولوس 20 mL/kg هر 20 دقیقه تا بهبود پرفیوژن و ادرار کافی. هیپوگلیسمی: دکستروز 10٪ 5 mL/kg در شیرخوار یا دکستروز 25٪ 2 mL/kg در نوپا و بزرگ‌تر.
+# استفراغ
+ondansetron 0.15 mg/kg/dose (یا 2 mg برای 8 تا < 15 kg؛ 4 mg برای 15 تا < 30 kg؛ 8 mg اگر ≥ 30 kg) ترجیحاً خوراکی کمک به ORS؛ ondansetron وریدی QT را بیشتر طولانی می‌کند: پرهیز. ترخیص: تحمل ORS، ادرار کافی و حداقل از دست دادن مداوم؛ رژیم طبیعی (شامل شیر لاکتوزدار) ادامه یابد.
+# اسهال
+خفیف بدون دهیدراتاسیون: تغذیه معمول؛ در دهیدراته تغذیه را > 4 ساعت متوقف نکن؛ رقیق کردن فرمولا لازم نیست (> 80٪ شیر کامل را تحمل می‌کنند). ضداسهال و ضدحرکت مثل loperamide توصیه نمی‌شود و در کودکان خردسال ممنوع. آنتی‌بیوتیک برای اکثریت غیرضروری و ممکن است خطر HUS را بیشتر کند؛ جدول 73-2: Shigella: خودمحدود؛ درمان در ایمنوساپرس، شدید، dysentery یا سیستمیک: azithromycin، ceftriaxone، ciprofloxacin (حساس: ampicillin یا TMP-SMX)؛ Salmonella غیرتیفوئیدی: درمان فقط < 3 ماه، هموگلوبینوپاتی، نقص ایمنی، بیماری مزمن GI، بدخیمی، کولیت شدید، باکتریمی، سپسیس: ampicillin، amoxicillin، TMP-SMX (مقاوم: azithromycin، فلوروکینولون؛ تهاجمی: cefotaxime، ceftriaxone)؛ Campylobacter: درمان در متوسط/شدید، عود، ایمنوساپرس، مهدکودک: erythromycin، azithromycin، ciprofloxacin؛ STEC: آنتی‌بیوتیک ندارد؛ Yersinia: خودمحدود؛ شدید: TMP-SMX، آمینوگلیکوزید، cefotaxime، فلوروکینولون، doxycycline؛ Vibrio cholerae: متوسط/شدید: azithromycin، doxycycline.
+# ترخیص و بستری
+بستری: ظاهر سمی، شرایط اجتماعی پرخطر، دهیدراتاسیون یا از دست دادن مداوم قابل‌توجه، تغییر هوشیاری، ناتوانی در نوشیدن، شواهد آزمایشگاهی همولیز/ترومبوسیتوپنی/ازوتمی/اختلال سدیم، شکم جراحی. بازگشت: عدم تحمل مایع خوراکی، استفراغ صفراوی، کاهش هوشیاری یا علائم دهیدراتاسیون (پوشک خشک). رژیم: کربوهیدرات پیچیده، گوشت بدون چربی، سبزی، میوه، ماست؛ پرهیز از چربی و قند ساده؛ رژیم BRAT توصیه نمی‌شود.
+
+@pearls
+- استفراغ صفراوی = اورژانس جراحی تا خلاف آن ثابت شود (malrotation).
+- ondansetron خوراکی ترجیح دارد؛ فرم وریدی QT را بیشتر طولانی می‌کند.
+
+@variant gastro-peds-mild-ors
+name: Gastroenteritis with mild dehydration (oral rehydration)
+level: III
+imp: Acute gastroenteritis with mild dehydration
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+o2: O2 therapy: if SpO2 < 94%, nasal cannula or face mask with flow by age and weight
+
+@scenario
+دختر ۲ ساله با ۵ بار اسهال و ۲ بار استفراغ از دیروز؛ تشنه، مخاط چسبناک و اشک کم.
+
+@why
+ORS کافی است؛ ondansetron خوراکی در استفراغ پایدار.
+
+@L
+- Bedside glucose if altered mental status; clinical dehydration score (> 0 some dehydration; > 5 moderate-severe); serum electrolytes not routinely required; stool culture only if travel to high-risk country, high or persistent fever, > 10 stools in 24 hours or blood in the stool
+
+@S
+- Oral rehydration solution (ORS) 45 to 60 mmol/L sodium: 50 to 100 mL/kg plus additional ORS for ongoing losses; aim about 30 mL (1 ounce) per kg per hour; small amounts frequently; nasogastric administration if oral challenge fails {ci: avoid tea, juice and sports drinks}
+
+@T
+- Ondansetron 0.15 mg/kg/dose orally (or 2 mg for 8 to < 15 kg; 4 mg for 15 to < 30 kg; 8 mg if ≥ 30 kg) for persistent vomiting {ci: avoid intravenous ondansetron (greater QT prolongation)}
+- Continue normal diet including lactose-containing milk or formula; do not withhold feedings > 4 hours in a dehydrated child {ci: no loperamide or antimotility agents}
+
+@Co
+- Discharge if tolerating oral rehydration with adequate urine output; return if unable to tolerate oral fluids, bilious vomiting, less alert, or no longer wetting diapers
+
+@variant gastro-peds-severe-dehydration
+name: Gastroenteritis with severe dehydration / shock
+level: I
+imp: Acute gastroenteritis with severe dehydration
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: none
+o2: O2 therapy: if SpO2 < 94%, nasal cannula or face mask with flow by age and weight
+
+@scenario
+شیرخوار ۹ ماهه با اسهال و استفراغ ۳ روزه، خواب‌آلود، چشم گود، زبان خشک و بدون اشک.
+
+@why
+شدید یا تغییر هوشیاری: کریستالوئید وریدی/IO؛ قند و الکترولیت.
+
+@L
+- Serum electrolytes (severe dehydration or IV rehydration to be given; infants in the first 6 months), bedside glucose; blood tests for hemolysis, thrombocytopenia and acute kidney injury if E. coli O157:H7 outbreak
+
+@S
+- Normal saline or Ringer's lactate 20-mL/kg bolus IV or IO every 20 minutes until perfusion improves and urine output is adequate {ci: caution in heart failure / pulmonary edema}
+- [hypoglycemia] 10% dextrose 5 mL/kg in infants or 25% dextrose 2 mL/kg in toddlers and older children
+
+@Co
+- Admit
+
+@variant gastro-peds-bacterial
+name: Bacterial gastroenteritis / dysentery
+level: II
+imp: Bacterial gastroenteritis / dysentery
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+o2: O2 therapy: if SpO2 < 94%, nasal cannula or face mask with flow by age and weight
+
+@scenario
+پسر ۵ ساله با تب 39.5، اسهال خونی و ۱۲ دفع در ۲۴ ساعت.
+
+@why
+کشت مدفوع در تب بالا/خون؛ آنتی‌بیوتیک فقط در شدید یا گروه خطر؛ STEC آنتی‌بیوتیک ندارد.
+
+@L
+- Stool culture (blood in stool, > 10 stools in 24 hours, highly or persistently febrile, travel to high-risk country); E. coli O157:H7 outbreak: blood tests for hemolysis, thrombocytopenia and acute kidney injury
+
+@A
+- Shigella (immunocompromised, severe disease, dysentery or systemic symptoms): azithromycin, ceftriaxone or ciprofloxacin; if susceptible ampicillin or trimethoprim-sulfamethoxazole
+- Nontyphoidal Salmonella (< 3 months, hemoglobinopathy, immunodeficiency, chronic GI disease, malignancy, severe colitis, bacteremia, sepsis): ampicillin, amoxicillin or trimethoprim-sulfamethoxazole; invasive disease: cefotaxime or ceftriaxone
+- Campylobacter (moderate-severe, relapse, immunocompromised, day care): erythromycin, azithromycin or ciprofloxacin {note: doses not given in the book; STEC: no antibiotics (possible increased risk of hemolytic-uremic syndrome)}
+
+@Co
+- Admit if toxic appearance, significant dehydration, altered mental status, or laboratory evidence of hemolytic anemia, thrombocytopenia, azotemia or significant sodium abnormality

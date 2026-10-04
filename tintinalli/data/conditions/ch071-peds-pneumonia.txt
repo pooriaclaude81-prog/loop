@@ -1,0 +1,122 @@
+@cond pneumonia-peds
+ch: 71
+name: Pneumonia in infants and children
+name_fa: پنومونی در شیرخواران و کودکان
+cc: pediatric-respiratory, cough-hemoptysis, pediatric-fever
+keywords: pediatric pneumonia, community-acquired pneumonia, tachypnea, amoxicillin, ceftriaxone, azithromycin, Mycoplasma, RSV, پنومونی کودکان
+status: draft
+
+@features
+- عفونت تحتانی راه تنفسی؛ از علل اصلی مرگ و میر کودکان؛ عامل وابسته به سن: نوزاد 0 تا 30 روز: GBS و گرم‌منفی روده‌ای (کلامیدیا در مراقبت پیش از زایمان ناکافی)؛ 1 ماه تا 2 سال: ویروس‌ها (RSV، انفلوانزا، پاراانفلوانزا، hMPV) و S. pneumoniae و H. influenzae؛ 2 تا 5 سال: ویروس‌ها سپس S. pneumoniae، H. influenzae و S. aureus؛ 5 تا 13 سال: Mycoplasma pneumoniae، S. pneumoniae، Chlamydophila؛ نوجوانان: مشابه بزرگسالان
+- بیشتر: تب، بیماری ویروسی قبلی، تاکی‌پنه، دیسترس تنفسی، رال و کاهش صدای تنفس؛ تاکی‌پنه حساس‌ترین یافته (جدول 71-1: 0–60 روز > 60؛ 2–12 ماه > 50؛ 1–5 سال > 40؛ > 5 سال > 20/min؛ شدید: > 70، > 60، > 50، > 50)
+- نوزاد/شیرخوار: علائم ظریف ولی ممکن است بدحال‌تر باشند (تب یا هیپوترمی، آپنه، تاکی‌پنه، خوردن ضعیف، استفراغ، بی‌حالی، grunting، شوک)؛ کودکان بزرگ‌تر: مشابه بزرگسال؛ کودکان کوچک با لوب تحتانی: درد شکم
+- تشخیص بالینی؛ CXR لازم نیست و استاندارد طلایی نیست؛ تب به‌علاوه تاکی‌پنه، کاهش صدا یا کراکل ریز: حساسیت 93٪ تا 96٪؛ با هر چهار: 98٪
+- CXR برای مشکوک به جسم خارجی، CHF، توده مدیاستن یا عارضه (شکست درمان سرپایی، پلورال افیوژن، حفره‌دار، بیماری زمینه‌ای مهم، سن < 3 ماه)
+- آزمایش روتین برای خفیف خوش‌ظاهر لازم نیست؛ نوزاد یا دیسترس شدید/بدحال: کشت خون، CBC و الکترولیت؛ تست سریع آنتی‌ژن ویروسی (RSV، انفلوانزا، hMPV) در صورت سریع
+
+@ddx
+- !Sepsis / empyema / pleural effusion |
+- !Airway foreign body |
+- Bronchiolitis / asthma |
+- Congestive heart failure / mediastinal mass |
+- Pertussis |
+
+@redflags
+- نوزاد، دیسترس تنفسی شدید یا نارسایی قریب‌الوقوع، شوک، هیپوکسی
+
+@guide
+مراقبت حمایتی: اکسیژن برای دیسترس یا SpO2 < 92٪ هوای اتاق؛ تب‌بر (ممکن است تاکی‌پنه ناشی از تب را برطرف کند)؛ برونکودیلاتور در ویز؛ دهیدراتاسیون با بولوس 20 mL/kg نرمال سالین. آنتی‌بیوتیک بر اساس سن و شدت (جدول 71-2): نوزاد: ampicillin + gentamicin یا cefotaxime (سرپایی نه)؛ 1 تا 3 ماه: ampicillin یا ceftriaxone یا cefotaxime یا vancomycin؛ ماکرولاید اگر C. trachomatis یا B. pertussis؛ 3 ماه تا 5 سال: سرپایی amoxicillin ± clavulanic acid یا cefuroxime axetil؛ بستری ampicillin یا ceftriaxone یا cefotaxime یا vancomycin ± ماکرولاید؛ 5 تا 18 سال: azithromycin (اگر M. pneumoniae) یا amoxicillin ± clavulanic acid یا cefuroxime؛ بستری مشابه. نوزاد: بستری و مانیتور. معیار بستری: کار تنفسی، هیپوکسمی، خوردن ضعیف، استفراغ مداوم، دهیدراتاسیون، عوامل اجتماعی؛ PICU: دیسترس شدید، نارسایی قریب‌الوقوع یا شوک.
+
+@variant pneumonia-peds-outpatient
+name: Pneumonia in a well child (outpatient)
+level: III
+imp: Community-acquired pneumonia in a child
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+o2: O2 therapy: if respiratory distress or SpO2 < 92% on room air, nasal cannula or face mask with flow by age and weight
+
+@scenario
+دختر ۴ ساله با تب، سرفه و تاکی‌پنه 45؛ تغذیه خوب، SpO2 96٪.
+
+@why
+تشخیص بالینی؛ CXR لازم نیست؛ آموکسی‌سیلین سرپایی.
+
+@L
+- No routine laboratory testing required for well-appearing children with mild community-acquired pneumonia; rapid viral antigen testing (RSV, influenza, human metapneumovirus) if quick and available
+
+@A
+- 3 months to 5 years: Amoxicillin with or without clavulanic acid, or Cefuroxime axetil; 5 to 18 years: Azithromycin (if M. pneumoniae suspected), or Amoxicillin with or without clavulanic acid, or Cefuroxime axetil {note: doses not given in the chapter; see Chapter 68 for weight-based amoxicillin dosing}
+
+@T
+- Antipyretics for febrile patients (may resolve tachypnea associated with fever); bronchodilators if wheezing {note: doses per Chapter 66 / Chapter 70}
+
+@Co
+- Outpatient follow-up; chest radiography reserved for questioned diagnosis or suspected complication
+
+@variant pneumonia-peds-inpatient
+name: Pneumonia requiring admission (hypoxemia, dehydration, young infant)
+level: II
+imp: Pneumonia in a child requiring hospitalization
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: none
+cxr: PA
+o2: O2 therapy: oxygen for respiratory distress or saturations less than 92% on room air; nasal cannula or face mask with flow by age and weight
+
+@scenario
+شیرخوار ۸ ماهه با تب، تاکی‌پنه 65، retraction، SpO2 90٪ و کم‌خوری.
+
+@why
+هیپوکسمی و کم‌خوری: بستری با اکسیژن، مایع و آنتی‌بیوتیک وریدی.
+
+@I
+- Chest radiography (differential in question, complication suspected: failure of outpatient therapy, pleural effusion, cavitary pneumonia, comorbidity, age < 3 months)
+
+@L
+- Blood culture, CBC and serum electrolytes (significant respiratory distress or toxic appearance); rapid viral antigen testing
+
+@S
+- Dehydration: boluses of 20 mL/kg of normal saline {ci: caution in heart failure / pulmonary edema}
+
+@A
+- 3 months to 5 years inpatient: Ampicillin, or Ceftriaxone, or Cefotaxime, or Vancomycin, with or without a macrolide {note: doses not given in the chapter}
+
+@T
+- Antipyretics; bronchodilators if wheezing
+
+@Co
+- Admit; PICU consultation for severe respiratory distress, impending respiratory failure or shock
+
+@variant pneumonia-peds-neonate-young
+name: Pneumonia in neonate or infant 1–3 months
+level: I
+imp: Pneumonia in neonate / young infant
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: none
+cxr: portable
+o2: O2 therapy: oxygen for respiratory distress or saturations less than 92% on room air; nasal cannula or face mask with flow by age and weight
+
+@scenario
+نوزاد ۲۰ روزه با تب، آپنه کوتاه و تاکی‌پنه 72.
+
+@why
+نوزاد: خطر دکمپانساسیون؛ بستری، آنتی‌بیوتیک وریدی؛ سپسیس ورک‌آپ.
+
+@I
+- Chest radiography (age < 3 months)
+
+@L
+- Blood culture, CBC and serum electrolytes {note: full sepsis evaluation per Chapter 66 for neonates}
+
+@A
+- Neonates: Ampicillin plus Gentamicin or Cefotaxime {note: doses per Chapter 66: Ampicillin 50 mg/kg IV, Gentamicin 2.5 mg/kg IV or Cefotaxime 50 mg/kg IV}
+- 1 to 3 months: Ampicillin, or Ceftriaxone, or Cefotaxime, or Vancomycin; macrolide if C. trachomatis or B. pertussis suspected {note: doses not given in this chapter}
+
+@Co
+- Admit and monitor closely (outpatient treatment not indicated)

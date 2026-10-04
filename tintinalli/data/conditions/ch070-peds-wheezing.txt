@@ -1,0 +1,190 @@
+@cond asthma-peds
+ch: 70
+name: Pediatric asthma exacerbation
+name_fa: حمله آسم در کودکان
+cc: pediatric-respiratory, dyspnea
+keywords: pediatric asthma, wheezing child, albuterol, ipratropium, prednisone, dexamethasone, magnesium sulfate, terbutaline, heliox, ketamine, status asthmaticus, آسم کودکان
+status: draft
+
+@features
+- شایع‌ترین بیماری مزمن کودکی و شایع‌ترین علت بستری کودکان؛ التهاب راه هوایی با ویز راجعه، تنگی نفس و سرفه با انسداد بازگشت‌پذیر؛ محرک‌ها: عفونت ویروسی، آلرژن، ورزش، محرک‌های محیطی (دود سیگار، هوای سرد)
+- ویز: علامت شاخص؛ سرفه، تنگی نفس، تنگی یا درد سینه؛ شدت (خفیف/متوسط/شدید) با ویز، تعداد تنفس، کار تنفسی (retraction، nasal flaring)، کیفیت aeration و نسبت دم/بازدم
+- ارزیابی‌های سریال کلیدی است؛ تغییر وضعیت و پاسخ به درمان مهم‌تر از شدت اولیه
+- هیپوکسمی معمولاً خفیف (SpO2 > 92٪) و V/Q mismatch؛ ممکن است 1 تا 2 ساعت بعد از برونکودیلاتور بدتر شود؛ ETCO2: هیپوکاپنی اولیه، ETCO2 نرمال یا کمی بالا = نارسایی تنفسی قریب‌الوقوع
+- > 2 سال بدون سابقه: تشخیص موقت آسم با ویز و برگشت‌پذیری با β2-agonist؛ < 2 سال بدون سابقه فردی/خانوادگی در همه‌گیری ویروسی: برونشیولیت
+- CXR: عدم بهبودی مورد انتظار، تب، شک پنوموتوراکس (درد یا هیپوکسی شدید) یا جسم خارجی (ویز یک‌طرفه)، یافته کانونی
+
+@ddx
+- !Airway foreign body (unilateral wheeze) |
+- !Pneumothorax |
+- Bronchiolitis |
+- Pneumonia |
+- Anaphylaxis / vocal cord dysfunction |
+- Congenital heart disease / heart failure |
+
+@redflags
+- ETCO2 نرمال یا بالا، خستگی، هیپوکسی پایدار، سینه ساکت، نیاز به albuterol هر < 2 ساعت
+
+@guide
+# درمان
+- اکسیژن برای SpO2 < 92٪.
+- albuterol: MDI با spacer 4 تا 8 puff هر 20 دقیقه تا 3 دوز یا نبولایزر 2.5 تا 5 mg هر 20 دقیقه تا 3 دوز (معادل)؛ شدید: نبولایز مداوم 0.5 mg/kg/h؛ ipratropium همراه albuterol در شدید برتر: 0.25 تا 0.5 mg هر 20 دقیقه × 3؛ levalbuterol برتری ندارد.
+- استروئید سیستمیک در همه به‌جز خفیف با پاسخ فوری (ترجیحاً از تریاژ): prednisone/prednisolone 2 mg/kg/dose حداکثر 60 mg یا dexamethasone 0.6 mg/kg حداکثر 10 تا 16 mg؛ شدید: methylprednisolone IV 1 mg/kg/dose.
+- β-agonist سیستمیک فقط در تهویه ضعیف و عدم رسیدن دارو: terbutaline SQ/IM 0.01 mg/kg حداکثر 0.4 mg هر 20 دقیقه × 3؛ epinephrine SQ/IM 0.01 mg/kg حداکثر 0.5 mg هر 15 دقیقه.
+- منیزیم سولفات 50 تا 75 mg/kg حداکثر 2 g IV طی 10 تا 20 دقیقه در تهویه ضعیف؛ قبل از آن بولوس مایع 20 cc/kg.
+- بیمار بحرانی نزدیک به اینتوباسیون: ketamine 2 mg/kg IV سپس 2 تا 3 mg/kg/h یا heliox (60:40 یا 70:30؛ حداکثر FiO2 40٪).
+- مایع وریدی (نرمال سالین) در status asthmaticus با کاهش دریافت یا NPO.
+- اینتوباسیون نادر (بارتروما، لارنگواسپاسم)؛ BiPAP؛ باتجربه‌ترین؛ RSI: atropine 0.02 mg/kg (حداقل 0.5، حداکثر 1 mg) و lidocaine 1.5 mg/kg، ketamine 2 mg/kg، سپس succinylcholine 2 mg/kg یا rocuronium 1 mg/kg؛ permissive hypercapnia.
+# دیسپوزیشن
+مشاهده 2 تا 3 ساعت بعد از albuterol در بدحال‌تر؛ بستری: پاسخ ناکافی، هیپوکسمی، تاکی‌پنه، نیاز به albuterol هر ≤ 2 ساعت، یا مراقبت ناکافی؛ ترخیص: action plan، albuterol، استروئید خوراکی و پیگیری.
+# دوزهای جدول 70-1
+albuterol MDI (90 μg/puff): ≤ 1 سال 2 puff، 1–3 سال 4 puff، ≥ 4 سال 8 puff؛ نبولایزر 0.15–0.3 mg/kg/dose (حداقل 2.5 mg)؛ methylprednisolone IV/IM: 2 mg/kg بار سپس 0.5–1 mg/kg هر 6 ساعت؛ dexamethasone 0.6 mg/kg/dose (حداکثر 16 mg) 1 تا 2 روز.
+
+@pearls
+- ETCO2 نرمال در آسم شدید می‌تواند علامت نارسایی تهویه باشد.
+
+@variant asthma-peds-mild-moderate
+name: Mild to moderate asthma exacerbation
+level: III
+imp: Pediatric asthma exacerbation (mild to moderate)
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+o2: O2 therapy: oxygen for saturations below 92%; nasal cannula or face mask with flow by age and weight
+
+@scenario
+پسر ۶ ساله با ویز و سرفه، retraction خفیف و SpO2 94٪.
+
+@why
+آلبوترول تکراری، استروئید زودهنگام و ارزیابی سریال.
+
+@I
+- Chest radiography only if failure to improve as expected, fever, concern for pneumothorax or foreign body (unilateral wheezing), or focal lung findings
+
+@T
+- Albuterol by metered-dose inhaler with spacer 4 to 8 puffs every 20 minutes up to three doses, or nebulization 2.5 to 5 mg every 20 minutes up to three doses
+- Ipratropium with albuterol 0.25 to 0.5 mg every 20 minutes × 3 doses (superior in severe asthma)
+- Prednisone or prednisolone 2 mg/kg/dose (maximum 60 mg/dose), or Dexamethasone 0.6 mg/kg (maximum 10 to 16 mg) {note: not needed in the most mildly ill who respond immediately to albuterol}
+
+@Co
+- Observe 2 to 3 hours after albuterol (sicker on arrival); discharge with an asthma action plan, albuterol as MDI or nebulizer, oral corticosteroids and primary care follow-up
+
+@variant asthma-peds-severe
+name: Severe asthma exacerbation / status asthmaticus
+level: I
+imp: Pediatric status asthmaticus
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: portable
+o2: O2 therapy: oxygen to keep SpO2 ≥ 92%; nasal cannula or face mask with flow by age and weight; monitor ETCO2 by capnometry
+
+@scenario
+دختر ۷ ساله با ویز شدید، retraction، قادر به گفتن چند کلمه و SpO2 88٪.
+
+@why
+شدید: آلبوترول مداوم، ipratropium، استروئید وریدی، منیزیم؛ ETCO2 نرمال = هشدار.
+
+@I
+- Chest radiography if concern for pneumothorax (pain or significant hypoxia) or foreign body
+
+@S
+- Normal saline IV fluids for status asthmaticus with decreased oral intake or NPO
+- IV fluid bolus of 20 cc/kg before magnesium sulfate to avoid decline in blood pressure {ci: caution in heart failure}
+
+@T
+- Continuously nebulized albuterol 0.5 mg/kg/h; Ipratropium 0.25 to 0.5 mg every 20 minutes × 3 doses concurrently
+- Methylprednisolone IV 1 mg/kg/dose
+- Magnesium sulfate 50 to 75 mg/kg (maximum 2 g) IV over 10 to 20 minutes for poor ventilation
+- Terbutaline SQ or IM 0.01 mg/kg (maximum 0.4 mg) every 20 minutes × 3 doses if no IV access; or Epinephrine SQ or IM 0.01 mg/kg (maximum 0.5 mg) every 15 minutes
+- Critically ill nearing intubation: Ketamine 2 mg/kg IV followed by 2 to 3 mg/kg/h; or Heliox 60:40 or 70:30 (maximum FiO2 40%) with nebulized albuterol
+- Noninvasive ventilation (BiPAP); if intubation required: atropine 0.02 mg/kg (minimum 0.5 mg, maximum 1 mg) and lidocaine 1.5 mg/kg premedication, ketamine 2 mg/kg, then succinylcholine 2 mg/kg or rocuronium 1 mg/kg; permissive hypercapnia
+
+@Co
+- Admit (PICU if ventilatory failure); persistent hypoxemia or albuterol needed at least every 2 hours
+
+@cond bronchiolitis
+ch: 70
+name: Bronchiolitis in infants
+name_fa: برونشیولیت شیرخواران
+cc: pediatric-respiratory, dyspnea
+keywords: bronchiolitis, RSV, nasal suctioning, high-flow nasal cannula, hypertonic saline, apnea, برونشیولیت
+status: draft
+
+@features
+- شایع‌ترین عفونت تنفسی تحتانی در 2 سال اول؛ معمولاً RSV؛ التهاب و ادم راه هوایی، نکروز اپیتلیوم، مخاط زیاد و برونکواسپاسم
+- ویز و آبریزش (URI) با تب، تاکی‌پنه، سرفه، رال، عضلات فرعی و nasal flaring؛ آپنه و دهیدراتاسیون نگران‌کننده (< 3 ماه یا نارس)؛ هیپوکسمی، سیانوز، تغییر هوشیاری و خستگی: نارسایی تنفسی
+- شدت در 3 تا 5 روز اول افزایش می‌یابد؛ مدت کل 7 تا 14 روز
+- برخلاف آسم اغلب به β-agonist و استروئید پاسخ نمی‌دهد؛ < 2 سال (اوج 6 تا 12 ماه)، بدون سابقه فردی/خانوادگی ویز یا آتوپی، URI و همه‌گیری ویروسی؛ تشخیص بالینی؛ تست RSV و CXR روتین لازم نیست
+- CXR فقط در شک بیماری دیگر یا جسم خارجی یا بیماری شدید
+
+@ddx
+- !Apnea |
+- !Pneumonia / airway foreign body |
+- Asthma |
+- Congenital heart disease / heart failure |
+- Pertussis |
+
+@redflags
+- آپنه، هیپوکسمی پایدار، سیانوز، تغییر هوشیاری، تاکی‌پنه > 60 تا 70
+
+@guide
+ساکشن عمیق بینی بعد از قطره سالین (کاهش کار تنفس، اصلاح هیپوکسمی و امکان تغذیه)؛ وازوکانستریکتور بینی ممنوع (تاکی‌دیس‌ریتمی)؛ خفیف و هیدراته: فقط ساکشن. اکسیژن برای SpO2 > 90٪؛ HFNC گرم و مرطوب تا 12 L/min شیرخوار (شبیه CPAP) برای همه متوسط تا شدید. نبولایز α/β-agonist روتین نه؛ albuterol در متوسط به‌ویژه با سابقه آسم/آتوپی؛ epinephrine نبولایز 0.5 mL از 1:1000 در 2.5 mL سالین برای بستری با پاسخ ضعیف به β2؛ ارزیابی عینی پاسخ (RR یا امتیاز برونشیولیت) و قطع در عدم پاسخ. سالین هایپرتونیک 3٪ یا 5٪ 3 تا 5 mL نبولایز برای بستری بدون پاسخ. مایع ایزوتونیک وریدی در صورت نیاز (RR > 60–70: خطر آسپیراسیون). استروئید روتین ممنوع. CPAP/BiPAP ممکن است آپنه را پیشگیری کند. بستری: هیپوکسی پایدار، تاکی‌پنه یا کار تنفسی قابل‌توجه، ناتوانی تغذیه/هیدراتاسیون؛ عوامل خطر: < 6 تا 12 هفته یا < 37 هفته، آپنه شاهدی، CHD مهم، بیماری مزمن ریه، نقص ایمنی.
+
+@variant bronchiolitis-mild
+name: Mild bronchiolitis, well hydrated
+level: III
+imp: Bronchiolitis
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+o2: O2 therapy: only to maintain saturations > 90%; nasal cannula with flow by age and weight
+
+@scenario
+شیرخوار ۸ ماهه با آبریزش، سرفه و ویز؛ تغذیه خوب.
+
+@why
+خفیف و هیدراته: فقط ساکشن بینی.
+
+@T
+- Nasal suctioning after saline drops (deep suctioning decreases work of breathing, corrects hypoxemia and enables normal feeding) {ci: nasal vasoconstrictors not indicated (tachydysrhythmias)}
+
+@Co
+- Follow-up; return for persistent hypoxia, significant tachypnea or work of breathing, inability to feed or maintain hydration
+
+@variant bronchiolitis-moderate-severe
+name: Moderate to severe bronchiolitis (hospitalization)
+level: II
+imp: Bronchiolitis (moderate to severe)
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: none
+cxr: none
+o2: O2 therapy: oxygen to maintain saturations > 90%; heated humidified high-flow nasal cannula (HFNC) up to 12 L/min in infants
+
+@scenario
+شیرخوار ۲ ماهه نارس با تاکی‌پنه 70، retraction، SpO2 88٪ و عدم تغذیه.
+
+@why
+نیاز به اکسیژن/HFNC و مایع؛ خطر آپنه؛ بستری.
+
+@I
+- Chest radiograph only if other diseases or foreign body aspiration suspected, or severe disease
+
+@S
+- Isotonic IV fluids (normal saline) if necessary (cannot feed normally; RR > 60 to 70 increases aspiration risk)
+
+@T
+- Nasal suctioning and saline drops
+- Heated, humidified high-flow nasal cannula therapy for moderately to severely ill infants; CPAP or BiPAP if needed (may prevent further apnea)
+- Albuterol may be considered for a moderately ill infant (especially with personal or family history of asthma or atopy); nebulized Epinephrine 0.5 mL of 1:1000 in 2.5 mL saline for hospitalized patients with suboptimal response to β2-agonists; stop if no objective response
+- Nebulized hypertonic saline 3% or 5%, 3 to 5 mL for hospitalized infants unresponsive to other interventions {ci: no routine corticosteroids}
+
+@Co
+- Admit (persistent hypoxia, significant tachypnea or work of breathing, inability to feed; risk factors for apnea and severe disease)

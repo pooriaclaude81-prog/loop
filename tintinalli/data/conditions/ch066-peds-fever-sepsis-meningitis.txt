@@ -1,0 +1,283 @@
+@cond pediatric-fever-sbi
+ch: 66
+name: Fever and serious bacterial illness (SBI) in children by age group
+name_fa: تب و بیماری باکتریال جدی (SBI) در کودکان بر اساس سن
+cc: pediatric-fever, fever
+keywords: febrile infant, neonatal fever, serious bacterial illness, Rochester criteria, Philadelphia protocol, Boston criteria, lumbar puncture, ampicillin, gentamicin, cefotaxime, ceftriaxone, acetaminophen, ibuprofen, تب نوزاد
+status: draft
+
+@features
+- شایع‌ترین شکایت اطفال در ED و 30٪ ویزیت‌های سرپایی؛ SBI شامل UTI، پنومونی، باکتریمی/سپسیس و مننژیت (به ترتیب شیوع)
+- نوزاد بیشترین خطر؛ شیرخوار 1 تا 3 ماه به‌تدریج خطر کمتر؛ UTI حدود 5٪ در 2 ماه تا 2 سال و 3٪ تا 8٪ در کودکان تب‌دار ED؛ باکتریمی مخفی 3 تا 36 ماه 0.5٪ تا 0.7٪؛ مننژیت از 1٪ ماه اول به < 0.1٪
+- آستانه تب: < 3 ماه: 38°C؛ 3 تا 36 ماه: 39°C
+- ممکن است تنها علامت: گریه مداوم، تسکین‌ناپذیری، تغذیه ضعیف یا بی‌ثباتی دما؛ در نوزاد حتی فقط تب
+- شیرخوار < 3 ماه: شرح حال و معاینه به ندرت کمک می‌کند؛ مننژیسم نادر؛ رال ممکن است شنیده نشود؛ باکتریمی حتی در خوش‌حال
+- شیرخوار ظاهر بدحال: ارزیابی کامل سپسیس، آنتی‌بیوتیک تزریقی و بستری
+- 29 تا 90 روز: طبقه‌بندی خطر کم/زیاد با Rochester، Boston یا Philadelphia (ظاهر خوب، UA و WBC طبیعی 5000 تا 15000 در Rochester/Philadelphia و تا 20000 در Boston؛ CSF منفی)
+- 3 تا 36 ماه: معاینه قابل‌اعتمادتر؛ بیشتر ویروسی؛ UTI مخفی: دختران قبل از toilet training، پسران ختنه‌شده < 6 ماه و ختنه‌نشده < 1 سال
+- بزرگ‌تر از 3 سال: باکتریمی < 0.2٪؛ CBC و کشت خون روتین نیست؛ ویروسی، استرپتوکوک حلق، پنومونی و سینوزیت
+
+@ddx
+- !Sepsis / bacteremia |
+- !Meningitis |
+- Urinary tract infection |
+- Pneumonia |
+- Viral illness (RSV, influenza) |
+- Streptococcal pharyngitis / sinusitis / otitis media |
+
+@redflags
+- ظاهر سمی، هیپوترمی، تاکی‌کاردی پایدار، کاهش پرفیوژن، تغییر هوشیاری
+
+@guide
+# 0 تا 28 روز
+همه تب‌دارها: ارزیابی کامل SBI، بستری و آنتی‌بیوتیک تجربی: ampicillin 50 mg/kg IV (Listeria) و gentamicin 2.5 mg/kg IV یا cefotaxime 50 mg/kg IV؛ ceftriaxone در این سن پرهیز. آزمایش: CBC، کشت خون، UA و کشت ادرار، LP (CSF و کشت)؛ CXR اگر علائم تنفسی؛ کشت مدفوع در اسهال. اگر ظاهر بدحال SBI 13% تا 21%؛ ظاهر خوب < 5%.
+# 29 تا 90 روز
+کم‌خطر: ceftriaxone 50 mg/kg IM/IV تا نتیجه کشت (بستری)، یا بدون آنتی‌بیوتیک، یا سرپایی با ceftriaxone؛ پیگیری 12 تا 24 ساعت؛ قبل از آنتی‌بیوتیک CSF، ادرار و خون کشت. ظاهر بدحال: آنتی‌بیوتیک تزریقی و بستری. ویروسی شناخته‌شده (RSV، انفلوانزا): UTI و باکتریمی را رد کن؛ CXR اختیاری؛ LP قابل تعویق.
+# 57 روز تا 6 ماه
+≥ 38: UA و کشت ادرار؛ منفی: ترخیص؛ UTI: cefixime 8 mg/kg/dose روزانه یا cefpodoxime 5 mg/kg/dose دو بار روزانه یا cefdinir 7 mg/kg/dose دو بار روزانه 10 روز؛ شکست معیارها: ceftriaxone تزریقی و بستری. ≥ 39: UA و کشت ± CBC و کشت خون؛ WBC ≥ 15000: ceftriaxone 50 mg/kg IV/IM و پیگیری 24 ساعت؛ WBC ≥ 20000: CXR و CSF.
+# 6 تا 36 ماه
+UA و کشت در دختران 6–24 ماه، پسران 6–12 ماه، پسران ختنه‌نشده 12–24 ماه؛ منفی: ترخیص.
+# تب‌بر
+لباس اضافه را بردار؛ acetaminophen 15 mg/kg PO/PR هر 4 ساعت (تا 5 بار در روز)؛ ibuprofen 10 mg/kg PO بالای 1 سال هر 6 تا 8 ساعت (حداکثر 40 mg/kg در 24 ساعت). والدین را از «فیور فوبیا» برحذر کن.
+
+@pearls
+- ceftriaxone در نوزاد ≤ 28 روز ممنوع.
+- بیمار با کشت خون مثبت: بستری و آنتی‌بیوتیک تزریقی؛ اگر هنوز تب‌دار یا بدحال: ارزیابی کامل سپسیس.
+
+@variant fever-neonate
+name: Febrile neonate 0–28 days
+level: I
+imp: Fever in neonate 0–28 days (rule out serious bacterial illness)
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: none
+cxr: none
+o2: O2 therapy: if SpO2 < 94%, nasal cannula or face mask with flow by age and weight
+
+@scenario
+نوزاد ۱۴ روزه با تب 38.3 و تغذیه ضعیف.
+
+@why
+نوزاد: بیشترین خطر؛ ارزیابی کامل، آنتی‌بیوتیک تجربی و بستری برای همه.
+
+@I
+- Chest x-ray if respiratory signs (cough, tachypnea or hypoxemia) are present; optional if no respiratory symptoms
+
+@L
+- CBC, blood culture, urinalysis and urine culture, lumbar puncture for CSF cell count, Gram stain and culture; stool studies if diarrhea
+
+@A
+- Ampicillin 50 mg/kg IV (Listeria monocytogenes) plus either Gentamicin 2.5 mg/kg IV or Cefotaxime 50 mg/kg IV {ci: avoid ceftriaxone in this age group}
+
+@Co
+- Admit
+
+@variant fever-infant-29-90d
+name: Febrile infant 29–90 days
+level: II
+imp: Fever in infant 29–90 days
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: none
+cxr: none
+o2: O2 therapy: if SpO2 < 94%, nasal cannula or face mask with flow by age and weight
+
+@scenario
+شیرخوار ۶۰ روزه با تب 38.6، ظاهر خوب و بدون کانون.
+
+@why
+Rochester/Boston/Philadelphia برای طبقه‌بندی؛ UA و CBC؛ LP در معیارهای Boston/Philadelphia.
+
+@I
+- Chest radiograph for infants with a suggestion of lower respiratory tract disease
+
+@L
+- CBC (WBC 5000 to 15,000/mm3 for Rochester and Philadelphia, 5000 to 20,000/mm3 for Boston), blood culture, urinalysis and urine culture (catheterization or suprapubic tap), CSF cell count, glucose, protein, Gram stain and culture (lumbar puncture); CRP or procalcitonin may support differentiating SBI from viral illness
+
+@A
+- [low risk] Ceftriaxone 50 mg/kg IM/IV pending cultures (inpatient or outpatient, or no antibiotics with close follow-up in 12 to 24 hours); cultures of CSF, urine and blood before antibiotics
+- [ill-appearing or fails low-risk criteria] Parenteral ceftriaxone 50 mg/kg (100 mg/kg with signs of meningitis)
+
+@Co
+- Admit if ill-appearing or not low-risk; low-risk infants managed with follow-up typically within 12 to 24 hours
+
+@variant fever-infant-3-36m
+name: Febrile infant/child 3–36 months, no source
+level: III
+imp: Fever without source in a child 3–36 months
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+o2: O2 therapy: if SpO2 < 94%, nasal cannula or face mask with flow by age and weight
+
+@scenario
+دختر ۱۰ ماهه با تب 39.5 بدون کانون واضح.
+
+@why
+عمدتاً ویروسی؛ UA و کشت ادرار برای رد UTI (دختران قبل از toilet training).
+
+@L
+- Urinalysis and urine culture (by catheterization or suprapubic tap) if no other source of fever is identified (girls 6–24 months, boys 6–12 months, uncircumcised boys 12–24 months); consider CBC and blood culture, and CSF studies, much less commonly
+
+@A
+- [UTI] Cefixime 8 mg/kg/dose daily, or Cefpodoxime 5 mg/kg/dose twice a day, or Cefdinir 7 mg/kg/dose twice daily for 10 days as outpatient
+- [if WBC ≥ 15,000/mm3 in 57 days to 6 months with T ≥ 39°C] consider Ceftriaxone 50 mg/kg IV/IM and follow-up in 24 hours
+
+@T
+- Remove excessive clothing and blankets
+- Acetaminophen 15 mg/kg PO/PR every 4 hours (up to 5 times a day)
+- Ibuprofen 10 mg/kg PO in children older than 1 year, repeat every 6 to 8 hours (maximum 40 mg/kg in 24 hours), can be given concurrently with acetaminophen
+
+@Co
+- Discharge if negative; counsel parents against fever phobia
+
+@variant fever-child-older
+name: Febrile child older than 36 months
+level: III
+imp: Fever in child older than 36 months
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+o2: O2 therapy: if SpO2 < 94%, nasal cannula or face mask with flow by age and weight
+
+@scenario
+پسر ۵ ساله با تب 39 و گلودرد.
+
+@why
+خطر باکتریمی < 0.2٪؛ آزمایش بر اساس بالین؛ تب‌بر.
+
+@L
+- Testing directed by clinical presentation (viral infection, streptococcal pharyngitis, pneumonia, sinusitis); CBC and blood cultures not routinely recommended in immunized older children
+
+@T
+- Acetaminophen 15 mg/kg PO/PR every 4 hours, or Ibuprofen 10 mg/kg PO every 6 hours as needed
+
+@cond pediatric-sepsis
+ch: 66
+name: Pediatric sepsis and septic shock
+name_fa: سپسیس و شوک سپتیک کودکان
+cc: pediatric-fever, hypotension-shock
+keywords: pediatric sepsis, septic shock, 20 mL/kg bolus, dopamine, norepinephrine, vancomycin, cefotaxime, piperacillin-tazobactam, سپسیس کودک
+status: draft
+
+@features
+- باکتریمی همراه شواهد بالینی عفونت سیستمیک؛ پیشرفت سریع به نارسایی چندارگانی؛ عوامل خطر: نارس بودن، نقص ایمنی، پروسیجر تهاجمی اخیر، کاتتر یا جسم خارجی دائم
+- شیرخوار: علائم مبهم (بی‌حالی، تغذیه ضعیف، تحریک‌پذیری، هیپوتونی)؛ تب شایع؛ شیرخوار خیلی کوچک ممکن است هیپوترم باشد
+- تاکی‌پنه و تاکی‌کاردی؛ شوک: پرشدن مویرگی طولانی، نبض ضعیف، تغییر هوشیاری، کاهش ادرار؛ هیپوتانسیون علامت دیررس؛ تاکی‌کاردی پایدار نسبت به سن اغلب تنها نشانه
+- تشخیص بالینی و تأیید با کشت خون؛ هر شیرخوار سمی را سپتیک بدان؛ خطر هیپوگلیسمی: قند همیشه چک شود
+
+@ddx
+- !Septic shock |
+- !Meningitis |
+- Hypoglycemia / metabolic emergency |
+- Pneumonia / UTI |
+- Cardiogenic shock / anaphylaxis |
+
+@redflags
+- پرشدن مویرگی طولانی، تغییر هوشیاری، هیپوتانسیون (دیررس)، هیپوگلیسمی
+
+@guide
+ABC: اکسیژن با جریان بالا، مانیتور قلبی، IV یا IO فوری؛ اینتوباسیون در نارسایی تنفسی یا دیسترس شدید. شوک: بولوس 20 mL/kg نرمال سالین 0.9٪؛ ترجیحاً 60 mL/kg در 15 دقیقه؛ در شیرخوار حجم واقعی را با فلاش‌های متعدد تزریق کن؛ تکرار تا بهبود علائم حیاتی، پرفیوژن، هوشیاری و ادرار تا کل 100 mL/kg. هیپوگلیسمی: 5 mL/kg دکستروز 10٪. آنتی‌بیوتیک فوری بلافاصله پس از IV، بدون تأخیر برای LP: cefotaxime 50 mg/kg IV یا piperacillin-tazobactam 100 mg/kg IV؛ برای شیرخوار بدحال به دلیل S. pneumoniae مقاوم به ceftriaxone vancomycin 15 mg/kg IV اضافه شود. شوک مقاوم به حجم: dopamine 5 تا 20 μg/kg/min یا norepinephrine 0.1 تا 0.2 μg/kg/min. ارگانیسم مقاوم، نقص ایمنی یا ارگانیسم نامعمول را در نظر بگیر.
+
+@variant sepsis-peds-shock
+name: Pediatric septic shock
+level: I
+imp: Septic shock in a child
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: none
+cxr: portable
+o2: O2 therapy: high-flow oxygen immediately; intubate in respiratory failure or severe respiratory distress
+
+@scenario
+شیرخوار ۶ ماهه با تب، بی‌حالی، پرشدن مویرگی ۵ ثانیه و تاکی‌کاردی 190.
+
+@why
+شوک سپتیک کودک: بولوس 20 mL/kg، آنتی‌بیوتیک فوری و وازوپرسور.
+
+@L
+- CBC, blood culture, complete metabolic panel, blood lactate, glucose (always), catheterized urinalysis with culture and sensitivities, lumbar puncture, stool studies if diarrhea
+
+@S
+- 20 mL/kg boluses of 0.9% normal saline (preferably 60 mL/kg within 15 minutes; for infants push actual volumes using multiple saline flushes); repeat until vital signs, perfusion, mental status and urine output improve, up to 100 mL/kg total {ci: caution in heart failure / pulmonary edema}
+- [hypoglycemia] 5 mL/kg 10% dextrose
+
+@A
+- Cefotaxime 50 mg/kg IV, or Piperacillin-tazobactam 100 mg/kg IV; add Vancomycin 15 mg/kg IV for ill-appearing infants (ceftriaxone-resistant S. pneumoniae); do not delay antibiotics for lumbar puncture
+
+@T
+- Volume-refractory shock: Dopamine 5 to 20 μg/kg/min or Norepinephrine 0.1 to 0.2 μg/kg/min
+- Endotracheal intubation in respiratory failure or severe respiratory distress; secure IV or IO access
+
+@Co
+- PICU; consider drug-resistant organisms, immune-incompetence or unusual organisms
+
+@cond pediatric-meningitis
+ch: 66
+name: Pediatric meningitis
+name_fa: مننژیت کودکان
+cc: pediatric-fever, headache, altered-mental-status
+keywords: meningitis, lumbar puncture, CSF, acyclovir, HSV encephalitis, dexamethasone, vancomycin, ceftriaxone, مننژیت
+status: draft
+
+@features
+- معمولاً عارضه باکتریمی اولیه؛ اوج بروز بین تولد تا 2 سال؛ نارسی و نقص ایمنی خطر بیشتر
+- ممکن است با علائم ظریف مثل اوتیت یا سینوزیت شروع شود؛ شیرخوار: تحریک‌پذیری، تسکین‌ناپذیری، هیپوتونی و بی‌حالی؛ بزرگ‌تر: سردرد، ترس از نور، تهوع/استفراغ، مننژیسم و گردن‌درد
+- گاهی فولمینانت: شوک، تشنج، کما یا استاتوس تب‌دار
+- تشخیص: LP و CSF: WBC، گلوکز و پروتئین، Gram و کشت؛ HSV PCR در نوزاد تشنجی و هر کودک با پلئوسیتوز یا xanthochromia؛ CT سر قبل از LP در علائم کانونی یا افزایش ICP؛ ایمنوساپرس: ارگانیسم‌های فرصت‌طلب
+- مننژیسم در < 6 ماه (به‌ویژه < 2 ماه) دشوار قابل تشخیص است؛ LP روتین < 2 ماه
+
+@ddx
+- !Bacterial meningitis |
+- !HSV encephalitis |
+- Sepsis |
+- Febrile seizure / viral meningitis |
+- Intracranial mass / hemorrhage |
+
+@redflags
+- تشنج، کما، شوک، علائم عصبی کانونی
+
+@guide
+ابتدا ABC و اصلاح اکسیژناسیون و پرفیوژن (مثل سپسیس). آنتی‌بیوتیک بر اساس سن (جدول 66-4): نوزاد: ampicillin 50 mg/kg + cefotaxime 50 mg/kg یا gentamicin 2.5 mg/kg؛ 29–56 روز: ceftriaxone 50 mg/kg با CSF طبیعی و 100 mg/kg با علائم مننژیت. شک قوی: آنتی‌بیوتیک را به تأخیر نینداز. acyclovir 20 mg/kg IV در شک به آنسفالیت هرپسی. نقش استروئید جنجالی؛ فقط اگر قبل از آنتی‌بیوتیک. اگر LP ناموفق: بستری، هیدراتاسیون، آنتی‌بیوتیک با دوز مننژیت، کشت خون و ادرار؛ LP بعد از هیدراتاسیون ممکن است موفق شود.
+
+@variant meningitis-peds
+name: Suspected meningitis in infant or child
+level: I
+imp: Suspected bacterial meningitis in a child
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: none
+cxr: none
+o2: O2 therapy: if SpO2 < 94%, nasal cannula or face mask with flow by age and weight
+
+@scenario
+شیرخوار ۸ ماهه با تب، تحریک‌پذیری، تسکین‌ناپذیری و تشنج.
+
+@why
+مننژیت: آنتی‌بیوتیک بدون تأخیر؛ LP برای تأیید؛ CT قبل از LP فقط در علائم کانونی.
+
+@I
+- Cranial CT before lumbar puncture only if focal neurologic signs or increased intracranial pressure
+
+@L
+- Lumbar puncture: CSF white blood cells, glucose and protein, Gram stain, culture; HSV PCR in the seizing neonate and any child with CSF pleocytosis or xanthochromia; blood and urine cultures
+
+@A
+- Empiric antibiotic by age: neonate 0–28 days: Ampicillin 50 mg/kg and either Cefotaxime 50 mg/kg or Gentamicin 2.5 mg/kg; 29–56 days: Ceftriaxone 50 mg/kg (100 mg/kg with signs of meningitis) {note: dosing for older children per Table 66-4 of the chapter}
+- Acyclovir 20 mg/kg IV for any suspicion of herpes encephalitis
+
+@T
+- ABCs and restoration of oxygenation and perfusion (see sepsis); do not defer antibiotics when meningitis is strongly suspected
+- Steroids: role highly controversial; possible benefit only if given prior to antibiotics
+- If lumbar puncture fails: admit, hydrate, give meningitis doses of antibiotic and obtain blood and urine cultures
+
+@Co
+- Admit

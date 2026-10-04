@@ -1,0 +1,366 @@
+@cond viral-croup
+ch: 69
+name: Viral croup (laryngotracheobronchitis)
+name_fa: کروپ ویروسی (لارنگوتراکئوبرونکیت)
+cc: pediatric-respiratory
+keywords: croup, stridor, barking cough, steeple sign, dexamethasone, racemic epinephrine, budesonide, heliox, کروپ
+status: draft
+
+@features
+- شایع‌ترین علت استریدور بعد از دوره نوزادی؛ خوش‌خیم و خودمحدود؛ ادم و التهاب ساب‌گلوتیک؛ پاییز و اوایل زمستان؛ 6 ماه تا 3 سال با اوج 12 تا 24 ماه
+- پرودروم 1 تا 3 روز سرفه، آبریزش و تب خفیف؛ سپس 3 تا 4 روز سرفه پارس‌دار؛ اوج روز 3 تا 4 و شبانه بدتر؛ استریدور با جزء دمی بیشتر؛ شدید: استریدور در استراحت، تاکی‌پنه، nasal flaring و retraction
+- تشخیص بالینی؛ رادیوگرافی لازم نیست مگر برای علل دیگر؛ steeple sign نه حساس نه اختصاصی
+- افتراق: اپی‌گلوتیت، تراکئیت باکتریال، آسپیراسیون جسم خارجی
+
+@ddx
+- !Epiglottitis |
+- !Bacterial tracheitis |
+- !Airway foreign body |
+- Retropharyngeal abscess |
+- Angioedema |
+
+@redflags
+- استریدور در استراحت، retraction، هیپوکسی، بیمار سمی (فکر به اپی‌گلوتیت/تراکئیت)
+
+@guide
+بیمار با استریدور قابل‌توجه: در وضعیت راحت با حداقل تحریک؛ پالس‌اکسیمتری و اکسیژن در صورت نیاز. dexamethasone 0.15 تا 0.6 mg/kg (حداکثر 10 mg) PO یا IM (فرمول IV را می‌توان خوراکی داد)؛ budesonide نبولایز 2 mg اگر خوراکی تحمل نشود؛ حتی خفیف از استروئید سود می‌برد (یک دوز). racemic epinephrine 2.25٪ نبولایز 0.05 mL/kg/dose تا 0.5 mL برای متوسط تا شدید (استریدور در استراحت)؛ یا L-epinephrine (1:1000) 0.5 mL/kg/dose تا 5 mL؛ استریدور فقط با آژیتاسیون نیاز به epinephrine ندارد. اینتوباسیون در صورت اندیکاسیون (لوله کوچک‌تر از تخمین سنی)؛ heliox (70/30) فایده قطعی ندارد. بستری: استریدور در استراحت، تاکی‌پنه، retraction یا هیپوکسی یا > 2 نوبت epinephrine. ترخیص: ≥ 3 ساعت از آخرین epinephrine، ظاهر غیرسمی، بدون دهیدراتاسیون، SpO2 هوای اتاق > 90٪، توانایی والدین در تشخیص تغییر و دسترسی به تلفن و زمان کوتاه انتقال.
+
+@pearls
+- چگال‌ترین خطر: اگر بیمار سمی است به اپی‌گلوتیت یا تراکئیت باکتریال فکر کن.
+
+@variant croup-mild
+name: Mild croup
+level: III
+imp: Viral croup
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+o2: O2 therapy: only if SpO2 < 94%, nasal cannula or face mask with flow by age and weight; keep the child in a position of comfort
+
+@scenario
+کودک ۲ ساله با سرفه پارس‌دار و استریدور فقط هنگام گریه.
+
+@why
+استروئید تک‌دوز حتی در خفیف؛ epinephrine لازم نیست.
+
+@T
+- Dexamethasone 0.15 to 0.6 mg/kg (maximum 10 mg) PO or IM (the IV formulation may be given orally); or nebulized Budesonide 2 mg if unable to tolerate oral treatment
+- Position of comfort with minimal disturbance; monitor pulse oximetry
+
+@Co
+- Discharge when criteria met (≥ 3 hours since last epinephrine, nontoxic, no dehydration, room air SpO2 > 90%, parents able to recognize changes, short transit time)
+
+@variant croup-moderate-severe
+name: Moderate to severe croup (stridor at rest)
+level: II
+imp: Moderate to severe croup
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: none
+cxr: none
+o2: O2 therapy: oxygen as needed, nasal cannula or face mask with flow by age and weight
+
+@scenario
+کودک ۱۸ ماهه با استریدور در استراحت، retraction و SpO2 91٪.
+
+@why
+epinephrine نبولایز به‌علاوه استروئید؛ بستری اگر مداوم یا > 2 نوبت.
+
+@I
+- Neck or chest radiographs only if other causes are being considered (subglottic narrowing, "steeple sign")
+
+@T
+- Dexamethasone 0.15 to 0.6 mg/kg (maximum 10 mg) PO or IM
+- Nebulized racemic Epinephrine 2.25% 0.05 mL/kg/dose up to 0.5 mL; or L-epinephrine (1:1000) 0.5 mL/kg/dose up to 5 mL
+- Heliox (70% helium/30% oxygen) for severe refractory croup (no definitive advantage)
+- Intubation when clinically indicated, consider a smaller endotracheal tube than estimated by age
+
+@Co
+- Admit children with persistent stridor at rest, tachypnea, retractions, hypoxia, or those requiring more than two epinephrine treatments
+
+@cond epiglottitis
+ch: 69
+name: Epiglottitis (supraglottitis)
+name_fa: اپی‌گلوتیت (سوپراگلوتیت)
+cc: pediatric-respiratory, ent
+keywords: epiglottitis, supraglottitis, thumb sign, tripod position, drooling, cefuroxime, ceftriaxone, اپی‌گلوتیت
+status: draft
+
+@features
+- تهدیدکننده حیات در هر سنی؛ قبلاً Hib (کاهش با واکسن)؛ در ایمن‌شده‌ها استرپتوکوک و استافیلوکوک؛ کاندیدا در ایمنوساپرس
+- شروع ناگهانی تب بالا، گلودرد و ترشح بزاق؛ پیشرفت سریع به استریدور و دیسترس؛ سرفه ممکن است نباشد، صدا خفه؛ بیمار سمی با وضعیت tripod یا sniffing
+- بزرگ‌ترها: گلودرد شدید، اوروفارنکس طبیعی، تندرنس شدید با حرکت ملایم هیوئید
+- رادیوگرافی لاترال گردن (در صورت شک) کنار تخت در اکستانسیون حین دم؛ «thumb sign»؛ منفی کاذب ممکن؛ کشت خون تا 90٪ مثبت
+
+@ddx
+- !Epiglottitis |
+- !Bacterial tracheitis |
+- Viral croup |
+- Retropharyngeal / peritonsillar abscess |
+- Airway foreign body |
+
+@redflags
+- ترشح بزاق، tripod/sniffing، ظاهر سمی، استریدور
+
+@guide
+بیمار نشسته و راست؛ اکسیژن؛ racemic یا L-epinephrine نبولایز؛ heliox قابل تلاش. اگر راه هوایی کاملاً از دست رفت: BVM. هماهنگی با مرکز ارجاع/ENT/بیهوشی اطفال؛ باتجربه‌ترین فرد به‌محض تشخیص اینتوبه کند؛ سداتیو، فلج‌کننده و واگولیتیک در صورت لزوم؛ اندازه‌های متعدد لوله آماده؛ در بیمار با راه هوایی حفظ‌شده، فلج‌کننده فقط با اطمینان از موفقیت یا راه هوایی جراحی فوری. استروئید: methylprednisolone 2 mg/kg IV یا dexamethasone 0.15 تا 0.6 mg/kg IV. آنتی‌بیوتیک: cefuroxime 50 mg/kg/dose IV، cefotaxime 50 mg/kg/dose IV یا ceftriaxone 50 mg/kg/dose IV؛ در مقاومت سفالوسپورین vancomycin 10 mg/kg/dose IV اضافه.
+
+@pearls
+- بیمار را به رادیولوژی نبر مگر با پزشک آموزش‌دیده راه هوایی.
+
+@variant epiglottitis-main
+name: Epiglottitis
+level: I
+imp: Epiglottitis
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: none
+cxr: none
+o2: O2 therapy: oxygen with the patient kept seated and upright, minimal disturbance
+
+@scenario
+کودک ۵ ساله با تب 40، ترشح بزاق، صدای خفه و وضعیت tripod.
+
+@why
+راه هوایی مقدم است؛ بیمار را دستکاری نکن؛ اینتوباسیون توسط باتجربه‌ترین فرد.
+
+@I
+- Lateral neck films at the bedside in extension during inspiration with minimum disturbance (only if diagnosis uncertain; physician trained in airway management must accompany)
+
+@L
+- Blood cultures (positive in up to 90%)
+
+@A
+- Cefuroxime 50 mg/kg/dose IV, or Cefotaxime 50 mg/kg/dose IV, or Ceftriaxone 50 mg/kg/dose IV; add Vancomycin 10 mg/kg/dose IV in regions with increased cephalosporin resistance
+
+@T
+- Nebulized racemic or L-epinephrine; heliox can also be attempted
+- Methylprednisolone 2 mg/kg IV or Dexamethasone 0.15 to 0.6 mg/kg IV (decrease mucosal edema)
+- Bag-valve-mask ventilation if total airway loss; intubation by the most experienced individual as soon as the diagnosis is made (sedation, paralytics, vagolytics as indicated; multiple endotracheal tube sizes available; surgical airway ready)
+
+@Co
+- Alert referral center or pediatric otolaryngologist or anesthesiologist for definitive airway management
+
+@cond bacterial-tracheitis
+ch: 69
+name: Bacterial tracheitis
+name_fa: تراکئیت باکتریال
+cc: pediatric-respiratory
+keywords: bacterial tracheitis, bacterial croup, membranous laryngotracheobronchitis, ampicillin sulbactam, clindamycin, تراکئیت
+status: draft
+
+@features
+- غیرشایع؛ اولیه یا ثانویه؛ میانگین سنی 5 تا 8 سال؛ S. aureus، S. pneumoniae و گرم‌منفی تولیدکننده β-lactamase (H. influenzae، M. catarrhalis)
+- بیمار سمی با دیسترس بیشتر از کروپ؛ بدتر شدن ناگهانی عفونت تنفسی فوقانی با تب، گلودرد، استریدور و سرفه گاهی خلط غلیظ
+- رادیوگرافی لاترال: تنگی ساب‌گلوتیک با تراکئای نامنظم؛ برونکوسکوپی تشخیصی‌ترین
+
+@ddx
+- !Epiglottitis |
+- Viral croup |
+- Airway foreign body |
+
+@redflags
+- ظاهر سمی، دیسترس تنفسی شدید
+
+@guide
+مدیریت راه هوایی مثل اپی‌گلوتیت؛ اغلب نیاز به اینتوباسیون؛ ایده‌آل: اینتوباسیون و برونکوسکوپی در اتاق عمل با Gram و کشت. آنتی‌بیوتیک: ampicillin/sulbactam 50 mg/kg/dose IV یا ceftriaxone 50 mg/kg/dose IV + clindamycin 10 mg/kg/dose IV؛ در مقاومت S. aureus vancomycin 10 mg/kg/dose IV.
+
+@variant tracheitis-main
+name: Bacterial tracheitis
+level: I
+imp: Bacterial tracheitis
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: none
+cxr: portable
+o2: O2 therapy: oxygen as needed with airway management as for epiglottitis
+
+@scenario
+کودک ۶ ساله بدحال با تب، استریدور و خلط غلیظ بعد از سرماخوردگی.
+
+@why
+نیاز به اینتوباسیون و برونکوسکوپی؛ آنتی‌بیوتیک وریدی.
+
+@I
+- Lateral neck and chest radiographs (subglottic narrowing with irregular densities); bronchoscopy most diagnostic
+
+@A
+- Ampicillin/sulbactam 50 mg/kg/dose IV, or Ceftriaxone 50 mg/kg/dose IV plus Clindamycin 10 mg/kg/dose IV; consider Vancomycin 10 mg/kg/dose IV where S. aureus resistance is increasing
+
+@T
+- Airway management as for epiglottitis; frequently requires intubation (ideally in the operating room with bronchoscopy for cultures and Gram stain)
+
+@Co
+- Admit; otolaryngology / anesthesia
+
+@cond airway-foreign-body-peds
+ch: 69
+name: Airway foreign body in children
+name_fa: جسم خارجی راه هوایی در کودکان
+cc: pediatric-respiratory, airway-procedure
+keywords: foreign body aspiration, choking, unilateral wheeze, bronchoscopy, Magill forceps, decubitus films, آسپیراسیون جسم خارجی
+status: draft
+
+@features
+- > 3000 مرگ در سال؛ اوج 1 تا 3 سال؛ زیر 6 ماه معمولاً تغذیه توسط خواهر/برادر
+- غذا (بادام‌زمینی، تخمه، کشمش، انگور، هات‌داگ) و اسباب‌بازی؛ مواد گیاهی پنومونیت شدید و عفونت ریوی؛ شک: شروع ناگهانی سرفه یا خفگی و هر کودک با ویز یک‌طرفه
+- بسیاری بدون علامت؛ سرفه ناگهانی با gagging، خفگی، استریدور یا سیانوز؛ حنجره-نای: استریدور و گرفتگی صدا؛ برونش: ویز یک‌طرفه و کاهش صدای تنفس؛ 80٪ تا 90٪ در برونش؛ علائم در تعیین سطح غیرقابل اتکا
+- CXR می‌تواند در > 50٪ FB نای و 25٪ FB برونش طبیعی باشد؛ > 75٪ FB در < 3 سال رادیولوسنت؛ انسداد کامل: آتلکتازی؛ جزئی: air trapping با hyperinflation در بازدم؛ کودک همکار: CXR دمی و بازدمی؛ ناهمکار: decubitus (کمتر از فلوروسکوپی)؛ تشخیص پیش از عمل فقط در یک‌سوم: در شک بالینی برونکوسکوپی
+- FB مری فوقانی معمولاً رادیواپک؛ سکه در نای در صفحه ساژیتال و در مری در صفحه کرونال
+
+@ddx
+- !Complete airway obstruction |
+- Asthma / bronchiolitis / pneumonia |
+- Croup |
+- Esophageal foreign body |
+
+@redflags
+- استریدور ناگهانی شدید، سیانوز، ایست قلبی، ویز یک‌طرفه
+
+@guide
+انسداد واضح: BLS برای رفع انسداد (فصل ۳)؛ شکست: لارنگوسکوپی مستقیم و خارج کردن با Magill forceps؛ اگر دیده نشد: اینتوباسیون اوروتراکئال و جابه‌جایی FB به دیستال ممکن است نجات‌بخش باشد؛ در انسداد غیرقابل رفع: راه هوایی جراحی اورژانس. درمان قطعی انسداد جزئی: برونکوسکوپی سخت در اتاق عمل زیر بیهوشی عمومی.
+
+@variant fb-airway-complete
+name: Complete airway obstruction by foreign body
+level: I
+imp: Airway foreign body with obstruction
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: none
+cxr: none
+o2: O2 therapy: oxygen as available; basic life support to relieve obstruction first
+
+@scenario
+کودک ۲ ساله با خفگی ناگهانی هنگام خوردن بادام‌زمینی، سیانوز و ناتوانی در گریه.
+
+@why
+BLS، سپس لارنگوسکوپی و Magill؛ در شکست راه هوایی جراحی.
+
+@T
+- Basic life support procedures to relieve airway obstruction (see Chapter 3)
+- If BLS fails: direct laryngoscopy and extraction with Magill forceps; if not seen, orotracheal intubation with dislodgement of the foreign body distally may be lifesaving
+- If obstructive laryngotracheal foreign body cannot be removed or dislodged: emergent surgical airway
+
+@Co
+- Otolaryngology / pediatric surgery for rigid bronchoscopy
+
+@variant fb-airway-partial
+name: Suspected foreign body aspiration, stable
+level: II
+imp: Suspected airway foreign body aspiration
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: none
+cxr: PA
+o2: O2 therapy: if SpO2 < 94%, nasal cannula or face mask with flow by age and weight
+
+@scenario
+کودک ۲ ساله با سرفه ناگهانی دیروز و ویز یک‌طرفه؛ پایدار.
+
+@why
+شک بالینی نیاز به برونکوسکوپی دارد؛ CXR دمی و بازدمی.
+
+@I
+- Inspiratory and expiratory posteroanterior chest radiographs in a stable cooperative child; decubitus films in a stable noncooperative child (less sensitive than fluoroscopy); radiographs may be normal
+
+@Co
+- Rigid bronchoscopy in the operating room under general anesthesia (definitive treatment of partial airway obstruction; indicated if clinically suspected)
+
+@cond retropharyngeal-peritonsillar-abscess
+ch: 69
+name: Retropharyngeal and peritonsillar abscess
+name_fa: آبسه رتروفارنژیال و پری‌تانسیلار
+cc: pediatric-respiratory, ent, pediatric-fever
+keywords: retropharyngeal abscess, peritonsillar abscess, quinsy, trismus, hot potato voice, needle aspiration, clindamycin, ampicillin sulbactam, آبسه پری‌تانسیلار
+status: draft
+
+@features
+- رتروفارنژیال: فضای بالقوه فقط در کودکان خردسال (< 4 سال)؛ تب، ترشح بزاق، دیسفاژی ± استریدور دمی؛ وضعیت غیرعادی گردن (torticollis، هایپراکستانسیون، سفتی)؛ عوارض: انسداد راه هوایی با پارگی ناگهانی، پنومونی آسپیراسیون، آمپیم، مدیاستینیت، فرسایش ورید ژوگولار و کاروتید
+- معاینه: توده رتروفارنژیال؛ لمس باعث پارگی می‌شود؛ لاترال گردن دمی: فضای C2 ≥ 2 برابر عرض جسم مهره یا > نصف عرض C4؛ CT گردن با کنتراست برای وسعت و افتراق سلولیت از آبسه
+- پری‌تانسیلار: معمولاً یک‌طرفه، عفونت عمقی پلی‌میکروبیال؛ نوجوانان و بزرگسالان جوان؛ گلودرد، تب، لرز، دیسفاژی/ادینوفاژی، trismus، ترشح بزاق و صدای «hot potato»؛ انحراف uvula از سمت درگیر، جابه‌جایی قدامی-داخلی لوزه
+- تصویربرداری معمولاً لازم نیست؛ در بیمار سمی یا معاینه آتیپیک: CT با کنتراست یا سونوگرافی
+
+@ddx
+- !Epiglottitis |
+- !Retropharyngeal abscess with airway compromise |
+- Peritonsillar cellulitis |
+- Mediastinitis / jugular vein involvement |
+- Ludwig angina |
+
+@redflags
+- استریدور، trismus، ترشح بزاق، نمای سمی، راه هوایی تهدیدشده
+
+@guide
+# رتروفارنژیال
+اولویت: تثبیت راه هوایی؛ ناپایدار را قبل از CT اینتوبه کن. آنتی‌بیوتیک (بحث‌برانگیز؛ فلور مخلوط): ampicillin/sulbactam 50 mg/kg/dose IV یا clindamycin 10 mg/kg/dose IV؛ آلرژی پنی‌سیلین: ceftriaxone 50 mg/kg/dose IV به‌جای ampicillin/sulbactam. استروئید کمکی: dexamethasone 0.15 تا 0.6 mg/kg IV (حداکثر 10 mg). سلولیت و آبسه‌های کوچک ممکن است فقط با آنتی‌بیوتیک بهتر شوند؛ بیشتر نیاز به برش و درناژ ENT.
+# پری‌تانسیلار
+بیشتر موارد: آسپیراسیون با سوزن، آنتی‌بیوتیک و کنترل درد: بی‌حسی موضعی (benzocaine یا endocaine اسپری)، خوراکی (oxycodone یا Vicodin) یا تزریقی (fentanyl، morphine)، سپس آسپیراسیون با سوزن بزرگ؛ از نفوذ عمیق (آسیب عروق) بپرهیز (کوتاه کردن سوزن با محافظ). clindamycin 10 mg/kg/dose IV یا ampicillin/sulbactam 50 mg/kg/dose IV؛ سرپایی: amoxicillin/clavulanate 45 mg/kg/dose دو بار روزانه یا clindamycin 10 mg/kg/dose هر 8 ساعت؛ پیگیری قطعی ضروری؛ گاهی I&D در اتاق عمل (کودک یا ناهمکار)؛ بولوس مایع وریدی (دهیدراتاسیون).
+
+@variant retropharyngeal-abscess
+name: Retropharyngeal abscess
+level: I
+imp: Retropharyngeal abscess
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: none
+cxr: none
+o2: O2 therapy: oxygen as needed; airway stabilization first
+
+@scenario
+کودک ۲ ساله با تب، ترشح بزاق، دیسفاژی و torticollis.
+
+@why
+فضای رتروفارنژیال فقط در کودکان کوچک؛ اولویت راه هوایی؛ CT با کنتراست.
+
+@I
+- Lateral neck radiograph during inspiration (retropharyngeal space at C2 twice the diameter of the vertebral body or greater than one half the width of C4); CT of the neck with IV contrast (define extent, cellulitis vs abscess)
+
+@A
+- Ampicillin/sulbactam 50 mg/kg/dose IV, or Clindamycin 10 mg/kg/dose IV; Ceftriaxone 50 mg/kg/dose IV in the penicillin-allergic patient
+
+@T
+- Dexamethasone 0.15 to 0.6 mg/kg IV (maximum 10 mg) (adjunct to reduce inflammation and edema)
+- Immediate airway stabilization; intubate unstable patients before performing CT {ci: do not palpate the abscess (rupture)}
+
+@Co
+- Otolaryngology consult for operative incision and drainage (retropharyngeal cellulitis and very small abscesses may improve with antibiotics alone)
+
+@variant peritonsillar-abscess
+name: Peritonsillar abscess
+level: II
+imp: Peritonsillar abscess
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: none
+cxr: none
+o2: O2 therapy: if SpO2 < 94%, nasal cannula or face mask with flow by age and weight
+
+@scenario
+نوجوان ۱۷ ساله با گلودرد، تب، trismus، صدای «hot potato» و انحراف uvula.
+
+@why
+آسپیراسیون با سوزن، آنتی‌بیوتیک و مسکن؛ پیگیری قطعی.
+
+@I
+- CT with contrast or ultrasound only if toxic appearance or atypical exam findings
+
+@S
+- Empiric IV fluid boluses (patients may be dehydrated on presentation or not drink well after drainage) {note: volume not given in the book}
+
+@A
+- Clindamycin 10 mg/kg/dose IV, or Ampicillin/sulbactam 50 mg/kg/dose IV; outpatient oral: Amoxicillin/clavulanate 45 mg/kg/dose twice daily, or Clindamycin 10 mg/kg/dose every eight hours
+
+@T
+- Topical (benzocaine or endocaine spray), oral (oxycodone or Vicodin) or parenteral (fentanyl, morphine) analgesia, then needle aspiration of the abscess with a large gauge needle, avoiding deep penetration {hi}
+
+@Co
+- Definitive follow-up essential in all cases; operating room incision and drainage sometimes necessary (young or uncooperative patients)

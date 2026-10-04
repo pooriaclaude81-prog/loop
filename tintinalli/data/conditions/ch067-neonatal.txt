@@ -1,0 +1,386 @@
+@cond neonatal-feeding-gi
+ch: 67
+name: Neonatal feeding, vomiting, stooling and abdominal catastrophes
+name_fa: مشکلات تغذیه، استفراغ، مدفوع و اورژانس‌های شکمی نوزاد
+cc: pediatric-gi, pediatric-other
+keywords: neonate, regurgitation, bilious vomiting, malrotation, midgut volvulus, pyloric stenosis, necrotizing enterocolitis, Hirschsprung, inguinal hernia, bloody stool, استفراغ صفراوی نوزاد
+status: draft
+
+@features
+- تغذیه: شیشه 6 تا 9 وعده (2 تا 4 oz)؛ شیر مادر هر 1 تا 3 ساعت؛ کاهش تا 12٪ وزن تولد در 3 تا 7 روز اول؛ سپس حدود 20 تا 30 g/d تا 3 ماهگی
+- regurgitation: خروج بدون زحمت محتویات معده تا 30 دقیقه بعد، هرگز پرتابی یا صفراوی؛ خودمحدود؛ در نوزاد با رشد خوب اطمینان‌بخشی
+- استفراغ: انقباض دیافراگم و عضلات شکم؛ علل: افزایش ICP (NAT)، عفونت (UTI، سپسیس، گاستروانتریت)، بیماری هپاتوبیلیاری (با ایکتر)، IEM (با هیپوگلیسمی و اسیدوز)
+- استفراغ صفراوی: اورژانس جراحی؛ malrotation با volvulus
+- مدفوع: شیرخوار شیری ممکن است 5 تا 7 روز مدفوع نکند؛ رنگ بی‌اهمیت مگر خون یا آکولیک (سفید)
+- بدون مدفوع در 2 روز اول: آترزی/تنگی، CF، Hirschsprung، مکونیوم پلاگ؛ یبوست بعدی: Hirschsprung، کم‌کاری تیروئید، تنگی مقعد
+- خون در مدفوع: شایع‌ترین علت شقاق مقعد؛ خون بلعیده مادر؛ NEC (سپسیس، ایکتر، بی‌حالی، تب، تغذیه ضعیف، اتساع؛ رادیوگرافی: pneumatosis یا هوای آزاد)
+- اتساع شکم می‌تواند طبیعی باشد (عضلات شل، اندام‌های نسبتاً بزرگ، هوای بلعیده)؛ راحت، تغذیه خوب و شکم نرم: نگرانی نیست
+- فاجعه شکمی: تحریک‌پذیری، تغذیه ضعیف، استفراغ، یبوست، اتساع؛ استفراغ پرتابی بعد از شیر: تنگی پیلور (سونوگرافی)؛ توده کشاله ران: فتق گیرافتاده (شایع در نارس)
+
+@ddx
+- !Malrotation with midgut volvulus |
+- !Necrotizing enterocolitis |
+- !Sepsis / UTI / meningitis |
+- Pyloric stenosis |
+- Incarcerated inguinal hernia |
+- Anal fissure / Hirschsprung disease |
+- Inborn error of metabolism |
+
+@redflags
+- استفراغ صفراوی، اتساع با بی‌حالی/تب، مدفوع خونی با علائم سپسیس
+
+@guide
+نوزاد با رشد خوب و regurgitation: اطمینان‌بخشی. استفراغ صفراوی: مشاوره فوری جراحی اطفال و سری فوقانی دستگاه گوارش با follow-through روده کوچک. تنگی پیلور: سونوگرافی. فتق گیرافتاده: جراح. نوزاد دهیدراته: بستری و مایع تزریقی. NEC: شک → سپسیس ورک‌آپ و جراح.
+
+@variant neonate-gi-benign
+name: Neonatal regurgitation / normal stool / abdominal distention, thriving
+level: III
+imp: Neonatal feeding or stooling concern (benign)
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+o2: O2 therapy: if SpO2 < 94%, nasal cannula or face mask with flow by age and weight
+
+@scenario
+نوزاد ۱۰ روزه با برگشت شیر بعد از تغذیه؛ وزن‌گیری خوب.
+
+@why
+regurgitation در نوزاد با رشد کافی: اطمینان‌بخشی.
+
+@T
+- Parental reassurance if weight gain is adequate and the infant appears satisfied after feeding {note: no orders required}
+
+@variant neonate-gi-surgical
+name: Bilious vomiting / suspected surgical abdomen / NEC
+level: I
+imp: Neonatal surgical abdominal emergency (malrotation with volvulus / NEC / pyloric stenosis / incarcerated hernia)
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: none
+cxr: portable
+o2: O2 therapy: if SpO2 < 94%, nasal cannula or face mask with flow by age and weight
+
+@scenario
+نوزاد ۵ روزه با استفراغ سبز، اتساع شکم و بی‌حالی.
+
+@why
+استفراغ صفراوی = اورژانس جراحی تا خلاف آن ثابت شود؛ بررسی تصویری و مشاوره فوری.
+
+@I
+- Upper gastrointestinal series with small bowel follow through (bilious vomiting); ultrasound (pyloric stenosis); abdominal radiography (pneumatosis intestinalis or free air in necrotizing enterocolitis)
+
+@L
+- Sepsis evaluation if NEC suspected (jaundice, lethargy, fever, poor feeding, abdominal distention) {note: components per Chapter 66}
+
+@S
+- Parenteral rehydration for dehydrated neonates {note: volume not given in the book}
+
+@Co
+- Emergent pediatric surgical consultation; admission
+
+@cond neonatal-resp-neuro
+ch: 67
+name: Neonatal apnea, crying, colic, seizures and BRUE
+name_fa: آپنه، گریه، کولیک، تشنج و BRUE در نوزاد
+cc: pediatric-respiratory, pediatric-other
+keywords: neonatal apnea, periodic breathing, laryngomalacia, colic, neonatal seizure, benign neonatal sleep myoclonus, BRUE, ALTE, SIDS, آپنه نوزاد
+status: draft
+
+@features
+- تنفس طبیعی نوزاد 30 تا 60/min؛ periodic breathing (مکث < 5 تا 10 ثانیه) معمولاً طبیعی؛ آپنه: توقف تنفس > 10 تا 20 ثانیه با یا بدون برادی‌کاردی و سیانوز: بیماری بحرانی (عفونت، CNS، متابولیک)؛ ممکن است اولین علامت برونشیولیت RSV؛ کلامیدیا و سیاه‌سرفه
+- تنفس پرسروصدا معمولاً خوش‌خیم؛ استریدور نوزاد: آنومالی مادرزادی (laryngomalacia شایع‌ترین)؛ گرفتگی بینی: نوزاد اجباراً از بینی تنفس می‌کند؛ قطره سالین و ساکشن
+- گریه طولانی: بی‌قراری واقعی جدی است: آسیب (اتفاقی یا عمدی)، عفونت، SVT، خراش قرنیه، hair tourniquet، فتق یا torsion، اورژانس شکمی؛ اگر پس از ارزیابی علت پیدا نشد و ادامه داشت: بستری
+- کولیک: حدود 13٪ نوزادان؛ گریه ≥ 3 ساعت/روز ≥ 3 روز/هفته طی 3 هفته؛ بعد از 3 ماه تمام می‌شود؛ تشخیص رد؛ درمان مؤثر ندارد
+- تشنج نوزاد: علائم ظریف (انحراف چشم، بیرون آوردن زبان، پلک‌زدن، آپنه، حرکات پدالی، قوس)؛ همه نیاز به ورک‌آپ کامل شامل کلسیم سرم و بستری دارند؛ افتراق از رفلکس Moro و benign neonatal sleep myoclonus (فقط در خواب، با لمس قطع می‌شود، بی‌نیاز از ورک‌آپ)
+- ALTE/BRUE: < 12 ماه، حادثه کوتاه حل‌شده با سیانوز/رنگ‌پریدگی، تنفس غیرمنظم/کاهش/قطع، هیپر/هیپوتونی یا تغییر پاسخ‌دهی؛ ظاهر خوب و بدون توضیح؛ کم‌خطر: > 60 روز، سن بارداری ≥ 32 هفته و پس از لقاح ≥ 45 هفته، اولین حادثه، < 1 دقیقه، بدون CPR، بدون یافته نگران‌کننده؛ در غیر این صورت پرخطر؛ ارتباطی با SIDS ندارد
+
+@ddx
+- !Sepsis / meningitis |
+- !SVT / cardiac disease |
+- !Seizure |
+- Bronchiolitis (RSV) / pertussis / chlamydia |
+- Nonaccidental trauma |
+- Colic / corneal abrasion / hair tourniquet |
+
+@redflags
+- آپنه، تشنج، بی‌قراری واقعی، BRUE پرخطر
+
+@guide
+آپنه: بررسی فوری و بستری با مانیتور. BRUE پرخطر: CBC؛ الکترولیت، کلسیم، فسفر، منیزیم و آمونیاک؛ غربال توکسیکولوژی ادرار؛ CXR؛ ECG؛ تست RSV یا سیاه‌سرفه؛ ورک‌آپ سپسیس (خون، ادرار، CSF)؛ CT مغز در شک NAT. تشنج نوزاد: کلسیم سرم و ورک‌آپ وسیع و بستری.
+
+@variant neonate-apnea-brue
+name: Neonatal apnea / higher-risk BRUE
+level: I
+imp: Neonatal apnea / BRUE (higher risk)
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: portable
+o2: O2 therapy: if SpO2 < 94%, nasal cannula or face mask with flow by age and weight
+
+@scenario
+شیرخوار ۳۵ روزه با دوره آپنه و سیانوز در خانه که حل شده است.
+
+@why
+آپنه نشانه بیماری بحرانی؛ ورک‌آپ و بستری با مانیتور.
+
+@L
+- Electrolytes, calcium, phosphorous, magnesium, ammonia; urine toxicological screen; testing for respiratory syncytial virus or pertussis; sepsis workup including blood, urine and cerebrospinal fluid
+
+@I
+- Brain CT in cases of suspected nonaccidental trauma
+
+@Co
+- Admission for monitoring and treatment
+
+@variant neonate-brue-low
+name: Lower-risk BRUE / colic / periodic breathing
+level: III
+imp: Lower-risk BRUE / colic
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+o2: O2 therapy: if SpO2 < 94%, nasal cannula or face mask with flow by age and weight
+
+@scenario
+شیرخوار ۹۰ روزه با اولین حادثه ۳۰ ثانیه‌ای تغییر رنگ؛ حال فعلی خوب.
+
+@why
+کم‌خطر: ارزیابی محدود و پیگیری؛ کولیک تشخیص رد است.
+
+@T
+- Nasal saline drops and nasal suctioning for nasal congestion {note: no further orders given for low-risk BRUE}
+
+@Co
+- Close follow-up
+
+@variant neonate-seizure
+name: Neonatal seizure
+level: I
+imp: Neonatal seizure
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: none
+o2: O2 therapy: if SpO2 < 94%, nasal cannula or face mask with flow by age and weight
+
+@scenario
+نوزاد ۱۰ روزه با انحراف چشم، پلک‌زدن و حرکات پدالی.
+
+@why
+همه تشنج‌های نوزاد ورک‌آپ وسیع و بستری می‌خواهند.
+
+@L
+- Serum calcium level and extensive workup {note: other tests not specified in this chapter}
+
+@Co
+- Admission
+
+@cond neonatal-jaundice-skin-eye
+ch: 67
+name: Neonatal jaundice, thrush, diaper rash and eye complaints
+name_fa: ایکتر، برفک، التهاب پوشک و مشکلات چشم نوزاد
+cc: jaundice, pediatric-other, eye
+keywords: neonatal jaundice, phototherapy, bilitool, oral thrush, nystatin, diaper rash, gonococcal conjunctivitis, chlamydial conjunctivitis, erythromycin, ایکتر نوزاد
+status: draft
+
+@features
+- ایکتر در 24 ساعت اول: جدی (معمولاً در نوزادگاه)؛ روز 2 تا 3: معمولاً فیزیولوژیک اگر وزن‌گیری، تغذیه و مدفوع خوب، بدون کم‌خونی، بیلی‌روبین دایرکت ≤ 1/3 توتال و توتال نیازمند فتوتراپی نیست (bilitool.org)؛ بعد از روز 3: معمولاً جدی (سپسیس، UTI، TORCH، همولیز، آترزی صفراوی، شیر مادر، کم‌کاری تیروئید)
+- برفک: ضایعات سفید پنیری زبان، لب، لثه، مخاط گونه؛ nystatin
+- التهاب پوشک: تماسی (ماکولار، اریتماتو و لبه تیز) و کاندیدایی (پلاک اریتماتو با لبه scalloped و ضایعات ماهواره‌ای)
+- چشم: خراش قرنیه (فلورسئین)؛ قرنیه کدر = گلوکوم حاد (چشم‌پزشکی اطفال)؛ گنوکوک در روزهای اول با ترشح فراوان؛ کلامیدیا بعد از هفته اول
+
+@ddx
+- !Sepsis / UTI (jaundice after day 3) |
+- !Biliary atresia / hemolytic anemia |
+- !Gonococcal conjunctivitis |
+- Physiologic jaundice / breast milk jaundice |
+- Contact vs candidal diaper dermatitis |
+- Corneal abrasion / acute glaucoma |
+
+@redflags
+- ایکتر روز اول یا بعد از روز 3، قرنیه کدر، ترشح چرکی فراوان چشم
+
+@guide
+ایکتر جدی: ورک‌آپ کامل سپسیس شامل LP، اسمیر خون محیطی، CBC، بیلی‌روبین توتال و دایرکت، LFT، رتیکولوسیت و Coombs؛ آنتی‌بیوتیک تجربی در شک به سپسیس. برفک: nystatin suspension خوراکی 4 بار روزانه. پوشک تماسی: تعویض مکرر، هوا‌دهی و کرم مانع حاوی zinc oxide؛ کاندیدایی: تعویض مکرر و nystatin cream حداقل 4 بار روزانه. گنوکوک: ورک‌آپ سپسیس، شست‌وی چشم، آنتی‌بیوتیک تزریقی، چشم‌پزشکی و بستری؛ کلامیدیا: قطره موضعی ناکافی، erythromycin خوراکی.
+
+@variant neonate-jaundice-serious
+name: Neonatal jaundice, concerning (< 24 h or after day 3)
+level: II
+imp: Neonatal jaundice (concerning)
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+o2: O2 therapy: if SpO2 < 94%, nasal cannula or face mask with flow by age and weight
+
+@scenario
+نوزاد ۷ روزه با ایکتر شدید، تغذیه ضعیف و تب.
+
+@why
+ایکتر بعد از روز سوم معمولاً جدی؛ ورک‌آپ سپسیس.
+
+@L
+- Total and direct bilirubin, liver function tests, reticulocyte count, Coombs test, peripheral blood smear, complete sepsis evaluation including lumbar puncture
+
+@A
+- Empiric antibiotics when sepsis is suspected {note: drug and dose not given in this chapter; see Chapter 66}
+
+@Co
+- Admission; phototherapy per bilitool.org
+
+@variant neonate-thrush-diaper
+name: Oral thrush / diaper rash
+level: III
+imp: Oral thrush / diaper dermatitis
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+o2: O2 therapy: if SpO2 < 94%, nasal cannula or face mask with flow by age and weight
+
+@scenario
+نوزاد ۲۰ روزه با پلاک سفید دهانی و قرمزی ناحیه پوشک.
+
+@why
+nystatin خوراکی/موضعی؛ پوشک تماسی: کرم مانع.
+
+@T
+- Oral nystatin suspension topically four times a day (thrush)
+- Contact dermatitis: frequent diaper changes, air drying, barrier cream containing zinc oxide
+- Candidal dermatitis: frequent diaper changes and Nystatin cream at least four times a day
+
+@variant neonate-eye
+name: Neonatal red eye / conjunctivitis
+level: II
+imp: Neonatal conjunctivitis / red eye
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+o2: O2 therapy: if SpO2 < 94%, nasal cannula or face mask with flow by age and weight
+
+@scenario
+نوزاد ۳ روزه با ترشح چرکی فراوان چشم.
+
+@why
+گنوکوک: ورک‌آپ سپسیس و آنتی‌بیوتیک تزریقی؛ کلامیدیا: erythromycin خوراکی.
+
+@L
+- Fluorescein staining (corneal abrasion); sepsis workup if gonococcal conjunctivitis
+
+@A
+- [gonococcal conjunctivitis] Parenteral antibiotics {note: drug and dose not given in this chapter}
+- [chlamydial conjunctivitis, after the first week] Oral erythromycin {note: dose not given in this chapter; topical drops inadequate}
+
+@T
+- Ocular irrigation (gonococcal)
+
+@Co
+- Prompt pediatric ophthalmology consultation (cloudy cornea suggests acute glaucoma); admission for gonococcal conjunctivitis
+
+@cond neonatal-metabolic-cardiac-nat
+ch: 67
+name: Inborn errors of metabolism, congenital adrenal hyperplasia, cyanotic heart disease and nonaccidental trauma in neonates
+name_fa: IEM، هیپرپلازی مادرزادی آدرنال، بیماری قلبی سیانوتیک و ترومای غیرتصادفی در نوزاد
+cc: pediatric-other, hypotension-shock, abuse-assault
+keywords: inborn error of metabolism, ammonia, congenital adrenal hyperplasia, hydrocortisone, cyanotic heart disease, right-to-left shunt, nonaccidental trauma, abusive head trauma, هیپرپلازی آدرنال
+status: draft
+
+@features
+- IEM: بی‌حالی یا ایست قلبی‌تنفسی؛ اغلب پس از احیا تشخیص داده می‌شود؛ آمونیاک سرم به آزمایش‌های احیا اضافه شود
+- CAH: ویریلیزاسیون، ژنیتال مبهم، هیپرپیگمانتاسیون؛ ممکن است شوک؛ هیپوناترمی و هیپرکالمی
+- سیانوز: تنفس سریع بدون زحمت و عدم پاسخ به اکسیژن: بیماری قلبی سیانوتیک (shunt راست به چپ)؛ تنفس نامنظم/سطحی: سپسیس، CNS، متابولیک؛ تنفس زحمت‌دار با grunting و retraction: ریوی (پنومونی، برونشیولیت)؛ همه سیانوتیک‌ها بستری
+- NAT: کبودی‌های با سنین مختلف بدون توضیح، شکستگی جمجمه، آسیب داخل جمجمه در CT، شکستگی اندام، سوختگی سیگار، خونریزی شبکیه، تحریک‌پذیری، بی‌حالی یا کما
+
+@ddx
+- !Adrenal crisis |
+- !Cyanotic congenital heart disease |
+- !Inborn error of metabolism |
+- Sepsis |
+- Nonaccidental trauma |
+
+@redflags
+- شوک، هیپوناترمی/هیپرکالمی، سیانوز بی‌پاسخ به اکسیژن
+
+@guide
+IEM: آمونیاک سرم در کنار آزمایش‌های احیا. CAH: علاوه بر احیای معمول: hydrocortisone IV/IM/IO با دوز 12.5 تا 25 mg. سیانوز: بستری برای مانیتور، درمان و بررسی.
+
+@variant neonate-cah-shock
+name: Congenital adrenal hyperplasia / inborn error with shock
+level: I
+imp: Neonatal shock (congenital adrenal hyperplasia / inborn error of metabolism)
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: portable
+o2: O2 therapy: if SpO2 < 94%, nasal cannula or face mask with flow by age and weight
+
+@scenario
+نوزاد ۱۰ روزه با ژنیتال مبهم، هیپرپیگمانتاسیون، شوک، Na پایین و K بالا.
+
+@why
+CAH: هیدروکورتیزون به علاوه احیا؛ IEM: آمونیاک.
+
+@L
+- Serum ammonia added to the usual laboratories obtained during resuscitation (inborn errors of metabolism); electrolytes (hyponatremia and hyperkalemia in CAH)
+
+@T
+- Hydrocortisone 12.5 to 25 mg IV, IM or IO (congenital adrenal hyperplasia), in addition to usual resuscitation measures
+
+@Co
+- Admission; PICU
+
+@variant neonate-cyanosis
+name: Cyanotic neonate (suspected congenital heart disease)
+level: I
+imp: Cyanosis in neonate (suspected congenital heart disease)
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: portable
+o2: O2 therapy: oxygen; cyanosis unresponsive to oxygen suggests cyanotic heart disease
+
+@scenario
+نوزاد ۵ روزه با سیانوز و تنفس سریع بدون زحمت که با اکسیژن بهبود نمی‌یابد.
+
+@why
+بیماری قلبی سیانوتیک مطرح؛ بستری و بررسی.
+
+@Co
+- Admit all cyanotic neonates for monitoring, therapy and further investigation
+
+@variant neonate-nat
+name: Suspected nonaccidental trauma in neonate / infant
+level: I
+imp: Suspected nonaccidental trauma
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: none
+cxr: none
+o2: O2 therapy: if SpO2 < 94%, nasal cannula or face mask with flow by age and weight
+
+@scenario
+شیرخوار ۳ ماهه با بی‌حالی و کبودی‌های مختلف.
+
+@why
+NAT را با CT سر و معاینه شبکیه بررسی کن.
+
+@I
+- Computed tomography of the head (intracranial injuries); retinal examination {note: other imaging per Chapter 187}
+
+@Co
+- Admission; child protection / social work
