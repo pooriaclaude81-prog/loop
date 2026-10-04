@@ -1,0 +1,123 @@
+@cond poisoned-patient-general
+ch: 100
+name: General management of the poisoned patient
+name_fa: مدیریت کلی بیمار مسموم
+cc: poisoning, altered-mental-status
+keywords: poisoning, overdose, toxidrome, activated charcoal, antidote, naloxone, thiamine, whole bowel irrigation, intravenous lipid emulsion, hemodialysis, مسمومیت, پادزهر
+status: draft
+
+@features
+- شرح حال دقیق: ماده، زمان، راه، مقدار و قصد؛ بیمار ناهمکار: دوستان، خانواده، پیش‌بیمارستانی، پلیس؛ سرنخ‌های محیطی (وسایل مواد، شیشه خالی قرص، بو، یادداشت خودکشی)؛ مرور سوابق؛ قرص‌های شل با کد روی آن را داروخانه/مرکز سموم شناسایی می‌کند
+- معاینه با لباس کامل درآورده؛ علائم حیاتی؛ ظاهر، هوشیاری، مردمک، مخاط، تنفس، صداهای ریه، صداهای روده، دمای پوست و تون عضله → toxidrome (جدول 100-1): آنتی‌کولینرژیک (تغییر هوشیاری، میدریاز، پوست خشک و برافروخته، احتباس ادرار، هیپرترمی)، کولینرژیک (SLUDGE: بزاق، اشک، تعریق، استفراغ، ادرار، دفع، برونکوره، فاسیکولاسیون)، اتانولیک، اکستراپیرامیدال، هالوسینوژنیک، هیپوگلیسمیک، NMS، اوپیوئیدی (میوز، افسردگی تنفس)، سالیسیلات، سداتیو، سروتونین، سمپاتومیمتیک
+- ویژگی‌های مهم: هیپوگلیسمی، آریتمی، تشنج، آژیتاسیون و تغییر دما
+- تشخیص عمدتاً بالینی؛ تست سم‌شناسی عموماً محدود (جدول 100-2: سطوح مفید: استامینوفن، کربن‌منوکسید، دیگوکسین، اتانول، اتیلن گلیکول، آهن، لیتیوم، متهموگلوبین، متانول، پاراکوات، سالیسیلات، تئوفیلین، والپروات و...)؛ تست تجربی استامینوفن و آسپرین در همه مسمومین بالقوه؛ تکمیلی: قند خون، لاکتات/الکترولیت، کلیه/کبد، hCG ادرار و ECG
+
+@ddx
+- !Opioid / sedative overdose |
+- !Acetaminophen or salicylate ingestion |
+- !Toxic alcohol / cholinergic / sympathomimetic toxidrome |
+- Hypoglycemia / sepsis / CNS cause of coma |
+- Psychiatric illness |
+
+@redflags
+- تغییر هوشیاری، افت فشار، آریتمی، تشنج، هیپرترمی، مصرف عمدی
+
+@guide
+1) تطهیر خشن قبل از ورود؛ احتیاط جهانی؛ لباس و جواهر خارج و کیسه‌بندی. 2) هدف اصلی احیا: راه هوایی، تنفس، گردش؛ مراقبت حمایتی اغلب تنها مداخله؛ اینتوباسیون زودهنگام در برخی toxidrome ها؛ افت فشار: کریستالوئید (کودک 10 تا 20 mL/kg) قبل از پرسور؛ دیس‌ریتمی بطنی طبق ACLS/PALS؛ جدول 100-3 (ایست قلبی ناشی از سم): پادزهر اختصاصی (دیگوکسین: Fab؛ ارگانوفسفات: آتروپین؛ گزش: آنتی‌ونوم)، بیکربنات سدیم (بلوک کانال سدیم/QRS پهن)، انسولین با دوز بالا (CCB/β-blocker)، امولسیون لیپید IV (بی‌حس‌کننده موضعی/سموم لیپوفیل)، پیس، IABP، ECMO. 3) پادزهر به‌موقع (جدول 100-4) ولی به‌ندرت جایگزین احیا. 4) تغییر هوشیاری/کما: اکسیژن، naloxone 0.2 تا 2 mg IV/IO/IM، گلوکز 1 تا 1.5 g/kg IV/IO و thiamine 10 تا 100 mg IV/IO در بزرگسال. 5) تشنج: بنزودیازپین خط اول، باربیتورات خط دوم؛ INH: refractory و نیازمند pyridoxine؛ هیپوگلیسمی/هیپوناترمی را رد کن؛ phenytoin در تشنج سمی مؤثر نیست. 6) تطهیر سطحی: درآوردن لباس؛ شست‌وی پوست؛ چشم: شست‌وی فراوان با کریستالوئید ایزوتونیک (چند لیتر تا pH فیزیولوژیک)؛ آسیب قلیایی چشم: چشم‌پزشکی. 7) تطهیر GI فقط در صورت: سمیت قابل‌توجه، فایده بالینی انتظار می‌رود و ریسک/فایده مثبت و راه هوایی محافظت‌شده: ipecac دیگر توصیه نمی‌شود؛ OG lavage بسیار نادر (< 1 ساعت و دوز تهدیدکننده)؛ زغال فعال: بزرگسال 50 g و کودک 1 g/kg PO (< 1 ساعت یا > 60 دقیقه برای سموم کندکننده حرکت یا بزوار)، عدم جذب فلزات/سوزاننده/الکل؛ WBI: polyethylene glycol 2 L/h بزرگسال (کودک 25 mL/kg/h حداکثر 2 L/h): آهن > 60 mg/kg با اپاسیتی، دیلتیازم/وراپامیل تهدیدکننده، body packer/stuffer، پتاسیم slow-release، سرب، آرسنیک، لیتیوم. 8) افزایش دفع: multidose charcoal (50 g سپس 25 g هر 2 ساعت): کاربامازپین، فنوباربیتال، dapsone، کینین، تئوفیلین؛ قلیایی‌سازی ادرار: سالیسیلات متوسط تا شدید، chlorophenoxy؛ همودیالیز: لیتیوم، متفورمین، فنوباربیتال، سالیسیلات، والپروات، متانول/اتیلن گلیکول، پتاسیم، تئوفیلین؛ همو‌پرفیوژن: تئوفیلین، کاربامازپین، پاراکوات. 9) ILET در سمیت قلبی تهدیدکننده با سموم لیپوفیل بعد از شکست درمان معمول. 10) مشاوره زودهنگام توکسیکولوژیست/مرکز سموم؛ سلامت روان برای همه مسمومیت عمدی؛ در کودکان نگران غفلت یا آزار.
+# پادزهرها (جدول 100-4)
+calcium chloride 10٪ بزرگسال 10 mL (کودک 0.2–0.25 mL/kg)؛ calcium gluconate 10٪ بزرگسال 10–30 mL؛ سیانید: amyl nitrite، sodium nitrite 3٪ 10 mL (کودک 0.33 mL/kg)، sodium thiosulfate 25٪ 50 mL (کودک 1.65 mL/kg)، hydroxocobalamin 70 mg/kg IV (حداکثر 5 g)؛ dextrose 1 g/kg (کودک 0.5 g/kg)؛ Digoxin Fab 5–10 ویال حاد (کودک 1–2 ویال)؛ flumazenil 0.2 mg IV (کودک 0.01 mg/kg)؛ glucagon 3–10 mg IV (کودک 50–150 μg/kg)؛ IV lipid emulsion 20٪ بولوس 100 mL طی 1 دقیقه سپس 400 mL طی 20 دقیقه (کودک 1.5 mL/kg سپس 0.25 mL/kg/min)؛ methylene blue 1–2 mg/kg IV (نوزاد 0.3–1 mg/kg)؛ naloxone شروع 0.1–0.4 mg (کودک 0.01 mg)؛ pyridoxine 5 g IV (یا گرم به گرم) برای INH؛ sodium bicarbonate 1–2 mEq/kg بولوس سپس 2 mEq/kg/h؛ thiamine 100 mg IV (کودک 5–10 mg).
+
+@pearls
+- احیا مقدم بر پادزهر؛ تست تجربی استامینوفن و آسپرین در همه.
+- فنی‌توئین در تشنج سمی مؤثر نیست.
+
+@variant poison-general-resuscitation
+name: Undifferentiated poisoned patient / altered mental status
+level: I
+imp: Undifferentiated poisoning / overdose
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+o2: O2 therapy: F.M 6–10 L/min or N.C 3–5 L/min if SpO2 < 94%; early intubation if indicated
+
+@scenario
+مرد ۳۰ ساله بی‌هوشی در پارک با شیشه خالی قرص کنارش؛ RR 8، مردمک‌ها ریز.
+
+@why
+احیا، پادزهرهای تجربی و آزمایش تجربی استامینوفن/آسپرین؛ مشاوره مرکز سموم.
+
+@I
+- 12-lead ECG (also for QRS / QT effects)
+
+@L
+- Acetaminophen and salicylate levels (empiric); blood glucose, serum lactate / electrolytes, renal and liver function, urine hCG; drug levels as indicated (ethanol, ethylene glycol, iron, lithium, methemoglobin, methanol, digoxin, theophylline, valproic acid, etc.)
+
+@S
+- Hypotension: IV crystalloid infusion (10 to 20 mL/kg in children) before pressors {ci: caution in heart failure / pulmonary edema}
+
+@T
+- Oxygen; Naloxone 0.2 to 2 mg IV/IO/IM; Glucose 1 to 1.5 g/kg IV/IO; Thiamine 10 to 100 mg IV/IO (empiric treatment of coma in adults)
+- Seizures: benzodiazepines first-line, barbiturates second-line {ci: phenytoin not effective for toxin-induced seizures; INH seizures need pyridoxine}
+- Activated charcoal 50 g orally (children 1 g/kg) for ingestion within the previous hour of a toxin adsorbed by charcoal, protected airway {ci: not for metals, corrosives, alcohols, unprotected airway}
+- Toxin-induced cardiac arrest/cardiotoxicity: specific antidote (Digoxin Fab, Atropine, antivenom), sodium bicarbonate (sodium channel blocker / wide-complex tachycardia), high-dose insulin (calcium channel blocker / β-blocker), IV lipid emulsion 20% 100 mL bolus over 1 minute then 400 mL over 20 minutes (local anesthetics, lipophilic cardiotoxins) {hi}
+
+@Co
+- Early consultation with toxicologist and Poison Center; mental health specialist for intentional overdose; consider neglect or abuse in pediatric exposures
+
+@cond anticholinergic-toxicity
+ch: 101
+name: Anticholinergic toxicity
+name_fa: مسمومیت آنتی‌کولینرژیک
+cc: poisoning, altered-mental-status
+keywords: anticholinergic toxicity, antimuscarinic, physostigmine, Datura, antihistamine overdose, hyperthermia, delirium, مسمومیت آنتی کولینرژیک
+status: draft
+
+@features
+- هیپوتانسیون یا هیپرتانسیون، تاکی‌کاردی، صداهای روده کم/غایب، احتباس ادرار، پوست برافروخته و خشک، هیپرترمی، مخاط خشک، میدریاز، گیجی، آژیتاسیون، دزوریانتاسیون و توهم شنوایی/بینایی
+- جدول 101-1: مغز: اختلال حافظه، آژیتاسیون، دلیریوم، توهم، تب؛ چشم: میدریاز، افزایش IOP، تاری دید؛ دهان: خشکی؛ ریه: برونکودیلاتاسیون؛ قلب: ↑ ضربان و تسهیل هدایت AV؛ GI: ↓ حرکت؛ ادراری: احتباس؛ پوست: خشک و برافروخته
+- تشخیص بالینی؛ آزمایش روتین طبیعی و غربالگری سم‌شناسی کم‌ارزش؛ ولی الکترولیت، گلوکز و CPK؛ افتراق: آنسفالیت ویروسی، Reye، ترومای سر، سایر مسمومیت‌ها، NMS، دلیریوم ترمنس، بیماری روانپزشکی حاد، سمپاتومیمتیک
+
+@ddx
+- !Sympathomimetic toxidrome |
+- !Neuroleptic malignant syndrome / serotonin syndrome |
+- Viral encephalitis / head trauma |
+- Delirium tremens / acute psychiatric disorder |
+- Cyclic antidepressant poisoning (sodium channel blockade) |
+
+@redflags
+- تشنج، هیپرترمی، آریتمی با QRS پهن، رابدومیولیز، کولاپس قلبی-عروقی
+
+@guide
+درمان عمدتاً حمایتی؛ هدف: پیشگیری از استاتوس، هیپرترمی، کولاپس و رابدومیولیز. 1) مانیتور قلبی و IV/IO. 2) زغال فعال ممکن است حتی بعد از 1 ساعت جذب را کم کند. 3) پایش دما و درمان هیپرترمی به روش معمول. 4) هیپرتانسیون معمولاً نیاز به مداخله ندارد. 5) آنتی‌آریتمی استاندارد معمولاً مؤثر؛ پرهیز از کلاس IA (procainamide)؛ آریتمی/QRS پهن/هیپوتانسیون از مسدودکننده‌های سدیم (آنتی‌دپرسان‌های حلقوی): sodium bicarbonate 1 mEq/kg IV. 6) آژیتاسیون: بنزودیازپین مثل lorazepam 2 تا 4 mg IV یا 0.1 mg/kg؛ پرهیز از فنوتیازین. 7) تشنج: lorazepam 2 mg IV یا 0.1 mg/kg. 8) فیزوستیگمین جنجالی: فقط اگر درمان معمول در کنترل تشنج، آژیتاسیون شدید، آریتمی ناپایدار، کما با افسردگی تنفسی، فشار بدخیم یا هیپوتانسیون شکست خورد: 0.5 تا 2 mg IV (کودک 0.02 mg/kg حداکثر 2 mg) آهسته طی 5 دقیقه؛ ممکن است سمیت آنتی‌دپرسان حلقوی را بدتر و منجر به برادی‌کاردی و آسیستول شود؛ ممنوع در بیماری قلبی/عروق محیطی، برونکواسپاسم، انسداد روده/مثانه، اختلال هدایت قلبی و شک به مسمومیت همزمان مسدودکننده سدیم؛ پایش برای افزایش کولینرژیک. 9) در تشخیص نامشخص challenge تشخیصی با فیزوستیگمین نده. 10) خفیف: ترخیص بعد از 6 ساعت مشاهده و رفع علائم؛ علامت‌دارتر: 24 ساعت بستری؛ فیزوستیگمین: معمولاً 24 ساعت بستری.
+
+@variant anticholinergic-agitation
+name: Anticholinergic toxicity (agitation, hyperthermia)
+level: II
+imp: Anticholinergic toxicity
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: none
+
+@scenario
+زنی ۲۵ ساله پس از مصرف مقدار زیادی دیفن‌هیدرامین با آژیتاسیون، توهم، میدریاز، پوست خشک و برافروخته، تاکی‌کاردی 130 و دمای 39.
+
+@why
+حمایتی؛ بنزودیازپین؛ فیزوستیگمین فقط در شکست و با رد سمیت سدیم/قلب.
+
+@L
+- Electrolytes, glucose, creatine phosphokinase
+
+@T
+- Cardiac monitor; IV or IO access; activated charcoal (may decrease absorption even beyond 1 hour)
+- Monitor temperature; treat hyperthermia using conventional methods
+- Agitation: Lorazepam 2 to 4 mg IV (or 0.1 mg/kg) {ci: avoid phenothiazines}
+- Seizures: Lorazepam 2 mg IV (or 0.1 mg/kg)
+- Dysrhythmias, widened QRS or hypotension from sodium channel blockers: Sodium bicarbonate 1 mEq/kg IV {ci: avoid class IA antidysrhythmics (procainamide)}
+- Physostigmine 0.5 to 2 mg IV (0.02 mg/kg in children, maximum 2 mg) slowly over 5 minutes only if conventional therapy fails to control seizures, severe agitation, unstable dysrhythmias, coma with respiratory depression, malignant hypertension or hypotension {ci: contraindicated with cardiovascular or peripheral vascular disease, bronchospasm, intestinal or bladder obstruction, cardiac conduction disturbances, suspected sodium channel antagonist poisoning; may worsen cyclic antidepressant toxicity (bradycardia, asystole); no diagnostic challenge}
+
+@Co
+- Mild: discharge after 6 hours of observation if symptoms resolved; more symptomatic or physostigmine: admit 24 hours of observation

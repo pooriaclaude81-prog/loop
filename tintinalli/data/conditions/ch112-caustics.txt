@@ -1,0 +1,171 @@
+@cond caustic-ingestion
+ch: 112
+name: Caustic (alkali / acid) ingestion
+name_fa: بلع مواد سوزاننده (قلیا / اسید)
+cc: poisoning, abdominal-pain, ent
+keywords: caustic ingestion, alkali, acid, bleach, drain cleaner, esophageal burn, stricture, endoscopy, disc battery, laundry pod, سوزاننده, اسید, قلیا
+status: draft
+
+@features
+- قلیا (pH > 7): رایج‌ترین سفیدکننده خانگی (بیشتر خوش‌خیم مگر عمدی)؛ اسید (pH < 7): بازکننده لوله (sulfuric)، باتری ماشین، پاک‌کننده بنایی (HCl)؛ قلیا → نکروز liquefactive شدیدتر از نکروز coagulation اسیدها
+- دیسفاژی، اودینوفاژی، درد اپیگاستر و استفراغ؛ دیسفونی، استریدور و دیسترس تنفسی در آسیب حنجره/نای؛ درجه‌بندی آندوسکوپی مری: 1 ادم و هیپرمی؛ 2 زخم، تاول و اگزودا (2a غیرحلقوی، 2b حلقوی)؛ 3 زخم عمیق و نکروز
+- مصرف عمدی ← درجه بالاتر و تنگی؛ بیشتر آسیب‌های جدی علامت‌دار (استریدور، آب‌ریزش دهان، استفراغ) ولی آسیب GI دیستال بدون سوختگی دهان/صورت ممکن است
+- باتری دیسکی: اغلب بدون علامت ولی > 15 mm در مری گیر کرده و نکروز فشاری می‌دهد
+- قرص شوینده لباس در کودک: آسیب سوزاننده، دیسترس تنفسی و افسردگی عصبی
+- قرنیه (قلیا خیلی جدی)، پوست: درد و تحریک موضعی؛ قلیا و HF نفوذ عمیق؛ HF: هیپوکلسمی، هیپومنیزمی و هیپرکالمی سیستمیک و دیسریتمی بطنی
+- تشخیص بالینی؛ آزمایش در شدید: الکترولیت، اسید-باز و پایش خونریزی GI؛ HF: کلسیم، منیزیم و ECG؛ CXR/شکم برای هوای آزاد یا جسم خارجی (باتری)؛ CT غیرکنتراست قفسه سینه/شکم در سوراخ شدن مشکوک (به‌ویژه اسید قوی)؛ آندوسکوپی زودهنگام (ایده‌آل < 12 ساعت) در مصرف عمدی و غیرعمدی با استریدور، سوختگی دهان، استفراغ، آب‌ریزش یا ناتوانی در تحمل خوراکی
+
+@ddx
+- !Perforated viscus / mediastinitis |
+- !Airway burn / laryngeal injury |
+- Esophageal foreign body (disc battery) |
+- Hydrofluoric acid toxicity |
+
+@redflags
+- استریدور، آب‌ریزش، دیسفونی، پریتونیت یا هوای آزاد، باتری دیسکی، مصرف عمدی، HF
+
+@guide
+دکونتامیناسیون، مدیریت پیش‌نگرانه راه هوایی، تثبیت همودینامیک، تعیین وسعت. پوست: خارج کردن لباس و شستشوی فراوان آب؛ سوختگی قلیایی ممکن است دبریدمان و شستشوی مجدد بخواهد. چشم: سالین حداقل 15 دقیقه با پایش pH تا 7.5 تا 8.0. دکونتامیناسیون معده (زغال، ipecac، lavage) ممنوع. اینتوباسیون زودهنگام دهانی با دید مستقیم در استریدور/آب‌ریزش قابل‌توجه/دیسفونی؛ نازوتراکئال کور ممنوع. IV و ایزوتونیک برای هیپوتانسیون. مشاوره جراحی در پریتونیت یا هوای آزاد. HF پوستی: ژل calcium gluconate (3.5 g در 150 mL لوبریکانت محلول در آب)، calcium gluconate 5% داخل‌جلدی در سوختگی وسیع، انفوزیون شریان رادیال در 4 ساعت یا Bier block (10 mL از 10% در 40 mL سالین یا D5W) در سوختگی مقاوم اندام دیستال. HF خوراکی ظرف 1 ساعت: ساکشن NG و تزریق تا 300 mL از calcium gluconate 10%؛ کلسیم و منیزیم IV با دوز بالا برای کمبود سیستمیک و دیسریتمی. باتری دیسکی در مری: خارج‌سازی اندوسکوپیک اورژانس. قرص شوینده: حمایتی و محافظت راه هوایی.
+
+@variant caustic-symptomatic
+name: Caustic ingestion, symptomatic (stridor, drooling, vomiting, intentional)
+level: I
+imp: Caustic ingestion with airway / GI injury
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: PA
+
+@scenario
+مردی ۳۵ ساله پس از بلع عمدی اسید بازکننده لوله با آب‌ریزش، دیسفونی، استفراغ و درد اپیگاستر.
+
+@why
+راه هوایی زودهنگام، بدون زغال/lavage و اندوسکوپی < 12 ساعت.
+
+@I
+- CXR upright (free air, mediastinal air); abdominal radiograph if indicated
+- Noncontrast CT chest and abdomen if perforated viscus suspected (especially strong acids)
+
+@L
+- Electrolytes, acid–base status (blood gas), monitoring for GI bleeding (CBC); calcium and magnesium if hydrofluoric acid
+
+@S
+- Isotonic IV fluids for hypotension {ci: caution in heart failure / pulmonary edema}
+
+@T
+- Early oral intubation under direct visualization if stridor, significant drooling or dysphonia {ci: blind nasotracheal intubation contraindicated; no activated charcoal, ipecac, or gastric lavage}
+- Remove contaminated clothing; irrigate exposed skin with copious water; ocular irrigation with normal saline ≥ 15 min until pH 7.5–8.0
+
+@Co
+- Gastroenterology: early endoscopy (ideally < 12 h)
+- Surgery if suspected or confirmed peritonitis or free air
+- Psychiatric consultation if intentional ingestion; poison center
+
+@variant caustic-asymptomatic
+name: Unintentional caustic exposure, asymptomatic (household bleach, small amount)
+level: III
+imp: Caustic ingestion, asymptomatic
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+کودک ۲ ساله پس از بلع مقدار کم سفیدکننده خانگی، بدون علامت و در حال نوشیدن.
+
+@why
+بدون علائم خطر (استریدور، آب‌ریزش، استفراغ، عدم تحمل خوراکی) نیاز به آندوسکوپی ندارد.
+
+@T
+- Observe; confirm tolerates oral intake {ci: no activated charcoal, ipecac, or gastric lavage}
+- Early endoscopy if stridor, oral burns, vomiting, drooling, or inability to tolerate oral intake develops
+
+@Co
+- Poison center consultation
+
+@variant caustic-disc-battery
+name: Disc battery ingestion
+level: I
+imp: Disc battery ingestion
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: none
+cxr: PA
+
+@scenario
+کودک ۳ ساله پس از بلع باتری دکمه‌ای 20 mm، بدون علامت.
+
+@why
+باتری > 15 mm در مری گیر می‌کند و نکروز فشاری می‌دهد؛ خارج‌سازی اندوسکوپیک اورژانس.
+
+@I
+- Chest and abdominal radiograph (locate disc battery; AP and lateral)
+
+@T
+- NPO
+
+@Co
+- Gastroenterology: emergent endoscopic removal if lodged in esophagus
+
+@variant caustic-hf-acid
+name: Hydrofluoric acid exposure (dermal or oral)
+level: I
+imp: Hydrofluoric acid exposure
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: none
+
+@scenario
+کارگر با تماس دست با اسید هیدروفلوئوریک و درد شدید نامتناسب؛ یا بلع.
+
+@why
+کلسیم موضعی/سیستمیک و پایش کلسیم، منیزیم و ECG.
+
+@L
+- Calcium, magnesium, potassium; electrolytes, acid–base status
+
+@S
+- High-dose IV calcium and magnesium for systemic deficiencies and dysrhythmias
+- Oral ingestion within 1 h: nasogastric suction, then instill up to 300 mL of 10% calcium gluconate
+
+@T
+- Topical calcium gluconate gel (3.5 g mixed with 150 mL water-soluble lubricant) for dermal exposure
+- Intradermal 5% calcium gluconate for large burns
+- Calcium gluconate infusion into radial artery over 4 h, or Bier block (10 mL of 10% calcium gluconate in 40 mL saline or 5% dextrose) for refractory distal extremity burns
+- Remove contaminated clothing; copious water irrigation
+
+@Co
+- Admit for cardiac monitoring; poison center / toxicology
+
+@variant caustic-laundry-pod
+name: Laundry detergent pod ingestion (young child)
+level: II
+imp: Laundry detergent pod ingestion
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: once
+cxr: PA
+
+@scenario
+کودک ۲ ساله پس از گاز زدن قرص شوینده با استفراغ، سرفه و خواب‌آلودگی.
+
+@why
+سمیت جدی ممکن؛ حمایتی و محافظت راه هوایی.
+
+@I
+- CXR PA (aspiration / respiratory distress)
+
+@L
+- Electrolytes, acid–base status (blood gas) if symptomatic
+
+@T
+- Supportive care with airway protection as needed; oxygen if respiratory distress {ci: no activated charcoal, ipecac, or gastric lavage}
+
+@Co
+- Admit if respiratory distress, neurologic depression, or persistent symptoms; poison center

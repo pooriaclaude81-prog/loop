@@ -1,0 +1,397 @@
+@cond organophosphate-poisoning
+ch: 113
+name: Organophosphate (cholinesterase inhibitor) poisoning
+name_fa: مسمومیت با ارگانوفسفات (مهارکننده کولین‌استراز)
+cc: poisoning, altered-mental-status, dyspnea
+keywords: organophosphate, SLUDGE, DUMBELS, killer bees, cholinergic crisis, atropine, pralidoxime, nerve agent, malathion, parathion, diazinon, ارگانوفسفات, آتروپین, پرالیدوکسیم
+status: draft
+
+@features
+- ارگانوفسفات‌ها: diazinon، acephate، malathion، parathion، chlorpyrifos؛ جذب خوراکی، استنشاقی (گازهای عصبی) و پوستی؛ مهار استیل‌کولین‌استراز → تجمع استیل‌کولین و تحریک گیرنده‌های موسکارینی و نیکوتینی
+- جدول 113-1: SLUDGE (Salivation، Lacrimation، Urinary incontinence، Defecation، GI pain، Emesis)؛ DUMBELS (Defecation، Urination، Muscle weakness و miosis، Bradycardia/bronchorrhea/bronchospasm، Emesis، Lacrimation، Salivation)؛ «Killer Bees»: bradycardia، bronchorrhea، bronchospasm
+- شروع از دقیقه تا ساعت؛ بیشتر ظرف 8 ساعت؛ مواد محلول در چربی (fenthion) با مواجهه پوستی تأخیری
+- نیکوتینی: فاسیکولاسیون و ضعف عضلانی (بارز در عضلات تنفسی؛ بدتر شدن دیسفونکشن ریوی ناشی از برونکوره)، تاکی‌کاردی و میدریاز (برخلاف انتظار موسکارینی)؛ CNS (غالب در کودکان): لرزش، بی‌قراری، گیجی، تشنج، کما
+- سندرم میانی (1 تا 5 روز): فلج/ضعف گردن، صورت و عضلات تنفسی (ایست تنفسی)؛ نوروپاتی تأخیری (1 تا 3 هفته): پلی‌نوروپاتی حسی-حرکتی دیستال با ضعف و فلج پا
+- تشخیص بالینی بر اساس توکسیدروم و شرح حال؛ سنجش کولین‌استراز کمک تأیید؛ ECG: QT طولانی (مورتالیتی بیشتر)
+
+@ddx
+- !Carbamate poisoning |
+- !Nicotine toxicity |
+- Other cholinergic agents |
+- Bronchospasm / pulmonary edema of other cause |
+
+@redflags
+- برونکوره، برادیکاردی، ضعف تنفسی، تشنج، QT طولانی
+
+@guide
+درمان نباید منتظر آزمایش تأییدی بماند (جدول 113-2). دکونتامیناسیون: لباس محافظ برای پرسنل (جلوگیری از مسمومیت ثانویه)، لباس‌ها و آب پساب به‌عنوان پسماند خطرناک، شستشو با آب و صابون. مانیتور قلبی، پالس‌اکسیمتر، اکسیژن 100%. lavage، زغال و قلیایی‌سازی ادرار فایده اثبات‌شده ندارند. 1) اکسیژن 100% و مدیریت راه هوایی با ساکشن ملایم؛ در RSI داروی غیر دپولاریزان (succinylcholine با کولین‌استراز پلاسما متابولیزه شده و فلج طولانی می‌دهد). 2) کلید درمان: atropine با دوز بالا تا کاهش ترشحات تراکئوبرونشیال: بزرگسال 1 mg یا بیشتر IV و کودک 0.01 تا 0.04 mg/kg (هرگز < 0.1 mg) هر 5 دقیقه تا کاهش ترشحات؛ تاکی‌کاردی و میدریاز منع افزایش atropine نیست؛ atropine فقط اثرات موسکارینی را برمی‌گرداند؛ glycopyrrolate یا diphenhydramine با دوز بالا در نبود atropine. 3) pralidoxime: بزرگسال 1 تا 2 g یا کودک 20 تا 40 mg/kg (تا 1 g) در NS طی 5 تا 10 دقیقه IV؛ انفوزیون مداوم ممکن. 4) تشنج: بنزودیازپین. مواجهه حداقلی: 6 تا 8 ساعت مشاهده؛ عود ممکن با تماس مجدد با لباس آلوده (به‌ویژه چرم)؛ مسمومیت قابل‌توجه: ICU.
+
+@variant op-minimal
+name: Minimal / mild organophosphate exposure
+level: II
+imp: Organophosphate exposure, mild
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: PA
+
+@scenario
+کشاورزی با تماس پوستی خفیف با سم و تهوع و تعریق خفیف.
+
+@why
+دکونتامیناسیون پوست، مشاهده 6 تا 8 ساعت و آتروپین در صورت علامت.
+
+@I
+- CXR PA / portable if respiratory symptoms
+
+@L
+- Cholinesterase assay (confirmation; do not delay treatment); electrolytes, glucose
+
+@T
+- Decontamination with protective clothing for staff: remove and dispose clothes as hazardous waste; wash with soap and water; runoff as hazardous waste {ci: gastric lavage, activated charcoal, urinary alkalinization have no proven benefit}
+- Observe 6–8 hours; avoid reexposure to contaminated clothing (especially leather)
+
+@Co
+- Discharge after observation if asymptomatic; poison center
+
+@variant op-cholinergic-crisis
+name: Organophosphate cholinergic crisis (bronchorrhea, bradycardia, weakness, seizure)
+level: I
+imp: Organophosphate poisoning, cholinergic crisis
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+o2: 100% oxygen
+
+@scenario
+مردی ۴۰ ساله پس از خوردن سم ارگانوفسفره با تعریق، برونکوره، میوز، HR 45، فاسیکولاسیون و کاهش هوشیاری.
+
+@why
+آتروپین تا خشک شدن ترشحات، پرالیدوکسیم و راه هوایی؛ بدون سوکسینیل‌کولین.
+
+@I
+- CXR portable (pulmonary edema / aspiration)
+
+@L
+- Cholinesterase level (confirmation; do not delay treatment); electrolytes, glucose, blood gas
+
+@S
+- Atropine adult 1 mg or more IV (0.01–0.04 mg/kg in children, never < 0.1 mg), repeat every 5 min until tracheobronchial secretions attenuate {hi} {note: tachycardia and dilated pupils are not contraindications; atropine does not reverse nicotinic effects}
+- Pralidoxime 1–2 g IV in adults (20–40 mg/kg up to 1 g in children), in normal saline over 5–10 min; continuous infusion may be employed
+- Glycopyrrolate or high-dose diphenhydramine if atropine unavailable
+
+@T
+- 100% oxygen; airway management with gentle suctioning; nondepolarizing agent for rapid sequence intubation {ci: succinylcholine causes prolonged paralysis}
+- Benzodiazepines for seizures
+- Decontamination with protective clothing for staff; clothes and runoff as hazardous waste; wash with soap and water
+
+@Co
+- ICU admission; poison center / toxicology
+- Monitor for intermediate syndrome (1–5 days) and delayed neuropathy (1–3 weeks)
+
+@cond carbamate-nonop-insecticide-poisoning
+ch: 113
+name: Carbamate and other non-organophosphate insecticide poisoning
+name_fa: مسمومیت با کاربامات و سایر حشره‌کش‌های غیرارگانوفسفره
+cc: poisoning, seizure, rash
+keywords: carbamate, pyrethroid, pyrethrin, organochlorine, neonicotinoid, DEET, imidacloprid, chlordane, کاربامات, پایرتروئید, DEET
+status: draft
+
+@features
+- جدول 113-3: کاربامات (carbaryl، propoxur…): شبیه ارگانوفسفات؛ کولین‌استراز پایین؛ درمان atropine
+- ارگانوکلرین (chlordane، heptachlor، dieldrin، aldrin): تحریک‌پذیری عصبی، تشنج؛ درمان بنزودیازپین و خنک‌سازی
+- پایرتروئید/پایرترین: پارستزی، استفراغ، تحریک دهان‌حلق، حساسیت آلرژیک؛ درمان برونکودیلاتور، آنتی‌هیستامین و حمایتی
+- نئونیکوتینوئید (imidacloprid): تهوع، سردرد، خواب‌آلودگی؛ حمایتی؛ DEET: تشنج؛ حمایتی و بنزودیازپین
+
+@ddx
+- !Organophosphate poisoning |
+- Allergic reaction |
+
+@redflags
+- تشنج، علائم کولینرژیک، دیسترس تنفسی (آلرژی)
+
+@guide
+بر اساس جدول 113-3: کاربامات → atropine؛ ارگانوکلرین → بنزودیازپین و خنک‌سازی؛ پایرتروئید → برونکودیلاتور/آنتی‌هیستامین؛ نئونیکوتینوئید و DEET → حمایتی/بنزودیازپین.
+
+@variant carbamate-cholinergic
+name: Carbamate poisoning (cholinergic toxidrome)
+level: II
+imp: Carbamate insecticide poisoning
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: PA
+
+@scenario
+مردی با تماس با حشره‌کش carbaryl و علائم کولینرژیک.
+
+@why
+مشابه ارگانوفسفات ولی معمولاً کوتاه‌تر؛ آتروپین.
+
+@I
+- CXR PA / portable if respiratory symptoms
+
+@L
+- Cholinesterase level; electrolytes, glucose
+
+@S
+- Atropine titrated to attenuation of tracheobronchial secretions
+
+@T
+- Oxygen; remove contaminated clothing, wash with soap and water
+- Benzodiazepines for seizures
+
+@Co
+- Admit if symptomatic; poison center
+
+@variant nonop-other-insecticide
+name: Organochlorine / pyrethroid / neonicotinoid / DEET exposure
+level: III
+imp: Non-organophosphate insecticide exposure
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: once
+cxr: none
+
+@scenario
+فردی پس از تماس با سم پایرتروئیدی با پارستزی، تحریک حلق و ویزینگ؛ یا تشنج پس از DEET.
+
+@why
+مدیریت بر اساس گروه سم: حمایتی، بنزودیازپین، برونکودیلاتور.
+
+@T
+- Organochlorine / DEET seizures: benzodiazepines; organochlorine hyperthermia: cooling
+- Pyrethroid allergic symptoms: bronchodilators and antihistamines, supportive
+- Neonicotinoid: supportive care
+
+@Co
+- Poison center
+
+@cond paraquat-diquat-poisoning
+ch: 113
+name: Herbicide poisoning (paraquat, diquat and others)
+name_fa: مسمومیت با علف‌کش (پاراکوات، دی‌کوات و سایر)
+cc: poisoning, dyspnea, abdominal-pain
+keywords: paraquat, diquat, bipyridyl, herbicide, glyphosate, 2,4-D, chlorophenoxy, pulmonary fibrosis, پاراکوات, علف کش
+status: draft
+
+@features
+- خطرناک‌ترین: بی‌پیریدیل (paraquat و diquat)؛ کشندگی با 10 تا 20 mL محلول 20% در بزرگسال و 4 تا 5 mL در کودک؛ سمی از راه استنشاق، پوست و بلع؛ خاصیت سوزاننده: زخم پوست/مخاط و خوردگی GI؛ بلع paraquat: نارسایی کلیه، قلب و کبد و فیبروز ریوی پیشرونده (آسیب اکسیداتیو)
+- جدول 113-4 (غیر بی‌پیریدیل): chlorophenoxy (2,4-D): تحریک مخاط، ادم ریوی، سمیت عضله، هیپرترمی؛ glyphosate: تحریک مخاط، خوردگی، نارسایی چندعضوی و دیسترس تنفسی؛ urea-substituted: methemoglobinemia؛ ارگانوفسفات: SLUDGE؛ DEET: تشنج
+
+@ddx
+- !Caustic ingestion |
+- !Organophosphate poisoning |
+- Methemoglobinemia |
+
+@redflags
+- بلع paraquat/diquat، هیپوکسی، نارسایی چندعضوی، تنگی نفس پیشرونده
+
+@guide
+به‌علت فیبروز، محدود کردن اکسیژن مکمل مگر هیپوکسی شدید. دکونتامیناسیون پوست مهم است. زود پس از بلع: زغال فعال، fuller's earth یا bentonite. hemoperfusion زغالی ممکن است paraquat را بردارد. پیش‌آگهی ضعیف: بستری برای مشاهده و درمان. غیر بی‌پیریدیل (جدول 113-4): 2,4-D: قلیایی‌سازی ادرار و همودیالیز؛ glyphosate: مشاهده بدون علامت 6 ساعت؛ urea-substituted: methylene blue؛ ارگانوفسفات: مثل بخش قبل؛ DEET: بنزودیازپین.
+
+@variant paraquat-ingestion
+name: Paraquat / diquat ingestion
+level: I
+imp: Paraquat / diquat ingestion
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+o2: none unless severe hypoxia (restrict oxygen)
+
+@scenario
+مردی ۳۰ ساله پس از بلع عمدی علف‌کش paraquat با زخم دهان، استفراغ و درد شکم.
+
+@why
+زغال زودهنگام و محدودیت اکسیژن؛ پیش‌آگهی بد.
+
+@I
+- CXR portable (baseline; follow for pulmonary fibrosis)
+
+@L
+- Electrolytes, BUN, creatinine, liver function tests, glucose, blood gas
+
+@S
+- IV fluids for hypotension / volume depletion {ci: caution in AKI, anuria, heart failure / pulmonary edema}
+
+@T
+- Activated charcoal, fuller's earth, or bentonite early after ingestion
+- Decontaminate skin (copious water/soap); remove contaminated clothing
+- Restrict supplemental oxygen except for severe hypoxia (oxygen worsens paraquat lung injury)
+
+@Co
+- Admit all ingestions; toxicology / poison center
+- Charcoal hemoperfusion may be considered (nephrology / toxicology)
+
+@variant nonbipyridyl-herbicide
+name: Nonbipyridyl herbicide exposure (2,4-D, glyphosate, urea-substituted, others)
+level: III
+imp: Herbicide exposure (nonbipyridyl)
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: once
+cxr: PA
+
+@scenario
+کشاورزی پس از بلع glyphosate با سوزش دهان و استفراغ؛ یا 2,4-D با ضعف عضلانی و تب.
+
+@why
+درمان بر اساس عامل: قلیایی‌سازی ادرار، methylene blue و مشاهده 6 ساعت.
+
+@L
+- Electrolytes, BUN, creatinine, CK (chlorophenoxy muscle toxicity), methemoglobin level (urea-substituted), blood gas
+
+@S
+- Chlorophenoxy (2,4-D): urine alkalinization {ci: caution in AKI, heart failure}
+- Urea-substituted herbicide with methemoglobinemia: methylene blue
+
+@T
+- Glyphosate: observe asymptomatic patients for 6 hours
+- Benzodiazepines for seizures (DEET)
+- Organophosphate-type herbicide: treat as organophosphate poisoning
+
+@Co
+- Nephrology: hemodialysis for 2,4-D if severe; poison center
+
+@cond rodenticide-superwarfarin
+ch: 113
+name: Superwarfarin rodenticide poisoning
+name_fa: مسمومیت با مرگ‌موش ضدانعقاد (superwarfarin)
+cc: poisoning, bleeding-bruising
+keywords: superwarfarin, brodifacoum, difenacoum, bromadiolone, rodenticide, long-acting anticoagulant, vitamin K1, INR, مرگ موش, ضد انعقاد
+status: draft
+
+@features
+- رایج‌ترین مرگ‌موش: brodifacoum، difenacoum، bromadiolone؛ کوآگولوپاتی ظرف 48 ساعت و هفته‌ها تا ماه‌ها (نیمه‌عمر طولانی)
+- بلع کوچک تکی در کودک معمولاً سمی نیست؛ مصرف عمدی حاد یا مکرر: خونریزی تأخیری (هماچوری، خونریزی GI، اپیستاکسی)
+- غربالگری: INR در 24 تا 48 ساعت پس از مصرف
+
+@ddx
+- !Warfarin overdose / other coagulopathy |
+- Liver disease, DIC |
+
+@redflags
+- خونریزی فعال، INR > 2
+
+@guide
+INR 24 تا 48 ساعت بعد؛ اگر > 2: vitamin K1 خوراکی معمولاً 20 mg/d در بزرگسال (1 تا 5 mg کودک) تا 10 ماه تا پاک شدن اثر ضدانعقاد. خونریزی حاد: جایگزینی حجم، FFP یا PCC چهارعاملی، vitamin K1 IV و حمایتی.
+
+@variant superwarfarin-asymptomatic
+name: Superwarfarin ingestion, no bleeding (INR screening)
+level: III
+imp: Superwarfarin rodenticide ingestion, no bleeding
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+کودک ۲ ساله پس از خوردن مقدار کم مرگ‌موش؛ بدون خونریزی.
+
+@why
+INR بعد از 24 تا 48 ساعت؛ vitamin K فقط اگر INR > 2.
+
+@L
+- INR/PT 24–48 hours after ingestion; CBC
+
+@T
+- If INR > 2: oral vitamin K1 20 mg/day in adults (1–5 mg in children), may continue up to 10 months until anticoagulant effect clears
+
+@Co
+- Poison center; hematology if persistent coagulopathy
+
+@variant superwarfarin-bleeding
+name: Superwarfarin poisoning with hemorrhage
+level: I
+imp: Superwarfarin poisoning with hemorrhage, coagulopathy
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: none
+
+@scenario
+مرد ۳۵ ساله با مصرف مکرر مرگ‌موش، هماچوری و خونریزی GI و INR 8.
+
+@why
+خونریزی حاد: FFP/PCC و vitamin K IV.
+
+@L
+- PT/INR, PTT, CBC, electrolytes, BUN, creatinine; type and screen or crossmatch as necessary
+
+@S
+- Volume replacement {ci: caution in heart failure / pulmonary edema}
+- Fresh frozen plasma or four-factor prothrombin complex concentrate
+- Vitamin K1 IV
+
+@T
+- Supportive care; then oral vitamin K1 20 mg/day for weeks to months as indicated
+
+@Co
+- Admit ICU / monitored bed; hematology; poison center
+
+@cond nonanticoagulant-rodenticide-poisoning
+ch: 113
+name: Nonanticoagulant rodenticide poisoning
+name_fa: مسمومیت با مرگ‌موش‌های غیرضدانعقادی
+cc: poisoning, nausea-vomiting, seizure
+keywords: strychnine, thallium, arsenic, zinc phosphide, aluminum phosphide, metal phosphide, barium carbonate, white phosphorus, sodium fluoroacetate, cholecalciferol, bromethalin, Vacor, مرگ موش, استریکنین, تالیم, فسفید
+status: draft
+
+@features
+- جدول 113-5 (شدید): arsenic: استفراغ، اسهال، کولاپس قلبی؛ barium carbonate: استفراغ، اسهال، دیسریتمی، نارسایی تنفس، هیپوکالمی، فلج؛ white phosphorus: سوختگی، کولاپس؛ Vacor: علائم GI، هیپرگلیسمی با کمبود انسولین و DKA؛ sodium fluoroacetate: استفراغ، افسردگی تنفس، اختلال هوشیاری، پرش و تشنج؛ strychnine: تشنج‌مانند در حالت هوشیار؛ thallium: تحریک GI زودرس، نارسایی تنفس و دیسریتمی؛ metal phosphides: استفراغ، شوک، هیپوکلسمی
+- متوسط: α-naphthylthiourea (ادم ریوی)، cholecalciferol (هیپرکلسمی)؛ کم: bromethalin (لرزش، تشنج کانونی)، norbormide (هیپوکسی بافتی وازوکانستریکتیو)، red squill (استفراغ، اسهال، هیپرکالمی، بلوک قلبی با دیسریتمی بطنی)
+
+@ddx
+- !Other toxic ingestion with seizures / shock |
+- Tetanus (strychnine) |
+
+@redflags
+- تشنج، شوک، دیسریتمی، نارسایی تنفسی، DKA
+
+@guide
+درمان بر اساس جدول 113-5: arsenic: حمایتی، BAL در مسمومیت حاد، succimer؛ barium: lavage با سدیم یا منیزیم سولفات و جایگزینی پتاسیم؛ white phosphorus: lavage با potassium permanganate؛ Vacor: nicotinamide IV؛ fluoroacetate: حمایتی؛ strychnine: بنزودیازپین؛ thallium: Prussian blue خوراکی؛ metal phosphide: قلیایی‌سازی داخل معده؛ α-naphthylthiourea: حمایتی؛ cholecalciferol: سالین، furosemide، استروئید؛ bromethalin: بنزودیازپین؛ norbormide و red squill: حمایتی.
+
+@variant nonanticoag-rodenticide-main
+name: Nonanticoagulant rodenticide poisoning (agent-specific)
+level: II
+imp: Nonanticoagulant rodenticide poisoning
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: PA
+
+@scenario
+فردی پس از بلع مرگ‌موش با استفراغ، تشنج یا شوک؛ عامل مشخص یا نامعلوم.
+
+@why
+حمایتی و پادزهر اختصاصی بر اساس عامل.
+
+@L
+- Electrolytes (K, Ca), glucose (DKA with Vacor), BUN, creatinine, liver function tests; heavy metal levels (arsenic, thallium) as indicated
+
+@S
+- Potassium replacement (barium carbonate)
+- Nicotinamide IV (Vacor)
+- Saline, furosemide, steroids (cholecalciferol)
+
+@T
+- Supportive care; benzodiazepines for seizures (strychnine, bromethalin)
+- Arsenic: BAL for acute poisoning; succimer
+- Barium: gastric lavage with sodium or magnesium sulfate
+- White phosphorus: lavage with potassium permanganate
+- Thallium: oral Prussian blue
+- Metal phosphides: intragastric alkalinization
+
+@Co
+- Poison center / toxicology; admit

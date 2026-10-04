@@ -1,0 +1,169 @@
+@cond barbiturate-overdose
+ch: 103
+name: Barbiturate overdose and withdrawal
+name_fa: مسمومیت و ترک باربیتورات‌ها
+cc: poisoning, altered-mental-status, seizure
+keywords: barbiturate overdose, phenobarbital, barbiturate withdrawal, coma, activated charcoal, hemodialysis, باربیتورات
+status: draft
+
+@features
+- بیشترین عوارض و مرگ بین سداتیو-هیپنوتیک‌ها؛ کاربرد بالینی کاهش یافته
+- افسردگی CNS وابسته به دوز: خفیف تا متوسط: مثل اتانول: گیجی، آتاکسی، تکلم نامفهوم، خواب‌آلودگی و disinhibition؛ کاهش حرکت GI؛ شدید (ده برابر): از دست رفتن رفلکس وتری و قرنیه؛ هیپوترمی، هیپوتانسیون و افسردگی تنفسی؛ عوارض: هیپوگلیسمی، پنومونی آسپیراسیون، ادم ریه و ALI
+- ترک: ظرف 24 ساعت: ملایم، 2 تا 8 روز بعد شدید؛ باربیتورات کوتاه‌اثر شدیدتر: اضطراب، بی‌قراری، افسردگی، بی‌خوابی، بی‌اشتهایی، تهوع/استفراغ؛ ماژور: سایکوز، توهم، دلیریوم، تشنج، هیپرترمی، کولاپس قلبی-عروقی؛ مرگ‌ومیر بالا: ترک تدریجی بستری
+- سطح سرمی ممکن است کمک کند ولی تصمیم بالینی؛ ضربان، مردمک و نیستاگموس تمایزدهنده نیست؛ «barbiturate blisters» نادر و غیراختصاصی؛ افسردگی میوکارد شایع‌تر از بنزودیازپین؛ قند بالین ضروری؛ ABG/VBG، ECG، LFT، سطح سالیسیلات و استامینوفن، BUN/کراتینین، CBC و CPK
+
+@ddx
+- !Mixed sedative-hypnotic / opioid overdose |
+- !Hypoglycemia / CNS cause of coma |
+- Alcohol intoxication |
+- Sepsis / head injury |
+
+@redflags
+- کما، هیپوتانسیون، افسردگی تنفسی، هیپوترمی، تشنج یا دلیریوم در ترک
+
+@guide
+شروع با مدیریت راه هوایی و حمایتی. 1) اینتوباسیون زودهنگام در مسمومیت شدید. 2) به‌علت افسردگی میوکارد: دو IV بزرگ و مایع ایزوتونیک برای هیپوتانسیون. 3) در نظر گرفتن naloxone و thiamine تجربی. 4) dopamine یا norepinephrine اگر مایع شکست؛ هیپوترمی 30 تا 36°C: گرم‌سازی استاندارد. 5) زغال فعال: بیمار هوشیار 50 تا 100 g PO (کودک 1 g/kg)؛ بیمار آرام‌بخش‌شده: ابتدا حفاظت راه هوایی؛ multidose سطح را کم می‌کند ولی پیامد بالینی ثابت نشده. 6) دیورز اجباری ممنوع. 7) قلیایی‌سازی ادرار خط اول نیست؛ برای phenobarbital و primidone ولی ضعیف‌تر از multidose charcoal؛ در کوتاه‌اثرها نقشی ندارد. 8) همودیالیز/همو‌پرفیوژن/hemodiafiltration فقط در بدتر شدن علی‌رغم حمایت و فقط مؤثر در phenobarbital. 9) سمیت > 6 ساعت از ورود: بستری؛ مشاوره روانپزشکی در overdose عمدی؛ مرکز سموم.
+
+@variant barbiturate-overdose-main
+name: Barbiturate overdose
+level: I
+imp: Barbiturate overdose
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+o2: O2 therapy: F.M 6–10 L/min or N.C 3–5 L/min if SpO2 < 94%; early intubation if severely poisoned
+
+@scenario
+مردی ۴۰ ساله با phenobarbital، بی‌پاسخ، RR 6، فشار 80/50، دمای 34.5.
+
+@why
+اینتوباسیون زودهنگام؛ دو IV بزرگ؛ زغال پس از حفاظت راه هوایی؛ دیالیز فقط در phenobarbital پیشرونده.
+
+@L
+- Bedside glucose; arterial or venous blood gas; liver function tests; salicylate and acetaminophen concentrations; BUN, creatinine, CBC, creatine phosphokinase; serum barbiturate level (may help establish etiology in coma)
+
+@S
+- Two large-bore IVs; isotonic saline for hypotension (potential myocardial depression) {ci: caution in heart failure / pulmonary edema}
+
+@T
+- Stabilize the airway: endotracheal intubation early in severely poisoned patients
+- Empiric Naloxone and Thiamine early in management
+- Dopamine or Norepinephrine if fluid boluses fail; hypothermia 30°C to 36°C: standard rewarming
+- Activated charcoal 50 to 100 g orally (1 g/kg in children) in the awake, cooperative patient (airway protection first in sedated/unconscious); multidose charcoal may reduce serum levels but no proven clinical outcome change {ci: no forced diuresis; urinary alkalinization not first-line}
+- Hemodialysis, hemoperfusion or hemodiafiltration for patients who deteriorate despite aggressive support (effective only in phenobarbital toxicity)
+
+@Co
+- Admit if toxicity > 6 hours from arrival; psychiatric consult for intentional overdose; toxicology / Poison Center
+
+@cond benzodiazepine-overdose
+ch: 103
+name: Benzodiazepine overdose and withdrawal
+name_fa: مسمومیت و ترک بنزودیازپین‌ها
+cc: poisoning, altered-mental-status
+keywords: benzodiazepine overdose, flumazenil, benzodiazepine withdrawal, sedative, respiratory depression, بنزودیازپین, فلومازنیل
+status: draft
+
+@features
+- overdose شایع با مرگ کم به‌تنهایی؛ تفاوت بین عوامل بر اساس potency؛ تجویز تزریقی ED می‌تواند عوارض مهم دهد؛ ترکیب با سایر سداتیوها: افسردگی تنفسی، هیپوتانسیون و مرگ
+- افسردگی CNS: خواب‌آلودگی، سرگیجه، تکلم نامفهوم، گیجی، آتاکسی، ناهماهنگی و اختلال عملکرد فکری؛ سالمند، خردسال یا سوءتغذیه: طولانی‌تر؛ disinhibition، EPS و برانگیختگی پارادوکس نادر؛ فراموشی آنتروگراد کوتاه
+- ترک: پس از قطع ناگهانی؛ شدیدتر با کوتاه‌اثر؛ مشابه ترک الکل: اضطراب، تحریک‌پذیری، بی‌خوابی، تهوع، استفراغ، لرزش، تعریق؛ شدید: توهم، سایکوز، دزوریانتاسیون و تشنج؛ درمان: بازگرداندن بنزودیازپین و کاهش تدریجی
+- تست سم‌شناسی ارزش محدود؛ سطح با بالین همبسته نیست؛ ادرار کیفی غیرقابل‌اعتماد
+
+@ddx
+- !Mixed sedative-hypnotic / opioid ingestion |
+- !Hypoglycemia / CNS cause of coma |
+- Alcohol intoxication / withdrawal |
+
+@redflags
+- افسردگی تنفسی، هیپوتانسیون، تشنج در ترک، coingestion
+
+@guide
+اولویت: راه هوایی، تنفس و گردش (به باربیتورات‌ها مراجعه). تحریک استفراغ ممنوع. زغال فعال (کودک 1 g/kg یا بزرگسال 50 تا 100 g) بنزودیازپین را جذب می‌کند؛ در بیمار آرام‌بخش‌شده ابتدا راه هوایی؛ multidose لازم نیست؛ لاواژ، دیورز اجباری، دفع افزایش‌یافته، همودیالیز و هموپرفیوژن بی‌اثر و غیرضروری. flumazenil آنتاگونیست اختصاصی: برخلاف naloxone نباید به‌صورت تجربی در toxidrome سداتیو-هیپنوتیک نامشخص استفاده شود (تشنج)؛ کاربرد ED محدود به افسردگی تنفسی بعد از سداسیون پروسیجرال بنزودیازپینی: 0.2 mg IV و تیتره هر دقیقه تا حداکثر 3 mg (کودک 0.01 تا 0.02 mg/kg)؛ نیمه‌عمر حدود 1 ساعت؛ sedation مجدد با بنزودیازپین طولانی‌اثر. موارد منع (جدول 103-1): overdose ماده ناشناخته، وابستگی فیزیکی، شک به آنتی‌دپرسان حلقوی، coingestion داروی تشنج‌زا، سابقه تشنج و شک به افزایش ICP. حمایتی؛ بستری: تغییر هوشیاری قابل‌توجه، افسردگی تنفسی یا هیپوتانسیون؛ مشاوره سلامت روان.
+
+@variant benzodiazepine-overdose-main
+name: Benzodiazepine overdose
+level: II
+imp: Benzodiazepine overdose
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: once
+cxr: none
+o2: O2 therapy: if SpO2 < 94%, F.M 6–10 L/min or N.C 3–5 L/min
+
+@scenario
+زنی ۳۰ ساله پس از مصرف مقدار زیادی diazepam با خواب‌آلودگی، تکلم نامفهوم و آتاکسی؛ علائم حیاتی پایدار.
+
+@why
+حمایتی؛ فلومازنیل نه در overdose ناشناخته یا وابستگی.
+
+@L
+- Glucose; acetaminophen and salicylate levels (coingestants); toxicology levels have limited value
+
+@T
+- Assess and stabilize airway, breathing and circulation
+- Activated charcoal 50 to 100 g (children 1 g/kg) after securing the airway in sedated patients {ci: do not induce emesis; multidose charcoal not indicated; gastric lavage, forced diuresis, hemodialysis ineffective}
+- Flumazenil 0.2 mg IV titrated every minute to a maximum of 3 mg (0.01 to 0.02 mg/kg in children) only for respiratory depression after procedural sedation with benzodiazepines {ci: overdose of unknown agents; physical dependence; cyclic antidepressant overdose; coingestion of seizure-inducing agents; seizure disorder; increased intracranial pressure}
+
+@Co
+- Admit significant altered mental status, respiratory depression or hypotension; mental health consultation as appropriate
+
+@cond nonbenzodiazepine-sedative-overdose
+ch: 103
+name: Nonbenzodiazepine sedatives: buspirone, carisoprodol, chloral hydrate, GHB, zolpidem
+name_fa: سداتیوهای غیربنزودیازپینی: بوسپیرون، کاریزوپرودول، کلرال هیدرات، GHB، زولپیدم
+cc: poisoning, altered-mental-status
+keywords: GHB, gamma-hydroxybutyrate, chloral hydrate, carisoprodol, meprobamate, zolpidem, buspirone, melatonin, propranolol, drug-facilitated sexual assault, GHB
+status: draft
+
+@features
+- مشخصه همه سداتیو-هیپنوتیک‌ها: خواب‌آلودگی؛ coingestion با سداتیو دیگر: سینرژی؛ ethchlorvynol، glutethimide و methaqualone از بازار حذف شده‌اند
+- بوسپیرون: خواب‌آلودگی، ناراحتی GI، استفراغ، سرگیجه؛ معمولاً تحمل خوب؛ سندرم سروتونین گزارش شده؛ نادر: تشنج، هیپوتانسیون، پریاپیسم و دیستونی
+- کاریزوپرودول و meprobamate: ضدسپاسم عضله و آنکسیولیتیک؛ خواب‌آلودگی، کما، افسردگی قلبی-تنفسی؛ carisoprodol (نه meprobamate) میوکلونوس (سرنخ)؛ meprobamate: pharmacobezoar و سمیت طولانی
+- chloral hydrate: قدیمی‌ترین؛ افسردگی ذهنی بدون از دست رفتن رفلکس راه هوایی در دوز درمانی؛ استفراغ و برانگیختگی پارادوکس در کودکان؛ overdose: کما و افسردگی تنفسی؛ حساس‌کننده میوکارد: آریتمی، کاهش انقباض و آسیستول؛ همراه الکل «Mickey Finn»؛ بوی گلابی؛ رادیواپک (رادیوگرافی شکم برای بزوار)
+- GHB (sodium oxybate: ناركولپسی): مصرف غیرقانونی («liquid ecstasy»)؛ پنجره درمانی باریک: خواب‌آلودگی خفیف تا کما؛ تشنج، برادی‌کاردی، هیپوترمی، افسردگی قلبی؛ سداسیون سریع و بیداری ناگهانی 6 تا 12 ساعت بعد؛ فراموشی: drug-facilitated sexual assault؛ پیش‌سازها: 1,4-butanediol و γ-butyrolactone؛ بیداری ناگهانی و self-extubation سرنخ؛ تشخیص سم‌شناسی دشوار؛ ترک مشابه الکل (3 روز تا 2 هفته)
+- melatonin، ramelteon، tasimelteon: خواب‌آلودگی؛ حمایتی؛ zolpidem، zaleplon، zopiclone: بی‌خوابی؛ ترک و اعتیاد؛ کابوس، راه رفتن در خواب و رانندگی؛ مرگ معمولاً با مصرف ترکیبی؛ متهموگلوبینمی و کم‌خونی همولیتیک با zopiclone زیاد
+
+@ddx
+- !GHB / mixed sedative intoxication |
+- !Opioid overdose |
+- Serotonin syndrome (buspirone) |
+- Alcohol intoxication |
+
+@redflags
+- کما، افسردگی تنفسی، آریتمی بطنی (کلرال هیدرات)، تغییر هوشیاری با علائم حیاتی غیرطبیعی
+
+@guide
+معمولاً حمایتی (مثل بنزودیازپین). chloral hydrate با آریتمی بطنی: بتابلوکر وریدی خط اول: propranolol 1 mg IV (کودک 0.01 تا 0.1 mg/kg). GHB: حمایتی با تمرکز بر راه هوایی؛ از physostigmine و neostigmine پرهیز. آستانه پایین برای بستری هر بیمار با تغییر هوشیاری، علائم حیاتی غیرطبیعی یا آریتمی؛ مشاوره روانپزشکی.
+
+@variant nonbenzo-sedative-main
+name: Nonbenzodiazepine sedative / GHB / chloral hydrate overdose
+level: II
+imp: Nonbenzodiazepine sedative overdose
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: none
+o2: O2 therapy: if SpO2 < 94%, F.M 6–10 L/min or N.C 3–5 L/min
+
+@scenario
+جوانی ۲۲ ساله پس از مهمانی با خواب‌آلودگی ناگهانی، برادی‌کاردی و هیپوترمی که ۸ ساعت بعد ناگهان بیدار شد؛ شک به GHB.
+
+@why
+حمایتی و راه هوایی؛ بتابلوکر در آریتمی کلرال هیدرات؛ GHB: بیداری ناگهانی.
+
+@I
+- Abdominal radiograph (chloral hydrate is radiopaque: pharmacobezoar) {note: if suspected}
+
+@L
+- Glucose; acetaminophen and salicylate levels; ECG; toxicologic detection of GHB difficult (short half-life)
+
+@T
+- Supportive care with airway management; avoid physostigmine and neostigmine (GHB)
+- Ventricular dysrhythmias in chloral hydrate intoxication: Propranolol 1 mg IV (0.01 to 0.1 mg/kg IV in children)
+
+@Co
+- Low threshold for admission with altered mental status, abnormal vital signs or dysrhythmias; psychiatric consult when appropriate; consider drug-facilitated sexual assault evaluation

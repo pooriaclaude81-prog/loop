@@ -1,0 +1,180 @@
+@cond methylxanthine-toxicity
+ch: 107
+name: Theophylline and caffeine (methylxanthine) toxicity
+name_fa: مسمومیت با تئوفیلین و کافئین (متیل‌گزانتین‌ها)
+cc: poisoning, palpitations, seizure, nausea-vomiting
+keywords: theophylline, caffeine, methylxanthine, energy drink, seizure, esmolol, hemoperfusion, hypokalemia, تئوفیلین, کافئین
+status: draft
+
+@features
+- تئوفیلین، تئوبرومین و کافئین؛ تئوفیلین برای آسم/COPD و apnea of prematurity؛ کافئین در نوشیدنی‌ها، داروها و مکمل‌ها (و apnea of prematurity و کمک‌ضددرد)
+- سمیت می‌تواند تهدیدکننده حیات قلبی، عصبی و متابولیک باشد؛ حتی سطح درمانی تئوفیلین در بعضی عارضه می‌دهد؛ سالمندان با بیماری همراه در مصرف مزمن مستعدتر از جوانان با اوردوز حاد
+- قلب: سینوس تاکی‌کاردی، دیسریتمی دهلیزی و/یا بطنی (شایع‌تر در سمیت شدید، مزمن، سالمند و اختلال قلبی)، هیپوتانسیون از اتساع عروقی بتا-2
+- عصبی: آژیتاسیون، سردرد، تحریک‌پذیری، بی‌خوابی، لرزش، توهم و تشنج (شدید و مقاوم به درمان استاندارد)
+- متابولیک: هیپوکالمی، هیپرگلیسمی، اسیدوز متابولیک؛ رابدومیولیز و (نادر) سندرم کمپارتمان؛ GI: تهوع و استفراغ شدید و مقاوم به ضداستفراغ‌های ضعیف
+- سطح 20 µg/mL هم می‌تواند علامت بدهد؛ در مسمومیت حاد شدت با سطح همبسته است ولی در مزمن یا حاد-روی-مزمن ضعیف؛ در مزمن علائم تهدیدکننده بدون هشدار قبلی؛ ترک سیگار، سیروز، سایمتیدین و اریترومایسین نیمه‌عمر تئوفیلین را بالا می‌برند
+- بررسی: سطح سریال تئوفیلین/کافئین، الکترولیت و ECG ۱۲ لید
+
+@ddx
+- !Other sympathomimetic overdose (amphetamine, cocaine) |
+- Anticholinergic toxicity |
+- Thyrotoxicosis |
+- Sepsis |
+
+@redflags
+- تشنج، دیسریتمی بطنی، سطح > 90 µg/mL (حاد) یا > 40 (مزمن)، هیپوتانسیون مقاوم
+
+@guide
+تثبیت، دکونتامیناسیون و دفع، درمان عوارض تهدیدکننده حیات و در شدید همودیالیز/همو‌پرفیوژن. مانیتور قلبی و IV/IO. تهوع: ondansetron 4 تا 8 mg IV/PO (0.1 تا 0.15 mg/kg)؛ ranitidine برای ترشح معده، از cimetidine بپرهیز. تشنج: بنزودیازپین، باربیتورات یا حتی propofol؛ lorazepam 0.1 mg/kg IV یا 1 تا 2 mg تجربی و تکرار 5 تا 10 دقیقه؛ شکست: phenobarbital 20 mg/kg یا pentobarbital 5 mg/kg (انتظار افسردگی تنفس)؛ phenytoin ممنوع. پروفیلاکسی تشنج با phenobarbital در حاد با سطح 80 µg/dL و مزمن > 40. هیپوتانسیون: کریستالوئید ایزوتونیک؛ مقاوم: esmolol یا metoprolol. دیسریتمی: metoprolol یا esmolol؛ diltiazem برای AF. هیپوکالمی شدید ولی اغلب مقاوم به مکمل (پتاسیم به داخل سلول می‌رود) و با فروکش اثر، هیپرکالمی بازگشتی: پتاسیم فقط اگر دیسریتمی ناشی از هیپوکالمی یا K < 2.5 mmol/L. دیالیز/همو‌پرفیوژن: علامت‌دار با سطح > 90 µg/mL (حاد) یا > 40 (مزمن) و تشنج یا دیسریتمی تهدیدکننده حیات. بستری ICU: تشنج یا دیسریتمی بطنی. علائم خفیف با سطح < 25 µg/mL معمولاً بستری و درمان خاص نمی‌خواهد؛ دوز را کم یا قطع کن. علامت‌دار با سطح > 30: 1 تا 2 دوز زغال خوراکی («gut dialysis») فارغ از زمان آخرین مصرف.
+
+@variant methylxanthine-mild
+name: Mild methylxanthine toxicity (tachycardia, tremor, nausea; level < 25 µg/mL)
+level: III
+imp: Methylxanthine (theophylline / caffeine) toxicity, mild
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: once
+cxr: none
+
+@scenario
+مردی ۷۰ ساله تحت تئوفیلین با تهوع، لرزش و تاکی‌کاردی سینوسی.
+
+@why
+مانیتور، سطح، درمان علامتی و کاهش یا قطع دارو.
+
+@L
+- Serum theophylline (or caffeine) concentration, serial; electrolytes (potassium); glucose
+
+@S
+- IV isotonic crystalloid if hypotensive {ci: caution in AKI, anuria, heart failure / pulmonary edema}
+
+@T
+- Ondansetron 4–8 mg IV or PO (0.1–0.15 mg/kg); avoid cimetidine (prolongs theophylline half-life)
+- Activated charcoal single dose for acute ingestion (< 12 y: 0.5–1 g/kg; > 12 y: 25–100 g PO)
+- Symptomatic with theophylline level > 30 µg/mL: 1–2 doses of oral activated charcoal regardless of timing of last dose
+- Decrease the dose or discontinue theophylline or caffeine
+
+@Co
+- Mild symptoms with level < 25 µg/mL usually need no admission or specific treatment other than symptomatic care
+
+@variant methylxanthine-severe
+name: Severe methylxanthine toxicity (seizures, ventricular dysrhythmia, hypotension)
+level: I
+imp: Methylxanthine (theophylline / caffeine) toxicity, severe, with seizures / dysrhythmia
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+
+@scenario
+زنی ۶۰ ساله با تئوفیلین مزمن، سطح 55 µg/mL، تشنج مکرر و تاکی‌کاردی بطنی.
+
+@why
+کنترل تشنج بدون phenytoin، بتابلاکر انتخابی و دیالیز زودهنگام.
+
+@I
+- CXR portable (aspiration after seizures / vomiting)
+
+@L
+- Serial serum theophylline or caffeine level; electrolytes (potassium); glucose; CK (rhabdomyolysis); blood gas
+
+@S
+- IV isotonic crystalloid for hypotension {ci: caution in AKI, anuria, heart failure / pulmonary edema}
+- Potassium supplementation only if dysrhythmia likely due to hypokalemia or K < 2.5 mmol/L {note: risk of rebound hyperkalemia as toxicity abates}
+
+@T
+- Lorazepam 0.1 mg/kg IV (1–2 mg empirically in adults), repeat in 5–10 min if seizures persist
+- Phenobarbital 20 mg/kg or pentobarbital 5 mg/kg IV if benzodiazepine fails (anticipate respiratory depression and need for ventilator); propofol is an option {ci: phenytoin is contraindicated}
+- Phenobarbital seizure prophylaxis if acute toxicity with level 80 µg/dL or chronic toxicity > 40 µg/dL
+- Esmolol or metoprolol for hypotension unresponsive to fluids or vasopressors, and for dysrhythmias; diltiazem for atrial fibrillation
+- Ondansetron 4–8 mg IV (0.1–0.15 mg/kg)
+- Activated charcoal (single dose; multidose with close observation); whole-bowel irrigation with iso-osmolar PEG for sustained-release ingestion (>12 y: 1500–2000 mL/h for 4–6 h or until clear effluent)
+
+@Co
+- Nephrology: hemodialysis or hemoperfusion if symptomatic with level > 90 µg/mL (acute) or > 40 µg/mL (chronic), or life-threatening seizures or dysrhythmias
+- ICU admission (seizures or ventricular dysrhythmias)
+- Toxicology / poison center
+
+@cond nicotine-toxicity
+ch: 107
+name: Nicotine toxicity
+name_fa: مسمومیت با نیکوتین
+cc: poisoning, nausea-vomiting, seizure
+keywords: nicotine, cigarette ingestion, nicotine gum, transdermal patch, pesticide, nicotinic, نیکوتین, سیگار
+status: draft
+
+@features
+- تنباکو، داروهای ترک سیگار و آفت‌کش بیرون؛ مواجهه کودکان با آدامس نیکوتین یا ته‌سیگار در نوشیدنی شایع؛ جذب سریع ریه، مخاط، روده و پوست؛ اتصال به گیرنده‌های نیکوتینی (CNS، اتونوم، اتصال عصبی-عضلانی)
+- تهوع، استفراغ، برادیکاردی، دیسریتمی، هیپوونتیلاسیون، کما و تشنج؛ شدید: فلج و ایست تنفسی
+- جدول 107-2: فوری (< 1 ساعت): هیپرسالیواسیون، تهوع، استفراغ، تاکی‌کاردی، هیپرتانسیون، لرزش، سردرد، آتاکسی، برونکوره؛ تأخیری (> 1 ساعت): اسهال، دیسریتمی، برادیکاردی، هیپوتانسیون، هیپوتونی، تشنج، کما، هیپوونتیلاسیون، آپنه؛ شروع پس از تماس پوستی ممکن است ساعت‌ها به تأخیر بیفتد
+- تشخیص بر پایه شرح حال و معاینه؛ افتراق: سمیت کولینرژیک (ارگانوفسفات، کاربامات، داروهای کولینرژیک)
+
+@ddx
+- !Organophosphate / carbamate poisoning |
+- Cholinergic medication overdose |
+- Other sympathomimetic toxicity |
+
+@redflags
+- هیپوونتیلاسیون، تشنج، کما، فلج عضلانی، برادیکاردی
+
+@guide
+مانیتور و دسترسی عروقی. تماس پوستی با محصول آفت‌کش: دکونتامیناسیون مثل HAZMAT (محل اختصاصی، اغلب خارج ED). دکونتامیناسیون گوارشی توصیه نمی‌شود و اسیدی‌کردن ادرار ممنوع. تهوع: ondansetron 4 تا 8 mg IV/PO (0.15 mg/kg). تشنج/آژیتاسیون: lorazepam 2 mg IV (0.1 mg/kg). هیپوتانسیون: کریستالوئید ایزوتونیک. در شدید انتظار ضعف عصبی-عضلانی و تضعیف تنفس؛ آماده اینتوباسیون. بیماران بدون علامت ≥ 3 ساعت پس از مصرف: ترخیص؛ بلع پچ ترنسدرمال دست‌نخورده: مشاهده حداقل 6 ساعت.
+
+@variant nicotine-mild
+name: Nicotine ingestion, asymptomatic or mild GI symptoms
+level: III
+imp: Nicotine ingestion
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: once
+cxr: none
+
+@scenario
+کودک ۲ ساله پس از خوردن ته‌سیگار با یک نوبت استفراغ.
+
+@why
+مشاهده و ترخیص بعد از 3 ساعت بدون علامت (6 ساعت برای پچ).
+
+@T
+- Ondansetron 4–8 mg IV or PO (0.15 mg/kg) for nausea and vomiting {ci: GI decontamination not recommended; urine acidification contraindicated}
+- Observe at least 3 hours after ingestion (at least 6 hours for ingested intact transdermal patch)
+
+@Co
+- Discharge if asymptomatic at least 3 hours after ingestion of nicotine-containing products (6 hours for intact transdermal patches)
+
+@variant nicotine-severe
+name: Severe nicotine toxicity (seizure, bradycardia, hypoventilation, pesticide exposure)
+level: I
+imp: Nicotine toxicity, severe
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+
+@scenario
+کارگری پس از تماس پوستی با آفت‌کش نیکوتینی با استفراغ، تعریق، برادیکاردی، تشنج و ضعف تنفسی.
+
+@why
+دکونتامیناسیون پوست، کنترل تشنج و آمادگی برای تهویه.
+
+@I
+- CXR portable if respiratory depression or intubation
+
+@L
+- Electrolytes, glucose (bedside if altered mental status)
+
+@S
+- Isotonic crystalloid IV for hypotension {ci: caution in AKI, anuria, heart failure / pulmonary edema}
+
+@T
+- Dermal decontamination as for other HAZMAT substances (dedicated location, often external to the ED) if pesticide exposure
+- Lorazepam 2 mg IV (0.1 mg/kg) for seizures or agitation
+- Ondansetron 4–8 mg IV (0.15 mg/kg)
+- Anticipate neuromuscular weakness or respiratory depression; be prepared for endotracheal intubation and mechanical ventilation {ci: no GI decontamination; urine acidification contraindicated}
+
+@Co
+- ICU admission; toxicology / poison center

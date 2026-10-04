@@ -1,0 +1,420 @@
+@cond lead-poisoning
+ch: 114
+name: Lead poisoning
+name_fa: مسمومیت با سرب
+cc: poisoning, abdominal-pain, altered-mental-status
+keywords: lead poisoning, plumbism, wrist drop, basophilic stippling, chelation, dimercaprol, BAL, edetate calcium disodium, succimer, lead encephalopathy, سرب, کلاسیک مچ افتاده
+status: draft
+
+@features
+- جدول 114-1: CNS حاد: انسفالوپاتی، تشنج، تغییر هوشیاری، پاپیلادم، نوریت اپتیک، آتاکسی؛ مزمن: سردرد، تحریک‌پذیری، افسردگی، خستگی، تغییر خلق/رفتار، نقص حافظه، اختلال خواب؛ محیطی: پارستزی، ضعف حرکتی (کلاسیک wrist drop)، کاهش/فقدان رفلکس تاندونی با حس سالم؛ GI: درد شکم (بیشتر حاد)، یبوست، اسهال، هپاتیت سمی؛ کلیه: حاد: Fanconi (RTA با آمینواسیدوری، گلوکزوری و فسفاتوری)، مزمن: نفریت بینابینی، نارسایی کلیه، HTN، نقرس؛ خون: کم‌خونی هیپوپرولیفراتیو و/یا همولیتیک، basophilic stippling (نادر و غیراختصاصی)؛ تولیدمثل: کاهش میل جنسی، ناتوانی جنسی، نازایی، سقط، زایمان زودرس، اختلال اسپرم
+- مشکوک شو به ترکیب درد شکم، تهوع، استفراغ و علائم عصبی (به‌ویژه کودک با انسفالوپاتی) و کم‌خونی؛ CBC: کم‌خونی نورموسیتیک یا میکروسیتیک با همولیز و basophilic stippling (نه حساس و نه اختصاصی)؛ تأیید: سطح خونی سرب (اغلب فوری در دسترس نیست)؛ رادیوگرافی: خطوط سربی متافیز استخوان بلند، ماده رادیواپک در GI، قطعه گلوله باقی‌مانده
+
+@ddx
+- !Meningitis / encephalitis |
+- !CO poisoning / hypoxia / metabolic encephalopathy |
+- Arsenic or mercury poisoning |
+- Drug intoxication |
+
+@redflags
+- انسفالوپاتی (کودک)، تشنج، سطح سرب > 100 (بالغ) یا > 69 (کودک)، پاپیلادم
+
+@guide
+مشکلات تهدیدکننده حیات: راه هوایی پیشرفته و احیای مایع. دکونتامیناسیون GI با WBI (PEG) در ذرات سرب باقی‌مانده؛ اجسام بزرگ ممکن است برداشت آندوسکوپیک یا جراحی بخواهند. تشنج: تهاجمی با بنزودیازپین سپس باربیتورات و/یا propofol و/یا بیهوشی عمومی. در انسفالوپاتی سربی از LP پرهیز کن (هرنیاسیون). شلاسیون ستون درمان و اغلب باید تجربی شروع شود (جدول 114-2؛ تماس با سم‌شناس/مرکز سموم): انسفالوپاتی: dimercaprol 75 mg/m² (یا 4 mg/kg) IM هر 4 ساعت × 5 روز و edetate calcium disodium 1500 mg/m²/روز انفوزیون مداوم یا 2 تا 4 دوز تقسیمی IV × 5 روز، شروع 4 ساعت بعد از dimercaprol؛ علامت‌دار و/یا سطح بالغ > 100 یا کودک > 69: dimercaprol + CaNa2EDTA یا CaNa2EDTA تنها یا succimer؛ بدون علامت با سطح بالغ 70 تا 100 یا کودک 45 تا 69: succimer 350 mg/m² (یا 10 mg/kg) PO هر 8 ساعت × 5 روز سپس هر 12 ساعت × 14 روز؛ سطح پایین‌تر (بالغ < 70، کودک < 45): شلاسیون روتین اندیکاسیون ندارد؛ دور کردن از منبع. dimercaprol فقط IM و در آلرژی بادام‌زمینی ممنوع. بستری: نیازمند شلاسیون تزریقی یا غیرقابل اجتناب از مواجهه؛ پیگیری برای succimer.
+
+@variant lead-encephalopathy
+name: Lead encephalopathy / seizures (blood lead > 100 adult, > 69 child)
+level: I
+imp: Lead poisoning with encephalopathy
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: none
+
+@scenario
+کودک ۳ ساله با استفراغ، تحریک‌پذیری، تشنج و کم‌خونی؛ سطح سرب 120 µg/dL.
+
+@why
+شلاسیون ترکیبی فوری؛ بدون LP.
+
+@I
+- CT head (before any consideration of LP; avoid LP in lead encephalopathy)
+- Abdominal radiograph (radiopaque material in GI tract); long-bone radiographs (metaphyseal lead lines)
+
+@L
+- Blood lead level; CBC with smear (basophilic stippling); electrolytes, BUN, creatinine, calcium, glucose; liver function tests
+
+@S
+- Fluid resuscitation as needed {ci: caution in AKI, heart failure / pulmonary edema; avoid overhydration in encephalopathy}
+
+@T
+- Dimercaprol 75 mg/m² (or 4 mg/kg) IM every 4 h for 5 days {hi} {ci: contraindicated in peanut allergy; IM only}
+- Edetate calcium disodium 1500 mg/m² per day via continuous infusion or 2–4 divided IV doses for 5 days; start 4 h after dimercaprol
+- Benzodiazepines for seizures, then barbiturates and/or propofol and/or general anesthesia
+- Whole-bowel irrigation with PEG if retained lead flecks in GI tract {ci: avoid lumbar puncture (herniation)}
+
+@Co
+- Admit ICU; toxicology / poison center
+- Endoscopic or surgical removal of larger GI foreign bodies; public health notification / remove from exposure
+
+@variant lead-symptomatic
+name: Symptomatic lead poisoning without encephalopathy (abdominal pain, neuropathy, anemia)
+level: II
+imp: Lead poisoning, symptomatic
+cond: Urgent
+act: CBR
+diet: PO
+ecg: once
+cxr: none
+
+@scenario
+مرد ۴۵ ساله کارگر باتری‌سازی با کولیک شکمی، یبوست، ضعف مچ دست و کم‌خونی؛ سطح سرب 85 µg/dL.
+
+@why
+شلاسیون با dimercaprol ± CaNa2EDTA یا succimer.
+
+@I
+- Abdominal radiograph (radiopaque material; retained bullet fragments)
+
+@L
+- Blood lead level; CBC with smear; electrolytes, BUN, creatinine, liver function tests
+
+@T
+- Adults with blood lead > 100 µg/dL or symptomatic: dimercaprol 4 mg/kg IM every 4 h with edetate calcium disodium (start 4 h later), or edetate calcium disodium alone, or succimer {ci: dimercaprol contraindicated in peanut allergy}
+- Succimer 10 mg/kg (350 mg/m²) PO every 8 h for 5 days, then every 12 h for 14 days
+- Whole-bowel irrigation with PEG if retained lead in GI tract
+
+@Co
+- Admit if parenteral chelation needed or unavoidable ongoing exposure; arrange follow-up for succimer; occupational / public health
+
+@variant lead-asymptomatic
+name: Asymptomatic elevated lead level (adult < 70, child < 45 µg/dL; or 45–69 / 70–100)
+level: III
+imp: Elevated blood lead level, asymptomatic
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+کودک ۴ ساله بدون علامت با سطح سرب 50 µg/dL در غربالگری.
+
+@why
+با سطح 45 تا 69 در کودک succimer؛ سطح پایین‌تر فقط حذف منبع.
+
+@L
+- Blood lead level; CBC; BUN, creatinine
+
+@T
+- Child 45–69 µg/dL or adult 70–100 µg/dL asymptomatic: succimer 10 mg/kg PO every 8 h for 5 days then every 12 h for 14 days
+- Lower levels: routine chelation not indicated; remove patient from source of exposure
+
+@Co
+- Poison center / toxicology; follow-up arranged; public health
+
+@cond arsenic-poisoning
+ch: 114
+name: Arsenic poisoning
+name_fa: مسمومیت با آرسنیک
+cc: poisoning, diarrhea, hypotension-shock
+keywords: arsenic, Mees lines, QT prolongation, torsades, dimercaprol, succimer, 24-hour urine arsenic, آرسنیک
+status: draft
+
+@features
+- حشره‌کش/علف‌کش، معدن‌کاری و ذوب؛ بلع حاد: استفراغ و اسهال شدید طی ساعت‌ها؛ هیپوتانسیون و تاکی‌کاردی (هیپوولمی و اختلال مستقیم میوکارد)؛ انسفالوپاتی، acute lung injury و AKI
+- QT طولانی و torsades؛ مزمن: نوروپاتی محیطی، بی‌حالی، گیجی؛ پوست: آلوپسی، هیپرپیگمانتاسیون، کراتوز، خطوط سفید عرضی ناخن (Mees)
+- شرح حال مواجهه مهم‌ترین؛ هیپوتانسیون پس از استفراغ و اسهال شدید؛ CBC: لکوسیتوز؛ ECG: QT؛ تأیید: آرسنیک ادرار 24 ساعته
+
+@ddx
+- !Gastroenteritis / septic shock |
+- Addison's disease |
+- Lead, thallium, or mercury poisoning |
+- Encephalopathy / peripheral neuropathy of other cause |
+
+@redflags
+- هیپوتانسیون، QT طولانی، دیسریتمی، مصرف عمدی/سوء قصد
+
+@guide
+ABC: اینتوباسیون برای محافظت راه هوایی؛ هیپوتانسیون: حجم و وازوپرسور بدون احیای بیش‌ازحد (ادم ریه/مغز)؛ دیسریتمی طبق ACLS/PALS ولی از داروهای طولانی‌کننده QT (IA، IC، III) پرهیز؛ torsades: magnesium sulfate، isoproterenol و/یا overdrive pacing. WBI با PEG در قطعات رادیواپک GI. شلاسیون تجربی (جدول 114-3): dimercaprol 3 تا 5 mg/kg IM هر 4 ساعت × 2 روز سپس هر 6 تا 12 ساعت تا امکان تغییر به succimer 10 mg/kg PO هر 8 ساعت × 5 روز سپس هر 12 ساعت؛ succimer خوراکی ترجیحی در بیمار پایدار با تحمل خوراکی. بستری: مسمومیت حاد، نیازمند dimercaprol یا قصد خودکشی/قتل؛ ترخیص: مزمن/تحت‌حاد پایدار با پیگیری.
+
+@variant arsenic-acute
+name: Acute arsenic poisoning (vomiting, diarrhea, hypotension, QT prolongation)
+level: I
+imp: Acute arsenic poisoning
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+
+@scenario
+مردی ۴۰ ساله چند ساعت پس از بلع مرگ‌موش آرسنیکی با استفراغ و اسهال خونی، فشار 80/50 و QTc 520.
+
+@why
+احیای حجم، دیسریتمی بدون داروهای QT-prolonging و شلاسیون تجربی.
+
+@I
+- CXR portable; abdominal radiograph (radiopaque fragments)
+
+@L
+- 24-hour urine arsenic (confirmation); electrolytes (K, Mg, Ca), BUN, creatinine, CBC, liver function tests, glucose; blood gas
+
+@S
+- Volume resuscitation with crystalloid {ci: avoid overresuscitation (pulmonary or cerebral edema); caution in AKI, heart failure}
+- Magnesium sulfate IV for torsades de pointes
+
+@T
+- Endotracheal intubation if needed to protect airway; vasopressors for refractory hypotension
+- Dimercaprol 3–5 mg/kg IM every 4 h for 2 days, then every 6–12 h until able to switch to succimer 10 mg/kg PO every 8 h for 5 days, then every 12 h {hi}
+- Whole-bowel irrigation with PEG if radiopaque GI fragments
+- Torsades: isoproterenol and/or overdrive pacing {ci: avoid class IA, IC, and III antidysrhythmics}
+
+@Co
+- Hospitalize (acute poisoning; suicidal / homicidal intent assessment); toxicology / poison center
+
+@variant arsenic-chronic
+name: Subacute or chronic arsenic poisoning (neuropathy, skin changes)
+level: III
+imp: Chronic arsenic poisoning
+cond: Urgent
+act: CBR
+diet: PO
+ecg: stat
+cxr: none
+
+@scenario
+زنی ۵۵ ساله با نوروپاتی محیطی، هیپرپیگمانتاسیون و خطوط Mees و مصرف آب چاه آلوده.
+
+@why
+تأیید ادراری و succimer خوراکی؛ پیگیری.
+
+@L
+- 24-hour urine arsenic; CBC, electrolytes, liver function tests
+
+@T
+- Succimer 10 mg/kg PO every 8 h for 5 days, then every 12 h (stable, tolerating oral intake)
+- Remove from source of exposure
+
+@Co
+- Discharge if stable with follow-up ensured; toxicology / poison center; public health
+
+@cond mercury-poisoning
+ch: 114
+name: Mercury poisoning (elemental, inorganic, organic)
+name_fa: مسمومیت با جیوه
+cc: poisoning, dyspnea, altered-mental-status
+keywords: mercury, elemental mercury, thermometer, mercury vapor, inorganic mercury, organic mercury, methylmercury, dimercaprol, succimer, جیوه
+status: draft
+
+@features
+- عنصری: تماس با ترمومتر شکسته، لامپ یا ریختن جیوه؛ جذب عمدتاً استنشاقی (به‌ویژه با گرما یا جاروبرقی)؛ بلع جیوه عنصری در GI سالم غیرسمی؛ بخار: سرفه، تب، تنگی نفس، استفراغ، سردرد؛ acute lung injury تا نارسایی تنفسی؛ کلاسیک: لرزش، راش، هیپرتانسیون
+- غیرآلی (ضدعفونی‌کننده/صنعت): بلع → آسیب سوزاننده GI (استفراغ، اسهال، درد شکم، خونریزی GI زودرس) سپس AKI
+- آلی (قارچ‌کش، آفت‌کش): جذب خوراکی؛ مسمومیت بیشتر در مواجهه مزمن با اختلال شدید CNS
+- تشخیص: شرح حال؛ تأیید: جیوه ادرار 24 ساعته (عنصری/غیرآلی) و جیوه خون کامل (آلی)
+
+@ddx
+- !Metal fume fever (elemental) |
+- Encephalopathy / tremor, thyroid disease, stroke, tumor |
+- Corrosive gastroenteritis (iron, arsenic, phosphorus, acids, alkalis) |
+
+@redflags
+- علائم تنفسی پس از بخار، بلع نمک جیوه، AKI، اختلال CNS
+
+@guide
+حمایت ABC و کریستالوئید. lavage در بلع جیوه غیرآلی یا زغال فعال در بلع جیوه آلی. شلاسیون قبل از تأیید تشخیص (جدول 114-4): شدید حاد (عنصری و غیرآلی): dimercaprol 5 mg/kg IM هر 4 ساعت × 2 روز، سپس 2.5 mg/kg هر 6 ساعت × 2 روز، سپس 2.5 mg/kg هر 12 تا 24 ساعت تا بهبود یا تغییر به succimer؛ خفیف حاد و مزمن عنصری/غیرآلی و آلی: succimer 10 mg/kg PO هر 8 ساعت × 5 روز سپس هر 12 ساعت × 14 روز؛ جیوه آلی: فایده شلاسیون اثبات‌نشده (در جدول). بستری: علائم تنفسی پس از بخار، بلع غیرآلی یا نیازمند dimercaprol؛ ارزیابی محیطی سریع در بخار.
+
+@variant mercury-vapor
+name: Elemental mercury vapor exposure
+level: II
+imp: Elemental mercury vapor exposure
+cond: Urgent
+act: CBR
+diet: PO
+ecg: once
+cxr: PA
+o2: if SpO2 < 94%
+
+@scenario
+زنی ۳۰ ساله پس از جمع‌آوری جیوه ترمومتر شکسته با جاروبرقی و سرفه، تب و تنگی نفس.
+
+@why
+مشاهده و بستری در علائم تنفسی؛ ارزیابی محیط.
+
+@I
+- CXR PA / portable (acute lung injury)
+
+@L
+- 24-hour urine mercury (confirmation); electrolytes, BUN, creatinine; blood gas if hypoxic
+
+@T
+- Supportive respiratory care; oxygen if hypoxemic
+- Chelation when indicated: mild or chronic: succimer 10 mg/kg PO every 8 h for 5 days then every 12 h for 14 days
+
+@Co
+- Admit if respiratory symptoms; prompt environmental assessment (prevent further toxicity); poison center
+
+@variant mercury-inorganic
+name: Inorganic mercury salt ingestion (corrosive GI injury, AKI)
+level: I
+imp: Inorganic mercury ingestion
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: none
+
+@scenario
+مردی پس از بلع محلول ضدعفونی حاوی نمک جیوه با استفراغ، اسهال خونی و درد شکم.
+
+@why
+lavage و dimercaprol؛ پایش کلیه.
+
+@L
+- 24-hour urine mercury; electrolytes, BUN, creatinine, CBC, type and screen; liver function tests
+
+@S
+- Crystalloid infusion {ci: caution in AKI, heart failure}
+
+@T
+- Consider gastric lavage (inorganic mercury ingestion)
+- Dimercaprol 5 mg/kg IM every 4 h for 2 days, then 2.5 mg/kg every 6 h for 2 days, then 2.5 mg/kg every 12–24 h until improvement or switch to succimer {hi} {ci: dimercaprol contraindicated in peanut allergy}
+- Begin chelation before confirming diagnosis
+
+@Co
+- Admit; nephrology if AKI; toxicology / poison center
+
+@variant mercury-organic-chronic
+name: Organic mercury or chronic mercury toxicity (CNS)
+level: III
+imp: Organic / chronic mercury poisoning
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+فردی با مصرف ماهی/تماس با قارچ‌کش و لرزش، آتاکسی و تغییرات شناختی پیشرونده.
+
+@why
+سطح خونی جیوه و succimer.
+
+@L
+- Whole blood mercury (organic); 24-hour urine mercury (elemental / inorganic); electrolytes, BUN, creatinine
+
+@T
+- Activated charcoal if organic mercury ingestion
+- Succimer 10 mg/kg PO every 8 h for 5 days, then every 12 h for 14 days {note: organic mercury chelation benefit not proven in table}
+
+@Co
+- Toxicology / poison center; neurology follow-up
+
+@cond other-metal-poisoning
+ch: 114
+name: Other metal poisoning (bismuth, cadmium, chromium, cobalt, copper, silver, thallium, zinc)
+name_fa: مسمومیت با سایر فلزات
+cc: poisoning, abdominal-pain, dyspnea
+keywords: thallium, cadmium, chromium, cobalt, copper, silver argyria, zinc, bismuth, metal fume fever, Prussian blue, تالیم, کادمیوم, مس, روی
+status: draft
+
+@features
+- جدول 114-5: bismuth: ضد اسهال، درد شکم، AKI؛ مزمن میوکلونیک انسفالوپاتی؛ cadmium: بلع → گاستروانتریت هموراژیک؛ استنشاق → پنومونیت/ALI؛ مزمن پروتئینوری، استئومالاسی؛ chromium: تحریک و زخم پوست، دیسترس GI، نارسایی کلیه/ریه؛ مزمن سوراخ شدن سپتوم، «chrome holes»؛ cobalt: درماتیت، آسم؛ مزمن hard metal lung، کاردیومیوپاتی، هیپرپلازی تیروئید؛ copper: بلع شبیه آهن (استفراغ آبی، هپاتوتوکسیسیتی، همولیز، methemoglobinemia)، استنشاق metal fume fever؛ silver: تحریک مخاط، مزمن argyria؛ thallium: زودرس تهوع، استفراغ، درد شکم؛ میانی (> 24 ساعت): نوروپاتی صعودی دردناک، دیسریتمی، تغییر هوشیاری؛ تأخیری (2 هفته): آلوپسی؛ zinc: بلع شبیه آهن؛ استنشاق metal fume fever (zinc oxide)؛ مزمن کمبود مس، sideroblastic anemia، نوتروپنی
+
+@ddx
+- !Acute gastroenteritis / other metal (arsenic) |
+- Metal fume fever vs pneumonia |
+
+@redflags
+- شک به تالیم (نوروپاتی دردناک، آلوپسی)، پنومونیت کادمیوم، همولیز مس
+
+@guide
+درمان اختصاصی: bismuth: dimercaprol (شواهد محدود)؛ cadmium بلع: succimer (شواهد محدود و معمولاً اندیکاسیون ندارد)، پنومونیت: شلاسیون اندیکاسیون ندارد؛ chromium و cobalt: acetylcysteine (مطالعات حیوانی)؛ copper: dimercaprol در سمیت کبدی/خونی و succimer در خفیف؛ silver: selenium (نقش احتمالی)؛ thallium: زغال چنددوزی و Prussian blue 125 mg/kg PO هر 12 ساعت (معمولاً در 50 mL مانیتول 15%)؛ zinc: edetate calcium disodium؛ metal fume fever: حمایتی.
+
+@variant metal-fume-fever
+name: Metal fume fever (zinc oxide / copper oxide inhalation)
+level: III
+imp: Metal fume fever
+cond: Urgent
+act: CBR
+diet: PO
+ecg: once
+cxr: PA
+o2: if SpO2 < 94%
+
+@scenario
+جوشکار گالوانیزه ۳۵ ساله با تب، لرز، سرفه و تنگی نفس چند ساعت پس از کار.
+
+@why
+خودمحدودشونده؛ حمایتی.
+
+@I
+- CXR PA
+
+@L
+- CBC; electrolytes
+
+@T
+- Supportive care for metal fume fever; antipyretic; oxygen if hypoxic
+
+@Co
+- Discharge after observation if improving; occupational counseling
+
+@variant thallium-poisoning
+name: Thallium poisoning
+level: II
+imp: Thallium poisoning
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: none
+
+@scenario
+مرد ۳۰ ساله با استفراغ، درد شکم، نوروپاتی صعودی دردناک و ریزش مو دو هفته بعد.
+
+@why
+زغال چنددوزی و Prussian blue.
+
+@L
+- Urine / blood thallium level; electrolytes (K), BUN, creatinine, liver function tests, CBC
+
+@T
+- Multidose activated charcoal
+- Prussian blue 125 mg/kg PO every 12 h (usually dissolved in 50 mL of 15% mannitol)
+
+@Co
+- Admit; toxicology / poison center; suspect homicidal intent / public health
+
+@variant metal-ingestion-other
+name: Copper / zinc / cadmium / chromium / bismuth ingestion
+level: III
+imp: Metal ingestion (copper / zinc / cadmium / chromium / bismuth)
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: once
+cxr: none
+
+@scenario
+مرد ۴۵ ساله پس از بلع سولفات مس با استفراغ آبی، درد شکم و ایکتر.
+
+@why
+مشابه مسمومیت آهن؛ شلاسیون اختصاصی.
+
+@L
+- CBC (hemolysis), methemoglobin level, liver function tests, electrolytes, BUN, creatinine; metal-specific levels as available
+
+@S
+- IV fluids for volume loss {ci: caution in AKI, heart failure}
+
+@T
+- Copper: dimercaprol for hepatic or hematologic toxicity; succimer in mild poisoning
+- Zinc: edetate calcium disodium
+- Bismuth: dimercaprol (limited evidence)
+- Cadmium ingestion: succimer (limited evidence; not generally indicated)
+- Chromium: acetylcysteine (animal data)
+
+@Co
+- Admit if significant; toxicology / poison center

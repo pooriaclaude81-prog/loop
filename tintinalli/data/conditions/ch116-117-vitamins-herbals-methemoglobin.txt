@@ -1,0 +1,198 @@
+@cond vitamin-herbal-toxicity
+ch: 116
+name: Vitamin and herbal toxicity
+name_fa: مسمومیت با ویتامین و گیاهان دارویی
+cc: poisoning, nausea-vomiting, altered-mental-status
+keywords: hypervitaminosis, vitamin A, vitamin D, niacin flush, pyridoxine neuropathy, vitamin C, herbal, ephedra, pennyroyal, St John's wort, yohimbine, ویتامین, گیاهان دارویی
+status: draft
+
+@features
+- جدول 116-1: ویتامین A: تحت‌حاد: راش قرمز پوسته‌ریزی‌کننده، سردرد، استفراغ؛ مزمن: تاری دید، بی‌اشتهایی، پیگمانتاسیون غیرطبیعی، ریزش مو، خشکی پوست، خارش، درد استخوان بلند، شکستگی، نادر: pseudotumor cerebri، هیپرکلسمی، نارسایی کبد؛ ویتامین D: تحت‌حاد: هیپرکلسمی، بی‌اشتهایی، تهوع، درد شکم، لتارژی، کاهش وزن، پلی‌اوری، یبوست، گیجی، کما؛ ویتامین E: مزمن: کوآگولوپاتی در مصرف‌کنندگان warfarin، تهوع، خستگی، سردرد، ضعف، تاری دید؛ K تزریقی: واکنش anaphylactoid (نادر)؛ نیاسین: حاد (> 100 mg): flush قرمزی، سوزش و خارش صورت/گردن/قفسه سینه، گاه هیپوتانسیون؛ مزمن (> 2000 mg/day): اختلال کبد، اختلال تحمل گلوکز، هیپراوریسمی، خشکی/تغییر رنگ پوست؛ B6: دوز > 1 تا 3 g/day هفته‌ها: نوروپاتی محیطی با ناپایداری راه رفتن، بی‌حسی پا/دست و از دست رفتن حس عمقی و ارتعاش؛ B12: IV دوز بالا: اریتم پوست/مخاط/سرم/ادرار، anaphylactoid نادر، تداخل با آزمایش‌های کالریمتریک؛ فولات: پنهان کردن آنمی ماکروسیتیک B12؛ ویتامین C: مزمن: نفرولیتیازیس (بحث‌برانگیز)، رسوب اگزالات و نارسایی کلیه، اسهال و کرامپ؛ B1 و B2: بدون سمیت
+- گیاهان دارویی (جدول 116-2): black cohosh، chondroitin، ephedra (هیپرتانسیون؛ منع در HTN، دیابت، گلوکوم؛ تداخل با MAOI و سمپاتومیمتیک)، garlic (ممانعت تجمع پلاکت)، ginkgo، ginseng (کاهش قند)، juniper، nutmeg (هالوسینوژن، سمیت کلیه)، pennyroyal (هپاتوتوکسیسیتی)، St. John's wort (فوتوتوکسیسیتی، تداخل با SSRI، cyclosporine، digoxin، indinavir)، wormwood (absinthism)، yohimbine (توهم، ضعف، هیپرتانسیون، فلج)؛ chamomile، glucosamine و Echinacea نادراً آنافیلاکسی؛ فرآورده‌ها بدون نظارت ممکن است آلاینده سمی داشته باشند
+- تشخیص بالینی؛ شرح حال مصرف حجیم حاد یا مزمن فرادرمانی؛ بیماران گاهی مصرف را بیان نمی‌کنند؛ آزمایش: CBC، BMP، آنزیم کبد، انعقاد، bleeding time، CPK، غربالگری سم، تست بارداری ادرار؛ ECG در علائم تحریک سمپاتیک
+
+@ddx
+- !Other drug toxicity / sympathomimetic overdose |
+- Primary hypercalcemia (malignancy, hyperparathyroidism) |
+- Idiopathic intracranial hypertension |
+
+@redflags
+- هیپرکلسمی شدید، نارسایی کبد، سردرد با پاپیلادم (vitamin A)، علائم سمپاتومیمتیک
+
+@guide
+مسمومیت خفیف: حمایتی و قطع ویتامین/گیاه. زغال 1 g/kg PO در بلع بزرگ ویتامین A یا D. هیپرکلسمی A/D: NS، دیورتیک لوپ و کورتیکواستروئید (کاهش جذب GI)؛ مقاوم: bisphosphonate و calcitonin. LP تشخیصی و درمانی برای IIH (pseudotumor) ناشی از hypervitaminosis A. «niacin flush»: diphenhydramine 25 تا 50 mg IV (1 mg/kg کودک) یا PO. هپاتوتوکسیسیتی شدید گیاهی (مانند pennyroyal): N-acetylcysteine 140 mg/kg PO یا IV.
+
+@variant vitamin-herbal-mild
+name: Mild vitamin / herbal toxicity (niacin flush, GI upset)
+level: III
+imp: Vitamin / herbal toxicity, mild
+cond: Urgent
+act: CBR
+diet: PO
+ecg: once
+cxr: none
+
+@scenario
+زنی ۴۰ ساله پس از مصرف 500 mg نیاسین با قرمزی و سوزش صورت و سینه.
+
+@why
+حمایتی؛ آنتی‌هیستامین؛ قطع مصرف.
+
+@L
+- Basic metabolic panel, CBC (as indicated); liver function tests (chronic niacin)
+
+@T
+- Diphenhydramine 25–50 mg IV or PO (1 mg/kg in children) for niacin flush
+- Discontinue the vitamin or herbal preparation; supportive care
+
+@Co
+- Discharge with follow-up
+
+@variant vitamin-hypercalcemia
+name: Vitamin A / D toxicity with hypercalcemia or pseudotumor cerebri
+level: II
+imp: Hypervitaminosis A / D with hypercalcemia
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: none
+
+@scenario
+مرد ۵۰ ساله با مصرف طولانی مگادوز ویتامین D با تهوع، پلی‌اوری، گیجی و کلسیم 14.
+
+@why
+مایع NS، دیورتیک و استروئید؛ مقاوم: بیس‌فسفونات/کلسی‌تونین.
+
+@L
+- Calcium (and ionized calcium), phosphate, magnesium, electrolytes, BUN, creatinine; liver function tests; CBC; PTH if needed; 25-OH vitamin D / vitamin A level as available
+
+@S
+- Normal saline IV for hypercalcemia {ci: caution in heart failure, AKI / anuria}
+- Loop diuretic (after volume repletion); corticosteroid to reduce GI absorption
+- Refractory: bisphosphonate and calcitonin
+
+@T
+- Activated charcoal 1 g/kg PO for large vitamin A or D ingestion
+- Diagnostic and therapeutic lumbar puncture for pseudotumor cerebri from hypervitaminosis A (after imaging)
+
+@Co
+- Admit; endocrinology / nephrology as needed; poison center
+
+@variant herbal-hepatotoxicity-sympathomimetic
+name: Herbal toxicity (pennyroyal hepatotoxicity, ephedra / yohimbine sympathomimetic, others)
+level: II
+imp: Herbal preparation toxicity
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: none
+
+@scenario
+زنی ۲۸ ساله پس از مصرف روغن pennyroyal با استفراغ، زردی و افزایش آنزیم کبد؛ یا مصرف ephedra با تاکی‌کاردی و هیپرتانسیون.
+
+@why
+NAC برای هپاتوتوکسیسیتی؛ ECG برای تحریک سمپاتیک.
+
+@L
+- CBC, basic metabolic panel, liver enzymes, coagulation studies, bleeding time, CPK, toxicology screen, urine pregnancy test
+
+@S
+- N-acetylcysteine 140 mg/kg PO or IV for severe hepatotoxicity from herbal preparations such as pennyroyal oil
+
+@T
+- Discontinue the herbal preparation; basic supportive care
+- Activated charcoal as appropriate for large ingestions
+
+@Co
+- Admit if hepatotoxicity or significant toxicity; hepatology / poison center
+
+@cond methemoglobinemia
+ch: 117
+name: Methemoglobinemia (dyshemoglobinemia)
+name_fa: متهموگلوبینمی
+cc: poisoning, dyspnea, weakness
+keywords: methemoglobinemia, cyanosis, chocolate brown blood, methylene blue, dapsone, benzocaine, G6PD, sulfhemoglobinemia, co-oximetry, متهموگلوبین, متیلن بلو, سیانوز
+status: draft
+
+@features
+- تغییر ملکول هموگلوبین که مانع حمل اکسیژن می‌شود؛ COHb (ch127)؛ داروهای سازنده MetHb (جدول 117-1): phenazopyridine، phenacetin؛ آنتی‌مالاریال، dapsone؛ بی‌حس‌کننده‌های موضعی (benzocaine شایع، lidocaine، prilocaine، dibucaine)؛ نیتریت/نیترات (amyl nitrite، isobutyl nitrite، sodium nitrite، ammonium nitrate، silver nitrate، آب چاه، nitroglycerin)؛ sulfonamides
+- تغییر رنگ خاکستری-قهوه‌ای پوست (سیانوز)؛ شیرخواران < 4 ماه فاقد فعالیت آنزیم کاهنده؛ سه سناریو: گاستروانتریت حاد کودک (نیترات باکتریایی)، نیترات آب مناطق کشاورزی، مصرف زیاد سبزی نیتروژنی (اسفناج)
+- MetHb 10 تا 15%: رنگ خاکستری-آبی؛ 20 تا 30%: سردرد، تهوع، خستگی؛ > 50%: کاهش هوشیاری، ایسکمی میوکارد، دیسریتمی، تشنج، اسیدوز؛ > 70% ممکن است کشنده؛ در بیماری قلبی-ریوی علائم در سطح کمتر
+- مشکوک شو به سیانوزی که با اکسیژن بهتر نمی‌شود؛ خون قهوه‌ای شکلاتی (روی کاغذ صافی در مقایسه با خون طبیعی)؛ co-oximetry در ABG (شریانی یا وریدی)؛ پالس‌اکسیمتری معمول SpO2 کاذب بالا حدود 85% و با اکسیژن 100% تغییر نمی‌کند؛ pulse co-oximeter غیرتهاجمی
+
+@ddx
+- !Carbon monoxide poisoning |
+- !Cyanide poisoning |
+- Sulfhemoglobinemia |
+- Hypoxemia from cardiopulmonary disease |
+
+@redflags
+- سیانوز مقاوم به اکسیژن، MetHb > 25%، کاهش هوشیاری، دیسریتمی، G6PD
+
+@guide
+مانیتور دقیق و اکسیژن با غلظت بالا (جدول 117-2): ABC، IV، اکسیژن، مانیتور قلبی و پالس‌اکسیمتری، ECG، دکونتامیناسیون در صورت نیاز، methylene blue اگر علامت‌دار یا MetHb > 25%؛ cimetidine در مصرف dapsone. methylene blue: 1 تا 2 mg/kg محلول 10% IV طی 15 دقیقه؛ بهبود ظرف 20 دقیقه؛ در نبود بهبود دوز دوم؛ عدم پاسخ به دوز دوم (به ترتیب شیوع): 1) کمبود G6PD: ترانسفوزیون PRBC برای MetHb شدید در مشکوک؛ 2) dapsone: نیمه‌عمر طولانی؛ زغال فعال؛ دوز مکرر methylene blue؛ cimetidine IV برای جلوگیری از تبدیل به hydroxylamine؛ 3) کمبود NADPH-methemoglobin reductase: PRBC یا exchange transfusion در شدید به‌ویژه با همولیز؛ 4) همولیز ناشی از methylene blue: دوز نباید از 7 mg/kg/day بیشتر شود؛ 5) sulfhemoglobinemia: نادر؛ سیانوز در سطح 5%؛ پالس‌اکسیمتری 70 تا 80%؛ بدون علامت معمولاً؛ اکسیژن مکمل.
+
+@variant methemoglobin-mild
+name: Methemoglobinemia, asymptomatic or mild (< 25%)
+level: II
+imp: Methemoglobinemia, mild
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: none
+o2: high-concentration oxygen (pulse oximetry unreliable)
+
+@scenario
+مرد ۳۵ ساله پس از اسپری موضعی benzocaine با سیانوز لب‌ها و سردرد خفیف؛ MetHb 18%.
+
+@why
+اکسیژن و قطع عامل؛ methylene blue فقط در علامت‌دار یا > 25%.
+
+@L
+- Methemoglobin level by co-oximetry (arterial or venous blood gas); CBC; G6PD as appropriate; electrolytes
+
+@T
+- Oxygen (high concentration); cardiac and pulse oximetry monitoring (SpO2 unreliable)
+- Discontinue the offending agent; decontaminate as needed
+
+@Co
+- Observe; poison center
+
+@variant methemoglobin-severe
+name: Symptomatic methemoglobinemia or level > 25%
+level: I
+imp: Methemoglobinemia, symptomatic / > 25%
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+o2: high-concentration oxygen
+
+@scenario
+کودک ۲ ماهه با اسهال و سیانوز خاکستری، SpO2 85% مقاوم به اکسیژن؛ یا مرد با مصرف dapsone و MetHb 45%.
+
+@why
+methylene blue؛ علل شکست درمان را بررسی کن.
+
+@I
+- CXR portable
+
+@L
+- Methemoglobin level by co-oximetry; ABG; CBC; G6PD level; electrolytes, glucose, lactate
+
+@S
+- Methylene blue 1–2 mg/kg IV as 10% solution over 15 min; may repeat once if no improvement within 20 min {hi} {ci: total dose should not exceed 7 mg/kg/day; G6PD deficiency (methylene blue ineffective/hemolysis)}
+- Packed red cell or exchange transfusion for severe cases with suspected G6PD or NADPH-methemoglobin reductase deficiency
+
+@T
+- Assess airway, breathing, circulation; IV line; oxygen; cardiac and pulse oximetry monitor; ECG
+- Dapsone: activated charcoal; repeat methylene blue; consider IV cimetidine
+- Decontaminate as needed
+- Sulfhemoglobinemia: supplemental oxygen only
+
+@Co
+- ICU / monitored admission; toxicology / poison center; hematology if G6PD or NADPH reductase deficiency

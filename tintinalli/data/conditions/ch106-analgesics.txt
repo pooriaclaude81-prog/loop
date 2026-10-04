@@ -1,0 +1,301 @@
+@cond salicylate-toxicity
+ch: 106
+name: Aspirin and salicylate toxicity
+name_fa: مسمومیت با آسپرین و سالیسیلات
+cc: poisoning, altered-mental-status, dyspnea
+keywords: salicylate, aspirin, ASA, salicylism, oil of wintergreen, tinnitus, respiratory alkalosis, anion gap, sodium bicarbonate, urine alkalinization, hemodialysis, سالیسیلات, آسپرین
+status: draft
+
+@features
+- مسمومیت مزمن («درمانی» با دوزهای مکرر) جدی‌تر از حاد و با مرگ‌ومیر بیشتر؛ بیشتر سالمندان با بیماری‌های متعدد؛ در سطح پایین‌تر رخ می‌دهد، مدت علائم طولانی و تشخیص دیررس چون شبیه عفونت است
+- سالیسیلیسم مزمن را در هر بیمار با اختلال عصبی/رفتاری غیرکانونی بی‌توضیح، به‌ویژه با اختلال اسید-باز، تاکی‌پنه، تنگی نفس، تب یا ادم ریوی غیرقلبی در نظر بگیر
+- کودکان: مسمومیت حاد طی چند ساعت؛ زیر 4 سال اسیدوز متابولیک زودرس (pH < 7.38)، بالای 4 سال اختلال مختلط مثل بزرگسال
+- جدول 106-1 (بزرگسال): خفیف (< 150 mg/kg): وزوز گوش، کم‌شنوایی، سرگیجه، تهوع و استفراغ؛ متوسط (150 تا 300): تاکی‌پنه، هایپرپیرکسی، تعریق، آتاکسی، اضطراب؛ شدید (> 300): تغییر هوشیاری، تشنج، acute lung injury، نارسایی کلیه، دیسریتمی، شوک
+- تشخیص بالینی در کنار وضعیت اسید-باز: آلکالوز تنفسی همراه با اسیدوز متابولیک anion gap و هیپوکالمی؛ سطح خونی ASA همبستگی ضعیف با سمیت دارد و اتکای صرف به سطح شایع‌ترین اشتباه است
+- آزمایش: گلوکز بالین در همه تغییر هوشیاری؛ الکترولیت، BUN، Cr، CBC، PT، سطح ASA، سطح APAP (رد مصرف همزمان) و blood gas؛ هیپو یا هیپرگلیسمی در مسمومیت شدید یا مزمن
+
+@ddx
+- !Diabetic ketoacidosis |
+- !Sepsis / meningitis |
+- !Acute iron poisoning |
+- Caffeine overdose |
+- Theophylline toxicity |
+- Reye's syndrome |
+
+@redflags
+- تغییر هوشیاری، تشنج، ادم ریوی، اسیدوز، نارسایی کلیه، سطح بالا، مصرف enteric-coated
+
+@guide
+مانیتور قلبی و ABC و IV زودهنگام. راه هوایی بسیار مهم: افت ناگهانی pH بر اثر نارسایی تنفسی سمیت را فوراً تشدید می‌کند؛ در اینتوباسیون تهویه تهاجمی با راهنمایی اسید-باز (اسیدوز تنفسی اغلب کمی پس از تنظیم «نرمال» ونتیلاتور رخ می‌دهد). زغال فعال 1 g/kg؛ WBI برای مصرف زیاد، enteric-coated یا SR. NS برای کمبود حجم؛ در بازبینی هر ساعت: pH ادرار، سطح ASA، الکترولیت (پتاسیم)، گلوکز و اسید-باز. پس از NS دکستروز به مایعات اضافه کن (D10 در هیپوگلیسمی یا علائم عصبی). پتاسیم 40 mEq/L پس از برقراری دیورز 1 تا 2 mL/kg/h. قلیایی‌سازی سرم و ادرار: بولوس sodium bicarbonate 1 تا 2 mEq/kg سپس انفوزیون (3 آمپول 44 یا 50 mEq در 1 L D5W) با 2 تا 3 برابر نرخ نگهدارنده و هدف pH ادرار > 7.5؛ بیکربنات هیپوکالمی را بدتر و دیسریتمی ایجاد می‌کند: پتاسیم را تهاجمی جایگزین کن. همودیالیز: سطح > 100 mg/dL (مزمن 60 تا 80)، بدتر شدن بالینی علی‌رغم درمان، نارسایی کلیه، اختلال شدید اسید-باز، تغییر هوشیاری یا ARDS. سطح سریال هر 2 ساعت تا شروع کاهش، سپس هر 4 تا 6 ساعت. enteric-coated/SR: اوج تا 60 ساعت؛ بستری حداقل 24 ساعت. ترخیص: بهبود پیشرونده، بدون اختلال اسید-باز مهم و کاهش سطح؛ در مصرف عمدی مشاوره روانپزشکی.
+
+@variant salicylate-mild
+name: Mild salicylate toxicity (acute, alert, stable)
+level: III
+imp: Salicylate (ASA) ingestion, mild toxicity
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: once
+cxr: none
+
+@scenario
+دختری ۲۰ ساله ۲ ساعت پس از مصرف حدود 100 mg/kg آسپرین با وزوز گوش و تهوع؛ هوشیار، تاکی‌پنه ندارد.
+
+@why
+غربالگری سطح و اسید-باز، دکونتامیناسیون و مایع، سطح سریال.
+
+@I
+- CXR, PA or portable, if respiratory symptoms (noncardiogenic pulmonary edema)
+
+@L
+- Glucose; electrolytes (potassium), BUN, creatinine, CBC, PT; ASA level and APAP level (exclude coingestion); blood gas; urine pH
+
+@S
+- Normal saline IV if evidence of volume depletion {ci: caution in AKI, anuria, heart failure / pulmonary edema}; add dextrose after initial NS
+- Potassium 40 mEq/L added to fluids after adequate urine output (1–2 mL/kg/h) {ci: renal failure / hyperkalemia}
+
+@T
+- Activated charcoal 1 g/kg PO, NG, or OG
+- Serial ASA levels every 2 h until falling, then every 4–6 h until nontoxic
+- Monitor urine pH, ASA level, electrolytes (potassium), glucose, acid–base hourly during resuscitation
+
+@Co
+- Discharge if progressive clinical improvement, no significant acid–base abnormality, and declining serial levels; psychiatric consultation before discharge in deliberate overdose
+
+@variant salicylate-severe
+name: Moderate–severe or chronic salicylate toxicity (acidosis, AMS, tachypnea)
+level: I
+imp: Salicylate (ASA) toxicity, moderate to severe, with acid–base disturbance
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+o2: if SpO2 < 94% (avoid hypoventilation; intubation only if unavoidable)
+
+@scenario
+مردی ۷۵ ساله مصرف‌کننده مزمن آسپرین با گیجی، تاکی‌پنه، تب و pH 7.28؛ سطح ASA 70 mg/dL.
+
+@why
+قلیایی‌سازی، حفظ تهویه و دیالیز زودهنگام؛ سطح مزمن کمتر هم خطرناک است.
+
+@I
+- CXR portable (acute lung injury / noncardiogenic pulmonary edema)
+- CT head if focal neurologic findings or unexplained altered mental status
+
+@L
+- Glucose (bedside, all altered mental status); electrolytes, BUN, creatinine, CBC, PT; ASA level and APAP level; blood gas; urine pH
+
+@S
+- Normal saline IV for volume depletion {ci: caution in AKI, anuria, heart failure / pulmonary edema}; add dextrose after initial NS (10% dextrose if hypoglycemia or neurologic symptoms)
+- Sodium bicarbonate 1–2 mEq/kg IV bolus, then infusion (three 44 or 50 mEq ampules in 1 L D5W) at 2–3 times maintenance rate; target urine pH > 7.5 {note: bicarbonate may worsen hypokalemia and precipitate dysrhythmias}
+- Potassium 40 mEq/L added to fluids after adequate urine output; replete potassium aggressively {ci: renal failure / hyperkalemia}
+
+@T
+- Activated charcoal 1 g/kg PO, NG, or OG; whole-bowel irrigation for large, enteric-coated or sustained-release ingestion
+- Careful airway management; if intubated, aggressive ventilation guided by acid–base status (avoid respiratory acidosis)
+- Serial ASA levels every 2 h until falling, then every 4–6 h until nontoxic
+- Hourly urine pH, ASA level, electrolytes (potassium), glucose, acid–base status
+
+@Co
+- Nephrology: hemodialysis if ASA > 100 mg/dL (chronic: 60–80 mg/dL), clinical deterioration despite alkalinization, renal insufficiency or failure, severe acid–base disturbance, altered mental status, or ARDS
+- Toxicology / poison center; ICU admission
+
+@variant salicylate-enteric-coated
+name: Enteric-coated or sustained-release salicylate ingestion
+level: II
+imp: Salicylate (ASA) ingestion, enteric-coated / sustained-release
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: once
+cxr: none
+
+@scenario
+زنی ۳۵ ساله پس از مصرف تعداد زیادی قرص آسپرین enteric-coated؛ فعلاً علامت ندارد.
+
+@why
+اوج سطح تا 60 ساعت به تأخیر می‌افتد؛ سطح سریال و بستری ≥ 24 ساعت.
+
+@L
+- Glucose; electrolytes, BUN, creatinine, CBC, PT; ASA level and APAP level; blood gas; urine pH
+
+@S
+- Normal saline IV {ci: caution in AKI, anuria, heart failure / pulmonary edema}; add dextrose after initial NS
+
+@T
+- Activated charcoal 1 g/kg PO, NG, or OG
+- Whole-bowel irrigation (large overdose, enteric-coated or sustained-release preparation)
+- Serial ASA levels every 2 h until falling, then every 4–6 h until nontoxic
+
+@Co
+- Admit for at least 24 hours to ensure declining serial ASA levels and improving clinical status
+- Psychiatric consultation in deliberate overdose
+
+@cond acetaminophen-toxicity
+ch: 106
+name: Acetaminophen (APAP) toxicity
+name_fa: مسمومیت با استامینوفن
+cc: poisoning, abdominal-pain, altered-mental-status
+keywords: acetaminophen, paracetamol, APAP, N-acetylcysteine, NAC, Rumack-Matthew nomogram, hepatotoxicity, fulminant hepatic failure, استامینوفن, استیل سیستئین
+status: draft
+
+@features
+- مراحل بالینی (جدول 106-2): مرحله 1 (24 ساعت اول): بی‌اشتهایی، تهوع، استفراغ، بی‌حالی؛ مرحله 2 (روز 2 تا 3): بهبود علائم گوارشی، درد شکم و حساسیت کبد، افزایش ترانس‌آمینازها؛ مرحله 3 (روز 3 تا 4): عود تهوع/استفراغ، انسفالوپاتی، آنوری، یرقان، نارسایی کبد، کوآگولوپاتی، اسیدوز متابولیک، نارسایی کلیه، پانکراتیت؛ مرحله 4 (بعد از روز 5): بهبود (7 تا 8 روز) یا بدتر شدن تا نارسایی چندعضوی و مرگ
+- مصرف حجیم (سطح 4 ساعته > 800 µg/mL): کما یا آژیتاسیون و اسیدوز لاکتیک زودرس
+- مواجهه سمی محتمل: > 6 سال: > 10 g یا 200 mg/kg در یک نوبت یا طی 24 ساعت، یا > 6 g یا 150 mg/kg/روز برای دو روز متوالی؛ < 6 سال: > 200 mg/kg در یک نوبت یا طی 8 ساعت، یا 150 mg/kg/روز دو روز متوالی
+- تأیید با سطح سرمی APAP و زمان دقیق مصرف؛ رسم سطح روی نوموگرام Rumack–Matthew (فقط مصرف حاد واحد، پنجره 4 تا 24 ساعت)
+- آزمایش: الکترولیت، گلوکز، BUN، Cr، ترانس‌آمینازها، CBC، PT، ASA، غربالگری ادرار، ECG بر حسب بالین (مصرف همزمان در بیمار خودکشی‌گرا)
+
+@ddx
+- !Salicylate and other coingestions |
+- Viral hepatitis |
+- Gastroenteritis |
+- Other causes of acute liver failure |
+
+@redflags
+- pH < 7.3، PT > 100، Cr > 3.3، تغییر هوشیاری (ارجاع به مرکز پیوند)؛ سطح بالاتر از خط درمان نوموگرام
+
+@guide
+زغال فعال 1 g/kg زودهنگام. NAC پادزهر است (الگوریتم شکل 106-2، دوز جدول 106-3). الگوریتم: < 4 ساعت از مصرف: دکونتامیناسیون را در نظر بگیر و بعد از 4 ساعت سطح بفرست؛ 4 تا 24 ساعت: سطح موجود طی < 8 ساعت: روی نوموگرام رسم کن (سمی: NAC؛ غیرسمی: درمان علامتی)؛ سطح تا بعد از 8 ساعت در دسترس نیست: اولین دوز NAC را درون 8 ساعت بده؛ نامعلوم یا > 24 ساعت: سطح APAP، AST/ALT و PT بفرست و اولین دوز NAC بده؛ اگر APAP > 10 µg/mL یا افزایش AST/ALT: NAC ادامه؛ وگرنه حمایتی. IV بزرگسال: 150 mg/kg در 200 mL D5W طی 15 تا 60 دقیقه، سپس 50 mg/kg در 500 mL طی 4 ساعت، سپس 100 mg/kg در 1000 mL طی 16 ساعت (20 ساعت). خوراکی: 140 mg/kg بار سپس 70 mg/kg هر 4 ساعت × 17 دوز (72 ساعت). کودک < 40 kg IV: 150 mg/kg (7.5 mL/kg) طی 15 تا 60 دقیقه، 50 mg/kg (2.5 mL/kg) طی 4 ساعت، 100 mg/kg (5 mL/kg) طی 16 ساعت؛ 500 mL محلول 2% برای کودک 33 kg کل دوره را کافی است. NAC را تا غیرقابل‌اندازه‌گیری شدن APAP ادامه بده. نارسایی کبد فولمینانت: اصلاح کوآگولوپاتی و اسیدوز، ادم مغز، حمایت چندعضوی؛ انتقال زودهنگام به مرکز پیوند. همه بیماران تحت NAC بستری. سطح غیرسمی و بدون مصرف همزمان: ترخیص.
+
+@variant apap-toxic
+name: Acetaminophen toxicity (level above treatment line) or unknown time / late
+level: I
+imp: Acetaminophen (APAP) overdose, toxic level, risk of hepatotoxicity
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: once
+cxr: none
+
+@scenario
+زنی ۲۲ ساله 6 ساعت پس از مصرف عمدی ۲۰ قرص 500 mg استامینوفن با تهوع؛ سطح 4 ساعته روی خط درمان.
+
+@why
+شروع NAC بر اساس نوموگرام یا (زمان نامعلوم/> 24 ساعت) سطح قابل‌اندازه یا افزایش آنزیم.
+
+@L
+- Electrolytes, glucose, BUN, creatinine, transaminases (AST, ALT), CBC, PT/INR; APAP level (at least 4 h postingestion) and ASA level; urine toxicology screen
+
+@S
+- N-acetylcysteine (NAC) IV: 150 mg/kg in 200 mL D5W over 15–60 min, then 50 mg/kg in 500 mL D5W over 4 h, then 100 mg/kg in 1000 mL D5W over 16 h (20 h total) {hi} {note: monitor for anaphylactoid reactions; pediatric < 40 kg: 150 mg/kg (7.5 mL/kg) over 15–60 min, 50 mg/kg (2.5 mL/kg) over 4 h, 100 mg/kg (5 mL/kg) over 16 h}
+- Oral NAC alternative: 140 mg/kg load then 70 mg/kg every 4 h for 17 doses (72 h), diluted to 5% solution
+
+@T
+- Activated charcoal 1 g/kg PO, NG, or OG (early, if possible)
+- Continue NAC until APAP undetectable if still detectable after completing regimen
+- Fulminant hepatic failure: correct coagulopathy and acidosis, manage cerebral edema, support multi-organ failure
+
+@Co
+- Admit all patients receiving NAC
+- Early transfer to liver transplant center if pH < 7.3, PT > 100, Cr > 3.3, or altered mental status
+- Psychiatric consultation (deliberate overdose)
+
+@variant apap-nontoxic
+name: Acetaminophen ingestion, level below treatment line (4–24 h)
+level: III
+imp: Acetaminophen (APAP) ingestion, nontoxic level
+cond: Urgent
+act: CBR
+diet: PO
+ecg: once
+cxr: none
+
+@scenario
+مردی ۳۰ ساله 5 ساعت پس از مصرف حدود 8 g استامینوفن؛ سطح پایین‌تر از خط نوموگرام، بدون علامت.
+
+@why
+با سطح غیرسمی و بدون مصرف همزمان، ترخیص امن است.
+
+@L
+- Electrolytes, glucose, BUN, creatinine, transaminases, CBC, PT; APAP level (plot on Rumack–Matthew nomogram) and ASA level; urine toxicology screen if coingestion possible
+
+@T
+- Symptomatic treatment
+
+@Co
+- Medically clear from ED if no evidence of other drug ingestion; psychiatric evaluation in deliberate ingestion
+
+@cond nsaid-overdose
+ch: 106
+name: NSAID overdose
+name_fa: مصرف بیش از حد NSAID
+cc: poisoning, abdominal-pain, altered-mental-status
+keywords: NSAID overdose, ibuprofen, mefenamic acid, nonsteroidal anti-inflammatory, آنتی‌التهابی غیراستروئیدی, ایبوپروفن
+status: draft
+
+@features
+- مسمومیت NSAID بیشتر با مصرف درمانی مزمن تا اوردوز حاد؛ علائم غیراختصاصی؛ علائم اولیه ≤ 4 ساعت: درد شکم، تهوع، استفراغ
+- جدول 106-4: CNS: سردرد، نیستاگموس، دوبینی، تغییر هوشیاری، کما، پرش عضلانی و تشنج (mefenamic acid)؛ قلب: هیپوتانسیون، شوک، برادیدیسریتمی؛ الکترولیت: هیپرکالمی، هیپوکلسمی، هیپومنیزمی؛ GI/کبد: درد شکم، آسیب کبد، پانکراتیت (نادر)؛ کلیه: AKI
+- سطح NSAID در دسترس و مفید نیست؛ آزمایش: الکترولیت، گلوکز، عملکرد کلیه و کبد، سطح APAP؛ مصرف همزمان را بررسی کن؛ گلوکز بالین در تغییر هوشیاری یا تشنج
+
+@ddx
+- !Coingestion (APAP, salicylate) |
+- Gastritis / GI bleeding |
+- Acute kidney injury of other cause |
+
+@redflags
+- تغییر هوشیاری، تشنج، علائم حیاتی غیرطبیعی، نارسایی کلیه، اسیدوز، سمیت کبدی
+
+@guide
+عمدتاً حمایتی. علامت‌دار (تغییر هوشیاری، تشنج، علائم حیاتی غیرطبیعی): راه هوایی قطعی در صورت نیاز؛ هیپوتانسیون: بولوس مایع و در صورت مقاومت وازوپرسور؛ تشنج: بنزودیازپین IV. بدون علامت: شرح حال (نوع و مقدار)، زغال فعال 1 g/kg، الکترولیت، ECG، سطح APAP و ASA، مشاهده 4 ساعت. هنوز علامت‌دار (تغییر هوشیاری، تشنج، علائم حیاتی غیرطبیعی، نارسایی کلیه، اسیدوز، سمیت کبدی): بستری و درمان علامتی؛ بدون علامت: ترخیص با مشاوره روانپزشکی.
+
+@variant nsaid-asymptomatic
+name: NSAID overdose, asymptomatic or mild GI symptoms
+level: III
+imp: NSAID overdose
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: once
+cxr: none
+
+@scenario
+مردی ۲۵ ساله 1 ساعت پس از مصرف عمدی ایبوپروفن؛ درد خفیف شکم، علائم حیاتی طبیعی.
+
+@why
+دکونتامیناسیون، غربالگری مصرف همزمان و مشاهده ۴ ساعته.
+
+@L
+- Electrolytes, glucose, renal and hepatic function tests; APAP and salicylate levels
+
+@T
+- Activated charcoal 1 g/kg PO or via nasogastric tube
+- Observe for 4 hours
+
+@Co
+- Medically cleared for discharge if asymptomatic after 4 h; psychiatric consultation
+- Admit for symptomatic management if altered mental status, seizure, abnormal vital signs, renal failure, acidosis, or hepatic toxicity
+
+@variant nsaid-symptomatic
+name: Symptomatic NSAID overdose (hypotension, seizure, AMS)
+level: II
+imp: NSAID overdose, symptomatic
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: none
+
+@scenario
+زنی ۴۰ ساله پس از مصرف حجیم NSAID با خواب‌آلودگی، تشنج و فشار 80/50.
+
+@why
+حمایتی: راه هوایی، مایع، وازوپرسور و بنزودیازپین.
+
+@L
+- Electrolytes (hyperkalemia, hypocalcemia, hypomagnesemia), glucose (bedside if altered mental status or seizure), BUN, creatinine, hepatic function tests; APAP and salicylate levels
+
+@S
+- IV fluid bolus for hypotension {ci: caution in AKI, anuria, heart failure / pulmonary edema}
+
+@T
+- Definitive airway management if required
+- Vasopressor if hypotension refractory to fluids
+- IV benzodiazepines for seizures
+- Activated charcoal 1 g/kg PO or via nasogastric tube
+
+@Co
+- Admit for symptomatic management
+- Psychiatric consultation

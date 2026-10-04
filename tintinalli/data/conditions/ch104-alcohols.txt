@@ -1,0 +1,175 @@
+@cond ethanol-intoxication
+ch: 104
+name: Ethanol intoxication
+name_fa: مسمومیت با اتانول
+cc: poisoning, altered-mental-status
+keywords: ethanol intoxication, alcohol intoxication, drunk, thiamine, Wernicke, ethanol level, مستی, اتانول
+status: draft
+
+@features
+- شایع‌ترین دارو سوءمصرف جهان؛ مرگ حاد از افسردگی تنفسی ولی بیشتر عوارض و مرگ از تروما به‌علت اختلال شناختی
+- سطح اتانول با درجه مستی همبسته نیست (تحمل)؛ غیرمیخوار 20 mg/dL/h و معتاد مزمن 30 mg/dL/h
+- رفتار disinhibited، تکلم نامفهوم، ناهماهنگی، سپس افسردگی تنفسی و CNS
+- ترومای سر و هیپوگلیسمی می‌توانند مشابه باشند و همزمان؛ گلوکز در همه تغییر هوشیاری؛ بدون توضیح روشن: سطح اتانول؛ آزمایش‌ها: الکترولیت (anion gap)، آنزیم کبد؛ تصویربرداری بر اساس علائم تروما
+
+@ddx
+- !Head injury |
+- !Hypoglycemia |
+- Toxic alcohol ingestion (methanol, ethylene glycol) |
+- Sedative or opioid co-ingestion |
+- Wernicke encephalopathy |
+
+@redflags
+- ترومای سر، تغییر هوشیاری ناهمخوان با سطح اتانول، هیپوگلیسمی، افسردگی تنفسی
+
+@guide
+ستون درمان مشاهده؛ معاینه دقیق برای آسیب/بیماری همراه. هیپوگلیسمی: دکستروز IV؛ thiamine 100 mg IV یا IM همزمان اگر Wernicke مشکوک. علل ثانویه بدتر شدن یا عدم بهبود را در نظر بگیر. ترخیص وقتی به‌اندازه کافی هشیار شد که خطری برای خود و دیگران نباشد.
+
+@variant ethanol-intoxication-main
+name: Acute ethanol intoxication
+level: III
+imp: Acute ethanol intoxication
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: once
+cxr: none
+
+@scenario
+مردی ۴۵ ساله مست با تکلم نامفهوم و آتاکسی؛ بدون ترومای واضح.
+
+@why
+مشاهده، رد ترومای سر و هیپوگلیسمی؛ thiamine.
+
+@I
+- Imaging as indicated by external signs of trauma in the inebriated patient
+
+@L
+- Glucose in all patients with altered mental status; serum ethanol level (hard to interpret); electrolytes (anion gap acidosis), liver enzymes
+
+@S
+- Dextrose IV for hypoglycemia
+
+@T
+- Thiamine 100 mg IV or IM if Wernicke encephalopathy suspected
+- Observation; careful physical examination for complicating injury or illness
+
+@Co
+- Discharge once sober enough to pose no threat to self or others
+
+@cond isopropanol-ingestion
+ch: 104
+name: Isopropanol ingestion
+name_fa: مسمومیت با ایزوپروپانول
+cc: poisoning, altered-mental-status, gi-bleeding
+keywords: isopropanol, rubbing alcohol, acetone, hemorrhagic gastritis, osmol gap, ketosis without acidosis, ایزوپروپانول
+status: draft
+
+@features
+- الکل مالشی، حلال‌ها، محصولات پوست/مو، رقیق‌کننده رنگ و ضدیخ؛ متابولیت اصلی استون
+- مشابه اتانول ولی مستی بیشتر؛ شدید: کما، افسردگی تنفسی و هیپوتانسیون؛ گاستریت هموراژیک شایع: تهوع، استفراغ، درد شکم و خونریزی GI فوقانی
+- گلوکز؛ آزمایش: osmolal gap بالا، کتونمی و کتونوری بدون اسیدوز؛ خونریزی GI: انعقاد، CBC و type and screen؛ سطح isopropanol و acetone تأییدی ولی لازم نیست
+
+@ddx
+- !Methanol / ethylene glycol ingestion |
+- !Upper GI bleeding |
+- Ethanol intoxication |
+- Diabetic ketoacidosis |
+
+@redflags
+- کما، هیپوتانسیون پایدار، خونریزی GI
+
+@guide
+هیپوتانسیون: کریستالوئید تهاجمی؛ پایدار: وازوپرسور؛ خونریزی قابل‌توجه گاستریت هموراژیک: PRBC و پلاسما. fomepizole یا اتانول (metabolic blockade) نده (استون سمی‌تر از اصل نیست). همودیالیز isopropanol و acetone را برمی‌دارد: هیپوتانسیون مقاوم. CNS depression طولانی: بستری؛ بدون علامت بعد از 6 تا 8 ساعت: ترخیص یا ارجاع روانپزشکی. زغال الکل را جذب نمی‌کند: فقط در coingestion.
+
+@variant isopropanol-main
+name: Isopropanol intoxication
+level: II
+imp: Isopropanol intoxication
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: once
+cxr: none
+
+@scenario
+مردی ۵۰ ساله پس از نوشیدن الکل مالشی با خواب‌آلودگی، استفراغ خونی و فشار 85/55.
+
+@why
+حمایتی: مایع، وازوپرسور و خون؛ بدون fomepizole.
+
+@L
+- Glucose; osmolal gap, ketones (ketonemia and ketonuria without acidosis); coagulation studies, CBC and type and screen if upper GI bleeding; serum isopropanol and acetone levels (confirm, not required)
+
+@S
+- Aggressive infusion of IV crystalloids {ci: caution in heart failure / pulmonary edema}; packed red blood cells and plasma for significant bleeding
+
+@T
+- Vasopressors for persistent hypotension
+- Hemodialysis (removes isopropanol and acetone) for refractory hypotension {ci: no fomepizole or ethanol metabolic blockade; charcoal does not bind alcohols}
+
+@Co
+- Admit prolonged CNS depression; asymptomatic after 6 to 8 hours: discharge or psychiatric evaluation
+
+@cond toxic-alcohol-methanol-ethylene-glycol
+ch: 104
+name: Methanol and ethylene glycol poisoning
+name_fa: مسمومیت با متانول و اتیلن‌گلیکول
+cc: poisoning, altered-mental-status, eye
+keywords: methanol poisoning, ethylene glycol poisoning, antifreeze, fomepizole, osmolar gap, anion gap metabolic acidosis, hemodialysis, folinic acid, calcium oxalate, متانول, اتیلن گلیکول
+status: draft
+
+@features
+- متانول: مایع شیشه‌شوی، سوخت جامد، حلال؛ اتیلن‌گلیکول: ضدیخ؛ سمیت از متابولیت‌ها و اسیدوز متابولیک anion gap شدید: متانول → فرمیک اسید؛ اتیلن‌گلیکول → گلیکولیک، گلی‌اکسیلیک و اگزالیک اسید و کریستال اگزالات کلسیم
+- متانول: اسیدوز متابولیک، افسردگی CNS و علائم بینایی (کلاسیک «کولاک برف»)؛ شروع ممکن است با اتانول همزمان به تأخیر بیفتد؛ فوندوسکوپی: ادم شبکیه یا هیپرمی دیسک
+- اتیلن‌گلیکول: سه فاز: ≤ 12 ساعت: CNS (به‌ظاهر مست بدون بوی اتانول)؛ 12 تا 24 ساعت: قلبی-ریوی (تاکی‌کاردی، تاکی‌پنه و فشار بالا؛ CHF، ARDS و کولاپس)؛ 24 تا 72 ساعت: کلیوی (درد فلانک، CVAT، ATN و نارسایی حاد کلیه)؛ هیپوکلسمی با تتانی و تغییر ECG
+- تشخیص: بالینی و osmol gap بالا و/یا اسیدوز anion gap (ساعت‌ها بعد)؛ osmolal gap زودهنگام مفید؛ سطح متانول/EG تأییدی؛ آزمایش: گلوکز، الکترولیت، عملکرد کلیه، ABG، UA، سطح متانول/EG؛ EG: بدون اختلال بینایی/فوندوس و کریستال اگزالات در ادرار
+- افتراق اسیدوز anion gap: سالیسیلات، INH، DKA، کتواسیدوز الکلی، اورمی، لاکتیک
+
+@ddx
+- !Salicylate / isoniazid toxicity |
+- !Diabetic / alcoholic ketoacidosis |
+- Lactic acidosis / uremia |
+- Isopropanol / ethanol intoxication |
+
+@redflags
+- اسیدوز متابولیک، اختلال بینایی، تغییر هوشیاری، نارسایی کلیه، osmol gap > 10
+
+@guide
+metabolic blockade و حذف متابولیت‌های سمی. اندیکاسیون (جدول 104-1): متانول > 20 mg/dL یا EG > 20 mg/dL؛ اگر سطح در دسترس نیست: مصرف قابل‌توجه مشکوک با اتانول < 100 mg/dL، یا کما/تغییر هوشیاری با osmolar gap > 10 یا اسیدوز غیرقابل‌توضیح و اتانول < 100؛ اگر اتانول > 100 محافظت می‌کند ولی اگر پیش از جواب سطح به < 100 بیفتد شروع کن. 1) fomepizole 15 mg/kg IV بار سپس 10 mg/kg هر 12 ساعت 4 دوز دیگر؛ دوزهای بعدی 15 mg/kg. اگر fomepizole نیست: اتانول 800 mg/kg IV بار سپس انفوزیون 100 mg/kg/h (نوشنده متوسط) یا 150 mg/kg/h (سنگین) با هدف اتانول خون 100 تا 150 mg/dL؛ خوراکی: مشروب 80 proof بار 3 تا 4 oz و نگهدارنده 1 تا 2 oz/h برای 70 kg. 2) قند خون در درمان اتانول (هیپوگلیسمی خصوصاً کودک): 1 mL/kg D50W بزرگسال و 5 mL/kg D10W کودک. 3) دیالیز: اسیدوز متابولیک یا نارسایی ارگان (کوری، نارسایی کلیه)؛ فاصله fomepizole به هر 4 ساعت و اتانول دو برابر در دیالیز. 4) ادامه تا سطح < 20 mg/dL و رفع اسیدوز. 5) متانول: folinic acid (leucovorin) 50 mg IV؛ EG: pyridoxine 100 mg IV و thiamine 100 mg IV. 6) sodium bicarbonate 1 تا 2 mEq/kg با هدف pH طبیعی. 7) هیپوکلسمی علامت‌دار EG: calcium gluconate یا chloride. 8) مشاوره سم‌شناس/مرکز سموم (800 222-1222). 9) بدون علامت بعد از 6 ساعت و بدون اتانول، osmolar gap یا اسیدوز: ترخیص؛ coingestion با اتانول: بعد از متابولیزه شدن 6 ساعت بدون اسیدوز؛ علامت‌دار: ICU.
+
+@variant toxic-alcohol-main
+name: Methanol or ethylene glycol poisoning
+level: I
+imp: Methanol / ethylene glycol poisoning
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+o2: O2 therapy: if SpO2 < 94%, F.M 6–10 L/min or N.C 3–5 L/min
+
+@scenario
+مردی ۴۰ ساله پس از نوشیدن مایع شیشه‌شوی با اختلال بینایی (کولاک برف)، سردرد، تنفس عمیق و pH 7.05، osmol gap 40.
+
+@why
+اسیدوز anion gap شدید؛ fomepizole زودهنگام؛ دیالیز در اسیدوز یا کوری.
+
+@I
+- Funduscopic examination (retinal edema or hyperemia of the optic disk in methanol)
+
+@L
+- Bedside glucose, electrolytes (anion gap), renal function, arterial blood gas, urinalysis (calcium oxalate crystals in EG), serum osmolality (osmolal gap), methanol or ethylene glycol level, ethanol level, calcium
+
+@S
+- Hypoglycemia with ethanol therapy: 1 mL/kg 50% dextrose in water (adults), 5 mL/kg 10% dextrose in water (children)
+
+@T
+- Fomepizole 15 mg/kg IV load followed by 10 mg/kg every 12 hours for four additional doses (subsequent doses 15 mg/kg); if unavailable: Ethanol 800 mg/kg IV load then continuous infusion 100 mg/kg/h (average drinker) or 150 mg/kg/h (heavy drinker) to maintain blood ethanol 100 to 150 mg/dL (oral 80-proof liquor: 3 to 4 oz load, 1 to 2 oz/h maintenance for 70 kg)
+- Sodium bicarbonate 1 to 2 mEq/kg IV titrated to maintain normal pH
+- Methanol: Folinic acid (leucovorin) 50 mg IV; ethylene glycol: Pyridoxine 100 mg IV and Thiamine 100 mg IV
+- Symptomatic hypocalcemia (ethylene glycol): Calcium gluconate or Calcium chloride
+- Hemodialysis for metabolic acidosis or end-organ impairment (blindness, renal failure); fomepizole dosing interval every 4 hours and ethanol infusion doubled during dialysis; continue until level < 20 mg/dL and acidosis resolved
+
+@Co
+- Medical toxicologist / poison control (800 222-1222); ICU; nephrology for dialysis

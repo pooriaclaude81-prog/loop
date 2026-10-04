@@ -1,0 +1,267 @@
+@cond iron-poisoning
+ch: 110
+name: Iron poisoning
+name_fa: مسمومیت با آهن
+cc: poisoning, abdominal-pain, nausea-vomiting
+keywords: iron overdose, ferrous sulfate, elemental iron, deferoxamine, whole bowel irrigation, vin rose urine, iron ingestion, آهن, دفروکسامین
+status: draft
+
+@features
+- پنج مرحله: 1) چند ساعت اول: تحریک مستقیم GI: درد شکم، استفراغ، اسهال (استفراغ ثابت‌ترین علامت)؛ نبود علائم GI تا 6 ساعت عملاً سمیت مهم را رد می‌کند؛ 2) تا 24 ساعت: رفع علائم GI و «احساس امنیت کاذب»، بیمار بدحال با علائم حیاتی غیرطبیعی (هیپوولمی و اسیدوز)؛ 3) شوک و اسیدوز متابولیک؛ کوآگولوپاتی، خونریزی، اختلال کبد، کاردیومیوپاتی، نارسایی کلیه؛ 4) روز 2 تا 5: افزایش آمینوترانسفراز و نارسایی کبد؛ 5) هفته 4 تا 6: انسداد خروجی معده (اثر سوزاننده روی پیلور)
+- باید مقدار «آهن عنصری» کل محاسبه شود (جدول 110-1): < 20 mg/kg: بدون سمیت یا علائم GI خفیف؛ 20 تا 60: علائم GI مهم و احتمال سمیت سیستمیک؛ > 60: سمیت سیستمیک متوسط تا شدید؛ سطح سرمی آهن (4 تا 6 ساعت): < 300 µg/dL، 300 تا 500، > 500 (سمیت متوسط تا شدید)، > 1000 (سمیت شدید و مورتالیتی بیشتر)
+- آزمایش: الکترولیت، کلیه، گلوکز، انعقادی، CBC، آنزیم کبد، سطح آهن؛ یک سطح آهن مسیر یا درجه سمیت بافتی را نشان نمی‌دهد و سطح پایین منفرد رد نمی‌کند؛ TIBC کاذباً بالا و بی‌ارزش
+- رادیوگرافی ساده ممکن است آهن در GI را نشان دهد ولی بسیاری از فرآورده‌ها رادیواپک نیستند: طبیعی بودن رد نمی‌کند
+
+@ddx
+- !Other toxic ingestion (APAP, salicylate) |
+- Gastroenteritis |
+- Other causes of anion-gap acidosis and shock |
+
+@redflags
+- استفراغ مکرر، اسیدوز متابولیک، شوک، کوآگولوپاتی، آهن > 500 µg/dL، بهبود ظاهری گذرا (مرحله 2)
+
+@guide
+بدون علامت 6 ساعت پس از مصرف، بدون مقدار بالقوه سمی و معاینه طبیعی: نیازی به درمان نیست. علائم گذرا با علائم حیاتی طبیعی: حمایتی و مشاهده. الگوریتم شکل 110-1. علامت‌دار یا ناپایدار: اکسیژن، مانیتور، دو IV بزرگ؛ کریستالوئید تهاجمی؛ gastric lavage اگر ظرف 60 دقیقه (زغال توصیه نمی‌شود)؛ WBI با PEG: 250 تا 500 mL/h کودک یا 2 L/h بزرگسال از NG؛ ضداستفراغ: ondansetron 4 mg IV (کودک 0.1 mg/kg تا حداکثر 4 mg) یا promethazine 25 mg IV؛ اصلاح انعقاد: vitamin K1 5 تا 10 mg SC و FFP 10 تا 25 mL/kg (کودک 10 mL/kg)؛ type and screen/crossmatch. deferoxamine (برای کودک و باردار ایمن): اندیکاسیون: سمیت سیستمیک، اسیدوز متابولیک، علائم بدتر شونده یا سطح آهن پیش‌بینی‌کننده سمیت متوسط تا شدید؛ IV ترجیحی (جذب IM در هیپوولمی غیرقابل‌پیش‌بینی)؛ دوز اولیه 50 mg/kg کودک تا 1000 mg بزرگسال؛ شروع با 5 mg/kg/h و افزایش تا 15 mg/kg/h طی ساعت اول بر حسب تحمل (محدودکننده: هیپوتانسیون)؛ مجموع 360 mg/kg یا 6 g در 24 ساعت؛ بدون انتظار سطح در بیمار بدحال با مصرف شناخته؛ کارایی با ادرار سریال: رنگ vin rose؛ بهبود بالینی مهم‌ترین عامل قطع. ترخیص: بدون علامت 6 ساعت، معاینه طبیعی، شرح حال معتبر مصرف ناچیز؛ بیمار ابتدا علامت‌دار که بدون علامت شد بستری (مرحله 2). همه تحت deferoxamine: ICU. خطر خودکشی و سوءاستفاده/غفلت کودک.
+
+@variant iron-asymptomatic
+name: Iron ingestion, asymptomatic / low dose (< 20 mg/kg)
+level: III
+imp: Iron ingestion, asymptomatic
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: once
+cxr: none
+
+@scenario
+کودک ۳ ساله پس از خوردن چند قرص مولتی‌ویتامین حاوی آهن، بدون علامت.
+
+@why
+مشاهده 6 ساعته؛ سطح 4 ساعته در دوز نامعلوم.
+
+@I
+- Abdominal radiograph (iron may be visible; normal does not exclude)
+
+@L
+- Serum iron level at 4 h postingestion (single level; not exclusionary); electrolytes, glucose, BUN, creatinine, CBC; acid–base status
+
+@T
+- Observation 6 hours
+- Consider GI decontamination (whole-bowel irrigation) if 20–60 mg/kg or unknown amount {ci: activated charcoal is not recommended}
+
+@Co
+- Discharge if asymptomatic after 6 h with normal examination and reliable history of insignificant ingestion; consider child abuse or neglect in pediatric cases; assess suicide risk
+
+@variant iron-systemic
+name: Iron toxicity with vomiting / shock / acidosis (> 60 mg/kg or level > 500 µg/dL)
+level: I
+imp: Iron poisoning with systemic toxicity
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+o2: supplemental oxygen
+
+@scenario
+زنی ۲۵ ساله ۴ ساعت پس از مصرف عمدی ۴۰ قرص آهن با استفراغ مکرر، تاکی‌کاردی، فشار 85/50 و اسیدوز؛ سطح آهن 620 µg/dL.
+
+@why
+احیای حجم، دفروکسامین و WBI؛ شروع دفروکسامین بدون انتظار سطح در بیمار بدحال.
+
+@I
+- Abdominal radiograph (pill burden)
+- CXR portable
+
+@L
+- Serum iron level (4–6 h postingestion); electrolytes, BUN, creatinine, glucose, coagulation studies, CBC, hepatic enzymes; acid–base status (blood gas); type and screen or crossmatch as necessary; baseline urine {note: TIBC not useful}
+
+@S
+- Vigorous IV crystalloid infusion to correct hypovolemia and hypoperfusion {ci: caution in heart failure / pulmonary edema}
+- Deferoxamine IV: initial 50 mg/kg (children) to adult 1000 mg; start at 5 mg/kg/h, increase to 15 mg/kg/h within the first hour as tolerated (hypotension rate-limiting); total 360 mg/kg or 6 g in first 24 h {hi} {note: do not wait for serum iron in a clinically ill patient; safe in children and pregnancy; IM absorption unpredictable in hypovolemia}
+
+@T
+- Two large-bore IV lines, cardiac monitor, supplemental oxygen
+- Gastric lavage if within 60 min of ingestion (activated charcoal not recommended)
+- Whole-bowel irrigation with PEG via nasogastric tube: 250–500 mL/h in children or 2 L/h in adults
+- Ondansetron 4 mg IV in adults (0.1 mg/kg to max 4 mg in children) or promethazine 25 mg IV in adults
+- Vitamin K1 5–10 mg SC and fresh frozen plasma 10–25 mL/kg in adults (10 mL/kg in children) for coagulopathy
+- Follow serial urine for vin rose color; stop deferoxamine when clinically recovered
+
+@Co
+- ICU admission for all patients receiving deferoxamine; toxicology / poison center
+- Psychiatric evaluation / suicide risk assessment; consider child abuse or neglect in pediatric cases
+
+@cond hydrocarbon-exposure
+ch: 111
+name: Hydrocarbon and volatile substance exposure
+name_fa: مواجهه با هیدروکربن و مواد فرار
+cc: poisoning, dyspnea, altered-mental-status
+keywords: hydrocarbon, kerosene, gasoline, aspiration pneumonitis, sudden sniffing death, toluene, huffing, volatile substance, halogenated, tar burn, هیدروکربن, نفت, بنزین
+status: draft
+
+@features
+- سوخت‌ها، مایع فندک، پاک‌کننده رنگ، آفت‌کش، واکس، چربی‌زدا و روان‌کننده؛ برخی مواد فرار سوءمصرف می‌شوند؛ سمیت خفیف تا شدید و به‌ندرت مرگ ناگهانی؛ بسته به مسیر، خواص فیزیکی/شیمیایی و افزودنی سمی (سرب، آفت‌کش)
+- پنومونیت شیمیایی شایع‌ترین عارضه ریوی: بعد از آسپیراسیون هیدروکربن با ویسکوزیته کم، فرّاریت بالا و کشش سطحی کم؛ علائم سریع: سرفه، gagging، choking، تنگی نفس؛ تاکی‌پنه، ویزینگ، grunting، تب؛ رادیوگرافی ممکن است عقب بماند (4 تا 24 ساعت) ولی بیشتر ظرف 6 ساعت آشکار
+- قلب: دیسریتمی بالقوه کشنده از حساس شدن میوکارد به کاتکولامین («sudden sniffing death»)، بیشتر هالوژنه ولی همه گروه‌ها
+- جدول 111-1: ریه: تاکی‌پنه، grunting، ویزینگ، رتراکشن؛ قلب: دیسریتمی بطنی (هالوژنه و آروماتیک)؛ CNS: تکلم نامفهوم، آتاکسی، لتارژی، کما، گاهی تشنج؛ مزمن: سردرد، آتاکسی مخچه‌ای، نوسان خلق؛ محیطی: بی‌حسی و پارستزی؛ GI/کبد: تهوع، استفراغ (آسپیراسیون)، درد شکم، بی‌اشتهایی، آسیب کبد (carbon tetrachloride، methylene chloride، trichloroethylene، tetrachloroethylene)؛ کلیه/متابولیک: ضعف/فلج از هیپوکالمی در سوءمصرف toluene؛ خون: کم‌خونی، هموليز، methemoglobinemia (آمینی)، COHb (methylene chloride)؛ پوست: اریتم، پاپول، ولو، scarlatiniform، «huffer's rash»، سلولیت، سوختگی تمام‌ضخامت؛ تزریق: نکروز بافت؛ قیر و آسفالت داغ: سوختگی
+- تشخیص: شرح حال، معاینه، مانیتور، آزمایش و CXR؛ گرافی شکم برای مواد رادیواپک (مثل کلرینه)
+
+@ddx
+- !Pneumonia / ARDS of other cause |
+- !Carbon monoxide poisoning (methylene chloride) |
+- Methemoglobinemia |
+- Other inhalant / sedative intoxication |
+
+@redflags
+- دیسپنه، ویزینگ، دیسریتمی بطنی، کما، هیدروکربن هالوژنه یا با افزودنی سمی
+
+@guide
+راه هوایی و تهویه در نارسایی تنفس یا افسردگی عصبی؛ اکسیژن برای علامت‌دار؛ مانیتور و ECG. هیپوتانسیون: کریستالوئید؛ کاتکولامین را اجتناب کن مگر ایست قلبی؛ تاکی‌دیسریتمی: propranolol، esmolol یا lidocaine؛ کلاس IA و III نه. دکونتامیناسیون: HAZMAT، خارج کردن از مواجهه و لباس، شستشوی پوست با آب و صابون، شستشوی چشم با سالین؛ زغال فعال در مصرف خوراکی منفرد اندیکاسیون ندارد و تخلیه معده بی‌فایده. زخم پوستی: مراقبت دقیق ± دبریدمان؛ قیر/آسفالت: خنک‌سازی فوری با آب سرد و پماد با surface-active (Polysorbate 80). آنتی‌بیوتیک پروفیلاکتیک و استروئید اندیکاسیون ندارند. ویزینگ: اکسیژن و β2-agonist استنشاقی؛ PEEP/CPAP؛ COHb: اکسیژن؛ methemoglobinemia: methylene blue؛ اصلاح الکترولیت؛ فرآورده خون در صورت نیاز. بستری: علامت‌دار، هیدروکربن با سمیت تأخیری (هالوژنه) یا افزودنی سمی؛ دیسترس شدید ممکن است اینتوباسیون و PEEP بالا بخواهد. آلیفاتیک غیرهالوژنه بدون علامت با CXR طبیعی: ترخیص پس از 6 تا 8 ساعت مشاهده با بازگشت.
+
+@variant hydrocarbon-asymptomatic
+name: Hydrocarbon exposure, asymptomatic with normal CXR
+level: III
+imp: Hydrocarbon exposure, asymptomatic
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: once
+cxr: PA
+o2: if SpO2 < 94%
+
+@scenario
+کودک ۲ ساله پس از بلع مقدار کم نفت چراغ با سرفه کوتاه؛ اکنون بدون علامت.
+
+@why
+مشاهده 6 تا 8 ساعته با CXR؛ بدون زغال و استروئید.
+
+@I
+- CXR (findings may lag clinical picture by 4–24 h; most apparent within 6 h)
+
+@L
+- CBC, basic metabolic panel, liver function tests if indicated
+
+@T
+- Observe 6–8 hours
+- Remove contaminated clothing; decontaminate skin with soap and water {ci: no activated charcoal; no gastric emptying; no steroids; no prophylactic antibiotics}
+
+@Co
+- Discharge with return precautions after 6–8 h if nonhalogenated aliphatic hydrocarbon, asymptomatic, and normal chest radiograph
+
+@variant hydrocarbon-pneumonitis
+name: Hydrocarbon aspiration with chemical pneumonitis / respiratory symptoms
+level: I
+imp: Hydrocarbon aspiration with chemical pneumonitis
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+o2: titrate to SpO2 ≥ 94%
+
+@scenario
+مردی ۳۵ ساله پس از شفت‌گیری بنزین با دهان با سرفه، تنگی نفس، ویزینگ و SpO2 88%.
+
+@why
+حمایت تنفسی و بستری؛ بدون استروئید.
+
+@I
+- CXR portable (may lag; repeat)
+- Abdominal radiograph if radiopaque (chlorinated) ingestion suspected
+
+@L
+- CBC, basic metabolic panel, liver function tests, PT, PTT; carboxyhemoglobin and methemoglobin levels as indicated (methylene chloride / amine hydrocarbons); blood gas
+
+@S
+- IV crystalloid for initial volume resuscitation of hypotensive patients {ci: caution in heart failure / pulmonary edema}
+
+@T
+- Secure airway and ventilatory support if insufficiency or neurologic depression; PEEP or CPAP as needed for oxygenation
+- Inhaled β2-agonist if wheezing
+- Treat tachydysrhythmias with propranolol, esmolol, or lidocaine {ci: avoid catecholamines except in cardiac arrest; avoid class IA and III agents; no steroids; no prophylactic antibiotics}
+- Remove contaminated clothing; skin soap and water; eyes saline irrigation
+
+@Co
+- Admit; ICU if severe respiratory distress (intubation with high PEEP); poison center / toxicology
+
+@variant hydrocarbon-cardiac-halogenated
+name: Halogenated / aromatic hydrocarbon exposure with ventricular dysrhythmia, CO or methemoglobin
+level: I
+imp: Halogenated hydrocarbon exposure with dysrhythmia
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+o2: high-flow oxygen (carboxyhemoglobinemia)
+
+@scenario
+مردی ۲۸ ساله پس از استنشاق حلال رنگ (methylene chloride) با سنکوپ، تاکی‌کاردی بطنی و سیانوز.
+
+@why
+دیسریتمی با بتابلاکر/لیدوکایین، CO با اکسیژن و methemoglobin با methylene blue؛ بدون کاتکولامین.
+
+@I
+- CXR portable
+
+@L
+- Carboxyhemoglobin and methemoglobin levels; CBC, basic metabolic panel (potassium; toluene hypokalemia), liver function tests, PT, PTT; blood gas
+
+@S
+- IV crystalloid for hypotension {ci: caution in heart failure / pulmonary edema}
+- Methylene blue for methemoglobinemia
+
+@T
+- Oxygen for carboxyhemoglobinemia
+- Propranolol, esmolol, or lidocaine for ventricular dysrhythmias {ci: avoid catecholamines except cardiac arrest; avoid class IA and III agents; no steroids}
+- Correct electrolyte abnormalities; blood products as needed
+
+@Co
+- Admit (delayed toxicity possible with halogenated hydrocarbons); toxicology / poison center
+
+@cond hydrocarbon-dermal-injury
+ch: 111
+name: Hydrocarbon dermal injury and tar/asphalt burns
+name_fa: آسیب پوستی هیدروکربن و سوختگی قیر
+cc: burn-electrical, wound-bite, poisoning
+keywords: hydrocarbon burn, tar burn, asphalt burn, hydrocarbon injection, polysorbate 80, dermatitis, سوختگی قیر
+status: draft
+
+@features
+- تماس پوستی: درماتیت تماسی و تاول با پیشرفت تا سوختگی تمام‌ضخامت؛ تزریق هیدروکربن: نکروز بافت؛ تماس با قیر و آسفالت داغ: سوختگی
+- «huffer's rash» و سلولیت در سوءمصرف
+
+@ddx
+- Thermal burn |
+- Cellulitis |
+
+@redflags
+- تزریق هیدروکربن، تاول گسترده/تمام‌ضخامت
+
+@guide
+مراقبت دقیق زخم با دبریدمان جراحی احتمالی. قیر و آسفالت: خنک‌سازی فوری با آب سرد و پماد دارای surface-active (Polysorbate 80). پروفیلاکسی آنتی‌بیوتیک اندیکاسیون ندارد.
+
+@variant hydrocarbon-dermal-main
+name: Hydrocarbon dermal exposure / tar burn
+level: III
+imp: Hydrocarbon dermal injury
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+کارگر آسفالت با سوختگی دست از قیر داغ.
+
+@why
+خنک‌سازی و پماد surface-active؛ مراقبت زخم.
+
+@T
+- Remove hydrocarbon-soaked clothes; decontaminate skin with soap and water
+- Tar / asphalt: immediate cooling with cold water; apply ointment combined with surface-active agents (e.g., Polysorbate 80)
+- Meticulous wound care with potential surgical debridement {ci: prophylactic antibiotics not generally indicated; no corticosteroids}
+
+@Co
+- Surgery / burn consult if full-thickness injury or hydrocarbon injection

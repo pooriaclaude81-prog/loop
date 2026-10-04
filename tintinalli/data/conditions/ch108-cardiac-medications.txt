@@ -1,0 +1,410 @@
+@cond digoxin-toxicity
+ch: 108
+name: Digitalis glycoside (digoxin) toxicity
+name_fa: مسمومیت با دیگوکسین و گلیکوزیدهای قلبی
+cc: poisoning, palpitations, nausea-vomiting, altered-mental-status
+keywords: digoxin, digitalis, cardiac glycoside, foxglove, oleander, lily of the valley, digoxin-specific Fab, DigiFab, hyperkalemia, bradydysrhythmia, دیگوکسین, دیژیتال
+status: draft
+
+@features
+- دیگوکسین برای AF به‌ویژه همراه CHF؛ گلیکوزیدهای دیگر در گیاهان: foxglove، oleander، lily of the valley
+- حاد (جدول 108-1): مصرف عمدی/اتفاقی؛ شروع ناگهانی تهوع و استفراغ؛ CNS: سردرد، سرگیجه، گیجی، کما؛ قلب: برادی‌دیسریتمی یا تاکی‌دیسریتمی فوق‌بطنی با بلوک AV؛ هیپرکالمی؛ سطح دیگوکسین بسیار بالا (اگر ≤ 6 ساعت)
+- مزمن: بیشتر سالمند قلبی تحت دیورتیک، ممکن است نارسایی کلیه؛ تهوع، استفراغ، اسهال، درد شکم؛ خستگی، ضعف، گیجی، دلیریوم، کما؛ تقریباً هر دیسریتمی جز AF با هدایت سریع، دیسریتمی بطنی شایع؛ پتاسیم طبیعی، پایین یا بالا و هیپومنیزمی؛ سطح دیگوکسین کمی بالا یا در محدوده «درمانی»
+- علائم عصبی-روانی در مزمن شایع‌تر؛ عوارض قلبی مشابه حاد؛ شدید: دیسریتمی بطنی
+- سطح دیگوکسین نه حساس و نه اختصاصی؛ سطح > 2 ng/mL احتمال سمیت بیشتر؛ شایع‌ترین یافته PVC
+
+@ddx
+- !Calcium channel blocker / β-blocker toxicity |
+- !Other cardiotoxic plants (oleander, foxglove) |
+- Sinus node disease / intrinsic conduction disease |
+- Class IA antidysrhythmics / clonidine toxicity |
+
+@redflags
+- دیسریتمی بطنی، برادی‌دیسریتمی با اختلال همودینامیک، هیپرکالمی > 5.5 mEq/L
+
+@guide
+همه بیماران: مانیتور مداوم، IV و ارزیابی مکرر. زغال فعال 1 g/kg در مسمومیت حاد برای بیمار هوشیار و همکار (ظرف 1 ساعت). atropine 0.5 تا 1 mg (0.02 mg/kg، حداقل 0.1 mg) IV برای برادی‌دیسریتمی. Fab اختصاصی دیگوکسین برای دیسریتمی بطنی، برادی‌دیسریتمی مهم همودینامیک و K > 5.5 mEq/L. دوز (جدول 108-3): مصرف حاد تهدیدکننده با سطح و مقدار نامعلوم: 10 ویال؛ با سطح: تعداد ویال = [سطح (ng/mL) × وزن (kg)] / 100؛ هر ویال (38 یا 40 mg) حدود 0.5 mg دیگوکسین را متصل می‌کند. هیپرکالمی ناشی از گلیکوزید بهتر با Fab؛ هیپرکالمی ناشی از بیماری کلیه: دکستروز سپس انسولین، sodium bicarbonate، رزین پتاسیم یا همودیالیز. کلسیم IV که قبلاً به‌علت دیسریتمی بطنی ممنوع بود ظاهراً احتمالاً ایمن است. pacer خارجی یا ترانس‌ونوس. سطح دیگوکسین بعد از Fab دقیق نیست و نباید فرستاد. خفیف: بستری مانیتورشده؛ شدید: ICU.
+
+@variant digoxin-asymptomatic
+name: Digoxin ingestion or elevated level, asymptomatic / mild
+level: II
+imp: Digoxin (digitalis) toxicity, asymptomatic
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: none
+
+@scenario
+مرد ۷۸ ساله با CHF و AF تحت دیگوکسین و فوروزماید با تهوع و خستگی؛ سطح دیگوکسین 2.4 ng/mL، ECG: PVC پراکنده.
+
+@why
+مانیتور، پتاسیم و محاسبه پیشاپیش دوز Fab.
+
+@L
+- Digoxin level (obtain before any Fab); K, Mg, Ca; glucose
+
+@T
+- Activated charcoal 1 g/kg PO if acute ingestion, awake and cooperative, within 1 h
+- Continuous cardiac monitoring; frequent reevaluation
+- Calculate digoxin-specific Fab dose in anticipation of potential need (vials = [level (ng/mL) × weight (kg)] / 100); may bring to bedside
+
+@Co
+- Admit mild toxicity to monitored setting; poison center / toxicology
+
+@variant digoxin-severe
+name: Digoxin toxicity with life-threatening dysrhythmia or K > 5.5 mEq/L
+level: I
+imp: Digitalis glycoside toxicity with dysrhythmia / hyperkalemia
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+
+@scenario
+زنی ۸۰ ساله با نارسایی کلیه، گیج، HR 38 با بلوک AV و K 6.2.
+
+@why
+Fab اختصاصی دیگوکسین درمان قطعی؛ atropine و pacer پل.
+
+@I
+- CXR portable if hemodynamic instability / pulmonary edema
+
+@L
+- Digoxin level (before Fab); electrolytes (K, Mg, Ca); BUN, creatinine; glucose {note: repeat digoxin levels after Fab are inaccurate; do not obtain}
+
+@S
+- Digoxin-specific Fab IV infusion: 10 vials if acute life-threatening ingestion with unknown level/amount; otherwise vials = [serum digoxin (ng/mL) × weight (kg)] / 100 {hi}
+- Hyperkalemia from renal disease rather than glycoside: dextrose followed by insulin; sodium bicarbonate; potassium-binding resin {note: hyperkalemia from cardiac glycoside toxicity is best treated with Fab; IV calcium is likely safe}
+
+@T
+- Atropine 0.5–1 mg IV (0.02 mg/kg, minimum 0.1 mg) for symptomatic bradycardia
+- External or transvenous pacing
+- Activated charcoal 1 g/kg PO if awake and cooperative within 1 h of acute ingestion
+
+@Co
+- ICU admission; toxicology / poison center
+- Nephrology if hemodialysis needed for refractory hyperkalemia
+
+@cond beta-blocker-toxicity
+ch: 108
+name: β-Blocker toxicity
+name_fa: مسمومیت با بتابلاکر
+cc: poisoning, hypotension-shock, palpitations
+keywords: beta blocker overdose, propranolol, metoprolol, sotalol, glucagon, high-dose insulin, hyperinsulinemia euglycemia, bradycardia, hypotension, بتابلاکر, گلوکاگون
+status: draft
+
+@features
+- کاربرد: HTN، ACS، دیسریتمی، CHF، تیروتوکسیکوز، فوبی اجتماعی، میگرن، گلوکوم؛ در اوردوز اثر اینوتروپ و کرونوتروپ منفی → برادیکاردی و هیپوتانسیون پیشرونده
+- سمیت معمولاً ≤ 6 ساعت (فرم immediate-release)، ≤ 8 ساعت (sustained-release)؛ sotalol تا 12 ساعت تأخیر
+- جدول 108-4: قلب: هیپوتانسیون، برادیکاردی، تأخیر/بلوک هدایت، دیسریتمی بطنی (sotalol)، آسیستول، کاهش انقباض؛ CNS: کاهش هوشیاری، کما، سایکوز، تشنج؛ ریه: برونکواسپاسم؛ غدد: هیپوگلیسمی
+- sotalol کلاس III هم است: QT طولانی و torsades de pointes
+- تشخیص بالینی؛ ECG در همه؛ آزمایش برای بیماری‌های زمینه‌ای/عوارض؛ سطح دارو همبستگی ضعیف؛ علل دیگر برادیکاردی و هیپوتانسیون (جدول 108-5): CCB، گلیکوزیدهای گیاهی، propafenone، clonidine، digoxin حاد، ارگانوفسفات
+
+@ddx
+- !Calcium channel blocker toxicity |
+- !Digoxin / cardiac glycosides |
+- Clonidine / opioids |
+- Organophosphates |
+- Class IC antidysrhythmics |
+
+@redflags
+- هیپوتانسیون، QRS > 120 ms، برادیکاردی، تشنج، هیپوگلیسمی، sotalol (QT)
+
+@guide
+هدف: برگرداندن cardiac output با افزایش HR و انقباض (شکل 108-1). مانیتور و IV. مایع برای هیپوتانسیون. 1) زغال فعال 1 g/kg ظرف 1 تا 2 ساعت. 2) glucagon داروی انتخابی: بولوس IV 3 تا 10 mg (0.05 mg/kg) سپس انفوزیون 1 تا 5 mg/h؛ تهوع/استفراغ شایع: پیش‌درمان ضداستفراغ. 3) وازوپرسور: norepinephrine یا epinephrine برای برادیکاردی/هیپوتانسیون مقاوم (دوز بسیار بالاتر لازم ممکن). 4) کلسیم (gluconate یا chloride) 10 mL از 10% (0.15 mL/kg) تکرار 3 تا 6 بار؛ chloride تحریک‌کننده بافت و از خط مرکزی. 5) HIE: regular insulin بولوس 1 U/kg سپس 1 U/kg/h؛ گلوکز و پتاسیم مرتب. 6) pacing اغلب ناموفق؛ extracorporeal circulation یا IABP؛ همودیالیز برای acebutolol، atenolol، nadolol، sotalol. 7) isoproterenol. 8) sotalol: magnesium sulfate، lidocaine و overdrive pacing. 9) علامت‌دار: ICU؛ بدون علامت: ترخیص 6 ساعت پس از immediate-release، 8 ساعت پس از SR؛ sotalol 12 ساعت مشاهده. QRS پهن: sodium bicarbonate.
+
+@variant beta-blocker-mild
+name: β-Blocker ingestion, asymptomatic / mild
+level: III
+imp: β-Blocker overdose, asymptomatic
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: none
+
+@scenario
+مرد ۴۵ ساله ۱ ساعت پس از مصرف ۱۰ قرص metoprolol؛ HR 62 و فشار طبیعی.
+
+@why
+زغال و مشاهده 6 ساعت (8 برای SR، 12 برای sotalol).
+
+@L
+- Glucose; electrolytes, BUN, creatinine (underlying conditions / complications)
+
+@T
+- Activated charcoal 1 g/kg PO within 1–2 h of ingestion if no contraindication
+- Observe: 6 h after immediate-release, 8 h after sustained-release, 12 h after sotalol
+
+@Co
+- Medically clear if asymptomatic after observation; psychiatric evaluation if intentional
+
+@variant beta-blocker-severe
+name: β-Blocker toxicity with bradycardia / hypotension / shock
+level: I
+imp: β-Blocker toxicity with bradycardia and hypotension
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+
+@scenario
+زنی ۳۵ ساله ۳ ساعت پس از اوردوز propranolol، HR 40، فشار 70/40، خواب‌آلود، قند 55.
+
+@why
+گلوکاگون، سپس HIE و وازوپرسور؛ بیکربنات برای QRS پهن.
+
+@I
+- Cardiac ultrasound (contractility, SVR assessment)
+- CXR portable
+
+@L
+- Glucose (hypoglycemia); K (monitor with insulin therapy); electrolytes, BUN, creatinine
+
+@S
+- IV fluids for hypotension {ci: caution in heart failure / pulmonary edema}
+- Glucagon 3–10 mg IV bolus (0.05 mg/kg) {hi} then infusion 1–5 mg/h {note: nausea and vomiting common; pretreat with antiemetics}
+- Hyperinsulinemia-euglycemia: regular insulin 1 U/kg IV bolus then 1 U/kg/h; supplement dextrose as needed; monitor glucose frequently and K for severe hypokalemia
+- Calcium gluconate or chloride 10 mL of 10% (0.15 mL/kg), repeat 3–6 times as necessary {note: chloride irritating to soft tissue; give via central line}
+- Sodium bicarbonate if QRS > 120 ms
+
+@T
+- Activated charcoal 1 g/kg within 1–2 h of ingestion if no contraindication
+- Norepinephrine or epinephrine for refractory bradycardia and hypotension (significantly higher doses may be required)
+- Atropine and cardiac pacing for bradycardia (pacing often unsuccessful); isoproterenol (pure β-agonist) may help
+- Sotalol-induced ventricular dysrhythmia: magnesium sulfate, lidocaine, overdrive pacing
+
+@Co
+- ICU admission; toxicology / poison center
+- Extracorporeal circulation or intra-aortic balloon pump in refractory cases; hemodialysis for acebutolol, atenolol, nadolol, sotalol
+
+@cond calcium-channel-blocker-toxicity
+ch: 108
+name: Calcium channel blocker toxicity
+name_fa: مسمومیت با مسدودکننده کانال کلسیم
+cc: poisoning, hypotension-shock, palpitations
+keywords: calcium channel blocker, verapamil, diltiazem, nifedipine, amlodipine, high-dose insulin, hyperinsulinemia euglycemia, lipid emulsion, Intralipid, calcium, مسدود کننده کانال کلسیم, وراپامیل
+status: draft
+
+@features
+- کاربرد: HTN، وازواسپاسم و کنترل ریت SVT؛ سه گروه: phenylalkylamines (verapamil)، benzothiazepines (diltiazem)، dihydropyridines (nifedipine و...)
+- سمیت ≤ 6 ساعت (immediate-release)؛ sustained-release تا 12 تا 24 ساعت تأخیر
+- قلب: برادیکاردی سینوسی، بلوک AV و هیپوتانسیون؛ verapamil و diltiazem اثر بیشتر بر میوکارد؛ dihydropyridine تاکی‌کاردی رفلکسی؛ شدید: برادیکاردی، کاهش انقباض، اتساع عروقی
+- هیپرگلیسمی، اسیدوز لاکتیک و ادم ریوی غیرقلبی؛ علائم CNS ناشی از هیپوپرفیوژن (اگر فشار طبیعی علل دیگر را بجو)
+- تشخیص بالینی؛ هیپرگلیسمی شایع و ممیز از β-blocker (هیپوگلیسمی)؛ افتراق برادیکاردی و هیپوتانسیون: جدول 108-5
+
+@ddx
+- !β-Blocker toxicity |
+- !Digoxin / cardiac glycoside toxicity |
+- Clonidine, propafenone, organophosphates |
+- Primary cardiac conduction disease / MI |
+
+@redflags
+- برادیکاردی با هیپوتانسیون، بلوک AV، لاکتات بالا، ادم ریوی، مصرف SR (تأخیر تا 24 ساعت)
+
+@guide
+درمان حمایتی با تأکید بر افزایش cardiac output و SVR (شکل 108-2). مانیتور، IV، مایع برای هیپوتانسیون. زغال 1 g/kg ظرف 1 تا 2 ساعت. atropine 0.5 تا 1 mg (0.02 mg/kg). کلسیم gluconate یا chloride 10 mL از 10% (0.15 mL/kg) طی 5 دقیقه، تکرار تا سه بار؛ chloride سه برابر کلسیم عنصری و از خط مرکزی؛ معمولاً بهبود همودینامیک قابل‌توجه نمی‌دهد. norepinephrine یا epinephrine برای مقاوم. HIE (جدول 108-6): 50 mL از D50W، regular insulin 1 U/kg بولوس، سپس انفوزیون 1 U/kg/h (0.5 تا 1 در الگوریتم)، D10W 200 mL/h (کودک 5 mL/kg/h) در صورت نیاز؛ گلوکز هر 20 دقیقه با هدف 150 تا 300 mg/dL؛ بعد از 60 دقیقه ثبات هر ساعت؛ پتاسیم و شروع انفوزیون K اگر < 2.8 mEq/L. glucagon 3 تا 10 mg (0.05 mg/kg) بولوس سپس 1 تا 5 mg/h؛ موفقیت متغیر؛ پیش‌درمان ضداستفراغ. امولسیون چربی 20% (Intralipid) در verapamil مقاوم: 1.5 mL/kg بولوس سپس 0.25 mL/kg/min (الگوریتم: 0.5) برای 30 تا 60 دقیقه. حمایت extracorporeal به‌عنوان نجات. علامت‌دار: ICU؛ بدون علامت: 6 ساعت (immediate-release) یا 24 ساعت (SR).
+
+@variant ccb-mild
+name: CCB ingestion, asymptomatic / mild
+level: III
+imp: Calcium channel blocker overdose, asymptomatic
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: none
+
+@scenario
+مرد ۵۵ ساله ۲ ساعت پس از مصرف عمدی ۱۵ قرص diltiazem؛ HR 58 و فشار 110/70.
+
+@why
+زغال و مشاهده؛ SR تا 24 ساعت.
+
+@L
+- Glucose; electrolytes, BUN, creatinine
+
+@T
+- Activated charcoal 1 g/kg within 1–2 h of ingestion if no contraindication
+- Observe 6 h after immediate-release drug, 24 h after sustained-release drug
+
+@Co
+- Medically clear if asymptomatic after observation; psychiatric evaluation if intentional
+
+@variant ccb-severe
+name: CCB toxicity with bradycardia / hypotension / shock
+level: I
+imp: Calcium channel blocker toxicity with bradycardia and hypotension
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+
+@scenario
+مرد ۶۰ ساله ۵ ساعت پس از اوردوز verapamil SR، HR 36 با بلوک AV، فشار 65/40 و قند 340.
+
+@why
+کلسیم، HIE، گلوکاگون و وازوپرسور هم‌زمان؛ چربی برای verapamil مقاوم.
+
+@I
+- CXR portable (noncardiogenic pulmonary edema)
+- Cardiac ultrasound
+
+@L
+- Glucose (hyperglycemia; serial every 20 min during insulin therapy); K (start K infusion if < 2.8 mEq/L); lactate; electrolytes, BUN, creatinine
+
+@S
+- IV fluids for hypotension {ci: caution in heart failure / pulmonary edema}
+- Calcium gluconate or calcium chloride 10 mL of 10% (0.15 mL/kg) IV over 5 min, may repeat up to three times {note: chloride via central line; contains three times the elemental calcium; caution in digoxin toxicity}
+- Hyperinsulinemia-euglycemia: if glucose < 200 mg/dL give 50 mL D50W; regular insulin 1 U/kg IV bolus, then infusion 1 U/kg/h (0.5–1.0 U/kg/h); D10W 200 mL/h (5 mL/kg/h pediatric) as needed; target glucose 150–300 mg/dL
+- Glucagon 3–10 mg IV bolus (0.05 mg/kg), then infusion 1–5 mg/h {note: pretreat with antiemetics}
+- Lipid emulsion 20% 1.5 mL/kg IV bolus over 2–3 min then 0.25–0.5 mL/kg/min for 30–60 min {note: reserve for verapamil ingestion progressing despite optimal therapy}
+
+@T
+- Activated charcoal 1 g/kg within 1–2 h of ingestion if no contraindication
+- Atropine 0.5–1 mg IV (0.02 mg/kg, minimum 0.1 mg); pacing for symptomatic bradycardia
+- Norepinephrine or epinephrine for refractory bradycardia and hypotension (much higher doses may be required)
+- Extracorporeal blood pressure support as rescue
+
+@Co
+- ICU admission; toxicology / poison center
+
+@cond antihypertensive-overdose
+ch: 108
+name: Antihypertensive overdose (diuretics, ACE inhibitors, ARBs, vasodilators)
+name_fa: اوردوز داروهای ضدفشارخون (دیورتیک‌ها، ACEI، ARB، وازودیلاتورها)
+cc: poisoning, hypotension-shock
+keywords: antihypertensive overdose, diuretic, ACE inhibitor, ARB, hydralazine, minoxidil, nitroprusside, spironolactone, hyperkalemia, ضد فشار, دیورتیک
+status: draft
+
+@features
+- جدول 108-7: دیورتیک‌ها (acetazolamide، thiazide، loop، پتاسیم‌نگهدار)، sympatholytics (α1-blocker، clonidine)، ACE inhibitors، ARB، وازودیلاتورها (hydralazine، minoxidil، nitroprusside)
+- اوردوز حاد دیورتیک‌ها انتظار سمیت تهدیدکننده حیات ندارد: thiazide و loop → هیپوتانسیون خفیف، تاکی‌کاردی، هیپوکالمی (و هیپوولمی، هیپوکلسمی، هیپومنیزمی)؛ پتاسیم‌نگهدار (spironolactone، triamterene، amiloride) → هیپرکالمی و هیپوولمی
+- α1-blocker: هیپوولمی، هیپوتانسیون ارتواستاتیک؛ ACEI: هیپوتانسیون (نادر)، اغلب بدون علامت، هیپرکالمی، آنژیوادم و سرفه (idiosyncratic)؛ ARB: هیپوتانسیون، هیپرکالمی، آنژیوادم کمتر از ACEI
+- hydralazine: وازودیلاتاسیون شریانی، هیپوتانسیون، تاکی‌کاردی، افزایش مصرف O2 میوکارد، lupus-like؛ nitroprusside: هیپوتانسیون، تاکی‌کاردی، سمیت thiocyanate (انفوزیون طولانی)، سیانید (بسیار نادر)
+
+@ddx
+- !Sepsis / hypovolemia |
+- Other cardiotoxic overdose (β-blocker, CCB, clonidine) |
+
+@redflags
+- هیپوتانسیون مقاوم، هیپرکالمی شدید، آنژیوادم
+
+@guide
+حمایتی با اصلاح الکترولیت‌ها. مانیتور مداوم و IV. زغال 1 g/kg ظرف 1 تا 2 ساعت (بیدار، همکار و قادر به نوشیدن). NS برای هیپوولمی؛ norepinephrine برای هیپوتانسیون مقاوم به حجم؛ phenylephrine نیز مفید (جدول). پتاسیم را با روش استاندارد اصلاح کن؛ هیپرکالمی شدید پتاسیم‌نگهدار ممکن است دیالیز بخواهد. nitroprusside: thiosulfate اگر سیانید مطرح. اکثر بیماران پس از 4 تا 6 ساعت مشاهده ترخیص؛ هیپوتانسیون یا اختلال الکترولیت: بستری. ACEI/ARB: بیشتر بدون علامت؛ مشاهده از نظر هیپوتانسیون و مانیتور قلبی ≥ 6 ساعت برای ARB.
+
+@variant antihypertensive-mild
+name: Antihypertensive overdose, stable (observe 4–6 h)
+level: III
+imp: Antihypertensive overdose
+cond: Urgent
+act: CBR
+diet: PO
+ecg: once
+cxr: none
+
+@scenario
+زنی ۵۰ ساله با مصرف اضافی lisinopril و hydrochlorothiazide؛ فشار 110/70 و بدون علامت.
+
+@why
+مشاهده 4 تا 6 ساعت و پتاسیم.
+
+@L
+- Potassium and other electrolytes (K, Mg, Ca), glucose
+
+@T
+- Activated charcoal 1 g/kg within 1–2 h of ingestion if awake, cooperative and able to drink
+- Cardiac monitoring for at least 6 hours (ARB); observe 4–6 hours
+
+@Co
+- Medically clear after 4–6 h observation; admit if hypotension or electrolyte abnormalities
+
+@variant antihypertensive-hypotension
+name: Antihypertensive overdose with hypotension / electrolyte abnormality
+level: II
+imp: Antihypertensive overdose with hypotension
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: none
+
+@scenario
+مرد ۶۵ ساله پس از اوردوز چند داروی ضدفشار با فشار 80/50 و K 6.4.
+
+@why
+مایع، وازوپرسور و اصلاح پتاسیم.
+
+@L
+- Electrolytes (K, Mg, Ca), BUN, creatinine, glucose
+
+@S
+- Normal saline IV to correct hypovolemia {ci: caution in AKI, anuria, heart failure / pulmonary edema}
+- Correct potassium abnormalities by standard measures
+
+@T
+- Norepinephrine for hypotension refractory to volume resuscitation
+- Activated charcoal 1 g/kg within 1–2 h if awake and cooperative
+- If nitroprusside with cyanide toxicity suspected: thiosulfate
+
+@Co
+- Admit (hypotension or electrolyte abnormality); nephrology if severe hyperkalemia from potassium-sparing diuretics needs dialysis
+
+@cond clonidine-toxicity
+ch: 108
+name: Clonidine toxicity
+name_fa: مسمومیت با کلونیدین
+cc: poisoning, altered-mental-status, hypotension-shock
+keywords: clonidine, imidazoline, oxymetazoline, tetrahydrozoline, miosis, bradycardia, naloxone, کلونیدین
+status: draft
+
+@features
+- آگونیست α مرکزی برای HTN و ترک اپیوئید
+- میوز، هیپوتانسیون، برادیکاردی، افسردگی CNS و تنفس؛ آپنه به‌ویژه کودکان
+- شبیه سمیت اپیوئید (کما، میوز، کاهش تنفس)
+
+@ddx
+- !Opioid overdose |
+- !β-Blocker / CCB toxicity |
+- Organophosphates |
+
+@redflags
+- افسردگی تنفسی/آپنه (کودکان)، هیپوتانسیون مقاوم، برادیکاردی علامت‌دار
+
+@guide
+حمایتی. مانیتور و IV. NS برای هیپوتانسیون؛ norepinephrine برای مقاوم به مایع؛ atropine 0.5 تا 1 mg (0.02 mg/kg، حداقل 0.1 mg) برای برادیکاردی علامت‌دار؛ naloxone به‌صورت گزارشی ممکن است در هیپوتانسیون یا کاهش هوشیاری مقاوم مؤثر باشد ولی داده قانع‌کننده ندارد (دوز بالا). اینتوباسیون برای افسردگی تنفس/آپنه گاه لازم. بدون علامت پس از 6 ساعت: ترخیص؛ علامت‌دار: بستری مانیتورشده.
+
+@variant clonidine-main
+name: Clonidine toxicity
+level: II
+imp: Clonidine toxicity
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: none
+
+@scenario
+کودک ۳ ساله پس از بلع قرص clonidine با خواب‌آلودگی، میوز، HR 55 و فشار 70/40.
+
+@why
+حمایتی؛ naloxone اختیاری.
+
+@L
+- Glucose (bedside, altered mental status); electrolytes
+
+@S
+- Normal saline IV for hypotension {ci: caution in AKI, anuria, heart failure / pulmonary edema}
+
+@T
+- Norepinephrine for hypotension refractory to fluid resuscitation
+- Atropine 0.5–1 mg IV (0.02 mg/kg, minimum 0.1 mg) for symptomatic bradycardia
+- Naloxone (anecdotal, for refractory hypotension or altered mental status)
+- Be prepared for endotracheal intubation if respiratory depression or apnea (most common in children)
+
+@Co
+- Medically clear if asymptomatic after 6 h observation; admit symptomatic patients to monitored setting

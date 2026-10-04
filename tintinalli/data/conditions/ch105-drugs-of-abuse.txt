@@ -1,0 +1,251 @@
+@cond opioid-overdose
+ch: 105
+name: Opioid overdose and withdrawal
+name_fa: مسمومیت و ترک اوپیوئیدها
+cc: poisoning, altered-mental-status, dyspnea
+keywords: opioid overdose, heroin overdose, naloxone, miosis, respiratory depression, methadone QT, opioid withdrawal, clonidine, اوپیوئید, نالوکسان
+status: draft
+
+@features
+- تعاریف: opioid: هر دارو فعال بر گیرنده؛ opiates: مشتقات طبیعی مثل morphine؛ narcotic: اصطلاح قانونی
+- toxidrome: میوز، افسردگی CNS و تنفس؛ مردمک طبیعی/بزرگ با diphenoxylate، meperidine، pentazocine و propoxyphene؛ هیپوکسی شدید یا coingestant هم میدریاز می‌دهد؛ شدید (به‌ویژه هروئین): ALI؛ تشنج با tramadol، propoxyphene و meperidine؛ سندرم سروتونین (meperidine، tramadol، dextromethorphan با سروتونرژیک‌ها)؛ methadone: QT طولانی و torsades؛ ترک: درد شکم، تهوع، استفراغ، اسهال، dysphoria، piloerection و اشک‌ریزی
+- تشخیص بالینی؛ UDS ایمنواسی کیفی با احتیاط (مثبت/منفی کاذب)؛ clonidine، guanfacine و imidazoline مشابه اوپیوئید (میوز و افسردگی CNS/تنفس) با پاسخ کمتر به naloxone: در مشکوک به اوپیوئید بدون پاسخ به naloxone؛ سایر علل افسردگی CNS و میوز: خونریزی پونتین، ارگانوفسفات/کارباومات، آنتی‌سایکوتیک و سداتیو-هیپنوتیک (GHB)
+
+@ddx
+- !Clonidine / imidazoline intoxication |
+- !Pontine hemorrhage |
+- Organophosphate / carbamate poisoning |
+- Sedative-hypnotic (GHB) / antipsychotic toxicity |
+- Hypoglycemia / head injury |
+
+@redflags
+- افسردگی تنفسی، آپنه، ALI، پاسخ ضعیف به naloxone، opioid طولانی‌اثر (methadone، buprenorphine، آزادسازی آهسته)
+
+@guide
+naloxone درمان اصلی: دوز کوچک 0.1 تا 0.4 mg IV، SC یا IM اولیه برای افسردگی CNS/تنفس (جلوگیری از ترک ناگهانی)؛ دوز بزرگ‌تر 2 mg در آپنه؛ تکرار هر 3 دقیقه؛ کودک 0.1 mg/kg؛ مدت اثر کوتاه: پایش سمیت راجعه. overdose بزرگ: انفوزیون naloxone: دو-سوم دوز اولیه «بیدار شدن» در ساعت. اینتوباسیون در پاسخ ضعیف و ALI. overdose هروئین بیدار و بدون علامت 2 ساعت پس از آخرین دوز naloxone: ترخیص؛ opioid فوری‌اثر: ≥ 6 ساعت مشاهده (یا 6 ساعت بعد از naloxone)؛ طولانی‌اثر (morphine/oxycodone آهسته‌رهش، methadone، buprenorphine): بستری. ترک: حمایتی (مایع، ضدتهوع)؛ clonidine 0.1 تا 0.3 mg PO.
+
+@variant opioid-overdose-main
+name: Opioid overdose (respiratory depression)
+level: I
+imp: Opioid overdose
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: portable
+o2: O2 therapy: F.M 6–10 L/min or bag-valve-mask ventilation if SpO2 < 94% or hypoventilation
+
+@scenario
+مردی ۲۸ ساله با سابقه تزریق هروئین، بی‌پاسخ، RR 5، مردمک‌های سنجاقی و SpO2 78٪.
+
+@why
+نالوکسان تیتره برای تنفس؛ نظارت برای عود؛ اینتوباسیون در ALI.
+
+@L
+- Glucose; qualitative urine drug screen interpreted with caution; ECG (methadone QT prolongation)
+
+@T
+- Ventilation support (oxygen / bag-valve-mask) while giving Naloxone
+- Naloxone 0.1 to 0.4 mg IV, SC or IM initially (larger dose 2 mg in apneic patients); repeat every 3 minutes (pediatric 0.1 mg/kg); in large overdoses naloxone infusion: two-thirds of the initial "wake up" dose per hour {hi}
+- Endotracheal intubation for poor response to naloxone and acute lung injury
+
+@Co
+- Heroin overdose awake and asymptomatic 2 hours after last naloxone dose: discharge; immediate-acting opioid: observe ≥ 6 hours (6 hours after naloxone); long-acting opioid (sustained-release morphine/oxycodone, methadone, buprenorphine): admit for prolonged observation
+
+@variant opioid-withdrawal
+name: Opioid withdrawal
+level: III
+imp: Opioid withdrawal
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مرد ۳۵ ساله ۲ روز پس از قطع هروئین با درد شکم، استفراغ، اسهال، piloerection و اشک‌ریزی.
+
+@why
+ترک حمایتی؛ کلونیدین کمک می‌کند.
+
+@S
+- Fluids as needed for dehydration {ci: caution in heart failure / CKD}
+
+@T
+- Supportive treatment: antiemetics {note: drug and dose not given in the book}
+- Clonidine 0.1 to 0.3 mg PO
+
+@cond cocaine-amphetamine-toxicity
+ch: 105
+name: Cocaine and amphetamine (sympathomimetic) toxicity
+name_fa: مسمومیت با کوکائین و آمفتامین (سمپاتومیمتیک)
+cc: poisoning, chest-pain, palpitations, altered-mental-status
+keywords: cocaine toxicity, amphetamine, sympathomimetic, lorazepam, diltiazem, body packer, body stuffer, wide complex tachycardia, sodium bicarbonate, کوکائین, آمفتامین
+status: draft
+
+@features
+- شادی کاذب؛ عوارض از آزادسازی افزایش‌یافته و مسدودسازی کاتکولامین‌ها؛ شروع سریع (بینی، استنشاقی/crack، وریدی)؛ دوز مکرر: اثر و سمیت طولانی
+- میدریاز، فشار بالا، تاکی‌کاردی، تعریق، آژیتاسیون، رابدومیولیز، AKI و هیپرترمی
+- قلبی-عروقی: آریتمی، ایسکمی میوکارد، کاردیومیوپاتی، دیسکسیون آئورت/کرونر؛ درد قفسه سینه شایع و اغلب آتیپیک؛ ACS (STEMI و NSTEMI) با وازواسپاسم و ترومبوژنز؛ آریتمی کوکائین از بلوک سدیم و پتاسیم: SVT، فیبریلاسیون/فلوتر دهلیزی، تاکی‌کاردی QRS پهن مشابه TCA، Brugada و QT طولانی؛ آمفتامین: SVT و آریتمی‌های کمتر
+- عصبی: تشنج، انفارکت نخاع، واسکولیت مغزی، CVA ایسکمیک/هموراژیک؛ کره‌آتتوز و دیستونی؛ سندرم «washout» بعد از مصرف سنگین: افسردگی CNS تا 24 ساعت؛ آمفتامین: سایکوز شدید
+- ریه: پنومومدیاستن، پنوموتوراکس، برونکواسپاسم، ادم ریه و خونریزی؛ حاملگی: سقط، abruptio، نارسی و IUGR
+- body stuffers/packers: ممکن است بی‌علامت یا سمیت شدید با پارگی بسته
+- تشخیص بالینی؛ UDS کوکائین قابل‌اعتماد (تا 72 ساعت)؛ آمفتامین کم‌اختصاصی؛ CMP و CK؛ CT سر در تغییر هوشیاری/تشنج؛ ECG، CXR و آنزیم قلبی در درد قفسه سینه
+- افتراق: آنتی‌کولینرژیک، PCP، سندرم سروتونین، ترک سداتیو، سکته، عفونت CNS، هیپوگلیسمی، هیپوناترمی، تیروتوکسیکوز
+
+@ddx
+- !Acute coronary syndrome / aortic dissection |
+- !Intracranial hemorrhage / stroke |
+- !Hyperthermia / rhabdomyolysis |
+- Anticholinergic / PCP / serotonin syndrome |
+- Sedative-hypnotic withdrawal / thyrotoxicosis |
+- Hypoglycemia / hyponatremia / CNS infection |
+
+@redflags
+- درد قفسه سینه با تغییر ST، QRS پهن، هیپرترمی، تشنج، نشانه‌های پارگی بسته در body packer
+
+@guide
+بنزودیازپین ستون درمان (قلبی و CNS): lorazepam 2 mg IV (کودک 0.1 mg/kg) یا diazepam 5 mg برای آژیتاسیون، فشار و تاکی‌کاردی؛ تیتره؛ آنتی‌سایکوتیک با احتیاط در آژیتاسیون مقاوم/خشن. تشنج: بنزودیازپین؛ phenobarbital 15 تا 20 mg/kg، propofol و فلج عضلانی با EEG مداوم در استاتوس. ایسکمی/ACS: aspirin، نیترات، morphine و بنزودیازپین؛ diltiazem 20 mg IV در تغییر ST ایسکمیک؛ بتابلوکر ممنوع (تحریک بتا بدون مخالف)؛ آنژیوگرافی ترجیح؛ فیبرینولیتیک در نبود منع. تاکی‌کاردی QRS پهن/QRS طولانی: sodium bicarbonate 1 تا 2 mEq/kg تیتره به pH سرم 7.45 تا 7.55؛ SVT: diltiazem 20 mg IV؛ torsades: منیزیم و/یا overdrive pacing؛ لیپید 1.5 mL/kg IV طی 2 دقیقه سپس 0.25 mL/kg/min (حداکثر 10 mL/kg) در سمیت قلبی شدید مقاوم. فشار مقاوم به بنزودیازپین: nitroprusside 0.3 μg/kg/min یا phentolamine 2.5 تا 5 mg IV. body stuffer: زغال فعال و حمایت؛ body packer بی‌علامت: زغال و WBI با polyethylene glycol؛ علامت‌دار با پارگی احتمالی: درمان سمیت حاد و مشاوره فوری جراحی (لاپاروتومی)؛ اندوسکوپی پرهیز. ترخیص: سمیت خفیف که کامل رفع شود؛ آمفتامین اثر طولانی‌تر؛ body packer و سمیت شدید: بستری.
+
+@pearls
+- بتابلوکر در مسمومیت کوکائین ممنوع.
+
+@variant sympathomimetic-agitation
+name: Sympathomimetic toxicity (agitation, hypertension, tachycardia)
+level: II
+imp: Cocaine / amphetamine sympathomimetic toxicity
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: PA
+
+@scenario
+مردی ۳۰ ساله پس از مصرف کوکائین با آژیتاسیون، تعریق، تاکی‌کاردی 140، فشار 190/110، دمای 38.5 و درد قفسه سینه.
+
+@why
+بنزودیازپین اول؛ بتابلوکر ممنوع؛ ECG و تروپونین.
+
+@I
+- ECG, chest radiograph; head CT if altered mental status or seizure (exclude intracranial hemorrhage)
+
+@L
+- Complete metabolic panel (acid/base, kidney function), creatine kinase (rhabdomyolysis), cardiac enzymes (chest pain); urine drug screen (cocaine reliable within 72 hours); glucose
+
+@S
+- IV fluids for rhabdomyolysis and hyperthermia {ci: caution in heart failure / pulmonary edema}
+
+@T
+- Lorazepam 2 mg IV (0.1 mg/kg in children), or Diazepam 5 mg, titrated to effect for agitation, hypertension and tachycardia; judicious antipsychotic for refractory agitation / violent behavior {ci: beta-blockers contraindicated (unopposed β stimulation)}
+- Hypertension unresponsive to benzodiazepines: Nitroprusside 0.3 μg/kg/min IV or Phentolamine 2.5 to 5 mg IV
+- Cooling measures for hyperthermia {note: not detailed in the chapter}
+
+@Co
+- Mild toxicity resolving completely during observation may be discharged; amphetamines may require longer observation; admit more severe toxicity or persistent symptoms
+
+@variant sympathomimetic-cardiac-seizure
+name: Cocaine cardiotoxicity (ACS, wide-complex tachycardia) or seizures
+level: I
+imp: Cocaine-induced ACS / wide-complex tachydysrhythmia / seizure
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+
+@scenario
+مردی ۳۸ ساله با کوکائین، درد قفسه سینه، ST elevation و تاکی‌کاردی QRS پهن.
+
+@why
+ACS کوکائینی: آسپیرین، نیترات، بنزودیازپین؛ بیکربنات برای QRS؛ بدون بتابلوکر.
+
+@T
+- ACS: Aspirin, nitrates, Morphine and benzodiazepines; Diltiazem 20 mg IV for ischemic ST changes; coronary angiography preferred (fibrinolytic therapy if no contraindications) {ci: beta-blockers contraindicated}
+- Wide complex tachydysrhythmia and QRS prolongation: Sodium bicarbonate 1 to 2 mEq/kg titrated to serum pH 7.45 to 7.55; SVT: Diltiazem 20 mg IV; torsades de pointes: magnesium and/or overdrive pacing
+- Severe refractory cardiac toxicity: lipid emulsion 1.5 mL/kg IV over 2 minutes then 0.25 mL/kg/min until improvement (maximum 10 mL/kg) {hi}
+- Seizures: benzodiazepines; status epilepticus: Phenobarbital 15 to 20 mg/kg, propofol, neuromuscular blockade with continuous EEG monitoring
+
+@Co
+- Admit; cardiology
+
+@variant body-packer-stuffer
+name: Body packer / body stuffer
+level: II
+imp: Body packer / body stuffer (cocaine or other drug)
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: once
+cxr: none
+
+@scenario
+مسافر ۳۰ ساله با مشکوک به بلع بسته‌های مواد، فعلاً بدون علامت.
+
+@why
+زغال و WBI در packer بی‌علامت؛ پارگی: جراحی فوری.
+
+@I
+- Abdominal imaging to detect packets {note: not specified in this chapter}
+
+@T
+- Body stuffers: activated charcoal and supportive care; asymptomatic body packers: activated charcoal and whole-bowel irrigation with polyethylene glycol
+- Symptomatic body packers (presumed rupture): treat acute toxicity as above {ci: avoid endoscopy (risk of rupture)}
+
+@Co
+- Immediate surgical consultation for possible laparotomy (symptomatic body packers); admit body packers
+
+@cond hallucinogen-intoxication
+ch: 105
+name: Hallucinogen intoxication (LSD, psilocybin, MDMA, PCP, cannabinoids, bath salts)
+name_fa: مسمومیت با مواد توهم‌زا (LSD، سیلوسیبین، MDMA، PCP، کانابینوئیدها، «bath salts»)
+cc: poisoning, behavioral, altered-mental-status
+keywords: LSD, psilocybin, mescaline, MDMA, ecstasy, PCP, phencyclidine, synthetic cannabinoids, K2, bath salts, cathinone, hallucinogen, توهم زا
+status: draft
+
+@features
+- جدول 105-1 مواد رایج: LSD (20–80 μg؛ 8–12 h): میدریاز، تاکی‌کاردی، اضطراب، تنش عضله؛ سیلوسیبین (4–6 mg؛ 4–6 h) و mescaline (200–500 mg؛ 6–12 h): میدریاز، تاکی‌کاردی، تهوع و استفراغ، درد شکم؛ MDMA/«Ecstasy» (50–200 mg؛ 4–6 h): میدریاز، bruxism، تنش فک، آتاکسی، خشکی دهان، تهوع؛ عوارض: هیپوناترمی، فشار بالا، تشنج، هیپرترمی، آریتمی و رابدومیولیز؛ cathinone («bath salts»؛ 2–4 h): آژیتاسیون، تاکی‌کاردی، فشار بالا، تعریق، میدریاز؛ عوارض: توهم، پارانویا، هیپرترمی، تشنج، رابدومیولیز، کما؛ PCP («angel dust»؛ 4–6 h): مردمک کوچک/متوسط، نیستاگموس، سفتی عضله، سیالوره، آژیتاسیون، کاتاتونی؛ marijuana و synthetic cannabinoids («K2/Spice»): تاکی‌کاردی، تزریق ملتحمه، سایکوز حاد و پانیک؛ Bromo-DragonFLY (10–14 h): وازوکانستریکشن با نکروز و گانگرن، تشنج
+- تشخیص بالینی؛ UDS معمول LSD، psilocybin، mescaline را نمی‌یابد؛ PCP نامعتبر؛ برخی غربال‌های آمفتامین MDMA را می‌یابند؛ ماریجوانا: تا روزها/هفته‌ها مثبت؛ بررسی گلوکز، الکترولیت، کلیه، CK و UA (هیپوناترمی، رابدومیولیز، AKI)؛ رد سایر علل تغییر هوشیاری: تروما، هیپوگلیسمی، عفونت در هیپرترمی
+- افتراق: ترک الکل و بنزودیازپین، هیپوگلیسمی، مسمومیت آنتی‌کولینرژیک، تیروتوکسیکوز، عفونت/ضایعه CNS و سایکوز حاد
+
+@ddx
+- !Hyperthermia / rhabdomyolysis / hyponatremia (MDMA) |
+- !Hypoglycemia / head trauma / CNS infection |
+- Anticholinergic poisoning / thyrotoxicosis |
+- Alcohol or benzodiazepine withdrawal |
+- Acute psychosis |
+
+@redflags
+- هیپرترمی، تشنج، فشار شدید، رابدومیولیز، هیپوناترمی، تغییر هوشیاری پایدار
+
+@guide
+بیشتر موارد با مانیتورینگ، محیط آرام و بنزودیازپین برای آژیتاسیون و علائم سمپاتومیمتیک. آنتی‌سایکوتیک با احتیاط (آستانه تشنج) و بتابلوکر ممنوع. 1) آژیتاسیون، هیپرترمی، تشنج، تاکی‌کاردی، فشار بالا: lorazepam 1 تا 2 mg IV یا PO (کودک 0.1 mg/kg) یا diazepam 5 تا 10 mg IV/PO؛ تکرار؛ شدید مقاوم: propofol، اینتوباسیون و فلج. 2) فشار شدید مقاوم: nitroprusside یا phentolamine. 3) رابدومیولیز: مایع ایزوتونیک تهاجمی. 4) ترخیص بعد از مشاهده؛ بستری: تغییر هوشیاری پایدار یا عارضه جدی (هیپرترمی شدید، فشار، تشنج، رابدومیولیز). درمان اختصاصی جدول 105-1: MDMA: بنزودیازپین، مایع، خنک‌سازی فعال، dantrolene، آنتاگونیست سروتونین.
+
+@variant hallucinogen-main
+name: Hallucinogen intoxication
+level: III
+imp: Hallucinogen intoxication
+cond: Urgent
+act: RBR
+diet: PO
+ecg: once
+cxr: none
+
+@scenario
+جوانی ۲۲ ساله پس از مصرف MDMA در مهمانی با آژیتاسیون، bruxism، تعریق، دمای 39.5 و تاکی‌کاردی.
+
+@why
+بنزودیازپین، خنک‌سازی و مایع؛ سدیم و CK چک کن.
+
+@L
+- Glucose, electrolytes (hyponatremia), renal function, creatine kinase, urinalysis (rhabdomyolysis, acute kidney injury)
+
+@S
+- Aggressive isotonic IV fluid for rhabdomyolysis {ci: caution in hyponatremia / heart failure}
+
+@T
+- Lorazepam 1 to 2 mg IV or PO (0.1 mg/kg in children), or Diazepam 5 to 10 mg IV or PO; repeat as needed (agitation, hyperthermia, seizures, tachycardia, hypertension)
+- Severe hypertension refractory to benzodiazepines: Nitroprusside or Phentolamine; severe refractory toxicity: propofol, intubation and paralysis; hyperthermia: active cooling, dantrolene (MDMA) {ci: antipsychotics lower seizure threshold; beta-blockers contraindicated}
+- Calm environment; observation
+
+@Co
+- Discharge after a period of observation; admit persistent altered mental status or serious complications (severe hyperthermia, hypertension, seizures, rhabdomyolysis)

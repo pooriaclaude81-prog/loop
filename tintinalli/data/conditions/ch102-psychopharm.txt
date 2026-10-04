@@ -1,0 +1,368 @@
+@cond cyclic-antidepressant-overdose
+ch: 102
+name: Cyclic (tricyclic) antidepressant overdose
+name_fa: مسمومیت با آنتی‌دپرسان‌های حلقوی (TCA)
+cc: poisoning, altered-mental-status, palpitations
+keywords: tricyclic antidepressant overdose, TCA, QRS prolongation, sodium bicarbonate, amitriptyline, torsades, magnesium, مسمومیت تری سیکلیک
+status: draft
+
+@features
+- مهار بازجذب نوراپی‌نفرین و سروتونین، مسدود کردن کانال سدیم و آنتاگونیسم گیرنده سروتونین؛ سمیت شدید در overdose؛ مصرف کاهش یافته
+- تغییر هوشیاری، تشنج، اختلال هدایت یا ریتم قلبی، هیپوتانسیون، افسردگی تنفسی و در شدید کما؛ سمیت جدی معمولاً ظرف 6 ساعت از مصرف
+- تشخیص بالینی؛ ECG: تاکی‌کاردی سینوسی، انحراف محور راست 40 ms انتهایی، طولانی شدن PR، QRS و QT؛ کمتر RBBB، بلوک AV و الگوی Brugada؛ amoxapine ممکن است بدون تغییر ECG سمیت دهد
+
+@ddx
+- !Sodium channel blocker poisoning (other) |
+- !Anticholinergic / sympathomimetic toxicity |
+- Seizure / arrhythmia from another cause |
+- Serotonin syndrome |
+
+@redflags
+- QRS > 100 ms، تشنج، هیپوتانسیون، آریتمی بطنی، کما
+
+@guide
+حمایتی. IV و مانیتور ریتم و ECG. زغال فعال 1 g/kg PO در نبود منع. هیپوتانسیون: کریستالوئید ایزوتونیک؛ پایدار: norepinephrine یا epinephrine. اختلال هدایت و آریتمی بطنی: sodium bicarbonate بولوس 1 تا 2 mEq/kg IV و تکرار تا بهبود یا pH خون 7.50 تا 7.55؛ انفوزیون مداوم (150 mEq در 1 L D5W) با سرعت 2 تا 3 mL/kg/h. torsades: magnesium sulfate 2 g IV. آژیتاسیون: بنزودیازپین؛ فیزوستیگمین ممنوع. تشنج: بنزودیازپین؛ phenobarbital شروع 10 تا 15 mg/kg IV در مقاوم. بدون علامت پس از 6 ساعت: نیاز به بستری نیست؛ علامت‌دار: تخت مانیتور یا ICU.
+
+@variant tca-overdose-main
+name: Tricyclic antidepressant overdose
+level: I
+imp: Cyclic antidepressant overdose
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+o2: O2 therapy: F.M 6–10 L/min or N.C 3–5 L/min if SpO2 < 94%
+
+@scenario
+زنی ۳۵ ساله پس از مصرف مقدار زیادی آمی‌تریپتیلین با گیجی، تاکی‌کاردی 130، QRS 130 ms و فشار 80/50.
+
+@why
+بیکربنات برای QRS پهن و آریتمی؛ زغال؛ بنزودیازپین؛ بدون فیزوستیگمین.
+
+@L
+- Serial ECG monitoring (QRS, QT, PR); electrolytes, blood gas, glucose; acetaminophen and salicylate levels
+
+@S
+- Hypotension: isotonic crystalloids {ci: caution in heart failure / pulmonary edema}
+
+@T
+- Activated charcoal 1 g/kg PO if no contraindications
+- Sodium bicarbonate 1 to 2 mEq/kg IV bolus, repeated until improvement or blood pH 7.50 to 7.55; continuous infusion (150 mEq in 1 L 5% dextrose in water) 2 to 3 mL/kg/h (conduction disturbances, ventricular dysrhythmias)
+- Persistent hypotension: Norepinephrine or Epinephrine
+- Torsades de pointes: Magnesium sulfate 2 g IV
+- Agitation and seizures: benzodiazepines; refractory seizures Phenobarbital 10 to 15 mg/kg IV {ci: avoid physostigmine}
+
+@Co
+- Admit symptomatic patients to a monitored bed or ICU; asymptomatic after 6 hours need no toxicologic admission; Poison Center
+
+@cond atypical-antidepressant-ssri-overdose
+ch: 102
+name: Atypical antidepressant, SSRI and SNRI overdose (trazodone, bupropion, mirtazapine, SSRIs, SNRIs)
+name_fa: مسمومیت با آنتی‌دپرسان‌های آتیپیک، SSRI و SNRI
+cc: poisoning, seizure, altered-mental-status
+keywords: trazodone, bupropion overdose, mirtazapine, SSRI overdose, SNRI, venlafaxine, citalopram QT, seizures, بوپروپیون, SSRI
+status: draft
+
+@features
+- جدیدتر و ایمن‌تر ولی سمیت از جمله سندرم سروتونین
+- trazodone: افسردگی CNS، آتاکسی، سرگیجه، تشنج، هیپوتانسیون ارتوستاتیک، استفراغ، درد شکم؛ ECG: QT طولانی، برادی/تاکی‌کاردی سینوسی، torsades؛ پریاپیسم حتی در دوز درمانی
+- bupropion: آژیتاسیون، سرگیجه، لرزش، استفراغ، خواب‌آلودگی، تاکی‌کاردی؛ تشنج شایع‌تر و ممکن است اولین علامت باشد؛ ECG: تاکی‌کاردی، QRS پهن و QT طولانی
+- mirtazapine: خواب‌آلودگی، گیجی، تاکی‌کاردی سینوسی، فشار بالا؛ شدید یا coingestion: کما و افسردگی تنفسی
+- SSRIs (fluoxetine، fluvoxamine، paroxetine، sertraline، citalopram، escitalopram): استفراغ، خواب‌آلودگی، لرزش، تاکی‌کاردی، میدریاز، تشنج، اسهال، توهم؛ برادی‌کاردی با fluvoxamine؛ QRS/QT طولانی با citalopram و escitalopram
+- SNRIs (venlafaxine، duloxetine، levomilnacipran، desvenlafaxine): هیپوتانسیون، تعریق، لرزش، میدریاز، خواب‌آلودگی، کما، تشنج؛ ECG: تاکی‌کاردی و QRS/QT پهن؛ رابدومیولیز با venlafaxine
+
+@ddx
+- !Serotonin syndrome |
+- !Seizure from bupropion / QRS widening |
+- Cyclic antidepressant overdose |
+- Co-ingestion of sedatives / other drugs |
+
+@redflags
+- تشنج، QRS پهن، QT طولانی، علائم سندرم سروتونین
+
+@guide
+حمایتی. trazodone: مانیتور و ECG؛ زغال تک‌دوز؛ هیپوتانسیون: مایع سپس norepinephrine؛ torsades: magnesium sulfate IV یا overdrive pacing؛ ترخیص بدون علامت ≥ 6 ساعت؛ علائم عصبی/قلبی: مانیتور. bupropion: تشنج را انتظار داشته باش؛ IV و مانیتور؛ زغال؛ تشنج: بنزودیازپین سپس phenobarbital؛ QRS: بیکربنات؛ لیپید IV برای ناپایداری مقاوم؛ بدون علامت 8 ساعت؛ > 450 mg SR تا 24 ساعت؛ بستری: تشنج، تاکی‌کاردی پایدار یا بی‌حالی. mirtazapine: حمایتی و زغال تک‌دوز؛ علامت‌دار مانیتور؛ بدون علامت پس از 6 ساعت ترخیص. SSRI: IV و مانیتور، زغال تک‌دوز، بنزودیازپین در تشنج، بیکربنات برای QRS؛ مشاهده ≥ 6 ساعت؛ بستری: تاکی‌کاردی، تغییر هوشیاری، اختلال هدایت یا سندرم سروتونین. SNRI: بدون راهنمای ثابت؛ IV و مانیتور؛ زغال تک‌دوز؛ WBI برای venlafaxine > 4000 mg؛ بنزودیازپین؛ هیپوتانسیون: مایع و وازوپرسور مستقیم؛ بیکربنات برای QRS؛ مایع IV برای رابدومیولیز؛ حداقل 6 ساعت (24 ساعت برای آزادسازی طولانی).
+
+@variant antidepressant-atypical-ssri-main
+name: Atypical antidepressant / SSRI / SNRI overdose
+level: II
+imp: Atypical antidepressant / SSRI / SNRI overdose
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: none
+
+@scenario
+مردی ۲۵ ساله پس از مصرف مقدار زیادی bupropion SR با آژیتاسیون، لرزش، تاکی‌کاردی و یک تشنج.
+
+@why
+bupropion: تشنج و QRS پهن؛ بنزودیازپین سپس فنوباربیتال؛ بیکربنات.
+
+@L
+- 12-lead ECG (QRS / QT); electrolytes; acetaminophen and salicylate levels {note: empiric}
+
+@S
+- Hypotension: isotonic IV fluids followed by norepinephrine (trazodone); direct-acting vasopressor (SNRI) {ci: caution in heart failure / pulmonary edema}; IV fluid for rhabdomyolysis (venlafaxine)
+
+@T
+- IV access; cardiac rhythm monitoring; activated charcoal (single dose) if no contraindications; consider whole-bowel irrigation for venlafaxine overdose > 4000 mg
+- Seizures: benzodiazepines, then Phenobarbital (bupropion)
+- QRS prolongation: IV sodium bicarbonate; refractory cardiovascular instability: IV lipid emulsion
+- Torsades de pointes (trazodone): IV Magnesium sulfate or overdrive pacing
+
+@Co
+- Observe asymptomatic: trazodone/mirtazapine/SSRI ≥ 6 hours; bupropion 8 hours (> 450 mg SR up to 24 hours); SNRI ≥ 6 hours (24 hours for extended-release); admit symptomatic patients to a monitored bed; psychiatric evaluation as indicated
+
+@cond serotonin-syndrome
+ch: 102
+name: Serotonin syndrome
+name_fa: سندرم سروتونین
+cc: poisoning, altered-mental-status, fever
+keywords: serotonin syndrome, cyproheptadine, myoclonus, hyperthermia, clonus, SSRI MAOI interaction, سندرم سروتونین
+status: draft
+
+@features
+- واکنش بالقوه تهدیدکننده حیات به داروهای سروتونرژیک؛ هر دارو/ترکیبی که انتقال سروتونین مرکزی را زیاد کند (اغلب آنتی‌دپرسان)
+- تغییر هوشیاری، هیپرترمی، تشنج و افزایش تون عضله به‌ویژه میوکلونوس؛ هیپرترمی شایع‌ترین علت مرگ
+- علائم غیراختصاصی و بدون تست تأییدی؛ معیارها: مواجهه با داروی سروتونرژیک و میوکلونوس
+
+@ddx
+- !Neuroleptic malignant syndrome |
+- !Anticholinergic / sympathomimetic toxicity |
+- MAOI toxicity / malignant hyperthermia |
+- Sepsis / meningitis |
+
+@redflags
+- هیپرترمی، سفتی عضله، تشنج
+
+@guide
+درمان حمایتی؛ رابدومیولیز و اسیدوز متابولیک را بپا. اینتوباسیون و حمایت تهویه در شدید. بنزودیازپین برای کاهش ناراحتی و شل شدن عضله. cyproheptadine (ضدسروتونرژیک) دوز اولیه 4 تا 12 mg PO، تکرار با 2 mg هر 2 ساعت در صورت عدم پاسخ. بستری تا رفع علائم؛ شدید: ICU؛ قطع داروهای سروتونرژیک.
+
+@variant serotonin-syndrome-main
+name: Serotonin syndrome
+level: I
+imp: Serotonin syndrome
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: none
+
+@scenario
+مردی ۴۰ ساله با SSRI و ترامادول با هیپرترمی 39.8، میوکلونوس، تعریق و آژیتاسیون.
+
+@why
+قطع داروها، بنزودیازپین و cyproheptadine؛ مراقب رابدومیولیز.
+
+@L
+- CK, electrolytes, blood gas (rhabdomyolysis and metabolic acidosis); no confirmatory test
+
+@S
+- IV fluids for rhabdomyolysis {ci: caution in heart failure / CKD}
+
+@T
+- Benzodiazepines to decrease discomfort and promote muscle relaxation
+- Cyproheptadine initial dose 4 to 12 mg PO, repeated with 2 mg doses at 2-hour intervals if no response
+- Endotracheal intubation and ventilatory support in severe cases; cooling for hyperthermia; discontinue serotonergic drugs
+
+@Co
+- Admit all patients until symptoms resolve; ICU for severely ill patients
+
+@cond maoi-toxicity
+ch: 102
+name: Monoamine oxidase inhibitor (MAOI) toxicity
+name_fa: مسمومیت با مهارکننده‌های مونوآمین‌اکسیداز (MAOI)
+cc: poisoning, headache, chest-pain
+keywords: MAOI toxicity, tyramine, hypertensive crisis, phentolamine, dantrolene, phenelzine, tranylcypromine, مسمومیت MAOI
+status: draft
+
+@features
+- درمان افسردگی مقاوم؛ تجمع نوروترانسمیترها (نوراپی‌نفرین) و آمین‌های غذایی (تیرامین)؛ تداخل کشنده غذا/دارو و سمیت شدید در overdose
+- سردرد، آژیتاسیون، تپش، درد قفسه سینه، لرزش؛ تاکی‌کاردی سینوسی، هیپررفلکسی، تعریق، فاسیکولاسیون، میدریاز، هیپروانتیلاسیون، نیستاگموس، برافروختگی، سفتی عضله و فشار بالا؛ علائم اغلب تأخیری (تا 24 ساعت)؛ سپس کما، تشنج، برادی‌کاردی، هیپوتانسیون، هیپوکسی و هیپرترمی؛ مرگ معمولاً نارسایی چندارگانی
+- تشخیص بالینی؛ آزمایش برای عوارض: رابدومیولیز، نارسایی کلیه، هیپرکالمی، اسیدوز متابولیک، DIC؛ افتراق: حالت هیپرآدرنرژیک، تغییر هوشیاری و سفتی عضله
+
+@ddx
+- !Serotonin syndrome |
+- !Sympathomimetic toxicity / pheochromocytoma |
+- Neuroleptic malignant syndrome |
+- Malignant hyperthermia / thyrotoxicosis |
+
+@redflags
+- فشار بسیار بالا، هیپرترمی، سفتی عضله، اندازه مصرف > 1 mg/kg
+
+@guide
+حمایتی و درمان عوارض. IV و مانیتور ریتم؛ زغال فعال. فشار بالا: phentolamine 2.5 تا 5 mg IV هر 10 تا 15 دقیقه سپس انفوزیون؛ جایگزین nitroprusside؛ بتابلوکر پرهیز. نیتروگلیسیرین برای درد آنژینی و ایسکمی. هیپوتانسیون: مایع ایزوتونیک سپس norepinephrine. آریتمی بطنی: lidocaine یا procainamide. برادی‌کاردی: atropine، isoproterenol، dobutamine و pacing. تشنج: بنزودیازپین؛ گاهی بیهوشی عمومی و فلج با vecuronium با EEG مداوم. هیپرترمی: بنزودیازپین + خنک‌سازی؛ فلج شیمیایی غیردپلاریزان؛ dantrolene 0.5 تا 2.5 mg/kg IV هر 6 ساعت اگر سایر اقدامات شکست. > 1 mg/kg: ICU؛ کمتر: تخت مانیتور؛ بدون علامت 24 ساعت مشاهده.
+
+@variant maoi-toxicity-main
+name: MAOI toxicity / hypertensive crisis
+level: I
+imp: MAOI toxicity (hyperadrenergic state)
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+
+@scenario
+مردی ۴۵ ساله با phenelzine که پنیر کهنه خورده؛ سردرد شدید، فشار 220/130، تعریق و لرزش.
+
+@why
+فشار بحرانی MAOI: فنتولامین؛ پرهیز از بتابلوکر؛ علائم تأخیری ممکن.
+
+@L
+- CK, creatinine, potassium, blood gas, coagulation (rhabdomyolysis, renal failure, hyperkalemia, metabolic acidosis, DIC)
+
+@T
+- IV access; cardiac rhythm monitoring; activated charcoal if no contraindications
+- Hypertension: Phentolamine 2.5 to 5 mg IV every 10 to 15 minutes followed by an infusion (alternative nitroprusside) {ci: avoid beta-blockers}
+- Nitroglycerin for anginal chest pain and signs of myocardial ischemia
+- Hypotension: isotonic IV fluid boluses, followed by Norepinephrine; ventricular dysrhythmias: Lidocaine or Procainamide; bradycardia: Atropine, Isoproterenol, Dobutamine and pacing
+- Seizures: benzodiazepines (general anesthesia and paralysis with Vecuronium with EEG monitoring may be necessary)
+- Hyperthermia: benzodiazepines plus cooling; chemical paralysis with a nondepolarizing agent for severe rigidity; Dantrolene 0.5 to 2.5 mg/kg IV every 6 hours if other measures have failed
+
+@Co
+- Ingested > 1 mg/kg: ICU; less: monitored bed; observe asymptomatic patients for 24 hours
+
+@cond antipsychotic-overdose-nms
+ch: 102
+name: Antipsychotic overdose and neuroleptic malignant syndrome
+name_fa: مسمومیت با آنتی‌سایکوتیک و سندرم بدخیم نورولپتیک (NMS)
+cc: poisoning, altered-mental-status, fever
+keywords: antipsychotic overdose, neuroleptic malignant syndrome, NMS, dantrolene, bromocriptine, quetiapine, haloperidol, سندرم بدخیم نورولپتیک
+status: draft
+
+@features
+- بلوک گیرنده دوپامین؛ CNS: بی‌حالی، آتاکسی، دیزآرتری، گیجی و کما؛ تشنج شایع‌تر با loxapine و clozapine؛ آنتی‌موسکارینی؛ قلبی: هیپوتانسیون ارتوستاتیک، تاکی‌کاردی، PR/QRS/QT طولانی، تغییرات ST-T؛ EPS در دوز درمانی (دیستونی، آکاتیزی، دیسکینزی)
+- NMS: واکنش ایدیوسینکراتیک نادر ولی کشنده؛ 1 تا 3 روز؛ تب، سفتی عضله، اختلال اتونوم و تغییر هوشیاری؛ مرگ از عوارض سفتی (رابدومیولیز، نارسایی کلیه، قلب/تنفس)
+- جدول 102-1 معیارها: Caroff-Mann: ماژور تب > 38 و سفتی؛ مینور: تغییر هوشیاری، تاکی‌کاردی، فشار غیرطبیعی، تاکی‌پنه/هیپوکسی، تعریق/سیالوره، لرزش، بی‌اختیاری، CK بالا، لکوسیتوز، اسیدوز؛ نیاز: هر دو ماژور و ≥ 5 مینور و مصرف آنتی‌سایکوتیک ظرف 7 روز؛ Levenson: سه ماژور یا دو ماژور و چهار مینور
+- آزمایش: CBC، شیمی، تست حاملگی، ECG؛ NMS: CK و LFT
+
+@ddx
+- !Serotonin syndrome |
+- !Malignant hyperthermia / anticholinergic toxicity |
+- Sepsis / meningitis |
+- Heat stroke |
+
+@redflags
+- تب، سفتی عضله، تغییر هوشیاری، اختلال اتونوم، رابدومیولیز
+
+@guide
+حمایتی. IV و مانیتور؛ حمایت تهویه؛ تشنج: بنزودیازپین؛ هیپوتانسیون: مایع و norepinephrine یا phenylephrine؛ تأخیر هدایت داخل بطنی/آریتمی بطنی: sodium bicarbonate IV (lidocaine جایگزین)؛ لیپید IV برای overdose شدید quetiapine با ناپایداری مقاوم. NMS: خنک‌سازی و بنزودیازپین برای کاهش سفتی؛ اینتوباسیون و فلج با غیردپلاریزان برای تسهیل خنک‌سازی؛ dantrolene (بار 1 تا 2.5 mg/kg IV) در سفتی شدید؛ bromocriptine ممکن است مدت را کوتاه کند. مشاهده 6 ساعت پس از مصرف؛ علامت‌دار: تخت مانیتور؛ NMS: ICU.
+
+@variant antipsychotic-overdose
+name: Antipsychotic overdose
+level: II
+imp: Antipsychotic overdose
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: none
+
+@scenario
+مردی ۳۰ ساله پس از مصرف مقدار زیادی quetiapine با خواب‌آلودگی، هیپوتانسیون و QT طولانی.
+
+@why
+حمایتی؛ بیکربنات برای QRS؛ لیپید IV در quetiapine شدید.
+
+@L
+- CBC, basic chemistries, pregnancy test (women of childbearing age), ECG
+
+@S
+- Hypotension: fluid resuscitation {ci: caution in heart failure / pulmonary edema}
+
+@T
+- IV access; cardiac rhythm monitoring; ventilatory support if respiratory depression
+- Seizures: benzodiazepine; hypotension: Norepinephrine or Phenylephrine
+- Intraventricular conduction delay and ventricular dysrhythmias: IV sodium bicarbonate (alternative Lidocaine for ventricular dysrhythmias)
+- Severe quetiapine overdose with refractory cardiovascular instability: consider IV lipid emulsion
+
+@Co
+- Observe 6 hours post-ingestion; admit symptomatic patients to a monitored bed
+
+@variant nms-main
+name: Neuroleptic malignant syndrome
+level: I
+imp: Neuroleptic malignant syndrome
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: none
+
+@scenario
+مردی ۳۵ ساله با هالوپریدول از ۲ روز پیش با تب 40، سفتی منتشر، گیجی و تاکی‌کاردی؛ CK 20000.
+
+@why
+قطع داروی عامل؛ خنک‌سازی، بنزودیازپین و dantrolene در سفتی شدید.
+
+@L
+- CK, liver function tests, CBC, basic chemistries, electrolytes, ECG
+
+@S
+- IV fluids for rhabdomyolysis {ci: caution in heart failure / pulmonary edema}
+
+@T
+- Cooling measures and benzodiazepines to reduce muscle rigidity
+- Intubation and paralysis with a nondepolarizing agent may facilitate cooling
+- Dantrolene 1 to 2.5 mg/kg IV load when muscle rigidity is pronounced; Bromocriptine may shorten duration {note: dose not given in the book}
+
+@Co
+- ICU admission
+
+@cond lithium-toxicity
+ch: 102
+name: Lithium toxicity
+name_fa: مسمومیت با لیتیوم
+cc: poisoning, altered-mental-status, weakness
+keywords: lithium toxicity, lithium overdose, hemodialysis, whole bowel irrigation, sodium polystyrene sulfonate, nephrogenic diabetes insipidus, مسمومیت لیتیوم
+status: draft
+
+@features
+- درمان دوقطبی و مانیا؛ سمیت از overdose یا تغییر دفع کلیوی؛ مرگ معمولاً نارسایی تنفسی/قلبی
+- لرزش، فاسیکولاسیون یا ضعف، کلونوس، آتاکسی، آژیتاسیون، نوروپاتی محیطی، بی‌حالی یا کما؛ نارسایی حاد کلیه (سالمند، بیماری کلیوی، دیابت، فشار بالا، دهیدراتاسیون)؛ علائم GI شایع در حاد و مزمن؛ قلبی (حاد): اختلال هدایت و آریتمی بطنی؛ دیابت بی‌مزه نفروژنیک و کم‌کاری تیروئید در مصرف مزمن
+- حاد: بیشتر GI تا نورولوژیک؛ سطح ممکن است با علائم همبسته نباشد؛ مزمن: علائم عصبی در سطح پایین‌تر و همبستگی بهتر؛ حاد روی مزمن: هر دو؛ ECG: QT طولانی و T معکوس
+
+@ddx
+- !Sustained-release lithium overdose with rising levels |
+- !Acute kidney injury |
+- Serotonin syndrome / NMS |
+- Other cause of altered mental status |
+
+@redflags
+- کما، تشنج، آریتمی تهدیدکننده، سطح > 4 mEq/L، نارسایی کلیه
+
+@guide
+تثبیت: راه هوایی، تهویه و همودینامیک. IV و مانیتور ریتم و ECG. آزمایش: عملکرد کلیه، الکترولیت، CBC، TSH و هورمون تیروئید در تغییر هوشیاری، سطح لیتیوم و سایر مصرف‌ها. تشنج: بنزودیازپین سپس فنوباربیتال. زغال فعال لیتیوم را جذب نمی‌کند. WBI مفید به‌ویژه آزادسازی طولانی. نرمال سالین IV مهم: بولوس 2 L طی 30 تا 60 دقیقه در بزرگسال سپس انفوزیون 1.5 تا 2 برابر maintenance. sodium polystyrene sulfonate (Kayexalate) فقط خوراکی (هیپوکالمی و یبوست). همودیالیز: سطح > 4 mEq/L در overdose حاد، یا سمیت شدید (کما، تشنج، آریتمی تهدیدکننده)؛ نارسایی کلیه با سطح در حال افزایش و آزادسازی طولانی. حاد: مشاهده 4 تا 6 ساعت؛ بستری: سطح > 1.5 mEq/L و آزادسازی طولانی؛ مزمن خفیف: NS 6 تا 12 ساعت و ترخیص/ارجاع وقتی سطح < 1.5؛ مزمن شدیدتر: بستری.
+
+@variant lithium-toxicity-main
+name: Lithium toxicity (acute or chronic)
+level: I
+imp: Lithium toxicity
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: none
+
+@scenario
+زن ۶۵ ساله با مصرف مزمن لیتیوم و دهیدراتاسیون با لرزش، آتاکسی و گیجی؛ سطح لیتیوم 3.2.
+
+@why
+مزمن: سطح همبسته؛ NS و همودیالیز در سمیت شدید.
+
+@L
+- Serum lithium level (and other possible ingestants); renal function tests, electrolytes, complete blood count; thyroid-stimulating hormone and thyroid hormone levels if altered level of consciousness
+
+@S
+- Normal saline: 2-L IV bolus over 30 to 60 minutes in most adults followed by a continuous infusion at 1.5 to 2 times the maintenance rate {ci: caution in heart failure / pulmonary edema / sodium disorders}
+
+@T
+- Seizures: IV benzodiazepines, followed by phenobarbital
+- Whole-bowel irrigation (especially sustained-release lithium products); sodium polystyrene sulfonate (Kayexalate) orally to bind lithium {ci: activated charcoal does not adsorb lithium; hypokalemia and constipation may develop}
+- Hemodialysis if serum lithium > 4 mEq/L in acute overdose, or severe toxicity (coma, seizures, life-threatening dysrhythmias), renal failure with rising levels, or sustained-release preparation
+
+@Co
+- Nephrology (hemodialysis); acute ingestion: monitor 4 to 6 hours, admit if level > 1.5 mEq/L or sustained-release; mild chronic: IV normal saline 6 to 12 hours then discharge/psychiatric referral once level < 1.5 mEq/L; admit more severe chronic toxicity

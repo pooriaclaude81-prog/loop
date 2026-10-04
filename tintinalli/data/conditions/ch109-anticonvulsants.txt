@@ -1,0 +1,248 @@
+@cond phenytoin-toxicity
+ch: 109
+name: Phenytoin toxicity
+name_fa: مسمومیت با فنی‌توئین
+cc: poisoning, dizziness-vertigo, altered-mental-status
+keywords: phenytoin toxicity, nystagmus, ataxia, purple glove, extravasation, fosphenytoin, propylene glycol, فنی توئین
+status: draft
+
+@features
+- مرگ ناشی از اوردوز عمدی نادر با حمایت مناسب؛ بیشتر مرگ‌ها از تزریق سریع IV و واکنش‌های حساسیت؛ در مصرف‌کننده مزمن با مقدار کمتر هم سمیت رخ می‌دهد
+- اثرات تهدیدکننده (هیپوتانسیون، برادیکاردی، آسیستول) با تزریق IV و احتمالاً از حلال propylene glycol؛ با کند کردن انفوزیون قابل پیشگیری؛ نشت phenytoin (نه fosphenytoin) می‌تواند ضایعه فاجعه‌بار (از دست رفتن بافت نرم یا انگشتان/دست) بدهد
+- جدول 109-1 (CNS): سرگیجه، لرزش، اختلال بینایی، نیستاگموس افقی و عمودی، دوبینی، میوز/میدریاز، افتالموپلژی، آتاکسی تنه، حرکات کره‌آتتوئید، تحریک‌پذیری، گیجی، توهم، کما، آنسفالوپاتی، دیزآرتری، تشنج (نادر)؛ محیطی: نوروپاتی، بی‌اختیاری ادراری؛ حساسیت: اوزینوفیلی، راش، pseudolymphoma، SLE، پان‌سیتوپنی، هپاتیت، پنومونیت؛ GI: تهوع، استفراغ، هپاتوتوکسیسیتی؛ پوست: هیرسوتیسم، آکنه، SJS؛ سایر: gingival hyperplasia، fetal hydantoin، هیپرگلیسمی، هیپوکلسمی؛ تزریقی: هیپوتانسیون، برادیکاردی، اختلال هدایت، VF، آسیستول و نکروز
+- جدول 109-2: < 10 معمولاً بدون علامت؛ 10 تا 20 گاهی نیستاگموس خفیف؛ 20 تا 30 نیستاگموس؛ 30 تا 40 آتاکسی، دیزآرتری، تهوع/استفراغ؛ 40 تا 50 لتارژی و گیجی؛ > 50 کما و تشنج
+- تشخیص: شرح حال، معاینه و سطح سرمی؛ محدوده درمانی 10 تا 20 µg/mL؛ جذب نامنظم: سطح سریال؛ ECG: PR طولانی، QRS پهن، تغییرات ST/T
+
+@ddx
+- !Other causes of altered mental status / cerebellar syndrome |
+- Alcohol or sedative intoxication |
+- Stroke (posterior circulation) |
+
+@redflags
+- تشنج، کما، هیپوتانسیون یا برادیکاردی حین انفوزیون IV، نشت دارو، راش/SJS
+
+@guide
+مانیتور و IV. اوردوز خوراکی حاد یا سمیت شدید: زغال خوراکی چنددوزی 1 g/kg هر 4 تا 6 ساعت در 24 ساعت اول. اسیدوز را اصلاح کن (کاهش phenytoin آزاد). هیپوتانسیون ناشی از انفوزیون IV: کریستالوئید ایزوتونیک و قطع انفوزیون. برادی‌دیسریتمی: atropine یا pacing. تشنج: بنزودیازپین یا phenobarbital. بستری: عوارض جدی (تشنج، کما، تغییر هوشیاری، آتاکسی)؛ توانایی راه رفتن ایمن برای ترخیص لازم؛ خفیف: مشاهده تا کاهش سطح؛ مانیتور قلبی پس از مصرف خوراکی تنها لازم نیست. phenytoin را قطع کن: حداقل 1 تا 2 روز، و پس از 2 تا 3 روز سطح کنترل شود.
+
+@variant phenytoin-oral
+name: Phenytoin toxicity, oral overdose or supratherapeutic level
+level: III
+imp: Phenytoin toxicity (oral)
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: none
+
+@scenario
+مرد ۴۰ ساله مبتلا به صرع با نیستاگموس، آتاکسی و تکلم نامفهوم؛ سطح فنی‌توئین 38 µg/mL.
+
+@why
+سطح سریال، زغال چنددوزی و مشاهده؛ توانایی راه رفتن برای ترخیص.
+
+@L
+- Serial serum phenytoin levels (erratic absorption); glucose; electrolytes, BUN, creatinine; liver function tests
+
+@S
+- Correct acidosis (decreases free phenytoin)
+
+@T
+- Multidose oral activated charcoal 1 g/kg every 4–6 h for the first 24 h (acute oral overdose or severe toxicity)
+- Discontinue phenytoin (withhold at least 1–2 days depending on level; recheck level after 2–3 days)
+- Benzodiazepine or phenobarbital for seizures
+
+@Co
+- Admit if seizures, coma, altered mental status, or ataxia preventing safe ambulation; mild symptoms: observe until levels declining; cardiac monitoring after isolated oral ingestion unnecessary
+
+@variant phenytoin-iv
+name: Phenytoin IV infusion toxicity (hypotension, bradycardia, extravasation)
+level: I
+imp: Phenytoin infusion-related toxicity (hypotension / bradycardia)
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: none
+
+@scenario
+مردی ۵۵ ساله حین بارگیری IV فنی‌توئین با افت فشار 75/45، برادیکاردی و درد/تورم محل ورید.
+
+@why
+قطع انفوزیون و درمان حمایتی؛ بررسی نشت.
+
+@L
+- Serum phenytoin level; electrolytes, glucose
+
+@S
+- IV isotonic crystalloid {ci: caution in heart failure / pulmonary edema}
+
+@T
+- Discontinue the infusion immediately; slow rate of administration if re-challenged
+- Atropine or cardiac pacing for bradydysrhythmia
+- Inspect IV site for extravasation (phenytoin, but not fosphenytoin, may cause catastrophic soft tissue injury)
+
+@Co
+- Admit with continuous cardiac monitoring if conduction disturbance; surgical consult if tissue injury from extravasation
+
+@cond carbamazepine-toxicity
+ch: 109
+name: Carbamazepine toxicity
+name_fa: مسمومیت با کاربامازپین
+cc: poisoning, altered-mental-status, seizure
+keywords: carbamazepine overdose, Tegretol, anticholinergic, QRS widening, ileus, hemodialysis, کاربامازپین
+status: draft
+
+@features
+- خواص آنتی‌کولینرژیک: تأخیر حرکت GI و بدتر شدن بالینی دیررس
+- حاد: آتاکسی، نیستاگموس، میوز/میدریاز، ایلئوس، انسداد روده، هایپرتونی، هایپررفلکسی، دیستونی و توکسیدروم آنتی‌کولینرژیک؛ شدید: کما و نارسایی تنفسی؛ تشنج در سطح بالا؛ نادر: QRS پهن و دیسریتمی
+- مصرف‌کننده درمانی با مقدار کمتر هم سمی می‌شود؛ سطح با شدت همبسته نیست ولی > 40 µg/mL خطر عارضه و > 60 تا 80 ممکن است کشنده باشد؛ UDS ممکن است TCA کاذب مثبت بدهد
+
+@ddx
+- !TCA overdose |
+- Other anticholinergic toxicity |
+- Other causes of altered mental status |
+
+@redflags
+- QRS پهن، کما، تشنج، نارسایی تنفسی، سطح > 40 µg/mL
+
+@guide
+زغال فعال در بیمار هوشیار ظرف 1 ساعت یا مصرف‌کننده مزمن. همودیالیز یا hemodiafiltration برای اوردوز تهدیدکننده حیات. ECG برای QRS پهن: sodium bicarbonate. ترخیص: بدون علامت، سطح در حال کاهش (< 15 µg/mL) و ECG طبیعی.
+
+@variant carbamazepine-main
+name: Carbamazepine toxicity
+level: II
+imp: Carbamazepine toxicity
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: none
+
+@scenario
+زن ۳۰ ساله پس از مصرف عمدی کاربامازپین با خواب‌آلودگی، آتاکسی، میدریاز و ایلئوس.
+
+@why
+سطح سریال، ECG و زغال؛ دیالیز در شدید.
+
+@L
+- Serial serum carbamazepine levels (delayed peak possible); electrolytes, glucose, BUN, creatinine
+
+@S
+- Sodium bicarbonate if QRS widening {note: obtain ECG for QRS interval}
+
+@T
+- Activated charcoal in awake patient within 1 h of ingestion or in patients chronically taking carbamazepine
+- Continuous cardiac monitoring
+
+@Co
+- Nephrology: hemodialysis or hemodiafiltration for life-threatening overdose
+- Discharge if asymptomatic, declining levels (< 15 µg/mL) and normal ECG; psychiatric evaluation
+
+@cond valproate-toxicity
+ch: 109
+name: Valproate toxicity
+name_fa: مسمومیت با والپروات
+cc: poisoning, altered-mental-status
+keywords: valproate, valproic acid, hyperammonemia, L-carnitine, anion gap acidosis, hepatotoxicity, والپروات
+status: draft
+
+@features
+- اوردوز حاد: افسردگی CNS، افسردگی تنفسی، هیپوتانسیون، هیپوگلیسمی، هیپرناترمی، هیپوفسفاتمی و اسیدوز متابولیک anion gap که ممکن است روزها بماند
+- گزارش: سمیت کبدی، ادم مغز، هیپرآمونمی، پانکراتیت و ترومبوسیتوپنی؛ نارسایی کبد (microvesicular steatosis) حدود 1 در 20,000 مصرف‌کننده طولانی‌مدت؛ بیشترین خطر کودک < 3 سال با چند ضدصرع
+- محدوده درمانی 50 تا 100 µg/mL؛ عوارض > 150؛ کما با سطح > 800
+
+@ddx
+- !Other causes of altered mental status / hepatic encephalopathy |
+- Other anion gap acidosis |
+- Reye-like syndromes |
+
+@redflags
+- کما، هیپرآمونمی، سطح > 800 µg/mL، نارسایی کبد، پانکراتیت
+
+@guide
+در فرآورده enteric-coated و delayed-release زغال چنددوزی را در نظر بگیر و سطح سریال بفرست (اوج دیررس)؛ WBI در enteric-coated یا extended-release. L-carnitine 50 mg/kg/day ممکن است بهبود را تسریع و بقا در هپاتوتوکسیسیتی را بیشتر کند. همودیالیز در سطح > 800 µg/mL؛ hemoperfusion و hemodiafiltration در اوردوز شدید. همه علامت‌دار جز خفیف بستری؛ بدون علامت با سطح در حال کاهش ترخیص.
+
+@variant valproate-main
+name: Valproate overdose
+level: II
+imp: Valproate toxicity
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: once
+cxr: none
+
+@scenario
+مرد ۲۵ ساله پس از مصرف عمدی والپروات با خواب‌آلودگی و تنفس کند؛ سطح 450 µg/mL.
+
+@why
+سطح سریال، آمونیاک و گلوکز؛ carnitine؛ دیالیز در سطح بسیار بالا.
+
+@L
+- Serum valproate level (serial, delayed peak); ammonia; bedside glucose; liver function tests, electrolytes, CBC
+
+@S
+- L-carnitine 50 mg/kg/day (may hasten recovery and increase survival from hepatotoxicity)
+
+@T
+- Multidose activated charcoal after enteric-coated / delayed-release ingestion
+- Whole-bowel irrigation for enteric-coated or extended-release preparations
+
+@Co
+- Nephrology: hemodialysis if serum concentration > 800 µg/mL; hemoperfusion / hemodiafiltration for severe overdose
+- Admit all symptomatic (except mild); discharge asymptomatic with declining levels
+
+@cond second-generation-anticonvulsant-toxicity
+ch: 109
+name: Second-generation anticonvulsant overdose
+name_fa: اوردوز ضدصرع‌های نسل دوم
+cc: poisoning, altered-mental-status, seizure
+keywords: gabapentin, pregabalin, lamotrigine, levetiracetam, topiramate, felbamate, tiagabine, lacosamide, oxcarbazepine, zonisamide, rufinamide, گاباپنتین, پرگابالین, لاموتریژین
+status: draft
+
+@features
+- به‌طور کلی سمیت کم در اوردوز حاد
+- felbamate: آنمی آپلاستیک و نارسایی کبد، کریستالیزه در کلیه و AKI در اوردوز بزرگ
+- gabapentin: خواب‌آلودگی، آتاکسی، تهوع، استفراغ (حدود 10 ساعت)؛ سوءمصرف به‌علت اثر شبه‌بنزودیازپین؛ pregabalin: خواب‌آلودگی، سرگیجه، اوردوز: کاهش هوشیاری؛ سوءمصرف مشابه
+- lacosamide: سرگیجه، سردرد، تهوع، دوبینی؛ lamotrigine: واکنش خودایمن در مصرف درمانی؛ اوردوز: خواب‌آلودگی، استفراغ، آتاکسی، سرگیجه، تشنج، کما، سمیت قلبی (QRS و QT طولانی) و پانکراتیت؛ درمان: sodium bicarbonate
+- levetiracetam: لتارژی، کما، افسردگی تنفس؛ oxcarbazepine: هیپوناترمی و راش؛ rufinamide: سردرد، سرگیجه، خستگی، خواب‌آلودگی
+- tiagabine: سمیت عصبی سریع: لتارژی، کما، تشنج، میوکلونوس، سفتی عضلانی، دلیریوم؛ topiramate: سنگ کلیه و گلوکوم؛ اوردوز: خواب‌آلودگی، ورتیگو، آژیتاسیون، میدریاز، تشنج، اسیدوز متابولیک تا 7 روز؛ zonisamide: سنگ کلیه و راش
+
+@ddx
+- !Coingestion (opioid, sedative) |
+- Other causes of altered mental status |
+
+@redflags
+- تشنج، کما، QRS/QT طولانی (lamotrigine)، افسردگی تنفس، اسیدوز (topiramate)
+
+@guide
+معمولاً حمایتی. lamotrigine با QRS پهن: sodium bicarbonate. ECG در lamotrigine. در اوردوز felbamate عملکرد کلیه و CBC/کبد را پیگیری کن. topiramate: اسیدوز تا 7 روز؛ الکترولیت و gap را دنبال کن.
+
+@variant second-gen-main
+name: Second-generation anticonvulsant overdose
+level: III
+imp: Second-generation anticonvulsant overdose
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: none
+
+@scenario
+مرد ۲۸ ساله پس از مصرف حجیم lamotrigine با خواب‌آلودگی، آتاکسی و QRS پهن.
+
+@why
+حمایتی؛ بیکربنات برای QRS پهن در lamotrigine.
+
+@L
+- Glucose; electrolytes (anion gap; topiramate acidosis may last 7 days), BUN, creatinine; liver function tests and CBC (felbamate); lipase (lamotrigine pancreatitis); APAP and salicylate levels
+
+@S
+- Sodium bicarbonate for QRS widening (lamotrigine)
+
+@T
+- Supportive care; continuous cardiac monitoring
+- Benzodiazepine for seizures
+
+@Co
+- Observe/admit symptomatic patients; psychiatric evaluation if intentional

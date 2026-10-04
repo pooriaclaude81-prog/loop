@@ -1,0 +1,241 @@
+@cond toxic-inhalation-industrial
+ch: 115
+name: Industrial respiratory toxin inhalation (phosgene, chlorine, nitrogen dioxide, ammonia)
+name_fa: استنشاق گازهای صنعتی (فسژن، کلر، دی‌اکسید نیتروژن، آمونیاک)
+cc: poisoning, dyspnea, cough-hemoptysis
+keywords: phosgene, chlorine, nitrogen dioxide, silo gas, ammonia, toxic gas inhalation, delayed pulmonary edema, nebulized sodium bicarbonate, فسژن, کلر, آمونیاک
+status: draft
+
+@features
+- بیش از 50,000 ماده شیمیایی صنعتی؛ SDS، مرکز سموم و سم‌شناس منابع مهم؛ کودک و باردار نیاز به توجه ویژه (فیزیولوژی تنفسی/پوستی/GI کودک؛ تمرکز بر مادر برای جنین)
+- جدول 115-1: فسژن (تحریک خفیف/بدون): فوری: تحریک چشم و راه هوایی فوقانی، گاه بدون علامت؛ تأخیری: تنگی نفس و ادم ریوی غیرقلبی؛ بوی علف تازه‌چیده؛ ادم تا 24 ساعت تأخیر و شروع ≤ 4 ساعت پیش‌آگهی بد؛ تبدیل به CO2 و HCl در راه هوایی تحتانی → آسیب سوزاننده، نشت مویرگی
+- کلر (محرک): فوری: تحریک چشم و راه هوایی فوقانی، تهوع/استفراغ (مواجهه کم)؛ تأخیری: ادم ریوی (مواجهه بالا) و ARDS تا 6 ساعت؛ بوی تند خفه‌کننده و گاز سبز-زرد
+- دی‌اکسید نیتروژن (محرک): silo gas و مهمات و هر احتراق؛ سه‌فازی: تنگی نفس و علائم شبه‌آنفلوانزا، بهبود گذرا، سپس تشدید تنگی نفس (12 تا 72 ساعت) از ادم ریوی؛ methemoglobinemia
+- آمونیاک (محرک): سرفه، گرفتگی صدا، برونکواسپاسم، تحریک چشم و راه هوایی فوقانی؛ آسیب راه تحتانی در مواجهه عظیم
+- معاینه: موی سوخته بینی، دوده اوروفارنکس، سوختگی صورت/اوروفارنکس، استریدور، گرفتگی صدا، دیسفاژی، خلط کربنی، تاکی‌پنه، رتراکشن، ویزینگ، سیانوز؛ بررسی: ABG با COHb و MetHb، لاکتات، CXR، ECG و مانیتور
+
+@ddx
+- !Cyanide / carbon monoxide poisoning |
+- !Smoke inhalation / airway burn |
+- Asthma / COPD exacerbation |
+- Pneumonia / pulmonary edema |
+
+@redflags
+- استریدور، گرفتگی صدا، سوختگی راه هوایی، شروع زودهنگام ادم (≤ 4 ساعت فسژن)، SpO2 < 92%
+
+@guide
+اکسیژن برای هیپوکسمی و برونکودیلاتور استنشاقی برای برونکواسپاسم؛ آستانه پایین اینتوباسیون در آسیب راه هوایی فوقانی. شستشوی چشم و پوست. آنتی‌بیوتیک و استروئید پروفیلاکتیک روتین نه، مگر NO2؛ در برونکواسپاسم ناشی از سم یا بیماری راه هوایی واکنشی قابل‌بررسی. فسژن: نارسایی تنفس: اینتوباسیون با tidal پایین، plateau پایین و PEEP بالا؛ بدون اکسیژن مگر هیپوکسی؛ β-agonist نبولایزر زودهنگام؛ استراحت و حداقل فعالیت؛ مشاهده ≥ 24 ساعت. کلر: اکسیژن مرطوب و برونکودیلاتور؛ sodium bicarbonate نبولایزر ظرف 4 ساعت؛ استروئید IV/استنشاقی (شواهد ناکافی)؛ سوختگی پوست و قرنیه؛ علائم متوسط 24 ساعت پایش. NO2: حمایتی؛ اکسیژن مرطوب و برونکودیلاتور؛ علائم تأخیری: اینتوباسیون زودهنگام را در نظر بگیر؛ کورتیکواستروئید زودهنگام ممکن است ادم تأخیری را کم کند؛ بستری 24 تا 48 ساعت. آمونیاک: اکسیژن مرطوب، برونکودیلاتور و آنتی‌کولینرژیک؛ شستشوی فراوان و ارزیابی قرنیه.
+
+@variant toxic-gas-mild
+name: Toxic gas inhalation, mild (irritation, no hypoxemia)
+level: III
+imp: Toxic gas inhalation, mild
+cond: Urgent
+act: CBR
+diet: PO
+ecg: once
+cxr: PA
+o2: if SpO2 < 92%
+
+@scenario
+کارگر پس از استنشاق کم آمونیاک با سرفه و سوزش چشم؛ SpO2 98%.
+
+@why
+حمایتی و مشاهده؛ تأخیر ادم در فسژن/کلر/NO2.
+
+@I
+- CXR PA
+
+@L
+- Blood gas with carboxyhemoglobin and methemoglobin; serum lactate
+
+@T
+- Humidified oxygen; nebulized β-agonists (± anticholinergics for ammonia)
+- Irrigation of eyes and skin; corneal burn evaluation if eye discomfort {ci: prophylactic antibiotics and steroids not routinely indicated}
+- Observation (24 h for chlorine with moderate symptoms; phosgene minimum 24 h)
+
+@Co
+- Discharge if asymptomatic after observation (except phosgene / nitrogen dioxide: delayed edema)
+
+@variant toxic-gas-severe
+name: Toxic gas inhalation with respiratory distress / delayed pulmonary edema (phosgene, chlorine, NO2)
+level: I
+imp: Toxic gas inhalation with respiratory failure / pulmonary edema
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+o2: supplemental oxygen if SpO2 < 92% (phosgene: avoid unless hypoxic)
+
+@scenario
+کارگر سیلو پس از استنشاق NO2 با تنگی نفس، رال ریه و SpO2 85%.
+
+@why
+اکسیژن، برونکودیلاتور، اینتوباسیون زودهنگام و استروئید در NO2.
+
+@I
+- CXR portable (noncardiogenic pulmonary edema; repeat as delayed)
+
+@L
+- Arterial blood gas with carboxyhemoglobin and methemoglobin; serum lactate; electrolytes, BUN, creatinine
+
+@T
+- Humidified oxygen; nebulized β-agonists (early for phosgene)
+- Nebulized sodium bicarbonate within 4 h of chlorine exposure
+- Early corticosteroids for nitrogen dioxide exposure; consider IV or inhaled steroids for chlorine (insufficient evidence)
+- Intubation with low tidal volume, low plateau pressure, and high PEEP for respiratory failure; low threshold for intubation in upper airway injury
+- Irrigation of eyes and skin; mandatory rest / minimize exertion (phosgene)
+
+@Co
+- Admit ICU / monitored bed (24 h phosgene; 24–48 h NO2); poison center
+
+@cond cyanide-poisoning
+ch: 115
+name: Cyanide poisoning
+name_fa: مسمومیت با سیانید
+cc: poisoning, altered-mental-status, hypotension-shock
+keywords: cyanide, hydroxocobalamin, Cyanokit, sodium nitrite, sodium thiosulfate, amyl nitrite, smoke inhalation, lactic acidosis, bitter almond, سیانید, هیدروکسوکوبالامین
+status: draft
+
+@features
+- تولید در احتراق مواد مصنوعی، پشم و ابریشم؛ ریشه‌کنی جوندگان، بازیافت فلز گرانبها، آزمایشگاه؛ هسته Prunus؛ مهار cytochrome oxidase ← اختلال فسفوریلاسیون اکسیداتیو و ATP
+- مواجهه قابل‌توجه: تغییر هوشیاری، هیپرونتیلاسیون، هیپوتانسیون، برادیکاردی؛ SpO2 طبیعی در co-oximetry؛ بوی بادام تلخ؛ پوست «cherry-red» نادر
+- اسیدوز متابولیک anion gap شدید و بی‌توضیح (لاکتات)؛ PO2 خون وریدی نزدیک شریانی (کاهش مصرف اکسیژن بافتی)؛ COHb ممکن در قربانیان آتش؛ سطح خون کامل تأییدی ولی سریع در دسترس نیست؛ تشخیص بالینی و درمان زودهنگام
+
+@ddx
+- !Carbon monoxide poisoning (smoke inhalation) |
+- !Hydrogen sulfide poisoning |
+- Septic shock / other lactic acidosis |
+- Methemoglobinemia |
+
+@redflags
+- اسیدوز لاکتیک شدید بی‌توضیح، هیپوتانسیون، کما، آتش بسته
+
+@guide
+حمایتی تهاجمی و پادزهر (جداول 115-2 و 115-3). نیتریت‌ها methemoglobin می‌سازند که سیانید را می‌گیرد؛ thiosulfate گروه سولفات می‌دهد (thiocyanate کم‌سمی‌تر)؛ hydroxocobalamin مستقیم سیانید را از cytochrome oxidase جدا و cyanocobalamin می‌سازد. نیتریت در هیپوتانسیون ناشی از سیانید شدید منع نیست ولی نسبتاً ممنوع در هیپوتانسیون با شرح حال نامطمئن و قربانی دود با CO همزمان (کاهش رسانش اکسیژن)؛ در این موارد hydroxocobalamin ایده‌آل یا thiosulfate بدون نیتریت. بزرگسال: اکسیژن 100%، کریستالوئید و وازوپرسور، بیکربنات برای اسیدمی + کیت پادزهر: amyl nitrite استنشاقی 30 ثانیه (لازم نیست اگر IV برقرار)؛ sodium nitrite 3% 10 mL (300 mg) IV بیش از 5 دقیقه؛ sodium thiosulfate 25% 50 mL (12.5 g) IV و تکرار نصف دوز (25 mL) در صورت ادامه علائم؛ یا hydroxocobalamin 5 g IV طی 15 دقیقه، تکرار تا مجموع 10 g. کودک: اکسیژن 100%؛ amyl nitrite 15 تا 30 ثانیه (اگر CO همزمان مشکوک، نیتریت را نگه دار)؛ sodium nitrite 3% بر اساس هموگلوبین (Hb 7: 0.19 mL/kg؛ 8: 0.22؛ 9: 0.25؛ 10: 0.27؛ 11: 0.30؛ 12: 0.33؛ 13: 0.36؛ 14: 0.39) IV بیش از 5 دقیقه با MetHb < 30%؛ sodium thiosulfate 25% 1.65 mL/kg IV و تکرار نصف دوز (0.825 mL/kg). زغال فعال در بلع ظرف 1 ساعت، هوشیار با راه هوایی باز. بستری: دریافت پادزهر یا بلع ماده با سمیت تأخیری.
+
+@variant cyanide-hydroxocobalamin
+name: Cyanide poisoning, hydroxocobalamin / thiosulfate pathway (smoke inhalation, hypotension, uncertain exposure)
+level: I
+imp: Cyanide poisoning (suspected), severe
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+o2: 100% oxygen
+
+@scenario
+قربانی آتش‌سوزی با کما، هیپوتانسیون، لاکتات 14 و COHb بالا.
+
+@why
+نیتریت منع (CO همزمان)؛ hydroxocobalamin انتخاب بهتر.
+
+@I
+- CXR portable
+
+@L
+- Venous/arterial blood gas with carboxyhemoglobin and methemoglobin; serum lactate; electrolytes (anion gap); whole blood cyanide (confirmation, not rapidly available); electrolytes, BUN, creatinine
+
+@S
+- Hydroxocobalamin 5 g IV over 15 min; may repeat 5 g (total 10 g) {hi} (children: per local pediatric dosing)
+- Sodium thiosulfate 25% solution 50 mL (12.5 g) IV (children 1.65 mL/kg); repeat once at half dose if symptoms persist
+- IV crystalloids and vasopressors for hypotension {ci: caution in heart failure / pulmonary edema}
+- Sodium bicarbonate for acidemia
+
+@T
+- 100% supplemental oxygen
+- Activated charcoal if ingestion within 1 h, alert, patent airway
+
+@Co
+- ICU admission; toxicology / poison center
+
+@variant cyanide-nitrite-kit
+name: Cyanide poisoning, nitrite antidote kit (clear exposure, no CO, normotensive/hypotensive known cyanide)
+level: I
+imp: Cyanide poisoning, antidote kit therapy
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+o2: 100% oxygen
+
+@scenario
+کارگر آبکاری پس از بلع نمک سیانید با کما و اسیدوز شدید، بدون دود.
+
+@why
+کیت پادزهر نیتریت + تیوسولفات یا hydroxocobalamin.
+
+@L
+- Blood gas, serum lactate, methemoglobin level (monitor < 30% when nitrites given); carboxyhemoglobin; electrolytes
+
+@S
+- Amyl nitrite inhaler: crack vial and inhale over 30 s (children 15–30 s) — not necessary if IV in place
+- Sodium nitrite 3% solution 10 mL (300 mg) IV over no less than 5 min (children dosed by hemoglobin: Hb 7 0.19, 8 0.22, 9 0.25, 10 0.27, 11 0.30, 12 0.33, 13 0.36, 14 0.39 mL/kg) {ci: avoid nitrites in severe hypotension if diagnosis unclear and with concomitant carbon monoxide poisoning}
+- Sodium thiosulfate 25% solution 50 mL (12.5 g) IV (children 1.65 mL/kg); repeat once at half dose if symptoms persist
+- IV crystalloids and vasopressors for hypotension; sodium bicarbonate for acidemia
+
+@T
+- 100% supplemental oxygen
+- Activated charcoal if ingestion within 1 h, alert, patent airway
+
+@Co
+- Admit (antidotal therapy / delayed toxicity); toxicology / poison center
+
+@cond hydrogen-sulfide-poisoning
+ch: 115
+name: Hydrogen sulfide poisoning
+name_fa: مسمومیت با هیدروژن سولفید
+cc: poisoning, altered-mental-status, dyspnea
+keywords: hydrogen sulfide, rotten egg, sewer gas, sodium nitrite, H2S, هیدروژن سولفید, گاز فاضلاب
+status: draft
+
+@features
+- گاز بی‌رنگ و اشتعال‌پذیر در پالایش نفت و تجزیه مواد آلی؛ قابل تولید از محصولات خانگی؛ مکانیسم مشابه سیانید ولی مهار با دور شدن از مواجهه سریعاً قطع می‌شود
+- بوی تخم‌مرغ گندیده؛ تحریک مخاط شایع؛ مواجهه قابل‌توجه: از دست رفتن سریع هوشیاری، تشنج، ادم ریوی تأخیری، آسیب قرنیه و مرگ
+
+@ddx
+- !Cyanide poisoning |
+- !Carbon monoxide / asphyxiants |
+- Other toxic gas inhalation |
+
+@redflags
+- از دست رفتن هوشیاری، تشنج، ناپایداری قلبی-عروقی
+
+@guide
+مهم‌ترین: دور کردن از منبع، سپس حمایت تهاجمی با اکسیژن مرطوب و دکونتامیناسیون. تغییر هوشیاری پایدار یا ناپایداری قلبی-عروقی: sodium nitrite.
+
+@variant h2s-main
+name: Hydrogen sulfide exposure
+level: I
+imp: Hydrogen sulfide poisoning
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+o2: 100% humidified oxygen
+
+@scenario
+کارگر فاضلاب یافت‌شده بی‌هوش در چاه با بوی تخم‌مرغ گندیده، تشنج.
+
+@why
+خارج کردن از منبع و اکسیژن؛ نیتریت در تغییر هوشیاری پایدار.
+
+@I
+- CXR portable (delayed pulmonary edema)
+
+@L
+- Blood gas with carboxyhemoglobin and methemoglobin; serum lactate; electrolytes, glucose
+
+@S
+- Sodium nitrite for persistent mental status changes or cardiovascular instability {ci: nitrites induce methemoglobinemia; avoid if concomitant CO / severe hypotension unclear}
+
+@T
+- Removal from source (most important); humidified oxygen; decontamination
+- Benzodiazepines for seizures; ocular irrigation for corneal injury
+
+@Co
+- Admit ICU; toxicology / poison center
