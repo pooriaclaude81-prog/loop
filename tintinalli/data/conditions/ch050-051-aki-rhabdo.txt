@@ -1,0 +1,236 @@
+@cond acute-kidney-injury
+ch: 50
+name: Acute kidney injury (prerenal, intrinsic, postrenal)
+name_fa: آسیب حاد کلیه (پیش‌کلیوی، ذاتی، پس‌کلیوی)
+cc: urinary-symptoms, metabolic, altered-mental-status
+keywords: acute kidney injury, acute renal failure, ATN, prerenal, postrenal, fractional excretion of sodium, hyperkalemia, dialysis, Foley, nephrostomy, نارسایی حاد کلیه
+status: draft
+
+@features
+- تظاهرات بسته به علت: هیپوولمی، داروهای نفروتوکسیک، مشکلات آناتومیک مجاری ادراری؛ علل قلبی، عروقی، ترومبوتیک، گلومرولی و توبولی
+- تجمع مواد ازته و اختلال الکترولیت؛ با پیشرفت اورمی: اضافه حجم، فشار بالا، ادم ریه، تغییر هوشیاری یا علائم عصبی، تهوع و استفراغ، مشکلات استخوان/مفصل، کم‌خونی و استعداد عفونت (علت اصلی مرگ)
+- پیش‌کلیوی (70٪ موارد اکتسابی از جامعه): کاهش پرفیوژن (استفراغ/اسهال، دیورتیک و داروهای ضدفشار، کاهش دریافت، سکوئستراسیون مایع در سیروز/پانکراتیت/سوختگی/شوک سپتیک، خونریزی، کاهش برون‌ده قلبی)
+- ذاتی: ایسکمیک (ATN، شایع‌ترین علت نارسایی بیمارستانی) و نفروتوکسین‌ها (دومین علت شایع)؛ بیماری‌های گلومرولی و توبولواینترستیشیال
+- پس‌کلیوی: عمدتاً مردان سالمند با انسداد پروستات؛ تنگی مجرا؛ از دست رفتن دائمی عملکرد طی 10 تا 14 روز با انسداد کامل و بدتر با UTI
+- آنالیز ادرار و رسوب: کست گرانولار در ATN؛ کست RBC و آلبومین در گلومرولونفریت/هیپرتانسیون بدخیم؛ کست WBC در نفریت بینابینی و پیلونفریت؛ کریستال در سنگ و برخی داروها (سولفا، اتیلن گلیکول، کنتراست)
+- FENa < 1٪ و اسمولالیته ادرار > 500: پیش‌کلیوی؛ FENa > 1٪ و اسمولالیته < 350: ذاتی
+- سونوگرافی کلیه روش انتخابی در شک به انسداد/هیدرونفروز؛ سونوگرافی بالین IVC برای وضعیت حجم و پاسخ به مایع
+
+@ddx
+- !Hyperkalemia / uremic complications |
+- !Postrenal obstruction (prostatic, stone, stricture) |
+- !Rhabdomyolysis |
+- Prerenal azotemia (hypovolemia, cardiac failure) |
+- Nephrotoxin or contrast-induced AKI |
+- Glomerulonephritis / interstitial nephritis / HUS / TTP |
+
+@redflags
+- هیپرکالمی با تغییرات ECG، ادم ریه یا اضافه حجم مقاوم، آنسفالوپاتی/پریکاردیت/خونریزی اورمیک، BUN > 100 یا کراتینین > 10، آنوری
+
+@guide
+# هدف ED
+درمان علت زمینه‌ای و اصلاح اختلال مایع و الکترولیت؛ جلوگیری از آسیب بیشتر کلیه و حمایت؛ پایش دقیق ادرار (در نظر گرفتن Foley)؛ ECG برای تغییرات هیپرکالمی؛ پتاسیم، کراتینین و BUN.
+
+# پیش‌کلیوی
+مایع ایزوتونیک (نرمال سالین یا Ringer لاکتات) برای احیای حجم. اگر علت نارسایی قلب است برون‌ده قلبی را بهینه کن؛ کاهش حجم داخل عروقی (دیورتیک) ممکن است مناسب باشد؛ اکوی بالین و سونوگرافی IVC کمک می‌کند.
+
+# ذاتی
+اول حجم گردش خون را برگردان (هیپوولمی همه اشکال را بدتر می‌کند)؛ پرهیز از داروهای نفروتوکسیک و کنتراست وریدی؛ وازوپرسور (norepinephrine یا dopamine) به‌عنوان اقدام موقت برای MAP در شوک؛ احتیاط در داروهای دفع‌شونده از کلیه (دیگوکسین، منیزیم، آرام‌بخش‌ها و مخدرها) و محدودیت مایع در صورت نیاز.
+
+# پس‌کلیوی
+درناژ ادرار: Foley برای هیپرتروفی پروستات (تخلیه کامل و سریع؛ شواهدی برای کلامپ متناوب نیست)؛ نفروستومی از راه پوست برای انسداد حالب؛ در آنوری حاد در صورت نبود ادرار با کاتتر و مثانه پر: مشاوره اورولوژی اورژانس؛ انسداد مزمن: دیورز پس از رفع انسداد (پایش ادرار و جایگزینی مایع).
+
+# دیالیز
+با نفرولوژیست مشورت؛ معمولاً BUN > 100 یا کراتینین > 10؛ هیپرکالمی شدید، اضافه حجم مقاوم، اورمی (آنسفالوپاتی، پریکاردیت، دیاتز خونریزی) یا بی‌ثباتی قلبی (اسیدوز متابولیک و هیپرکالمی). بیمار جدید معمولاً بستری (اغلب ICU).
+
+@pearls
+- IVC سونوگرافی: کلاپس دمی = پیش‌کلیوی؛ اتساع بدون تغییر = اضافه حجم.
+- کاتتر اورتر را کامل و سریع تخلیه کن.
+
+@variant aki-prerenal
+name: Prerenal AKI (hypovolemia), stable
+level: II
+imp: Acute kidney injury, prerenal
+cond: Urgent
+act: CBR
+diet: PO
+ecg: once
+cxr: PA
+
+@scenario
+مردی ۷۲ ساله با اسهال و استفراغ ۳ روزه، تاکی‌کاردی و کراتینین بالا.
+
+@why
+بیشتر موارد پیش‌کلیوی‌اند؛ مایع ایزوتونیک با راهنمایی وضعیت حجم و پایش ادرار؛ ECG برای هیپرکالمی.
+
+@I
+- Bedside ultrasound of the inferior vena cava (volume status and fluid responsiveness); renal ultrasound if obstruction suspected
+
+@L
+- Urinalysis and urine sediment, urinary sodium and creatinine, urine osmolality (fractional excretion of sodium), serum electrolytes
+
+@S
+- Isotonic fluids (normal saline or Lactated Ringer's solution) for volume resuscitation, guided by volume status and urine output {ci: avoid if heart failure or pulmonary edema; cardiac failure: optimize cardiac output}
+
+@T
+- Foley catheter placement with close monitoring of urine output
+- Avoid nephrotoxic medications and intravenous contrast {ci: avoid}
+
+@Co
+- Admission (new-onset renal failure usually requires admission)
+
+@variant aki-intrinsic
+name: Intrinsic AKI (ischemic / nephrotoxic) or uremic complications
+level: I
+imp: Acute kidney injury, intrinsic (ATN / nephrotoxic)
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+
+@scenario
+زنی ۶۸ ساله پس از شوک سپتیک و مصرف داروی نفروتوکسیک با اولیگوری، پتاسیم 6.8 و تغییرات ECG.
+
+@why
+هیپرکالمی و اضافه حجم تهدیدکننده‌اند؛ حجم را ابتدا برگردان؛ دیالیز در موارد شدید.
+
+@I
+- Renal ultrasound (hydronephrosis); color-flow Doppler for renal perfusion if large-vessel cause suspected
+
+@L
+- Urinalysis and sediment, urinary sodium and creatinine, urine osmolality, serum potassium (hyperkalemia)
+
+@S
+- Restore adequate circulating volume first with isotonic crystalloid, guided by volume status {ci: fluid restriction may be required; avoid in pulmonary edema}
+
+@T
+- Vasopressor support with norepinephrine or dopamine as a temporizing measure for mean arterial pressure in shock
+- Foley catheter with close monitoring of urine output
+- Caution with renally excreted drugs (digoxin, magnesium, sedatives and narcotics) and intravenous contrast {renal: therapeutic doses may accumulate to excess}
+
+@Co
+- Nephrology as soon as possible if urgent dialysis is considered (BUN > 100 mg/dL or creatinine > 10 mg/dL, cardiac instability, intractable volume overload, hyperkalemia, uremic encephalopathy, pericarditis or bleeding diathesis)
+- Intensive care unit admission; transfer if nephrology and dialysis are not available
+
+@variant aki-postrenal
+name: Postrenal AKI (obstruction / anuria)
+level: II
+imp: Acute kidney injury, postrenal (obstruction)
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: once
+cxr: none
+
+@scenario
+مردی ۷۸ ساله با آنوری، درد زیر شکم و مثانه پر.
+
+@why
+انسداد علت اصلی آنوری حاد است؛ درناژ فوری ادرار.
+
+@I
+- Bladder scan or bedside ultrasound (full bladder); renal ultrasound (hydronephrosis)
+
+@L
+- Urinalysis, serum electrolytes
+
+@T
+- Foley catheter for prostatic obstruction; drain urine completely and rapidly (no data to support intermittent clamping)
+- Percutaneous nephrostomy for ureteral occlusion until definitive surgery
+- With chronic urinary retention monitor urine output closely for postobstructive diuresis; replace fluid as needed
+
+@Co
+- Emergency urologic consultation if no urine on initial bladder catheterization and the bladder is full
+
+@cond rhabdomyolysis
+ch: 51
+name: Rhabdomyolysis
+name_fa: رابدومیولیز
+cc: weakness, joint-limb-pain, urinary-symptoms
+keywords: rhabdomyolysis, creatine kinase, myoglobinuria, dark urine, crush, statin, compartment syndrome, hyperkalemia, رابدومیولیز
+status: draft
+
+@features
+- تخریب عضله اسکلتی؛ علل شایع در بزرگسالان: الکل و مواد سوءمصرف، سپس داروها (استاتین، آنتی‌سایکوتیک...)، بیماری‌های عضلانی، تروما، NMS، تشنج، بی‌حرکتی، عفونت، فعالیت شدید و گرمازدگی؛ در بیش از نیمی چند علت
+- در کودکان کمتر شایع و خوش‌خیم‌تر
+- حاد: میالژی، سفتی، ضعف، بی‌حالی، تب خفیف و ادرار تیره (قهوه‌ای)؛ تهوع، استفراغ، درد شکم و تاکی‌کاردی در شدید؛ علائم عضلانی فقط در نیمی
+- ممکن است بدون علامت و معاینه نرمال باشد؛ تشخیص از شرح حال، CK بالا یا ادرار تیره
+- عوارض: نارسایی حاد کلیه، هیپرکالمی، هیپرفسفاتمی، هیپراوریسمی، هیپوکلسمی (اوایل)، هیپرکلسمی و هیپوفسفاتمی (دیررس)، DIC، سندرم کمپارتمان و نوروپاتی محیطی
+- CK ≥ 5 برابر حد بالای نرمال بدون آسیب قلبی/مغزی؛ میوگلوبینوری: دیپ‌استیک مثبت برای خون با RBC منفی در میکروسکوپ؛ نبود میوگلوبینوری رد نمی‌کند (ظرف 1 تا 6 ساعت نرمال می‌شود)
+
+@ddx
+- !Hyperkalemia / acute renal failure |
+- !Compartment syndrome |
+- !Neuroleptic malignant syndrome / heat stroke |
+- Acute myopathy / periodic paralysis |
+- Polymyositis / dermatomyositis |
+- Guillain-Barre syndrome |
+
+@redflags
+- هیپرکالمی (شدیدترین 12 تا 36 ساعت اول)، آنوری/نارسایی کلیه، DIC، سندرم کمپارتمان
+
+@guide
+مایع وریدی تهاجمی ۲۴ تا ۷۲ ساعت: اصلاح سریع کمبود با کریستالوئید سپس ۲.۵ mL/kg/h با هدف ادرار حداقل ۲ mL/kg/h؛ یا تنظیم برای ۲۰۰ تا ۳۰۰ mL/h ادرار. قلیایی‌سازی ادرار با بیکربنات یا دیورز اجباری (مانیتول، لوپ) شواهد ندارد؛ مانیتول در بیمار هیپوولمیک ممکن است مضر باشد؛ اگر بیکربنات: ایزوتونیک و پرهیز از آلکالوز متابولیک و هیپوکالمی. کاتتر ادراری در بیمار بحرانی یا نارسایی کلیه؛ مانیتور قلبی؛ در بیماران قلبی/کلیوی/سالمند پایش همودینامیک. هیپوکلسمی اولیه معمولاً درمان نمی‌خواهد؛ کلسیم برای کاردیوتوکسیسیته هیپرکالمی یا علائم شدید. هیپرفسفاتمی > 7 mg/dL با باندر خوراکی؛ هیپوفسفاتمی < 1 mg/dL درمان. هیپرکالمی: انسولین و گلوکز ممکن است کمتر مؤثر باشد؛ رزین تبادل یونی (sodium polystyrene sulfonate) مؤثر؛ ممکن است دیالیز. از NSAID پرهیز. درمان علت زمینه‌ای.
+
+@pearls
+- دیپ‌استیک خون مثبت و RBC منفی = میوگلوبینوری.
+- NSAID ممنوع (انقباض عروق کلیه).
+
+@variant rhabdo-exertional-mild
+name: Exertional rhabdomyolysis, healthy, no comorbidities
+level: III
+imp: Exertional rhabdomyolysis
+cond: Urgent
+act: CBR
+diet: PO
+ecg: once
+cxr: none
+
+@scenario
+مردی ۲۵ ساله پس از مسابقه ماراتن با درد عضلانی و ادرار تیره؛ CK 8 برابر نرمال.
+
+@why
+بیمار سالم بدون عارضه می‌تواند با مایع خوراکی یا وریدی تحت نظر و مرخص شود.
+
+@L
+- Creatine kinase, urinalysis (urine dipstick positive for blood without red blood cells on microscopy suggests myoglobinuria), serum calcium, phosphorus, uric acid
+
+@S
+- Oral or IV rehydration {note: rate not given for this group}
+
+@Co
+- Observe in the ED and release if no heat stress, dehydration, trauma or comorbidity
+
+@variant rhabdo-moderate-severe
+name: Rhabdomyolysis with complications or comorbidity
+level: I
+imp: Rhabdomyolysis with possible acute renal failure / hyperkalemia
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: none
+
+@scenario
+مردی ۵۵ ساله مبتلا به سوءمصرف الکل پس از افتادن طولانی روی زمین با CK بالای 50000، پتاسیم 6.2 و کراتینین بالا.
+
+@why
+CK بالا و عارضه: مایع تهاجمی ۲۴ تا ۷۲ ساعت، پایش الکترولیت و قلبی، بستری در تخت مانیتور.
+
+@L
+- Serial urine pH, electrolytes, creatine kinase, calcium, phosphorus, uric acid, BUN and creatinine; PT, PTT, fibrin split products, fibrinogen (disseminated intravascular coagulation screen)
+
+@S
+- Aggressive IV rehydration for 24 to 72 hours: rapid correction of the fluid deficit with IV crystalloids followed by 2.5 mL/kg/h, goal urine output at least 2 mL/kg/h (or titrate to 200 to 300 mL of urine per hour) {ci: hemodynamic monitoring in heart disease, comorbid conditions, preexisting renal disease or elderly to avoid fluid overload}
+
+@T
+- Urinary catheter to monitor urine output
+- Hyperkalemia: ion-exchange resin (sodium polystyrene sulfonate); calcium for hyperkalemia-induced cardiotoxicity or profound signs of hypocalcemia
+- Phosphate binders orally if phosphate > 7 mg/dL
+- If bicarbonate is given: isotonic solution, avoid metabolic alkalosis or hypokalemia (not evidence based)
+- Avoid NSAIDs {ci: prostaglandin inhibitors (vasoconstriction of the kidney)}
+- Treat the underlying cause
+
+@Co
+- Admit to a monitored bed; nephrology for dialysis in hyperkalemia unresponsive to therapy

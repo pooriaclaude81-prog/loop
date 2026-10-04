@@ -1,0 +1,352 @@
+@cond renal-colic-urolithiasis
+ch: 56
+name: Renal colic / urolithiasis
+name_fa: کولیک کلیوی / سنگ مجاری ادراری
+cc: flank-pain, abdominal-pain, urinary-symptoms
+keywords: renal colic, kidney stone, ureteral stone, nephrolithiasis, ketorolac, tamsulosin, noncontrast CT, hydronephrosis, urosepsis, solitary kidney, سنگ کلیه
+status: draft
+
+@features
+- رها شدن سنگ در حالب: کولیک کلیوی؛ شایع‌تر در مردان 30 تا 50 ساله؛ عود 37٪ در سال اول؛ زیر 16 سال 7٪
+- شروع حاد درد شدید با تهوع، استفراغ، تعریق؛ بیمار مضطرب، بی‌قرار و ناتوان از ثابت ماندن؛ درد تیز و دوره‌ای از فلانک به‌سمت شکم و کشاله ران؛ سنگ انتهایی (75٪): درد قدامی یا سوپراپوبیک؛ سنگ مثانه: دیزوری متناوب و هماچوری ترمینال
+- کودکان: تا 30٪ فقط هماچوری بدون درد
+- تاکی‌کاردی و فشار بالا ثانویه به درد؛ تب با UTI همراه؛ هماچوری در 85٪
+- افتراق مهم: AAA و دیسکسیون آئورت؛ آپاندیسیت، ایسکمی مزانتر، کولسیستیت، حاملگی نابجا، torsion گناد، انفارکتوس کلیه، فتق گیرافتاده، اپیدیدیمیت، سالپنژیت، پیلونفریت، زوستر، عضلانی، نکروز پاپیلر (سیکل‌سل، دیابت، NSAID، عفونت)
+- CT بدون کنتراست: بالاترین حساسیت و ویژگی (حساسیت 94٪ تا 97٪؛ ویژگی 96٪ تا 99٪؛ PPV 96٪؛ NPV 93٪ تا 97٪)؛ CT کم‌دوز مشابه برای سنگ > 3 mm و BMI > 30
+- KUB: فقط 90٪ سنگ‌ها رادیواپک؛ حساسیت 29٪ تا 58٪؛ برای پیگیری سنگ دیده‌شده در CT؛ IVP کم‌کاربرد
+- سونوگرافی (حاملگی و کودکان): هیدرونفروز و سنگ بزرگ؛ حساسیت 63٪ تا 85٪؛ برای سنگ < 5 mm یا میانی حالب ضعیف؛ 90٪ برای > 6 mm؛ مثبت کاذب با مثانه پر، کیست یا بولوس سریع کریستالوئید
+
+@ddx
+- !Abdominal aortic aneurysm / aortic dissection |
+- !Ectopic pregnancy / ovarian torsion / testicular torsion |
+- !Obstructing stone with infection (urosepsis) |
+- Appendicitis / mesenteric ischemia / cholecystitis |
+- Pyelonephritis / renal infarction |
+- Musculoskeletal strain / herpes zoster / papillary necrosis |
+
+@redflags
+- تب با انسداد (اورولوژی اورژانس)، کلیه منفرد یا پیوندی، نارسایی حاد کلیه، استفراغ/درد مقاوم، سن بالا با درد فلانک و فشار پایین (AAA)
+
+@guide
+# دارو
+- ضددرد: NSAID تزریقی انتخاب اول؛ ketorolac 30 mg IVP؛ احتیاط در سالمند، دیاتز خونریزی و نارسایی کلیه؛ اپیوئید تیتره (morphine 5 mg IV یا hydromorphone 1 mg IV) با احتیاط در سالمند، کودک و حاملگی.
+- مایع وریدی: فقط برای اصلاح کمبود حجم ناشی از استفراغ/کم‌خوری؛ در کنترل درد یا دفع سنگ ثابت نشده.
+- ضدتهوع: metoclopramide 10 mg IV (تنها ضدتهوع مطالعه‌شده در کولیک).
+- درمان دفعی (MET): α-blocker: tamsulosin 0.4 mg روزانه تا 4 هفته، terazosin 5 تا 10 mg روزانه، doxazosin 4 mg روزانه؛ بهبود 2 تا 6 روز در زمان دفع؛ استروئید و CCB توصیه نمی‌شود.
+- آنتی‌بیوتیک اگر UA عفونت: بر اساس مقاومت محلی گرم‌منفی؛ سنگ عفونی بدون انسداد قابل‌توجه، تب یا بیماری سیستمیک: ciprofloxacin 500 mg دو بار روزانه 10 تا 14 روز، levofloxacin 500 mg روزانه 10 تا 14 روز یا cefpodoxime 200 mg دو بار روزانه 10 تا 14 روز؛ بیمار پیچیده: بستری و آنتی‌بیوتیک وریدی (gentamicin یا tobramycin 1 mg/kg هر 8 ساعت و ampicillin 1 تا 2 g هر 4 ساعت؛ piperacillin-tazobactam 3.375 g هر 6 ساعت؛ cefepime 2 g هر 8 ساعت؛ ticarcillin-clavulanic acid 3.1 g هر 6 ساعت؛ ciprofloxacin 400 mg هر 12 ساعت).
+# ترخیص
+سنگ کوچک < 5 mm، یک‌طرفه، بدون عفونت پیچیده و درد قابل کنترل با خوراکی: با صافی ادرار، ضددرد خوراکی و MET، پیگیری اورولوژی یا پزشک عمومی ظرف 7 روز. سنگ 5–6 mm: 7 تا 30 روز. بازگشت: تب، استفراغ ادامه‌دار، درد غیرقابل کنترل.
+# بستری
+مطلق: درد یا استفراغ مقاوم، urosepsis*، کلیه منفرد/پیوندی با انسداد*، نارسایی حاد کلیه، بحران هیپرکلسمیک؛ نسبی: تب، کلیه منفرد/پیوندی بدون انسداد، انسداد با نشانه عفونت، extravasation، بیماری زمینه‌ای مهم/سن بالا، سنگ بزرگ بالای لبه لگن. (* دکامپرسیون اورژانس).
+اورولوژی اورژانس: انسداد کامل با تب/urosepsis و کلیه منفرد یا پیوندی؛ سنگ > 5 mm، نارسایی کلیه، بیماری شدید، extravasation، پاپیلای کنده‌شده، UTI یا شکست درمان سرپایی: هماهنگی دیسپوزیشن با اورولوژی.
+
+@pearls
+- در سالمند با درد فلانک و فشار پایین اول AAA را رد کن.
+- در حاملگی و کودک سونوگرافی به‌جای CT.
+
+@variant colic-uncomplicated
+name: Uncomplicated renal colic (stone < 5 mm, controlled pain)
+level: III
+imp: Renal colic
+cond: Urgent
+act: CBR
+diet: PO
+ecg: once
+cxr: none
+
+@scenario
+مردی ۳۵ ساله با درد فلانک راست شدید و موجی، تهوع و هماچوری؛ بدون تب.
+
+@why
+تشخیص بالینی؛ CT یا سونو؛ NSAID و MET؛ سنگ کوچک با درد قابل کنترل: ترخیص با صافی.
+
+@I
+- Noncontrast helical CT (low-dose protocol acceptable for stones > 3 mm and BMI > 30); ultrasound if CT is not advised (pregnant women, children); bedside ultrasound by ED physicians
+- KUB to follow stone progression once visualized on CT (outpatient)
+
+@L
+- Urinalysis (hematuria and infection); serum renal function; pregnancy test in females of childbearing age
+
+@S
+- [if vomiting or decreased oral intake with volume deficit] @fluid | corrects volume deficits only; not effective for pain control or stone passage {ci: avoid in CKD, AKI, heart failure}
+
+@T
+- Ketorolac 30 mg IVP {renal: caution in the elderly, bleeding tendencies and renal impairment}
+- Morphine 5 mg IV or Hydromorphone 1 mg IV (titrated opioid) {hi}
+- Metoclopramide 10 mg IV
+- Tamsulosin 0.4 mg daily up to 4 weeks, or Terazosin 5 to 10 mg daily, or Doxazosin 4 mg daily (medical expulsion therapy)
+
+@Co
+- Urine strainer, oral analgesics and medical expulsive therapy; urologic or primary care follow-up within 7 days
+
+@variant colic-complicated
+name: Renal colic with infection / obstruction / solitary kidney / AKI
+level: I
+imp: Renal colic with obstruction and possible urosepsis
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: portable
+
+@scenario
+زنی ۴۵ ساله با درد فلانک، تب 39، لرز و فشار 90/55؛ سنگ انسدادی با هیدرونفروز.
+
+@why
+انسداد همراه تب/urosepsis یا کلیه منفرد نیاز به دکامپرسیون اورژانس و اورولوژی دارد.
+
+@I
+- Noncontrast helical CT; ultrasound for hydronephrosis
+
+@L
+- Urinalysis, serum renal function, pregnancy test (females of childbearing age); urine and blood cultures {note: cultures not specifically stated in this chapter}
+
+@S
+- Correct volume deficits with crystalloid {ci: caution in heart failure / pulmonary edema; AKI}
+
+@A
+- Gentamicin or Tobramycin 1 mg/kg/dose every 8 hours and Ampicillin 1 to 2 g every 4 hours; or Piperacillin-tazobactam 3.375 g every 6 hours; or Cefepime 2 g every 8 hours; or Ticarcillin-clavulanic acid 3.1 g every 6 hours; or Ciprofloxacin 400 mg every 12 hours {renal: aminoglycosides}
+
+@T
+- Ketorolac 30 mg IVP {renal: avoid in renal impairment}; Morphine 5 mg IV or Hydromorphone 1 mg IV {hi}
+- Metoclopramide 10 mg IV
+
+@Co
+- Emergent urologic consultation (complete obstruction with fever and/or urosepsis; solitary or transplanted kidney); admission, urgent decompression
+
+@variant colic-infected-nonobstructing
+name: Infected ureteral stone without significant obstruction, afebrile, no systemic illness
+level: II
+imp: Infected ureteral stone
+cond: Urgent
+act: CBR
+diet: PO
+ecg: once
+cxr: none
+
+@scenario
+مردی ۴۰ ساله با درد فلانک خفیف و پیوری؛ بدون تب.
+
+@why
+بدون انسداد/تب/بیماری سیستمیک: فلوروکینولون یا سفالوسپورین سرپایی با پیگیری نزدیک.
+
+@I
+- Noncontrast helical CT or ultrasound
+
+@L
+- Urinalysis
+
+@A
+- Ciprofloxacin 500 mg twice a day for 10 to 14 days, or Levofloxacin 500 mg daily for 10 to 14 days, or Cefpodoxime 200 mg twice a day for 10 to 14 days (or other drugs with good local sensitivities)
+
+@T
+- Ketorolac 30 mg IVP {renal: caution in renal impairment}; analgesia as above
+
+@Co
+- Close follow-up is essential; urology
+
+@cond urinary-catheter-complications
+ch: 57
+name: Catheter-associated UTI and Foley balloon that will not deflate
+name_fa: عفونت ادراری وابسته به کاتتر و باز نشدن بالون فولی
+cc: urinary-symptoms, fever
+keywords: CA-UTI, catheter-associated urinary tract infection, Foley balloon nondeflation, mineral oil, guide wire, ciprofloxacin, levofloxacin, cefpodoxime, عفونت کاتتر
+status: draft
+
+@features
+- CA-UTI: علت بسیار شایع عفونت بیمارستانی؛ تب، لرز، تغییر هوشیاری، بی‌حالی، درد فلانک، CVA tenderness، هماچوری حاد، ناراحتی لگن؛ بعد از خروج کاتتر: دیزوری، فوریت/تکرر، درد سوپراپوبیک
+- آسیب نخاعی: افزایش اسپاستیسیته، دیس‌رفلکسی اتونوم و احساس ناخوشی
+- پیلونفریت شایع‌ترین عارضه (وقتی تب)؛ پروستاتیت، اپیدیدیمیت و آبسه اسکروتوم
+- باکتریوری بدون علامت در کاتتر کوتاه‌مدت درمان نمی‌شود مگر حاملگی یا بلافاصله بعد از پروسیجر اورولوژیک
+- پیوری در همه با کاتتر طولانی (> 1 ماه) وجود دارد؛ بدون علامت نشانه عفونت نیست؛ هماچوری شاخص بهتر
+- بالون فولی که خالی نمی‌شود مانع خروج کاتتر است
+
+@ddx
+- !Urosepsis / pyelonephritis |
+- Prostatitis / epididymitis / scrotal abscess |
+- Urinary obstruction (catheter blockage) |
+- Autonomic dysreflexia (spinal cord injury) |
+
+@redflags
+- سپسیس، ایمنوساپرسیون، تب با لرز و افت فشار
+
+@guide
+تشخیص بالینی با میکروسکوپی ادرار؛ کشت ادرار؛ کشت خون اگر سپتیک یا ایمنوساپرس؛ سونوگرافی برای انسداد. کاتتر را در صورت امکان بردار یا اگر > 7 روز است عوض کن. علائم خفیف: ciprofloxacin 500 mg دو بار روزانه، levofloxacin 500 mg روزانه یا cefpodoxime 200 mg دو بار روزانه؛ تنظیم بر اساس حساسیت محلی؛ 7 روز در پاسخ سریع و 10 تا 14 روز در پاسخ دیررس. پیلونفریت وابسته به کاتتر: اغلب بستری.
+بالون که خالی نمی‌شود: دریچه پلاستیکی را درست پروگزیمال به پورت باد کردن ببر و گایدوایر انعطاف‌پذیر وارد کن تا کانال باز شود؛ در شکست: CVC 22-G روی گایدوایر؛ وقتی نوک وارد بالون شد گایدوایر را بردار و بالون را خالی کن؛ اگر ادامه یافت 10 cc روغن معدنی از CVC بریز و 15 دقیقه صبر کن (قابل تکرار)؛ در شکست: اورولوژی.
+
+@pearls
+- پیوری بدون علامت در کاتتر طولانی‌مدت عفونت نیست.
+
+@variant catheter-uti-mild
+name: Catheter-associated UTI, mild symptoms
+level: III
+imp: Catheter-associated UTI
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مردی ۷۵ ساله با کاتتر دائم، تب خفیف و ادرار بدبو.
+
+@why
+CA-UTI با علائم خفیف: درمان تجربی و تعویض/برداشتن کاتتر.
+
+@L
+- Urine microscopy and urine culture (add blood cultures if septic or immunocompromised)
+
+@A
+- Ciprofloxacin 500 mg twice a day, or Levofloxacin 500 mg once a day, or Cefpodoxime 200 mg twice a day (7 days if prompt resolution of symptoms; 10 to 14 days if delayed response); tailor to local bacterial sensitivities
+
+@T
+- Remove the urinary catheter if clinically feasible or replace the catheter if it is > 7 days old
+
+@Co
+- Admission frequently required for catheter-associated pyelonephritis
+
+@variant catheter-balloon-nondeflation
+name: Nondeflation of Foley retention balloon
+level: III
+imp: Foley retention balloon will not deflate
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مردی ۶۰ ساله که بالون فولی او خالی نمی‌شود.
+
+@why
+تکنیک‌های پلکانی با گایدوایر، CVC و روغن معدنی.
+
+@T
+- Cut the plastic catheter valve just proximal to the inflation port and insert a flexible guide wire to expand the channel and deflate the balloon
+- If unsuccessful, insert a 22-G central venous catheter over the guide wire; once the tip enters the balloon, remove the guide wire and deflate the balloon
+- If balloon persists, instill 10 cc of mineral oil through the CVC and wait 15 minutes to dissolve the balloon (may be repeated)
+
+@Co
+- Urologist to remove the catheter if these methods fail
+
+@cond urologic-device-complications
+ch: 57
+name: Complications of nephrostomy, lithotripsy, ureteral stents, artificial sphincter and ED devices
+name_fa: عوارض نفروستومی، لیتوتریپسی، استنت حالب، اسفنکتر مصنوعی و وسایل نعوظ
+cc: flank-pain, urinary-symptoms, genital-complaint
+keywords: percutaneous nephrostomy, lithotripsy, ureteral stent, artificial urinary sphincter, penile prosthesis, priapism, retroperitoneal hematoma, vascular fistula, عوارض استنت
+status: draft
+
+@features
+- نفروستومی از راه پوست: خونریزی (کنترل هموگلوبین، هماتوکریت، کراتینین؛ پلاکت/انعقاد در شک)؛ عفونت (باکتریوری، پیلونفریت، آبسه کلیه، urosepsis)؛ جابه‌جایی کاتتر، انسداد لوله، باقیمانده قطعات سنگ
+- لیتوتریپسی: درد شکم/فلانک، هماچوری ماکروسکوپیک، اکیموز، انسداد حالب؛ جدی: پارگی/سوراخ شدن عضو، عفونت (پیلونفریت، urosepsis، آبسه psoas)، آسیب عروقی، پانکراتیت؛ هیپوتانسیون، سنکوپ، هماتوم فلانک، افت هموگلوبین و درد شدید = هماتوم اطراف کلیه/کلیه
+- استنت حالب: عفونت؛ دیررس: درد جدید شکم، درد شدید فلانک، تب، علائم تحریکی مثانه یا هماچوری شدید (مهاجرت، انسداد، عفونت)؛ کم‌خونی جدید بدون هماچوری: هماتوم رتروپریتوان؛ هماچوری شدید، سنکوپ یا هیپوتانسیون: فیستول عروقی ناشی از فرسایش
+- اسفنکتر مصنوعی ادراری: عفونت زودرس فلور پوست؛ دیررس گرم‌منفی؛ هرگز کاتتر از میان اسفنکتر مصنوعی رد نکن
+- وسایل ED: تزریق → پریاپیسم (اورولوژی اورژانس)؛ پمپ خلأ: درد، نکروز پوست و عفونت؛ پروتز: عفونت، فرسایش، مهاجرت
+
+@ddx
+- !Perinephric / renal / retroperitoneal hematoma |
+- !Urosepsis |
+- !Vascular fistulization from eroding stent |
+- Stent migration / obstruction |
+- Priapism from injection |
+
+@redflags
+- هیپوتانسیون، سنکوپ، هماتوم فلانک، افت هموگلوبین، هماچوری شدید، سپسیس
+
+@guide
+# نفروستومی
+خونریزی خفیف: شست‌وی لوله؛ عدم رفع → آسیب عروقی و اورولوژی اورژانس؛ شدید: مایع و خون. عفونت: کشت ادرار و ترشح زخم و آنتی‌بیوتیک پس از مشورت اورولوژی. جابه‌جایی/انسداد/قطعات سنگ: CT و اورولوژی.
+# لیتوتریپسی
+حمایتی با مایع، ضدتهوع و ضددرد؛ شمارش خون، کراتینین، UA؛ کشت و آنتی‌بیوتیک در صورت لزوم؛ سونوگرافی کلیه در انسداد ساده، CT در آسیب شدیدتر؛ اورولوژی زود.
+# استنت
+UA و کشت؛ عفونت ساده: آنتی‌بیوتیک سرپایی با مشورت اورولوژی؛ پیلونفریت/urosepsis: کشت، آنتی‌بیوتیک وریدی، تصویربرداری (سری شکمی، سونو، CT) و اورولوژی؛ فیستول عروقی: احیا، آزمایش، شست‌وی مثانه، ترانسفوزیون، اورولوژی فوری.
+# اسفنکتر و وسایل
+UA، آزمایش، کشت، تصویربرداری و آنتی‌بیوتیک وریدی، اورولوژی؛ پروتز عفونی: آنتی‌بیوتیک وسیع‌الطیف وریدی و اورولوژی برای برداشتن.
+
+@variant device-hemorrhage-hematoma
+name: Hemorrhage / hematoma after nephrostomy, lithotripsy or eroding stent
+level: I
+imp: Hemorrhage after urologic procedure / device
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: portable
+
+@scenario
+مردی ۵۵ ساله ۲ روز بعد از لیتوتریپسی با سنکوپ، هماتوم فلانک و افت هموگلوبین.
+
+@why
+هماتوم اطراف کلیه نشانه عارضه جدی؛ احیا و CT و اورولوژی زود.
+
+@I
+- CT scan if a severe injury is suspected; renal ultrasound if simple obstruction suspected
+
+@L
+- Hemoglobin, hematocrit, renal function studies, urinalysis; platelet count and coagulation studies if coagulopathy is suspected
+
+@S
+- IV fluid resuscitation and blood transfusion in severe cases
+
+@T
+- Mild nephrostomy bleeding: irrigate the nephrostomy tube to clear clots
+- Antiemetics and analgesics {note: drugs and doses not given in the book}
+- [severe gross hematuria, syncope or hypotension with a stent] irrigate the bladder and transfuse appropriately
+
+@Co
+- Emergent urology consultation (bleeding that fails to resolve may be a vascular injury; surgical intervention may be indicated)
+
+@variant device-infection-obstruction
+name: Infection / obstruction related to nephrostomy, stent, sphincter or prosthesis
+level: II
+imp: Infection or malfunction of urologic device
+cond: Urgent
+act: CBR
+diet: PO
+ecg: once
+cxr: none
+
+@scenario
+زنی ۶۰ ساله با استنت حالب و تب، درد فلانک و علائم تحریکی مثانه.
+
+@why
+عفونت ساده سرپایی با مشورت اورولوژی؛ پیلونفریت/urosepsis: کشت، آنتی‌بیوتیک وریدی و تصویربرداری.
+
+@I
+- Imaging to verify stent position (abdominal series, ultrasound, CT); CT for dislodgment, tube blockage and residual stone fragments (nephrostomy)
+
+@L
+- Urinalysis and urine culture; blood cultures if pyelonephritis or urosepsis suspected; urine and wound drainage culture (nephrostomy)
+
+@A
+- [simple infection] outpatient antibiotics in consultation with a urologist {note: drug and dose not given in the book}
+- [pyelonephritis or urosepsis suspected; artificial sphincter infection; penile prosthesis infection] IV antibiotics (broad-spectrum for prosthesis) {note: drug and dose not given in the book}
+
+@T
+- Never introduce a urinary drainage catheter through an artificial urinary sphincter
+
+@Co
+- Urology (device removal for infected penile prosthesis; stent removal not always necessary)
+
+@variant device-priapism-injection
+name: Priapism after erectile dysfunction injection
+level: I
+imp: Priapism from erectile dysfunction injection
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: none
+
+@scenario
+مردی ۵۰ ساله پس از تزریق داخل‌کورپوس با نعوظ دردناک ۵ ساعته.
+
+@why
+پریاپیسم ناشی از تزریق نیاز به مشاوره اورولوژی اورژانس دارد.
+
+@T
+- Corporal aspiration and instillation of an α-adrenergic antagonist (phenylephrine) {note: dose not given in the book}
+
+@Co
+- Emergent urologic consultation

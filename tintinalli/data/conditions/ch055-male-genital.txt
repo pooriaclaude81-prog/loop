@@ -1,0 +1,528 @@
+@cond testicular-torsion
+ch: 55
+name: Testicular torsion and torsion of appendages
+name_fa: پیچ‌خوردگی بیضه و زائده‌های بیضه
+cc: genital-complaint, abdominal-pain
+keywords: testicular torsion, appendix testis, blue dot sign, cremasteric reflex, manual detorsion, color Doppler, scrotal pain, پیچ‌خوردگی بیضه
+status: draft
+
+@features
+- ثابت‌شدن غیرطبیعی بیضه در تونیکا واژینالیس؛ توزیع دومودال سنی: دوره پریناتال و بلوغ؛ هر سنی ممکن است؛ معمولاً بدون رویداد قبلی
+- هر مرد با درد بیضه: ابتدا پیچ‌خوردگی (خطر انفارکتوس و ناباروری)
+- شروع ناگهانی، شدید در ربع تحتانی شکم، کانال اینگوینال یا بیضه؛ ثابت یا متناوب؛ غیر وضعیتی؛ اغلب بعد از فعالیت یا حین خواب
+- اوایل: بیضه سفت، دردناک، بالا کشیده و با وضعیت عرضی؛ نبود رفلکس کرماستریک یکطرفه حساس ولی غیراختصاصی
+- دوپلکس رنگی شایع‌ترین تست تأییدی (حساسیت 69٪ تا 90٪)؛ پیوری رد نمی‌کند
+- پیچ‌خوردگی زائده شایع‌تر ولی بی‌خطر: درد حداکثر نزدیک سر اپیدیدیم/بیضه، ندول تندر منفرد یا «blue dot» پاتونومونیک در پوست نازک پیش‌بلوغ؛ در جریان خون طبیعی دوپلر نیاز به جراحی نیست (کلسیفیه/دژنره طی 10 تا 14 روز)
+
+@ddx
+- !Testicular torsion |
+- Epididymitis / epididymo-orchitis |
+- Torsion of appendix testis |
+- Incarcerated inguinal hernia |
+- Hydrocele / scrotal hematoma |
+- Testicular tumor |
+
+@redflags
+- شروع ناگهانی درد شدید بیضه، بیضه بالا کشیده و عرضی، نبود کرماستریک؛ نجات عالی تا ۶ ساعت و سپس سریع افت می‌کند
+
+@guide
+وقتی تشخیص واضح است بلافاصله مشاوره اورولوژی برای اکسپلور (تصویربرداری زمان‌بر است). نجات بیضه با detorsion جراحی ظرف ۶ ساعت از شروع علائم عالی است. پزشک اورژانس می‌تواند detorsion دستی را امتحان کند: بیشتر بیضه‌ها از خارج به داخل می‌پیچند، پس detorsion از داخل به خارج مثل باز کردن کتاب؛ نقطه پایان موفقیت: رفع درد؛ ارجاع اورولوژی همچنان لازم است. حتی اگر آزمون تأییدی برنامه‌ریزی شده، اورولوژی را زود صدا کن؛ اگر شک بالا و تست‌ها رد نکند باز هم مشاوره لازم است.
+
+@pearls
+- پیوری و دوپلر نرمال گاهی گمراه‌کننده است؛ شک بالینی بالا یعنی اورولوژی.
+- «کتاب باز کردن»: detorsion از داخل به خارج.
+
+@variant torsion-suspected
+name: Suspected testicular torsion
+level: I
+imp: Testicular torsion
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: none
+cxr: none
+
+@scenario
+پسری ۱۴ ساله با درد ناگهانی شدید بیضه چپ پس از ورزش و تهوع؛ بیضه بالا کشیده و تندر.
+
+@why
+زمان از دست دادن بیضه را تعیین می‌کند؛ بدون تأخیر اورولوژی و اتاق عمل؛ NPO برای عمل.
+
+@I
+- Color-flow duplex ultrasound (sensitivity 69% to 90%); do not delay urologic consultation when the diagnosis is obvious
+
+@L
+- Urinalysis (pyuria does not rule out torsion)
+
+@T
+- Manual detorsion by the emergency physician in a medial to lateral direction (like opening a book); endpoint is pain relief
+- Analgesia {note: drug and dose not given in the book}
+
+@Co
+- Immediate urologic consultation for exploration (salvage rates excellent within 6 hours of symptom onset); consult early even if confirmatory testing is planned
+
+@variant torsion-appendage
+name: Torsion of appendix testis / epididymis
+level: III
+imp: Torsion of testicular appendage
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+پسری ۱۰ ساله با درد نزدیک سر بیضه و ندول تندر کوچک (blue dot)؛ دوپلر جریان طبیعی.
+
+@why
+بی‌خطر و خودمحدود است؛ جریان طبیعی بیضه یعنی جراحی لازم نیست.
+
+@I
+- Color Doppler to demonstrate normal intratesticular blood flow
+
+@T
+- Analgesia {note: drug and dose not given in the book}
+
+@Co
+- Urologic follow-up (most appendages calcify or degenerate over 10 to 14 days)
+
+@cond epididymitis-orchitis
+ch: 55
+name: Epididymitis and orchitis
+name_fa: اپیدیدیمیت و ارکیت
+cc: genital-complaint
+keywords: epididymitis, orchitis, epididymo-orchitis, Prehn sign, gonorrhea, chlamydia, ceftriaxone, doxycycline, levofloxacin, اپیدیدیمیت
+status: draft
+
+@features
+- شروع تدریجی درد به علت التهاب؛ عفونت باکتریال شایع‌ترین؛ < 35 سال: عمدتاً بیماری‌های آمیزشی (کشت یا DNA probe برای گنوکوک و کلامیدیا حتی بدون ترشح)؛ مسن‌تر: E. coli و Klebsiella
+- درد تحتانی شکم، کانال اینگوینال، اسکروتوم یا بیضه؛ Prehn مثبت: تسکین موقت با بالا بردن اسکروتوم در حالت خوابیده
+- ابتدا تندرنس موضعی اپیدیدیم؛ با پیشرفت توده بزرگ واحد بیضه (epididymo-orchitis) که از torsion و کارسینوم سخت افتراق می‌شود
+- توده بدون علامت، سفتی یا ایندوراسیون: بدخیمی (10٪ تومورها با درد از خونریزی)؛ ارکیت منفرد نادر؛ معمولاً همراه عفونت سیستمیک مثل اوریون
+
+@ddx
+- !Testicular torsion |
+- Testicular tumor |
+- Inguinal hernia |
+- Hydrocele / scrotal hematoma |
+- Prostatitis / urethritis |
+
+@redflags
+- بیمار سمی، توده بدون درد (تومور)، شک به torsion
+
+@guide
+بیمار سمی: بستری برای آنتی‌بیوتیک وریدی. غیرسمی: سرپایی با پیگیری اورولوژی ظرف 1 هفته. سن < 35: ceftriaxone 250 mg IM دوز واحد + doxycycline 100 mg PO دو بار روزانه 10 روز. سن > 35: levofloxacin 500 mg PO روزانه 10 روز یا ofloxacin 300 mg PO دو بار روزانه 10 روز. علاوه: بالا نگه داشتن اسکروتوم، یخ، NSAID، اپیوئید و نرم‌کننده مدفوع. ارکیت: درمان اختصاصی، حمایتی، پیگیری اورولوژی.
+
+@variant epididymitis-outpatient
+name: Epididymitis, non-toxic
+level: III
+imp: Epididymitis
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مردی ۲۸ ساله با درد تدریجی بیضه راست و دیزوری؛ غیرسمی.
+
+@why
+درمان بر اساس سن: آمیزشی زیر 35 سال و گرم‌منفی در مسن‌تر؛ سرپایی.
+
+@I
+- Color Doppler ultrasound if torsion cannot be excluded {note: not specifically stated for epididymitis in the chapter}
+
+@L
+- Urinalysis; culture or DNA probe for gonococcus and Chlamydia in males < 35 years even in the absence of urethral discharge
+
+@A
+- Age < 35: Ceftriaxone 250 mg IM single dose plus Doxycycline 100 mg PO twice daily for 10 days
+- Age > 35: Levofloxacin 500 mg PO daily for 10 days, or Ofloxacin 300 mg PO twice daily for 10 days
+
+@T
+- Scrotal elevation, ice application, nonsteroidal anti-inflammatory drugs, opioids for analgesia, and stool softeners {note: drugs and doses not given in the book}
+
+@Co
+- Urologic follow-up within 1 week
+
+@variant epididymitis-toxic
+name: Epididymitis, toxic-appearing
+level: II
+imp: Epididymitis with systemic toxicity
+cond: Urgent
+act: CBR
+diet: PO
+ecg: once
+cxr: none
+
+@scenario
+مردی ۶۵ ساله با تب، لرز و اسکروتوم متورم و دردناک.
+
+@why
+بیمار سمی نیاز به بستری و آنتی‌بیوتیک وریدی دارد.
+
+@L
+- Urinalysis and culture
+
+@A
+- Ceftriaxone 1 to 2 g every 12 hours IV, or Trimethoprim/sulfamethoxazole 5 mg/kg IV of trimethoprim component every 6 hours
+
+@T
+- Scrotal elevation, ice, analgesia {note: drugs and doses not given in the book}
+
+@Co
+- Admission; urology
+
+@cond acute-prostatitis
+ch: 55
+name: Acute prostatitis
+name_fa: پروستاتیت حاد
+cc: urinary-symptoms, genital-complaint, fever
+keywords: prostatitis, perineal pain, ciprofloxacin, levofloxacin, pyuria, پروستاتیت
+status: draft
+
+@features
+- التهاب باکتریال پروستات: درد سوپراپوبیک/تناسلی/کمر/پرینه، مشکل ادرار، تکرر، دیزوری، درد حین انزال، تب و لرز
+- عوامل خطر: انسداد تحتانی مجاری ادراری، اپیدیدیمیت یا اورتریت، رابطه مقعدی محافظت‌نشده، فیموز، کاتتر دائم
+- E. coli در بیشتر موارد؛ Pseudomonas، Klebsiella، Enterobacter، Serratia یا Staphylococcus
+- معاینه: تندرنس پرینه، رکتوم و پروستات؛ تشخیص بالینی (UA و کشت اغلب منفی حتی بعد از ماساژ)
+
+@ddx
+- !Sepsis from urinary source |
+- Epididymitis / urethritis |
+- Cystitis / pyelonephritis |
+- Prostatic abscess / urinary retention |
+
+@redflags
+- سپسیس، ایمنوساپرسیون، بدتر شدن با درمان سرپایی، احتباس ادرار
+
+@guide
+درمان: ciprofloxacin 500 mg دو بار روزانه یا levofloxacin 500 mg PO روزانه یا ofloxacin 300 mg PO دو بار روزانه؛ همه برای 2 تا 4 هفته؛ ضددرد در صورت نیاز. بستری فقط در سپسیس، ایمنوساپرسیون، بیماری‌های زمینه‌ای مهم یا بدتر شدن؛ آنگاه piperacillin-tazobactam 3.375 تا 4.5 g یا cefotaxime با آمینوگلیکوزید. در پرخطر برای STD: تست و درمان گنوره و کلامیدیا.
+
+@variant prostatitis-outpatient
+name: Acute prostatitis, stable
+level: III
+imp: Acute prostatitis
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مردی ۵۰ ساله با دیزوری، درد پرینه و تب خفیف؛ پایدار.
+
+@why
+تشخیص بالینی؛ فلوروکینولون 2 تا 4 هفته.
+
+@L
+- Urinalysis and culture (often negative); testing for gonorrhea and chlamydia in patients with risk factors for sexually transmitted disease
+
+@A
+- Ciprofloxacin 500 mg twice daily, or Levofloxacin 500 mg PO daily, or Ofloxacin 300 mg PO twice daily; all for 2 to 4 weeks
+
+@T
+- Pain medicine as required {note: drug and dose not given in the book}
+
+@variant prostatitis-septic
+name: Acute prostatitis, septic or immunocompromised
+level: II
+imp: Acute prostatitis with sepsis
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: portable
+
+@scenario
+مردی ۷۰ ساله دیابتی با تب، لرز، فشار 90/60 و تندرنس پروستات.
+
+@why
+سپسیس یا ایمنوساپرسیون نیاز به بستری و آنتی‌بیوتیک وریدی دارد.
+
+@L
+- Urinalysis and urine culture
+
+@A
+- Piperacillin-tazobactam 3.375 to 4.5 g IV, or Cefotaxime with an aminoglycoside
+
+@Co
+- Admission; urology
+
+@cond scrotal-abscess-fournier
+ch: 55
+name: Scrotal abscess and Fournier gangrene
+name_fa: آبسه اسکروتوم و گانگرن فورنیه
+cc: genital-complaint, fever
+keywords: scrotal abscess, Fournier gangrene, perineal necrotizing infection, imipenem, meropenem, vancomycin, hyperbaric oxygen, گانگرن فورنیه
+status: draft
+
+@features
+- آبسه اسکروتوم: محدود به دیواره یا گسترش عفونت محتویات اسکروتوم (بیضه، اپیدیدیم، مجرای بولبار)
+- فولیکول مو: ساده؛ در شک به منشأ داخل اسکروتومی، سونوگرافی پاتولوژی بیضه/اپیدیدیم را نشان می‌دهد؛ اورتروگرافی رتروگراد برای منبع مجرا
+- Fournier: عفونت پلی‌میکروبیال بافت زیرجلدی پرینه؛ دیابتی‌ها و هر ایمنوساپرسیون پرخطر؛ تشخیص سریع برای جلوگیری از از دست رفتن وسیع بافت؛ درد اسکروتوم، رکتوم یا ژنیتال
+
+@ddx
+- !Fournier gangrene (necrotizing infection) |
+- Epididymitis / orchitis abscess |
+- Urethral source infection |
+- Simple hair follicle abscess |
+
+@redflags
+- دیابتی یا ایمنوساپرس با درد اسکروتوم/رکتوم/ژنیتال، سیر سریع، سمیت
+
+@guide
+آبسه ساده فولیکول مو: برش و درناژ؛ در ایمنوکمپتنت آنتی‌بیوتیک لازم نیست. آبسه پیچیده: مشاوره اورولوژی. Fournier: مشاوره زود جراحی؛ پایه درمان: مایع تهاجمی نرمال سالین و آنتی‌بیوتیک وسیع‌الطیف پوشش‌دهنده گرم‌مثبت، گرم‌منفی و بی‌هوازی: imipenem 1 g IV هر 8 ساعت یا meropenem 500 mg تا 1 g IV هر 8 ساعت به‌علاوه vancomycin 1 g IV هر 12 ساعت اگر MRSA مطرح؛ اکسیژن هیپرباریک (در دسترس) و دبریدمان جراحی.
+
+@variant scrotal-abscess-simple
+name: Simple scrotal wall (hair follicle) abscess
+level: III
+imp: Scrotal wall abscess
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مردی ۳۰ ساله سالم با آبسه کوچک فولیکولی روی اسکروتوم.
+
+@why
+برش و درناژ؛ بدون آنتی‌بیوتیک در ایمنوکمپتنت.
+
+@T
+- Incision and drainage {note: no antibiotics required in immunocompetent patients}
+
+@Co
+- Urology consultation for definitive care of any complex abscess
+
+@variant fournier-gangrene
+name: Fournier gangrene
+level: I
+imp: Fournier gangrene
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: portable
+
+@scenario
+مردی ۶۰ ساله دیابتی با درد پرینه، اریتم، کرپیتوس و فشار 85/50.
+
+@why
+عفونت نکروزان پلی‌میکروبیال؛ مایع تهاجمی، آنتی‌بیوتیک وسیع‌الطیف و دبریدمان فوری.
+
+@I
+- Ultrasound when abscess arises from intrascrotal contents; retrograde urethrography for a urethral source
+
+@S
+- Aggressive fluid resuscitation with normal saline {ci: caution in heart failure / pulmonary edema}
+
+@A
+- Imipenem 1 g IV every 8 hours, or Meropenem 500 mg to 1 g IV every 8 hours (covers gram-positive, gram-negative and anaerobic organisms)
+- [MRSA suspected] plus Vancomycin 1 g IV every 12 hours
+
+@T
+- Hyperbaric oxygen therapy if readily available
+
+@Co
+- Early surgical consultation for surgical debridement
+
+@cond penile-disorders
+ch: 55
+name: Penile disorders (balanoposthitis, phimosis, paraphimosis, entrapment, fracture, Peyronie, priapism)
+name_fa: اختلالات آلت (بالانوپوستیت، فیموز، پارافیموز، گیرافتادگی، شکستگی، پیرونی، پریاپیسم)
+cc: genital-complaint
+keywords: balanoposthitis, phimosis, paraphimosis, penile fracture, penile entrapment, Peyronie, priapism, phenylephrine, corporal aspiration, پارافیموز, پریاپیسم
+status: draft
+
+@features
+- بالانوپوستیت: التهاب گلنس و پوست ختنه‌گاه؛ چرک، اکسکوریاسیون، بوی بد و تندرنس؛ می‌تواند اولین نشانه دیابت باشد
+- فیموز: ناتوانی در عقب بردن پوست ختنه‌گاه؛ فیزیولوژیک در پسران (کمتر از 10٪ در 3 سالگی)؛ پاتولوژیک: عفونت، بهداشت بد یا جای زخم
+- پارافیموز: ناتوانی در برگرداندن پوست ادماتو روی گلنس؛ اورژانس واقعی اورولوژی (ادم و احتقان وریدی، سپس ایسکمی شریانی و گانگرن)
+- گیرافتادگی آلت: اجسام دور آلت با مختل شدن عروق
+- شکستگی آلت: پارگی حاد تونیکا آلبوژینه؛ تورم، تغییر رنگ، تندرنس، صدای شکستن و از دست رفتن ناگهانی نعوظ حین مقاربت
+- پیرونی: انحنای پیشرونده دردناک، پلاک ضخیم روی ساقه پشتی؛ ED
+- پریاپیسم: نعوظ دردناک پاتولوژیک با احتباس ادرار، عفونت و ناتوانی جنسی
+
+@ddx
+- !Paraphimosis (arterial compromise) |
+- !Penile fracture with urethral injury |
+- !Priapism |
+- Balanitis / candidiasis / diabetes |
+- Peyronie disease |
+
+@redflags
+- پارافیموز با شک به ایسکمی شریانی، پریاپیسم، شکستگی آلت با خون در مجرا
+
+@guide
+# بالانوپوستیت
+شست‌وی با صابون ملایم و خشک نگه‌داشتن، کرم ضدقارچ (nystatin 100000 U/g چهار بار روزانه یا clotrimazole 1٪ دو بار روزانه) و آزول خوراکی (fluconazole 150 mg دوز واحد؛ ارزیابی مجدد روز 7)؛ موارد راجعه: ارجاع اورولوژی برای ختنه؛ عفونت ثانویه: cephalexin 500 mg (سفالوسپورین خوراکی).
+# فیموز
+دیلاتاسیون هموستاتیک سوراخ پوست ختنه‌گاه برای رفع احتباس تا dorsal slit یا ختنه؛ استروئید موضعی (hydrocortisone 1٪ 4 تا 6 هفته) با عقب‌بردن روزانه.
+# پارافیموز
+بانداژ 2×2 inch الاستیک دور گلنس 5 دقیقه برای کاهش ادم؛ چند سوراخ با سوزن 22–25 gauge برای خروج مایع؛ بلوک موضعی آلت؛ در ایسکمی شریانی: تزریق lidocaine 1٪ ساده و برش عمودی سطحی باند.
+# گیرافتادگی
+فشردن، بریدن، سرد کردن آلت و احتمالاً جراحی؛ اورتروگرافی رتروگراد و دوپلر در صورت لزوم.
+# شکستگی
+اورتروگرافی رتروگراد برای سلامت مجرا؛ مشاوره اورولوژی.
+# پیرونی
+اطمینان‌بخشی و پیگیری اورولوژی.
+# پریاپیسم
+آسپیراسیون کورپوس و تزریق آگونیست α-آدرنرژیک (phenylephrine)؛ مشاوره اورولوژی همیشه.
+
+@variant penile-paraphimosis
+name: Paraphimosis
+level: II
+imp: Paraphimosis
+cond: Emergent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مردی ۶۰ ساله با کاتتر که پوست ختنه‌گاه را عقب برده و گلنس ادماتو و دردناک است.
+
+@why
+اورژانس واقعی اورولوژی؛ ادم تا ایسکمی و گانگرن؛ جا انداختن فوری.
+
+@T
+- Wrap the glans with 2 × 2-in. elastic bandages for 5 minutes to compress edema, then reduce the foreskin
+- Several puncture wounds with a small (22- to 25-gauge) needle to express glans edema fluid
+- Local anesthetic block of the penis if the patient cannot tolerate the discomfort
+- [arterial compromise suspected] local infiltration of the constricting band with 1% plain lidocaine followed by superficial vertical incision of the band to decompress the glans and allow reduction
+
+@Co
+- Urology if reduction fails
+
+@variant penile-priapism-fracture
+name: Priapism or penile fracture
+level: I
+imp: Priapism / penile fracture
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: none
+
+@scenario
+مردی ۳۵ ساله با نعوظ دردناک ۶ ساعته یا شکستگی آلت پس از مقاربت.
+
+@why
+پریاپیسم: آسپیراسیون و فنیل‌افرین؛ شکستگی: اورتروگرافی و جراحی؛ اورولوژی در همه موارد.
+
+@I
+- [penile fracture] Retrograde urethrography to assure urethral integrity
+- [penile entrapment] Retrograde urethrogram and Doppler studies if indicated
+
+@T
+- [priapism] Corporal aspiration and instillation of an α-adrenergic antagonist (phenylephrine) {note: dose not given in the book}
+
+@Co
+- Urologic consultation in all cases (even when the emergency physician provides stabilizing care)
+
+@variant penile-balanoposthitis-phimosis
+name: Balanoposthitis / phimosis / Peyronie (outpatient)
+level: III
+imp: Balanoposthitis / phimosis
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مردی ۴۵ ساله دیابتی با قرمزی، چرک و بوی بد زیر پوست ختنه‌گاه.
+
+@why
+درمان موضعی و ارزیابی دیابت؛ ارجاع در موارد راجعه.
+
+@L
+- Blood glucose (balanoposthitis can be the sole presenting sign of diabetes)
+
+@T
+- Cleaning with mild soap and ensuring adequate dryness
+- Nystatin 100,000 U/g four times daily or Clotrimazole 1% cream twice daily
+- Fluconazole 150 mg single dose (oral azole), reevaluate at 7 days for repeat dosing
+- [phimosis] Hydrocortisone 1% cream for 4 to 6 weeks with daily preputial retraction; hemostatic dilation of the preputial ostium to relieve urinary retention until dorsal slit or circumcision
+
+@A
+- [secondary bacterial infection] Cephalexin 500 mg {note: oral cephalosporin; frequency not given in the book}
+
+@Co
+- Urologic referral for reassessment and possible circumcision in recurrent cases
+
+@cond urethral-disorders
+ch: 55
+name: Urethritis, urethral stricture and urethral foreign body
+name_fa: اورتریت، تنگی مجرا و جسم خارجی مجرا
+cc: genital-complaint, urinary-symptoms
+keywords: urethritis, urethral stricture, Coude catheter, suprapubic cystotomy, urethral foreign body, ceftriaxone, azithromycin, اورتریت
+status: draft
+
+@features
+- اورتریت: ترشح چرکی مجرا؛ تشخیص بالینی، تأیید با ادرار اول‌جریان؛ Chlamydia trachomatis و N. gonorrhoeae؛ گاهی Trichomonas، Ureaplasma، HSV
+- تنگی مجرا: شایع‌تر به‌علت STD؛ احتباس ادرار؛ باقیمانده پس از ادرار طبیعی < 100 mL (سونوگرافی)
+- اگر مثانه کاتتریزه نشد: تنگی، اسپاسم ارادی اسفنکتر خارجی، تنگی گردن مثانه یا BPH
+- جسم خارجی مجرا: ادرار خونی و ادرار آهسته دردناک؛ رادیوگرافی مثانه/مجرا
+
+@ddx
+- !Urethral injury |
+- Epididymitis / prostatitis |
+- Urethral stricture / bladder neck contracture / BPH |
+- Voluntary external sphincter spasm |
+
+@redflags
+- شکست کاتتریزاسیون، احتباس، جسم خارجی با خون در مجرا
+
+@guide
+اورتریت: ceftriaxone 250 mg IM و azithromycin 1 g PO. تنگی: اگر Foley 14–16 Fr نرفت Coudé؛ اورتروگرافی رتروگراد؛ اسپاسم ارادی: آلت را عمودی نگه دار و تشویق به ریلکس کردن پرینه و تنفس آهسته. بعد از حداکثر سه تلاش ملایم با Coudé 12 Fr و مجرای آماده‌شده با ژل بی‌حسی: مشاوره اورولوژی؛ اورژانس: سیستوتومی سوپراپوبیک با تکنیک Seldinger؛ پیگیری ظرف 48 ساعت. جسم خارجی: اغلب اورولوژی (اندوسکوپی یا سیستوتومی باز)؛ ماساژ ملایم انتهای پروگزیمال قابل امتحان؛ اورتروگرافی یا اندوسکوپی برای تأیید سلامت مجرا.
+
+@variant urethritis-std
+name: Urethritis
+level: III
+imp: Urethritis
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مردی ۲۴ ساله با ترشح چرکی از مجرا و دیزوری.
+
+@why
+تشخیص بالینی، درمان آمیزشی.
+
+@L
+- First-void urine specimen (confirmation)
+
+@A
+- Ceftriaxone 250 mg IM and Azithromycin 1 g PO
+
+@variant urethral-stricture-foreign-body
+name: Urethral stricture / urethral foreign body with retention
+level: II
+imp: Urethral stricture / foreign body
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: once
+cxr: none
+
+@scenario
+مردی ۶۰ ساله با تنگی مجرا و احتباس ادرار؛ Foley 16 Fr عبور نمی‌کند.
+
+@why
+Coudé و حداکثر سه تلاش ملایم؛ سپس اورولوژی یا سیستوتومی.
+
+@I
+- Bedside ultrasonography for post-void residual (normal < 100 mL); retrograde urethrography to delineate stricture location and extent; radiography of the bladder and urethral areas for a foreign body
+
+@T
+- Coude catheter (12-Fr after anesthetic lubricant, no more than three gentle attempts; 14- or 16-Fr Foley first)
+- Emergency suprapubic cystotomy (Seldinger technique) if needed
+
+@Co
+- Urology consultation (urologic follow-up within 48 hours; endoscopy or open cystotomy for foreign body)

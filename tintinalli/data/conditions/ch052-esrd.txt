@@ -1,0 +1,293 @@
+@cond esrd-cardio-neuro-heme
+ch: 52
+name: ESRD: cardiovascular, neurologic and hematologic emergencies
+name_fa: اورژانس‌های بیماران ESRD: قلبی-عروقی، عصبی و خونی
+cc: dyspnea, altered-mental-status, chest-pain, bleeding-bruising
+keywords: ESRD, dialysis, uremic pericarditis, tamponade, uremic encephalopathy, asterixis, troponin, desmopressin, pulmonary edema, furosemide, نارسایی کلیه مزمن
+status: draft
+
+@features
+- موارد دیالیز اورژانس: هیپرکالمی، اسیدوز متابولیک شدید و ادم ریه مقاوم به درمان‌های دیگر
+- ترویونین I و T در ESRD حتی بدون علامت شایع است؛ MI با افزایش ≥ 20٪ ترویونین و حداقل یک مقدار بالای صدک 99
+- فشار خون بالا در بیشتر بیماران شروع‌کننده دیالیز؛ نارسایی قلبی: فشار، ایسکمی، دریچه‌ای، کاردیومیوپاتی اورمیک، اضافه حجم و فیستول AV (high output)
+- پریکاردیت اورمیک: معمولاً با بدتر شدن اورمی؛ تغییرات ECG تیپیک همیشه نیست؛ ساییدگی پریکارد بلندتر و اغلب لمس‌شدنی؛ تامپوناد جدی‌ترین عارضه (تغییر هوشیاری، افت فشار، تنگی نفس؛ قلب بزرگ در CXR؛ تأیید با اکو)
+- آنسفالوپاتی اورمیک: تغییر هوشیاری، نقص شناختی، فراموشی، تکلم نامفهوم و asterixis؛ شایع‌ترین اندیکاسیون شروع HD؛ تشخیص رد سایر علل ساختاری، عروقی، عفونی، توکسیک و متابولیک
+- نوروپاتی محیطی در 60٪ تا 100٪؛ دیس‌اتونومی؛ سکته مغزی در 6٪ HD (نیمی خونریزی‌دهنده، معمولاً ساب‌دورال) – در هر تغییر هوشیاری به سکته فکر کن
+- کم‌خونی (کاهش اریتروپویتین، خونریزی، فلبوتومی، عمر کم RBC)؛ هموستاز غیرطبیعی: خونریزی GI، هماتوم ساب‌کپسولار کبد، ساب‌دورال، داخل چشمی؛ نقص ایمنی و مرگ‌ومیر بالای عفونت
+
+@ddx
+- !Hyperkalemia / severe metabolic acidosis |
+- !Cardiac tamponade (uremic pericarditis) |
+- !Stroke (including subdural hematoma) |
+- Acute coronary syndrome |
+- Uremic encephalopathy (diagnosis of exclusion) |
+- Fluid overload / pulmonary edema |
+
+@redflags
+- تامپوناد (تغییر هوشیاری، افت فشار، تنگی نفس)، هیپرکالمی، ادم ریه مقاوم، تغییر هوشیاری (سکته)، خونریزی
+
+@guide
+# CHF و اضافه حجم
+اکسیژن، BiPAP، نیترات، ACE inhibitor و احتمالاً furosemide 60 تا 100 mg IV (اثر وازودیلاتور ریوی حتی در اولیگوری)؛ کاهش پیش‌بار با ایجاد اسهال با sorbitol و فلبوتومی (حداقل 150 mL، در کیسه انتقال خون برای بازگرداندن در دیالیز)؛ HD درمان قطعی.
+# فشار خون
+کنترل حجم خون سپس مسدودکننده آدرنرژیک، ACE inhibitor یا وازودیلاتور.
+# پریکاردیت اورمیک
+دیالیز فشرده؛ تامپوناد: پریکاردیوسنتز با هدایت فلوروسکوپی یا سونوگرافی.
+# خونریزی
+desmopressin 0.3 μg/kg یا cryoprecipitate.
+
+@pearls
+- ترویونین در ESRD مزمناً بالاست؛ به روند (≥ 20٪) توجه کن.
+- آنسفالوپاتی اورمیک تشخیص رد سایر علل است.
+
+@variant esrd-pulm-edema-hyperk
+name: ESRD with pulmonary edema / hyperkalemia needing emergent dialysis
+level: I
+imp: ESRD with pulmonary edema / hyperkalemia
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+
+@scenario
+مرد ۶۰ ساله دیالیزی با جاماندن جلسه، تنگی نفس، رال و پتاسیم 7.
+
+@why
+دیالیز اورژانس برای هیپرکالمی، اسیدوز شدید و ادم ریه مقاوم؛ هیچ مایع نرمال سالینی نده.
+
+@L
+- Troponin (rise of 20% or greater with at least one value above the 99th percentile defines MI)
+
+@T
+- Supplemental oxygen and bilevel positive airway pressure
+- Nitrates {note: dose not given in the book}
+- Furosemide 60 to 100 mg IV (pulmonary vasodilator effect may provide relief even in oliguric patients) {renal: oliguria}
+- Angiotensin converting enzyme inhibitor {note: drug and dose not given in the book}
+- Reduce preload: induce diarrhea with sorbitol; phlebotomy (minimum 150 mL, collected in a transfusion bag to be transfused back during subsequent dialysis)
+
+@Co
+- Nephrology for emergent hemodialysis (definitive treatment)
+
+@variant esrd-uremic-pericarditis-tamponade
+name: Uremic pericarditis / tamponade
+level: I
+imp: Uremic pericarditis with possible cardiac tamponade
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+
+@scenario
+مرد ۵۵ ساله ESRD با تنگی نفس، افت فشار و تغییر هوشیاری؛ ساییدگی پریکارد.
+
+@why
+تامپوناد جدی‌ترین عارضه؛ اکو و پریکاردیوسنتز؛ پریکاردیت با دیالیز فشرده.
+
+@I
+- Echocardiography (confirms tamponade; enlarged heart on chest x-ray may suggest it)
+
+@T
+- Pericardiocentesis under fluoroscopic or ultrasonographic guidance for a hemodynamically significant pericardial effusion
+
+@Co
+- Nephrology for intensive dialysis (uremic pericarditis); cardiology
+
+@variant esrd-uremic-encephalopathy
+name: Altered mental status in ESRD (uremic encephalopathy vs stroke)
+level: II
+imp: Altered mental status in ESRD (uremic encephalopathy, rule out stroke)
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: PA
+
+@scenario
+مرد ۶۵ ساله دیالیزی با گیجی، تکلم نامفهوم و asterixis.
+
+@why
+اورمیک تشخیص رد سایر علل است؛ در تغییر هوشیاری به سکته (ساب‌دورال) فکر کن.
+
+@I
+- Head CT (stroke considered in any ESRD patient with a change in mental status; half of strokes are hemorrhagic, typically subdural hematomas) {note: CT not specifically stated in the chapter}
+
+@L
+- Glucose and tests to exclude structural, vascular, infectious, toxic and metabolic causes
+
+@Co
+- Nephrology for hemodialysis (progressive neurologic symptoms of uremia are the most common indication for initiating HD)
+
+@variant esrd-bleeding
+name: ESRD with bleeding (uremic platelet dysfunction)
+level: II
+imp: Bleeding in ESRD (abnormal hemostasis)
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: once
+cxr: none
+
+@scenario
+زن ۵۸ ساله دیالیزی با ملنا.
+
+@why
+هموستاز غیرطبیعی؛ دسموپرسین یا کرایو.
+
+@T
+- Desmopressin 0.3 μg/kg or cryoprecipitate
+
+@Co
+- Nephrology; GI / surgery as appropriate
+
+@cond dialysis-complications
+ch: 52
+name: Complications of hemodialysis, vascular access and peritoneal dialysis
+name_fa: عوارض همودیالیز، دسترسی عروقی و دیالیز صفاقی
+cc: hypotension-shock, fever, bleeding-bruising, abdominal-pain
+keywords: intradialytic hypotension, dialysis disequilibrium, AV fistula thrombosis, vascular access infection, protamine, desmopressin, peritoneal dialysis peritonitis, cloudy effluent, vancomycin, gentamicin, عوارض دیالیز
+status: draft
+
+@features
+- افت فشار شایع‌ترین عارضه HD؛ علت: اولترافیلتراسیون بیش از حد (کمتر از وزن خشک)؛ علل دیگر: ایسکمی/آریتمی/تامپوناد، سپسیس یا داروهای ضدفشار، از دست دادن حجم (استفراغ، اسهال، خونریزی GI، نشت فیلتر)
+- دیس‌اکوئیلیبریوم: ادم مغزی پس از پاکسازی املاح؛ تهوع، استفراغ، فشار بالا → تشنج، کما، مرگ
+- دسترسی عروقی: بیشترین روزهای بستری؛ ترومبوز/تنگی با از بین رفتن bruit و thrill (درمان ظرف 24 ساعت)
+- عفونت دسترسی: تب، افت فشار، لکوسیتوز؛ علائم موضعی اغلب غایب؛ S. aureus شایع‌ترین؛ کشت خون محیطی و کاتتر همزمان (کلنی 4 برابر در کاتتر = منبع)
+- خونریزی تهدیدکننده از پارگی آنوریسم/آناستوموز یا ضدانعقاد بیش از حد
+- پریتونیت PD شایع‌ترین عارضه PD: تب، درد شکم، تندرنس برگشتی؛ مایع خروجی کدر؛ > 100 WBC/mm3 با > 50٪ نوتروفیل؛ گرم مثبت فقط در 10٪ تا 40٪؛ S. epidermidis، S. aureus، استرپتوکوک و گرم‌منفی
+- عفونت اطراف کاتتر PD: درد، اریتم، تورم، ترشح؛ S. aureus و Pseudomonas
+
+@ddx
+- !Sepsis from vascular access infection |
+- !Cardiac tamponade / myocardial ischemia (intradialytic hypotension) |
+- !Hemorrhage from vascular access |
+- Dialysis disequilibrium / intracranial hemorrhage |
+- Peritonitis / catheter exit-site infection |
+
+@redflags
+- شوک یا سپسیس، خونریزی تهدیدکننده حیات از دسترسی، تشنج یا کما حین دیالیز
+
+@guide
+# افت فشار حین HD
+وضعیت Trendelenburg، محلول نمکی خوراکی یا نرمال سالین؛ اگر جواب نداد اولترافیلتراسیون زیاد بعید است و باید بیشتر بررسی شود.
+# دیس‌اکوئیلیبریوم
+قطع دیالیز و مانیتول وریدی.
+# ترومبوز دسترسی
+ظرف 24 ساعت: برداشتن لخته آنژیوگرافیک، آنژیوپلاستی یا تزریق مستقیم ترومبولیتیک.
+# عفونت دسترسی
+بستری؛ vancomycin 15 mg/kg IV و آمینوگلیکوزید مثل gentamycin 100 mg IV.
+# خونریزی دسترسی
+فشار ۵ تا ۱۰ دقیقه؛ در شکست: اسفنج ژلاتینی جذب‌شدنی آغشته به ترومبین یا گاز پروترومبوتیک و ۱۰ دقیقه فشار؛ تهدیدکننده حیات: تورنیکه پروگزیمال و مشاوره جراحی عروق؛ هپارین: protamine 0.01 mg به‌ازای هر واحد هپارین یا 10 تا 20 mg اگر مقدار نامعلوم؛ دسترسی تازه که خونریزی ادامه دارد: desmopressin 0.3 μg/kg IV.
+# پریتونیت PD
+مایع صفاقی برای شمارش سلول، گرم، کشت و حساسیت؛ چند تعویض سریع دیالیزات؛ هپارین 500 تا 1000 U/L دیالیزات؛ آنتی‌بیوتیک در دیالیزات: cephalothin یا vancomycin 500 mg/L و gentamycin 100 mg/L؛ بستری یا سرپایی بر اساس بالین. عفونت اطراف کاتتر: سفالوسپورین نسل اول یا ciprofloxacin سرپایی.
+
+@pearls
+- در دسترسی عروقی عفونی، علائم کلاسیک موضعی اغلب نیست؛ کشت خون همزمان بگیر.
+
+@variant dialysis-intradialytic-hypotension
+name: Intradialytic hypotension
+level: II
+imp: Intradialytic hypotension
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: PA
+
+@scenario
+مرد ۶۰ ساله هنگام همودیالیز با افت فشار 80/50 و سرگیجه.
+
+@why
+معمولاً اولترافیلتراسیون زیاد؛ Trendelenburg و سالین؛ در شکست علل دیگر (ایسکمی، تامپوناد، سپسیس، خونریزی).
+
+@T
+- Trendelenburg positioning, oral salt solution or infusion of normal saline {ci: heart failure / pulmonary edema}
+- If these fail, excessive ultrafiltration is unlikely; further evaluation required (myocardial ischemia, hypoxia, arrhythmia, pericardial tamponade, sepsis, antihypertensives, GI bleeding, blood tubing or filter leaks)
+
+@Co
+- Nephrology
+
+@variant dialysis-disequilibrium
+name: Dialysis disequilibrium syndrome
+level: I
+imp: Dialysis disequilibrium (cerebral edema)
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: none
+
+@scenario
+مرد ۴۵ ساله نخستین جلسه HD با تهوع، استفراغ، فشار بالا و تشنج.
+
+@why
+ادم مغزی؛ قطع دیالیز و مانیتول.
+
+@T
+- Terminate dialysis
+- Mannitol IV to increase serum osmolality {note: dose not given in the book}
+
+@Co
+- Nephrology; admit
+
+@variant dialysis-access-problem
+name: Vascular access thrombosis, infection or bleeding
+level: II
+imp: Vascular access complication (thrombosis / infection / hemorrhage)
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: once
+cxr: none
+
+@scenario
+مرد ۶۸ ساله با از بین رفتن thrill فیستول یا تب و افت فشار با کاتتر دیالیز.
+
+@why
+ترومبوز: ظرف 24 ساعت؛ عفونت: کشت همزمان و آنتی‌بیوتیک؛ خونریزی: فشار و برگرداندن هپارین.
+
+@L
+- Peripheral and catheter blood cultures simultaneously (fourfold higher colony count in the catheter culture suggests it is the source)
+
+@A
+- [vascular access infection] Vancomycin 15 mg/kg IV and an aminoglycoside such as Gentamycin 100 mg IV
+
+@T
+- [bleeding] Direct pressure at the puncture site for 5 to 10 minutes; if this fails, absorbable gelatin sponge soaked in reconstituted thrombin or prothrombotic gauze followed by 10 minutes of direct pressure
+- [life-threatening hemorrhage] tourniquet proximal to the access
+- [excessive anticoagulation] Protamine 0.01 mg per unit heparin dispensed during dialysis, or 10 to 20 mg protamine if heparin dose unknown
+- [newly inserted access continues to bleed] Desmopressin 0.3 μg/kg IV as an adjunct to direct pressure
+
+@Co
+- Thrombosis or stenosis: treatment within 24 hours (angiographic clot removal, angioplasty, or thrombolytic injected directly into the access); vascular surgery for life-threatening hemorrhage; hospitalization for access infection
+
+@variant dialysis-pd-peritonitis
+name: Peritoneal dialysis peritonitis / catheter infection
+level: II
+imp: Peritoneal dialysis peritonitis
+cond: Urgent
+act: CBR
+diet: PO
+ecg: once
+cxr: none
+
+@scenario
+زن ۵۰ ساله با PD، تب، درد شکم و مایع خروجی کدر.
+
+@why
+پریتونیت شایع‌ترین عارضه PD؛ آنتی‌بیوتیک داخل دیالیزات.
+
+@L
+- Peritoneal fluid: cell count, Gram stain, culture and sensitivity (> 100 leukocytes/mm3 with > 50% neutrophils supports peritonitis)
+
+@A
+- Added to the dialysate: gram-positive coverage (cephalothin or Vancomycin 500 mg/L dialysate) and gram-negative coverage (Gentamycin 100 mg/L dialysate)
+- [infection around the PD catheter] first-generation cephalosporin or Ciprofloxacin (outpatient) {note: dose not given in the book}
+
+@T
+- A few rapid exchanges of dialysate to decrease inflammatory cells in the peritoneum
+- Heparin 500 to 1000 U/L dialysate to decrease fibrin clot formation
+
+@Co
+- Inpatient versus outpatient treatment based on clinical presentation; nephrology

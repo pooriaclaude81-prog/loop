@@ -1,0 +1,299 @@
+@cond urinary-tract-infection
+ch: 53
+name: Urinary tract infection (cystitis, pyelonephritis, pregnancy, asymptomatic bacteriuria)
+name_fa: عفونت ادراری (سیستیت، پیلونفریت، حاملگی، باکتریوری بدون علامت)
+cc: urinary-symptoms, flank-pain, fever
+keywords: UTI, cystitis, pyelonephritis, nitrofurantoin, fosfomycin, ciprofloxacin, ceftriaxone, phenazopyridine, asymptomatic bacteriuria, dysuria, عفونت ادراری
+status: draft
+
+@features
+- شایع‌ترین عفونت باکتریال سرپایی؛ بیش از 50٪ زنان یک بار و حدود 12٪ سالانه
+- پایین: اورتریت (ترشح؛ معمولاً آمیزشی) و سیستیت؛ بالا: پیلونفریت؛ تمایز بالینی
+- بدون عارضه: زن جوان سالم غیرحامله با مجاری طبیعی؛ عارضه‌دار: همه مردان، حاملگی، ناهنجاری ساختاری/عملکردی یا بیماری زمینه‌ای
+- ABU: باکتری قابل‌توجه (≥ 100000 CFU/mL یک ارگانیسم) بدون علامت؛ غربالگری/درمان عموماً توصیه نمی‌شود مگر حاملگی یا قبل از TURP
+- بیش از 80٪ E. coli؛ Klebsiella، Proteus، Enterobacter، Pseudomonas، Chlamydia، S. saprophyticus
+- سیستیت: تکرر، فوریت، تردید و درد سوپراپوبیک؛ پیلونفریت: درد فلانک یا CVA همراه تب، لرز یا تهوع/استفراغ
+- ترشح واژینال/مجرا: اورتریت، واژینیت، سرویسیت یا PID محتمل‌تر؛ دیابتی و سالمند آتیپیک (ضعف، بی‌حالی، درد شکم، تغییر هوشیاری)
+- دیپ‌استیک: نیتریت (ویژگی > 90٪، حساسیت 50٪)، لکوسیت استراز (حساسیت 77٪)؛ هرکدام مثبت حساسیت 75٪، ویژگی 82٪؛ هر دو مثبت ویژگی 98 تا 100٪؛ منفی رد نمی‌کند
+
+@ddx
+- !Pyelonephritis with sepsis / obstructing stone |
+- !Pelvic inflammatory disease |
+- Vaginitis / cervicitis / urethritis |
+- Prostatitis / epididymitis |
+- Intra-abdominal pathology / bladder tumor |
+- Chemical irritation / trauma |
+
+@redflags
+- سپسیس، استفراغ مقاوم، انسداد با سنگ، حاملگی (20٪ سپسیس)، مرد یا بیمار با پیگیری ناکافی
+
+@guide
+تشخیص با شرح حال و معاینه، تأیید با دیپ‌استیک یا UA و کشت. نمونه میان‌جریان تمیز به دقت کاتتر است؛ کاتتر فقط اگر قادر به ادرار نیست، بسیار بدحال/بی‌حرکت یا چاق شدید (1٪ تا 2٪ UTI بعد از یک کاتتر). کشت فقط: عارضه‌دار (مرد، حاملگی)، عود یا عفونت مجدد، کودکان، سپتیک. تصویربرداری (CT یا سونو) فقط در پیلونفریت شدید/غیرپاسخگو یا شک به سنگ. اگر تست‌ها مبهم است درمان تجربی.
+
+# آنتی‌بیوتیک
+بدون عارضه: nitrofurantoin 100 mg ER دو بار روزانه ۵ روز (خط اول)؛ TMP-SMX DS 160/800 mg دو بار روزانه ۳ روز؛ fosfomycin 3 g دوز واحد؛ فلوروکینولون پرهیز. عارضه‌دار/پیلونفریت: ciprofloxacin 500 mg دو بار روزانه ۷ روز (خط اول)؛ levofloxacin 750 mg روزانه ۵ روز؛ cefpodoxime 400 mg دو بار روزانه ۷ تا ۱۴ روز؛ اگر مقاومت محلی < 20٪: TMP-SMX DS ۷ تا ۱۴ روز یا amoxicillin-clavulanate 875/125 mg دو بار روزانه ۱۴ روز.
+حاملگی: ABU ۳ روز و UTI ۷ روز nitrofurantoin؛ فلوروکینولون و تتراسایکلین تراتوژن؛ TMP-SMX با احتیاط در سه‌ماهه اول و سوم.
+علاوه بر آن phenazopyridine 200 mg سه بار روزانه ۲ روز. بستری: پیلونفریت با استفراغ مقاوم؛ حاملگی؛ پیگیری نامناسب. تزریقی: ceftriaxone 1 g IV روزانه، ciprofloxacin 400 mg IV هر ۱۲ ساعت یا piperacillin-tazobactam 3.375 g IV هر ۶ ساعت.
+
+@pearls
+- هیچ تست واحدی UTI را در زنان علامت‌دار رد نمی‌کند؛ در نتایج مبهم درمان تجربی.
+
+@variant uti-uncomplicated-cystitis
+name: Uncomplicated cystitis (young healthy non-pregnant woman)
+level: III
+imp: Uncomplicated cystitis
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+زنی ۲۵ ساله با سوزش ادرار و تکرر ادرار؛ بدون تب.
+
+@why
+UTI بدون عارضه با nitrofurantoin؛ فلوروکینولون پرهیز برای کاهش مقاومت.
+
+@L
+- Urine dipstick (nitrite, leukocyte esterase) or urinalysis; urine culture not needed in uncomplicated cystitis
+
+@A
+- Nitrofurantoin 100 mg extended release twice a day PO for 5 days (first-line); alternatives: TMP-SMX DS 160/800 mg twice a day for 3 days, or Fosfomycin 3 g single dose {ci: avoid fluoroquinolones in uncomplicated UTI}
+
+@T
+- Phenazopyridine 200 mg three times a day for 2 days (bladder analgesic)
+- Encourage adequate hydration; complete the entire antibiotic course
+
+@Co
+- Outpatient follow-up with a primary care doctor; return for uncontrolled pain, fever, vomiting
+
+@variant uti-complicated-pyelonephritis
+name: Pyelonephritis / complicated UTI (man, structural abnormality, comorbidity)
+level: II
+imp: Pyelonephritis / complicated UTI
+cond: Urgent
+act: CBR
+diet: PO
+ecg: once
+cxr: none
+
+@scenario
+مردی ۵۰ ساله با تب، لرز، درد فلانک و تکرر ادرار.
+
+@why
+عارضه‌دار: کشت ادرار و کموکینولون خط اول؛ بستری اگر استفراغ مقاوم.
+
+@I
+- CT or ultrasound only if severe or nonresponsive pyelonephritis, or significant concern for a renal stone
+
+@L
+- Urinalysis and urine culture (complicated UTI)
+
+@A
+- Ciprofloxacin 500 mg twice a day for 7 days (first-line); alternatives: Levofloxacin 750 mg daily for 5 days, or Cefpodoxime 400 mg twice a day for 7 to 14 days; TMP-SMX DS 160/800 mg twice a day for 7 to 14 days or Amoxicillin-clavulanate 875/125 mg twice a day for 14 days if local resistance is less than 20%
+- [inpatient] Ceftriaxone 1 g IV daily, or Ciprofloxacin 400 mg IV every 12 hours, or Piperacillin-tazobactam 3.375 g IV every 6 hours
+
+@T
+- Phenazopyridine 200 mg three times a day for 2 days
+
+@Co
+- Admit if intractable vomiting or inadequate outpatient follow-up
+
+@variant uti-pregnancy
+name: UTI or asymptomatic bacteriuria in pregnancy
+level: II
+imp: Urinary tract infection in pregnancy
+cond: Urgent
+act: CBR
+diet: PO
+ecg: once
+cxr: none
+
+@scenario
+زنی ۲۸ ساله با حاملگی ۱۶ هفته، سوزش ادرار و کشت مثبت.
+
+@why
+حاملگی: 20٪ سپسیس؛ nitrofurantoin؛ پرهیز از فلوروکینولون و تتراسایکلین.
+
+@L
+- Urinalysis and urine culture (pregnant women)
+
+@A
+- Asymptomatic bacteriuria: Nitrofurantoin for 3 days; UTI: Nitrofurantoin for 7 days {ci: fluoroquinolones and tetracyclines are teratogenic; TMP-SMX with caution in the first and third trimesters}
+
+@Co
+- Consider admission for pregnant women (20% will develop sepsis)
+
+@cond hematuria
+ch: 53
+name: Hematuria
+name_fa: هماچوری
+cc: urinary-symptoms, flank-pain
+keywords: hematuria, gross hematuria, microscopic hematuria, painless hematuria, bladder cancer, glomerulonephritis, خون در ادرار
+status: draft
+
+@features
+- هماچوری ماکروسکوپیک: منبع تحتانی؛ رنگدانه‌هایی مثل میوگلوبین می‌توانند تقلید کنند؛ میکروسکوپیک (> 3 RBC/HPF): منبع کلیوی (در UTI هم دیده می‌شود)
+- دیپ‌استیک با حدود 5 تا 20 RBC/mL مثبت؛ مثبت را با میکروسکوپی دنبال کن؛ کاتتر در 15٪ هماچوری ایجاد می‌کند؛ مثبت کاذب: میوگلوبین، همولیز، پورفیرین؛ منفی کاذب: وزن مخصوص بالا
+- UTI شایع‌ترین علت همراه فوریت/سوزش/شب‌ادراری؛ هماچوری بدون درد: نئوپلاسم، هیپرپلازی، عروقی
+- < 40 سال: عفونت و التهاب (UTI، پروستاتیت، اورتریت، STD، اپیدیدیمواورکیت، سنگ، سل)؛ سن بالا: سرطان کلیه/مثانه/پروستات، BPH
+- سایر: ورزش شدید، پس از استرپتوکوک، تروما، هیپرتانسیون بدخیم، AAA فرساینده، کواگولوپاتی، جسم خارجی، HSP، سندرم ریوی-کلیوی، سیکل‌سل، ترومبوز ورید کلیوی
+- هماچوری در بیمار با ضدانعقاد خوراکی را فقط به دارو نسبت نده (تا 80٪ بیماری زمینه‌ای)
+
+@ddx
+- !Eroding abdominal aortic aneurysm |
+- !Renal or bladder cancer |
+- Urinary tract infection / prostatitis |
+- Nephrolithiasis |
+- Glomerulonephritis / Henoch-Schonlein purpura |
+- Trauma / coagulopathy / sickle cell disease |
+
+@redflags
+- ناپایداری همودینامیک، کم‌خونی قابل‌توجه، نارسایی کلیه، انسداد خروجی مثانه، پره‌اکلامپسی، گلومرولونفریت تازه‌تشخیص
+
+@guide
+درمان بر اساس علت؛ در ED کاهش عوارض و ارجاع یا بستری. همه بیماران باید به‌سرعت توسط پزشک عمومی یا اورولوژی پیگیری شوند. تصویربرداری در ED فقط: تروما، علائم سنگ یا شک بالا به AAA. بستری: عفونت همراه سنگ انسدادی، درد/استفراغ مقاوم، ناپایداری همودینامیک، گلومرولونفریت جدید، کم‌خونی قابل‌توجه، نارسایی کلیه، انسداد خروجی مثانه، پره‌اکلامپسی یا هر علت تهدیدکننده.
+
+@variant hematuria-stable
+name: Hematuria, stable
+level: III
+imp: Hematuria
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مردی ۶۵ ساله با هماچوری بدون درد؛ علائم حیاتی پایدار.
+
+@why
+درمان علت؛ پیگیری پزشک عمومی/اورولوژی.
+
+@L
+- Urinalysis with microscopy (positive dipstick followed by microscopy)
+
+@Co
+- Prompt follow-up with primary care or urology
+
+@variant hematuria-unstable
+name: Hematuria with instability or complications
+level: II
+imp: Hematuria with hemodynamic instability / obstruction / renal insufficiency
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: once
+cxr: none
+
+@scenario
+مردی ۷۰ ساله با هماچوری و لخته، افت فشار و کراتینین بالا.
+
+@why
+ناپایداری، انسداد یا نارسایی کلیه بستری لازم دارد؛ تصویربرداری فقط در تروما، سنگ یا شک AAA.
+
+@I
+- Imaging only for trauma, symptoms of nephrolithiasis, or high concern for abdominal aortic aneurysm
+
+@L
+- Urinalysis with microscopy
+
+@Co
+- Admit; urology / nephrology as appropriate
+
+@cond acute-urinary-retention
+ch: 54
+name: Acute urinary retention
+name_fa: احتباس حاد ادرار
+cc: urinary-symptoms, abdominal-pain
+keywords: urinary retention, BPH, Foley, Coude, suprapubic catheter, three-way catheter, alpha blocker, postobstructive diuresis, oxybutynin, احتباس ادرار
+status: draft
+
+@features
+- شایع‌ترین علت: انسداد خروجی توسط BPH در مردان؛ دارو، اختلال حاد عصبی، خونریزی یا سنگ و سایر انسدادهای آناتومیک در هر دو جنس
+- حاد: شروع سریع درد زیر شکم گاهی تیر به کمر؛ مشکل در ادرار (ممکن است بیمار ذکر نکند)؛ 20٪ عود در 6 ماه بعد؛ مزمن: ناراحتی زیر شکم، تخلیه ناقص، تکرر، بی‌اختیاری سرریز
+- شرح حال: اپیزودهای قبلی، تغییر دارو، داروهای OTC، تروما، نقص عصبی، عفونت، پروسیجر اورولوژیک یا کاتتر اخیر؛ مدت علائم (دیورز پس از انسداد و اختلال کلیه)
+- معاینه: توده سوپراپوبیک؛ تنگی میتوس؛ پروستات (اندازه، قوام، تندرنس)؛ پرولاپس مثانه یا تنگی میتوس در زنان؛ معاینه لگن؛ معاینه عصبی کامل با حس پرینه و تون اسفنکتر
+- سونوگرافی بالین بعد از تلاش برای ادرار: حجم باقیمانده > 50 تا 150 cc مطابق احتباس؛ معمولاً > 300 cc در احتباس؛ افتراق از اسپاسم مثانه
+
+@ddx
+- !Cauda equina / spinal cord compression |
+- !Urethral trauma |
+- Benign prostatic hyperplasia |
+- Urinary tract infection / prostatitis |
+- Medication side effect (anticholinergic) / stricture / stone / clot |
+
+@redflags
+- تب (عفونت)، شک به تروما/اورتر، نقص عصبی (بی‌حسی زین اسبی، تون اسفنکتر ضعیف)، شکست کاتتریزاسیون
+
+@guide
+کاتتر ادراری درد و احتباس را برطرف می‌کند: روان‌کننده فراوان داخل مجرا با بی‌حسی موضعی (ژل lidocaine 2٪)؛ اگر کاتتر مستقیم شکست: Coudé 16-French؛ تا آخر پیش ببر تا ادرار آزاد بیاید قبل از باد کردن بالون؛ در شک تروما به مجرا یا دستکاری اخیر کاتتر نگذار. معمولاً کاتتر دائم با کیسه پا؛ در احتباس پس از بیهوشی: کاتتر خارج و آزمایش ادرار خودبه‌خود.
+هماچوری انسدادی: Foley سه‌راهه و شست‌وی مثانه تا مایع بدون خون؛ احتمالاً بستری (انسداد کاتتر با لخته).
+شکست کاتتریزاسیون یا پروسیجر اخیر: اورولوژی؛ فوری در تنگی، پروستاتیت یا تروما؛ کاتتر سوپراپوبیک.
+ارسال UA و کشت؛ الکترولیت، BUN و کراتینین؛ پایش کمی ادرار. oxybutynin برای اسپاسم مثانه (می‌تواند خود انسداد عملکردی دهد)؛ BPH: مسدودکننده α. آنتی‌بیوتیک فقط در شواهد سیستیت/عفونت. انسداد مزمن: دیورز پس از انسداد حتی با BUN/Cr نرمال؛ پایش ۴ تا ۶ ساعت؛ > 200 mL/h برای بیش از ۴ تا ۶ ساعت: بستری و مایع. قطع داروی مسبب. پیگیری اورولوژی ۳ تا ۷ روز.
+
+@pearls
+- قبل از بالون زدن کاتتر مطمئن شو ادرار آزاد جاری است.
+- در شک به تروما مجرا کاتتر نگذار.
+
+@variant retention-uncomplicated
+name: Acute urinary retention (BPH, medication), uncomplicated
+level: II
+imp: Acute urinary retention
+cond: Urgent
+act: CBR
+diet: PO
+ecg: once
+cxr: none
+
+@scenario
+مردی ۷۲ ساله با ناتوانی در ادرار و درد زیر شکم از ۱۲ ساعت پیش.
+
+@why
+کاتتر ادراری ساده درد را برطرف می‌کند؛ پایش دیورز پس از انسداد و پیگیری اورولوژی.
+
+@I
+- Bedside ultrasound after a voiding attempt (bladder volume; residual > 50 to 150 cc consistent with retention, typically > 300 cc)
+
+@L
+- Urinalysis and urine culture; electrolytes, BUN and creatinine for postobstructive renal failure
+
+@T
+- Urethral catheter with copious intraurethral lubrication including 2% lidocaine jelly; 16-French Coude catheter if straight catheters fail; pass to its fullest extent for free urine flow before inflating the balloon; leave indwelling with leg drainage bag
+- Monitor urine output quantitatively; if chronic retention, closely monitor for 4 to 6 hours after catheterization (output > 200 mL/h for more than 4 to 6 hours: admit and replace fluid)
+- Oxybutynin for bladder spasms {ci: anticholinergic, can itself cause functional obstruction}
+- Alpha-blocker if BPH suspected {note: drug and dose not given in the book}
+- Discontinue offending medications
+
+@A
+- [cystitis or other infection] Antibiotics {note: not indicated otherwise; drug and dose not given in the book}
+
+@Co
+- Urologic follow-up in 3 to 7 days for complete genitourinary evaluation and catheter removal
+
+@variant retention-hematuria-failed
+name: Retention with clot hematuria, urethral trauma, stricture or failed catheterization
+level: II
+imp: Acute urinary retention with hematuria / failed catheterization
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: once
+cxr: none
+
+@scenario
+مردی ۶۸ ساله با لخته و هماچوری، احتباس ادرار و شکست کاتتریزاسیون.
+
+@why
+Foley سه‌راهه و شست‌وی؛ شکست کاتتر یا پروسیجر اخیر: اورولوژی بدون تأخیر.
+
+@L
+- Urinalysis and urine culture; electrolytes, BUN and creatinine
+
+@T
+- 3-port Foley catheter; irrigate the bladder until returning fluid is free of blood (catheter often becomes blocked with clot)
+- Do not place a catheter if urethral trauma is suspected (trauma or recent instrumentation); suprapubic urinary catheter may be placed by physicians familiar with the procedure
+
+@Co
+- Urologist for catheter placement without delay (failure to pass Foley, recent urologic procedure or instrumentation); urgent urologic consultation for stricture, prostatitis or urethral trauma
+- Admit for continued irrigation
