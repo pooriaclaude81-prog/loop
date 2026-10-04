@@ -1,0 +1,141 @@
+@cond chest-pain-undifferentiated
+ch: 17
+name: Acute chest pain, undifferentiated (cardiac or not)
+name_fa: درد حاد قفسه سینه (قلبی یا غیرقلبی)
+cc: chest-pain
+keywords: chest pain, ACS, TIMI, GRACE, troponin, ECG within 10 minutes, nonclassic presentation, درد قفسه سینه
+status: draft
+
+@features
+- درد قلبی کلاسیک: رتروسترنال/چپ قدامی، له‌کننده یا فشارنده، با فعالیت بدتر و با استراحت بهتر؛ با تنگی نفس، تعریق و تهوع و انتشار به شانه چپ، فک، بازو یا دست
+- ارائه غیرکلاسیک در زنان پیش از یائسگی و اوایل یائسگی، اقلیت‌های نژادی، دیابتی، سالمند و بیماران روانی یا با تغییر هوشیاری؛ AMI بدون درد قفسه با تأخیر تشخیص و مرگ‌ومیر بیشتر
+- آنژین 2 تا 10 دقیقه، آنژین ناپایدار 10 تا 30 دقیقه و AMI اغلب بیش از 30 دقیقه
+- علائم کلاسیک (انتشار به بازو، جزء فعالیتی، تعریق، تهوع و استفراغ) احتمال AMI را بالا می‌برند؛ درد پلورتیک، وضعیتی، تیز و قابل‌تکثیر با لمس آن را کم می‌کنند؛ هیچ مجموعه علامتی بدون تست عینی قطعی نیست
+- پاسخ به نیتروگلیسیرین یا «GI cocktail» تفکیک‌کننده خوبی نیست؛ تندرنس دیواره قفسه در تا 15٪ AMI دیده می‌شود
+- ECG باید ظرف 10 دقیقه؛ ECG طبیعی ACS را رد نمی‌کند؛ خطای تفسیر ECG در تا 40٪ AMI از دست رفته
+- تروپونین قلبی بیومارکر انتخابی؛ از 2 ساعت قابل تشخیص و تا 6 ساعت ممکن است مطمئن بالا نباشد؛ اوج 48 ساعت؛ تا 10 روز بالا می‌ماند
+
+@ddx
+- !Acute coronary syndrome | 
+- !Pulmonary embolism | 
+- !Aortic dissection | 
+- !Esophageal rupture (Boerhaave) | 
+- !Tension / spontaneous pneumothorax | 
+- !Pericarditis | 
+- Pneumonia | 
+- Esophageal reflux / spasm / peptic ulcer | 
+- Chest wall pain (costochondritis, precordial catch, xiphodynia) | 
+
+@redflags
+- علائم حیاتی غیرطبیعی، ECG نگران‌کننده یا شرح حال سندرم قلبی حاد
+- درد پاره‌کننده به پشت (دایسکشن)، درد ناگهانی بعد از استفراغ شدید (روپچر مری)
+
+@guide
+# رویکرد
+- نیاز فوری به ABC در علائم حیاتی غیرطبیعی؛ مانیتور، IV، اکسیژن در صورت لزوم.
+- ECG ظرف 10 دقیقه در شک به ایسکمی؛ مقایسه با ECG قبلی و تکرار آن ارزش تشخیصی را بالا می‌برد.
+- تروپونین (سریال در شروع زودهنگام یا علائم متناوب)؛ CXR برای تشخیص‌های جایگزین (دایسکشن، پنومونی، پنوموتوراکس).
+- آسپرین برای بیماران در معرض AMI (جزئیات در ACS).
+- نمره TIMI یا GRACE کمک می‌کند ولی نمره پایین برای ترخیص زودهنگام بدون ارزیابی بیشتر به‌اندازه کافی حساس نیست.
+
+@variant chestpain-suspected-ischemia
+name: Suspected cardiac ischemia
+level: II
+imp: Acute chest pain, suspected ACS
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+
+@scenario
+مردی ۵۵ ساله و سیگاری با فشار پشت جناغ ۳۰ دقیقه‌ای و تعریق؛ فشار 135/85 و SpO2 96٪.
+
+@why
+شک معقول به ایسکمی: ECG ظرف 10 دقیقه، مانیتور، IV، تروپونین و آسپرین؛ تشخیص‌های جایگزین را در نظر بگیر.
+
+@I
+- [if the diagnosis is uncertain] Chest CT (pulmonary embolism, aortic dissection)
+
+@L
+- Cardiac troponin (serial: repeat when diagnostic uncertainty or early presentation within 6 hours or intermittent symptoms); comparison with baseline in renal failure
+- [if timing of infarction remains unclear] CK-MB
+
+@T
+- ECG within 10 minutes of arrival; repeat during the evaluation and compare with a prior ECG
+- Aspirin for patients at risk for AMI (see acute coronary syndromes for the dose and other medications)
+
+@Co
+- [ACS cannot be reliably excluded after ED evaluation] Admission or observation for further evaluation
+
+@variant chestpain-low-risk-observation
+name: Low-risk chest pain, etiology unclear
+level: III
+imp: Acute chest pain, low risk
+cond: Urgent
+act: CBR
+diet: PO
+ecg: once
+cxr: PA
+
+@scenario
+زنی ۳۵ ساله با درد تیز قفسه سینه از دیروز، قابل تکثیر با لمس، علائم حیاتی طبیعی و بدون عامل خطر.
+
+@why
+نمره پایین خطر برای حذف ACS کافی نیست؛ ECG، CXR و در صورت نگرانی تروپونین و مشاهده.
+
+@L
+- [concern for ACS remains after history and physical] Cardiac troponin
+
+@T
+- Focused history (onset, timing, severity, radiation, character, alleviating/exacerbating factors, vomiting, diaphoresis, dyspnea) and thoracic examination
+- [unclear etiology after initial ED workup] Further testing and observation or admission guided by clinical suspicion
+
+@cond chest-wall-gi-chest-pain
+ch: 17
+name: Noncardiac chest pain: chest wall and gastrointestinal causes
+name_fa: درد قفسه غیرقلبی (دیواره قفسه و گوارشی)
+cc: chest-pain
+keywords: costochondritis, xiphodynia, precordial catch, intercostal strain, GERD, dyspepsia, esophageal spasm, GI cocktail
+status: draft
+
+@features
+- دیواره قفسه: costochondritis، xiphodynia، precordial catch، کشیدگی بین‌دنده‌ای ناشی از سرفه، کشیدگی پکتورالیس؛ درد تیز بدتر با حرکت و لمس
+- تندرنس دیواره قفسه در بعضی بیماران ACS هم هست؛ فقط درد کاملاً قابل‌تکثیر در بیمار بدون علامت دیگر یا عامل خطر به نفع این تشخیص است
+- گوارشی: ریفلاکس، دیس‌پپسی، اختلال حرکتی مری؛ درد سوزشی/gnawing پایین قفسه (گاستریت) یا درد کسل‌کننده بعد از غذا در اپی‌گاستر (زخم)
+- اسپاسم مری: درد کسل یا فشارنده ناگهانی پشت جناغ، بعد از نوشیدن مایع سرد و قابل‌تسکین با نیتروگلیسیرین
+- تشخیص گوارشی نباید فقط بر پاسخ به آنتی‌اسید، GI cocktail یا نیتروگلیسیرین باشد
+
+@ddx
+- !Acute coronary syndrome (must be considered first) | 
+- Costochondritis / Tietze | 
+- Esophageal reflux / spasm | 
+- Peptic ulcer disease / gastritis | 
+
+@redflags
+- فاکتورهای خطر قلبی یا یافته‌های ایسکمیک
+
+@guide
+اول علل تهدیدکننده را رد کن. ایسکمی را با ECG و تروپونین بررسی کن؛ سپس درمان علامتی علت گوارشی یا عضلانی.
+
+@variant noncardiac-chest-pain-main
+name: Chest wall or GI chest pain after ischemia excluded
+level: III
+imp: Noncardiac chest pain
+cond: Urgent
+act: RBR
+diet: PO
+ecg: once
+cxr: PA
+
+@scenario
+مردی ۳۰ ساله با درد تیز سمت چپ قفسه که با حرکت و لمس بدتر می‌شود؛ ECG و تروپونین طبیعی.
+
+@why
+درد کاملاً قابل‌تکثیر بدون عامل خطر؛ پس از رد ایسکمی درمان علامتی.
+
+@L
+- Cardiac troponin {note: to exclude ischemia before attributing pain to a chest wall or GI cause}
+
+@T
+- Treat the cause (chest wall: analgesia; reflux/dyspepsia/ulcer: see esophageal emergencies and peptic ulcer disease) {note: no drug doses are given in this chapter}

@@ -1,0 +1,333 @@
+@cond cardiogenic-shock
+ch: 19
+name: Cardiogenic shock
+name_fa: شوک کاردیوژنیک
+cc: hypotension-shock, dyspnea, chest-pain
+keywords: cardiogenic shock, pump failure, norepinephrine, dobutamine, dopamine, milrinone, nitroprusside, intra-aortic balloon pump, mitral regurgitation, RV infarct
+status: draft
+
+@features
+- برون‌ده قلبی ناکافی؛ شایع‌ترین علت AMI با آسیب وسیع، اختلال انقباض بطن راست یا پارگی عضله پاپیلری؛ مرگ‌ومیر AMI همراه شوک حدود 50٪
+- علل دیگر: سمیت دارویی، میوپریکاردیت، اندوکاردیت، بیماری دریچه‌ای، PE، تامپوناد، کوفتگی میوکارد
+- هیپوتانسیون (SBP < 90؛ ممکن است در پرفشاری مزمن بالاتر باشد)، تاکی‌کاردی سینوسی (ممکن است با بتابلوکر نباشد)، پوست سرد/لکه‌دار، الیگوری، تغییر هوشیاری
+- نارسایی بطن چپ: تاکی‌پنه، رال، ویز و خلط کف‌آلود؛ هیپوتانسیون با JVD بدون ادم ریه: درگیری بطن راست، تامپوناد یا PE
+- سوفل جدید: VSD یا نارسایی حاد دریچه‌ای (اختلال عضله پاپیلری یا پارگی chordae)
+- ST افت در لیدهای لترال می‌تواند MI بطن راست باشد
+
+@ddx
+- !Acute MI with extensive damage | 
+- !Cardiac tamponade | 
+- !Massive pulmonary embolism | 
+- Septic / hypovolemic / neurogenic shock | 
+- Acute valvular dysfunction / VSD | 
+- Myocarditis / endocarditis | 
+
+@redflags
+- هیپوتانسیون با نشانه‌های هیپوپرفیوژن
+- سوفل جدید یا نارسایی حاد دریچه‌ای
+
+@guide
+مدیریت راه هوایی، تثبیت گردش خون و ترتیب مراقبت قطعی هم‌زمان؛ مشاوره زودهنگام قلب یا جراحی قلب. PCI برتر از فیبرینولیز؛ در نبود PCI فیبرینولیز بهتر از درمان حمایتی. داروهای ضدآنژین معمول ممکن است کلاپس ایجاد کنند (به‌ویژه ایسکمی بطن راست). از بتابلوکر پرهیز.
+
+@variant cardiogenic-shock-ami
+name: Cardiogenic shock due to AMI
+level: I
+imp: Cardiogenic shock due to acute MI
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+
+@scenario
+مردی ۶۵ ساله با MI قدامی وسیع، فشار 75/50، نبض 120، رال دوطرفه و پوست سرد.
+
+@why
+شوک کاردیوژنیک ناشی از ایسکمی: نیاز به ریواسکولاریزاسیون فوری، حمایت تنفسی و پرسور/اینوتروپ.
+
+@I
+- Bedside echocardiography (pericardial effusion, LV function, inferior vena cava) {note: not a substitute for formal echocardiography}
+
+@L
+- Cardiac troponin, lactate, blood gas, liver function tests, BNP / NT-proBNP (if the etiology is uncertain)
+
+@S
+- [mild hypotension and no pulmonary edema] IV fluid challenge 250 to 500 mL bolus with close monitoring
+
+@T
+- Supplemental oxygen; noninvasive positive pressure ventilation for temporary support; endotracheal intubation as needed
+- Early revascularization: PCI is superior to fibrinolysis; when PCI is not available (or prolonged transfer) fibrinolysis is superior to supportive measures alone
+- Aspirin and heparin unless an absolute contraindication is present
+- [chest pain] Cautious titrated IV nitroglycerin 5 to 100 μg/min or morphine sulfate in 2 mg increments with close blood pressure monitoring {hi} {ci: right ventricular ischemia; may precipitate collapse}
+- Norepinephrine infusion starting at 2 μg/min, titrated to effect (vasopressor and positive inotrope) {hi}
+- Dobutamine 2 to 20.0 μg/kg/min {hi} (may cause peripheral vasodilatation; concomitant dopamine 2 to 20.0 μg/kg/min at the lowest dose possible) {hi}
+- [inotrope] Milrinone loading dose 50 μg/kg IV over 10 minutes followed by an infusion of 0.5 μg/kg/min {hi}
+- Avoid β-blockers
+
+@Co
+- Cardiology and/or cardiothoracic surgery early (emergent coronary revascularization); transfer to a specialized facility when indicated
+
+@variant cardiogenic-shock-mr
+name: Acute mitral regurgitation or refractory shock
+level: I
+imp: Cardiogenic shock with acute mitral regurgitation
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: portable
+
+@scenario
+مردی ۷۰ ساله ۴ روز بعد از MI با سوفل جدید هولوسیستولیک و ادم ریه و فشار 80/50.
+
+@why
+نارسایی حاد میترال: کاهش afterload با نیتروپروساید همراه اینوتروپ؛ در موارد انتخابی حمایت مکانیکی.
+
+@I
+- Bedside echocardiography
+
+@T
+- Sodium nitroprusside 0.5 to 10.0 μg/kg/min IV (afterload reduction) combined with Dobutamine 2 to 20.0 μg/kg/min {hi}
+- Intra-aortic balloon pump counterpulsation, if available, as a temporizing measure to decrease afterload and augment coronary perfusion {ci: severe aortic regurgitation}
+- [selected refractory cases] Percutaneous left ventricular assist devices or extracorporeal membrane oxygenation
+
+@Co
+- Cardiothoracic surgery / cardiology
+
+@cond low-probability-acs
+ch: 20
+name: Low-probability acute coronary syndrome (possible ACS)
+name_fa: ACS با احتمال کم
+cc: chest-pain
+keywords: low risk chest pain, observation unit, serial troponin, HEART pathway, TIMI, CT coronary angiography, stress test, stress echocardiography
+status: draft
+
+@features
+- بیمار بدون شواهد عینی ایسکمی حاد یا انفارکتوس: بدون صعود یا افت ST مشخص و بیومارکرهای اولیه طبیعی
+- حدود 3 تا 6٪ بیمارانی که تشخیص اولیه درد غیرقلبی دارند ممکن است بعداً حادثه قلبی کوتاه‌مدت داشته باشند
+- ویژگی‌های کم‌خطر: درد پلورتیک، وضعیتی، تیز، چاقویی یا قابل‌تکثیر؛ ویژگی‌های پرخطر: انتشار به بازو/شانه، فعالیتی، فشاری، همراه تهوع یا تعریق، شبیه درد قلبی قبلی
+- CAD مهم در زیر 30 سال نادر است؛ پاسخ به نیترات، آنتی‌اسید یا NSAID نمی‌تواند ACS را تأیید یا رد کند
+- کاتتریزاسیون منفی اخیر بدون بی‌نظمی لومینال با خطر بسیار کم MI تا 2 سال همراه است
+
+@ddx
+- !ACS (unstable angina / NSTEMI) | 
+- !Pulmonary embolism / aortic dissection | 
+- Noncardiac chest pain | 
+- Heart failure | 
+
+@redflags
+- تغییرات ECG جدید، تروپونین بالا یا ناپایداری
+
+@guide
+# طبقه‌بندی بر اساس پیش‌آگهی
+- AMI؛ ایسکمی محتمل (پرخطر)؛ ایسکمی ممکن (خطر متوسط یا کم)؛ قطعاً غیرایسکمیک.
+- ارزیابی ثانویه در ED، واحد observation یا بستری: ECG سریال، تروپونین سریال (حذف AMI)، تست عینی قلبی (حذف آنژین ناپایدار).
+- روش اصلاح‌شده برای کم‌خطرها: دو تروپونین با فاصله حداقل 2 ساعت و حداقل یکی بعد از 6 ساعت از شروع درد.
+- تست‌ها: CT آنژیوگرافی کرونر (سریع‌تر و کم‌هزینه‌تر)، تردمیل (حساسیت 68٪)، اکو استرس (80٪)، پرفیوژن هسته‌ای، MRI قلب.
+
+@variant lowprob-acs-main
+name: Possible ACS, low or intermediate risk (secondary evaluation)
+level: III
+imp: Chest pain, possible ACS (low probability)
+cond: Urgent
+act: CBR
+diet: PO
+ecg: once
+cxr: PA
+
+@scenario
+زنی ۴۰ ساله با درد قفسه سینه مبهم ۲ ساعته؛ ECG طبیعی و تروپونین اول طبیعی.
+
+@why
+ایسکمی را باید با تروپونین سریال و در صورت لزوم تست عینی حذف کرد؛ درمان اولیه ACS مشکوک پیش از تأیید یا رد شروع می‌شود.
+
+@L
+- Serial cardiac troponin: two measurements at least 2 hours apart with one at least 6 hours after pain onset (in appropriate low-risk patients)
+
+@T
+- Serial ECGs
+- Supplemental oxygen via nasal cannula as needed to maintain appropriate pulse oxygenation
+- Aspirin 160 to 325 mg orally
+- [suspected ischemic chest pain] Nitroglycerin 0.4 mg spray or sublingual; IV nitroglycerin for persistent pain unrelieved by other methods; nitroglycerin paste on the skin as an alternative to IV in patients without ongoing or recurrent ischemia {hi}
+- [persistent ischemic chest pain] Morphine 1 to 5 mg IV {hi}
+- Metoprolol 25 to 50 mg PO in the first 24 hours when ACS is suspected
+- [definitive or likely ACS; institution-specific] Clopidogrel 300 to 600 mg PO in addition to aspirin; heparin 60 U/kg IV bolus (maximum 4000 units) with 12 U/kg/h infusion (maximum 1000 U/h) or enoxaparin 1 mg/kg SC every 12 hours {hi}
+- Advanced testing when suspicion persists despite negative biomarkers: CT coronary angiography, treadmill exercise ECG (not with abnormal baseline ECG), stress echocardiography, nuclear imaging, cardiac MRI
+
+@Co
+- [positive markers, diagnostic ECG changes or positive testing] Admission and consultation; [negative serial markers and normal testing] close follow-up resources
+
+@cond syncope
+ch: 21
+name: Syncope
+name_fa: سنکوپ
+cc: syncope, dizziness-vertigo
+keywords: syncope, vasovagal, orthostatic, arrhythmia, San Francisco Syncope Rule, carotid sinus hypersensitivity, subclavian steal, seizure mimic, غش
+status: draft
+
+@features
+- از دست رفتن گذرای هوشیاری همراه از دست رفتن تون وضعیتی با بازگشت کامل خودبه‌خود؛ تا 2٪ مراجعات اورژانس و 6٪ بستری‌ها؛ در تا نیمی از موارد علت مشخص نمی‌شود
+- قلبی: ضایعه ساختاری (HCM، تنگی آئورت، PE، MI)، تاکی‌آریتمی (VT، torsades، SVT) یا برادی‌آریتمی؛ ناگهانی و بدون پرودروم؛ در جوانان Brugada و QT سندرم
+- واژوواگال (شایع‌ترین): پرودروم آهسته با سرگیجه، تهوع، رنگ‌پریدگی، تعریق، تاری دید؛ محرک‌ها: فلبوتومی، ایستادن طولانی در گرما، ترس؛ موقعیتی (ادرار، مدفوع، سرفه شدید)؛ حساسیت سینوس کاروتید
+- ارتوستاتیک: کاهش حجم داخل عروقی یا تون عروقی ضعیف (نوروپاتی، آسیب نخاع، دارو)؛ افت SBP حداقل 20 mmHg ایستاده
+- عصبی (نادر): نارسایی ورتبروبازیلار، subclavian steal (اختلاف بیش از 20 mmHg در دو بازو)، SAH؛ تشنج شایع‌ترین تقلید (حالت postictal، گاز گرفتن زبان، بی‌اختیاری، آورا)
+- دارویی: به‌ویژه در سالمندان (بتابلوکر، CCB، دیورتیک)
+
+@ddx
+- !Ventricular / bradyarrhythmia | 
+- !Pulmonary embolism / MI / aortic stenosis / HCM | 
+- !Leaking AAA or ruptured ectopic pregnancy | 
+- !Subarachnoid hemorrhage | 
+- Seizure | 
+- Vasovagal / situational / orthostatic / drug-induced | 
+
+@redflags
+- ECG غیرطبیعی، تنگی نفس، SBP < 90، هماتوکریت < 30٪، سن بالای 45، سابقه آریتمی بطنی یا CHF (San Francisco Syncope Rule)
+- سنکوپ هنگام ورزش یا خوابیده، بدون پرودروم، با تپش، سن بالا
+
+@guide
+مهم‌ترین اجزا: شرح حال جامع، معاینه و ECG. ریسک‌استراتیفیکیشن: پرخطر (احتمال مرگ ناگهانی قلبی یا آریتمی بطنی) بستری؛ کم‌خطر (جوان، بدون بیماری همراه، معاینه و ECG طبیعی) ترخیص با پیگیری. آزمایش‌ها انتخابی؛ تصویربرداری عصبی در بیمار بدون علامت یا ضربه روتین نیست.
+
+@variant syncope-high-risk
+name: High-risk or cardiac cause suspected
+level: II
+imp: Syncope, high risk
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: once
+cxr: PA
+
+@scenario
+مردی ۶۸ ساله با CHF و سنکوپ ناگهانی بدون پرودروم؛ ECG بلوک شاخه‌ای و فشار 100/60.
+
+@why
+ریسک بالای حوادث قلبی: بستری با مانیتور قلب و ارزیابی سریع.
+
+@L
+- Hemoglobin / hematocrit; pregnancy test in women of childbearing age; serum electrolytes in selected cases; stool guaiac if indicated
+
+@T
+- Prolonged cardiac monitoring (may show a transient recurrent dysrhythmia)
+- Orthostatic vital signs; compare blood pressure in both arms
+- Treat the underlying diagnosis (dysrhythmia, pulmonary embolism, GI bleeding)
+
+@Co
+- Admission for cardiac monitoring and expedited workup (cardiac or neurologic causes)
+
+@variant syncope-low-risk
+name: Low-risk, benign (vasovagal) syncope
+level: III
+imp: Syncope, low risk
+cond: Urgent
+act: RBR
+diet: PO
+ecg: once
+cxr: none
+
+@scenario
+زنی ۲۲ ساله بعد از ایستادن طولانی در گرما با پرودروم تهوع و رنگ‌پریدگی غش کرد؛ معاینه و ECG طبیعی.
+
+@why
+پرخطر نیست: ترخیص با پیگیری سرپایی و برگشت در صورت تکرار.
+
+@T
+- Orthostatic vital signs (SBP drop ≥ 20 mm Hg on standing supports vasovagal syncope)
+- Discharge with outpatient follow-up and instructions to return for any recurrence of syncope or near-syncopal symptoms
+
+@cond acute-heart-failure
+ch: 22
+name: Acute heart failure and acute pulmonary edema
+name_fa: نارسایی حاد قلب و ادم حاد ریه
+cc: dyspnea, leg-swelling
+keywords: AHF, CHF, pulmonary edema, nitroglycerin, nitroprusside, furosemide, bumetanide, torsemide, BiPAP, CPAP, BNP, ادم ریه
+status: draft
+
+@features
+- طیف از افزایش تدریجی ورم پا و تنگی نفس تا ادم ریه ناگهانی؛ اوج‌دهنده‌ها: AF، MI/ایسکمی، قطع دارو (دیورتیک)، بار سدیم، داروهای ضعیف‌کننده میوکارد، فعالیت شدید؛ مرگ‌ومیر حدود 50٪ در 5 سال
+- ارائه: تنگی نفس، خلط کف‌آلود صورتی، دیسترس تنفسی، تاکی‌کاردی و پرفشاری، S3، ریفلاکس ابدومینوژوگولار و JVD
+- انواع: هیپرتانسیو (SBP > 140، عملکرد LV نسبتاً حفظ‌شده، شروع < 48 ساعت)، ادم ریه، شوک کاردیوژنیک (SBP < 90)، حاد روی مزمن (SBP 90 تا 140، ورم محیطی، شروع طی چند روز)، پرون‌ده و نارسایی راست
+- حساس‌ترین علامت: تنگی نفس فعالیتی (84٪)؛ اختصاصی‌ترین: PND، ارتوپنه و ادم (77 تا 84٪)
+- CXR: احتقان وریدی، کاردیومگالی و ادم بینابینی؛ تا 20٪ ممکن است ابتدا CXR منفی باشد؛ ECG برای تشخیص نیست ولی علت را نشان می‌دهد؛ BNP و اکوی کنار تخت مکمل‌اند
+
+@ddx
+- !Acute coronary syndrome | 
+- !Pulmonary embolism | 
+- !Cardiac tamponade | 
+- COPD / asthma | 
+- Pneumonia / pneumothorax / pleural effusion | 
+
+@redflags
+- تغییر هوشیاری، هیپوکسی مقاوم، هیپوتانسیون، تروپونین بالا، تغییرات ایسکمیک ECG
+- BUN > 43، کراتینین > 2.75، تاکی‌پنه، ادرار ناکافی
+
+@guide
+# منطق
+- اکسیژن برای SpO2 > 95٪؛ CPAP/BiPAP در صورت لزوم.
+- ادم ریه می‌تواند حتی با SBP حدود 150 رخ دهد؛ کاهش afterload با وازودیلاتور تنفس را بهتر و از اینتوباسیون جلوگیری می‌کند.
+- دیورتیک لوپ در اضافه حجم؛ در نارسایی نرموتانسیو ابتدا لوپ دیورتیک.
+- فشار گذرا بعد از NTG: کاهش دوز یا قطع؛ اگر ادامه داشت بولوس مایع و بررسی RV infarct، تنگی آئورت، هیپوولمی، داروی اختلال نعوظ.
+
+@variant ahf-hypertensive-pulmonary-edema
+name: Hypertensive AHF or pulmonary edema
+level: I
+imp: Acute heart failure, pulmonary edema
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+
+@scenario
+مردی ۷۰ ساله با تنگی نفس شدید، خلط کف‌آلود، رال دوطرفه، فشار 190/110 و SpO2 84٪.
+
+@why
+افزایش afterload و پیش‌بار: اکسیژن، NIV و وازودیلاتور (نیتروگلیسیرین) برای جلوگیری از اینتوباسیون.
+
+@I
+- Bedside cardiac ultrasound (LV function, volume status, tamponade)
+
+@L
+- BNP or NT-proBNP (when diagnostic uncertainty exists)
+
+@T
+- Supplemental oxygen to keep saturations above 95%
+- Noninvasive ventilation (CPAP or BiPAP): adequate facemask seal, hemodynamic stability, close monitoring of tidal volumes, cooperation and effectiveness
+- Nitroglycerin 0.4 mg sublingual up to one dose per minute, or Nitroglycerin 0.5 to 0.7 μg/kg/min IV up to 200 μg/min, titrated to symptoms and blood pressure {hi}
+- [elevated blood pressure unresponsive to nitroglycerin] Nitroprusside 0.3 μg/kg/min titrated upward every 5 to 10 minutes to a maximum of 10 μg/kg/min {hi}
+- [volume overload suspected] Furosemide 40 mg IV, or Bumetanide 1 to 3 mg IV, or Torsemide 10 to 20 mg IV
+- [relieves congestion and anxiety; associated with adverse events] Morphine 2 to 5 mg IV {hi}
+- [persistent hypotension after nitroglycerin] IV fluid bolus 250 to 1000 cc and consider right ventricular infarction, severe aortic stenosis, hypovolemia, recent erectile dysfunction medication
+
+@Co
+- ICU for altered mental status, persistent hypoxia, hypotension, troponin elevation, ischemic ECG changes, BUN > 43, creatinine > 2.75, tachypnea or inadequate urine output
+
+@variant ahf-normotensive
+name: Normotensive or acute-on-chronic heart failure
+level: II
+imp: Acute heart failure, normotensive
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: once
+cxr: PA
+
+@scenario
+زنی ۷۵ ساله با نارسایی مزمن قلب، ورم پا و تنگی نفس فعالیتی از چند روز قبل؛ فشار 125/75 و SpO2 93٪.
+
+@why
+در نارسایی نرموتانسیو با اضافه حجم ابتدا دیورتیک لوپ و سپس بر اساس پاسخ درمان ادامه.
+
+@I
+- Bedside cardiac ultrasound
+
+@L
+- BNP or NT-proBNP (when diagnostic uncertainty exists)
+
+@T
+- Supplemental oxygen to keep saturations above 95%
+- Loop diuretic initially: Furosemide 40 mg IV, or Bumetanide 1 to 3 mg IV, or Torsemide 10 to 20 mg IV; further treatment based on response
+- Identify and treat the precipitant (atrial fibrillation, MI or ischemia, discontinued diuretic, increased sodium load, drugs that impair myocardial function)
+
+@Co
+- Disposition (outpatient, observation, admission or ICU) by risk profile and self-care factors

@@ -1,0 +1,442 @@
+@cond new-cardiac-murmur
+ch: 23
+name: Newly discovered cardiac murmur
+name_fa: سوفل قلبی جدید
+cc: chest-pain, dyspnea, syncope
+keywords: new murmur, benign murmur, endocarditis, echocardiography
+status: draft
+
+@features
+- سوفل خوش‌خیم: سوفل اجکشن سیستولیک نرم بعد از S1 و قبل از S2 بدون علامت
+- سوفل دیاستولیک جدید یا سوفل سیستولیک جدید با علائم در استراحت: اکوکاردیوگرافی فوری و ارزیابی بیشتر
+- در بیمار با تب و سوفل جدید به اندوکاردیت فکر کن
+- بدون علامت و ECG و CXR طبیعی و سوفلی که با والسالوا یا ایستادن شدت نمی‌یابد: بدون بررسی بیشتر
+
+@ddx
+- !Endocarditis (fever) | 
+- !Acute valvular dysfunction | 
+- Benign flow murmur | 
+
+@redflags
+- سوفل دیاستولیک جدید، سوفل سیستولیک علامت‌دار در استراحت، تب
+
+@guide
+تعیین اهمیت بالینی سوفل اولین گام است؛ در موارد مشکوک اکو.
+
+@variant murmur-main
+name: New murmur
+level: III
+imp: New cardiac murmur
+cond: Urgent
+act: RBR
+diet: PO
+ecg: once
+cxr: PA
+
+@scenario
+مردی ۵۰ ساله با سوفل دیاستولیک جدید و تنگی نفس خفیف.
+
+@why
+سوفل دیاستولیک یا سیستولیک علامت‌دار نیاز به اکوی فوری دارد.
+
+@I
+- Echocardiography (new diastolic murmur, or new systolic murmur with symptoms at rest, abnormal ECG or CXR, murmur increasing with Valsalva or standing)
+
+@T
+- [fever] Consider endocarditis (see infective endocarditis)
+
+@cond mitral-stenosis
+ch: 23
+name: Mitral stenosis
+name_fa: تنگی میترال
+cc: dyspnea, palpitations
+keywords: mitral stenosis, diastolic rumble, atrial fibrillation, anticoagulation
+status: draft
+
+@features
+- مانع پر شدن دیاستولی بطن چپ؛ تنگی نفس فعالیتی شایع‌ترین علامت؛ هموپتزی کمتر شایع
+- افزایش فشار دهلیز چپ، بزرگی دهلیز چپ و نارسایی قلب؛ آمبولی سیستمیک (به‌ویژه با AF)؛ اغلب بیماران AF می‌گیرند
+- سوفل: رامبل میان‌دیاستولی که تا S2 اوج می‌گیرد؛ S1 بلند و جهنده
+- ECG: P دوشاخه یا نشان‌دار و انحراف محور به راست؛ CXR: صاف شدن مرز چپ قلب؛ بعداً احتقان ریوی و Kerley B
+
+@ddx
+- !Atrial fibrillation with rapid response | 
+- Heart failure from other cause | 
+- Pulmonary hypertension | 
+
+@redflags
+- AF سریع با دیسترس تنفسی، آمبولی سیستمیک
+
+@guide
+تشخیص با اکو؛ درمان اولیه کنترل علامت. کنترل ریت در AF سریع با تاکی‌کاردی و تنگی نفس. ضدانعقاد اگر قطر دهلیز > 55 mm، AF، ترومبوس دهلیز چپ یا سابقه آمبولی. بدون علامت: ارجاع سرپایی.
+
+@variant ms-main
+name: Mitral stenosis
+level: II
+imp: Mitral stenosis
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: once
+cxr: PA
+
+@scenario
+زنی ۴۵ ساله با تنگی میترال روماتیسمی، AF سریع 140 و تنگی نفس.
+
+@why
+کنترل ریت و ضدانعقاد در موارد مشخص؛ ارجاع برای مداخله مکانیکی.
+
+@T
+- Heart rate control for persistent tachycardia and dyspnea with atrial fibrillation with rapid ventricular response (see atrial fibrillation)
+- [atrial diameter > 55 mm, atrial fibrillation, left atrial thrombus, or a history of embolic disease] Anticoagulation {note: drug and dose not given in the book}
+
+@Co
+- Cardiology (asymptomatic: outpatient evaluation; balloon valvotomy and valve repair or replacement before pulmonary hypertension)
+
+@cond mitral-regurgitation
+ch: 23
+name: Mitral regurgitation (acute and chronic)
+name_fa: نارسایی میترال
+cc: dyspnea, hypotension-shock
+keywords: mitral regurgitation, papillary muscle rupture, chordae tendineae, pulmonary edema, dobutamine, nitrates
+status: draft
+
+@features
+- حاد (پارگی chordae یا عضله پاپیلری، به‌ندرت تروما): تنگی نفس، تاکی‌کاردی، ادم ریه؛ ممکن است سریعاً شوک کاردیوژنیک یا ایست
+- متناوب: حملات حاد دیسترس تنفسی با ادم ریه
+- مزمن: سال‌ها تحمل می‌شود؛ اولین علامت تنگی نفس فعالیتی گاه با AF جدید؛ آمبولی تا 20٪
+- سوفل حاد: هارش اپیکال سیستولیک؛ مزمن: هولوسیستولیک اپیکال با انتشار به S2؛ S3 و S4
+- در ادم ریه ناگهانی بدون کاردیومگالی مهم فکر کن؛ ECG ممکن است MI تحتانی را نشان دهد
+
+@ddx
+- !Papillary muscle rupture (acute MI) | 
+- !Cardiogenic shock | 
+- Acute pulmonary edema from other cause | 
+
+@redflags
+- ادم ریه ناگهانی یا شوک
+
+@guide
+اکوی کنار تخت در بیمار بد؛ TEE برای تشخیص قطعی وقتی پایدار است (TTE ممکن است شدت را کمتر برآورد کند). پارگی عضله پاپیلری: مشاوره فوری جراحی. نیترات و NIV برای کاهش پیش‌بار و afterload و کار تنفس؛ دوبوتامین برای حمایت اینوتروپ؛ بالون داخل آئورت در موارد شدید.
+
+@variant mr-acute
+name: Acute mitral regurgitation
+level: I
+imp: Acute mitral regurgitation
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+
+@scenario
+مردی ۶۵ ساله بعد از MI تحتانی با ادم ریه ناگهانی، سوفل جدید و فشار 85/50.
+
+@why
+پارگی عضله پاپیلری نیاز به مشاوره فوری جراحی و تثبیت با نیترات، NIV، اینوتروپ و بالون داخل آئورت دارد.
+
+@I
+- Bedside echocardiography; transesophageal echo when stable
+
+@T
+- Nitrates and noninvasive ventilation for preload and afterload reduction and to decrease work of breathing {hi}
+- [when necessary] Dobutamine for inotropic support {hi} {note: dose not given in this chapter}
+- [severe cases] Aortic balloon counterpulsation to stabilize before emergent surgical repair
+
+@Co
+- Cardiothoracic surgery (emergent repair for papillary muscle rupture)
+
+@variant mr-chronic
+name: Chronic mitral regurgitation
+level: III
+imp: Chronic mitral regurgitation
+cond: Urgent
+act: RBR
+diet: PO
+ecg: once
+cxr: PA
+
+@scenario
+زنی ۶۰ ساله با MR مزمن و تنگی نفس فعالیتی از چند ماه قبل؛ AF جدید.
+
+@why
+تحمل طولانی؛ AF جدید و آمبولی را بررسی کن.
+
+@T
+- [new-onset atrial fibrillation] Rate control and anticoagulation as appropriate (see atrial fibrillation)
+
+@Co
+- Cardiology
+
+@cond mitral-valve-prolapse
+ch: 23
+name: Mitral valve prolapse
+name_fa: افتادگی دریچه میترال
+cc: chest-pain, palpitations
+keywords: MVP, mitral valve prolapse, midsystolic click, beta blocker
+status: draft
+
+@features
+- اغلب بدون علامت؛ درد غیرتیپیک قفسه، تپش، خستگی، تنگی نفس
+- کلیک میان‌سیستولیک و سوفل سیستولیک دیررس
+- ECG و CXR معمولاً طبیعی؛ تشخیص در ED بعید است
+- در MVP بدون MR در استراحت، ورزش در یک‌سوم بیماران MR ایجاد می‌کند
+
+@ddx
+- !Acute coronary syndrome | 
+- Arrhythmia | 
+
+@redflags
+- MR همراه، سنکوپ
+
+@guide
+درمان حاد به‌ندرت لازم است. اکو غیرفوری. در MVP همراه MR توصیه به پروفیلاکسی اندوکاردیت. β-بلوکر برای تپش.
+
+@variant mvp-main
+name: Mitral valve prolapse
+level: III
+imp: Mitral valve prolapse
+cond: Urgent
+act: RBR
+diet: PO
+ecg: once
+cxr: none
+
+@scenario
+زنی ۲۵ ساله لاغر با تپش و درد غیرتیپیک قفسه؛ کلیک میان‌سیستولیک.
+
+@why
+درمان حاد کم لازم است؛ اکو غیرفوری و β-بلوکر برای تپش.
+
+@T
+- Acute treatment is rarely required
+- [concomitant mitral regurgitation] Recommendation for endocarditis prophylaxis
+- [palpitations] β-blocker therapy for symptomatic relief {note: drug and dose not given in the book}
+
+@Co
+- Cardiology (outpatient echocardiography)
+
+@cond aortic-stenosis
+ch: 23
+name: Aortic stenosis
+name_fa: تنگی آئورت
+cc: chest-pain, dyspnea, syncope
+keywords: aortic stenosis, syncope on exertion, preload dependent, brachioradial delay, nitroglycerin caution
+status: draft
+
+@features
+- انسداد خروجی بطن چپ؛ علت شایع در بالغین: کلسیفیکاسیون دژنراتیو
+- تریاد کلاسیک: تنگی نفس (اولین)، درد قفسه و سنکوپ (فعالیتی)؛ همچنین PND و MI
+- فشار خون طبیعی یا پایین با فشار نبض باریک؛ تأخیر brachioradial؛ نبض با دامنه کم و صعود آهسته
+- وابسته به پیش‌بار: AF می‌تواند باعث افت برون‌ده و افت فشار شود، به‌ویژه با نیتروگلیسیرین
+- ECG: LVH و گاهی بلوک شاخه؛ CXR اوایل طبیعی؛ تأیید با اکو
+
+@ddx
+- !Acute coronary syndrome | 
+- !Cardiac syncope / arrhythmia | 
+- Heart failure | 
+
+@redflags
+- سنکوپ فعالیتی، افت فشار با نیترات یا AF
+
+@guide
+فشار مثبت و اکسیژن برای ادم ریه. داروهای اینوتروپ منفی و وازودیلاتورها اغلب بد تحمل می‌شوند: با احتیاط. AF جدید ممکن است نیاز به کاردیوورژن داشته باشد. در ترخیص: پرهیز از فعالیت شدید و پیگیری قلب.
+
+@variant as-main
+name: Aortic stenosis
+level: II
+imp: Aortic stenosis
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: once
+cxr: PA
+
+@scenario
+مردی ۷۸ ساله با تنگی آئورت، تنگی نفس و سنکوپ حین راه رفتن؛ AF جدید با فشار 90/60.
+
+@why
+وابسته به پیش‌بار؛ داروهای وازودیلاتور و اینوتروپ منفی خطرناک‌اند.
+
+@T
+- Positive pressure ventilation and supplemental oxygen for pulmonary edema
+- Negative inotropic drugs and vasodilators with caution {ci: poorly tolerated; nitroglycerin may cause hypotension}
+- [new-onset atrial fibrillation] Cardioversion if needed to maintain cardiac output
+- Discharged patients: avoid vigorous activity; prompt cardiology follow-up
+
+@cond aortic-regurgitation
+ch: 23
+name: Aortic regurgitation (acute and chronic)
+name_fa: نارسایی آئورت
+cc: dyspnea, chest-pain, hypotension-shock
+keywords: aortic regurgitation, aortic dissection, water hammer pulse, nitroprusside, dobutamine, balloon pump contraindicated
+status: draft
+
+@features
+- حاد: تنگی نفس ناشی از ادم ریه؛ تب و لرز در اندوکاردیت؛ دایسکشن آئورت صعودی با درد «پاره‌کننده» بین دو کتف؛ تاکی‌کاردی؛ شوک یا ایست
+- مزمن: خستگی یا تنگی نفس فعالیتی تدریجی؛ فشار نبض پهن، ضربه بطنی برجسته، سر تکان‌دادن، نبض water hammer، علامت Duroziez و Quincke
+- سوفل دیاستولیک بلند و بادی بلافاصله بعد از S2
+- CXR حاد: ادم ریه با کاردیومگالی کمتر از انتظار؛ در دایسکشن مدیاستن پهن (CT قفسه با کنتراست)؛ ECG ممکن است MI تحتانی نشان دهد
+
+@ddx
+- !Aortic dissection | 
+- !Infective endocarditis | 
+- Acute pulmonary edema from other cause | 
+
+@redflags
+- دیسترس تنفسی، شوک، درد پاره‌کننده
+
+@guide
+آنتی‌شوک: مشاوره فوری جراحی. ادم ریه با اکسیژن و NIV؛ آماده اینتوباسیون. دیورتیک و نیترات معمولاً بی‌اثرند. نیتروپروساید همراه اینوتروپ (دوبوتامین یا دوپامین) LVEDP را کم و جریان رو به جلو را زیاد می‌کند. بتابلوکر ممنوع (مانع تاکی‌کاردی جبرانی). بالون داخل آئورت ممنوع.
+
+@variant ar-acute
+name: Acute aortic regurgitation
+level: I
+imp: Acute aortic regurgitation
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+
+@scenario
+مردی ۵۵ ساله با درد پاره‌کننده قفسه، ادم ریه ناگهانی و سوفل دیاستولیک جدید؛ فشار 85/40.
+
+@why
+دایسکشن یا اندوکاردیت: مشاوره فوری جراحی؛ بتابلوکر و بالون ممنوع.
+
+@I
+- CT of the chest with IV contrast (widened mediastinum); transesophageal echocardiography when aortic dissection is suspected; bedside transthoracic echo in an unstable patient
+
+@T
+- Oxygen and noninvasive ventilation; prepare for intubation in respiratory failure (diuretics and nitrates typically ineffective)
+- Nitroprusside combined with inotropic agents such as dobutamine or dopamine {hi} {note: doses not given in this chapter}
+- Avoid β-blockers {ci: inhibit reflex tachycardia necessary to maintain cardiac output}
+- Intra-aortic balloon counterpulsation is contraindicated {ci: can worsen regurgitant flow}
+
+@Co
+- Cardiothoracic surgery (immediate surgical consultation for repair)
+
+@variant ar-chronic
+name: Chronic aortic regurgitation
+level: III
+imp: Chronic aortic regurgitation
+cond: Urgent
+act: RBR
+diet: PO
+ecg: once
+cxr: PA
+
+@scenario
+مردی ۶۰ ساله با خستگی و تنگی نفس فعالیتی تدریجی؛ فشار نبض پهن و نبض water hammer.
+
+@why
+نارسایی مزمن معمولاً با وازودیلاتور درمان می‌شود.
+
+@T
+- Vasodilators such as angiotensin-converting enzyme inhibitors or dihydropyridine calcium channel blockers {note: doses not given in the book}
+
+@Co
+- Cardiology
+
+@cond right-sided-valvular-disease
+ch: 23
+name: Right-sided valvular disease (tricuspid and pulmonic)
+name_fa: بیماری دریچه‌ای راست
+cc: dyspnea, leg-swelling
+keywords: tricuspid regurgitation, pulmonic stenosis, endocarditis, right heart failure, balloon valvotomy
+status: draft
+
+@features
+- نارسایی تریکوسپید پاتولوژیک: فشار یا حجم زیاد قلب راست (هیپرتانسیون ریوی، بیماری ریه، PE، ASD)؛ حاد اغلب در اندوکاردیت (S. aureus)
+- دریچه ریوی کمتر درگیر؛ بیشتر مادرزادی؛ هیپرتانسیون ریوی، روماتیسم و کارسینوئید
+- علائم نارسایی قلب راست: JVD، ورم محیطی، هپاتومگالی، اسپلنومگالی، آسیت؛ تنگی نفس فعالیتی؛ تنگی ریوی: سنکوپ و درد قفسه
+
+@ddx
+- !Infective endocarditis (tricuspid) | 
+- !Pulmonary embolism | 
+- Pulmonary hypertension | 
+
+@redflags
+- نارسایی شدید قلب راست
+
+@guide
+تأیید با اکو (TEE حساس‌تر). درمان بر اساس بیماری علّتی. تنگی علامت‌دار تریکوسپید/ریوی کاندید والووتومی با بالون؛ MR شدید تریکوسپید ممکن است نیاز به تعویض داشته باشد.
+
+@variant rsvd-main
+name: Right-sided valvular disease
+level: III
+imp: Right-sided valvular disease
+cond: Urgent
+act: CBR
+diet: PO
+ecg: once
+cxr: PA
+
+@scenario
+مردی ۴۰ ساله معتاد تزریقی با تب و نارسایی حاد تریکوسپید و JVD.
+
+@why
+درمان علت اصلی؛ تأیید با اکو.
+
+@T
+- Target treatment based on the underlying causative disease process
+
+@Co
+- Cardiology / cardiothoracic surgery (balloon valvotomy for symptomatic pulmonic or tricuspid stenosis; valve replacement for severe tricuspid regurgitation)
+
+@cond prosthetic-valve-disease
+ch: 23
+name: Prosthetic valve complications
+name_fa: عوارض دریچه مصنوعی
+cc: dyspnea, chest-pain, focal-neuro, fever
+keywords: prosthetic valve, mechanical valve, anticoagulation INR, valve thrombosis, paravalvular leak, endocarditis
+status: draft
+
+@features
+- دریچه مکانیکی: ماندگار ولی نیاز به ضدانعقاد مادام‌العمر؛ بیوپروتز: کمتر ترومبوژنیک ولی بیشتر دچار خرابی
+- ضدانعقاد خطر ترومبوز را از 8٪ به 1–2٪ در سال کاهش می‌دهد؛ خطر آمبولی در 3 ماه اول بالاتر و در میترال بیشتر از آئورت
+- اختلال دریچه: ترومبوز، دهیسانس بخیه، تخریب تدریجی یا شکستگی ناگهانی؛ خرابی حاد: دیسترس تنفسی، ادم ریه، شوک و مرگ ناگهانی
+- اندوکاردیت: 6٪ طی 5 سال با مرگ‌ومیر بالا؛ تب مداوم یا بدون منبع نگران‌کننده
+- علائم عصبی: ترومبوآمبولی یا سکته خونریزی‌دهنده از ضدانعقاد بیش از حد
+
+@ddx
+- !Acute valve failure / thrombosis | 
+- !Endocarditis | 
+- !Thromboembolic or hemorrhagic stroke | 
+- Paravalvular leak | 
+- Heart failure | 
+
+@redflags
+- تنگی نفس جدید یا شدت‌یابنده، ادم ریه، شوک
+- تب بدون منبع، علائم عصبی جدید
+
+@guide
+درمان بستگی به شدت دارد. خرابی حاد: مشاوره اورژانس قلب و جراحی؛ جراحی اورژانس یا ترومبولیتیک در موارد شدید. آسپرین برای همه. هدف INR: دریچه میترال مکانیکی 2.5–3.5 و آئورت مکانیکی 2.0–3.0.
+
+@variant pvd-main
+name: Prosthetic valve dysfunction
+level: I
+imp: Prosthetic valve dysfunction
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: portable
+
+@scenario
+مردی ۶۰ ساله با دریچه مکانیکی میترال، تنگی نفس ناگهانی و ادم ریه؛ INR پایین.
+
+@why
+اختلال حاد دریچه: مشاوره اورژانس و آماده جراحی یا ترومبولیتیک.
+
+@L
+- INR
+
+@T
+- Aspirin therapy recommended for all patients with prosthetic valves
+- Anticoagulation target INR 2.5 to 3.5 for mechanical mitral valves and 2.0 to 3.0 for mechanical aortic valves
+- [severe cases] Emergency surgery or thrombolytic therapy
+
+@Co
+- Cardiology and cardiothoracic surgery (emergent)

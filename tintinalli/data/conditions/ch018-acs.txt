@@ -1,0 +1,239 @@
+@cond stemi
+ch: 18
+name: ST-elevation myocardial infarction (STEMI)
+name_fa: انفارکتوس میوکارد با صعود ST
+cc: chest-pain, dyspnea, syncope
+keywords: STEMI, myocardial infarction, thrombolysis, fibrinolytic, PCI, tenecteplase, alteplase, reteplase, streptokinase, heparin, clopidogrel, aspirin, سکته قلبی، ترومبولیتیک
+status: draft
+
+@features
+- درد قفسه سینه شایع‌ترین علامت؛ 20 تا 30٪ علائم غیرتیپیک (تنگی نفس، تهوع، تعریق، درد پشت یا شکم، سرگیجه، تپش)
+- زمان شروع، محل، کیفیت، شدت و مدت؛ عوامل خطر (سن بالا، مرد، سابقه خانوادگی، سیگار، پرفشاری، چربی، دیابت، کوکائین)
+- معیارهای ECG: صعود ST در آنتروسپتال (V1–V2±V3)، قدامی (V1–V4)، آنترولترال (V1–V6، I، aVL)، لترال (I، aVL)، تحتانی (II، III، aVF)، اینفرولترال (II، III، aVF، V5–V6)، خلفی (R اولیه بلند در V1–V2)، بطن راست (صعود ST در II، III، aVF و V4 راست)
+- عروق: تحتانی معمولاً RCA (80٪)؛ لترال LCX؛ سپتال و قدامی LAD؛ بطن راست RCA
+- زمان حیاتی: ترومبولیتیک ظرف 30 دقیقه یا PCI ظرف 90 دقیقه؛ PCI ترجیح دارد اگر ظرف 120 دقیقه ممکن باشد
+
+@ddx
+- !Aortic dissection | منع ترومبولیتیک
+- !Pericarditis | 
+- !Pulmonary embolism | 
+- Myocarditis | 
+- Pneumothorax / pneumonia | 
+- Cocaine-related vasospasm | 
+
+@redflags
+- شوک کاردیوژنیک یا ناپایداری
+- آریتمی بطنی
+
+@guide
+# اهداف
+- ریپرفیوژن با کاهش ترومبوس و محدود کردن گسترش آن؛ اثر مداخله وابسته به زمان است.
+- آسپرین جویدنی 162–325 mg؛ کلوپیدوگرل با آسپرین در NSTEMI/STEMI متوسط تا پرخطر و وقتی PCI برنامه‌ریزی است؛ حداقل 5 روز قبل از CABG قطع شود.
+- ضدانعقاد: UFH یا LMWH؛ UFH برای کسانی که CABG برنامه‌ریزی شده است.
+- فیبرینولیتیک وقتی PCI به‌موقع ممکن نیست، زمان < 6 تا 12 ساعت از شروع و ST ≥ 1 mm در دو لید مجاور؛ بعد از آن ضدانعقاد کامل حداقل 48 ساعت.
+
+@pearls
+- بتابلوکر وریدی زودهنگام فایده ندارد؛ خوراکی ظرف 24 ساعت اول در بدون منع مصرف.
+- استرپتوکیناز: واکنش آلرژیک (5 تا 5.7٪)، هیپوتانسیون تا 15٪؛ هپارین ظرف 4 ساعت پس از شروع.
+- از پانکچر شریانی و ورید غیرقابل‌فشار (ساب‌کلاوین، ژوگولار) پرهیز.
+
+@variant stemi-pci
+name: STEMI, PCI available in time
+level: I
+imp: STEMI (acute ST-elevation myocardial infarction)
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+
+@scenario
+مردی ۶۱ ساله با درد له‌کننده قفسه از یک ساعت پیش، رنگ‌پریده و عرق‌کرده؛ ECG صعود ST در V1 تا V4. مرکز PCI نزدیک است.
+
+@why
+PCI روش ترجیحی است اگر ظرف 120 دقیقه ممکن باشد؛ داروی ضدپلاکت و ضدانعقاد در اورژانس شروع می‌شود.
+
+@I
+- Bedside echocardiography (wall motion abnormalities) if needed
+
+@L
+- Serum troponin, PT/PTT
+
+@T
+- Aspirin 162 to 325 mg PO chewed
+- Clopidogrel loading dose 600 mg PO followed by 75 mg/d (no loading dose in patients > 75 years old receiving fibrinolytics) {note: clopidogrel increases bleeding; hold at least 5 days before CABG}
+- [alternatively, loading once coronary anatomy is defined and PCI decided] Prasugrel loading dose 60 mg promptly and no more than 1 h after PCI
+- [alternatively] Ticagrelor loading dose 180 mg PO followed by 90 mg twice a day
+- Unfractionated heparin bolus 60 U/kg (maximum 4000 U) followed by infusion of 12 U/kg/h (maximum 1000 U/h) titrated to a PTT of 1.5 to 2.5 × control {hi}
+- [alternatively] Enoxaparin 30 mg IV bolus followed by 1 mg/kg SC every 12 h {hi}
+- [alternatively] Fondaparinux 2.5 mg SC {note: not as monotherapy for PCI; add unfractionated heparin or bivalirudin before PCI}
+- [alternatively, in consultation with cardiology] Bivalirudin (direct thrombin inhibitor) {hi} {note: dose not given in the book}
+- [ongoing angina] Nitroglycerin sublingual 0.4 mg every 5 min × 3 PRN pain; IV start at 10 μg/min, titrate to 10% reduction in MAP if normotensive, 30% if hypertensive {hi}
+- [pain continues despite nitroglycerin] Morphine 2 to 5 mg IV every 5 to 15 min PRN pain {hi}
+- [at the time of PCI; routine upstream use is uncertain] GP IIb/IIIa inhibitor: Abciximab 0.25 mg/kg bolus then 0.125 μg/kg/min (maximum 10 μg/min) for 12 to 24 h; or Eptifibatide 180 μg/kg bolus then 2.0 μg/kg/min for 72 to 96 h; or Tirofiban 0.4 μg/kg/min for 30 min then 0.1 μg/kg/min for 48 to 96 h {hi}
+- [significant tachycardia or hypertension and no risk of cardiogenic shock] Metoprolol 5 mg IV over 2 min every 5 min up to 15 mg, then 50 mg PO every 12 h on the first day; or Atenolol 5 mg IV over 5 min, repeat once 10 min later, then 25 to 50 mg PO {ci: signs of heart failure, low output state, age > 70, SBP < 120, HR > 110 or < 60, PR > 0.24 s, second- or third-degree block, active asthma or reactive airway disease}
+
+@Co
+- Cardiology (emergent PCI)
+
+@variant stemi-fibrinolytic
+name: STEMI, fibrinolytic therapy (no timely PCI)
+level: I
+imp: STEMI, fibrinolysis indicated
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+
+@scenario
+مردی ۵۸ ساله با STEMI قدامی از ۲ ساعت قبل در بیمارستانی که PCI در دسترس ندارد و انتقال بیش از ۲ ساعت طول می‌کشد؛ بدون منع مصرف.
+
+@why
+در نبود PCI به‌موقع فیبرینولیتیک ظرف 30 دقیقه و سپس ضدانعقاد کامل حداقل 48 ساعت.
+
+@L
+- Serum troponin, PT/PTT; fibrinogen if bleeding
+
+@T
+- Informed consent; avoid arterial puncture and venipuncture or central lines in non-compressible areas
+- Aspirin 162 to 325 mg PO chewed; Clopidogrel 75 mg/d without loading in patients > 75 years old
+- Fibrinolytic (within 30 minutes of arrival; time < 6 to 12 hours from symptom onset with ST elevation ≥ 1 mm in two or more contiguous leads; choose one):
+- Tenecteplase single weight-based bolus: < 60 kg 30 mg; ≥ 60 but < 70 kg 35 mg; ≥ 70 but < 80 kg 40 mg; ≥ 80 but < 90 kg 45 mg; ≥ 90 kg 50 mg (total dose not to exceed 50 mg) {hi}
+- [alternatively] Alteplase (front-loaded): body weight > 67 kg 15 mg initial IV bolus, 50 mg over the next 30 min, 35 mg over the next 60 min; body weight < 67 kg 15 mg bolus, 0.75 mg/kg over 30 min, 0.5 mg/kg over the next 60 min {hi}
+- [alternatively] Reteplase 10 U IV over 2 min followed by 10 U IV bolus 30 min later {hi}
+- [alternatively] Streptokinase 1.5 MU over 60 min {hi} {ci: hypotension, prior streptokinase within 6 months, streptococcal infection within a year}
+- [alternatively] Anistreplase 30 U IV over 2 to 5 min {hi}
+- Full-dose anticoagulation started in the ED and maintained for a minimum of 48 hours: Unfractionated heparin 60 U/kg bolus (maximum 4000 U), infusion 12 U/kg/h (maximum 1000 U/h) titrated to PTT 1.5 to 2.5 × control (within 4 hours of starting streptokinase) {hi}
+- [alternatively] Enoxaparin 30 mg IV bolus then 1 mg/kg SC every 12 h {hi}
+- [lacking renal impairment, with non-fibrin-specific thrombolytics such as streptokinase] Fondaparinux 2.5 mg SC
+- Nitroglycerin and morphine for ongoing pain as above {hi}
+
+@Co
+- Cardiology / critical care unit; [continued instability, pain or no reperfusion] rescue angioplasty; [refractory cardiogenic shock] emergent angioplasty (intra-aortic balloon pump or LV-assist device)
+
+@variant stemi-fibrinolytic-bleeding
+name: Bleeding complication of fibrinolysis
+level: I
+imp: Hemorrhage after fibrinolytic therapy
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: portable
+
+@scenario
+مردی ۶۴ ساله ۲ ساعت بعد از تنکتپلاز دچار سردرد شدید و کاهش هوشیاری؛ شک به خونریزی داخل مغزی.
+
+@why
+مهم‌ترین عارضه ترومبولیتیک خونریزی به‌ویژه داخل جمجمه است؛ قطع داروها و جایگزینی فاکتورها.
+
+@I
+- Head CT {note: not stated in the book; intracranial hemorrhage is the most significant complication}
+
+@L
+- Fibrinogen level; coagulation tests
+
+@S
+- Crystalloid infusion; red blood cell infusion as necessary
+
+@T
+- Discontinue thrombolytics, heparin and aspirin
+- Cryoprecipitate 10 units; if fibrinogen < 1 g/L give a second 10 U
+- [bleeding continues despite fibrinogen > 1 g/L, or fibrinogen < 1 g/L after 20 U cryoprecipitate] Fresh frozen plasma 2 U
+- [hemorrhage continues] Platelets, or antifibrinolytic agents: aminocaproic acid or tranexamic acid {note: doses not given in the book}
+
+@Co
+- Critical care / neurosurgery as indicated
+
+@cond nstemi-unstable-angina
+ch: 18
+name: NSTEMI and unstable angina
+name_fa: NSTEMI و آنژین ناپایدار
+cc: chest-pain, dyspnea, syncope, weakness
+keywords: NSTEMI, unstable angina, troponin, heparin, enoxaparin, fondaparinux, bivalirudin, clopidogrel, aspirin, آنژین ناپایدار
+status: draft
+
+@features
+- NSTEMI: ترومپونین بالا در بیمار با علائم ایسکمی میوکارد بدون معیار صعود ST
+- آنژین ناپایدار: تشخیص بالینی بدون STEMI یا NSTEMI؛ شروع در 2 ماه گذشته، افزایش شدت/تعداد/مدت آنژین قبلی، یا آنژین در استراحت
+- ECG: تغییرات ST یا T در توزیع عروق (تحتانی، لترال، سپتال، قدامی، بطن راست، خلفی V7–V9)
+- ممکن است در بیمار پیشرفت کند: ECG سریال، اکو کنار تخت برای اختلال حرکت دیواره و تروپونین سریال (ظرف 3 ساعت در تردید)
+- تست‌های کمکی در آنژین ناپایدار: CT آنژیوگرافی کرونر، تردمیل، پرفیوژن هسته‌ای، MRI قلب
+
+@ddx
+- !STEMI (serial ECGs) | 
+- !Aortic dissection / pulmonary embolism | 
+- Pericarditis / myocarditis | 
+- Heart failure | 
+- Pneumonia / pneumothorax | 
+
+@redflags
+- درد ادامه‌دار، تغییرات ECG، آریتمی یا ناپایداری همودینامیک
+
+@guide
+مانیتور، IV، اکسیژن اگر SpO2 < 95٪، آسپرین 160–325 mg جویدنی. نیتروگلیسیرین برای آنژین ادامه‌دار؛ مورفین اگر درد با NTG برطرف نشد. کلوپیدوگرل در NSTEMI متوسط تا پرخطر. ضدانعقاد UFH یا LMWH. مشاوره قلب برای کاتتریزاسیون زودهنگام در درد ادامه‌دار یا تغییرات دینامیک.
+
+@variant nstemi-ua-high-risk
+name: NSTEMI or unstable angina with ongoing pain, ECG changes or instability
+level: I
+imp: NSTEMI / unstable angina
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+
+@scenario
+مردی ۶۸ ساله و دیابتی با فشار قفسه که در حال استراحت ادامه دارد؛ ECG افت ST در V4–V6 و تروپونین مثبت.
+
+@why
+درد ادامه‌دار یا تغییرات دینامیک: ضدپلاکت، ضدانعقاد و مشاوره قلب برای کاتتریزاسیون زودهنگام؛ بستری در CCU.
+
+@I
+- Bedside echocardiography (cardiac wall motion abnormalities)
+
+@L
+- Serum troponin, repeat within 3 hours when diagnostic uncertainty remains; PT/PTT
+- Serial ECGs to identify dynamic ischemic changes
+
+@T
+- Aspirin 160 to 325 mg orally chewed
+- [moderate to high-risk NSTEMI or PCI planned] Clopidogrel loading dose 600 mg PO followed by 75 mg/d (alternative to aspirin in aspirin allergy)
+- Anticoagulation: Unfractionated heparin bolus 60 U/kg (maximum 4000 U) then 12 U/kg/h (maximum 1000 U/h) titrated to PTT 1.5 to 2.5 × control (preferred if CABG planned) {hi}
+- [alternatively] Enoxaparin 30 mg IV bolus followed by 1 mg/kg SC every 12 h {hi}
+- [alternatively] Fondaparinux 2.5 mg SC {hi}
+- [alternatively, less bleeding, no dose adjustment in renal impairment] Bivalirudin {hi} {note: dose not given in the book}
+- [ongoing angina] Nitroglycerin oral, transdermal or IV (sublingual 0.4 mg every 5 min × 3 PRN pain; IV 10 μg/min titrated) {hi}
+- [pain continues despite nitroglycerin] Morphine 2 to 5 mg IV every 5 to 15 min PRN pain {hi}
+- Oral β-blocker not required emergently; start within the first 24 hours of hospitalization if no contraindication
+
+@Co
+- Cardiology (early cardiac catheterization for continued symptoms or dynamic changes); cardiac intensive care unit
+
+@variant nstemi-ua-stable
+name: Unstable angina, pain resolved, normal or nonspecific ECG
+level: II
+imp: Unstable angina
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: PA
+
+@scenario
+زنی ۶۲ ساله با آنژین جدید در 3 هفته اخیر؛ حین مراجعه درد برطرف شده، ECG غیراختصاصی و تروپونین منفی.
+
+@why
+علائم آنژین ناپایدار با برطرف شدن درد و ECG نرمال یا غیراختصاصی و بدون عارضه: اغلب بستری در بخش مونیتورینگ.
+
+@L
+- Serum troponin, repeat within 3 hours; PT/PTT
+
+@T
+- Aspirin 160 to 325 mg orally chewed
+- Anticoagulation for unstable angina: unfractionated heparin or LMWH {hi} {note: doses as in the high-risk variant}
+- Serial ECGs; additional testing as helpful: coronary CT angiogram, exercise treadmill testing, cardiac nuclear perfusion imaging, cardiac MRI
+
+@Co
+- Cardiology / monitored inpatient bed

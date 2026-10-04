@@ -1,0 +1,356 @@
+@cond hypertensive-emergency
+ch: 26
+name: Hypertensive emergency (by target organ)
+name_fa: اورژانس فشار خون
+cc: headache, chest-pain, dyspnea, altered-mental-status, focal-neuro
+keywords: hypertensive emergency, nicardipine, labetalol, esmolol, nitroglycerin, nitroprusside, clevidipine, fenoldopam, phentolamine, hydralazine, aortic dissection, preeclampsia, اورژانس فشار
+status: draft
+
+@features
+- فشار بالا همراه اختلال عملکرد ارگان هدف (مغز، کلیه، قلب، ریه) ناشی از استرس دیواره و آسیب اندوتلیال
+- تظاهرات: درد قفسه (دایسکشن، ادم ریه، ACS)، تنگی نفس (ادم ریه)، علائم عصبی (تغییر هوشیاری، علائم کانونی، سردرد، تاری دید؛ انسفالوپاتی، SAH، ICH، سکته ایسکمیک)، ورم محیطی (نارسایی کلیه، پره‌اکلامپسی شدید)، بحران سمپاتیک (سمپاتومیمتیک، دارو، فئوکروموسیتوم)
+- علائم ارگان هدف: سردرد، تغییر دید، پاپیلادم، تشنج، رال، سوفل جدید، نبض نامتقارن و فشار نامساوی در دو بازو، توده ضربان‌دار شکم، آنوری، هماچوری
+- هدف تست‌ها: آشکار کردن آسیب ارگان هدف (UA، تست بارداری، ECG؛ در صورت لزوم متابولیک، سم‌شناسی، تصویربرداری)
+- هدف درمان: کاهش ایمن فشار با پرهیز از هیپوپرفیوژن
+
+@ddx
+- !Aortic dissection | 
+- !Acute pulmonary edema / ACS | 
+- !Intracranial hemorrhage / stroke / SAH | 
+- !Severe preeclampsia / eclampsia | 
+- Hypertensive encephalopathy | 
+- Sympathetic crisis (cocaine, amphetamines, pheochromocytoma) | 
+- Acute renal failure | 
+
+@redflags
+- هر ارگان هدف درگیر
+- پره‌اکلامپسی یا بارداری (ACE inhibitor ممنوع)
+
+@guide
+تثبیت با راه هوایی، اکسیژن، مانیتور قلب و IV. سپس برنامه مخصوص هر وضعیت (متغیرها).
+
+@variant htn-aortic-dissection
+name: Aortic dissection
+level: I
+imp: Hypertensive emergency, aortic dissection
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: portable
+
+@scenario
+مردی ۵۸ ساله با درد پاره‌کننده به پشت، فشار 210/110 و اختلاف فشار دو بازو.
+
+@why
+هدف: ضربان ≤ 60 و SBP 100–140 (ایده‌آل < 120)؛ بتابلوکر قبل از وازودیلاتور.
+
+@I
+- CT angiogram of the chest and abdomen/pelvis or transesophageal echocardiography of the aorta
+
+@T
+- Esmolol 250 to 500 μg/kg IV over 1 to 3 minutes followed by continuous infusion 50 μg/kg/min {hi}
+- [alternatively] Labetalol 10 to 20 mg IV over 2 minutes followed by 40 to 80 mg every 10 minutes as needed to a maximum of 300 mg {hi}
+- [if β-blockers are contraindicated] Diltiazem 0.25 mg/kg over 2 minutes, α-adrenergic antagonists, benzodiazepines or vasodilators
+- [additional control] Nicardipine 5 mg/h IV, increase by 2.5 mg/h every 5 to 15 minutes to a maximum of 15 mg/h {hi}
+- [alternatively] Sodium nitroprusside 0.3 to 0.5 μg/kg/min IV with incremental increases by 0.5 μg/kg/min {hi}
+
+@variant htn-pulmonary-edema
+name: Acute hypertensive pulmonary edema
+level: I
+imp: Hypertensive emergency, acute pulmonary edema
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: portable
+
+@scenario
+زنی ۶۵ ساله با تنگی نفس شدید، رال و فشار 200/115.
+
+@why
+هدف کاهش afterload سیستمیک 20 تا 30٪ با نیتروگلیسیرین و دیورز.
+
+@T
+- Nitroglycerin 0.4 mg sublingual up to three doses, or topical 1 to 2 inches transdermal, or IV infusion starting at 5 μg/min with increases by 5 μg/min every 3 to 5 minutes up to 20 μg/min; refractory: increases by 10 μg/min every 3 to 5 minutes to a maximum of 200 μg/min {hi}
+- [refractory] Nicardipine 5 mg/h IV, increase by 2.5 mg/h every 5 to 15 minutes to a maximum of 15 mg/h {hi}
+- [when other agents are unsuccessful] Sodium nitroprusside 0.3 to 0.5 μg/kg/min IV, incremental increases by 0.5 μg/kg/min {hi} {note: cyanide and thiocyanate toxicity with prolonged therapy or renal failure}
+- [adjunct] Enalaprilat 0.625 to 1.25 mg IV over 5 minutes every 4 to 6 hours, incrementally increased by 1.25 mg to a maximum of 5 mg every 6 hours {ci: pregnancy (category D); may induce significant "first-dose" hypotension}
+
+@variant htn-acs
+name: Hypertension with acute coronary syndrome
+level: I
+imp: Hypertensive emergency, acute coronary syndrome
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+
+@scenario
+مردی ۶۰ ساله با درد قفسه، افت ST و فشار 200/110.
+
+@why
+هدف محدود کردن ایسکمی و کاهش MAP تا حداکثر 25٪؛ نیتروگلیسیرین ترجیح دارد.
+
+@T
+- Sublingual or IV nitroglycerin (0.4 mg sublingual up to three doses; IV starting at 5 μg/min with increases by 5 μg/min every 3 to 5 minutes) {hi}
+- Intravenous β-blockers only when severe hypertension and no risk of progression to cardiogenic shock; oral β-blockers may not provide sufficiently rapid control
+
+@variant htn-sympathetic-crisis
+name: Acute sympathetic crisis
+level: I
+imp: Hypertensive emergency, sympathetic crisis
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: none
+
+@scenario
+مردی ۲۸ ساله بعد از مصرف کوکائین با آژیتاسیون، فشار 220/130 و نبض 140.
+
+@why
+کاهش تحریک آدرنرژیک؛ بنزودیازپین خط اول.
+
+@L
+- Plasma fractionated metanephrines or 24-h urine catecholamines and metanephrines (suspected pheochromocytoma)
+
+@T
+- Benzodiazepines (first intervention) {note: dose not given in this chapter}
+- [secondary] Nitroglycerin; or Phentolamine 5 to 15 mg IV followed by continuous infusion 0.2 to 0.5 mg/min; or Nicardipine 5 mg/h IV titrated up to 15 mg/h {hi}
+
+@variant htn-renal-failure
+name: Acute renal failure
+level: I
+imp: Hypertensive emergency, acute renal failure
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: none
+
+@scenario
+مردی ۵۵ ساله با کراتینین بالا، پروتئینوری، ورم و فشار 230/130.
+
+@why
+کاهش SVR با افت فشار حاد کمتر از 20٪ برای حفظ جریان خون کلیه.
+
+@T
+- Fenoldopam 0.1 μg/kg/min IV titrated every 15 minutes to a maximum of 1.6 μg/kg/min {hi}
+- [alternatively] Clevidipine 1 to 2 mg/h IV {hi}
+- [alternatively] Nicardipine 5 mg/h IV, increase by 2.5 mg/h every 5 to 15 minutes to a maximum of 15 mg/h {hi}
+
+@variant htn-preeclampsia
+name: Severe preeclampsia (BP > 160/100)
+level: I
+imp: Hypertensive emergency, severe preeclampsia
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: none
+
+@scenario
+زنی ۲۸ ساله با بارداری ۳۶ هفته، سردرد، هیپررفلکسی، ورم و فشار 185/115.
+
+@why
+کاهش فشار برای جلوگیری از پیشرفت به اکلامپسی.
+
+@T
+- Labetalol 10 to 20 mg IV over 2 minutes followed by 40 to 80 mg every 10 minutes as needed to a maximum of 300 mg {hi}
+- [alternatively] Hydralazine 5 to 10 mg IV (blood pressure > 160/100)
+
+@variant htn-encephalopathy
+name: Hypertensive encephalopathy
+level: I
+imp: Hypertensive emergency, encephalopathy
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: none
+
+@scenario
+مردی ۵۰ ساله با سردرد شدید، تشنج و گیجی، فشار 240/140؛ MRI ادم خلفی.
+
+@why
+کاهش سریع MAP حدود 20 تا 25٪ پس از رد سایر اورژانس‌های عصبی.
+
+@I
+- CT head (exclude other neurologic emergencies); MRI (cerebral edema, posterior white matter)
+
+@T
+- Nicardipine 5 mg/h IV, increase by 2.5 mg/h every 5 to 15 minutes to a maximum of 15 mg/h {hi}
+- [alternatively] Labetalol 10 to 20 mg IV over 2 minutes, then 40 to 80 mg every 10 minutes to a maximum of 300 mg {hi}
+- [alternatively] Fenoldopam 0.1 μg/kg/min IV to a maximum of 1.6 μg/kg/min, or Clevidipine 1 to 2 mg/h IV {hi}
+
+@variant htn-sah-ich-stroke
+name: Hypertension with SAH, intracranial hemorrhage or ischemic stroke
+level: I
+imp: Hypertensive emergency with intracranial pathology
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: none
+
+@scenario
+مردی ۶۵ ساله با ضعف ناگهانی نیمه راست بدن، فشار 210/120 و CT بدون خونریزی؛ کاندید فیبرینولیز.
+
+@why
+هدف فشار بسته به نوع آسیب: SAH ≤ 160؛ ICH 120–160؛ سکته ایسکمیک با فیبرینولیز < 185/110.
+
+@I
+- CT or MRI of the brain; lumbar puncture if SAH suspected and CT negative
+
+@T
+- Subarachnoid hemorrhage: reduce SBP to 160 mm Hg or lower with nicardipine, labetalol, esmolol or clevidipine; oral nimodipine may reduce vasospasm and subsequent cerebral infarction {hi}
+- Intracranial hemorrhage: lower SBP to 120 to 160 mm Hg with nicardipine, labetalol or esmolol {hi}
+- Acute ischemic stroke with planned fibrinolysis: BP below 185/110 mm Hg (SBP goal 141 to 150) with labetalol, nicardipine or sodium nitroprusside {hi}
+- Acute ischemic stroke without fibrinolysis and BP remaining 220/120: lower by no more than 10% to 15% in the first 24 hours
+- Doses: Nicardipine 5 mg/h IV (+2.5 mg/h every 5 to 15 minutes to 15 mg/h); Labetalol 10 to 20 mg IV then 40 to 80 mg every 10 minutes (max 300 mg); Esmolol 250 to 500 μg/kg IV over 1 to 3 minutes then 50 μg/kg/min; Clevidipine 1 to 2 mg/h IV {hi}
+
+@cond hypertensive-urgency
+ch: 26
+name: Hypertensive urgency and severe asymptomatic hypertension
+name_fa: فوریت فشار خون و فشار خون شدید بدون علامت
+cc: headache, weakness
+keywords: hypertensive urgency, asymptomatic hypertension, labetalol, captopril, losartan, clonidine, hydrochlorothiazide, lisinopril, metoprolol
+status: draft
+
+@features
+- افزایش شدید فشار بدون اختلال حاد ارگان هدف؛ برخی درمان حاد را برای ≥ 180/120 توصیه می‌کنند ولی فایده بالینی روشن نیست
+- فشار مزمن: افزایش طولانی‌مدت بدون پیشرفت به آسیب ارگان هدف؛ تشخیص با اندازه‌گیری سریالی طی هفته‌ها (JNC7: نرمال < 120/80؛ پره‌هیپرتانسیون 120–139 یا 80–89؛ مرحله 1: 140–159 یا 90–99؛ مرحله 2: ≥ 160 یا ≥ 100)
+
+@ddx
+- !Hypertensive emergency (target organ) | 
+- Chronic poorly controlled hypertension | 
+- Medication or substance withdrawal | 
+
+@redflags
+- علائم ارگان هدف: به اورژانس فشار تبدیل می‌شود
+
+@guide
+داروهای خوراکی کمک می‌کنند. شروع داروی خوراکی سرپایی در بیمار بدون علامت با فشار شدید (SBP > 180–200 یا DBP > 110–120): دیورتیک (HCTZ)؛ آنژین/بعد از MI/میگرن/آریتمی سوپراونتریکولار: بتابلوکر؛ نارسایی قلب/بیماری کلیه/سکته راجعه/دیابت: ACEI.
+
+@variant htn-urgency-main
+name: Hypertensive urgency
+level: III
+imp: Hypertensive urgency
+cond: Urgent
+act: RBR
+diet: PO
+ecg: once
+cxr: none
+
+@scenario
+مردی ۶۰ ساله با فشار 205/115 بدون علامت یا آسیب ارگان هدف.
+
+@why
+علامت ندارد؛ داروی خوراکی و شروع درمان سرپایی.
+
+@L
+- Urinalysis (renal injury: hematuria, proteinuria, red cell casts); pregnancy test in women of childbearing potential
+
+@T
+- Labetalol 200 to 400 mg orally
+- [alternatively] Captopril 12.5 to 25 mg orally every 4 to 6 hours; Losartan 50 mg orally per day; Clonidine 0.1 to 0.2 mg orally
+- Outpatient oral agent for asymptomatic severe hypertension: Hydrochlorothiazide 25 mg orally each day (uncomplicated); Metoprolol 50 mg orally once or twice daily (angina, post-MI, migraines, supraventricular arrhythmias); Lisinopril 10 mg orally each day (heart failure, renal disease, recurrent strokes, diabetes)
+
+@cond pediatric-hypertensive-emergency
+ch: 26
+name: Childhood hypertensive emergency
+name_fa: اورژانس فشار خون در کودکان
+cc: pediatric-other, headache
+keywords: pediatric hypertension, labetalol, nicardipine, hydralazine, pheochromocytoma, phentolamine, renovascular
+status: draft
+
+@features
+- فشار شدید همراه آسیب ارگان هدف؛ نوزادان: آپنه، سیانوز، تغذیه ضعیف؛ بزرگ‌تر: سردرد ضربان‌دار پیشانی، تاری دید
+- شایع‌ترین علل: ضایعات رنوواسکولار و فئوکروموسیتوم
+- درمان اورژانسی اگر فشار 30٪ بیشتر از قبل باشد یا از صدک 90–95 بالاتر باشد
+
+@ddx
+- !Renovascular lesion | 
+- !Pheochromocytoma | 
+- Renal parenchymal disease | 
+
+@redflags
+- نشانه‌های آسیب ارگان هدف در کودک
+
+@guide
+هدف کاهش MAP تا 25٪ طی 1 ساعت. انتخاب اول: لابتالول یا نیکاردیپین؛ خط دوم: هیدرالازین، اسمولول، کلویدیپین؛ مقاوم: نیتروپروساید؛ فئوکروموسیتوم: فنتولامین.
+
+@variant peds-htn-main
+name: Childhood hypertensive emergency
+level: I
+imp: Childhood hypertensive emergency
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: none
+o2: O2 therapy: if SpO2 < 94%, nasal cannula or face mask with flow by age and weight
+
+@scenario
+پسری ۱۰ ساله با سردرد شدید، تاری دید و فشار 170/110؛ سابقه نارسایی کلیه.
+
+@why
+کاهش MAP تا 25٪ طی یک ساعت؛ دوز بر اساس وزن.
+
+@T
+- Labetalol 0.2 to 1 mg/kg IV to a maximum of 40 mg per dose, or continuous infusion 0.25 to 3 mg/kg/h {hi}
+- [alternatively] Nicardipine 0.5 to 3 μg/kg/min IV {hi}
+- [second-line] Hydralazine 0.2 to 0.6 mg/kg IV to a maximum of 20 mg per dose; Esmolol 100 to 500 μg/kg followed by 50 to 150 μg/kg/min; Clevidipine 0.5 to 3.5 μg/kg/min IV {hi}
+- [refractory] Nitroprusside 0.5 to 10 μg/kg/min IV {hi}
+- [pheochromocytoma, awaiting surgery] Phentolamine 0.1 mg/kg IV to a maximum of 5 mg {hi}
+
+@cond pulmonary-hypertension
+ch: 26
+name: Pulmonary hypertension (decompensated)
+name_fa: هیپرتانسیون ریوی
+cc: dyspnea, syncope, chest-pain
+keywords: pulmonary hypertension, right ventricular failure, dobutamine, milrinone, norepinephrine, epoprostenol, sildenafil, prostanoid pump
+status: draft
+
+@features
+- فشار شریان ریوی بالا که عملکرد بطن راست را مختل می‌کند (میانگین > 25 در استراحت یا > 30 با فعالیت)؛ تشخیص قطعی با کاتتریزاسیون قلب راست
+- شایع‌ترین علامت تنگی نفس؛ خستگی، سنکوپ یا پرِسنکوپ، درد قفسه؛ اغلب همراه COPD، اختلال LV یا هیپوکسمی
+- اینتوباسیون در هیپرتانسیون ریوی شدید می‌تواند باعث کلاپس سریع قلبی‌عروقی شود (فشار داخل قفسه)
+
+@ddx
+- !Pulmonary embolism | 
+- !Pump or catheter failure of an infusion prostanoid | 
+- Right heart failure | 
+
+@redflags
+- هیپوتانسیون یا هیپوکسی
+
+@guide
+اکسیژن برای SpO2 > 90٪؛ حجم داخل عروقی را بهینه کن؛ تقویت عملکرد RV با دوبوتامین یا میلرینون؛ حفظ پرفیوژن کرونر با نوراپی‌نفرین؛ کاهش afterload RV با پروستانوئید و مهارکننده PDE5 (به‌ندرت در ED شروع می‌شود). در بیمار تحت انفوزیون پروستانوئید، عملکرد کاتتر و پمپ را بررسی کن.
+
+@variant ph-main
+name: Decompensated pulmonary hypertension
+level: I
+imp: Pulmonary hypertension, decompensation
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: portable
+
+@scenario
+زنی ۴۵ ساله مبتلا به هیپرتانسیون ریوی تحت انفوزیون اپوپروستنول با سنکوپ، SpO2 85٪ و فشار 85/50.
+
+@why
+حفظ اکسیژن، حجم، حمایت RV و پرفیوژن کرونر؛ قطع انفوزیون اپوپروستنول را باید بررسی (خرابی پمپ یا کاتتر).
+
+@S
+- [hypotension] Optimize intravascular volume
+
+@T
+- Supplemental oxygen to maintain saturation > 90% in hypoxia {ci: intubation may cause rapid cardiovascular collapse}
+- Dobutamine 2 to 10 μg/kg/min IV or Milrinone 0.375 μg/kg/min IV (augment RV function) {hi}
+- Norepinephrine 0.05 to 0.75 μg/kg/min IV (maintain coronary perfusion) {hi}
+- [patients on continuous prostanoid or PDE-5 inhibitor therapy] Confirm catheter and pump function as a cause of decompensation (epoprostenol, sildenafil are rarely initiated in the ED)

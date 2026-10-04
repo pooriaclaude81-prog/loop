@@ -1,0 +1,200 @@
+@cond deep-vein-thrombosis
+ch: 25
+name: Deep vein thrombosis (DVT)
+name_fa: ترومبوز ورید عمقی
+cc: leg-swelling, limb-injury
+keywords: DVT, deep vein thrombosis, Wells score, D-dimer, venous ultrasound, phlegmasia cerulea dolens, enoxaparin, rivaroxaban, apixaban, ترومبوز
+status: draft
+
+@features
+- لخته در ورید عمقی ساق، لگن یا اندام فوقانی (اغلب با کاتتر)؛ درد ساق، قرمزی، تورم، تندرنس و گرمی (کمتر از 50٪ این مجموعه کامل را دارند)
+- اختلاف محیط ساق 2 cm پیش‌بینی‌کننده است؛ علامت Homans نه حساس است نه اختصاصی
+- فلگمازیا سرولئا دولنس: اندام بسیار متورم و سیانوتیک (انسداد درجه بالا و افزایش فشار کمپارتمان)؛ آلبا دولنس: اندام رنگ‌پریده (اسپاسم شریانی)
+- عوامل خطر: سن، چاقی، بارداری، VTE قبلی، بدخیمی، ترومبوفیلی ارثی، جراحی یا تروما اخیر، بی‌حرکتی، کاتتر مرکزی، سیگار، سفر طولانی، CHF، سکته، استروژن
+- Wells (DVT): خطر بالا ≥ 3 (75٪)، متوسط 1–2 (17٪)، پایین < 1 (3٪)؛ مدل دو دسته: ≤ 1 احتمالاً DVT نیست
+- D-dimer: حساسیت 94–98٪ و ویژگی 50–60٪؛ سونوگرافی ورید: حساسیت 90–95٪ و ویژگی 95٪ (کمتر برای لگن، ساق ایزوله و چاق)
+
+@ddx
+- !Pulmonary embolism | 
+- Cellulitis | 
+- Heart failure | 
+- Musculoskeletal injury | 
+- Venous stasis without thrombosis | 
+
+@redflags
+- فلگمازیا (خطر از دست رفتن اندام)
+- علائم PE
+
+@guide
+# مسیر تشخیصی
+- احتمال پایین (Wells < 1): D-dimer؛ منفی: DVT رد می‌شود.
+- متوسط یا بالا یا D-dimer مثبت: سونوگرافی ورید؛ در احتمال بالا با سونوی منفی: D-dimer هم‌زمان یا سونوی تکراری ظرف 1 هفته.
+# درمان
+- ضدانعقاد زودهنگام؛ LMWH ترجیح بر UFH (UFH در نارسایی شدید کلیه یا خطر بالای خونریزی)؛ DVT کم‌خطر اغلب سرپایی.
+
+@variant dvt-uncomplicated
+name: DVT, outpatient-eligible
+level: III
+imp: Deep vein thrombosis
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+زنی ۴۵ ساله با تورم و درد ساق چپ از دو روز قبل بعد از سفر طولانی؛ علائم حیاتی طبیعی؛ سونوگرافی ورید: ترومبوز ورید پوپلیته.
+
+@why
+DVT کم‌خطر: ضدانعقاد سرپایی (LMWH یا مهارکننده Xa).
+
+@I
+- Venous ultrasound (moderate or high pretest probability, or positive D-dimer)
+
+@L
+- D-dimer (low pretest probability; age-adjusted cutoff age × 10 ng/mL)
+
+@T
+- Dalteparin 100 IU/kg SC every 12 h or 200 IU/kg SC every day {hi}
+- [alternatively] Enoxaparin 1 mg/kg SC every 12 h or 1.5 mg/kg SC every day {hi} {renal: unpredictable in severe renal insufficiency}
+- [alternatively] Tinzaparin 175 IU/kg SC every day {hi}
+- [alternatively] Fondaparinux: < 50 kg 5 mg SC every day; 50 to 100 kg 7.5 mg SC every day; > 100 kg 10 mg SC every day {ci: renal failure}
+- [alternatively, outpatient, no heparin requirement] Rivaroxaban 15 mg BID for 21 days, then 20 mg every day with food
+- [alternatively, outpatient, no heparin requirement] Apixaban 10 mg BID for 7 days, then 5 mg BID
+- [alternatively] Dabigatran 150 mg BID after 5 to 10 days of heparin run-in {renal: renal excretion}
+
+@variant dvt-phlegmasia
+name: Phlegmasia cerulea dolens (limb-threatening)
+level: I
+imp: Phlegmasia cerulea dolens
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: none
+
+@scenario
+مردی ۶۰ ساله با سرطان، ساق راست بسیار متورم، سیانوتیک و دردناک با کاهش نبض؛ سونوگرافی ترومبوز ایلیوفمورال.
+
+@why
+خطر از دست رفتن اندام: درمان فوری شامل ضدانعقاد، برداشتن عوامل محدودکننده و مداخله عروقی.
+
+@I
+- Venous ultrasound
+
+@T
+- Maintain the affected limb at neutral level; remove constrictive clothing, casts or dressings
+- Initiate anticoagulation: Unfractionated heparin 80 U/kg bolus then 18 U/kg/h infusion {hi}
+- [if interventional services are unavailable] Intravenous thrombolysis
+
+@Co
+- Interventional radiologist, peripheral interventional cardiologist or vascular surgeon (catheter-based thrombectomy or thrombolysis)
+
+@cond pulmonary-embolism
+ch: 25
+name: Pulmonary embolism (PE)
+name_fa: آمبولی ریه
+cc: dyspnea, chest-pain, syncope, hypotension-shock
+keywords: PE, pulmonary embolism, PERC, Wells, D-dimer, CT pulmonary angiography, V/Q, alteplase, heparin, IVC filter, massive PE, آمبولی ریه
+status: draft
+
+@features
+- طیف از مرگ ناگهانی تا تشخیص اتفاقی بدون علامت؛ شایع‌ترین علائم تنگی نفس و درد پلورتیک؛ سنکوپ در 3 تا 4٪ (گاهی با تشنج)
+- یافته‌ها: هیپوکسمی، تاکی‌پنه، تاکی‌کاردی، هموپتزی، تعریق و تب خفیف؛ علائم DVT در حدود 50٪؛ PE ماسیو: افت فشار، هیپوکسمی شدید یا ایست
+- شک: دیسپنه، درد پلورتیک، تاکی‌کاردی ناشناخته، هیپوکسمی، سنکوپ یا شوک به‌ویژه بدون یافته جایگزین؛ هیپوکسی یا دیسپنه با ریه صاف و رادیوگرافی منفی
+- آزمون تشخیصی فقط وقتی احتمال > 2.5٪ است؛ در شک کم و PERC منفی (هر 9 عامل): نیاز به تست نیست
+- Wells: > 6 خطر بالا (78.4٪)، 2–6 متوسط (27.8٪)، < 2 پایین (3.4٪)
+- CTPA آزمون انتخابی (حساسیت 90٪ و ویژگی 95٪؛ حدود 10٪ ناکافی)؛ V/Q: طبیعی PE را رد می‌کند؛ دو یا بیشتر نقص نامطابق: 80٪ احتمال
+
+@ddx
+- !Acute coronary syndrome | 
+- !Aortic dissection | 
+- !Tension pneumothorax / pneumothorax | 
+- Pneumonia | 
+- Asthma / COPD | 
+- Heart failure / pericarditis | 
+- Muscle strain / costochondritis | 
+
+@redflags
+- SBP < 90 یا افت 40 mmHg (PE ماسیو)
+- استرین قلب راست در اکو، تروپونین یا BNP بالا، هیپوکسمی شدید
+
+@guide
+# منطق
+- پایش ریتم، فشار و اکسیژن همه بیماران؛ کریستالوئید برای افزایش پیش‌بار و اصلاح افت فشار.
+- ضدانعقاد زودهنگام: UFH، LMWH یا مهارکننده Xa؛ LMWH ترجیح (در نارسایی شدید کلیه، چاقی یا خطر خونریزی UFH).
+- فیبرینولیز: PE ماسیو (SBP < 90 یا افت 40) و در برخی PE ساب‌ماسیو با استرین قلب راست؛ بعد از آن UFH یا LMWH.
+- در ناتوانی از ضدانعقاد یا ضدّ اندیکاسیون: ترومبکتومی؛ فیلتر IVC در شکست یا ممنوعیت ضدانعقاد.
+
+@pearls
+- D-dimer معمولاً بالاتر در سن بالا، بارداری، بدخیمی، جراحی اخیر، بیماری کبدی/روماتولوژیک، عفونت، تروما، سیکل‌سل؛ cutoff = سن × 10 ng/mL.
+
+@variant pe-stable
+name: Stable PE, anticoagulation
+level: II
+imp: Pulmonary embolism
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: once
+cxr: PA
+
+@scenario
+مردی ۵۰ ساله بعد از جراحی با تنگی نفس و درد پلورتیک؛ فشار 125/80، نبض 104، SpO2 92٪. CTPA نقص پرشدگی شاخه لوبار.
+
+@why
+PE پایدار: ضدانعقاد فوری؛ اکسیژن؛ بستری تلمتری (انتخابی کم‌خطر سرپایی).
+
+@I
+- CT pulmonary angiography (test of choice); V/Q scan if renal function (GFR < 60) or other contraindication to contrast
+
+@L
+- D-dimer (low or intermediate pretest probability); serum creatinine / GFR
+
+@S
+- [hypotension] Crystalloid fluids as needed to augment preload and correct hypotension
+
+@T
+- Supplemental oxygen when necessary to maintain adequate pulse oximetry
+- Unfractionated heparin 80 U/kg bolus then 18 U/kg/h infusion (if outpatient therapy not appropriate or severe renal failure) {hi}
+- [alternatively] Enoxaparin 1 mg/kg SC every 12 h or 1.5 mg/kg SC every day; Dalteparin 100 IU/kg SC every 12 h or 200 IU/kg SC every day; Tinzaparin 175 IU/kg SC every day {hi}
+- [alternatively] Fondaparinux < 50 kg 5 mg, 50 to 100 kg 7.5 mg, > 100 kg 10 mg SC every day {ci: renal failure}
+- [alternatively] Rivaroxaban 15 mg BID for 21 days then 20 mg every day with food; Apixaban 10 mg BID for 7 days then 5 mg BID (no heparin requirement); Dabigatran 150 mg BID after 5 to 10 days of heparin {renal: renal excretion}
+
+@Co
+- Admission to a telemetry bed (selected low-risk patients may be managed as outpatients if follow-up and compliance are assured)
+
+@variant pe-massive
+name: Massive or submassive PE (fibrinolysis)
+level: I
+imp: Massive pulmonary embolism
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: portable
+
+@scenario
+مردی ۶۰ ساله با سنکوپ، SpO2 82٪ و فشار 78/50؛ اکو استرین بطن راست؛ تروپونین بالا.
+
+@why
+PE ماسیو با افت فشار: فیبرینولیتیک؛ بعد از آن هپارین. ترومبکتومی در ناتوانی از فیبرینولیز.
+
+@I
+- Bedside echocardiography (right heart strain); CTPA when stable
+
+@L
+- Troponin, BNP
+
+@S
+- [hypotension] Crystalloid fluids as needed to augment preload and correct hypotension
+
+@T
+- Supplemental oxygen
+- Alteplase (tPA) 10 mg IV bolus followed by 90 mg infused over 2 h (100 mg over 2 hours) {hi} {ci: standard contraindications to fibrinolysis; bleeding risk increased in patients > 65 years}
+- After the thrombolytic infusion begin unfractionated heparin (80 U/kg bolus then 18 U/kg/h) or LMWH {hi}
+- [life-threatening PE with contraindications to fibrinolysis] Surgical or suction thromboembolectomy
+- [anticoagulation failed or contraindicated, or submassive PE with persistent large DVT] Inferior vena cava filter
+
+@Co
+- Intensive care setting (circulatory compromise or thrombolytic therapy)

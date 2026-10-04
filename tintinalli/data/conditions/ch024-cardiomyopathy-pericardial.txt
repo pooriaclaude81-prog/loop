@@ -1,0 +1,442 @@
+@cond dilated-cardiomyopathy
+ch: 24
+name: Dilated cardiomyopathy (including peripartum cardiomyopathy)
+name_fa: کاردیومیوپاتی دیلاته
+cc: dyspnea, leg-swelling, chest-pain
+keywords: dilated cardiomyopathy, peripartum cardiomyopathy, heart failure, amiodarone, LVAD, ACE inhibitor, carvedilol
+status: draft
+
+@features
+- شایع‌ترین کاردیومیوپاتی؛ معمولاً ایدیوپاتیک (یا خانوادگی)؛ کاردیومیوپاتی دوران بارداری (از هفته 20 تا پس از زایمان) یک نوع آن است؛ اصلی‌ترین اندیکاسیون پیوند قلب
+- علائم نارسایی قلب: تنگی نفس فعالیتی، ارتوپنه، PND، رال، ورم، هپاتومگالی، سوفل هولوسیستولیک؛ ممکن است درد قفسه
+- CXR: قلب بزرگ، بزرگی دو بطنی و احتقان ریوی؛ ECG: LVH، بزرگی LA، Q یا QS و ضعف پیشرفت R؛ اکو: EF کم و بزرگی بطن
+- شناسایی علت تشدید: ایسکمی، آنمی، عفونت، AF جدید، برادی‌دیس‌ریتمی، نارسایی دریچه، اختلال کلیه، PE، تیروئید
+
+@ddx
+- !Acute myocardial infarction | 
+- !Acute valvular disruption | 
+- Sepsis / other low-output state | 
+- Restrictive / constrictive disease | 
+
+@redflags
+- نارسایی قلب علامت‌دار یا تازه تشخیص‌داده‌شده
+
+@guide
+بستری در تخت مانیتور یا ICU. درمان استاندارد نارسایی حاد قلب. اکتوپی بطنی پیچیده: آمیودارون. درمان مزمن: دیورتیک و دیگوکسین (علامت)، ACEI و بتابلوکر مثل کارودیلول (بقا). برخی بیماران با LVAD در انتظار پیوند.
+
+@variant dcm-main
+name: Dilated cardiomyopathy with heart failure
+level: II
+imp: Dilated cardiomyopathy, acute heart failure
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: once
+cxr: PA
+
+@scenario
+مردی ۵۵ ساله با کاردیومیوپاتی دیلاته (EF 25٪)، تنگی نفس و ورم پا از یک هفته قبل؛ ریتم سینوسی.
+
+@why
+تشدید نارسایی قلب: درمان استاندارد AHF و جستجوی عامل تشدید.
+
+@I
+- Echocardiogram (definitive diagnosis: decreased ejection fraction, ventricular enlargement)
+
+@T
+- Establish IV access, supplemental oxygen and cardiac monitoring
+- Standard therapies for acute heart failure (see acute heart failure)
+- [complex ventricular ectopy] Amiodarone 150 mg IV over 10 min and then 1 mg/min for 6 hours {hi}
+- Chronic therapy: diuretics and digoxin (improve symptoms); ACE inhibitors and β-blockers such as carvedilol (improve survival)
+
+@Co
+- Admission to a monitored bed or ICU depending on severity
+
+@cond myocarditis
+ch: 24
+name: Myocarditis
+name_fa: میوکاردیت
+cc: chest-pain, dyspnea, fever
+keywords: myocarditis, myopericarditis, viral, troponin, supportive care
+status: draft
+
+@features
+- التهاب میوکارد ناشی از اختلال سیستمیک یا عامل عفونی (ویروسی یا باکتریایی)؛ علت شایع کاردیومیوپاتی دیلاته؛ پریکاردیت اغلب همراه است
+- علائم غیراختصاصی: میالژی، سردرد، لرز، تب و تاکی‌کاردی؛ درد قفسه با اصطکاک پریکارد؛ موارد شدید نارسایی قلب پیشرونده و شوک
+- ECG طبیعی یا بلوک AV، QRS طولانی یا صعود ST و PR افت در پریکاردیت همراه؛ CXR معمولاً طبیعی؛ آنزیم‌های قلبی ممکن است بالا باشند
+
+@ddx
+- !Cardiac ischemia / infarction | 
+- !Sepsis | 
+- Valvular disease | 
+- Pericarditis | 
+
+@redflags
+- نارسایی قلب پیشرونده یا شوک
+
+@guide
+پایه درمان بستری و مراقبت حمایتی؛ آنتی‌بیوتیک در شک به میوکاردیت باکتریایی؛ ICU در نارسایی پیشرونده.
+
+@variant myocarditis-main
+name: Myocarditis
+level: II
+imp: Myocarditis
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: once
+cxr: PA
+
+@scenario
+مردی ۲۵ ساله بعد از عفونت ویروسی با تب، درد قفسه و تروپونین بالا؛ ECG PR افت و صعود ST.
+
+@why
+مراقبت حمایتی و بستری؛ آنتی‌بیوتیک در شک باکتریایی.
+
+@L
+- Cardiac enzymes (troponin)
+
+@A
+- [suspected bacterial myocarditis] Appropriate antibiotics {note: agent and dose not given in the book}
+
+@T
+- Supportive care and admission
+
+@Co
+- ICU for progressive heart failure symptoms
+
+@cond lvad-patient
+ch: 24
+name: Patient with a left ventricular assist device (LVAD)
+name_fa: بیمار دارای LVAD
+cc: hypotension-shock, dyspnea, weakness
+keywords: LVAD, assist device, no pulse, whirr, CPR contraindicated, pump thrombosis
+status: draft
+
+@features
+- پمپ جریان پیوسته: ممکن است نبض قابل‌لمس نباشد؛ فشار با داپلر یا کاف مکانیکی؛ صدای whirr پمپ شنیده می‌شود
+- ECG باید QRS قابل‌تشخیص داشته باشد؛ CXR اجزای LVAD را نشان می‌دهد
+- عوارض شایع: عفونت (محل خروجی درایو)، آنمی، خونریزی و ترومبوآمبولی
+- بیماران و خانواده آموزش دیده‌اند؛ کارت و شماره هماهنگ‌کننده LVAD همراه دارند: هرچه سریع‌تر تماس بگیر
+
+@ddx
+- !Pump failure (no whirr) | 
+- !Bleeding / anemia | 
+- Infection at the drive line | 
+- Thromboembolism (PE, mesenteric ischemia, stroke) | 
+- Right ventricular failure | 
+
+@redflags
+- ناپایداری همودینامیک؛ نبود صدای whirr
+
+@guide
+بسیاری از متخصصان CPR را در بیمار LVAD ناپایدار توصیه نمی‌کنند (جابه‌جایی LVAD و پارگی بطن). اگر whirr شنیده نمی‌شود: همراه بیمار و خانواده علت مکانیکی را جستجو و باتری و کنترلر را عوض کن؛ هیچ قطعه‌ای را جدا نکن.
+
+@variant lvad-main
+name: LVAD patient with instability
+level: I
+imp: LVAD patient, hemodynamic instability
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: portable
+
+@scenario
+مردی ۶۰ ساله با LVAD، ضعف و فشار داپلر 60؛ whirr شنیده می‌شود. مدفوع قیری دارد.
+
+@why
+بیمار LVAD را با مانیتور، IV و بولوس نرمال سالین مدیریت کن و عوارض (عفونت، آنمی، خونریزی، ترومبوآمبولی) را درمان کن.
+
+@L
+- Hemoglobin (anemia from hemolysis or hemorrhage)
+
+@S
+- Normal saline bolus (if the whirr is heard)
+
+@T
+- Listen to the heart for the pump whirr; blood pressure by Doppler or mechanical cuff; monitor; IV access
+- Do not perform CPR in unstable patients {ci: chest compressions may dislodge the LVAD causing LV rupture}
+- [infection at the abdominal wall drive-line outlet] Antibiotics {note: agent and dose not given in the book}
+- [anemia from red cell destruction or hemorrhage] Blood transfusion as needed
+- [thromboembolic event once bleeding is ruled out] Heparin {hi} {note: dose not given in the book}
+- [persistent hypotension or right ventricular failure] Pressors to support hemodynamics {hi}
+
+@Co
+- LVAD coordinator (as soon as possible)
+
+@cond hypertrophic-cardiomyopathy
+ch: 24
+name: Hypertrophic cardiomyopathy
+name_fa: کاردیومیوپاتی هیپرتروفیک
+cc: syncope, chest-pain, palpitations, dyspnea
+keywords: HOCM, hypertrophic cardiomyopathy, septal hypertrophy, beta-blocker, sudden cardiac death
+status: draft
+
+@features
+- هیپرتروفی نامتقارن عمدتاً سپتوم بین‌بطنی؛ اختلال شل شدن و پر شدن دیاستولیک؛ EF و برون‌ده معمولاً طبیعی؛ اغلب ارثی
+- علائم: تنگی نفس فعالیتی (شایع‌ترین)، درد قفسه، تپش، سنکوپ؛ S4 و سوفل اجکشن سیستولیک در لبه تحتانی چپ استرنوم یا اپکس که به گردن نمی‌رود
+- سوفل با والسالوا یا ایستادن بلندتر و با چمباتمه یا بالا بردن پا آرام‌تر می‌شود
+- ECG: LVH و بزرگی LA، S عمیق با Q سپتال (> 0.3 mV)؛ CXR معمولاً طبیعی؛ اکو تشخیصی
+
+@ddx
+- !Sudden cardiac death precursor (syncope) | 
+- Aortic stenosis | 
+- Ischemia | 
+
+@redflags
+- سنکوپ (پیش‌درآمد مرگ ناگهانی)
+
+@guide
+درمان عمدتاً حمایتی. سنکوپ: بستری با مانیتور و ارزیابی کامل. بعد از تشخیص قطعی β-بلوکر مثل آتنولول 25–50 mg خوراکی روزانه برای درد قفسه.
+
+@variant hcm-main
+name: Hypertrophic cardiomyopathy
+level: II
+imp: Hypertrophic cardiomyopathy
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: once
+cxr: none
+
+@scenario
+مردی ۲۸ ساله ورزشکار با سنکوپ حین ورزش و سوفل سیستولیک که با والسالوا زیاد می‌شود.
+
+@why
+سنکوپ می‌تواند پیش‌درآمد مرگ ناگهانی باشد: بستری با مانیتور.
+
+@I
+- Echocardiography (diagnostic study of choice; disproportionate septal hypertrophy)
+
+@T
+- Treatment is primarily supportive
+- [after definitive diagnosis, chest pain] β-blocker: Atenolol 25 to 50 mg orally every day
+
+@Co
+- Admission for cardiac monitoring and thorough evaluation (syncope); cardiology
+
+@cond restrictive-cardiomyopathy
+ch: 24
+name: Restrictive cardiomyopathy
+name_fa: کاردیومیوپاتی محدودکننده
+cc: dyspnea, leg-swelling
+keywords: restrictive cardiomyopathy, amyloidosis, sarcoidosis, Kussmaul sign, constrictive pericarditis
+status: draft
+
+@features
+- نادر؛ ایدیوپاتیک یا ثانویه به سارکوئیدوز، اسکلرودرمی یا آمیلوئیدوز؛ پر شدن بطن محدود، عملکرد سیستولیک معمولاً طبیعی
+- تنگی نفس، ارتوپنه و ورم بدون کاردیومگالی یا اختلال سیستولیک؛ درد قفسه نادر؛ S3/S4، رال، JVD، علامت Kussmaul، هپاتومگالی، آسیت
+- ECG غیراختصاصی (اختلال هدایت یا ولتاژ کم در سارکوئیدوز/آمیلوئیدوز)؛ CXR علائم نارسایی قلب بدون کاردیومگالی
+- تفکیک از پریکاردیت انقباضی مهم است (قابل درمان جراحی)
+
+@ddx
+- !Constrictive pericarditis | 
+- Diastolic LV dysfunction | 
+
+@redflags
+- نارسایی قلب راست
+
+@guide
+اکثر بیماران بستری می‌شوند. درمان علامتی با دیورتیک و ACEI؛ بعضی علل درمان اختصاصی دارند: کورتیکواستروئید برای سارکوئیدوز، کلاسیون (chelation) برای هموکروماتوز.
+
+@variant rcm-main
+name: Restrictive cardiomyopathy
+level: II
+imp: Restrictive cardiomyopathy
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: once
+cxr: PA
+
+@scenario
+زنی ۶۰ ساله مبتلا به آمیلوئیدوز با تنگی نفس، آسیت و JVD بدون بزرگی قلب.
+
+@why
+بستری و کنترل علائم؛ بعضی علل درمان اختصاصی دارند.
+
+@T
+- Symptom control with diuretics and ACE inhibitors {note: doses not given in the book}
+- [specific causes] Corticosteroids for sarcoidosis; chelation for hemochromatosis
+
+@Co
+- Admission for further diagnostic and therapeutic interventions
+
+@cond acute-pericarditis
+ch: 24
+name: Acute pericarditis
+name_fa: پریکاردیت حاد
+cc: chest-pain
+keywords: pericarditis, PR depression, diffuse ST elevation, friction rub, ibuprofen, colchicine, Dressler
+status: draft
+
+@features
+- درد تیز یا خنجری پیش‌قلبی یا رتروسترنال که به پشت، گردن، شانه یا بازو می‌رود؛ با خوابیدن بدتر و با نشستن و خم شدن به جلو بهتر؛ انتشار به ریج تراپزیوس چپ مشخص است
+- همراه: عفونت اخیر، تب خفیف، تنگی نفس، دیسفاژی؛ اصطکاک پریکارد متناوب
+- علل: ایدیوپاتیک یا ویروسی، باکتریال، قارچی، بدخیمی، دارو، رادیاسیون، بیماری بافت همبند، اورمی، میگزدم، بعد از MI (Dressler)
+- ECG چهار مرحله: (1) صعود منتشر ST (I، V5، V6) و افت PR (II، aVF، V4–V6)؛ (2) نرمال شدن ST؛ (3) وارونگی T؛ (4) نرمال. نسبت ST/T > 0.25 در I، V5 یا V6 به نفع پریکاردیت
+- CXR معمولاً طبیعی؛ اکو برای افیوژن؛ تروپونین یا CK بالا در میوکاردیت همراه
+
+@ddx
+- !Acute coronary syndrome | 
+- !Myocarditis | 
+- !Pericardial effusion / tamponade | 
+- Early repolarization | 
+
+@redflags
+- افیوژن بزرگ، میوکاردیت، پریکاردیت اورمیک یا ناپایداری
+
+@guide
+بیمار پایدار با پریکاردیت ایدیوپاتیک/ویروسی سرپایی با NSAID. کلشی‌سین مفید و پیشگیری‌کننده عود. بستری با مانیتور: میوکاردیت، سایه بزرگ قلب، افیوژن در اکو، اورمیک یا ناپایداری.
+
+@variant pericarditis-outpatient
+name: Stable idiopathic or viral pericarditis
+level: III
+imp: Acute pericarditis
+cond: Urgent
+act: RBR
+diet: PO
+ecg: once
+cxr: PA
+
+@scenario
+مردی ۳۰ ساله بعد از سرماخوردگی با درد قفسه که با خوابیدن بدتر می‌شود؛ ECG صعود منتشر ST و افت PR.
+
+@why
+بیمار پایدار با پریکاردیت ویروسی: NSAID و کلشی‌سین سرپایی.
+
+@I
+- Echocardiography (pericardial effusion)
+
+@L
+- Troponin / CK (myocarditis)
+
+@T
+- Ibuprofen 600 mg every 6 hours or 800 mg every 8 hours {renal: NSAID}
+- [adjuvant, may prevent recurrence] Colchicine 0.5 mg orally twice a day
+
+@variant pericarditis-admit
+name: Pericarditis with myocarditis, effusion, uremia or compromise
+level: II
+imp: Acute pericarditis, high risk
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: once
+cxr: PA
+
+@scenario
+مردی ۶۰ ساله دیالیزی با پریکاردیت و افیوژن در اکو؛ تنگی نفس.
+
+@why
+میوکاردیت، افیوژن، پریکاردیت اورمیک یا ناپایداری نیاز به بستری مانیتورشده دارد.
+
+@I
+- Echocardiography
+
+@T
+- Admission to a monitored environment (myocarditis, enlarged cardiac silhouette, effusion on echo, uremic pericarditis, hemodynamic compromise)
+
+@cond cardiac-tamponade
+ch: 24
+name: Nontraumatic cardiac tamponade
+name_fa: تامپوناد قلبی غیرتروماتیک
+cc: dyspnea, hypotension-shock, chest-pain
+keywords: tamponade, pericardiocentesis, pulsus paradoxus, electrical alternans, pericardial effusion, Beck triad
+status: draft
+
+@features
+- تجمع مایع در فضای پریکارد که از فشار پرشدگی بطن راست بیشتر می‌شود؛ محدود شدن پرشدگی و افت برون‌ده
+- علل: اورمی، افیوژن بدخیم، خونریزی با ضدانعقاد، عفونت باکتریال یا سلی، پریکاردیت مزمن، لوپوس، رادیاسیون، میگزدم، ایدیوپاتیک
+- شوک خفیف تا شدید؛ شایع‌ترین شکایت تنگی نفس؛ تاکی‌کاردی، فشار پایین، فشار نبض باریک، pulsus paradoxus (> 10 mmHg افت SBP در دم)، JVD، صداهای قلب دور، درد RUQ؛ رال معمولاً نیست
+- ECG: ولتاژ کم، ST بالا و PR افت؛ electrical alternans (کلاسیک ولی نادر)؛ اکو/سونوگرافی کنار تخت: افیوژن بزرگ با collapse دیاستولی دهلیز یا بطن راست
+
+@ddx
+- !Tension pneumothorax | 
+- !Massive pulmonary embolism | 
+- Cardiogenic shock | 
+- Pericarditis without tamponade | 
+
+@redflags
+- هیپوتانسیون یا ایست PEA
+
+@guide
+در تشخیص‌نشده می‌تواند به هیپوتانسیون و ایست PEA ختم شود. IV بزرگ، اکسیژن و مانیتور؛ بولوس NS 500–1000 mL موقتاً پرشدگی قلب راست را بهتر می‌کند؛ پریکاردیوسنتز (با اکو) در کت‌لب/CCU وقتی همودینامیک اجازه می‌دهد، در ناپایدار در ED.
+
+@variant tamponade-main
+name: Cardiac tamponade
+level: I
+imp: Cardiac tamponade
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: portable
+
+@scenario
+مردی ۶۰ ساله با سرطان ریه، تنگی نفس، فشار 80/60، JVD و صداهای قلب دور؛ اکو افیوژن بزرگ با collapse RV.
+
+@why
+تشخیص با اکو؛ بولوس مایع موقتی و پریکاردیوسنتز.
+
+@I
+- Bedside ultrasound or echocardiogram (large pericardial effusion with right atrial or ventricular diastolic collapse)
+
+@S
+- Normal saline bolus 500 to 1000 mL IV (facilitates right heart filling; may temporarily improve hemodynamics)
+
+@T
+- Large-bore peripheral IVs, oxygen, continuous cardiac monitoring
+- Pericardiocentesis under echocardiographic guidance in the cardiac catheterization lab or coronary care unit when hemodynamics permit; emergency pericardiocentesis in the ED if unstable
+
+@Co
+- Cardiology
+
+@cond constrictive-pericarditis
+ch: 24
+name: Constrictive pericarditis
+name_fa: پریکاردیت انقباضی
+cc: dyspnea, leg-swelling
+keywords: constrictive pericarditis, Kussmaul sign, pericardiectomy
+status: draft
+
+@features
+- آسیب و التهاب پریکارد منجر به اختلال پرشدگی دیاستولی؛ علل: پریکاردیت قارچی یا سلی یا اورمیک، بعد از تروما یا جراحی قلب
+- شروع تدریجی شبیه نارسایی قلب و کاردیومیوپاتی محدودکننده: تنگی نفس فعالیتی، ورم پا، هپاتومگالی، آسیت؛ علامت Kussmaul شایع است
+- ECG ولتاژ کم و T وارونه؛ CXR طبیعی یا قلب کمی بزرگ؛ اکو 2D معمولاً کمک‌کننده نیست؛ CT، MRI یا اکو داپلر کمک می‌کند
+
+@ddx
+- !Restrictive cardiomyopathy | 
+- Heart failure | 
+
+@redflags
+- نارسایی قلب راست پیشرونده
+
+@guide
+عملکرد بطنی را ارزیابی کن. در انقباض قابل‌توجه و اختلال پرشدگی ممکن است پریکاردکتومی جراحی لازم شود.
+
+@variant cp-main
+name: Constrictive pericarditis
+level: III
+imp: Constrictive pericarditis
+cond: Urgent
+act: CBR
+diet: PO
+ecg: once
+cxr: PA
+
+@scenario
+مردی ۵۵ ساله با سابقه سل و ورم پا، آسیت و Kussmaul مثبت.
+
+@why
+تشخیص با CT/MRI/اکو داپلر؛ ارجاع برای پریکاردکتومی.
+
+@I
+- CT scan, MRI or Doppler echocardiography (2D echo is typically not useful)
+
+@T
+- Evaluate ventricular function when making the diagnosis
+
+@Co
+- Cardiothoracic surgery (pericardiectomy when significant constriction and impaired ventricular filling)

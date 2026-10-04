@@ -1,0 +1,268 @@
+@cond abdominal-aortic-aneurysm
+ch: 27
+name: Abdominal aortic aneurysm (including rupture and aortoenteric fistula)
+name_fa: آنوریسم آئورت شکمی
+cc: abdominal-pain, back-neck-pain, syncope, gi-bleeding, hypotension-shock
+keywords: AAA, ruptured AAA, pulsatile mass, aortoenteric fistula, Cullen, Grey Turner, vascular surgery, bedside ultrasound
+status: draft
+
+@features
+- AAA معمولاً ≥ 3.0 cm؛ علامت‌دار یا ≥ 5.0 cm معمولاً نیاز به ترمیم فوری دارد
+- پارگی: مرد سالمند سیگاری با درد ناگهانی شدید کمر یا شکم، افت فشار و توده شکمی ضربان‌دار؛ سنکوپ یا درد پهلو/کشاله/هیپ؛ نیمی درد «پاره‌کننده»
+- نبض فمورال معمولاً طبیعی؛ افت فشار ممکن است گذرا بهتر شود؛ Cullen یا Grey-Turner یا هماتوم اسکروتوم در خونریزی خلف صفاقی
+- فیستول آئورتوآنتریک (نادر): خونریزی گوارشی با خونریزی هشداردهنده کوچک یا خونریزی ماسیو؛ پس از گرافت آئورت؛ دوازدهه شایع‌ترین محل
+- شایع‌ترین تشخیص اشتباه اولیه: کولیک کلیوی
+- سونوگرافی کنار تخت > 90٪ حساس برای AAA (اندازه) ولی خونریزی خلف صفاقی را مطمئن نشان نمی‌دهد؛ CT جزئیات و پارگی را نشان می‌دهد؛ رادیوگرافی ساده فقط در 65٪
+
+@ddx
+- !Renal colic (common misdiagnosis) | 
+- !Aortoenteric fistula | 
+- !Aortic dissection | 
+- Testicular torsion | 
+- Intra-abdominal process | 
+
+@redflags
+- افت فشار، درد ناگهانی پشت یا شکم، توده ضربان‌دار
+
+@guide
+مشاوره فوری جراحی عروق در شک به پارگی یا فیستول. IV بزرگ، مایع محدود و هدف SBP حدود 90؛ ترانسفوزیون PRBC در صورت نیاز؛ کنترل درد بدون افت فشار. AAA کوچک (3–5 cm) اتفاقی بدون علامت: ارجاع به جراح عروق.
+
+@variant aaa-ruptured
+name: Ruptured or symptomatic AAA
+level: I
+imp: Ruptured abdominal aortic aneurysm
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: portable
+
+@scenario
+مردی ۷۰ ساله و سیگاری با درد ناگهانی شدید شکم و کمر، فشار 70/40 و توده ضربان‌دار شکم.
+
+@why
+تهدید فوری حیات: مشاوره فوری جراحی عروق، ترانسفوزیون و هدف فشار پایین.
+
+@I
+- Bedside abdominal ultrasound (> 90% sensitivity for AAA, measure the diameter)
+- CT (aneurysm anatomy and rupture) when stable enough
+
+@L
+- Type and crossmatch {note: not stated in the book; transfusion of packed red blood cells is advised if needed}
+
+@T
+- Large-bore IV access; judicious IV fluids to treat hypotension; target systolic blood pressure 90 mm Hg; transfuse packed red blood cells if needed
+- Pain control while avoiding hypotension {note: agent and dose not given in the book}
+
+@Co
+- Vascular surgeon (emergent)
+
+@variant aaa-incidental
+name: Incidental asymptomatic AAA (3.0 to 5.0 cm)
+level: III
+imp: Abdominal aortic aneurysm, asymptomatic
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مردی ۶۵ ساله که در سونوگرافی شکم برای علتی دیگر AAA با قطر 4 cm دارد؛ بدون علامت.
+
+@why
+AAA کوچک اتفاقی: ارجاع به جراح عروق؛ بزرگ‌تر از 5 cm خطر پارگی بیشتر دارد.
+
+@T
+- Refer to a vascular surgeon; AAA > 5.0 cm is at higher risk of spontaneous rupture and may warrant close follow-up
+
+@cond nonaortic-artery-aneurysm
+ch: 27
+name: Nonaortic large-artery aneurysms (popliteal, femoral, iliac, renal, splenic, hepatic, subclavian)
+name_fa: آنوریسم شریان‌های بزرگ غیرآئورتی
+cc: leg-swelling, abdominal-pain, flank-pain, limb-injury
+keywords: popliteal aneurysm, splenic artery aneurysm, renal artery aneurysm, femoral pseudoaneurysm, subclavian aneurysm
+status: draft
+
+@features
+- پوپلیته (> 2 cm یا > 150٪ قطر طبیعی): شایع‌ترین آنوریسم محیطی؛ ناراحتی پشت زانو با تورم ± DVT
+- ساب‌کلاوین: توده ضربان‌دار بالا یا پایین ترقوه، دیسفاژی، استریدور، درد قفسه، خشونت صدا، علائم ایسکمی اندام فوقانی
+- فمورال: توده ضربان‌دار ± درد؛ علائم ایسکمی یا آمبولی؛ سودوآنوریسم فمورال پس از کاتتریزاسیون، تروما یا عفونت
+- ایلیاک: درد کشاله/اسکروتوم/پایین شکم، سیاتیک؛ پارگی با هماتوم ولوار یا کشاله
+- کلیه: درد پهلو، هماچوری، انسداد سیستم جمع‌کننده، شوک در پارگی
+- طحال: شروع سریع؛ درد اپی‌گاستر یا LUQ سپس منتشر در پارگی و شوک؛ خطر در بارداری
+- کبد: ایکتر انسدادی، همو‌بیلیا، درد RUQ، پریتونیت، خونریزی گوارشی فوقانی
+
+@ddx
+- !Ruptured aneurysm | 
+- Deep vein thrombosis | 
+- Renal colic | 
+
+@redflags
+- پارگی یا ایسکمی حاد اندام
+
+@guide
+با سونوگرافی یا CT تشخیص داده می‌شوند. درمان: پوپلیته و فمورال: ترومبولیز، لیگاتور، بای‌پس یا اندوواسکولار؛ ساب‌کلاوین، ایلیاک، سودوآنوریسم: ترمیم جراحی؛ کلیه: ترمیم یا نفرکتومی؛ طحال: ترمیم، اسپلنکتومی یا آمبولیزاسیون؛ کبد: لیگاتور یا آمبولیزاسیون.
+
+@variant nonaortic-main
+name: Nonaortic large-artery aneurysm
+level: II
+imp: Nonaortic large-artery aneurysm
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: once
+cxr: none
+
+@scenario
+مردی ۷۰ ساله با ناراحتی پشت زانو و توده ضربان‌دار؛ سونوگرافی آنوریسم پوپلیته 3 cm.
+
+@why
+تشخیص با سونوگرافی/CT؛ درمان بر اساس شریان درگیر.
+
+@I
+- Ultrasound or CT scan
+
+@T
+- Management by artery: popliteal and femoral: thrombolysis, ligation, arterial bypass, endovascular repair; subclavian, iliac, femoral pseudoaneurysm: surgical repair; renal: surgical repair, nephrectomy; splenic: surgical repair, splenectomy, embolization if unruptured; hepatic: surgical ligation, embolization
+
+@Co
+- Vascular surgery
+
+@cond aortic-dissection
+ch: 27
+name: Aortic dissection
+name_fa: دایسکشن آئورت
+cc: chest-pain, back-neck-pain, syncope, focal-neuro
+keywords: aortic dissection, Stanford type A, type B, esmolol, labetalol, nitroprusside, nicardipine, CT angiography, TEE, Marfan, دایسکشن
+status: draft
+
+@features
+- جدا شدن خون بین لایه‌های اینتیما و ادونتیسیا؛ درد حاد قفسه که در شروع شدیدترین است و به پشت انتشار می‌یابد؛ 60٪ دایسکشن صعودی درد قدامی؛ نزولی درد شکم یا کمر؛ تیز، پاره‌کننده یا ریپینگ؛ سنکوپ 10٪
+- 66٪ مرد، سن > 50، سابقه پرفشاری؛ کوکائین، جراحی قلب قبلی؛ جوانان: بیماری بافت همبند، بیماری مادرزادی قلب، بارداری؛ تا 30٪ مارفان
+- Stanford: A (آئورت صعودی) و B (فقط نزولی)؛ DeBakey I، II، III
+- تظاهرات پیشرونده: نارسایی آئورت، انسداد کرونر با MI، سکته (کاروتید)، فلج (ورتبرال)، تامپوناد، خشونت صدا، Horner
+- معاینه: سوفل دیاستولیک؛ پرفشاری و تاکی‌کاردی (گاهی افت فشار)؛ 50٪ کاهش نبض رادیال، فمورال یا کاروتید؛ 40٪ عوارض عصبی
+- D-dimer تنها برای رد کافی نیست (منفی کاذب تا 18٪)؛ CXR طبیعی در 12 تا 37٪؛ CT با کنتراست انتخابی؛ TEE حساسیت 97–100٪
+
+@ddx
+- !Acute myocardial infarction | 
+- !Pericardial disease / tamponade | 
+- Stroke / spinal cord disorders | 
+- Primary conditions causing chest, back or abdominal pain | 
+
+@redflags
+- افت فشار، تامپوناد، علائم عصبی، نارسایی آئورت
+
+@guide
+مشاوره جراح عروق یا قفسه سینه. تثبیت همودینامیک: IV بزرگ، مایع در افت فشار و ترانسفوزیون. بتابلوکر اول: ضربان 60–70 و SBP 100–120؛ سپس نیتروپروساید یا نیکاردیپین بعد از مسدودسازی کافی.
+
+@variant dissection-main
+name: Acute aortic dissection
+level: I
+imp: Aortic dissection
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+
+@scenario
+مردی ۵۸ ساله و پرفشار با درد ناگهانی پاره‌کننده قفسه به بین دو کتف؛ فشار 190/100 در بازوی راست و 150/80 در چپ.
+
+@why
+هدف: ضربان 60–70 و SBP 100–120 با بتابلوکر قبل از وازودیلاتور؛ مشاوره فوری جراحی.
+
+@I
+- CT scan with IV contrast (modality of choice; false lumen and extent); or transesophageal echocardiography (coordinate with the consulting surgeon)
+
+@T
+- Large-bore IV access; IV fluids for hypotension; blood transfusion when required
+- Esmolol 0.1 to 0.5 mg/kg IV bolus followed by a 0.025 to 0.2 mg/kg/min infusion {hi}
+- [alternatively] Labetalol 20 mg IV followed by 20 to 40 mg IV every 10 minutes {hi}
+- Goal heart rate 60 to 70 beats per minute and systolic blood pressure 100 to 120 mm Hg
+- [after adequate β-blockade and SBP remains above 120] Nitroprusside or nicardipine {hi} {note: doses not given in this chapter; see hypertensive emergency}
+
+@Co
+- Vascular or thoracic surgeon (determine whether operative intervention is indicated)
+
+@cond acute-limb-ischemia
+ch: 28
+name: Acute arterial occlusion (acute limb ischemia) and peripheral arterial disease
+name_fa: انسداد حاد شریانی و بیماری شریان محیطی
+cc: leg-swelling, limb-injury, joint-limb-pain
+keywords: acute limb ischemia, arterial embolism, six Ps, ankle-brachial index, Rutherford, heparin, thrombolysis, claudication, پای ایسکمیک
+status: draft
+
+@features
+- بیماری شریان محیطی: ABI < 0.9؛ شیوع 4.3٪ زیر 40 سال تا 15.5٪ بالای 70 سال؛ سیگار خطر را زیاد می‌کند
+- ایسکمی حاد اندام می‌تواند ظرف 4 تا 6 ساعت تغییرات غیرقابل‌برگشت ایجاد کند؛ شریان‌های فمورال مشترک و پوپلیته شایع‌ترین محل آمبولی
+- «شش P»: درد، رنگ‌پریدگی، سردی، فقدان نبض، پارستزی، فلج؛ درد اولین علامت؛ ضعف عضلانی، بی‌حسی تا فلج: خطر برای حیات اندام؛ فقدان نبض دیستال در ایسکمی زودرس غیرقابل‌اعتماد (کولترال)
+- کلودیکاسیون: درد گرفتگی ناشی از ورزش و برطرف شده با استراحت طی 2 تا 5 دقیقه؛ فقط 20 تا 30٪ علامت‌دارند
+- آمبولی در بیمار AF یا MI اخیر؛ ترومبوز در سابقه کلودیکاسیون مزمن
+- ABI = فشار انسداد پا ÷ بازو؛ طبیعی > 0.9؛ نسبت < 0.41 نگران‌کننده برای ایسکمی بحرانی؛ داپلر دستی؛ دوپلکس > 85٪ حساس؛ آنژیوگرافی استاندارد طلایی؛ CT آنژیو در نبود ایسکمی بحرانی
+
+@ddx
+- !Acute thrombosis on chronic PAD | 
+- !Embolus (AF, recent MI) | 
+- Vasculitis / Raynaud / thromboangiitis obliterans | 
+- Trauma / catheterization complication | 
+- Low-flow shock states | 
+
+@redflags
+- ضعف یا فلج و بی‌حسی (Rutherford IIb/III)
+
+@guide
+# Rutherford
+- I (قابل‌حیات) و IIa (تهدید حاشیه‌ای): ممکن است قبل از درمان قطعی تست تشخیصی انجام شود.
+- IIb (تهدید فوری): مشاوره و مداخله فوری.
+- III (غیرقابل‌برگشت): ممکن است قطع عضو لازم شود.
+- هپارین UFH با مشورت جراح عروق؛ درمان قطعی: ترومبولیز کاتتری، ترومبکتومی مکانیکی، اصلاح گرافت یا ریواسکولاریزاسیون.
+
+@variant limb-ischemia-acute
+name: Acute limb ischemia
+level: I
+imp: Acute arterial occlusion
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: none
+
+@scenario
+مرد ۷۰ ساله با AF و درد ناگهانی ساق راست، رنگ‌پریدگی، سردی و فقدان نبض پوپلیته؛ ضعف خفیف پا.
+
+@why
+خطر از دست رفتن اندام: هپارین، مشاوره عروق و ریواسکولاریزاسیون؛ ارزیابی با Rutherford.
+
+@I
+- Handheld Doppler; duplex ultrasonography; ABI; CT angiogram (if no critical ischemia); arteriogram (diagnostic gold standard); echocardiography to assess for conditions associated with embolism
+
+@T
+- Fluid resuscitation and pain medications as needed; dependent positioning can increase perfusion pressure {note: agents and doses not given in the book}
+- Unfractionated heparin 80 U/kg IV bolus followed by IV infusion of 18 U/kg/h (in collaboration with a vascular surgeon) {hi}
+- Definitive: catheter-directed thrombolysis, percutaneous mechanical thrombectomy, revision of an occluded bypass graft, or revascularization
+- Rutherford IIb needs immediate consultation and intervention; III (irreversible) may require limb amputation
+
+@Co
+- Vascular surgeon; admit to a telemetry bed or ICU
+
+@variant pad-chronic
+name: Chronic peripheral arterial disease without limb threat
+level: III
+imp: Chronic peripheral arterial disease
+cond: Urgent
+act: RBR
+diet: PO
+ecg: once
+cxr: none
+
+@scenario
+مردی ۶۵ ساله و سیگاری با کلودیکاسیون هنگام راه رفتن 200 متر؛ نبض‌ها کاهش یافته ولی اندام گرم و بدون علائم حاد.
+
+@why
+بدون تهدید اندام و بدون بیماری همراه: آسپرین و پیگیری نزدیک.
+
+@T
+- Aspirin 81 mg orally each day with an initial loading dose of 325 mg orally before discharge
+- Close vascular surgery or primary care follow-up
