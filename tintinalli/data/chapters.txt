@@ -1,0 +1,190 @@
+// n | section | printed pages | title
+1 | resuscitation | 1-9 | Advanced Airway Support
+2 | resuscitation | 10-28 | Management of Cardiac Rhythm Disturbances
+3 | resuscitation | 29-36 | Resuscitation of Children and Neonates
+4 | resuscitation | 37-59 | Fluids, Electrolytes, and Acid-Base Disorders
+5 | resuscitation | 60-63 | Therapeutic Approach to The Hypotensive Patient
+6 | resuscitation | 64-66 | Anaphylaxis, Acute Allergic Reactions, and Angioedema
+7 | analgesia-sedation | 67-76 | Acute Pain Management and Procedural Sedation
+8 | analgesia-sedation | 77-80 | Chronic Pain
+9 | wounds | 81-84 | Evaluating and Preparing Wounds
+10 | wounds | 85-95 | Methods for Wound Closure
+11 | wounds | 96-100 | Lacerations to The Face and Scalp
+12 | wounds | 101-107 | Injuries to the Arm, Hand, Fingertip, and Nail
+13 | wounds | 108-111 | Lacerations to the Leg and Foot
+14 | wounds | 112-114 | Soft Tissue Foreign Bodies
+15 | wounds | 115-120 | Puncture Wounds and Bites
+16 | wounds | 121-124 | Postrepair Wound Care
+17 | cardiovascular | 125-130 | Chest Pain: Cardiac or Not
+18 | cardiovascular | 131-137 | Acute Coronary Syndromes: Myocardial Infarction and Unstable Angina
+19 | cardiovascular | 138-140 | Cardiogenic Shock
+20 | cardiovascular | 141-145 | Low-Probability Acute Coronary Syndrome
+21 | cardiovascular | 146-148 | Syncope
+22 | cardiovascular | 149-151 | Acute Heart Failure
+23 | cardiovascular | 152-159 | Valvular Emergencies
+24 | cardiovascular | 160-166 | The Cardiomyopathies, Myocarditis, and Pericardial Disease Lorraine Thibodeau
+25 | cardiovascular | 167-174 | Venous Thromboembolism
+26 | cardiovascular | 175-180 | Systemic and Pulmonary Hypertension
+27 | cardiovascular | 181-186 | Aortic Aneurysms and Aortic Dissection
+28 | cardiovascular | 187-190 | Arterial Occlusion
+29 | pulmonary | 191-198 | Respiratory Distress
+30 | pulmonary | 199-203 | Bronchitis, Pneumonia, and Novel Respiratory Infections Jeffrey M. Goodloe
+31 | pulmonary | 204-207 | Tuberculosis
+32 | pulmonary | 208-210 | Spontaneous and Iatrogenic Pneumothorax
+33 | pulmonary | 211-212 | Hemoptysis
+34 | pulmonary | 213-216 | Asthma and Chronic Obstructive Pulmonary Disease
+35 | gastrointestinal | 217-221 | Acute Abdominal Pain
+36 | gastrointestinal | 222-224 | Nausea and Vomiting
+37 | gastrointestinal | 225-232 | Disorders Presenting Primarily with Diarrhea
+38 | gastrointestinal | 233-236 | Acute and Chronic Constipation
+39 | gastrointestinal | 237-238 | Gastrointestinal Bleeding
+40 | gastrointestinal | 239-243 | Esophageal Emergencies
+41 | gastrointestinal | 244-246 | Peptic Ulcer Disease and Gastritis
+42 | gastrointestinal | 247-251 | Pancreatitis and Cholecystitis
+43 | gastrointestinal | 252-255 | Acute Appendicitis
+44 | gastrointestinal | 256-258 | Diverticulitis
+45 | gastrointestinal | 259-261 | Intestinal Obstruction and Volvulus
+46 | gastrointestinal | 262-264 | Hernia in Adults and Children
+47 | gastrointestinal | 265-272 | Anorectal Disorders
+48 | gastrointestinal | 273-281 | Jaundice, Hepatic Disorders, and Hepatic Failure
+49 | gastrointestinal | 282-286 | Complications of General Surgical Procedures
+50 | renal-genitourinary | 287-291 | Acute Kidney Injury
+51 | renal-genitourinary | 292-295 | Rhabdomyolysis
+52 | renal-genitourinary | 296-298 | Emergencies in Renal Failure and Dialysis Patients
+53 | renal-genitourinary | 299-302 | Urinary Tract Infections and Hematuria
+54 | renal-genitourinary | 303-305 | Acute Urinary Retention
+55 | renal-genitourinary | 306-311 | Male Genital Problems
+56 | renal-genitourinary | 312-315 | Urologic Stone Disease
+57 | renal-genitourinary | 316-318 | Complications of Urologic Procedures and Devices
+58 | gynecology-obstetrics | 319-322 | Vaginal Bleeding and Pelvic Pain in the Nonpregnant Patient Joelle Borhart
+59 | gynecology-obstetrics | 323-327 | Ectopic Pregnancy and Emergencies in The First 20 Weeks of Pregnancy
+60 | gynecology-obstetrics | 328-334 | Comorbid Diseases in Pregnancy
+61 | gynecology-obstetrics | 335-339 | Emergencies After 20 Weeks of Pregnancy and The Postpartum Period
+62 | gynecology-obstetrics | 340-343 | Emergency Delivery
+63 | gynecology-obstetrics | 344-346 | Vulvovaginitis
+64 | gynecology-obstetrics | 347-349 | Pelvic Inflammatory Disease
+65 | gynecology-obstetrics | 350-352 | Complications of Gynecologic Procedures
+66 | pediatrics | 353-360 | Fever and Serious Bacterial Illness in Children
+67 | pediatrics | 361-365 | Common Neonatal Problems
+68 | pediatrics | 366-371 | Common Infections of the Ears, Nose, Neck, and Throat
+69 | pediatrics | 372-378 | Upper Respiratory Emergencies—Stridor and Drooling Christopher S. Cavagnaro
+70 | pediatrics | 379-384 | Wheezing in Infants and Children
+71 | pediatrics | 385-387 | Pneumonia in Infants and Children
+72 | pediatrics | 388-394 | Pediatric Heart Disease
+73 | pediatrics | 395-399 | Vomiting and Diarrhea in Infants and Children
+74 | pediatrics | 400-406 | Pediatric Abdominal Emergencies
+75 | pediatrics | 407-408 | Pediatric Urinary Tract Infections
+76 | pediatrics | 409-411 | Seizures and Status Epilepticus in Children
+77 | pediatrics | 412-416 | Altered Mental Status and Headache in Children
+78 | pediatrics | 417-419 | Syncope and Sudden Death in Children and Adolescents
+79 | pediatrics | 420-424 | Hypoglycemia and Metabolic Emergencies in Infants and Children Teresa J. Riech
+80 | pediatrics | 425-427 | Diabetes in Children
+81 | pediatrics | 428-431 | Fluid and Electrolyte Therapy in Infants and Children
+82 | pediatrics | 432-442 | Musculoskeletal Disorders in Children
+83 | pediatrics | 443-454 | Rashes in Children
+84 | pediatrics | 455-460 | Sickle Cell Anemia in Children
+85 | pediatrics | 461-467 | Hematologic-Oncologic Emergencies in Children
+86 | pediatrics | 468-472 | Renal Emergencies in Infants and Children
+87 | infectious-immunologic | 473-479 | Sexually Transmitted Infections
+88 | infectious-immunologic | 480-483 | Toxic Shock Syndromes
+89 | infectious-immunologic | 484-490 | Sepsis
+90 | infectious-immunologic | 491-496 | Soft Tissue Infections
+91 | infectious-immunologic | 497-504 | Serious Viral Infections
+92 | infectious-immunologic | 505-512 | HIV Infection and AIDS
+93 | infectious-immunologic | 513-516 | Infective Endocarditis
+94 | infectious-immunologic | 517-522 | Tetanus and Rabies
+95 | infectious-immunologic | 523-526 | Malaria
+96 | infectious-immunologic | 527-530 | Foodborne and Waterborne Diseases
+97 | infectious-immunologic | 531-539 | Zoonotic Infections
+98 | infectious-immunologic | 540-545 | World Travelers
+99 | infectious-immunologic | 546-554 | The Transplant Patient
+100 | toxicology | 555-563 | General Management of the Poisoned Patient
+101 | toxicology | 564-565 | Anticholinergic Toxicity
+102 | toxicology | 566-573 | Psychopharmacologic Agents Shan Yin
+103 | toxicology | 574-579 | Sedatives and Hypnotics
+104 | toxicology | 580-583 | Alcohols
+105 | toxicology | 584-590 | Drugs of Abuse
+106 | toxicology | 591-597 | Analgesics
+107 | toxicology | 598-601 | Xanthines and Nicotine
+108 | toxicology | 602-612 | Cardiac Medications
+109 | toxicology | 613-616 | Anticonvulsants
+110 | toxicology | 617-620 | Iron
+111 | toxicology | 621-623 | Hydrocarbons and Volatile Substances
+112 | toxicology | 624-625 | Caustics
+113 | toxicology | 626-630 | Pesticides
+114 | toxicology | 631-636 | Metals and Metalloids
+115 | toxicology | 637-642 | Industrial Toxins
+116 | toxicology | 643-645 | Vitamins and Herbals
+117 | toxicology | 646-648 | Dyshemoglobinemias
+118 | environmental | 649-654 | Cold Injuries
+119 | environmental | 655-657 | Heat Emergencies
+120 | environmental | 658-665 | Bites and Stings
+121 | environmental | 666-669 | Trauma and Envenomation from Marine Fauna
+122 | environmental | 670-672 | High-Altitude Disorders
+123 | environmental | 673-674 | Dysbarism and Complications of Diving
+124 | environmental | 675-677 | Near Drowning
+125 | environmental | 678-685 | Thermal and Chemical Burns
+126 | environmental | 686-691 | Electrical and Lightning Injuries
+127 | environmental | 692-694 | Carbon Monoxide
+128 | environmental | 695-700 | Mushroom and Plant Poisoning
+129 | endocrine | 701-708 | Diabetic Emergencies
+130 | endocrine | 709-710 | Alcoholic Ketoacidosis
+131 | endocrine | 711-714 | Thyroid Disease Emergencies
+132 | endocrine | 715-718 | Adrenal Insufficiency
+133 | hematology-oncology | 719-725 | Evaluation of Anemia and the Bleeding Patient
+134 | hematology-oncology | 726-728 | Acquired Bleeding Disorders
+135 | hematology-oncology | 729-733 | Hemophilias and von Willebrand Disease
+136 | hematology-oncology | 734-738 | Sickle Cell Disease and Other Hereditary Hemolytic Anemias
+137 | hematology-oncology | 739-744 | Transfusion Therapy
+138 | hematology-oncology | 745-750 | Anticoagulants, Antiplatelet Agents, and Fibrinolytics
+139 | hematology-oncology | 751-758 | Emergency Complications of Malignancy
+140 | neurology | 759-764 | Headache
+141 | neurology | 765-774 | Stroke Syndromes and Spontaneous Subarachnoid Hemorrhage Steven Go
+142 | neurology | 775-780 | Altered Mental Status and Coma
+143 | neurology | 781-783 | Ataxia and Gait Disturbances
+144 | neurology | 784-791 | Acute Vertigo
+145 | neurology | 792-795 | Seizures and Status Epilepticus in Adults
+146 | neurology | 796-799 | Acute Peripheral Neurologic Lesions
+147 | neurology | 800-805 | Chronic Neurologic Disorders
+148 | neurology | 806-812 | Central Nervous System and Spinal Infections
+149 | eent-oral | 813-825 | Eye Emergencies
+150 | eent-oral | 826-830 | Face and Jaw Emergencies
+151 | eent-oral | 831-837 | Ear, Nose, and Sinus Emergencies
+152 | eent-oral | 838-844 | Oral and Dental Emergencies
+153 | eent-oral | 845-850 | Neck and Upper Airway Disorders
+154 | skin | 851-855 | Dermatologic Emergencies
+155 | skin | 856-864 | Other Dermatologic Disorders
+156 | trauma | 865-868 | Trauma in Adults
+157 | trauma | 869-872 | Trauma in Children
+158 | trauma | 873-876 | Trauma in the Elderly
+159 | trauma | 877-879 | Trauma in Pregnancy
+160 | trauma | 880-885 | Head Trauma
+161 | trauma | 886-891 | Spine Trauma
+162 | trauma | 892-896 | Facial Injuries
+163 | trauma | 897-902 | Neck Injuries
+164 | trauma | 903-908 | Cardiothoracic Injuries
+165 | trauma | 909-913 | Abdominal Injuries
+166 | trauma | 914-915 | Penetrating Trauma to The Flank and Buttocks
+167 | trauma | 916-919 | Genitourinary Injuries
+168 | trauma | 920-922 | Trauma to The Extremities
+169 | bones-joints | 923-928 | Initial Evaluation and Management of Orthopedic Injuries Gregory M. Johnston
+170 | bones-joints | 929-933 | Hand and Wrist Injuries
+171 | bones-joints | 934-941 | Forearm and Elbow Injuries
+172 | bones-joints | 942-948 | Shoulder and Humerus Injuries
+173 | bones-joints | 949-955 | Pelvis, Hip, and Femur Injuries
+174 | bones-joints | 956-960 | Knee and Leg Injuries
+175 | bones-joints | 961-965 | Ankle and Foot Injuries
+176 | bones-joints | 966-968 | Compartment Syndrome
+177 | musculoskeletal | 969-974 | Neck and Back Pain
+178 | musculoskeletal | 975-978 | Shoulder Pain
+179 | musculoskeletal | 979-982 | Hip and Knee Pain
+180 | musculoskeletal | 983-987 | Acute Disorders of The Joints and Bursae
+181 | musculoskeletal | 988-994 | Emergencies in Systemic Rheumatic Diseases
+182 | musculoskeletal | 995-997 | Nontraumatic Disorders of The Hand
+183 | musculoskeletal | 998-1002 | Soft Tissue Problems of The Foot
+184 | psychosocial | 1003-1006 | Clinical Features of Behavioral Disorders
+185 | psychosocial | 1007-1009 | Emergency Assessment and Stabilization of Behavioral Disorders Leslie S. Zun
+186 | psychosocial | 1010-1012 | Panic and Conversion Disorders
+187 | abuse-assault | 1013-1015 | Child and Elderly Abuse
+188 | abuse-assault | 1016-1020 | Sexual Assault and Intimate Partner Violence and Abuse
+189 | special-situations | 1021-1024 | Palliative Care

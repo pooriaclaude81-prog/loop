@@ -67,7 +67,8 @@ function bullets(buf) {
 }
 
 /* ---------- condition file ---------- */
-function parseCond(file, lines) {
+function parseConds(file, lines) {
+  const out = [];
   let cond = null, v = null, sec = null, secKind = null, buf = [];
   const flush = (ln) => {
     if (!sec) return;
@@ -102,8 +103,7 @@ function parseCond(file, lines) {
       flush(ln);
       const name = m[1], low = name.toLowerCase(), arg = m[2].trim();
       if (low === 'cond') {
-        if (cond) E(file, ln, 'one @cond per file');
-        cond = { id: arg, variants: [] }; v = null; secKind = 'condhead';
+        cond = { id: arg, variants: [], _file: file, _ln: ln }; out.push(cond); v = null; secKind = 'condhead';
         if (!slug.test(arg)) E(file, ln, `bad condition id "${arg}"`);
       } else if (!cond) { E(file, ln, `@${name} before @cond`); }
       else if (low === 'variant') {
@@ -123,11 +123,19 @@ function parseCond(file, lines) {
     else if (secKind === 'varhead') v[k] = val;
   });
   flush();
-  return cond;
+  return out;
 }
 
-function validateCond(file, c, sections, ccIds) {
+function validateCond(file, c, sections, ccIds, chapters) {
   if (!c) return null;
+  file = `${c._file}:${c._ln} (${c.id})`;
+  const chap = chapters[c.ch];
+  if (!c.ch) E(file, 0, 'missing "ch:" (chapter number)');
+  else if (!chap) E(file, 0, `unknown chapter ${c.ch}`);
+  else {
+    if (!c.section) c.section = chap.section;
+    if (!c.source) c.source = `Tintinalli's Emergency Medicine Manual, 8th ed., Ch. ${chap.n}: ${chap.title}, pp. ${chap.pages.replace('-', '–')}`;
+  }
   ['section', 'name', 'status'].forEach((k) => { if (!c[k]) E(file, 0, `missing "${k}:"`); });
   if (c.section && !sections.some((s) => s.id === c.section)) E(file, 0, `unknown section "${c.section}"`);
   if (c.status && !ENUM.status.includes(c.status)) E(file, 0, `status must be one of ${ENUM.status.join(', ')}`);
@@ -203,18 +211,33 @@ function parseDrugs(file, lines) {
 }
 
 /* ---------- run ---------- */
+function parseChapters(file, lines) {
+  const out = {};
+  lines.forEach((raw, i) => {
+    if (!raw.trim() || /^\s*\/\//.test(raw)) return;
+    const p = raw.split(' | ').map((x) => x.trim());
+    if (p.length < 4) return E(file, i + 1, 'expected "n | section | pages | title"');
+    out[p[0]] = { n: +p[0], section: p[1], pages: p[2], title: p[3] };
+  });
+  return out;
+}
 const sections = parseList('sections.txt', 'sections.txt', readLines(path.join(dataDir, 'sections.txt')));
+const chapters = parseChapters('chapters.txt', readLines(path.join(dataDir, 'chapters.txt')));
 const ccs = parseCC('cc.txt', readLines(path.join(dataDir, 'cc.txt')));
 const drugs = parseDrugs('drugs.txt', readLines(path.join(dataDir, 'drugs.txt')));
 const ccIds = ccs.map((c) => c.id);
 const files = fs.readdirSync(path.join(dataDir, 'conditions')).filter((f) => f.endsWith('.txt') && !f.startsWith('_')).sort();
 const conds = [];
 files.forEach((f) => {
-  const c = validateCond(f, parseCond(f, readLines(path.join(dataDir, 'conditions', f))), sections, ccIds);
-  if (c) conds.push(c);
+  parseConds(f, readLines(path.join(dataDir, 'conditions', f))).forEach((c) => {
+    const ok = validateCond(f, c, sections, ccIds, chapters);
+    if (ok) { delete ok._file; delete ok._ln; conds.push(ok); }
+  });
 });
 const ids = {};
 conds.forEach((c) => { if (ids[c.id]) E(c.id, 0, 'duplicate condition id'); ids[c.id] = 1; });
+const chDone = {}; conds.forEach((c) => { chDone[c.ch] = (chDone[c.ch] || 0) + 1; });
+console.log(`Chapters covered: ${Object.keys(chDone).length} / ${Object.keys(chapters).length}`);
 // links from cc.txt and @ddx to conditions that do not exist are only warnings (the book is added in batches)
 ccs.forEach((c) => c.cm.forEach((m) => { if (m.id && !ids[m.id]) W('cc.txt', 0, `${c.id}: "${m.n}" links to missing condition "${m.id}"`); }));
 
@@ -231,9 +254,9 @@ if (!check && !errors.length) {
   const hash = crypto.createHash('sha1').update(js([conds, sections, ccs, drugs])).digest('hex').slice(0, 7);
   const built = new Date().toISOString().slice(0, 10);
   const meta = {
-    version: built.replace(/-/g, '') + '-' + hash, built, sections, cc: ccs, drugs,
+    version: built.replace(/-/g, '') + '-' + hash, built, sections, cc: ccs, drugs, chapters,
     conds: conds.map((c) => ({
-      id: c.id, sec: c.section, n: c.name, fa: c.name_fa || '', cc: c.cc, kw: c.keywords || '', st: c.status,
+      id: c.id, sec: c.section, ch: +c.ch, n: c.name, fa: c.name_fa || '', cc: c.cc, kw: c.keywords || '', st: c.status,
       v: c.variants.map((v) => ({ id: v.id, n: v.name, lv: v.level || '' }))
     }))
   };

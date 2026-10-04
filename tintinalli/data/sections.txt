@@ -1,5 +1,24 @@
-// id | English name | نام فارسی      (order here = order on the site)
-// PROVISIONAL: these groups will be replaced by the table of contents of the Tintinalli edition once the book is available.
-cardiovascular | Cardiovascular | قلب و عروق
-pulmonary      | Pulmonary | تنفسی
-renal-electrolyte | Renal, fluids & electrolytes | کلیه، مایعات و الکترولیت‌ها
+// id | English name | نام فارسی   (sections of Tintinalli's Emergency Medicine Manual, 8th edition)
+resuscitation | Resuscitation Techniques | احیا و تکنیک‌های احیا
+analgesia-sedation | Analgesia, Anesthesia, and Sedation | بی‌دردی، بیهوشی و آرام‌بخشی
+wounds | Emergency Wound Management | مراقبت اورژانس زخم
+cardiovascular | Cardiovascular Diseases | بیماری‌های قلبی‌عروقی
+pulmonary | Pulmonary Emergencies | اورژانس‌های ریوی
+gastrointestinal | Gastrointestinal Emergencies | اورژانس‌های گوارشی
+renal-genitourinary | Renal and Genitourinary Disorders | کلیه و ادراری‌تناسلی
+gynecology-obstetrics | Gynecology and Obstetrics | زنان و زایمان
+pediatrics | Pediatrics | کودکان
+infectious-immunologic | Infectious and Immunologic Diseases | بیماری‌های عفونی و ایمونولوژیک
+toxicology | Toxicology and Pharmacology | مسمومیت‌ها و داروشناسی
+environmental | Environmental Injuries | آسیب‌های محیطی
+endocrine | Endocrine Emergencies | اورژانس‌های غدد
+hematology-oncology | Hematologic and Oncologic Emergencies | خون و انکولوژی
+neurology | Neurology | مغز و اعصاب
+eent-oral | Eye, Ear, Nose, Throat, and Oral Emergencies | چشم، گوش، بینی، حلق و دهان
+skin | Disorders of the Skin | بیماری‌های پوست
+trauma | Trauma | تروما
+bones-joints | Injuries to the Bones, Joints, and Soft Tissue | آسیب‌های استخوان، مفصل و بافت نرم
+musculoskeletal | Nontraumatic Musculoskeletal Disorders | اختلالات غیرتروماتیک عضلانی‌اسکلتی
+psychosocial | Psychosocial Disorders | اختلالات روانی‌اجتماعی
+abuse-assault | Abuse and Assault | آزار و تعرض
+special-situations | Special Situations | موقعیت‌های ویژه
