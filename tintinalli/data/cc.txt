@@ -1,9 +1,44 @@
 // Chief complaints (S4 entry point). Order here = order on the site.
 // Each is @cc id + name/name_fa; the @cantmiss and @redflags blocks are filled in after the conditions exist (see PROGRESS.md).
 
+@cc hypotension-shock
+name: Hypotension or shock
+name_fa: افت فشار یا شوک
+group: Resuscitation and airway | احیا و راه هوایی
+
+@cantmiss
+- Septic shock @sepsis-adult
+- Cardiogenic shock @cardiogenic-shock
+- Hemorrhagic / hypovolemic shock @massive-hemorrhage-transfusion
+- Anaphylaxis @anaphylaxis
+- Cardiac tamponade @cardiac-tamponade
+- Pulmonary embolism @pulmonary-embolism
+- Adrenal crisis @adrenal-crisis
+
+@redflags
+- SBP < 90 or MAP < 65
+- Lactate elevated
+- Altered mental status
+- Cool, mottled extremities
+
+@cc airway-procedure
+name: Airway, sedation or procedure
+name_fa: راه هوایی، آرام‌بخشی یا پروسیجر
+group: Resuscitation and airway | احیا و راه هوایی
+
+@cantmiss
+- Failed airway @failed-airway-surgical
+- Tracheostomy complications @tracheostomy-complications
+- Airway foreign body @airway-foreign-body-peds
+
+@redflags
+- Anticipated difficult airway
+- Unable to ventilate
+
 @cc chest-pain
 name: Chest pain
 name_fa: درد قفسه سینه
+group: Cardiorespiratory | قلبی-تنفسی
 
 @cantmiss
 - Acute coronary syndrome (STEMI) @stemi
@@ -23,6 +58,7 @@ name_fa: درد قفسه سینه
 @cc dyspnea
 name: Shortness of breath
 name_fa: تنگی نفس
+group: Cardiorespiratory | قلبی-تنفسی
 
 @cantmiss
 - Anaphylaxis / angioedema @anaphylaxis
@@ -42,6 +78,7 @@ name_fa: تنگی نفس
 @cc cough-hemoptysis
 name: Cough or hemoptysis
 name_fa: سرفه یا هموپتزی
+group: Cardiorespiratory | قلبی-تنفسی
 
 @cantmiss
 - Pulmonary embolism @pulmonary-embolism
@@ -58,6 +95,7 @@ name_fa: سرفه یا هموپتزی
 @cc palpitations
 name: Palpitations or abnormal rhythm
 name_fa: تپش قلب یا آریتمی
+group: Cardiorespiratory | قلبی-تنفسی
 
 @cantmiss
 - Ventricular tachycardia @ventricular-tachycardia
@@ -75,6 +113,7 @@ name_fa: تپش قلب یا آریتمی
 @cc syncope
 name: Syncope
 name_fa: سنکوپ
+group: Cardiorespiratory | قلبی-تنفسی
 
 @cantmiss
 - Ventricular arrhythmia / VT @ventricular-tachycardia
@@ -90,28 +129,10 @@ name_fa: سنکوپ
 - Chest pain / dyspnea with syncope
 - Abnormal ECG or family history of sudden death
 
-@cc hypotension-shock
-name: Hypotension or shock
-name_fa: افت فشار یا شوک
-
-@cantmiss
-- Septic shock @sepsis-adult
-- Cardiogenic shock @cardiogenic-shock
-- Hemorrhagic / hypovolemic shock @massive-hemorrhage-transfusion
-- Anaphylaxis @anaphylaxis
-- Cardiac tamponade @cardiac-tamponade
-- Pulmonary embolism @pulmonary-embolism
-- Adrenal crisis @adrenal-crisis
-
-@redflags
-- SBP < 90 or MAP < 65
-- Lactate elevated
-- Altered mental status
-- Cool, mottled extremities
-
 @cc leg-swelling
 name: Leg swelling or limb ischemia
 name_fa: ورم یا ایسکمی اندام
+group: Cardiorespiratory | قلبی-تنفسی
 
 @cantmiss
 - Deep vein thrombosis @deep-vein-thrombosis
@@ -125,6 +146,7 @@ name_fa: ورم یا ایسکمی اندام
 @cc weakness
 name: Weakness or fatigue
 name_fa: ضعف و بی‌حالی
+group: Neurologic | نورولوژیک
 
 @cantmiss
 - Guillain-Barre syndrome @guillain-barre-syndrome
@@ -143,6 +165,7 @@ name_fa: ضعف و بی‌حالی
 @cc altered-mental-status
 name: Altered mental status or coma
 name_fa: کاهش سطح هوشیاری
+group: Neurologic | نورولوژیک
 
 @cantmiss
 - Hypoglycemia @hypoglycemia-diabetic
@@ -162,6 +185,7 @@ name_fa: کاهش سطح هوشیاری
 @cc headache
 name: Headache
 name_fa: سردرد
+group: Neurologic | نورولوژیک
 
 @cantmiss
 - Subarachnoid hemorrhage @subarachnoid-hemorrhage
@@ -182,6 +206,7 @@ name_fa: سردرد
 @cc dizziness-vertigo
 name: Dizziness or vertigo
 name_fa: سرگیجه
+group: Neurologic | نورولوژیک
 
 @cantmiss
 - Ischemic stroke (posterior circulation) @ischemic-stroke
@@ -196,6 +221,7 @@ name_fa: سرگیجه
 @cc seizure
 name: Seizure
 name_fa: تشنج
+group: Neurologic | نورولوژیک
 
 @cantmiss
 - Status epilepticus @status-epilepticus
@@ -213,6 +239,7 @@ name_fa: تشنج
 @cc focal-neuro
 name: Focal weakness, numbness or speech problem
 name_fa: ضعف یا اختلال گفتار کانونی
+group: Neurologic | نورولوژیک
 
 @cantmiss
 - Ischemic stroke @ischemic-stroke
@@ -230,6 +257,7 @@ name_fa: ضعف یا اختلال گفتار کانونی
 @cc abdominal-pain
 name: Abdominal pain
 name_fa: درد شکم
+group: Abdominal and GI | شکم و گوارش
 
 @cantmiss
 - Ruptured AAA @abdominal-aortic-aneurysm
@@ -250,6 +278,7 @@ name_fa: درد شکم
 @cc nausea-vomiting
 name: Nausea or vomiting
 name_fa: تهوع و استفراغ
+group: Abdominal and GI | شکم و گوارش
 
 @cantmiss
 - Acute coronary syndrome @nstemi-unstable-angina
@@ -267,6 +296,7 @@ name_fa: تهوع و استفراغ
 @cc diarrhea
 name: Diarrhea
 name_fa: اسهال
+group: Abdominal and GI | شکم و گوارش
 
 @cantmiss
 - Clostridium difficile colitis @clostridium-difficile-colitis
@@ -281,6 +311,7 @@ name_fa: اسهال
 @cc gi-bleeding
 name: GI bleeding
 name_fa: خونریزی گوارشی
+group: Abdominal and GI | شکم و گوارش
 
 @cantmiss
 - Upper GI bleeding @upper-gi-bleeding
@@ -295,6 +326,7 @@ name_fa: خونریزی گوارشی
 @cc anorectal
 name: Rectal or anal complaint
 name_fa: مشکل مقعدی
+group: Abdominal and GI | شکم و گوارش
 
 @cantmiss
 - Perirectal abscess @anorectal-abscess-fistula
@@ -307,6 +339,7 @@ name_fa: مشکل مقعدی
 @cc jaundice
 name: Jaundice
 name_fa: زردی
+group: Abdominal and GI | شکم و گوارش
 
 @cantmiss
 - Acute cholecystitis / cholangitis @biliary-disease-cholecystitis
@@ -321,6 +354,7 @@ name_fa: زردی
 @cc urinary-symptoms
 name: Urinary symptoms
 name_fa: علائم ادراری
+group: Renal, GU and obstetric | کلیه، ادراری-تناسلی و بارداری
 
 @cantmiss
 - Pyelonephritis / urosepsis @urinary-tract-infection
@@ -336,6 +370,7 @@ name_fa: علائم ادراری
 @cc flank-pain
 name: Flank pain
 name_fa: درد پهلو
+group: Renal, GU and obstetric | کلیه، ادراری-تناسلی و بارداری
 
 @cantmiss
 - Ruptured AAA / aneurysm @nonaortic-artery-aneurysm
@@ -350,6 +385,7 @@ name_fa: درد پهلو
 @cc genital-complaint
 name: Scrotal, penile or genital complaint
 name_fa: مشکل بیضه یا تناسلی
+group: Renal, GU and obstetric | کلیه، ادراری-تناسلی و بارداری
 
 @cantmiss
 - Testicular torsion @testicular-torsion
@@ -364,6 +400,7 @@ name_fa: مشکل بیضه یا تناسلی
 @cc vaginal-bleeding
 name: Vaginal bleeding or pelvic pain
 name_fa: خونریزی واژینال یا درد لگن
+group: Renal, GU and obstetric | کلیه، ادراری-تناسلی و بارداری
 
 @cantmiss
 - Ectopic pregnancy @ectopic-pregnancy
@@ -379,6 +416,7 @@ name_fa: خونریزی واژینال یا درد لگن
 @cc pregnancy
 name: Pregnancy-related problem
 name_fa: مشکلات بارداری
+group: Renal, GU and obstetric | کلیه، ادراری-تناسلی و بارداری
 
 @cantmiss
 - Ectopic pregnancy @ectopic-pregnancy
@@ -394,6 +432,7 @@ name_fa: مشکلات بارداری
 @cc fever
 name: Fever or suspected infection
 name_fa: تب یا عفونت
+group: Infection, skin and wounds | عفونت، پوست و زخم
 
 @cantmiss
 - Sepsis @sepsis-adult
@@ -413,6 +452,7 @@ name_fa: تب یا عفونت
 @cc rash
 name: Rash or skin complaint
 name_fa: بثورات پوستی
+group: Infection, skin and wounds | عفونت، پوست و زخم
 
 @cantmiss
 - Anaphylaxis @anaphylaxis
@@ -431,6 +471,7 @@ name_fa: بثورات پوستی
 @cc wound-bite
 name: Wound, bite or foreign body
 name_fa: زخم، گزیدگی یا جسم خارجی
+group: Infection, skin and wounds | عفونت، پوست و زخم
 
 @cantmiss
 - Necrotizing soft-tissue infection @necrotizing-soft-tissue-infection
@@ -447,6 +488,7 @@ name_fa: زخم، گزیدگی یا جسم خارجی
 @cc eye
 name: Eye complaint
 name_fa: مشکل چشمی
+group: Eye, ENT and oral | چشم، گوش و حلق و دهان
 
 @cantmiss
 - Acute angle-closure glaucoma @acute-angle-closure-glaucoma
@@ -465,6 +507,7 @@ name_fa: مشکل چشمی
 @cc ent
 name: Ear, nose, throat or mouth complaint
 name_fa: مشکل گوش، بینی، حلق یا دهان
+group: Eye, ENT and oral | چشم، گوش و حلق و دهان
 
 @cantmiss
 - Epiglottitis @epiglottitis-adult
@@ -481,6 +524,7 @@ name_fa: مشکل گوش، بینی، حلق یا دهان
 @cc back-neck-pain
 name: Back or neck pain
 name_fa: کمردرد یا گردن‌درد
+group: Musculoskeletal | عضلانی-اسکلتی
 
 @cantmiss
 - Aortic dissection / AAA @aortic-dissection
@@ -498,6 +542,7 @@ name_fa: کمردرد یا گردن‌درد
 @cc joint-limb-pain
 name: Joint, limb or musculoskeletal pain
 name_fa: درد مفصل و اندام
+group: Musculoskeletal | عضلانی-اسکلتی
 
 @cantmiss
 - Septic arthritis @septic-arthritis
@@ -514,6 +559,7 @@ name_fa: درد مفصل و اندام
 @cc trauma-major
 name: Major trauma
 name_fa: تروما
+group: Trauma and burns | تروما و سوختگی
 
 @cantmiss
 - Tension pneumothorax @tension-pneumothorax-traumatic
@@ -532,6 +578,7 @@ name_fa: تروما
 @cc head-injury
 name: Head, face or neck injury
 name_fa: ضربه سر، صورت یا گردن
+group: Trauma and burns | تروما و سوختگی
 
 @cantmiss
 - Intracranial hemorrhage @head-trauma-moderate-severe
@@ -546,6 +593,7 @@ name_fa: ضربه سر، صورت یا گردن
 @cc limb-injury
 name: Limb or joint injury
 name_fa: آسیب اندام یا مفصل
+group: Trauma and burns | تروما و سوختگی
 
 @cantmiss
 - Acute limb ischemia / vascular injury @extremity-vascular-trauma
@@ -562,6 +610,7 @@ name_fa: آسیب اندام یا مفصل
 @cc burn-electrical
 name: Burn or electrical injury
 name_fa: سوختگی یا برق‌گرفتگی
+group: Trauma and burns | تروما و سوختگی
 
 @cantmiss
 - Thermal burn (airway / large TBSA) @thermal-burn
@@ -576,6 +625,7 @@ name_fa: سوختگی یا برق‌گرفتگی
 @cc poisoning
 name: Poisoning or overdose
 name_fa: مسمومیت یا مصرف بیش از حد دارو
+group: Toxicology and environment | مسمومیت و محیط
 
 @cantmiss
 - Acetaminophen toxicity @acetaminophen-toxicity
@@ -594,6 +644,7 @@ name_fa: مسمومیت یا مصرف بیش از حد دارو
 @cc environmental
 name: Heat, cold, drowning, altitude or diving
 name_fa: گرما، سرما، غرق‌شدگی، ارتفاع یا غواصی
+group: Toxicology and environment | مسمومیت و محیط
 
 @cantmiss
 - Heat stroke @heat-stroke
@@ -610,6 +661,7 @@ name_fa: گرما، سرما، غرق‌شدگی، ارتفاع یا غواصی
 @cc bleeding-bruising
 name: Bleeding or bruising
 name_fa: خونریزی یا کبودی
+group: Haematology and metabolic | خون و متابولیک
 
 @cantmiss
 - Massive hemorrhage @massive-hemorrhage-transfusion
@@ -625,6 +677,7 @@ name_fa: خونریزی یا کبودی
 @cc metabolic
 name: Diabetes, electrolyte or endocrine problem
 name_fa: دیابت، الکترولیت یا غدد
+group: Haematology and metabolic | خون و متابولیک
 
 @cantmiss
 - Diabetic ketoacidosis @diabetic-ketoacidosis
@@ -643,6 +696,7 @@ name_fa: دیابت، الکترولیت یا غدد
 @cc behavioral
 name: Agitation or behavioral emergency
 name_fa: آژیتاسیون یا مشکل رفتاری
+group: Behavioural and social | رفتاری و اجتماعی
 
 @cantmiss
 - Delirium (medical cause) @delirium
@@ -659,6 +713,7 @@ name_fa: آژیتاسیون یا مشکل رفتاری
 @cc abuse-assault
 name: Abuse or assault
 name_fa: آزار یا تعرض
+group: Behavioural and social | رفتاری و اجتماعی
 
 @cantmiss
 - Child abuse @child-abuse-neglect
@@ -674,6 +729,7 @@ name_fa: آزار یا تعرض
 @cc pediatric-fever
 name: Child: fever or ill-appearing infant
 name_fa: کودک: تب یا نوزاد بدحال
+group: Paediatric | کودکان
 
 @cantmiss
 - Serious bacterial infection (neonate) @pediatric-fever-sbi
@@ -690,6 +746,7 @@ name_fa: کودک: تب یا نوزاد بدحال
 @cc pediatric-respiratory
 name: Child: breathing problem, stridor or wheeze
 name_fa: کودک: مشکل تنفسی
+group: Paediatric | کودکان
 
 @cantmiss
 - Epiglottitis @epiglottitis
@@ -705,6 +762,7 @@ name_fa: کودک: مشکل تنفسی
 @cc pediatric-gi
 name: Child: vomiting, diarrhea or abdominal pain
 name_fa: کودک: استفراغ، اسهال یا درد شکم
+group: Paediatric | کودکان
 
 @cantmiss
 - Intussusception @intussusception
@@ -720,6 +778,7 @@ name_fa: کودک: استفراغ، اسهال یا درد شکم
 @cc pediatric-other
 name: Child: other presentations
 name_fa: کودک: سایر
+group: Paediatric | کودکان
 
 @cantmiss
 - Child abuse @child-abuse-neglect
@@ -733,22 +792,10 @@ name_fa: کودک: سایر
 - Altered mental status
 - Injury inconsistent with history
 
-@cc airway-procedure
-name: Airway, sedation or procedure
-name_fa: راه هوایی، آرام‌بخشی یا پروسیجر
-
-@cantmiss
-- Failed airway @failed-airway-surgical
-- Tracheostomy complications @tracheostomy-complications
-- Airway foreign body @airway-foreign-body-peds
-
-@redflags
-- Anticipated difficult airway
-- Unable to ventilate
-
 @cc palliative
 name: Palliative or end-of-life care
 name_fa: مراقبت تسکینی
+group: Behavioural and social | رفتاری و اجتماعی
 
 @cantmiss
 - Reversible acute illness @palliative-care-goals

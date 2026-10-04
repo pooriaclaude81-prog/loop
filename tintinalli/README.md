@@ -16,9 +16,23 @@ node tools/tn-build.js --check  # validate only (errors fail, warnings do not)
 
 ## Files
 - `data/sections.txt`: `id | English | Farsi` (23 sections following the Manual's table of contents)
-- `data/cc.txt`: chief complaints with can't-miss lists and red flags
+- `data/cc.txt`: chief complaints with `group:` (the band on the home page), can't-miss lists and red flags
 - `data/drugs.txt`: automatic safety flags (high-alert, renal) matched on order text
 - `data/conditions/<id>.txt`: one condition per file (format below). Files starting with `_` are ignored.
+
+## Case simulator (`js/case.js`)
+
+`#/case` builds a practice case from the data: the variant's Farsi scenario, the condition's clinical
+features (management text, differential dumps and table transcriptions are filtered out) and the
+complaint's red flags. The learner names the impression, sets Cond / Act / Diet / ECG / CXR and writes
+the order set by searching a palette built from **every order in the database** (~2500 entries).
+
+Matching is by *signature*, not exact text: dose, route and timing wording is stripped, so
+"Aspirin 325 mg PO chewed" and "Aspirin 81 mg PO" are the same order. Lab lines are split on commas and
+the five fixed labs are dropped, so each test is scored on its own. Scoring reports coverage (how much
+of the book's set was ordered), precision (how much of what was ordered belongs), half credit for a
+right order in the wrong slot, and a separate "critical misses" list for high-alert items. Results feed
+the same spaced-repetition store as the self-test.
 
 ## Condition file
 ```

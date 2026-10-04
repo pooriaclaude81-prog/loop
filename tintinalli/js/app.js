@@ -53,22 +53,67 @@
   function pairs(conds) { var out = []; conds.forEach(function (c) { c.variants.forEach(function (v) { out.push({ cond: c, variant: v }); }); }); return out; }
   function vkey(c, v) { return c.id + '/' + v.id; }
   function shuffle(a) { a = a.slice(); for (var i = a.length - 1; i > 0; i--) { var j = Math.floor(Math.random() * (i + 1)), t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
+  function dueCount() {
+    var lt = S.get('lt', {}), now = Date.now(), n = 0;
+    M.conds.forEach(function (c) { c.v.forEach(function (v) { var s = lt[c.id + '/' + v.id]; if (!s || s.due <= now) n++; }); });
+    return n;
+  }
+  function pushRecent(id) {
+    var r = S.get('recent', []).filter(function (x) { return x !== id; });
+    r.unshift(id); S.set('recent', r.slice(0, 12));
+  }
   var banner = '<div class="banner" role="note"><b>Study aid, not a protocol.</b> Orders are drafted from a textbook and are <b>pending physician review</b>. Verify against your hospital protocol and the patient before use.</div>';
 
   /* ---------- views ---------- */
+  var ICO = {
+    case: '<path d="M3 12h4l2.5-7 4 14 2.5-7h5"/>',
+    test: '<path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v15H6.5A2.5 2.5 0 0 0 4 20.5z"/><path d="M8 7.5h8M8 11.5h6"/>',
+    calc: '<rect x="4" y="3" width="16" height="18" rx="2.5"/><path d="M8 7h8M8 12h3M13 12h3M8 16.5h3M13 16.5h3"/>',
+    my: '<path d="M12 3.6l2.6 5.4 5.9.8-4.3 4.1 1 5.9-5.2-2.8-5.2 2.8 1-5.9L3.5 9.8l5.9-.8z"/>',
+    about: '<circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7.6v.9"/>'
+  };
+  function toolCard(href, ico, title, sub, hot) {
+    return '<a class="tool' + (hot ? ' hot' : '') + '" href="' + href + '"><span class="ti"><svg viewBox="0 0 24 24" aria-hidden="true">' + ICO[ico] + '</svg></span><span><b>' + title + '</b><em>' + sub + '</em></span></a>';
+  }
   function vHome() {
-    var h = banner;
-    h += '<h1>Tintinalli-based orders</h1>';
-    h += '<p class="mute">Pick the chief complaint to see the can\'t-miss list and the matching order sets.</p>';
-    h += '<h2>Chief complaint</h2><div class="chips">' + M.cc.map(function (c) {
-      var n = M.conds.filter(function (x) { return x.cc.indexOf(c.id) >= 0; }).length;
-      return '<a class="chip big" href="#/cc/' + c.id + '"><span>' + esc(c.n) + '</span><small dir="auto">' + esc(c.fa) + '</small><i>' + n + '</i></a>';
+    var done = S.get('done', {}), bm = S.get('bm', {}), recent = S.get('recent', []).filter(function (x) { return condMeta[x]; });
+    var nv = M.conds.reduce(function (a, c) { return a + c.v.length; }, 0), due = dueCount();
+    var h = '<section class="hero"><h1>Tintinalli-based ED orders</h1>' +
+      '<p class="lede">Every condition in <i>Tintinalli\'s Emergency Medicine Manual</i>, 8th ed., written as a ready order sheet: <b>Imp / Cond / Act / Diet</b>, then <b>Please:</b> in NILSTATCo order. Draft, pending physician review.</p>' +
+      '<div class="stats">' +
+      '<div class="stat"><b>' + M.conds.length + '</b><span>conditions</span></div>' +
+      '<div class="stat"><b>' + nv + '</b><span>order sets</span></div>' +
+      '<a class="stat" href="#/test"><b>' + due + '</b><span>due to review</span></a>' +
+      '<a class="stat" href="#/my"><b>' + Object.keys(done).length + '</b><span>studied</span></a>' +
+      '</div></section>';
+    h += banner;
+    if (recent.length) h += '<h2>Jump back in</h2><div class="chips">' + recent.slice(0, 7).map(function (id) {
+      return '<a class="chip" href="#/c/' + id + '">' + esc(condMeta[id].n) + '</a>';
     }).join('') + '</div>';
-    h += '<h2>Tools</h2><div class="chips"><a class="chip" href="#/calc">🧮 Calculators</a><a class="chip" href="#/test">🧠 Self-test</a><a class="chip" href="#/drill">✍️ Order drill</a><a class="chip" href="#/my">★ My study</a><a class="chip" href="#/about">ℹ︎ About &amp; install</a></div>';
-    var done = S.get('done', {}), bm = S.get('bm', {});
-    h += '<h2>Sections</h2><div class="grid">' + M.sections.map(function (s) {
-      var cs = M.conds.filter(function (c) { return c.sec === s.id; }), d = cs.filter(function (c) { return done[c.id]; }).length;
-      return '<a class="card" href="#/s/' + s.id + '"><b>' + esc(s.n) + '</b><span dir="auto" class="mute">' + esc(s.fa) + '</span><span class="mute">' + cs.length + ' conditions · ' + d + ' studied</span></a>';
+    h += '<h2>Tools</h2><div class="tools">' +
+      toolCard('#/case', 'case', 'Case simulator', 'A full vignette: you name the impression and write the whole order set from the order database.', true) +
+      toolCard('#/test', 'test', 'Self-test', due + ' card(s) due. Recall the sheet from the scenario, then grade yourself.') +
+      toolCard('#/calc', 'calc', 'Calculators', TN.CALCS.length + ' scores and drips: HEART, Wells, GCS, Parkland, anion gap and more.') +
+      toolCard('#/my', 'my', 'My study', Object.keys(bm).length + ' bookmarked · progress, notes, Anki export and backup.') +
+      toolCard('#/about', 'about', 'About &amp; install', 'How an order is built, the fluid rule, offline install and the content version.') +
+      '</div>';
+    h += '<h2>Start with the chief complaint</h2><p class="mute">Each complaint opens with its can\'t-miss list and red flags, then every matching order set.</p>';
+    var groups = [], gm = {};
+    M.cc.forEach(function (c) {
+      var g = c.g || 'Other', k = g.split('|')[0].trim();
+      if (!gm[k]) { gm[k] = { n: k, fa: (g.split('|')[1] || '').trim(), list: [] }; groups.push(gm[k]); }
+      gm[k].list.push(c);
+    });
+    h += groups.map(function (g) {
+      return '<div class="band"><h3>' + esc(g.n) + (g.fa ? ' <small dir="auto">' + esc(g.fa) + '</small>' : '') + '</h3><div class="ccgrid">' + g.list.map(function (c) {
+        var n = M.conds.filter(function (x) { return x.cc.indexOf(c.id) >= 0; }).length;
+        return '<a class="cc" href="#/cc/' + c.id + '"><b>' + esc(c.n) + '</b><small>' + esc(c.fa) + '</small><i>' + n + '</i>' +
+          (c.cm && c.cm.length ? '<span class="cmn">' + c.cm.length + ' can\'t-miss</span>' : '') + '</a>';
+      }).join('') + '</div></div>';
+    }).join('');
+    h += '<h2>Browse by section</h2><div class="seclist">' + M.sections.map(function (s) {
+      var cs = M.conds.filter(function (c) { return c.sec === s.id; }), d = cs.filter(function (c) { return done[c.id]; }).length, p = cs.length ? Math.round(d / cs.length * 100) : 0;
+      return '<a class="secrow" href="#/s/' + s.id + '"><b>' + esc(s.n) + '</b><span class="fa" dir="auto">' + esc(s.fa) + '</span><div class="bar"><i style="width:' + p + '%"></i></div><span class="mute tiny">' + cs.length + ' conditions · ' + d + ' studied</span></a>';
     }).join('') + '</div>';
     return { html: h, title: 'Tintinalli-based orders' };
   }
@@ -136,7 +181,7 @@
     var h = '<div class="osheet" id="' + id + '"><div class="ohead">' + o.header.map(function (x) { return '<div><b>' + x[0] + ':</b> ' + esc(x[1]) + '</div>'; }).join('') + '<div><b>Please:</b></div></div><ol class="olist" start="1">';
     var last = '';
     o.items.forEach(function (it) {
-      if (it.cat !== last) { h += '<li class="ogrp" aria-hidden="true">' + it.cat + ' · ' + TN.CAT_NAME[it.cat] + '</li>'; last = it.cat; }
+      if (it.cat !== last) { h += '<li class="ogrp"><span class="gl gl-' + it.cat + '">' + it.cat + '</span>' + TN.CAT_NAME[it.cat] + '</li>'; last = it.cat; }
       h += '<li class="oitem" data-n="' + it.n + '" value="' + it.n + '"><label><input type="checkbox" data-pick="' + it.n + '" aria-label="Select order ' + it.n + '"><span class="ocat c-' + it.cat + '">' + it.cat + '</span><span class="otext">' + esc(it.t) + '</span></label>' +
         flagsHtml(it.fl) + (set.why && it.why ? '<div class="why" dir="auto"><i>Why:</i> ' + esc(it.why) + '</div>' : '') + '</li>';
     });
@@ -145,9 +190,10 @@
   var cur = null; // current condition view state
   function vCond(c, vid) {
     var v = c.variants.filter(function (x) { return x.id === vid; })[0] || c.variants[0];
-    var o = TN.compose(v); cur = { c: c, v: v, o: o };
+    var o = TN.compose(v); cur = { c: c, v: v, o: o }; pushRecent(c.id);
     var bm = S.get('bm', {}), done = S.get('done', {});
-    var h = '<p><a href="#/s/' + c.section + '">← ' + esc(secName(c.section)) + '</a></p>';
+    var h = '<p><a href="#/s/' + c.section + '">← ' + esc(secName(c.section)) + '</a>' +
+      (c.cc || []).map(function (id) { return ccMeta[id] ? ' <a class="chip sm" href="#/cc/' + id + '">' + esc(ccMeta[id].n) + '</a>' : ''; }).join('') + '</p>';
     h += '<div class="ctitle"><h1>' + esc(c.name) + '</h1><div dir="auto" class="fa-title">' + esc(c.name_fa || '') + '</div>';
     h += '<div class="cbar">' + statusBadge(c.status) + ' <button data-act="bm" class="tb' + (bm[c.id] ? ' on' : '') + '" aria-pressed="' + !!bm[c.id] + '">★ Bookmark</button> <button data-act="done" class="tb' + (done[c.id] ? ' on' : '') + '" aria-pressed="' + !!done[c.id] + '">✓ Studied</button> <button data-act="anki-one" class="tb">⤓ Anki CSV</button> <a class="tb" target="_blank" rel="noopener" href="' + (repoSlug() ? 'https://github.com/' + repoSlug() + '/issues/new?labels=feedback&title=' + encodeURIComponent('[Tintinalli] ' + c.name) + '&body=' + encodeURIComponent('Page: ' + location.href + '\n\nComment:\n') : '#') + '">⚑ Report an error</a></div></div>';
     if (c.status === 'demo') h += '<div class="banner demo" role="note"><b>DEMO CONTENT.</b> Written only to test the format. It was <b>not</b> extracted from Tintinalli and must not be used clinically. It will be replaced.</div>';
@@ -159,7 +205,7 @@
     if (v.sc) h += '<div class="scn" dir="auto"><b>سناریو</b><br>' + esc(v.sc) + '</div>';
     if (v.esc && v.esc.length) h += '<div class="esc"><b>↑ Escalate</b>' + TN.list(v.esc) + '</div>';
     if (v.why) h += '<div class="vwhy" dir="auto">' + esc(v.why) + '</div>';
-    h += '<div class="obar"><button data-act="copy-all" class="pri">⧉ Copy orders</button> <button data-act="copy-pick">⧉ Copy ticked</button> <button data-act="pick-all">Tick all</button> <button data-act="cover" aria-pressed="false">🙈 Cover orders</button> <a class="btn" href="#/print/' + c.id + '/' + v.id + '">🖶 Print sheet</a></div>';
+    h += '<div class="obar sticky"><button data-act="copy-all" class="pri">⧉ Copy orders</button> <button data-act="copy-pick">⧉ Copy ticked</button> <button data-act="pick-all">Tick all</button> <button data-act="cover" aria-pressed="false">🙈 Cover orders</button> <a class="btn" href="#/print/' + c.id + '/' + v.id + '">🖶 Print sheet</a></div>';
     h += sheetHtml(c, v, o, 'osheet') + '</section>';
 
     var sec = function (title, body, open) { return body ? '<details class="dsec"' + (open === false ? '' : ' open') + '><summary><h2>' + title + '</h2></summary>' + body + '</details>' : ''; };
@@ -237,7 +283,7 @@
   var DAYS = [0, 1, 3, 7, 14, 30];
   var tst = null;
   function vTest(scope) {
-    if (!scope) return { html: '<p><a href="#/">← Home</a></p><h1>Self-test</h1><p>You see the scenario; recall the orders; reveal; grade yourself. Cards you miss come back sooner (spaced repetition on this device).</p><div class="grid">' +
+    if (!scope) return { html: '<p><a href="#/">← Home</a></p><h1>Self-test</h1><p>You see the scenario, recall the orders from memory, reveal and grade yourself. Cards you miss come back sooner. For a harder, open-ended version where you build the sheet order by order, use the <a href="#/case">case simulator</a>.</p><div class="grid">' +
       '<a class="card" href="#/test/all"><b>All conditions</b></a><a class="card" href="#/test/bm"><b>Bookmarked</b></a>' + M.sections.map(function (s) { return '<a class="card" href="#/test/' + s.id + '"><b>' + esc(s.n) + '</b></a>'; }).join('') + '</div>', title: 'Self-test' };
     return { html: '<p><a href="#/test">← Scope</a></p><h1>Self-test</h1><div id="tcard" class="tcard"><p class="mute">Loading…</p></div>', title: 'Self-test', after: function () { startTest(scope); } };
   }
@@ -269,37 +315,6 @@
     nextCard();
   }
 
-  /* ---- Order drill (L2) ---- */
-  var drl = null;
-  function vDrill() { return { html: '<p><a href="#/">← Home</a></p><h1>Order drill</h1><p>Build the orders for a case. Set Cond / Act / Diet / ECG / CXR, then put each real order into its NILSTATCo slot (N, I, L, S, A, T, Co) and leave wrong ones as “—”.</p><div id="dcard"><p class="mute">Loading…</p></div>', title: 'Order drill', after: function () { loadAll().then(function (all) { drl = { all: all }; newDrill(); }); } }; }
-  function rawItems(v) { var out = []; TN.CATS.forEach(function (cat) { (v.o[cat] || []).forEach(function (it) { out.push({ cat: cat, t: (it.if ? TN.condLead(it.if) + ': ' : '') + (it.t === '@fluid' ? TN.fluidText(v.diet) : it.t) }); }); }); return out; }
-  function newDrill() {
-    var box = $('#dcard'); if (!box) return;
-    var ps = pairs(drl.all).filter(function (p) { return p.variant.sc && rawItems(p.variant).length >= 1; });
-    if (!ps.length) { box.innerHTML = '<p class="mute">No cases available.</p>'; return; }
-    var p = ps[Math.floor(Math.random() * ps.length)], right = rawItems(p.variant);
-    var others = [];
-    ps.forEach(function (x) { if (x.cond.id !== p.cond.id) rawItems(x.variant).forEach(function (i) { if (!right.some(function (r) { return r.t === i.t; }) && !others.some(function (r) { return r.t === i.t; })) others.push(i); }); });
-    var dis = shuffle(others).slice(0, Math.max(3, Math.min(6, right.length))).map(function (i) { return { cat: '', t: i.t, wrong: true }; });
-    drl.cur = { p: p, pool: shuffle(right.concat(dis)) };
-    var sel = function (id, opts) { return '<label class="row col"><span>' + id + '</span><select name="' + id + '">' + ['—'].concat(opts).map(function (o) { return '<option value="' + (o === '—' ? '' : o) + '">' + o + '</option>'; }).join('') + '</select></label>'; };
-    box.innerHTML = '<div class="scn" dir="auto"><b>سناریو</b><br>' + esc(p.variant.sc) + '</div><form id="dform" onsubmit="return false"><div class="dgrid">' + sel('Cond', ['Urgent', 'Emergent']) + sel('Act', ['RBR', 'CBR']) + sel('Diet', ['PO', 'NPO']) + sel('ECG', ['none', 'once', 'stat']) + sel('CXR', ['none', 'PA', 'portable']) + '</div><h3>Orders: which are right, and in which slot?</h3><ul class="dpool">' +
-      drl.cur.pool.map(function (it, i) { return '<li><select name="i' + i + '" aria-label="Slot for: ' + esc(it.t) + '"><option value="">—</option>' + TN.CATS.map(function (c) { return '<option>' + c + '</option>'; }).join('') + '</select> <span>' + esc(it.t) + '</span></li>'; }).join('') + '</ul><div class="obar"><button class="pri" data-act="drill-check">Check</button> <button data-act="drill-new">Next case</button></div></form><div id="dres" aria-live="polite"></div>';
-  }
-  function checkDrill() {
-    var f = $('#dform'), d = drl.cur, v = d.p.variant, score = 0, tot = 0, h = '';
-    [['Cond', v.cond], ['Act', v.act], ['Diet', v.diet], ['ECG', v.ecg], ['CXR', v.cxr]].forEach(function (x) {
-      tot++; var ok = f.elements[x[0]].value === x[1]; if (ok) score++; h += '<li class="' + (ok ? 'ok' : 'bad') + '">' + x[0] + ': ' + (ok ? '✔ ' : '✘ you said “' + esc(f.elements[x[0]].value || '—') + '”, correct: ') + '<b>' + esc(x[1]) + '</b></li>';
-    });
-    d.pool.forEach(function (it, i) {
-      var val = f.elements['i' + i].value, want = it.wrong ? '' : it.cat;
-      if (!it.wrong || val) tot++; else return;
-      var ok = val === want; if (ok) score++;
-      h += '<li class="' + (ok ? 'ok' : 'bad') + '">' + (ok ? '✔ ' : '✘ ') + esc(it.t) + ' — ' + (it.wrong ? 'not part of this case' : 'slot <b>' + it.cat + '</b> (' + TN.CAT_NAME[it.cat] + ')') + (ok || it.wrong ? '' : '; you chose ' + (val || '—')) + '</li>';
-    });
-    $('#dres').innerHTML = '<div class="score">' + score + ' / ' + tot + '</div><ul class="dres">' + h + '</ul><p class="mute">Correct set for this case: <a href="#/c/' + d.p.cond.id + '/' + v.id + '">' + esc(d.p.cond.name) + '</a>.</p>';
-  }
-
   /* ---- About / install / share ---- */
   var deferred = null;
   window.addEventListener('beforeinstallprompt', function (e) { e.preventDefault(); deferred = e; var b = $('#install'); if (b) b.hidden = false; });
@@ -307,6 +322,7 @@
     var h = '<p><a href="#/">← Home</a></p><h1>About &amp; install</h1>';
     h += banner + '<h2>How an order is built</h2><p>Every order set starts with <b>Imp, Cond, Act, Diet</b>, then <b>Please:</b> items in the fixed NILSTATCo order:</p><ol><li><b>N</b> Nursing: IV line fix, Cardiac monitoring and pulse oximetry, O2 therapy, ECG</li><li><b>I</b> Imaging: CXR (PA or portable) and any other imaging</li><li><b>L</b> Lab tests: one item, CBC, BUN, Cr, Na, K plus case-specific tests</li><li><b>S</b> Serum</li><li><b>A</b> Antibiotics (zero or more)</li><li><b>T</b> Treatment (zero or more)</li><li><b>Co</b> Consult (zero or more)</li></ol>';
     h += '<p><b>Fluid rule:</b> mild volume depletion (tachycardia): N/S 500 cc – 1 L, then maintenance (NPO: Serum 1/3 – 2/3, 1 L TDS). Not applied in CKD, AKI, anuria or heart failure / pulmonary edema.</p>';
+    h += '<h2>How to practise</h2><ul><li><b>Case simulator</b> gives you a full vignette and an empty sheet. You name the impression, set the disposition line, then write the orders yourself by searching every order in the database. It scores <i>coverage</i> (how much of the book&rsquo;s set you ordered) and <i>precision</i> (how much of what you ordered belongs), and shows what you missed and why it mattered.</li><li><b>Self-test</b> shows the scenario and asks you to recall the whole sheet from memory, then you grade yourself.</li><li>Both feed one spaced-repetition schedule kept on this device.</li></ul>';
     h += '<h2>Install and offline</h2><div class="obar"><button id="install" class="pri" data-act="install" hidden>Install app</button> <button data-act="offline">Save everything for offline use</button></div><p id="offmsg" class="mute small"></p><p class="mute small">On iPhone: Share → Add to Home Screen. Content version <b>' + esc(M.version) + '</b> (built ' + esc(M.built) + ').</p>';
     h += '<h2>Share</h2><div id="qr" class="qr" aria-label="QR code of this site\'s address"></div><p class="mute small" id="qrurl"></p>';
     return { html: h, title: 'About', after: function () {
@@ -329,7 +345,9 @@
     app.innerHTML = r.html; document.title = r.title + ' · Tintinalli-based orders';
     window.scrollTo(0, 0); var h1 = $('h1', app); if (h1 && document.activeElement !== searchEl) { h1.setAttribute('tabindex', '-1'); h1.focus({ preventScroll: true }); }
     if (r.after) r.after();
-    $$('#nav a').forEach(function (a) { var on = a.getAttribute('href') === ('#/' + (location.hash.split('/')[1] || '')); a.classList.toggle('on', on); });
+    var seg = (location.hash.split('/')[1] || '').split('?')[0];
+    $$('#nav a').forEach(function (a) { a.classList.toggle('on', a.getAttribute('href') === '#/' + seg); });
+    $$('#tabs a').forEach(function (a) { a.classList.toggle('on', a.dataset.tab === seg); });
   }
   function route() {
     var my = ++token, hs = decodeURIComponent(location.hash || '#/'), m;
@@ -345,9 +363,10 @@
     else if (hs === '#/my') show(vMy());
     else if (hs === '#/test') show(vTest());
     else if ((m = hs.match(/^#\/test\/([a-z0-9-]+)$/))) show(vTest(m[1]));
-    else if (hs === '#/drill') show(vDrill());
+    else if (hs === '#/case') show(TN.Case.setup());
+    else if (hs === '#/case/go') show(TN.Case.run());
     else if (hs === '#/about') show(vAbout());
-    else if (hs === '#/q') show(vSearch());
+    else if (hs === '#/q') { show(vSearch()); if (!q) searchEl.focus(); }
     else show(vHome());
   }
   window.addEventListener('hashchange', route);
@@ -377,8 +396,6 @@
     else if (act === 'anki-all') ankiFor(function () { return true; }, 'anki-all');
     else if (act === 'export') { var o = {}; S.keys().forEach(function (k) { o[k] = S.get(k); }); TN.download('tintinalli-my-data.json', JSON.stringify(o, null, 1), 'application/json'); }
     else if (act === 'reveal') revealCard();
-    else if (act === 'drill-check') checkDrill();
-    else if (act === 'drill-new') newDrill();
     else if (act === 'install' && deferred) { deferred.prompt(); deferred = null; t.hidden = true; }
     else if (act === 'offline') saveOffline();
   });
@@ -389,6 +406,9 @@
     fr.readAsText(e.target.files[0]);
   });
   document.addEventListener('keydown', function (e) { if (e.key === '/' && !/INPUT|TEXTAREA|SELECT/.test(document.activeElement.tagName)) { e.preventDefault(); searchEl.focus(); } });
+
+  /* ---------- bridge for js/case.js ---------- */
+  TN.ui = { sheetHtml: sheetHtml, secName: secName, loadAll: loadAll, pairs: pairs, shuffle: shuffle, toast: toast, condMeta: condMeta, ccMeta: ccMeta, condRow: condRow };
 
   /* ---------- start ---------- */
   $('#foot').textContent = 'Tintinalli-based orders · content ' + M.version + ' · study aid, not a protocol';
