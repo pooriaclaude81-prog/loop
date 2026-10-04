@@ -1,0 +1,1441 @@
+@cond sinus-arrhythmia
+ch: 2
+name: Sinus arrhythmia
+name_fa: آریتمی سینوسی
+cc: palpitations
+keywords: sinus arrhythmia, respiratory variation, آریتمی سینوسی
+status: draft
+
+@features
+- تغییر ریتم سینوسی بیش از ۱۲۰ میلی‌ثانیه بین طولانی‌ترین و کوتاه‌ترین فاصله P–P
+- موج P و PR طبیعی و هدایت AV یک‌به‌یک
+- عمدتاً با تنفس تغییر می‌کند؛ در کودکان و جوانان شایع و با افزایش سن کم می‌شود
+- اگر دو یا چند مورفولوژی P دیده شود: اکتوپی دهلیزی یا wandering atrial pacemaker
+
+@ddx
+- Atrial ectopy / wandering atrial pacemaker | چند شکل موج P
+- Premature atrial contractions | 
+
+@redflags
+- مورفولوژی‌های مختلف P یا علائم همراه (سنکوپ، درد قفسه سینه)
+
+@guide
+ریتم سینوسی با تغییر طبیعی (اغلب تنفسی). درمان لازم نیست؛ فقط ECG و در صورت نیاز رد علل دیگر.
+
+@variant sinus-arrhythmia-main
+name: Sinus arrhythmia (no treatment required)
+level: III
+imp: Sinus arrhythmia
+cond: Urgent
+act: RBR
+diet: PO
+ecg: once
+cxr: none
+
+@scenario
+مردی ۲۰ ساله با تپش‌های گاه‌به‌گاه؛ علائم حیاتی طبیعی. ECG ریتم سینوسی با تغییر فاصله P–P همراه تنفس.
+
+@why
+آریتمی سینوسی خوش‌خیم است و درمان نمی‌خواهد.
+
+@T
+- No treatment is required
+
+@cond premature-atrial-contractions
+ch: 2
+name: Premature atrial contractions (PACs)
+name_fa: انقباضات زودرس دهلیزی
+cc: palpitations
+keywords: PAC, atrial ectopy, palpitations, تپش قلب
+status: draft
+
+@features
+- موج P زودرس با شکل متفاوت؛ ممکن است از گره AV هدایت شود یا نشود
+- اغلب QRS طبیعی؛ گاهی هدایت نابجا با الگوی RBBB
+- مرتبط با استرس، خستگی، الکل، سیگار، قهوه، COPD، مسمومیت دیگوکسین و CAD
+- بیمار «احساس فرو رفتن یا لرزش» در قفسه سینه دارد
+- می‌تواند زمینه‌ساز تاکی‌کاردی دهلیزی، فلوتر یا فیبریلاسیون باشد
+
+@ddx
+- !Digoxin toxicity | 
+- !Coronary artery disease | 
+- Sinus arrhythmia | 
+- COPD-related ectopy | 
+
+@redflags
+- علائم ناپایداری یا زمینه بیماری قلبی
+
+@guide
+درمان: قطع محرک‌ها (الکل، سیگار، قهوه) و درمان اختلال زمینه‌ای (استرس، خستگی).
+
+@variant pacs-main
+name: PACs
+level: III
+imp: Premature atrial contractions
+cond: Urgent
+act: RBR
+diet: PO
+ecg: once
+cxr: none
+
+@scenario
+زنی ۳۰ ساله با «تپش‌های خفیف» بعد از مصرف زیاد قهوه و کم‌خوابی؛ ECG PAC‌های پراکنده.
+
+@why
+PAC خوش‌خیم است؛ فقط محرک‌ها قطع و علت زمینه‌ای درمان می‌شود.
+
+@T
+- Discontinue precipitating drugs and toxins (alcohol, tobacco, coffee)
+- Treat underlying disorders (stress, fatigue)
+
+@cond premature-ventricular-contractions
+ch: 2
+name: Premature ventricular contractions (PVCs)
+name_fa: انقباضات زودرس بطنی
+cc: palpitations
+keywords: PVC, ventricular ectopy, bigeminy, nonsustained VT, ventricular parasystole
+status: draft
+
+@features
+- QRS زودرس و پهن بدون موج P قبلی؛ ST و T در جهت مخالف QRS قبلی
+- معمولاً مکث جبرانی کامل؛ می‌تواند بین دو ضربان سینوسی قرار گیرد (interpolated)
+- سه PVC یا بیشتر پشت سر هم یعنی تاکی‌کاردی بطنی غیرمداوم (nonsustained VT)
+- شایع در بیماری ایسکمیک قلب و MI حاد، مسمومیت دیگوکسین، CHF، هیپوکالمی، آلکالوز، هیپوکسی و داروهای سمپاتومیمتیک
+- درمان سرکوبگر یا پیشگیرانه مرگ‌ومیر را کم نمی‌کند
+
+@ddx
+- !Acute MI / ischemia | 
+- !Digoxin toxicity | 
+- Hypokalemia / alkalosis | 
+- Hypoxia | 
+- Sympathomimetic drugs | 
+
+@redflags
+- سه PVC یا بیشتر پشت سر هم (nonsustained VT)
+- علائم ناپایداری یا ایسکمی
+
+@guide
+بیمار پایدار درمان نمی‌خواهد. علل قابل‌اصلاح (هیپوکسی، دارو، الکترولیت) را درمان کن. سه PVC متوالی مثل nonsustained VT مدیریت می‌شود.
+
+@variant pvc-stable
+name: Isolated PVCs, stable
+level: III
+imp: Premature ventricular contractions
+cond: Urgent
+act: CBR
+diet: PO
+ecg: once
+cxr: none
+
+@scenario
+مردی ۵۵ ساله و سیگاری با تپش گاه‌به‌گاه؛ علائم حیاتی پایدار و ECG PVC منفرد.
+
+@why
+بیمار پایدار با PVC منفرد درمان خاصی لازم ندارد؛ علل قابل‌اصلاح را بررسی کن.
+
+@T
+- Stable patients require no treatment
+- [hypoxia, drug effect or electrolyte disturbance is present] Treat the potential cause
+
+@variant pvc-three-or-more
+name: Three or more sequential PVCs (nonsustained VT)
+level: II
+imp: Nonsustained ventricular tachycardia
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: once
+cxr: PA
+
+@scenario
+مردی ۶۵ ساله با سابقه MI و چند ضربان پشت سر هم پهن روی مانیتور؛ فشار پایدار.
+
+@why
+سه PVC یا بیشتر به‌صورت nonsustained VT مدیریت می‌شوند و علل زمینه‌ای (ایسکمی، الکترولیت) بررسی می‌شود.
+
+@T
+- Manage as nonsustained VT
+- [hypoxia, drug effect or electrolyte disturbance is present] Treat the potential cause
+
+@cond sinus-bradycardia
+ch: 2
+name: Sinus bradycardia
+name_fa: برادی‌کاردی سینوسی
+cc: palpitations, syncope, hypotension-shock
+keywords: bradycardia, atropine, pacing, beta blocker, calcium channel blocker, glucagon, برادی کاردی
+status: draft
+
+@features
+- ریت سینوسی کمتر از ۶۰ در دقیقه، موج P و PR طبیعی و هدایت یک‌به‌یک
+- علل فیزیولوژیک (تون واگ)، دارویی (مهارکننده کانال کلسیم، بتابلوکر، دیگوکسین) و پاتولوژیک (MI تحتانی حاد، افزایش ICP، حساسیت سینوس کاروتید، هیپوتیروئیدی، sick sinus)
+- فقط اگر کمتر از ۵۰ و شواهد هیپوپرفیوژن است نیاز به درمان دارد
+
+@ddx
+- !Acute inferior MI | 
+- !Beta-blocker or calcium channel blocker toxicity | گلوکاگون
+- !Increased intracranial pressure | 
+- Hypothyroidism | 
+- Sick sinus syndrome | 
+- Cardiac transplant (denervated heart) | آتروپین ممکن است بی‌اثر باشد
+
+@redflags
+- ریت زیر ۵۰ با هیپوپرفیوژن (افت فشار، کاهش هوشیاری، درد قفسه، شوک)
+
+@guide
+# منطق
+- بدون علامت: درمان لازم نیست.
+- ناپایدار: **پیسینگ ترانس‌کوتانئوس** تنها درمان Class I؛ **آتروپین** Class IIa.
+- اگر پیسینگ در دسترس نیست: اپی‌نفرین یا دوپامین.
+- مسمومیت بتابلوکر/CCB: گلوکاگون.
+
+@pearls
+- آتروپین آهسته یا با دوز کم می‌تواند برادی‌کاردی paradoxical ایجاد کند.
+- در پیوند قلب آتروپین ممکن است اثر نکند.
+
+@variant sinus-brady-stable
+name: Stable or asymptomatic
+level: III
+imp: Sinus bradycardia
+cond: Urgent
+act: CBR
+diet: PO
+ecg: once
+cxr: none
+
+@scenario
+مردی ۲۵ ساله ورزشکار با نبض 52، بدون علامت و فشار طبیعی.
+
+@why
+اگر ریت کمتر از ۵۰ نباشد و هیپوپرفیوژن نیست درمان خاصی لازم نیست.
+
+@T
+- No specific treatment unless heart rate is below 50 beats/min with evidence of hypoperfusion
+
+@variant sinus-brady-unstable
+name: Symptomatic, unstable (hypoperfusion)
+level: I
+imp: Symptomatic sinus bradycardia
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: portable
+
+@scenario
+مردی ۷۲ ساله با سرگیجه، فشار 78/40 و نبض 38. ECG برادی‌کاردی سینوسی.
+
+@why
+ریت کمتر از ۵۰ با هیپوپرفیوژن: پیسینگ ترانس‌کوتانئوس و آتروپین؛ در صورت عدم دسترسی به پیس، اپی‌نفرین یا دوپامین.
+
+@N
+- Transcutaneous cardiac pacing pads: anterior pad over the left lateral precordium, posterior pad at heart level in the right infrascapular area; multifunction pacing-defibrillation pads only if the patient is unconscious (painful)
+
+@T
+- Transcutaneous pacing (Class I): increase output slowly from 0 mA to the lowest capture, usually 50 to 100 mA, up to 200 mA; a widened QRS after each spike denotes capture {note: electrical capture}
+- [for pacing pain] Lorazepam 1 to 2 mg IV or Morphine 2 to 4 mg IV {hi}
+- Atropine 0.5 mg IV push, repeat every 3 to 5 minutes as needed up to a total of 3 mg (via endotracheal tube 2 to 2.5 times the IV dose) {ci: slow administration or lower doses may cause paradoxical bradycardia; may be ineffective in cardiac transplant} | Class IIa.
+- [if external pacing is not available] Epinephrine 2 to 10 μg/min IV or Dopamine 3 to 10 μg/kg/min IV
+
+@Co
+- [recurrent or persistent bradycardia due to sick sinus syndrome] Cardiology for permanent pacemaker
+
+@variant sinus-brady-bb-ccb
+name: Beta-blocker or calcium channel blocker toxicity
+level: I
+imp: Bradycardia due to beta-blocker or calcium channel blocker toxicity
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: portable
+
+@scenario
+زنی ۴۰ ساله بعد از مصرف مقدار زیاد وراپامیل با نبض 36، فشار 70/40 و کاهش هوشیاری.
+
+@why
+در مسمومیت با بتابلوکر یا مسدودکننده کانال کلسیم علاوه بر درمان برادی‌کاردی، گلوکاگون داده می‌شود.
+
+@T
+- Glucagon 3 to 10 mg IV over 1 to 2 minutes, then infusion 1 to 5 mg/h
+- Atropine 0.5 mg IV push, repeat every 3 to 5 minutes up to 3 mg total
+- [if unstable] Transcutaneous pacing
+
+@cond junctional-rhythm
+ch: 2
+name: Junctional rhythms
+name_fa: ریتم‌های جانکشنال
+cc: palpitations, syncope
+keywords: junctional escape, accelerated junctional, digoxin toxicity, regularized atrial fibrillation
+status: draft
+
+@features
+- ضربان‌های فرار جانکشنال با ریت ۴۰ تا ۶۰ در دقیقه در برادی‌کاردی سینوسی، بلوک خروجی SA یا بلوک AV
+- QRS معمولاً موج P رتروگراد را می‌پوشاند
+- ریتم‌های پایدار جانکشنال در CHF، میوکاردیت، MI حاد (به‌ویژه تحتانی)، هیپرکالمی یا مسمومیت دیگوکسین («regularized Afib»)
+- اگر ریت خیلی کم شود ایسکمی قلب یا مغز ایجاد می‌شود
+- افزایش اتوماتیسیته جانکشنال: ریتم تسریع‌شده (۶۰–۱۰۰) یا تاکی‌کاردی (≥۱۰۰)
+
+@ddx
+- !Digoxin toxicity | 
+- !Inferior MI | 
+- Hyperkalemia | 
+- Myocarditis / CHF | 
+
+@redflags
+- ریت کم با علائم ایسکمی یا ناپایداری
+
+@guide
+ضربان‌های منفرد درمان نمی‌خواهند. در ریتم پایدار علامت‌دار علت را درمان کن. ناپایدار: آتروپین و در صورت پاسخ ندادن پیسینگ.
+
+@variant junctional-stable
+name: Isolated or stable
+level: III
+imp: Junctional rhythm
+cond: Urgent
+act: CBR
+diet: PO
+ecg: once
+cxr: none
+
+@scenario
+مردی ۶۸ ساله با CHF و نبض 48 منظم، بدون علامت.
+
+@why
+ضربان‌های منفرد یا ریتم پایدار بدون علامت درمان خاص ندارد؛ علت زمینه‌ای بررسی می‌شود.
+
+@T
+- Isolated infrequent escape beats: no specific treatment
+- If symptomatic, treat the underlying cause
+- Digoxin toxicity: manage as for SVT
+
+@variant junctional-unstable
+name: Unstable junctional rhythm
+level: I
+imp: Unstable junctional rhythm
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: portable
+
+@scenario
+مردی ۷۵ ساله با MI تحتانی، نبض 40 و فشار 80/50.
+
+@why
+ناپایداری با ریت کم: آتروپین و در صورت پاسخ ندادن پیسینگ ترانس‌کوتانئوس یا ترانس‌وریدی.
+
+@T
+- Atropine 0.5 mg IV every 5 minutes to a total of 3 mg
+- [no response to atropine] Transcutaneous or transvenous pacing
+
+@cond idioventricular-rhythm
+ch: 2
+name: Idioventricular rhythm (IVR / AIVR)
+name_fa: ریتم ایدیوونتریکولر
+cc: palpitations
+keywords: accelerated idioventricular rhythm, AIVR, reperfusion, lidocaine
+status: draft
+
+@features
+- QRS پهن و منظم با ریت ۴۰ تا ۱۰۰، اغلب نزدیک به ریت سینوسی قبلی
+- معمولاً دوره‌های کوتاه (۳ تا ۳۰ ضربان) و AIVR اغلب با fusion beat شروع می‌شود
+- شایع در MI حاد یا پس از ریپرفیوژن موفق با ترومبولیتیک
+
+@ddx
+- !Acute MI / reperfusion | 
+- Ventricular tachycardia | ریت بالاتر و ناپایدار
+
+@redflags
+- ناپایداری یا بدون نبض
+
+@guide
+اگر ناپایدار نیست درمان لازم نیست. سرکوب با لیدوکائین می‌تواند آسیستول ایجاد کند (ممکن است تنها پیس‌میکر فعال باشد).
+
+@variant ivr-main
+name: Idioventricular rhythm
+level: II
+imp: Accelerated idioventricular rhythm
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+
+@scenario
+مردی ۵۸ ساله ۳۰ دقیقه پس از ترومبولیز MI قدامی با ریتم پهن منظم 80 و فشار پایدار.
+
+@why
+درمان لازم نیست مگر ناپایدار یا بدون نبض؛ لیدوکائین خطر آسیستول دارد.
+
+@T
+- No treatment unless the patient is unstable or pulseless (suppression with lidocaine can lead to asystole)
+- [hypotensive or in arrest] Identify contributing mechanical factors (e.g., aggressive volume resuscitation) and give α-adrenergic agents
+
+@cond sick-sinus-syndrome
+ch: 2
+name: Sick sinus syndrome (tachy-brady syndrome)
+name_fa: سندرم سینوس بیمار
+cc: palpitations, syncope
+keywords: sick sinus, tachy-brady, sinus arrest, SA block
+status: draft
+
+@features
+- اختلالات تولید و هدایت ایمپالس: تاکی‌کاردی سوپراونتریکولر و برادی‌کاردی با ایست سینوسی و بلوک SA
+- دیده می‌شود در ایسکمی میوکارد، میوکاردیت، بیماری روماتولوژیک، کاردیومیوپاتی یا متاستاز
+- افزایش تون واگ (درد حاد شکم، تیروتوکسیکوز، هیپو یا هیپرکالمی) آن را بدتر می‌کند
+
+@ddx
+- !Myocardial ischemia | 
+- Thyrotoxicosis | 
+- Drug effect (digoxin, beta-blocker, CCB) | 
+
+@redflags
+- سنکوپ یا مکث‌های طولانی
+
+@guide
+درمان بر اساس ریتم فعلی (ریت و ناپایداری) است. ممکن است پیسینگ موقت و بستری برای پیس‌میکر دائم لازم شود.
+
+@variant sss-main
+name: Sick sinus syndrome
+level: II
+imp: Sick sinus syndrome
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: once
+cxr: PA
+
+@scenario
+زن ۷۸ ساله با سنکوپ و تپش؛ مانیتور دوره‌های تاکی‌کاردی دهلیزی و مکث‌های سینوسی.
+
+@why
+درمان بر اساس ریتم فعلی است و پیس‌میکر دائم اغلب لازم می‌شود.
+
+@T
+- Treat according to the presenting rhythm, heart rate and instability
+- [if needed] Temporary pacing
+
+@Co
+- Cardiology (admission for permanent pacemaker is frequently indicated)
+
+@cond av-block-first-degree
+ch: 2
+name: First-degree AV block
+name_fa: بلوک AV درجه یک
+cc: palpitations
+keywords: first degree AV block, prolonged PR
+status: draft
+
+@features
+- PR طولانی (بیش از ۲۰۰ میلی‌ثانیه) به‌دلیل تأخیر هدایت AV
+- در قلب طبیعی و در افزایش تون واگ، مسمومیت دیگوکسین، MI تحتانی، آمیلوئید و میوکاردیت
+
+@ddx
+- !Inferior MI | 
+- Digoxin toxicity | 
+- Myocarditis / amyloid | 
+
+@redflags
+- همراهی با بلوک دوفاسیکولر (تری‌فاسیکولر)
+
+@guide
+درمان لازم نیست.
+
+@variant av1-main
+name: First-degree AV block
+level: III
+imp: First-degree AV block
+cond: Urgent
+act: RBR
+diet: PO
+ecg: once
+cxr: none
+
+@scenario
+مردی ۶۰ ساله بدون علامت؛ ECG با PR برابر 240 میلی‌ثانیه.
+
+@why
+بلوک درجه یک درمان نمی‌خواهد.
+
+@T
+- No treatment is needed
+
+@cond av-block-mobitz-i
+ch: 2
+name: Second-degree AV block, Mobitz I (Wenckebach)
+name_fa: بلوک AV درجه دو موبیتز I (ونکباخ)
+cc: palpitations, syncope
+keywords: Wenckebach, Mobitz I, second degree block, inferior MI
+status: draft
+
+@features
+- بلوک در سطح گره AV: افزایش تدریجی PR تا افتادن یک ضربان (معمولاً فقط یک ایمپالس)
+- کوتاه شدن تدریجی R–R قبل از ضربان افتاده
+- اغلب گذرا و همراه MI تحتانی حاد، مسمومیت دیگوکسین، میوکاردیت یا پس از جراحی قلب
+- معمولاً ریتم پایدار است
+
+@ddx
+- !Acute inferior MI | 
+- Digoxin toxicity | 
+- Myocarditis | 
+- Mobitz II | PR ثابت
+
+@redflags
+- ریت آهسته با علائم هیپوپرفیوژن
+
+@guide
+درمان خاص لازم نیست مگر ریت کم باعث هیپوپرفیوژن شود. در MI تحتانی ابتدا حجم کافی بده.
+
+@variant mobitz1-main
+name: Mobitz I
+level: II
+imp: Second-degree AV block Mobitz I
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: once
+cxr: none
+
+@scenario
+مردی ۶۰ ساله با MI تحتانی؛ ECG PR تدریجاً طولانی و ضربان افتاده؛ فشار پایدار.
+
+@why
+معمولاً پایدار؛ در MI تحتانی اول حجم کافی؛ آتروپین فقط اگر هیپوپرفیوژن.
+
+@T
+- Specific treatment is not necessary unless slow rates produce signs of hypoperfusion
+- [acute inferior MI] Provide adequate volume resuscitation before further interventions
+- [signs of hypoperfusion] Atropine 0.5 mg IV, repeat every 5 minutes, titrate to desired rate or total 3 mg
+- [rarely needed] Transcutaneous pacing
+
+@cond av-block-mobitz-ii
+ch: 2
+name: Second-degree AV block, Mobitz II
+name_fa: بلوک AV درجه دو موبیتز II
+cc: syncope, palpitations
+keywords: Mobitz II, infranodal block, 2:1 block, pacemaker
+status: draft
+
+@features
+- بیماری infranodal: PR ثابت با ضربان‌های دهلیزی گاه‌به‌گاه هدایت‌نشده
+- QRS معمولاً پهن
+- خطرناک‌تر از Mobitz I؛ دائمی و ممکن است ناگهان به بلوک کامل برسد (به‌ویژه MI قدامی)
+- تقریباً همیشه پیس‌میکر دائم لازم است
+- در بلوک ثابت ۲:۱ تمایز Mobitz I از II ممکن نیست
+
+@ddx
+- !Acute anterior MI | 
+- !Progression to complete heart block | 
+- Mobitz I | 
+- 2:1 block (cannot distinguish) | 
+
+@redflags
+- پیشرفت به بلوک کامل یا ناپایداری
+
+@guide
+الکترودهای پیسینگ را آماده بگذار. آتروپین خط اول ولی ممکن است بی‌اثر باشد. اگر پاسخ نداد پیسینگ ترانس‌کوتانئوس و سپس ترانس‌وریدی.
+
+@variant mobitz2-main
+name: Mobitz II
+level: I
+imp: Second-degree AV block Mobitz II
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: portable
+
+@scenario
+مردی ۷۰ ساله با MI قدامی؛ ECG PR ثابت با ضربان‌های هدایت‌نشده و QRS پهن، فشار 95/60.
+
+@why
+خطر پیشرفت ناگهانی به بلوک کامل: پدهای پیسینگ آماده و آتروپین؛ پیسینگ در صورت عدم پاسخ.
+
+@N
+- Place transcutaneous pacing pads and keep them ready
+
+@T
+- Atropine 0.5 to 1 mg IV bolus, repeat every 5 minutes as needed, up to 3 mg total (first line; may be ineffective)
+- [unresponsive to atropine] Transcutaneous cardiac pacing
+- [transcutaneous pacing unsuccessful] Transvenous pacing 0.2 to 20 mA at 40 to 140 beats/min via a semi-floating or balloon-tipped pacing catheter
+
+@Co
+- Cardiology (permanent pacemaker)
+
+@cond av-block-third-degree
+ch: 2
+name: Third-degree (complete) AV block
+name_fa: بلوک کامل AV
+cc: syncope, palpitations, hypotension-shock
+keywords: complete heart block, third degree AV block, escape rhythm
+status: draft
+
+@features
+- هیچ هدایت AV وجود ندارد؛ بطن‌ها با ریتم فرار آهسته‌تر از ریت دهلیزی کار می‌کنند
+- سطح گره AV: فرار جانکشنال ۴۰–۶۰ با QRS باریک؛ تا ۸٪ MI تحتانی؛ معمولاً گذرا
+- سطح infranodal: فرار بطنی کمتر از ۴۰ با QRS پهن؛ ناپایدار با دوره‌های آسیستول؛ در MI قدامی
+- پیس‌میکر فرار معمولاً برای حفظ برون‌ده قلب کافی نیست
+
+@ddx
+- !Acute inferior MI (nodal block) | 
+- !Acute anterior MI (infranodal block) | 
+- Digoxin toxicity | 
+
+@redflags
+- فشار پایین، سنکوپ، کاهش هوشیاری یا آسیستول
+
+@guide
+ناپایدار: پیسینگ ترانس‌کوتانئوس تا گذاشتن پیس‌میکر ترانس‌وریدی. پایدار: پدهای پیسینگ و مانند Mobitz II رفتار کن.
+
+@variant avblock3-unstable
+name: Unstable complete heart block
+level: I
+imp: Third-degree AV block
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: portable
+
+@scenario
+زنی ۷۸ ساله با سنکوپ، نبض 30 و فشار 70/40؛ ECG بلوک کامل با QRS پهن.
+
+@why
+ناپایدار: پیسینگ ترانس‌کوتانئوس تا پیس‌میکر ترانس‌وریدی.
+
+@T
+- Transcutaneous cardiac pacing until a transvenous pacemaker can be placed
+
+@Co
+- Cardiology (transvenous pacemaker)
+
+@variant avblock3-stable
+name: Stable complete heart block
+level: II
+imp: Third-degree AV block
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: once
+cxr: PA
+
+@scenario
+مردی ۶۵ ساله با MI تحتانی، نبض 50، فشار 110/70 و بدون علامت ناپایداری.
+
+@why
+در بیمار پایدار پدهای پیسینگ گذاشته می‌شود و مثل Mobitz II درمان می‌شود.
+
+@N
+- Apply transcutaneous pacing pads
+
+@T
+- Treat the same as second-degree Mobitz II AV block: atropine 0.5 to 1 mg IV bolus every 5 minutes up to 3 mg; pacing if unresponsive
+
+@Co
+- Cardiology
+
+@cond fascicular-blocks
+ch: 2
+name: Fascicular blocks and bundle branch blocks
+name_fa: بلوک‌های فاسیکولار و باندل برنچ
+cc: palpitations, syncope
+keywords: LAFB, LPFB, RBBB, LBBB, bifascicular, trifascicular, rabbit ears
+status: draft
+
+@features
+- LAFB: انحراف محور به چپ با qR در aVR؛ LPFB (نادرتر): انحراف محور به راست؛ QRS طولانی نمی‌شود
+- RBBB: QRS بیش از ۱۲۰ میلی‌ثانیه و RSR' در V1–V2
+- بلوک بای‌فاسیکولار: ترکیب دو فاسیکل
+- بلوک تری‌فاسیکولار: PR طولانی همراه بای‌فاسیکولار؛ بیماری قابل‌توجه سیستم هدایت و خطر Mobitz II یا بلوک کامل
+
+@ddx
+- !Acute MI | 
+- !Progression to Mobitz II or complete block (trifascicular) | 
+- Chronic conduction disease | 
+
+@redflags
+- سنکوپ یا بلوک تری‌فاسیکولار
+
+@guide
+در متن کتاب برای این بلوک‌ها درمان اورژانس خاصی ذکر نشده است؛ مهم تشخیص الگو و خطر پیشرفت (احتمال نیاز به پیس‌میکر دائم) است.
+
+@variant fascicular-main
+name: Fascicular or bundle branch block
+level: III
+imp: Fascicular / bundle branch block
+cond: Urgent
+act: CBR
+diet: PO
+ecg: once
+cxr: none
+
+@scenario
+مردی ۷۰ ساله با ECG RBBB و LAFB (بای‌فاسیکولار) و PR طولانی؛ بدون علامت حاد.
+
+@why
+باید خطر پیشرفت به بلوک بالاتر شناخته شود؛ کتاب دستور درمانی خاصی نمی‌دهد.
+
+@T
+- No specific emergency treatment is described in the book; recognize the pattern and the risk of progression to Mobitz II or third-degree block
+
+@Co
+- [trifascicular block] Cardiology (possible permanent pacemaker)
+
+@cond sinus-tachycardia
+ch: 2
+name: Sinus tachycardia
+name_fa: تاکی‌کاردی سینوسی
+cc: palpitations, fever, hypotension-shock
+keywords: sinus tachycardia, compensatory
+status: draft
+
+@features
+- موج P و PR طبیعی با ریت دهلیزی معمولاً ۱۰۰ تا ۱۶۰
+- پاسخ به محرک فیزیولوژیک (درد، فعالیت)، دارویی (سمپاتومیمتیک، کافئین، برونکودیلاتور) یا پاتولوژیک (تب، هیپوکسی، آنمی، هیپوولمی، PE، هیپرتیروئیدی)
+- ریتم جبرانی است؛ هدف افزایش برون‌ده متناسب با نیاز
+
+@ddx
+- !Pulmonary embolism | 
+- !Hypovolemia / hemorrhage | 
+- Fever / sepsis | 
+- Hypoxia | 
+- Anemia | 
+- Hyperthyroidism | 
+
+@redflags
+- علت زمینه‌ای جدی (خونریزی، سپسیس، PE) پشت تاکی‌کاردی
+
+@guide
+تاکی‌کاردی سینوسی جبرانی است؛ باید علت زمینه‌ای تشخیص و درمان شود، نه خود ریتم.
+
+@variant sinus-tach-main
+name: Sinus tachycardia (find the cause)
+level: II
+imp: Sinus tachycardia
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: once
+cxr: PA
+
+@scenario
+مردی ۳۵ ساله با تب، دهیدراسیون و نبض 128 منظم؛ ECG تاکی‌کاردی سینوسی.
+
+@why
+ریتم جبرانی است و باید علت (تب، هیپوولمی، هیپوکسی، PE، آنمی) پیدا و درمان شود.
+
+@T
+- Diagnose and treat the underlying condition (rate is compensatory)
+
+@cond atrial-flutter
+ch: 2
+name: Atrial flutter
+name_fa: فلوتر دهلیزی
+cc: palpitations
+keywords: atrial flutter, sawtooth, flutter waves, cardioversion
+status: draft
+
+@features
+- ریت دهلیزی منظم ۲۵۰ تا ۳۵۰؛ امواج دندانه‌اره‌ای (II، III، aVF)؛ بلوک AV معمولاً ۲:۱
+- هدایت یک‌به‌یک ممکن است اگر مسیر فرعی (bypass) باشد
+- مانور والسالوا یا ماساژ کاروتید با افزایش بلوک AV امواج فلوتر را آشکار می‌کند
+- شایع در بیماری ایسکمیک، CHF، MI حاد، PE، میوکاردیت، تروما به قفسه و مسمومیت دیگوکسین
+- می‌تواند حالت گذار بین ریتم سینوسی و فیبریلاسیون باشد
+
+@ddx
+- !Atrial fibrillation | درمان مشابه
+- !Pulmonary embolism | 
+- Acute MI | 
+- Digoxin toxicity | 
+- Myocarditis | 
+
+@redflags
+- ناپایداری همودینامیک
+- زمان شروع نامشخص یا بیش از ۴۸ ساعت (خطر ترومبوس و آمبولی)
+
+@guide
+درمان مانند فیبریلاسیون دهلیزی است (به همان بخش مراجعه شود). اگر زمان شروع نامشخص یا بیش از ۴۸ ساعت است قبل از تبدیل به ریتم سینوسی ضدانعقاد را در نظر بگیر.
+
+@variant flutter-main
+name: Atrial flutter
+level: II
+imp: Atrial flutter
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: once
+cxr: PA
+
+@scenario
+مردی ۶۸ ساله با CHF و تپش؛ نبض منظم 150؛ ECG امواج دندانه‌اره‌ای با بلوک ۲:۱.
+
+@why
+درمان مانند فیبریلاسیون دهلیزی؛ ضدانعقاد در صورت زمان شروع نامشخص یا بیش از ۴۸ ساعت.
+
+@T
+- Treatment is the same as atrial fibrillation (see atrial fibrillation orders)
+- [onset unclear or duration longer than 48 hours] Consider anticoagulation before conversion to sinus rhythm (drug and dose not given in the book)
+
+@cond atrial-fibrillation
+ch: 2
+name: Atrial fibrillation
+name_fa: فیبریلاسیون دهلیزی
+cc: palpitations, dyspnea, weakness
+keywords: AF, Afib, rate control, diltiazem, amiodarone, ibutilide, cardioversion, procainamide, WPW, تپش نامنظم
+status: draft
+
+@features
+- فعالیت نامنظم و مداوم دهلیزی؛ از دست رفتن انقباض مؤثر دهلیز و کاهش پر شدن بطن چپ (ممکن است CHF ایجاد کند)
+- ECG: امواج فیبریلاتوری (V1–V3 و aVF) و پاسخ بطنی نامنظم، معمولاً ۱۷۰ تا ۱۸۰ در گره AV سالم
+- حمله‌ای (کمتر از ۷ روز)، پایدار (بیش از ۷ روز) یا مزمن
+- همراه با پرفشاری مزمن، بیماری ایسکمیک و روماتیسمی، الکل («holiday heart»)، COPD و تیروتوکسیکوز
+- ریت بیش از ۳۰۰ با QRS پهن: نگران سندرم پیش‌تحریکی (WPW)
+- خطر آمبولی: بدون ضدانعقاد تا ۵٪ در سال؛ تبدیل ≤۱۲ ساعت ۰٫۳٪ و ۱۲ تا ۴۸ ساعت ۱٪
+
+@ddx
+- !Wolff–Parkinson–White with AF | بلوکرهای گره AV ممنوع
+- !Acute MI / ischemia as precipitant | 
+- !Thyrotoxicosis | 
+- Multifocal atrial tachycardia | 
+- Atrial flutter | 
+- Holiday heart (alcohol) | 
+
+@redflags
+- ناپایداری (افت فشار، ادم ریه، درد قفسه)
+- QRS پهن با ریت بیش از ۳۰۰ (WPW)
+- شروع بیش از ۴۸ ساعت یا نامشخص و بدون ضدانعقاد
+
+@guide
+# منطق
+- **ناپایدار:** کاردیوورژن سنکرون 150–200 ژول.
+- **کنترل ریت:** دیلتیازم؛ جایگزین وراپامیل یا متوپرولول در عملکرد طبیعی قلب.
+- **EF کمتر از ۴۰٪:** آمیودارون.
+- **WPW:** پروکائین‌آمید؛ بتابلوکر و CCB ممنوع (خطر VF).
+- **شروع کمتر از ۴۸ ساعت:** کاردیوورژن شیمیایی (ایبوتیلاید) یا الکتریکی.
+- **بیش از ۴۸ ساعت یا نامشخص:** ۳ هفته ضدانعقاد قبل از کاردیوورژن (یا TEE برای رد ترومبوس).
+
+@pearls
+- ایبوتیلاید: در بیماری ساختاری قلب، هیپوکالمی، QTc طولانی، هیپومنیزیمی یا CHF ممنوع (torsades)؛ ۴ تا ۶ ساعت مانیتور.
+- آمیودارون: در آلرژی به ید/صدف ممنوع؛ با سیمواستاتین خطر رابدومیولیز.
+
+@variant af-unstable
+name: Unstable atrial fibrillation
+level: I
+imp: Atrial fibrillation, unstable
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: portable
+
+@scenario
+مردی ۷۰ ساله با تپش، فشار 78/40، ادم ریه و ECG فیبریلاسیون دهلیزی با ریت 170.
+
+@why
+ناپایدار: کاردیوورژن سنکرون فوری.
+
+@T
+- Synchronized cardioversion 150 to 200 J
+
+@variant af-rate-control
+name: Stable AF, rate control
+level: II
+imp: Atrial fibrillation with rapid ventricular response
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: once
+cxr: PA
+
+@scenario
+زنی ۶۲ ساله با تپش از دیروز؛ فشار 130/80، نبض نامنظم 140؛ عملکرد قلب طبیعی.
+
+@why
+پایدار: کنترل ریت با دیلتیازم؛ شروع بیش از ۴۸ ساعت یا نامشخص: ضدانعقاد قبل از کاردیوورژن.
+
+@T
+- Diltiazem 15 to 20 mg (or 0.25 mg/kg) IV over 2 minutes, then continuous IV infusion 5 to 10 mg/h to maintain rate control
+- [first dose fails to control the rate] Diltiazem second dose 25 mg (0.35 mg/kg) IV in 15 minutes
+- [alternative for normal cardiac function] Verapamil 2.5 to 5 mg IV or Metoprolol 5 to 10 mg IV
+- [AF longer than 48 hours, or unclear time of onset and not anticoagulated] Anticoagulate before cardioversion (3 weeks required); consider transesophageal echocardiogram to rule out atrial thrombus
+
+@Co
+- Cardiology
+
+@variant af-lv-dysfunction
+name: AF with impaired cardiac function (EF < 40%)
+level: II
+imp: Atrial fibrillation with impaired cardiac function
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: once
+cxr: PA
+
+@scenario
+مردی ۷۲ ساله با کاردیومیوپاتی (EF 30٪)، تپش و نبض 138 نامنظم؛ فشار 108/70.
+
+@why
+در EF کمتر از ۴۰٪ برای کنترل ریت و تبدیل از آمیودارون استفاده می‌شود.
+
+@T
+- Amiodarone 5 mg/kg IV over 30 minutes, then 1200 mg over 24 hours {ci: iodine or shellfish allergy; increased risk of rhabdomyolysis with simvastatin}
+
+@Co
+- Cardiology
+
+@variant af-wpw
+name: AF in Wolff–Parkinson–White (wide irregular tachycardia)
+level: I
+imp: Atrial fibrillation with preexcitation (WPW)
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: portable
+
+@scenario
+مردی ۲۸ ساله با تپش ناگهانی، ریت 240 نامنظم و QRS پهن؛ فشار 100/60.
+
+@why
+در WPW بتابلوکر و CCB ممنوع‌اند (خطر VF)؛ پروکائین‌آمید داروی انتخابی است و ناپایدار کاردیوورژن می‌شود.
+
+@T
+- [unstable] Synchronized cardioversion 150 to 200 J
+- Procainamide 15 to 17 mg/kg IV over 30 minutes, then infusion 1 to 4 mg/min, up to 50 mg/kg or until 50% QRS widening {ci: myasthenia gravis} | Treatment of preexcitation syndromes.
+- Avoid β-adrenergic blockers and calcium channel blockers (verapamil) {note: risk of degeneration to VF}
+
+@Co
+- Cardiology
+
+@variant af-cardioversion-under-48h
+name: AF with clear duration under 48 hours (cardioversion in ED)
+level: II
+imp: Atrial fibrillation of recent onset (< 48 hours)
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: once
+cxr: PA
+
+@scenario
+مردی ۵۰ ساله با تپش از ۶ ساعت پیش؛ پایدار و بدون بیماری ساختاری قلب.
+
+@why
+با زمان شروع روشن کمتر از ۴۸ ساعت می‌توان در اورژانس کاردیوورژن شیمیایی یا الکتریکی کرد.
+
+@T
+- Ibutilide 0.01 mg/kg IV up to 1 mg, infused over 10 minutes (highest success rate; median time to conversion 20 to 30 minutes) {hi} {ci: known structural heart disease, hypokalemia, prolonged QTc, hypomagnesemia, CHF (torsades de pointes)}
+- Monitor for 4 to 6 hours after ibutilide
+- [impaired cardiac function] Cardiovert with amiodarone or electrically
+
+@Co
+- Cardiology
+
+@cond multifocal-atrial-tachycardia
+ch: 2
+name: Multifocal atrial tachycardia (MAT)
+name_fa: تاکی‌کاردی دهلیزی چندکانونی
+cc: palpitations, dyspnea
+keywords: MAT, MFAT, multifocal atrial tachycardia, COPD, magnesium
+status: draft
+
+@features
+- حداقل سه کانون دهلیزی: سه یا چند شکل موج P، تغییر فواصل PP/PR/RR و ریت ۱۰۰ تا ۱۸۰
+- نامنظم و ممکن است با فلوتر یا فیبریلاسیون اشتباه شود
+- اغلب در سالمندان با COPD دکمپانسه؛ همچنین CHF، سپسیس، مسمومیت متیل‌گزانتین یا دیگوکسین
+
+@ddx
+- !Decompensated COPD | 
+- !Sepsis | 
+- Atrial fibrillation | 
+- Atrial flutter | 
+- Methylxanthine / digoxin toxicity | 
+
+@redflags
+- COPD شدید یا سپسیس زمینه‌ای
+
+@guide
+درمان اختلال زمینه‌ای؛ داروی ضدآریتمی اختصاصی اندیکاسیون ندارد. منیزیم و اصلاح پتاسیم.
+
+@variant mat-main
+name: MAT
+level: II
+imp: Multifocal atrial tachycardia
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: once
+cxr: PA
+
+@scenario
+مردی ۷۵ ساله با COPD دکمپانسه، تنگی نفس و نبض نامنظم 130؛ ECG سه شکل P مختلف.
+
+@why
+درمان اختلال زمینه‌ای اصل است؛ منیزیم و پتاسیم بالای ۴ ممکن است اکتوپی را کم کنند.
+
+@T
+- Treat the underlying disorder (no specific antiarrhythmic treatment is indicated)
+- Magnesium sulfate 2 g IV over 60 seconds, then constant infusion 1 to 2 g/h {hi}
+- Replete potassium to greater than 4 mEq/L
+
+@cond psvt
+ch: 2
+name: Paroxysmal supraventricular tachycardia (PSVT)
+name_fa: تاکی‌کاردی سوپراونتریکولر حمله‌ای
+cc: palpitations, syncope
+keywords: SVT, PSVT, adenosine, vagal maneuver, Valsalva, AVNRT, AVRT, orthodromic, antidromic, WPW
+status: draft
+
+@features
+- ریتم منظم و سریع از ری‌انتری یا کانون نابجا بالای دوشاخه هیس؛ نوع ری‌انتری شایع‌تر
+- AVNRT در قلب طبیعی یا همراه بیماری روماتیسمی، پریکاردیت، MI، افتادگی میترال یا پیش‌تحریکی
+- AVRT: ۸۰ تا ۹۰٪ ارتودرومیک (QRS باریک) و ۱۰ تا ۲۰٪ آنتی‌درومیک (QRS پهن)
+- نوع کانون نابجا: ریت دهلیزی ۱۰۰ تا ۲۵۰ در MI، بیماری مزمن ریه، پنومونی، مستی الکل یا مسمومیت دیگوکسین
+- در پیش‌تحریکی تاکی‌آریتمی شایع است: PSVT ۴۰–۸۰٪، AF ۱۰–۲۰٪، فلوتر حدود ۵٪
+
+@ddx
+- !Ventricular tachycardia (wide complex) | تا اثبات خلاف VT فرض شود
+- !WPW with antidromic conduction | 
+- Sinus tachycardia | 
+- Atrial flutter | 
+- Atrial tachycardia | 
+
+@redflags
+- افت فشار، ادم ریه یا درد شدید قفسه سینه (ناپایدار)
+- QRS پهن
+
+@guide
+# منطق
+- **ناپایدار:** کاردیوورژن سنکرون.
+- **پایدار:** مانورهای واگال → **آدنوزین** 6 mg سپس 12 mg.
+- **QRS پهن (آنتی‌درومیک):** مثل VT؛ بتابلوکر، CCB و دیگوکسین ممنوع؛ پروکائین‌آمید.
+
+@pearls
+- آدنوزین: درد قفسه، گُرگرفتگی و اضطراب کمتر از ۱ دقیقه؛ ۱۰٪ فیبریلاسیون یا فلوتر گذرا؛ ممکن است در آسم برونکواسپاسم کند.
+- ماساژ سینوس کاروتید: ابتدا کاروتید را گوش کن (بدون bruit)، هرگز دو طرف هم‌زمان.
+
+@variant psvt-unstable
+name: Unstable SVT
+level: I
+imp: Supraventricular tachycardia, unstable
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: portable
+
+@scenario
+زنی ۴۰ ساله با تپش، درد قفسه سینه، ادم ریه و فشار 80/50؛ ECG ریتم منظم باریک 220.
+
+@why
+هر بیمار ناپایدار (افت فشار، ادم ریه، درد شدید قفسه) کاردیوورژن سنکرون می‌شود.
+
+@T
+- Synchronized cardioversion (hypotension, pulmonary edema or severe chest pain)
+
+@variant psvt-stable
+name: Stable narrow-complex SVT
+level: II
+imp: Paroxysmal supraventricular tachycardia
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: once
+cxr: none
+
+@scenario
+زنی ۳۰ ساله با تپش ناگهانی؛ فشار 125/80، نبض منظم 190 و QRS باریک.
+
+@why
+اول مانورهای واگال و سپس آدنوزین؛ در WPW با هدایت ارتودرومیک آدنوزین خط اول است.
+
+@T
+- Vagal maneuver first: Valsalva (supine, strain at least 10 seconds, legs may be lifted)
+- [alternatively] Diving reflex: face in cold water or ice-water bag for 6 to 7 seconds (particularly effective in infants)
+- [alternatively] Carotid sinus massage 10 seconds on one side only, after auscultating for a bruit; never both sides together
+- Adenosine 6 mg rapid IV bolus into a large vein, followed by a 20-mL normal saline rapid flush {hi} {ci: asthma (may induce bronchospasm); ineffective in anterograde conduction over an accessory pathway}
+- [no effect within 2 minutes] Adenosine 12 mg IV {hi}
+
+@variant psvt-wide
+name: Wide-complex SVT (antidromic conduction / preexcitation)
+level: I
+imp: Wide-complex tachycardia, presumed VT or antidromic SVT
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: portable
+
+@scenario
+مردی ۲۵ ساله با سابقه WPW، تپش و ریتم منظم پهن 200؛ فشار پایدار.
+
+@why
+SVT پهن (آنتی‌درومیک) مانند VT درمان می‌شود؛ داروهای مسدودکننده گره AV ممنوع است.
+
+@T
+- Approach as presumed ventricular tachycardia unless there is a known history of WPW
+- Procainamide 15 to 17 mg/kg IV over 30 minutes, up to 50 mg/kg or until 50% QRS widening {ci: myasthenia gravis}
+- Avoid β-blockers, calcium channel blockers and digoxin (AV-nodal blocking agents)
+
+@cond ventricular-tachycardia
+ch: 2
+name: Ventricular tachycardia and wide-complex tachycardia (including torsades de pointes)
+name_fa: تاکی‌کاردی بطنی و تاکی‌کاردی با کمپلکس پهن
+cc: palpitations, syncope, chest-pain, hypotension-shock
+keywords: VT, ventricular tachycardia, torsades de pointes, amiodarone, procainamide, lidocaine, magnesium, overdrive pacing, isoproterenol, wide complex
+status: draft
+
+@features
+- سه یا چند ضربان متوالی بطنی با ریت بیش از ۱۰۰ (اغلب ۱۵۰ تا ۲۰۰)، QRS پهن، ریتم منظم و محور ثابت
+- شایع‌ترین علت: بیماری ایسکمیک و MI حاد (حدود ۵۰٪)؛ همچنین هایپرتروفیک کاردیومیوپاتی، افتادگی میترال، مسمومیت دارویی، هیپوکسی، هیپو/هیپرکالمی
+- هر تاکی‌کاردی پهن را بدون توجه به علائم و علائم حیاتی VT فرض کن
+- torsades de pointes: چرخش محور QRS در ریت ۲۰۰ تا ۲۴۰؛ داروهای طولانی‌کننده QT (کینیدین، دیزوپیرامید، پروکائین‌آمید، فنوتیازین‌ها، TCA) آن را بدتر می‌کنند
+- نشانه‌های به نفع VT: سن بالای ۳۵، سابقه MI/CHF/CABG، AV dissociation، fusion beat، concordance، QRS بیش از ۰٫۱۴ ثانیه
+- تصور اینکه VT معمولاً ناپایدار است اشتباه است
+
+@ddx
+- !SVT with aberrancy | اگر تشخیص مشکوک و پایدار است آدنوزین بی‌خطر است
+- !Acute MI / ischemia | 
+- !Drug toxicity (digoxin, antiarrhythmics, sympathomimetics) | 
+- Hypo/hyperkalemia | 
+- Torsades de pointes | 
+
+@redflags
+- بدون نبض: دفیبریلاسیون
+- ناپایدار: کاردیوورژن سنکرون
+- QT طولانی با داروهای مسبب
+
+@guide
+# منطق
+- **بدون نبض:** شوک غیرسنکرون 150–200 ژول.
+- **ناپایدار با نبض:** کاردیوورژن سنکرون.
+- **پایدار:** آمیودارون 150 mg طی ۱۰ دقیقه؛ خط دوم پروکائین‌آمید (بدون شک به MI یا ضعف LV) و لیدوکائین.
+- **Torsades:** overdrive pacing ۹۰–۱۲۰، منیزیم؛ ایزوپروترنول در موارد مقاوم.
+
+@variant vt-pulseless-unstable
+name: Pulseless VT or unstable VT
+level: I
+imp: Ventricular tachycardia, pulseless or unstable
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: portable
+
+@scenario
+مردی ۶۰ ساله با MI، تاکی‌کاردی پهن 190 و افت فشار 70/40؛ یا مردی بی‌نبض با همین ریتم.
+
+@why
+بدون نبض: دفیبریلاسیون؛ ناپایدار با نبض: کاردیوورژن سنکرون.
+
+@T
+- [pulseless] Defibrillate (unsynchronized) starting at 150 to 200 J
+- [unstable, not pulseless] Synchronized cardioversion
+
+@variant vt-stable
+name: Stable VT or undifferentiated wide-complex tachycardia
+level: I
+imp: Ventricular tachycardia, stable
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: portable
+
+@scenario
+مردی ۶۸ ساله با سابقه MI و CHF، تپش و ریتم منظم پهن 160؛ هوشیار و فشار 110/70.
+
+@why
+تاکی‌کاردی پهن را VT فرض کن؛ آمیودارون داروی انتخابی در بیمار پایدار است.
+
+@T
+- Amiodarone 150 mg IV over 10 minutes, repeat boluses every 10 minutes up to a total of 2 g {hi}
+- [alternatively] Amiodarone infusion 0.5 mg/min over 18 hours after the initial bolus
+- [second-line] Procainamide (patients without suspected MI or LV dysfunction) or Lidocaine {hi} {note: dose not given in the book}
+- [suspected SVT with aberrancy and the diagnosis is in doubt] Adenosine {hi} {note: dose not given in the book here; see PSVT}
+
+@variant vt-torsades
+name: Torsades de pointes
+level: I
+imp: Torsades de pointes
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: portable
+
+@scenario
+زنی ۵۵ ساله که فنوتیازین می‌گیرد، سنکوپ کرد؛ مانیتور VT چرخان با QT طولانی.
+
+@why
+در torsades داروی طولانی‌کننده QT حذف می‌شود، منیزیم داده می‌شود و در موارد مقاوم overdrive pacing یا ایزوپروترنول.
+
+@T
+- Overdrive pacing at 90 to 120 beats/min to terminate torsades de pointes
+- Magnesium sulfate 1 to 2 g IV over 60 to 90 seconds, then infusion 1 to 2 g/h {hi}
+- [refractory torsades] Isoproterenol 2 to 10 μg/min IV infusion {note: increases myocardial oxygen demand}
+- Stop drugs that prolong repolarization (quinidine, disopyramide, procainamide, phenothiazines, tricyclic antidepressants)
+
+@cond ventricular-fibrillation
+ch: 2
+name: Ventricular fibrillation
+name_fa: فیبریلاسیون بطنی
+cc: syncope, hypotension-shock
+keywords: VF, ventricular fibrillation, defibrillation, amiodarone, lidocaine, epinephrine, vasopressin, cardiac arrest
+status: draft
+
+@features
+- دپولاریزاسیون و انقباض کاملاً نامنظم بطن بدون پمپاژ مؤثر؛ ECG زیگزاگ ظریف تا درشت
+- شایع در بیماری شدید ایسکمیک قلب (با یا بدون MI)؛ همچنین دیگوکسین/کینیدین، هیپوترمی، تروما به قفسه، هیپو/هیپرکالمی یا تحریک مکانیکی
+- VF اولیه ناگهانی و بدون زوال همودینامیک قبلی؛ VF ثانویه پس از زوال طولانی (نارسایی بطن چپ یا شوک)
+
+@ddx
+- !Acute MI / peri-infarct reentry | 
+- !Hypothermia | 
+- Digoxin / quinidine toxicity | 
+- Electrolyte disorder | 
+
+@redflags
+- ایست قلبی
+
+@guide
+دفیبریلاسیون فوری و ماساژ قلبی قوی. پدها را در همان محل نگه دار چون با شوک‌های بعدی امپدانس کم می‌شود.
+
+@variant vf-arrest
+name: Ventricular fibrillation (cardiac arrest)
+level: I
+imp: Ventricular fibrillation
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: portable
+
+@scenario
+مردی ۶۵ ساله ناگهان بی‌هوش و بدون نبض شد؛ مانیتور VF.
+
+@why
+دفیبریلاسیون فوری همراه ماساژ؛ سپس داروهای ضدآریتمی و اپی‌نفرین طبق چرخه CPR.
+
+@T
+- Immediate unsynchronized defibrillation 200 J (biphasic) or 360 J (monophasic) with immediate vigorous chest compressions; keep pads in the same location
+- [CPR and defibrillation unsuccessful after two cycles] Amiodarone 300 mg IV push {hi}
+- [second-line] Lidocaine 1.5 mg/kg IV, then 0.75 mg/kg IV for two more doses {hi}
+- [no pulse after the third CPR-defibrillation cycle] Epinephrine 1 mg IV push, or Vasopressin 40 units IV push (one time only), followed by a 20-mL normal saline flush {hi}
+- [refractory VF] Magnesium sulfate 1 to 2 g IV over 60 to 90 seconds, then infusion 1 to 2 g/h {hi}
+
+@cond wolff-parkinson-white
+ch: 2
+name: Wolff–Parkinson–White (WPW) syndrome
+name_fa: سندرم WPW
+cc: palpitations, syncope
+keywords: WPW, preexcitation, delta wave, accessory pathway, procainamide
+status: draft
+
+@features
+- شایع‌ترین پیش‌تحریکی بطنی؛ مسیر فرعی که گره AV را دور می‌زند و موج دلتا (slurring اولیه QRS) پاتونومونیک است
+- در PSVT مرتبط با WPW: ۸۰ تا ۹۰٪ ارتودرومیک و ۱۰ تا ۲۰٪ آنتی‌درومیک
+- AF یا فلوتر با هدایت آنتی‌درومیک: QRS پهن نامنظم با ریت بیش از ۱۸۰–۲۰۰
+
+@ddx
+- !AF with antidromic conduction | 
+- !Ventricular tachycardia | 
+- Orthodromic AVRT | 
+
+@redflags
+- AF با QRS پهن و ریت بالا
+- بلوکرهای گره AV ممنوع
+
+@guide
+درمان بر اساس عرض QRS و منظم بودن ریتم. ناپایدار: کاردیوورژن سنکرون 150–200 ژول؛ QRS باریک منظم مثل SVT؛ همه QRS پهن (منظم یا نامنظم): پروکائین‌آمید. بتابلوکر و CCB ممنوع.
+
+@variant wpw-narrow
+name: WPW with narrow regular tachycardia
+level: II
+imp: WPW with orthodromic SVT
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: once
+cxr: none
+
+@scenario
+مردی ۲۲ ساله با WPW و تپش ناگهانی؛ ریتم منظم باریک 200 و فشار پایدار.
+
+@why
+QRS باریک و منظم مانند SVT ارتودرومیک: مانور واگال سپس آدنوزین؛ مقاوم: پروکائین‌آمید.
+
+@T
+- Vagal maneuvers
+- Adenosine 6 mg rapid IV bolus followed by 20-mL saline flush; if no effect in 2 minutes 12 mg IV {hi}
+- [refractory] Procainamide 15 to 17 mg/kg IV over 30 minutes up to 50 mg/kg or until 50% QRS widening {ci: myasthenia gravis}
+- Avoid β-blockers and calcium channel blockers
+
+@variant wpw-wide
+name: WPW with wide-complex tachycardia or unstable
+level: I
+imp: WPW with wide-complex tachycardia
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: portable
+
+@scenario
+مردی ۳۰ ساله با WPW، تپش و ریتم نامنظم پهن 230.
+
+@why
+همه تاکی‌کاردی‌های با QRS پهن (منظم یا نامنظم) پروکائین‌آمید می‌گیرند و ناپایدار کاردیوورژن می‌شود.
+
+@T
+- [unstable] Synchronized cardioversion 150 to 200 J
+- Procainamide 15 to 17 mg/kg IV over 30 minutes up to 50 mg/kg or until 50% QRS widening {ci: myasthenia gravis}
+- Avoid nodal blocking agents (β-blockers, calcium channel blockers)
+
+@Co
+- [stable recurrent episodes after cardioversion or asymptomatic WPW found incidentally] Cardiology (outpatient referral)
+
+@cond brugada-long-qt
+ch: 2
+name: Brugada syndrome and long-QT syndrome
+name_fa: سندرم بروگادا و QT طولانی
+cc: syncope, palpitations
+keywords: Brugada, long QT, QTc, torsades, ICD, sudden death
+status: draft
+
+@features
+- هر دو خطر VT/VF خودبه‌خودی را بالا می‌برند و نیاز به ارزیابی برای ICD دارند
+- Brugada: اختلال ژنتیکی کانال سدیم؛ الگوی RBBB در V1–V2 با J-point بالا و ST سرزینی یا شیب‌دار
+- QT طولانی: QT بیش از ۴۷۰ ms در آقایان و بیش از ۴۸۰ ms در خانم‌ها؛ مادرزادی یا اکتسابی؛ QTc بیش از ۵۰۰ خطر بالا
+
+@ddx
+- !Drug-induced QT prolongation | 
+- !Ventricular arrhythmia / torsades | 
+- Electrolyte disorder | 
+
+@redflags
+- ریتم ناپایدار، سنکوپ یا drop attack
+
+@guide
+شناخت الگوی ECG باید به پیگیری نزدیک با کاردیولوژیست منجر شود. ناپایدار یا علامت‌دار: بستری با مانیتور و مشاوره. داروهای طولانی‌کننده QT را قطع کن.
+
+@variant brugada-lqt-main
+name: Brugada or long-QT pattern
+level: II
+imp: Brugada syndrome / long-QT syndrome
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: once
+cxr: none
+
+@scenario
+مردی ۳۵ ساله با سنکوپ؛ ECG QTc برابر 520 میلی‌ثانیه.
+
+@why
+بیمار با ریتم ناپایدار یا drop attack بستری و مشاوره می‌شود؛ داروهای مضر قطع می‌شوند.
+
+@T
+- Advise avoiding medications that may worsen QT prolongation (brugadadrugs.org); long-QT patients also avoid strenuous exercise, particularly swimming
+
+@Co
+- Cardiology (admission for monitoring if unstable rhythm or concerning presentation; otherwise close outpatient follow-up)
+
+@cond pea-asystole
+ch: 2
+name: Pulseless electrical activity and asystole
+name_fa: فعالیت الکتریکی بدون نبض و آسیستول
+cc: hypotension-shock
+keywords: PEA, asystole, epinephrine, cardiac arrest, reversible causes
+status: draft
+
+@features
+- PEA: کمپلکس‌های الکتریکی بدون انقباض مکانیکی؛ آسیستول: نبود کامل فعالیت الکتریکی با پیش‌آگهی بد
+- علل مکانیکی: هیپوولمی شدید، تامپوناد، پنوموتوراکس فشارنده، PE ماسیو، MI، مسمومیت‌ها (TCA، CCB، بتابلوکر)
+- علل متابولیک: اسیدوز، هیپوکسی، هیپو/هیپرکالمی، هیپوترمی
+- پیسینگ الکتریکی مؤثر نیست
+
+@ddx
+- !Severe hypovolemia | 
+- !Cardiac tamponade | 
+- !Tension pneumothorax | 
+- !Massive pulmonary embolism | 
+- !Toxic ingestion (TCA, CCB, beta-blocker) | 
+- Metabolic: acidosis, hypoxia, K disorders, hypothermia | 
+
+@redflags
+- ایست قلبی
+
+@guide
+بعد از اینتوباسیون و CPR اپی‌نفرین هر ۳ تا ۵ دقیقه؛ درمان بر اساس شناسایی سریع علت زمینه‌ای. آسیستول درمانش مثل PEA است.
+
+@variant pea-asystole-main
+name: PEA or asystole
+level: I
+imp: Pulseless electrical activity / asystole
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: portable
+
+@scenario
+مردی ۷۰ ساله بی‌نبض با مانیتور ریتم الکتریکی منظم بدون نبض.
+
+@why
+CPR، اپی‌نفرین و شناسایی و درمان علت زمینه‌ای (H و T‌ها) اساس درمان است.
+
+@T
+- Intubation and CPR; Epinephrine 1 mg IV/IO (1:10,000) every 3 to 5 minutes; via endotracheal tube increase the dose 2 to 2.5 times and follow with several rapid ventilations {hi}
+- Identify and treat the underlying cause rapidly (hypovolemia, tamponade, tension pneumothorax, massive PE, MI, toxic ingestion, acidosis, hypoxia, K disorders, hypothermia)
+- [when indicated] Agents with α-adrenergic activity such as norepinephrine and phenylephrine to improve vascular tone {hi}
+- Electrical pacing is not effective
+
+@cond pacemaker-aicd-malfunction
+ch: 2
+name: Pacemaker and AICD problems
+name_fa: مشکلات پیس‌میکر و AICD
+cc: syncope, palpitations
+keywords: pacemaker, AICD, ICD, magnet, failure to pace, failure to sense, overpacing, inappropriate shock
+status: draft
+
+@features
+- اختلال می‌تواند در هر سطح دستگاه رخ دهد: عفونت یا هماتوم محل پاکت، عفونت یا جابه‌جایی لید، failure to pace، failure to sense، overpacing یا شوک نابجا
+- بیشتر پیس‌میکرها کلید مغناطیسی دارند که با قرار دادن آهن‌ربا حالت ثابت آسنکرون می‌شود
+
+@ddx
+- !Lead dislodgement / fracture | 
+- !Device infection / pocket hematoma | 
+- Failure to pace / failure to sense | 
+- Overpacing | 
+- Inappropriate defibrillation | 
+
+@redflags
+- سنکوپ، بردی‌کاردی یا شوک‌های مکرر
+
+@guide
+ارزیابی با ECG، الکترولیت‌ها و CXR (جای لید و سالم بودن)؛ برای بازبینی الکترونیکی دستگاه هماهنگ کن. failure to pace را بر اساس ریتم زمینه‌ای و علائم درمان کن؛ overpacing: آهن‌ربا.
+
+@variant pacemaker-main
+name: Pacemaker or AICD malfunction
+level: II
+imp: Pacemaker / AICD malfunction
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: once
+cxr: PA
+
+@scenario
+مردی ۷۰ ساله با پیس‌میکر، سرگیجه و نبض 38؛ ECG بدون اسپایک پیسینگ.
+
+@why
+بررسی دستگاه با ECG، الکترولیت و CXR و درمان بر اساس ریتم زمینه‌ای؛ overpacing با آهن‌ربا.
+
+@T
+- Pacing failure: treat according to the underlying rhythm and associated symptoms
+- [overpacing] Apply a magnet to convert the pacemaker to asynchronous mode at a lower rate
+
+@Co
+- Device interrogation (arrange electrical interrogation of the unit)

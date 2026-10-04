@@ -1,0 +1,273 @@
+@cond niv-hypoxemia
+ch: 1
+name: Hypoxemia with adequate ventilation (noninvasive ventilation, CPAP/BPAP)
+name_fa: هیپوکسمی با تهویه کافی (ونتیلاسیون غیرتهاجمی)
+cc: dyspnea, airway-procedure
+keywords: NIPPV, CPAP, BPAP, BiPAP, noninvasive ventilation, preoxygenation, DNR, DNI, pulmonary edema, اکسیژن، سی‌پپ
+status: draft
+
+@features
+- تنفس کافی است ولی اکسیژناسیون ضعیف است (SpO2 پایین با وجود اکسیژن)
+- NIPPV می‌تواند اقدام موقت تا اثر درمان‌های دیگر باشد (مثلاً نیترات در ادم حاد قلبی ریه)
+- راهی برای پیش‌اکسیژناسیون قبل از اینتوباسیون در هر بیماری، یا جایگزین اینتوباسیون در بیماران DNR/DNI
+- با ماسک تمام‌صورت و CPAP یا BPAP داده می‌شود؛ مزیت قطعی یکی بر دیگری ثابت نشده است
+
+@ddx
+- !Acute cardiogenic pulmonary edema | NIPPV + نیترات
+- !Impending respiratory failure (fatigue, poor effort) | اگر تلاش تنفسی ضعیف است باید ماسک و بگ یا اینتوباسیون
+- COPD / asthma exacerbation | 
+- Pneumonia | 
+- Patient with DNR / DNI status | NIPPV به‌جای اینتوباسیون
+
+@redflags
+- تلاش تنفسی ضعیف، خستگی یا کاهش هوشیاری: تهویه ناکافی است و NIPPV کافی نیست
+- ناتوانی در تحمل ماسک یا ناپایداری همودینامیک
+
+@guide
+# ایده کلی
+اگر بیمار خودش نفس می‌کشد ولی اکسیژن خونش پایین است، فشار مثبت راه هوایی (PEEP) آلوئول‌ها را باز نگه می‌دارد و اکسیژناسیون را بهتر می‌کند.
+
+# منطق دستورها
+- **CPAP**: فشار ثابت در دم و بازدم (معمولاً ۵ تا ۱۰).
+- **BPAP**: فشار حمایتی دمی تا ۱۵ بدون مقاومت زیاد بازدمی؛ بازدمی ۵ تا ۱۰.
+- ماسک تمام‌صورت و مهر کامل لازم است؛ تحمل بیمار و پایش دقیق حجم‌ها را چک کنید.
+- اگر تلاش تنفسی ضعیف است، اول ماسک با بگ.
+
+@pearls
+- اگر اشباع اکسیژن بالای ۹۴٪ است اکسیژن بالا (high flow) را تا حد امکان نده.
+
+@variant niv-hypoxemia-main
+name: NIPPV for poor oxygenation
+level: II
+imp: Hypoxemia with adequate ventilation
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: portable
+
+@scenario
+مردی ۷۰ ساله با ادم حاد ریه، تنفس 30 و SpO2 86٪ با ماسک اکسیژن. هوشیار است، تلاش تنفسی خوب دارد و فشار 170/100.
+
+@why
+تهویه کافی ولی اکسیژناسیون بد: NIPPV اقدام موقت تا اثر درمان اصلی، یا پیش‌اکسیژناسیون.
+
+@escalate
+- تلاش تنفسی ضعیف، خستگی، کاهش هوشیاری یا ناپایداری: نسخه اینتوباسیون اورژانس.
+
+@N
+- Position the patient sitting if possible | Conscious patients are placed sitting.
+
+@T
+- CPAP via full-face mask: same pressure in inspiration and expiration, usually 5 to 10 (book units: mmHg) | Keeps the alveoli open.
+- [or if more support is needed] BPAP via full-face mask: pressure support up to 15 (book units: mmHg), expiratory pressure 5 to 10 | Pressure support without expiratory resistance.
+- [if room-air saturation is below 94%] Supplemental oxygen to raise saturation above 94%; avoid high-flow oxygen when possible
+
+@variant niv-mask-ventilation
+name: Poor respiratory effort: mask ventilation
+level: I
+imp: Poor respiratory effort, needs ventilatory support
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: portable
+
+@scenario
+زنی ۵۵ ساله با مسمومیت دارویی، تنفس 6 و عمق کم، SpO2 82٪ و پاسخ کم به صدا. راه هوایی با روش‌های ساده باز نمی‌ماند.
+
+@why
+با تلاش تنفسی ضعیف NIPPV کافی نیست؛ تهویه با ماسک و بگ و باز نگه داشتن راه هوایی لازم است و برای اینتوباسیون آماده شوید.
+
+@escalate
+- مهر ماسک ناممکن یا بدتر شدن: وسیله اکسترا‌گلوتیک یا اینتوباسیون.
+
+@N
+- Sniffing or ramped position with airway adjuncts: 1 or 2 nasal trumpets (if not anticoagulated and no mid-face fracture risk); oral airway if no gag reflex
+- Two-person mask ventilation, T-E grip preferred, just enough volume to raise the chest; add PEEP if chest rise is good but saturation stays poor
+- [if mask seal impossible and no gag reflex] Extraglottic device (supraglottic or retroglottic), appropriately sized, always available | Does not replace the surgical airway when critical hypoxemia persists.
+
+@T
+- Supplemental oxygen to saturation above 94%; avoid high flow when possible
+
+@Co
+- [if airway cannot be maintained] Prepare for intubation (see emergent intubation)
+
+@cond emergent-intubation-rsi
+ch: 1
+name: Emergent intubation (rapid sequence intubation)
+name_fa: اینتوباسیون اورژانس (RSI)
+cc: airway-procedure, altered-mental-status, dyspnea
+keywords: RSI, intubation, etomidate, ketamine, propofol, succinylcholine, rocuronium, laryngoscopy, بیهوشی القایی، لوله‌گذاری
+status: draft
+
+@features
+- اندیکاسیون: بیمار بی‌هوش بدون وضعیت قابل‌برگشت سریع (مانند اوپیوئید یا حالت پس از تشنج ساده)، هیپوکسمی مقاوم، یا سیر بدتر شونده
+- در ایست قلبی ابتدا ماساژ و ریتم قابل شوک؛ بعد راه هوایی
+- RSI یعنی تجویز همزمان داروی القایی و شل‌کننده عضلانی
+- چند تلاش اینتوباسیون با عوارض همراه است؛ همه چیز را برای موفقیت در تلاش اول آماده کنید
+- مشکل پیش‌بینی‌شده در ماسک‌زدن، اینتوباسیون یا وسیله اکسترا‌گلوتیک یا راه هوایی جراحی: نسبی ممنوع RSI، تکنیک بیدار را در نظر بگیرید
+
+@ddx
+- !Rapidly correctable cause (opioid overdose, hypoglycemia, postictal state) | قبل از اینتوباسیون رد کنید
+- !Anticipated difficult airway | RSI نسبتاً ممنوع؛ تکنیک بیدار
+- Cardiac arrest | RSI لازم نیست
+- Refractory hypoxemia in a conscious patient | 
+
+@redflags
+- ناتوانی در رسیدن به SpO2 بالای ۹۳٪ با پیش‌اکسیژناسیون: خطر دساچوریشن بحرانی بعد از آپنه
+- هیپوتانسیون: قبل از اینتوباسیون فیزیولوژی را بهینه کنید
+
+@guide
+# ایده کلی
+اینتوباسیون باید با آمادگی کامل (تجهیزات، نفرات، داروها، چک‌لیست) و بهینه کردن اکسیژناسیون و همودینامیک انجام شود. یک تلاش خوب بهتر از چند تلاش.
+
+# منطق دستورها
+- **پیش‌اکسیژناسیون** با ماسک غیرتنفس مجدد، NIPPV یا ماسک بگ؛ کانولای بینی تا 15 L/min زیر ماسک (apneic oxygenation).
+- **داروی القایی**: اتومیدیت 0.3 mg/kg انتخاب عالی در اغلب موارد؛ کتامین 1–2 mg/kg جایگزین؛ پروپوفول 0.5–1.5 mg/kg اگر خطر هیپوتانسیون نیست.
+- **شل‌کننده**: ساکسینیل‌کولین 1–2 mg/kg (وزن واقعی) مگر خطر هیپرکالمی جدی؛ روکورونیوم 1–1.5 mg/kg (وزن ایده‌آل).
+- فشار روی کریکوئید دیگر توصیه نمی‌شود.
+- تایید لوله با ETCO2؛ CXR برای عمق لوله و پاتولوژی ریه است، نه برای تشخیص نای در مقابل مری.
+
+@pearls
+- ساکسینیل‌کولین در نارسایی کلیه، بیماری عصبی‌عضلانی، آسیب نخاع تحت‌حاد، له‌شدگی و سوختگی ممنوع است (خطر هیپرکالمی).
+- لوله حدود ۲۱ cm در خانم‌ها و ۲۳ cm در آقایان در گوشه دهان.
+- اگر اشباع افت می‌کند تلاش را زود رها کن و ماسک‌زدن را شروع کن؛ بعد از ۳ تلاش ناموفق وسیله اکسترا‌گلوتیک.
+
+@variant rsi-standard
+name: Emergent RSI (peri-arrest or non-arrested)
+level: I
+imp: Respiratory failure or airway compromise, needs intubation
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: portable
+
+@scenario
+مردی ۴۸ ساله با افت هوشیاری (GCS 6) بعد از مصرف مواد، SpO2 84٪ با ماسک و عدم محافظت از راه هوایی. فشار 118/70 و نبض 104.
+
+@why
+بیمار بی‌هوش با راه هوایی محافظت‌نشده؛ RSI با پیش‌اکسیژناسیون، داروی القایی و شل‌کننده و تایید ETCO2.
+
+@escalate
+- افت اشباع در حین تلاش یا مشکل در ماسک: بگ و ماسک، سپس وسیله اکسترا‌گلوتیک؛ آماده راه هوایی جراحی.
+
+@N
+- Continuous waveform capnography (ETCO2) | Confirms tracheal placement immediately.
+- Prepare and assign: suction, bag-valve-mask, rescue devices at hand, personnel and tasks, checklist | Set up for success on the first attempt.
+- Position sniffing or ramped (external ear canal aligned with the sternal notch); if C-spine injury is suspected keep head and neck neutral with in-line stabilization and jaw thrust
+
+@T
+- Preoxygenation: non-rebreather mask at maximal flow, or NIPPV, or mask ventilation if not ventilating adequately | Aim saturation above 93%.
+- Apneic oxygenation: nasal cannula up to 15 L/min under the mask
+- [if hypotension or shock risk] Optimize physiology before intubation: IV fluid boluses, inotropes or vasopressors (no doses in the book)
+- [normotensive, possible raised ICP, cardiac ischemia or aortic dissection; optional] Fentanyl 3 μg/kg IV (pretreatment) | Evidence mixed; not routine.
+- Etomidate 0.3 mg/kg IV rapid push | Preferred induction agent in most circumstances.
+- [alternatively] Ketamine 1 to 2 mg/kg IV {note: hypotension and hypertension reported}
+- [alternatively, if not at risk of hypotension] Propofol 0.5 to 1.5 mg/kg IV
+- Succinylcholine 1 to 2 mg/kg of total body weight IV, flush right after the induction agent {ci: risk of serious hyperkalemia: renal failure, neuromuscular disorders, subacute spinal cord injury, crush injury, burns} | Onset 30 to 45 seconds.
+- [alternatively] Rocuronium 1 to 1.5 mg/kg of ideal body weight IV | Onset about 60 seconds.
+
+@variant rsi-anticipated-difficult
+name: Anticipated difficult airway (awake technique considered)
+level: I
+imp: Anticipated difficult airway
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: portable
+
+@scenario
+مردی ۶۰ ساله با تومور گردن، گردن کوتاه و ضخیم و استریدور، SpO2 90٪. پیش‌بینی می‌شود ماسک‌زدن، اینتوباسیون و راه هوایی جراحی هر سه دشوار باشد.
+
+@why
+دشواری پیش‌بینی‌شده در ماسک، اینتوباسیون، وسیله اکسترا‌گلوتیک یا راه هوایی جراحی RSI را نسبتاً ممنوع می‌کند؛ تکنیک بیدار را در نظر بگیرید.
+
+@N
+- Continuous waveform capnography (ETCO2)
+- Set up rescue: suction, bag-valve-mask, extraglottic device, surgical airway kit; assign all tasks in advance; checklist
+
+@T
+- Awake intubation technique rather than RSI (drugs and doses are not given in the book)
+- Preoxygenation: non-rebreather mask at maximal flow or NIPPV; apneic oxygenation with nasal cannula up to 15 L/min
+
+@cond failed-airway-surgical
+ch: 1
+name: Failed airway (surgical airway, cricothyrotomy)
+name_fa: راه هوایی ناموفق (کریکوتیروتومی)
+cc: airway-procedure
+keywords: cricothyrotomy, surgical airway, bougie, failed intubation, can't intubate can't oxygenate, extraglottic device, jet ventilation
+status: draft
+
+@features
+- لازم است وقتی اینتوباسیون از دهان یا بینی منطقی نیست، یا اینتوباسیون شکست خورده و اشباع بحرانی با روش‌های دیگر قابل حفظ نیست
+- اگر اشباع با ماسک حفظ می‌شود ولی اینتوباسیون در سه تلاش موفق نشد (یا موفقیت بعید است): وسیله اکسترا‌گلوتیک
+- اگر ماسک‌زدن هم اشباع را حفظ نمی‌کند: وسیله اکسترا‌گلوتیک و آماده‌سازی هم‌زمان راه هوایی جراحی
+- کودک زیر ۱۰ سال: راه هوایی جراحی ممنوع، تهویه جت ترانس‌تراکئال
+
+@ddx
+- !Can't intubate, can't oxygenate | کریکوتیروتومی
+- Failed intubation with maintained saturation | وسیله اکسترا‌گلوتیک
+- Child under 10 years | تهویه جت ترانس‌تراکئال به‌جای جراحی
+
+@redflags
+- اشباع بحرانی که با ماسک‌زدن بهتر نمی‌شود
+- ناتوانی در گذاشتن وسیله اکسترا‌گلوتیک
+
+@guide
+# ایده کلی
+اگر اکسیژن‌رسانی با هیچ روش غیرجراحی ممکن نیست، راه هوایی جراحی نجات‌دهنده است و نباید به تعویق بیفتد.
+
+# مراحل (روش با کمک bougie)
+- تکنیک استریل در صورت امکان؛ لمس غشای کریکوتیروئید و ثابت کردن حنجره.
+- برش عمودی 3–4 cm از لبه فوقانی غضروف تیروئید به سمت پایین؛ سپس برش افقی 2 cm روی غشا.
+- bougie بالغ با نوک منحنی به سمت پایین؛ سپس لوله cuffed شماره 6.0 یا تراکئوستومی cuffed شماره 4 روی آن.
+- تایید با کاپنوگرافی و حرکت قفسه و صداهای تنفسی دوطرفه؛ ثابت کردن لوله.
+
+@pearls
+- همیشه یک وسیله اکسترا‌گلوتیک متناسب آماده داشته باش، ولی با وجود هیپوکسمی بحرانی فقط به آن تکیه نکن.
+
+@variant surgical-airway
+name: Surgical airway after failed intubation (adult)
+level: I
+imp: Failed airway, can't intubate can't oxygenate
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: portable
+
+@scenario
+مردی ۳۵ ساله با تروما به صورت و خونریزی دهانی؛ سه تلاش اینتوباسیون شکست خورده، اشباع 70٪ و با ماسک و وسیله اکسترا‌گلوتیک بهتر نمی‌شود.
+
+@why
+نمی‌توان لوله گذاشت و نمی‌توان اکسیژن داد: راه هوایی جراحی فوری با روش bougie.
+
+@N
+- Continuous waveform capnography (ETCO2)
+
+@T
+- Surgical airway (cricothyrotomy), bougie-aided: vertical 3 to 4 cm skin incision from the superior border of the thyroid cartilage caudally, then 2 cm horizontal incision of the cricothyroid membrane; adult bougie with coude tip distal; cuffed 6.0 endotracheal tube or #4 cuffed tracheostomy tube over the bougie; inflate cuff; secure the tube {ci: children younger than 10 years (use transtracheal jet ventilation)}
+- Confirm with capnography, easy chest rise and bilateral breath sounds
+
+@variant jet-ventilation-child
+name: Child younger than 10 years
+level: I
+imp: Failed airway in a child younger than 10 years
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: none
+cxr: portable
+o2: O2 therapy: if SpO2 < 94%: nasal cannula or face mask, flow by age and weight
+
+@scenario
+کودکی ۶ ساله با آنافیلاکسی و ادم راه هوایی؛ اینتوباسیون ناموفق و اشباع در حال افت است.
+
+@why
+زیر ۱۰ سال راه هوایی جراحی ممنوع است و تهویه جت ترانس‌تراکئال روش زیرگلوتیک ارجح است.
+
+@T
+- Transtracheal jet ventilation (preferred subglottic technique; surgical airway is contraindicated under 10 years) {note: technique and settings not described in the book}

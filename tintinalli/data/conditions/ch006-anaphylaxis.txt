@@ -1,0 +1,240 @@
+@cond anaphylaxis
+ch: 6
+name: Anaphylaxis
+name_fa: آنافیلاکسی
+cc: dyspnea, hypotension-shock, rash, wound-bite
+keywords: anaphylaxis, epinephrine, IM thigh, urticaria, allergy, bee sting, food allergy, glucagon, آنافیلاکسی، آلرژی
+status: draft
+
+@features
+- شدیدترین شکل واکنش حساسیت فوری (IgE-مدیاتد و anaphylactoid)؛ ثانیه‌ها تا بیش از یک ساعت بعد از مواجهه
+- درگیری پوست (خارش، گُرگرفتگی، کهیر، آنژیوادم)، تنفس (تنگی نفس، هیپوکسی، ویز، استریدور)، قلب (آریتمی، کلاپس)، گوارش (کرامپ، استفراغ، اسهال)، ادراری‌تناسلی و چشم
+- واکنش دوفازی تا ۱۱ ساعت بعد ممکن است؛ بیماران تحت بتابلوکر پاسخ شدیدتر و مقاوم به درمان خط اول دارند
+- علل: غذا، دارو، گزش حشرات، ایمونوتراپی؛ بسیاری ایدیوپاتیک
+- تشخیص بالینی است؛ آزمایش لحظه‌ای تأییدکننده ندارد
+
+@ddx
+- !Myocardial ischemia | 
+- !Asthma / bronchospasm | 
+- !Epiglottitis | 
+- Hereditary angioedema | 
+- Vasovagal reaction | 
+- Gastroenteritis | 
+- Carcinoid | 
+
+@redflags
+- آنژیوادم یا دیسترس تنفسی: لوله‌گذاری زودهنگام
+- هیپوتانسیون / کلاپس قلبی‌عروقی
+- بیمار تحت بتابلوکر
+
+@guide
+# منطق
+- **اپی‌نفرین خط اول:** IM ران 0.3–0.5 mg (1:1000)، تکرار هر ۵ دقیقه؛ در کلاپس یا مقاوم: IV.
+- مایع در هیپوتانسیون.
+- استروئید و آنتی‌هیستامین حمایتی برای واکنش‌های طولانی یا تأخیری؛ فایده نظری دارند.
+- برونکواسپاسم: آلبوترول نبولایز.
+- بتابلوکر + هیپوتانسیون مقاوم: گلوکاگون.
+
+@pearls
+- بیماران پایدار که اپی‌نفرین گرفته‌اند بعد از ۴ ساعت بدون علامت معمولاً قابل ترخیص‌اند؛ برای سابقه واکنش شدید، بتابلوکر یا تنهایی مدت طولانی‌تر رصد.
+- ترخیص: اتواینجکتور اپی‌نفرین، آموزش، پرهیز از آلرژن و ارجاع به آلرژیست.
+
+@variant anaphylaxis-no-collapse
+name: Anaphylaxis without cardiovascular collapse
+level: I
+imp: Anaphylaxis
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: none
+
+@scenario
+مردی ۳۰ ساله بعد از گزش زنبور کهیر منتشر، ویز و تنگی نفس دارد؛ فشار 105/65، نبض 118، SpO2 91٪.
+
+@why
+اپی‌نفرین IM فوری خط اول است؛ راه هوایی و اکسیژن و مانیتور.
+
+@N
+- Limit further exposure (stop an IV drug, remove the stinger); local first aid, ice and elevation; gastric decontamination is not recommended for ingested allergens
+
+@T
+- Oxygen as indicated by oximetry; angioedema or respiratory distress: early consideration for intubation
+- Epinephrine 0.3 to 0.5 mg (0.3 to 0.5 mL of 1:1000; pediatric 0.01 mg/kg) IM in the thigh, repeat every 5 minutes as needed {hi}
+- [severe cases, persistent or delayed reactions] Methylprednisolone 125 mg IV (pediatric 2 mg/kg) or Hydrocortisone 500 mg IV (pediatric 10 mg/kg)
+- Diphenhydramine 50 mg IV or IM (pediatric 1 mg/kg)
+- [severe cases] Ranitidine 50 mg IV (pediatric 0.5 mg/kg)
+- [bronchospasm] Albuterol 2.5 mg nebulized; [refractory] add ipratropium bromide 250 μg nebulized and Magnesium 2 g IV (25 to 50 mg/kg in children) over 20 minutes {hi}
+
+@Co
+- [moderate to severe symptoms: admit for observation; unstable or refractory: ICU] Admitting service / ICU
+
+@variant anaphylaxis-collapse
+name: Anaphylaxis with hypotension or refractory to IM epinephrine
+level: I
+imp: Anaphylaxis with shock
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: portable
+
+@scenario
+زنی ۴۵ ساله بعد از تزریق آنتی‌بیوتیک وریدی افت فشار 70/40، ادم لب و استریدور؛ بعد از دو دوز اپی‌نفرین IM بهبود نیافته است.
+
+@why
+رفراکتر به IM یا با اختلال همودینامیک: اپی‌نفرین وریدی و مایع زیاد؛ آماده لوله‌گذاری.
+
+@S
+- Normal saline 1 to 2 L IV (pediatric 10 to 20 mL/kg), aggressive fluid resuscitation for hypotension
+
+@T
+- Epinephrine IV bolus 100 μg (0.1 mL of 1:1000 in 10 mL normal saline) infused over 5 to 10 minutes {hi}
+- [if needed] Epinephrine infusion starting at 1 μg/min (1 mL of 1:1000 added to 500 mL NS at 0.5 mL/min), titrate (pediatric 0.1 to 0.3 μg/kg/min); stop for chest pain or arrhythmias {hi}
+- [refractory shock not tolerating IV epinephrine] Another vasopressor (no superiority of any specific agent)
+- Methylprednisolone 125 mg IV (pediatric 2 mg/kg) or Hydrocortisone 500 mg IV (pediatric 10 mg/kg)
+- Diphenhydramine 50 mg IV or IM (pediatric 1 mg/kg) and Ranitidine 50 mg IV (pediatric 0.5 mg/kg)
+- [bronchospasm] Albuterol 2.5 mg nebulized, ipratropium bromide 250 μg nebulized, Magnesium 2 g IV over 20 minutes {hi}
+
+@Co
+- ICU
+
+@variant anaphylaxis-beta-blocker
+name: Anaphylaxis in a patient on beta-blockers
+level: I
+imp: Anaphylaxis, patient on beta-blocker
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: portable
+
+@scenario
+مردی ۶۰ ساله تحت درمان با متوپرولول با آنافیلاکسی؛ فشار 75/40 علی‌رغم اپی‌نفرین و مایع.
+
+@why
+بتابلوکر پاسخ به اپی‌نفرین را مقاوم می‌کند؛ گلوکاگون اضافه می‌شود.
+
+@S
+- Normal saline 1 to 2 L IV
+
+@T
+- Epinephrine as above (IM then IV if refractory) {hi}
+- Glucagon 1 mg IV every 5 minutes (pediatric 50 μg/kg); once BP improves start an infusion of 5 to 15 μg/min {hi}
+
+@Co
+- ICU / longer observation (patients on β-blockers)
+
+@cond allergic-reaction-urticaria
+ch: 6
+name: Acute allergic reaction (urticaria, mild reaction)
+name_fa: واکنش آلرژیک حاد (کهیر)
+cc: rash
+keywords: urticaria, hives, allergic reaction, antihistamine, prednisone
+status: draft
+
+@features
+- کهیر: واکنش خارش‌دار پوستی؛ می‌تواند آلرژیک یا غیرآلرژیک باشد؛ بسیاری از موارد ناشی از ویروس‌ها
+- از کهیر موضعی تا آنافیلاکسی تهدیدکننده حیات
+
+@ddx
+- !Early anaphylaxis | 
+- Viral urticaria | 
+- Angioedema | 
+
+@redflags
+- درگیری راه هوایی، تنفس یا قلب: به آنافیلاکسی تبدیل می‌شود
+
+@guide
+واکنش خفیف در اورژانس مشاهده می‌شود و در صورت ثبات یا بهبود ترخیص می‌شود؛ ۳ روز آنتی‌هیستامین و پردنیزون؛ توضیح درباره بازگشت در صورت عود.
+
+@variant allergic-mild
+name: Mild allergic reaction
+level: III
+imp: Acute allergic reaction / urticaria
+cond: Urgent
+act: RBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+زنی ۲۵ ساله بعد از مصرف غذای جدید کهیر خارش‌دار دارد، بدون تنگی نفس یا ورم صورت.
+
+@why
+واکنش خفیف: آنتی‌هیستامین، مشاهده و ترخیص.
+
+@T
+- Diphenhydramine 50 mg IV or IM (pediatric 1 mg/kg)
+- Discharge on a 3-day course of antihistamines and prednisone {note: dose not given in the book}
+
+@cond angioedema
+ch: 6
+name: Angioedema (ACE-inhibitor induced and hereditary)
+name_fa: آنژیوادم (ناشی از ACEI و ارثی)
+cc: ent, rash, dyspnea
+keywords: angioedema, ACE inhibitor, hereditary angioedema, C1 esterase inhibitor, icatibant, ecallantide, fresh frozen plasma
+status: draft
+
+@features
+- ادم در درمیس، اغلب صورت، گردن یا اندام‌ها؛ همراه واکنش آلرژیک، ناشی از مهارکننده ACE یا ارثی
+- اپیزودها ساعت‌ها تا روزها طول می‌کشند
+- درگیری راه هوایی خطرناک‌ترین جنبه است
+
+@ddx
+- !Anaphylaxis | 
+- !Airway compromise | 
+- ACE-inhibitor angioedema | 
+- Hereditary angioedema | 
+
+@redflags
+- ادم زبان، لب یا گلو؛ استریدور؛ دیسترس تنفسی
+
+@guide
+درمان حمایتی و لوله‌گذاری زودهنگام در خطر راه هوایی. ACEI قطع شود. در HAE درمان با C1 esterase inhibitor یا icatibant/ecallantide.
+
+@variant angioedema-acei
+name: ACE-inhibitor angioedema
+level: II
+imp: ACE-inhibitor induced angioedema
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: once
+cxr: none
+
+@scenario
+مردی ۶۵ ساله تحت درمان با ACEI با ورم لب و زبان از چند ساعت پیش؛ بدون استریدور.
+
+@why
+درمان حمایتی؛ در درگیری راه هوایی لوله‌گذاری زودهنگام؛ ACEI را قطع کن.
+
+@T
+- Supportive care; consider early intubation if the airway is compromised
+- Icatibant 30 mg SC
+- [alternatively] C1 esterase inhibitor (human) 1000 U IV (effective in case series)
+- Discontinue the ACE inhibitor
+- Mild swelling without airway involvement: observe 12 to 24 hours and discharge if improving
+
+@variant angioedema-hereditary
+name: Hereditary angioedema
+level: I
+imp: Hereditary angioedema
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: none
+
+@scenario
+زنی ۲۸ ساله با سابقه خانوادگی HAE و ورم صورت و گلو بعد از استرس؛ بدون کهیر.
+
+@why
+HAE به آنتی‌هیستامین و استروئید پاسخ نمی‌دهد؛ C1 esterase inhibitor یا icatibant/ecallantide و محافظت از راه هوایی.
+
+@T
+- C1 esterase inhibitor (human) 20 U/kg IV
+- [alternatively] C1 esterase inhibitor (recombinant) 50 U/kg IV, maximum 4200 units
+- [alternatively, if C1 esterase inhibitor is not available] Fresh frozen plasma 2 to 3 U IV
+- [alternatively] Icatibant 30 mg SC or Ecallantide 30 mg SC (effective in shortening attacks)
+- Early intubation if the airway is compromised

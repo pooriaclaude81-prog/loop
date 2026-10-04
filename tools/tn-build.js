@@ -116,7 +116,7 @@ function parseConds(file, lines) {
     }
     if (sec) { if (raw.trim()) { const r = new String(raw); r.__ln = ln; buf.push(r); } else buf.push(''); return; }
     if (!raw.trim()) return;
-    const kv = raw.match(/^([a-z_]+)\s*:\s*(.*)$/i);
+    const kv = raw.match(/^([a-z0-9_]+)\s*:\s*(.*)$/i);
     if (!kv) return E(file, ln, 'expected "key: value", found: ' + raw.slice(0, 50));
     const k = kv[1].toLowerCase(), val = kv[2].trim();
     if (secKind === 'condhead') cond[k] = val;

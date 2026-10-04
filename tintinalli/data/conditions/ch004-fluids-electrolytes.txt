@@ -1,0 +1,938 @@
+@cond hypovolemia-dehydration
+ch: 4
+name: Hypovolemia and hypervolemia (volume status)
+name_fa: هیپوولمی و هیپرولمی
+cc: weakness, hypotension-shock, nausea-vomiting, diarrhea
+keywords: dehydration, hypovolemia, hypervolemia, normal saline, lactated Ringer, IVC ultrasound, dextrose, volume replacement
+status: draft
+
+@features
+- هیپوولمی و هیپرولمی کاملاً از شرح حال و معاینه تعیین می‌شود
+- هیپوولمی: سابقه خونریزی، استفراغ، اسهال، تب؛ مخاط خشک، کاهش پرفیوژن (CRT طولانی)، کاهش ادرار، تغییر هوشیاری؛ بی‌حالی و کما علائم شوم‌ترند
+- هیپرولمی: بیماری کلیه، قلب و کبد؛ ادم، ادم ریه (دیسترس تنفسی) و برجستگی وریدهای گردن (CHF)
+- فشار خون و ضربان لزوماً با حجم هم‌خوانی ندارند و آزمایش‌ها شاخص مطمئن نیستند
+- سونوگرافی کنار تخت (اندازه IVC و تغییر آن با تنفس و مایع) مکمل معاینه است
+
+@ddx
+- !Hemorrhage | 
+- !Heart failure / pulmonary edema (hypervolemia) | 
+- Vomiting and diarrhea | 
+- Renal or hepatic disease | 
+
+@redflags
+- کاهش هوشیاری یا افت فشار
+- دیسترس تنفسی و ادم ریه در بیمار هیپرولمیک
+
+@guide
+محلول‌های NS و رینگر لاکتات هم‌اسمول با سرم‌اند و برای جایگزینی حجم عالی‌اند. محلول‌های دکستروز هیپوتونیک‌اند و هرگز برای جایگزینی حجم نباید استفاده شوند (فقط نگهدارنده، با یا بدون پتاسیم).
+
+@pearls
+- IVC در اولتراسوند کنار تخت مکمل معاینه است، جایگزین آن نیست.
+
+@variant hypovolemia-main
+name: Hypovolemia (dehydration)
+level: II
+imp: Hypovolemia / dehydration
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: once
+cxr: none
+
+@scenario
+مردی ۴۰ ساله با استفراغ و اسهال سه‌روزه، مخاط خشک، نبض 112 و کاهش ادرار؛ فشار 105/70.
+
+@why
+هیپوولمی بالینی با تاکی‌کاردی؛ جایگزینی حجم با کریستالوئید ایزوتونیک (NS یا رینگر لاکتات).
+
+@I
+- Bedside ultrasound of the IVC (size and respiratory variation, repeated after fluid challenge) as an adjunct to the physical exam
+
+@S
+- [if dehydrated and tachycardic] @fluid
+
+@T
+- Dextrose solutions must never be used to replace volume (maintenance only, with or without potassium)
+
+@variant hypervolemia-main
+name: Hypervolemia
+level: II
+imp: Hypervolemia
+cond: Urgent
+act: CBR
+diet: PO
+ecg: once
+cxr: PA
+
+@scenario
+مردی ۷۰ ساله با CHF و ادم پا، تنگی نفس و برجستگی ورید گردن.
+
+@why
+هیپرولمی با ادم و دیسترس تنفسی؛ نباید مایع داده شود (کتاب دستور درمانی خاص در این فصل نمی‌دهد).
+
+@T
+- No IV fluid; no specific treatment is described in this chapter (see acute heart failure)
+
+@cond hyponatremia
+ch: 4
+name: Hyponatremia
+name_fa: هیپوناترمی
+cc: altered-mental-status, seizure, weakness, metabolic
+keywords: low sodium, SIADH, 3% hypertonic saline, osmotic demyelination, water intoxication, MDMA, cerebral salt wasting
+status: draft
+
+@features
+- Na کمتر از 138؛ علامت‌دار معمولاً زیر 135 و متوسط‌شدید زیر 130 (سردرد، تهوع، گیجی، آژیتاسیون، آتاکسی، آرفلکسی)
+- شدید (Na < 120): استفراغ مقاوم، تشنج، کما و در نهایت ایست تنفسی ناشی از فتق مغزی
+- حجم را ارزیابی کن و اسمولالیته پلاسما را اندازه بگیر؛ فرمول: 2 × Na + glucose/18 (طبیعی 275 تا 290)
+- هیپوناترمی واقعی: اسمولالیته کم؛ factitious (پروتئین یا لیپید بالا): اسمولالیته طبیعی یا زیاد
+- SIADH و سندرم نمک‌ریز مغزی تشخیص حذفی‌اند؛ MDMA هم باعث ترشح نابجای ADH و مسمومیت آبی می‌شود
+- تقسیم‌بندی: هیپرولمیک (CHF، سیروز، نفروتیک، CKD)، نرمولمیک (پلی‌دیپسی روانی، کمبود گلوکوکورتیکوئید، هیپوکالمی، دارو، SIADH)، هیپوولمیک کلیوی (دیورتیک، کمبود مینرالوکورتیکوئید) و خارج‌کلیوی (استفراغ، اسهال)
+
+@ddx
+- !SIADH | معیار: Posm < 275، Uosm > 200، UNa > 20، یوولمی و عملکرد طبیعی آدرنال/کلیه/قلب/کبد/تیروئید
+- !Acute water intoxication (endurance exercise, psychiatric, MDMA) | 
+- Hypervolemic: CHF, cirrhosis, nephrotic syndrome, kidney disease | 
+- Hypovolemic: diuretics, vomiting, diarrhea | 
+- Glucocorticoid deficit / hypokalemia | 
+- Factitious (hyperlipidemia, hyperproteinemia) | 
+
+@redflags
+- تشنج یا کما با Na زیر 120
+- اصلاح سریع: سندرم دمیلینیزاسیون اسمزی
+
+@guide
+# منطق
+- شدت علائم و سرعت شروع تعیین‌کننده درمان است؛ اگر آزمایش و بالین هم‌خوان نیست آزمایش را تکرار کن.
+- **علامت‌دار شدید (تشنج/کما):** سالین 3٪ بولوس 100 mL طی 10–15 دقیقه؛ Na بعد از هر بولوس؛ توقف با بهبود علائم یا افزایش 5 (۴–۶)؛ حداکثر 3 دوز.
+- حد اصلاح مزمن: ≤ 6 mEq/24h در پرخطر (Na < 120، CHF، الکلیسم، سیروز، هیپوکالمی، سوءتغذیه، توالپتان) و ≤ 12 mEq/24h در کم‌خطر.
+- فرمول تغییر Na = (Na محلول − Na سرم) / (TBW + 1).
+
+@pearls
+- TBW: کودکان و مردان زیر 65 سال 60٪ وزن؛ زنان زیر 65 و مردان سالمند 50٪؛ زنان سالمند 45٪.
+- سالین 3٪ حاوی 513 mEq/L سدیم است و NS 154.
+
+@variant hyponatremia-severe
+name: Severe symptomatic (seizure or coma)
+level: I
+imp: Severe symptomatic hyponatremia
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: none
+
+@scenario
+زنی ۲۲ ساله بعد از مصرف اکستازی و آب زیاد دچار تشنج شد؛ Na برابر 114.
+
+@why
+تشنج یا کما با هیپوناترمی: سالین 3٪ بولوس کوتاه برای بهبود علائم.
+
+@L
+- Serum osmolality, urine sodium, urine osmolality
+- Measure serum sodium after each 3% saline infusion
+
+@S
+- 3% hypertonic saline 100 mL IV over 10 to 15 minutes; stop when symptoms improve or serum sodium rises 5 mEq/L (range 4 to 6) {hi}
+- [may repeat up to three total doses] 3% hypertonic saline 100 mL IV, total 300 mL
+- Keep the IV line open with minimal volume of 0.9% normal saline until cause-specific treatment starts; limit the rise in sodium to no more than 8 mEq/L in the first 24 hours
+- [European guideline alternative] 150 mL of 3% hypertonic saline over 20 minutes, recheck sodium after 20 minutes, repeat up to twice more {hi}
+
+@T
+- After clinical improvement stop the 3% saline and reduce its rate or switch to isotonic (0.9%) saline
+
+@variant hyponatremia-chronic
+name: Moderate or chronic hyponatremia
+level: II
+imp: Hyponatremia
+cond: Urgent
+act: CBR
+diet: PO
+ecg: once
+cxr: none
+
+@scenario
+زنی ۷۵ ساله با مصرف دیورتیک، گیجی و سردرد خفیف؛ Na برابر 124 و نبض 96.
+
+@why
+بر اساس حجم و علت درمان کن؛ سرعت اصلاح باید محدود باشد (خطر دمیلینیزاسیون).
+
+@L
+- Serum osmolality, urine sodium, urine osmolality, glucose
+- Calculate effective osmolality = 2 × Na + glucose/18
+
+@S
+- [volume depleted] Isotonic (0.9%) saline
+- Calculate the volume with: expected change in serum Na = (infusate Na − serum Na) / (TBW + 1)
+
+@T
+- Treat the underlying cause
+- Limit correction: do not exceed 6 mEq/24 h in high-risk patients (Na < 120, chronic heart failure, alcoholism, cirrhosis, hypokalemia, malnutrition, vasopressin antagonists) or 12 mEq/24 h in low-risk patients
+
+@cond hypernatremia
+ch: 4
+name: Hypernatremia
+name_fa: هیپرناترمی
+cc: altered-mental-status, weakness, metabolic
+keywords: high sodium, free water deficit, diabetes insipidus, D5W, dehydration
+status: draft
+
+@features
+- Na بیش از 145 و هیپراسمولالیته (بیش از 295)
+- تهوع و استفراغ، بی‌حالی، ضعف، تشنگی، پرادراری (> 3000 mL/روز)
+- هیپوولمیک: افت فشار، تاکی‌کاردی، چشم فرورفته، مخاط خشک؛ هیپرولمیک: ادم
+- بدون درمان: کما، تشنج و شوک
+- انواع: هیپرولمیک (کوشینگ، هیپرآلدوسترونیسم، آب شور، ایاتروژنیک)، نرمولمیک (دیابت بی‌مزه، کم‌نوشی) و هیپوولمیک کلیوی/خارج‌کلیوی (دیورتیک، استفراغ، اسهال، فیستول، تعریق، سوختگی)
+
+@ddx
+- !Diabetes insipidus | 
+- !Hypovolemic causes (vomiting, diarrhea, burns) | 
+- Salt ingestion / iatrogenic | 
+- Osmotic or loop diuretics | 
+
+@redflags
+- شوک، تشنج یا کما
+- اصلاح سریع در هیپرناترمی مزمن: ادم مغزی
+
+@guide
+# منطق
+- شوک یا کمبود حجم: NS یا رینگر لاکتات.
+- علت زمینه‌ای را درمان کن.
+- کمبود آب آزاد (FWD) = TBW × (Posm − 285) / Posm؛ در بیمار هوشیار توانا به نوشیدن: ⅔ خوراکی و ⅓ وریدی D5W.
+- آهنگ اصلاح: حاد (< 48 ساعت) 1 mEq/L/h؛ مزمن حداکثر 0.5 mEq/L/h یا 10–12 mEq/24h.
+
+@variant hypernatremia-main
+name: Hypernatremia
+level: II
+imp: Hypernatremia
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: once
+cxr: none
+
+@scenario
+مردی ۸۰ ساله مبتلا به تب و کم‌نوشی، گیج، با مخاط خشک و فشار 90/60؛ Na برابر 160.
+
+@why
+ابتدا اصلاح شوک و حجم با ایزوتونیک، سپس جبران آب آزاد با سرعت کنترل‌شده.
+
+@L
+- Plasma osmolality (2 × Na + glucose/18), glucose
+
+@S
+- [shock, hypoperfusion or volume deficit] Isotonic (0.9%) saline or Lactated Ringer's solution
+- Free water deficit replacement = TBW × (Posm − 285) / Posm: in an alert patient who can drink, two-thirds free water orally and one-third IV as D5W
+- Correction rate: acute (< 48 h) 1 mEq/L/h; chronic no more than 0.5 mEq/L/h or 10 to 12 mEq/24 h
+
+@T
+- Treat the underlying cause (diabetes insipidus, vomiting, diarrhea, fever)
+- [lethal salt ingestion] Hemodialysis as alternative or supplement to D5W
+
+@cond hypokalemia
+ch: 4
+name: Hypokalemia
+name_fa: هیپوکالمی
+cc: weakness, palpitations, metabolic
+keywords: low potassium, KCl, U waves, magnesium
+status: draft
+
+@features
+- K کمتر از 3.5؛ علائم معمولاً از 2.5 شروع می‌شود (سریع‌تر در افت سریع، دیرتر در مزمن)
+- قلبی: آریتمی (معمولاً تاکی‌آریتمی)، تخت شدن T، QT طولانی، موج U، ST پایین، تشدید مسمومیت دیگوکسین
+- عصبی‌عضلانی: ضعف، کرامپ، پارستزی، فلج، رابدومیولیز
+- گوارش: تهوع، اتساع شکم، ایلئوس؛ کلیه: آلکالوز متابولیک، دیابت بی‌مزه نفروژنیک
+- علل: شیفت (آلکالوز، انسولین، بتاآگونیست)، کاهش دریافت، دفع گوارشی (استفراغ، اسهال)، دفع کلیوی (دیورتیک)، تعریق و هیپومنیزیمی
+
+@ddx
+- !Diuretic effect | 
+- !Vomiting / diarrhea | 
+- DKA treatment (insulin shift) | 
+- Hypomagnesemia | 
+
+@redflags
+- آریتمی یا تغییر ECG
+- مسمومیت دیگوکسین همراه
+
+@guide
+خفیف (> 3.0) و قادر به خوردن: پتاسیم خوراکی (میوه، سبزی، مکمل). IV: KCl حداکثر 40 mEq در 500 mL سالین طی 4–6 ساعت از ورید محیطی؛ از ورید مرکزی هرگز بیش از 20 mEq/h. مانیتور ECG. اکثر بیماران هیپومنیزیمی هم هستند.
+
+@variant hypokalemia-mild
+name: Mild, tolerating oral intake
+level: III
+imp: Hypokalemia
+cond: Urgent
+act: RBR
+diet: PO
+ecg: once
+cxr: none
+
+@scenario
+زنی ۴۵ ساله با مصرف دیورتیک و ضعف خفیف؛ K برابر 3.2 و ECG طبیعی.
+
+@why
+خفیف و قادر به خوردن: جایگزینی خوراکی.
+
+@T
+- Oral potassium replacement with potassium-rich foods (fruits, dried fruits, vegetables), salt substitutes or K+ supplements
+
+@variant hypokalemia-severe
+name: Severe or symptomatic (IV replacement)
+level: II
+imp: Severe hypokalemia
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: once
+cxr: none
+
+@scenario
+مردی ۵۰ ساله الکلی با ضعف شدید و استفراغ؛ K برابر 2.3 و موج U در ECG.
+
+@why
+شدید یا علامت‌دار: پتاسیم وریدی با مانیتور ECG و اصلاح هم‌زمان منیزیم.
+
+@S
+- KCl in saline: maximum 40 mEq in 500 mL, infused over 4 to 6 hours in a peripheral line {hi}
+- [more aggressive correction needed] identical KCl solution in a second peripheral line; higher concentrations only through a central line, never exceeding 20 mEq/h {hi}
+- Magnesium 20 to 60 mEq/24 h added to the infusion (most hypokalemic patients are also hypomagnesemic)
+
+@T
+- ECG monitoring
+
+@cond hyperkalemia
+ch: 4
+name: Hyperkalemia
+name_fa: هیپرکالمی
+cc: weakness, palpitations, metabolic, altered-mental-status
+keywords: high potassium, peaked T, calcium gluconate, calcium chloride, insulin glucose, albuterol, polystyrene, patiromer, dialysis
+status: draft
+
+@features
+- K بیش از 5.5؛ آریتمی (VF، بلوک SA و AV تا بلوک کامل، آسیستول)؛ مرگ معمولاً با آسیستول دیاستولی یا VF
+- ضعف عصبی‌عضلانی، پارستزی، آرفلکسی، فلج صعودی، علائم گوارشی
+- ECG: 6.5–7.5 PR طولانی، T بلند، QT کوتاه؛ 7.5–8.0 تخت شدن P و پهن شدن QRS؛ 10–12 الگوی سینوسی
+- شایع‌ترین علت: هیپرکالمی کاذب (همولیز حین نمونه‌گیری)
+- علل: شیفت (اسیدوز، ورزش، بتابلوکر، کمبود انسولین، دیژیتال)، بار پتاسیم (رابدومیولیز، له‌شدگی، خونریزی گوارشی، خون کهنه)، کاهش دفع (نارسایی کلیه، مهارکننده‌های آلدوسترون)
+
+@ddx
+- !Life-threatening arrhythmia | 
+- !Rhabdomyolysis / crush injury | 
+- Pseudohyperkalemia (hemolysis, tourniquet, leukocytosis, thrombocytosis) | 
+- Renal failure | 
+- Acidosis | 
+- Digitalis intoxication | 
+
+@redflags
+- هر تغییر ECG (QRS پهن، PR طولانی)
+- ضعف شدید یا فلج
+
+@guide
+# منطق (سه مرحله پشت سر هم)
+- **تثبیت غشا:** کلسیم کلراید یا گلوکونات 10٪ (فوری، حیاتی برای قلب).
+- **انتقال به داخل سلول:** NaHCO3، آلبوترول، انسولین + گلوکز.
+- **دفع:** فوروزماید، سدیم پلی‌استایرن سولفونات، پاتیرومر، همودیالیز.
+- اگر اسیدوز دارد علت را اصلاح کن.
+
+@pearls
+- کلسیم کلراید سه برابر کلسیم المنتال گلوکونات دارد (27.2 در برابر 9 mg/mL) و به‌خاطر اثر کوتاه تا چهار بار در ساعت قابل تکرار است.
+- در نارسایی کلیه دوز انسولین را کم کن؛ در بیمار هیپرگلیسمیک گلوکز نده.
+
+@variant hyperk-ecg-changes
+name: With ECG changes or life-threatening
+level: I
+imp: Hyperkalemia with ECG changes
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: none
+
+@scenario
+مردی ۶۰ ساله دیالیزی با ضعف، نبض 44، T نوک‌تیز و QRS پهن؛ K برابر 7.8.
+
+@why
+با تغییر ECG درمان فوری لازم است، حتی بدون جواب آزمایش؛ ابتدا کلسیم، سپس انتقال داخل سلولی و دفع.
+
+@L
+- Blood gases (ABG or VBG); electrolytes
+
+@T
+- Calcium chloride (10%) 5 to 10 mL IV (onset 1 to 3 min, duration 30 to 50 min) {hi}
+- [alternatively] Calcium gluconate (10%) 10 to 20 mL IV; calcium may be repeated up to four times per hour {hi}
+- Sodium bicarbonate 50 to 150 mEq IV (onset 5 to 10 min, duration 1 to 2 h) {hi}
+- Albuterol 10 to 20 mg in 4 mL normal saline, nebulized over 10 min (onset 15 to 30 min, duration 2 to 4 h)
+- Regular insulin 5 to 10 units IV with glucose 25 g (50% solution) IV (onset 30 min, duration 4 to 6 h) {hi} {renal: reduce the insulin dose in renal failure} | Give a glucose infusion after the initial bolus to prevent hypoglycemia; do not give glucose in hyperglycemic patients.
+- Furosemide 40 to 80 mg IV
+- Sodium polystyrene sulfonate 25 to 50 g PO or PR (onset 1 to 2 h, duration 4 to 6 h)
+- Patiromer 8.4 g PO (onset 4 to 7 h, duration 24 h)
+- [severe or life-threatening] Hemodialysis (onset in minutes)
+- [if acidotic] Correct the underlying cause of the acid-base imbalance
+- [severe hyperkalemia from digitalis intoxication with advanced intraventricular conduction impairment (wide, low-voltage QRS)] Calcium with antidigoxin antibodies {note: dose not given in the book}
+
+@Co
+- Nephrology (dialysis)
+
+@variant hyperk-no-ecg-changes
+name: Without ECG changes
+level: II
+imp: Hyperkalemia
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: once
+cxr: none
+
+@scenario
+زنی ۷۰ ساله با CKD و مصرف ACEI، ضعف خفیف؛ K برابر 6.0 و ECG طبیعی.
+
+@why
+اول مطمئن شو هیپرکالمی کاذب نیست؛ در K واقعی بالا اصلاح بر اساس شدت و ECG پیوسته.
+
+@L
+- Repeat K if hemolysis or discordance with the clinical picture; electrolytes and blood gases
+
+@T
+- Continuous ECG monitoring
+- Regular insulin 5 to 10 units IV with glucose 25 g (50% solution) IV {hi} {renal: reduce the insulin dose in renal failure}
+- Albuterol 10 to 20 mg nebulized over 10 min
+- Furosemide 40 to 80 mg IV
+- Sodium polystyrene sulfonate 25 to 50 g PO or PR, or Patiromer 8.4 g PO
+- [any ECG change appears] Start calcium immediately (see the ECG-changes variant)
+
+@cond hypomagnesemia
+ch: 4
+name: Hypomagnesemia
+name_fa: هیپومنیزیمی
+cc: weakness, seizure, metabolic
+keywords: low magnesium, torsades, eclampsia, magnesium sulfate, tetany
+status: draft
+
+@features
+- علائم عصبی‌عضلانی: تتانی، ضعف، Chvostek و Trousseau، آتاکسی، نیستاگموس، گیجی، تشنج، پارستزی
+- گوارشی: دیسفاژی، بی‌اشتهایی، تهوع؛ قلبی: نارسایی قلب، آریتمی، افت فشار
+- با هیپوکالمی، هیپوکلسمی و هیپوفسفاتمی همراه است؛ هیپوکلسمی تا Mg < 1.2 mg/dL ایجاد نمی‌شود
+- علل: بازتوزیع (گلوکز، DKA، پانکراتیت)، دفع خارج‌کلیوی (اسهال، فیستول)، کاهش دریافت (الکل، سوءتغذیه)، دفع کلیوی (دیورتیک‌ها، آمینوگلیکوزید، PPI)
+
+@ddx
+- !Torsades de pointes | 
+- !Eclampsia | 
+- Alcoholism | 
+- Loop diuretic / PPI | 
+
+@redflags
+- torsades، تشنج یا اکلامپسی
+
+@guide
+علت را درمان یا قطع کن. بدون علامت (حتی با تغییر ECG): منیزیم خوراکی. تهدیدکننده حیات: MgSO4 1–4 g (8–32 mEq) در حداقل 100 mL دکستروز 5٪ یا NS طی 10–60 دقیقه با مانیتور ECG، BP و تنفس.
+
+@variant hypomag-asymptomatic
+name: Asymptomatic (including ECG changes)
+level: III
+imp: Hypomagnesemia
+cond: Urgent
+act: RBR
+diet: PO
+ecg: once
+cxr: none
+
+@scenario
+مردی ۵۵ ساله الکلی با Mg پایین و بدون علامت؛ ECG طبیعی.
+
+@why
+بدون علامت: مکمل منیزیم خوراکی و درمان علت.
+
+@T
+- Treat or stop the cause
+- Oral magnesium supplements
+
+@variant hypomag-life-threatening
+name: Life-threatening (torsades, eclampsia)
+level: I
+imp: Severe hypomagnesemia, torsades de pointes or eclampsia
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: none
+
+@scenario
+زنی ۵۸ ساله با torsades de pointes و QT طولانی.
+
+@why
+وضعیت تهدیدکننده حیات: منیزیم وریدی با پایش مداوم.
+
+@S
+- [diluted] Magnesium sulfate 1 to 4 g (8 to 32 mEq) diluted in at least 100 mL of 5% dextrose or normal saline over 10 to 60 minutes {hi} | Continuous ECG, noninvasive BP and ventilatory pattern monitoring; flushing is a common minor side effect.
+
+@cond hypermagnesemia
+ch: 4
+name: Hypermagnesemia
+name_fa: هیپرمنیزیمی
+cc: weakness, altered-mental-status, metabolic
+keywords: high magnesium, calcium chloride, renal failure, magnesium antacids, preeclampsia
+status: draft
+
+@features
+- Mg مانع انتقال عصبی‌عضلانی و مضعف CNS است: 2–3 تهوع؛ 3–4 خواب‌آلودگی؛ 4–8 از بین رفتن رفلکس‌های عمقی؛ 8–12 افسردگی تنفسی؛ 12–15 افت فشار، بلوک قلبی، ایست
+- مشکوک شو در نارسایی کلیه (به‌ویژه با آنتی‌اسید یا ملین حاوی منیزیم)، هیپرکالمی یا هیپرکلسمی
+- علل: نارسایی کلیه، بار منیزیم (ملین، آنتی‌اسید، درمان پره‌اکلامپسی)، DKA درمان‌نشده، لیز تومور، رابدومیولیز
+
+@ddx
+- !Renal failure with magnesium-containing laxatives/antacids | 
+- Preeclampsia treatment | 
+- Adrenal insufficiency | 
+
+@redflags
+- تضعیف تنفس، بلوک قلبی یا افت فشار
+
+@guide
+مصرف Mg را فوراً قطع کن. اگر نارسایی کلیه واضح نیست: رقیق‌سازی با مایع و فوروزماید. شدید و علامت‌دار: کلسیم کلراید. نارسایی کلیه: دیالیز.
+
+@variant hypermag-main
+name: Hypermagnesemia
+level: I
+imp: Hypermagnesemia
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: none
+
+@scenario
+مردی ۷۰ ساله با نارسایی کلیه و مصرف زیاد آنتی‌اسید حاوی منیزیم؛ خواب‌آلود، بدون رفلکس و فشار 80/50.
+
+@why
+قطع منیزیم و آنتاگونیزه کردن با کلسیم در علامت‌دار شدید؛ دیالیز در نارسایی کلیه.
+
+@L
+- Serum magnesium
+
+@S
+- [renal failure not evident] IV fluids for dilution
+
+@T
+- Immediately cease magnesium administration
+- [renal failure not evident, after fluids] Furosemide 40 to 80 mg IV
+- [severe symptomatic] 10% CaCl2 10 mL IV over 2 to 3 minutes; further infusion of 40 to 60 mL during the next 24 hours can be administered {hi}
+
+@Co
+- [renal failure] Nephrology (dialysis)
+
+@cond hypocalcemia
+ch: 4
+name: Hypocalcemia
+name_fa: هیپوکلسمی
+cc: weakness, seizure, metabolic
+keywords: low calcium, tetany, Chvostek, Trousseau, calcium gluconate, calcium chloride
+status: draft
+
+@features
+- Ca یونیزه کمتر از 2.0 mEq/L (< 4 mg/dL یا < 1.1 mmol/L)
+- شدت علائم به سرعت افت وابسته است: ضعف، اسپاسم و کرامپ، تتانی، Chvostek و Trousseau، پارستزی دور دهان و انگشتان، گیجی، توهم، تشنج
+- قلبی: نارسایی قلب، آریتمی بطنی و torsades
+- علل: کمبود ویتامین D، سوءجذب، الکلیسم، هیپوپاراتیروئیدی، هیپومنیزیمی، داروها (فنی‌توئین، فنوباربیتال، فوروزماید)، سپسیس، پانکراتیت حاد، ترانسفوزیون ماسیو، رابدومیولیز
+
+@ddx
+- !Hypomagnesemia | 
+- !Acute pancreatitis / sepsis / rhabdomyolysis | 
+- Hypoparathyroidism | 
+- Vitamin D deficiency | 
+
+@redflags
+- تتانی، تشنج، QT طولانی یا آریتمی
+
+@guide
+بدون علامت یا غیرشدید و کمتر از 10–14 روز: کلسیم خوراکی. شدید حاد (Ca یونیزه < 1.9): کلسیم کلراید 10٪ 10 mL یا گلوکونات 10٪ 10–30 mL طی 10–20 دقیقه، تکرار هر 60 دقیقه یا انفوزیون. منیزیم را قبل یا همراه کلسیم جایگزین کن.
+
+@variant hypocalcemia-mild
+name: Asymptomatic or mild
+level: III
+imp: Hypocalcemia
+cond: Urgent
+act: RBR
+diet: PO
+ecg: once
+cxr: none
+
+@scenario
+مردی ۶۰ ساله با Ca یونیزه کمی پایین و بدون علامت.
+
+@why
+بدون علامت و غیر شدید: کلسیم خوراکی.
+
+@T
+- Oral calcium 500 to 3000 mg of elemental calcium daily in one dose or up to three divided doses, with or without vitamin D
+
+@variant hypocalcemia-severe
+name: Severe acute hypocalcemia
+level: I
+imp: Severe acute hypocalcemia
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: none
+
+@scenario
+زنی ۳۵ ساله بعد از تیروئیدکتومی با تتانی، پارستزی دور دهان و Ca یونیزه 0.8 mmol/L.
+
+@why
+هیپوکلسمی شدید حاد: کلسیم وریدی و جایگزینی منیزیم.
+
+@S
+- 10% CaCl2 10 mL or 10 to 30 mL of 10% calcium gluconate IV over 10 to 20 minutes, repeat every 60 minutes until symptoms resolve {hi}
+- [or continuous] 10% CaCl2 infusion 0.02 to 0.08 mL/kg/h (1.4 to 5.6 mL/h in a 70-kg patient) {hi}
+
+@T
+- Replace magnesium before or in conjunction with calcium
+
+@cond hypercalcemia
+ch: 4
+name: Hypercalcemia
+name_fa: هیپرکلسمی
+cc: weakness, altered-mental-status, metabolic
+keywords: high calcium, malignancy, zoledronic acid, calcitonin, pamidronate, hyperparathyroidism, stones bones moans groans
+status: draft
+
+@features
+- Ca کل بیش از 10.5 mg/dL یا یونیزه بیش از 2.7 mEq/L؛ زیر 12 معمولاً بدون علامت
+- «Stones, bones, moans, groans»: سنگ کلیه، استئولیز، علائم روانی، زخم پپتیک/پانکراتیت/یبوست
+- ECG: ST فرورفته، T پهن، QT کوتاه؛ برادی‌آریتمی؛ بیش از 20 mg/dL ایست قلبی
+- Ca تصحیح‌شده = Ca اندازه‌گیری‌شده + 0.8 × (4.0 − آلبومین)
+- بیش از ۹۰٪ موارد: هیپرپاراتیروئیدی یا بدخیمی (شایع‌ترین در اورژانس)
+
+@ddx
+- !Malignancy | 
+- !Primary hyperparathyroidism | 
+- Granulomatous disease (sarcoidosis, TB) | 
+- Thiazides / vitamin D intoxication / milk-alkali | 
+- Addison's disease / hyperthyroidism / immobilization | 
+
+@redflags
+- Ca بیش از 14 mg/dL، کاهش هوشیاری یا ECG تغییر
+
+@guide
+# منطق
+- هیدراتاسیون: NS 500–1000 mL/h طی 2–4 ساعت؛ 3–4 L در 24 ساعت اول و سپس 2–3 L/24h تا ادرار 2 L/d.
+- فوروزماید برای کلسیوری پس از اصلاح حجم.
+- کاهش آزادسازی از استخوان: استروئید در آدیسون یا بدخیمی حساس به استروئید؛ بیس‌فسفونات وریدی در بدخیمی؛ کلسی‌تونین سریع‌تر عمل می‌کند.
+
+@variant hypercalcemia-main
+name: Symptomatic or Ca > 14 mg/dL
+level: I
+imp: Hypercalcemia
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: none
+
+@scenario
+مردی ۶۵ ساله با سرطان ریه، گیجی، پلی‌اوری و کم‌آبی؛ Ca برابر 15 و آلبومین 3.
+
+@why
+هیدراتاسیون جدی با NS، فوروزماید و بیس‌فسفونات در هیپرکلسمی بدخیمی.
+
+@L
+- Albumin, corrected calcium = measured Ca + 0.8 × (4.0 − albumin g/dL)
+
+@S
+- 0.9% normal saline 500 to 1000 mL/h for 2 to 4 hours as tolerated; in general 3 to 4 L over the first 24 hours, then 2 to 3 L per 24 hours until urine output 2 L/d
+
+@T
+- Furosemide 20 to 40 mg IV (to promote diuresis of 150 to 200 mL/h)
+- [Addison's disease or steroid-responsive malignancy] Prednisone 1 to 2 mg/kg PO or Hydrocortisone 200 to 300 mg IV initial dose
+- [malignancy, corrected Ca 12 mg/dL or higher] Zoledronic acid 4 mg IV single dose over 15 minutes (or pamidronate)
+- Calcitonin 4 U/kg SC or IM (works more rapidly than bisphosphonates)
+- [very severe cases] Hemodialysis
+
+@cond hypophosphatemia
+ch: 4
+name: Hypophosphatemia
+name_fa: هیپوفسفاتمی
+cc: weakness, metabolic
+keywords: low phosphate, refeeding, alcoholism, DKA
+status: draft
+
+@features
+- فسفات کمتر از 2.5 mg/dL؛ علائم شدید معمولاً زیر 1 mg/dL
+- ضعف، لرزش، پارستزی دور دهان و انگشتان، کاهش رفلکس، کاهش هوشیاری، اختلال عملکرد میوکارد، مقاومت به انسولین، اختلال پلاکت و گلبول‌ها
+- علل: شیفت (گلوکز، انسولین، کاتکول‌آمین، آلکالوز تنفسی)، هایپرآلیمنتاسیون و refeeding، سوءجذب، افزایش دفع کلیوی، الکلیسم، DKA
+
+@ddx
+- !Refeeding syndrome | 
+- !Alcoholism / DKA | 
+- Respiratory alkalosis | 
+- Malabsorption | 
+
+@redflags
+- فسفات زیر 1 mg/dL
+
+@guide
+علامت‌دار: هم خوراکی و هم وریدی. بدون علامت یا خفیف: 50 mmol/d خوراکی به مدت 7–10 روز. موارد شدید دوز بیشتر لازم است.
+
+@variant hypophos-main
+name: Hypophosphatemia
+level: II
+imp: Hypophosphatemia
+cond: Urgent
+act: CBR
+diet: PO
+ecg: once
+cxr: none
+
+@scenario
+مردی ۴۰ ساله الکلی که تازه تغذیه شروع کرده، ضعف و پارستزی؛ فسفات 0.8 mg/dL.
+
+@why
+علامت‌دار: جایگزینی وریدی و خوراکی؛ دوز وریدی بر اساس سطح فسفات.
+
+@S
+- IV phosphate replacement over 6 to 72 hours: serum PO4 < 1 mg/dL 0.6 mmol/kg; 1 to 1.7 mg/dL 0.3 to 0.4 mmol/kg; 1.8 to 2.2 mg/dL 0.15 to 0.2 mmol/kg
+
+@T
+- Oral phosphate 50 mmol/d for 7 to 10 days (asymptomatic or mildly symptomatic; higher doses may be necessary in severe cases)
+
+@cond hyperphosphatemia
+ch: 4
+name: Hyperphosphatemia
+name_fa: هیپرفسفاتمی
+cc: metabolic
+keywords: high phosphate, phosphate binder, renal failure, tumor lysis
+status: draft
+
+@features
+- فسفات بیش از 4.5 mg/dL؛ علائم حاد ناشی از نارسایی کلیه، هیپوکلسمی و هیپومنیزیمی است
+- علل: کاهش دفع کلیوی (نارسایی حاد و مزمن کلیه، هیپوپاراتیروئیدی)، شیفت از داخل به خارج سلول (همولیز، رابدومیولیز، لیز تومور، DKA)، افزودن خارجی (ملین و آنتی‌اسید حاوی فسفات)
+
+@ddx
+- !Renal failure | 
+- !Tumor lysis syndrome / rhabdomyolysis | 
+- Hemolysis | 
+
+@redflags
+- هیپوکلسمی همراه
+
+@guide
+باندرهای فسفات مثل کلسیم کربنات یا کلسیم استات؛ در سطح بسیار بالا همودیالیز.
+
+@variant hyperphos-main
+name: Hyperphosphatemia
+level: II
+imp: Hyperphosphatemia
+cond: Urgent
+act: CBR
+diet: PO
+ecg: once
+cxr: none
+
+@scenario
+مردی ۶۰ ساله با CKD پیشرفته و فسفات 8.
+
+@why
+باندر فسفات و در سطح بسیار بالا همودیالیز.
+
+@T
+- Phosphate binders: calcium carbonate or calcium acetate {note: dose not given in the book}
+- [very high phosphate] Hemodialysis
+
+@cond metabolic-acidosis
+ch: 4
+name: Metabolic acidosis
+name_fa: اسیدوز متابولیک
+cc: dyspnea, weakness, metabolic, poisoning
+keywords: anion gap, lactic acidosis, DKA, bicarbonate, MUDPILES, normal anion gap
+status: draft
+
+@features
+- دردهای شکم، سردرد، تهوع و استفراغ، ضعف و تنگی نفس (تحریک مرکز تنفس)
+- دو دسته: با شکاف آنیونی بالا (نارسایی کلیه، کتواسیدوز دیابتی/الکلی/گرسنگی، لاکتیک اسیدوز، مسمومیت‌ها) و با شکاف آنیونی طبیعی (RTA، اسهال، DKA رو به بهبود، NaCl 0.9٪ زیاد و...)
+- شکاف آنیونی = Na − (HCO3 + Cl) (طبیعی 12 ± 4)؛ مقادیر بیش از 15 غیرطبیعی است
+- تنفس جبرانی طبیعی: PCO2 به ازای هر 1 mEq/L افت HCO3 حدود 1 mm Hg کم می‌شود
+
+@ddx
+- !Diabetic / alcoholic ketoacidosis | 
+- !Lactic acidosis (sepsis, shock, metformin, CO, cyanide) | 
+- !Toxic alcohols / salicylates | 
+- Renal failure (uremia) | 
+- Diarrhea / renal tubular acidosis | 
+
+@redflags
+- pH < 7.00–7.15 با علائم شوک یا تحریک‌پذیری میوکارد، HCO3 < 4
+
+@guide
+علت را درمان کن (برگرداندن پرفیوژن و اکسیژناسیون)؛ بررسی جبران تنفسی؛ الکترولیت‌ها؛ پادزهر یا درمان علت (سپسیس، DKA). بیکربنات برای ایست قلبی، DKA و لاکتیک اسیدوز فایده نشان نداده است (در کودکان DKA افزایش ادم مغزی)؛ فقط در اندیکاسیون‌های محدود.
+
+@variant metabolic-acidosis-main
+name: Metabolic acidosis (treat the cause)
+level: II
+imp: Metabolic acidosis
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: once
+cxr: PA
+
+@scenario
+مرد ۵۰ ساله با سپسیس، تنفس عمیق 28، pH برابر 7.2، HCO3 برابر 10 و شکاف آنیونی 24.
+
+@why
+درمان علت و برگرداندن پرفیوژن اصل است؛ بیکربنات فقط در اندیکاسیون‌های محدود.
+
+@L
+- ABG or VBG (pH, PCO2, HCO3), Cl, albumin, lactic acid, ketones, glucose, serum osmolality; urine electrolytes and drug levels of suspected ingestions as indicated
+- Anion gap = Na − (HCO3 + Cl)
+
+@T
+- Treat the underlying disorder, restoring normal tissue perfusion and oxygenation
+- Antidotes for toxins as appropriate; treat the underlying cause (sepsis, DKA)
+- Address electrolyte disturbances; correct any inadequate respiratory compensation
+- [severe hypobicarbonatemia HCO3 < 4; or pH < 7.00 to 7.15 in wide anion gap acidosis with shock or myocardial irritability unresponsive to ventilation and fluids; or severe hyperchloremic acidemia with serious hemodynamic insufficiency] Sodium bicarbonate 0.5 mEq/kg for each mEq/L rise desired in HCO3, given as slowly as the clinical situation permits; goal HCO3 > 8; 75 mL of 8.4% sodium bicarbonate in 500 mL D5W gives a nearly isotonic infusion
+
+@cond metabolic-alkalosis
+ch: 4
+name: Metabolic alkalosis
+name_fa: آلکالوز متابولیک
+cc: weakness, metabolic, nausea-vomiting
+keywords: alkalosis, chloride responsive, vomiting, diuretics, hydrochloric acid, hyperaldosteronism
+status: draft
+
+@features
+- ناشی از افزایش بیکربنات یا از دست رفتن اسید
+- ضعف، سرگیجه، میالژی، تپش، تهوع، پارستزی و اسپاسم؛ تتانی و تشنج شایع
+- حساس به کلر: استفراغ، اسهال، دیورتیک، بیماری‌های اتلاف کلر؛ مقاوم به کلر همراه فشارخون: تنگی شریان کلیوی، هیپرآلدوسترونیسم، کوشینگ و...
+- کاهش Ca یونیزه، K، Mg و فسفات
+
+@ddx
+- !Vomiting / diuretic use | 
+- Hyperaldosteronism / Cushing | 
+- Renal artery stenosis | 
+- Exogenous mineralocorticoids (licorice) | 
+
+@redflags
+- HCO3 بیش از 45 mmol/L با علائم جدی
+
+@guide
+علت را با حمایت دقیق درمان کن. در آلکالوز شدید (HCO3 > 45) همراه علائم جدی بی‌پاسخ به حمایت: HCl وریدی را در نظر بگیر.
+
+@variant metabolic-alkalosis-main
+name: Metabolic alkalosis
+level: II
+imp: Metabolic alkalosis
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: once
+cxr: none
+
+@scenario
+مردی ۵۵ ساله با استفراغ مکرر، ضعف و اسپاسم؛ HCO3 برابر 40.
+
+@why
+درمان علت و حمایت؛ HCl فقط در آلکالوز شدید مقاوم.
+
+@L
+- ABG or VBG, Cl, Ca, Mg, phosphate as needed
+
+@T
+- Treat the underlying cause with careful supportive care
+- [HCO3 > 45 mmol/L with serious signs or symptoms not responsive to supportive care] Consider IV hydrochloric acid {hi} {note: dose not given in the book}
+
+@cond respiratory-acidosis
+ch: 4
+name: Respiratory acidosis
+name_fa: اسیدوز تنفسی
+cc: dyspnea, altered-mental-status
+keywords: hypoventilation, hypercapnia, COPD, Pickwickian, sedation, NIV
+status: draft
+
+@features
+- هیپوونتیلاسیون آلوئولی؛ PCO2 بیش از مقدار مورد انتظار
+- تصویر بالینی با بیماری زمینه‌ای غالب است؛ افت عملکرد ذهنی، گیجی، خواب‌آلودگی و در نهایت بی‌هوشی
+- علل: ضربه به سر یا قفسه، بیماری ریه، آرام‌بخش زیاد، چاقی (Pickwickian)، COPD شدید
+- پالس اکسیمتری ممکن است گمراه‌کننده باشد: ABG ضروری است
+
+@ddx
+- !Excess sedation / opioid | 
+- !Head or chest trauma | 
+- Severe COPD | 
+- Obesity hypoventilation | 
+
+@redflags
+- pH زیر 7.25
+
+@guide
+تهویه آلوئولی را بهتر کن؛ اگر پاسخ نداد (به‌ویژه pH < 7.25) حمایت تهویه‌ای (اینتوباسیون یا NIV). علت را درمان کن.
+
+@variant resp-acidosis-main
+name: Respiratory acidosis
+level: I
+imp: Respiratory acidosis
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: portable
+
+@scenario
+مردی ۶۸ ساله با COPD شدید، خواب‌آلود، PCO2 برابر 85 و pH برابر 7.2.
+
+@why
+نیاز به بهبود تهویه آلوئولی؛ در pH زیر 7.25 حمایت تهویه‌ای.
+
+@L
+- ABG (essential; pulse oximetry may be misleading)
+
+@T
+- Improve alveolar ventilation
+- [inadequate response, particularly pH < 7.25] Ventilatory assistance: intubation or noninvasive ventilatory support
+- Treat the underlying disorder
+
+@cond respiratory-alkalosis
+ch: 4
+name: Respiratory alkalosis
+name_fa: آلکالوز تنفسی
+cc: dyspnea, chest-pain, dizziness-vertigo
+keywords: hyperventilation, anxiety, carpopedal spasm, paper bag
+status: draft
+
+@features
+- هیپروانتیلاسیون آلوئولی؛ PCO2 کمتر از مورد انتظار
+- سرگیجه، اسپاسم کارپوپدال و درد قفسه‌ای «فشارنده»
+- علل: تومور یا سکته CNS، عفونت، حاملگی، هیپوکسی، سموم (سالیسیلات)، اضطراب، درد، تهویه بیش از حد با ونتیلاتور
+
+@ddx
+- !Hypoxia / pulmonary embolism | 
+- !Salicylate toxicity | 
+- CNS lesion | 
+- Anxiety | تشخیص حذفی
+
+@redflags
+- علل تهدیدکننده حیات هیپرونتیلاسیون قبل از اضطراب باید رد شوند
+
+@guide
+علت را شناسایی و درمان کن. قبل از تشخیص اضطراب علل تهدیدکننده حیات را رد کن. تنفس در کیسه کاغذی را کنار بگذار (هیپوکسی)؛ آرام‌سازی کلامی مؤثرتر است.
+
+@variant resp-alkalosis-main
+name: Respiratory alkalosis
+level: II
+imp: Respiratory alkalosis
+cond: Urgent
+act: CBR
+diet: PO
+ecg: once
+cxr: PA
+
+@scenario
+زنی ۲۵ ساله با تنفس سریع، گزگز دور دهان و درد قفسه‌ای فشارنده؛ SpO2 99٪.
+
+@why
+علت را پیدا کن؛ تنفس در کیسه کاغذی را استفاده نکن.
+
+@L
+- ABG or VBG
+
+@T
+- Identify and treat the underlying cause; rule out life-threatening causes of hyperventilation before diagnosing anxiety
+- Calm reassurance (avoid "paper-bag" rebreathing: may lead to hypoxia)

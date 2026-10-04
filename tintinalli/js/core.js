@@ -37,12 +37,14 @@
   }
 
   TN.fluidText = fluidText;
+  TN.condLead = function (c) { return /^(if|when|or|alternatively|otherwise)\b/i.test(c) ? c.charAt(0).toUpperCase() + c.slice(1) : 'If ' + c; };
 
   /* Compose the full order set of one variant. Returns {header:[[k,v]], items:[{n,cat,t,why,fl,fixed}], text} */
   TN.compose = function (variant) {
     var v = variant, items = [], o = v.o || {};
     function add(cat, t, why, fl, fixed, key) { items.push({ cat: cat, t: t, why: why || '', fl: fl || [], fixed: !!fixed, key: key || '' }); }
-    function full(it) { return (it.if ? 'If ' + it.if + ': ' : '') + (it.t === '@fluid' ? fluidText(v.diet) : it.t); }
+    function body(it) { return it.t === '@fluid' ? fluidText(v.diet) : it.t; }
+    function full(it) { return (it.if ? TN.condLead(it.if) + ': ' : '') + body(it); }
     function extra(cat) { (o[cat] || []).forEach(function (it) { add(cat, full(it), it.why, it.fl); }); }
 
     add('N', 'IV line fix', FIXED_WHY.iv, [], true, 'iv');
@@ -55,7 +57,7 @@
     else if (v.cxr === 'portable') add('I', 'CXR (portable)', FIXED_WHY.cxr, [], true, 'cxr');
     extra('I');
     var labs = ['CBC', 'BUN', 'Cr', 'Na', 'K'], lfl = [], lwhy = [];
-    (o.L || []).forEach(function (it) { labs.push(full(it).replace(/^If (.*?): (.*)$/, '$2 (if $1)')); if (it.fl) lfl = lfl.concat(it.fl); if (it.why) lwhy.push(it.why); });
+    (o.L || []).forEach(function (it) { labs.push(body(it) + (it.if ? ' (' + (/^(if|when)\b/i.test(it.if) ? it.if : 'if ' + it.if) + ')' : '')); if (it.fl) lfl = lfl.concat(it.fl); if (it.why) lwhy.push(it.why); });
     add('L', labs.join(', '), FIXED_WHY.lab + (lwhy.length ? ' ' + lwhy.join(' ') : ''), lfl, true, 'lab');
     extra('S'); extra('A'); extra('T'); extra('Co');
 

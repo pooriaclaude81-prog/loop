@@ -18,4 +18,5 @@ Everything here is `status: draft` (pending physician review). Drug names and do
 - Chief complaints (`cc:`) use ids from `cc.txt`.
 
 ## Chapters done
+Section 1: ch 1-6 done
 (chapter numbers appended as they are committed)

@@ -1,0 +1,320 @@
+@cond pediatric-rsi
+ch: 3
+name: Pediatric emergent intubation (rapid sequence intubation)
+name_fa: اینتوباسیون اورژانس در کودکان (RSI)
+cc: airway-procedure, pediatric-respiratory
+keywords: pediatric RSI, etomidate, ketamine, propofol, rocuronium, succinylcholine, atropine, cuffed tube, length-based
+status: draft
+
+@features
+- راه هوایی کودک کوچک‌تر، بالاتر و قدامی‌تر است؛ اکسی‌پوت (occiput) برجسته و زبان و اپی‌گلوت نسبتاً بزرگ باعث انسداد در حالت خوابیده می‌شود
+- RSI با بیشترین موفقیت و کمترین عوارض همراه است؛ داروها در صورت نبود IV از راه IO قابل تجویز است
+- حجم جاری لازم 8 تا 10 mL/kg؛ حداقل حجم بگ 450 mL
+- اندازه لوله تقریبی: (سن به سال + 16) تقسیم بر 4؛ لوله بدون کاف تا 8 سالگی رایج است (کافدار هم قابل استفاده است)
+- پیش‌درمانی (premedication) دیگر به‌طور روتین در کودکان توصیه نمی‌شود
+
+@ddx
+- !Respiratory failure / hypoxia | 
+- !Shock | 
+- Asthma (ketamine preferred) | 
+- Sepsis (ketamine preferred) | 
+
+@redflags
+- برادی‌کاردی علامت‌دار رفلکسی حین لارنگوسکوپی (آتروپین)
+- نداشتن IV/IO کارآمد قبل از شروع
+
+@guide
+# منطق
+- آماده‌سازی: خط IV کارآمد، مانیتور و پالس‌اکسی‌متری، ساکشن روشن، چک لارنگوسکوپ.
+- پیش‌اکسیژناسیون با اکسیژن 100٪.
+- القا + شل‌کننده؛ کتامین داروی انتخابی در آسم و سپسیس؛ اتومیدیت پایداری همودینامیک را حفظ می‌کند.
+- فشار روی کریکوئید لازم نیست و می‌تواند مشکل ایجاد کند (در کودک نای نرم را مسدود می‌کند).
+
+@pearls
+- ساکسینیل‌کولین ممکن است در بیماری عصبی‌عضلانی تشخیص‌داده‌نشده ایست قلبی هیپرکالمیک بدهد.
+
+@variant peds-rsi-standard
+name: Pediatric RSI
+level: I
+imp: Pediatric respiratory failure needing intubation
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: none
+cxr: portable
+o2: O2 therapy: preoxygenate with 100% oxygen; thereafter if SpO2 < 94%, nasal cannula or face mask with flow by age and weight
+
+@scenario
+کودکی ۵ ساله با آسم شدید، خستگی و SpO2 82٪ با ماسک؛ کاهش هوشیاری دارد.
+
+@why
+RSI بیشترین موفقیت و کمترین عارضه را دارد؛ دوز دارو بر اساس وزن و کتامین در آسم انتخاب خوبی است.
+
+@N
+- Prepare all equipment: well-functioning IV line, cardiac monitor and oximetry, capnometry if available, check laryngoscope light, suction on and immediately available
+- Select tube size by resuscitation measuring tape (or (age in years + 16) / 4); Miller straight blade usually
+
+@T
+- Preoxygenate with 100% oxygen
+- Induction (choose one): Etomidate 0.3 mg/kg {note: may suppress the adrenal axis even after a single dose; requires analgesia/anxiolysis after intubation}
+- [alternatively, asthma or sepsis] Ketamine 1 to 2 mg/kg | Bronchodilator, preserves respiratory drive; drug of choice for asthma and sepsis.
+- [alternatively] Propofol 1 to 2 mg/kg rapid push, higher dose in infants {note: may cause hypotension}
+- Paralytic (choose one): Rocuronium 1 mg/kg
+- [alternatively] Succinylcholine under 10 kg 1.5 to 2.0 mg/kg; over 10 kg 1.0 to 1.5 mg/kg {note: may cause bradycardia and hyperkalemic arrest in undiagnosed neuromuscular disease}
+- [symptomatic reflex bradycardia] Atropine 0.02 mg/kg (minimum 0.1 mg, maximum 1 mg)
+- [after intubation, sedation] Midazolam 0.1 mg/kg or Lorazepam 0.1 mg/kg {hi}
+- [after intubation, analgesia] Fentanyl 1 to 2 μg/kg {hi} or Morphine 0.1 to 0.2 mg/kg {hi}
+- Confirm tube placement and secure it; cricoid pressure may not be needed (release if laryngoscopy is difficult)
+
+@cond pediatric-cardiac-arrest
+ch: 3
+name: Pediatric cardiac arrest and bradycardia (resuscitation)
+name_fa: ایست قلبی و برادی‌کاردی کودکان (احیا)
+cc: hypotension-shock, pediatric-respiratory
+keywords: pediatric arrest, PALS, epinephrine, intraosseous, IO, bradycardia, asystole, 15:2
+status: draft
+
+@features
+- ایست قلبی در کودکان اغلب ثانویه به هیپوکسی (ایست تنفسی) یا شوک است
+- شایع‌ترین ریتم ایست: برادی‌کاردی منجر به آسیستول؛ اکسیژناسیون و تهویه اغلب کافی است
+- اپی‌نفرین اولین انتخاب در برادی‌کاردی ناشی از هیپوکسی که به اکسیژن و تهویه پاسخ نمی‌دهد
+- دسترسی عروقی سریع و کم‌تهاجمی: وریدهای محیطی؛ IO (توبرکل تیبیا، 1 تا 3 cm زیر آن) سریع، ایمن و مطمئن؛ راه هوایی اولویت دارد و منتظر خط IV نباش
+- دوز دارو با وزن (یا روش مبتنی بر طول) تعیین می‌شود
+
+@ddx
+- !Hypoxia from respiratory arrest | 
+- !Shock (hypovolemia, sepsis) | 
+- Hypoglycemia | 
+- Hyperkalemia / toxic ingestion | 
+
+@redflags
+- ایست یا برادی‌کاردی با هیپوپرفیوژن
+
+@guide
+# منطق
+- راه هوایی: وضعیت sniffing، چین چانه، بگ‌ماسک؛ ریت تنفس 20 (شیرخوار) / 15 (کودک خردسال) / 10 (نوجوان).
+- مایع در هیپوتانسیون یا شوک: NS بولوس 20 mL/kg سریع و تکرار طبق پاسخ.
+- اپی‌نفرین: 0.01 mg/kg (0.1 mL/kg از 1:10,000) IV/IO هر 3–5 دقیقه.
+- قانون ۶: 6 mg × وزن (kg) در 100 mL D5W؛ سرعت mL/h برابر µg/kg/min.
+
+@pearls
+- اپی‌نفرین دوز بالا شواهدی ندارد و ممکن است نتیجه را بدتر کند.
+- بیکربنات و کلسیم در احیای روتین توصیه نمی‌شود.
+
+@variant peds-arrest-main
+name: Pediatric cardiac arrest or hypoxic bradycardia
+level: I
+imp: Pediatric cardiac arrest / bradycardia
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: portable
+o2: O2 therapy: 100% oxygen with bag-valve-mask, tidal volume 8 to 10 mL/kg
+
+@scenario
+شیرخواری ۸ ماهه با بیماری تنفسی، بدون پاسخ و با نبض 40 و کبودی؛ اکسیژنه کردن اولیه انجام شده است.
+
+@why
+علت اصلی هیپوکسی است: اکسیژن و تهویه اولویت دارند و اگر کافی نبود اپی‌نفرین داده می‌شود.
+
+@N
+- Vascular access in the quickest, least invasive way: peripheral vein first; intraosseous (proximal tibia, 1 to 3 cm below the tibial tuberosity) if not obtained quickly
+- Use a length-based system for weight when exact weight is unavailable
+
+@T
+- Bag-valve-mask ventilation (minimum bag volume 450 mL; tidal volume 8 to 10 mL/kg); rate 20/min infants beyond the neonatal period, 15/min young children, 10/min adolescents
+- Epinephrine 0.01 mg/kg (0.1 mL/kg of 1:10,000) IV/IO, repeat every 3 to 5 minutes (maximum 1 mg IV/IO) {hi}
+- [if no IV/IO] Epinephrine 0.1 mg/kg (0.1 mL/kg of 1:1000) via endotracheal tube (maximum 2.5 mg), followed by several positive-pressure ventilations {hi}
+- [bradycardia not responding to epinephrine] Atropine 0.02 mg/kg IV/IO (minimum single dose 0.1 mg, maximum single dose 0.5 mg child, 1 mg adolescent), repeat in 5 min; endotracheal 0.04 to 0.06 mg/kg diluted with NS to 3 to 5 mL
+- [persistent acidosis after effective ventilation, epinephrine and compressions] Sodium bicarbonate 1 mEq/kg IV/IO slowly
+- [documented hypocalcemia, calcium channel blocker overdose, hypermagnesemia or hyperkalemia] Calcium chloride 10% 20 mg/kg IV/IO (maximum 2 g) slowly, or calcium gluconate 60 to 100 mg/kg (0.6 to 1 mL/kg of 10%)
+- [hypoglycemia] Glucose: newborn 2 mL/kg D10W; infants and children 2 mL/kg D25W; adolescents 1 mL/kg D50W IV/IO
+
+@cond pediatric-svt-vt-vf
+ch: 3
+name: Pediatric tachydysrhythmias (SVT, VT, VF)
+name_fa: تاکی‌آریتمی‌های کودکان (SVT، VT، VF)
+cc: palpitations, pediatric-other
+keywords: pediatric SVT, adenosine 0.1 mg/kg, cardioversion J/kg, defibrillation 2 J/kg, amiodarone, lidocaine
+status: draft
+
+@features
+- SVT: دومین دیس‌ریتمی شایع؛ QRS باریک، ریت 250 تا 350، موج P غایب یا غیرطبیعی
+- تاکی‌کاردی سینوسی در شیرخواران تا 200–220 هم می‌رسد؛ موج P طبیعی به نفع سینوسی است و سابقه تب، دهیدراسیون یا شوک دارد، در SVT سابقه مبهم است
+- VF و VT در کودکان نادرند
+
+@ddx
+- !Sinus tachycardia (fever, dehydration, shock) | 
+- !Hypoxia-induced arrhythmia | 
+- SVT vs sinus tachycardia | موج P
+
+@redflags
+- ناپایداری همودینامیک با تاکی‌آریتمی
+
+@guide
+- SVT پایدار: آدنوزین 0.1 mg/kg بولوس سریع + فلاش NS؛ در صورت عدم پاسخ دوز دوبرابر.
+- SVT ناپایدار: کاردیوورژن سنکرون 0.5–1 J/kg، سپس 2 J/kg؛ سدیشن توصیه می‌شود.
+- VF/VT بی‌نبض: دفیبریلاسیون 2 J/kg، سپس 2 دقیقه CPR با کیفیت، شوک بعدی 4 J/kg.
+
+@variant peds-svt-stable
+name: Stable SVT
+level: II
+imp: Pediatric supraventricular tachycardia
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: once
+cxr: none
+o2: O2 therapy: if SpO2 < 94%, nasal cannula or face mask with flow by age and weight
+
+@scenario
+شیرخواری ۶ ماهه با بی‌قراری، رنگ‌پریدگی و نبض منظم 280؛ ECG QRS باریک بدون موج P واضح، فشار پایدار.
+
+@why
+برای SVT پایدار آدنوزین سریع توصیه می‌شود و دوز دوم دوبرابر است.
+
+@T
+- Adenosine 0.1 mg/kg IV/IO rapid push (maximum first dose 6 mg) followed by 2 to 5 mL NS bolus, through a well-functioning IV as close to the central circulation as possible {hi}
+- [first dose unsuccessful] Adenosine double dose (maximum second dose 12 mg), repeat once {hi}
+
+@variant peds-svt-unstable
+name: Unstable tachydysrhythmia, or VT/VF
+level: I
+imp: Pediatric unstable tachydysrhythmia / VF / VT
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: portable
+o2: O2 therapy: oxygen with bag-valve-mask, rates by age
+
+@scenario
+کودکی ۴ ساله با SVT و افت فشار؛ یا کودک بی‌نبض با VF.
+
+@why
+ناپایداری: کاردیوورژن سنکرون یا دفیبریلاسیون با دوز بر اساس وزن.
+
+@T
+- [unstable SVT] Synchronized cardioversion 0.5 to 1 J/kg; if not effective 2 J/kg; sedation before cardioversion is recommended
+- [VF or pulseless VT] Immediate defibrillation 2 J/kg; then 2 minutes of high-quality uninterrupted CPR (five cycles of 15:2); each subsequent attempt 4 J/kg
+- [unstable tachydysrhythmia] Synchronized cardioversion 0.5 J/kg, double to 1 J/kg if the first attempt fails
+- [refractory] Amiodarone 5 mg/kg IV/IO over 20 to 60 min, then 5 to 15 μg/kg/min infusion (maximum 15 mg/kg/day) {hi}
+- [refractory] Lidocaine 1 mg/kg IV/IO bolus (endotracheal: double the IV dose diluted with NS to 3 to 5 mL) {hi}
+- Epinephrine as for arrest; reassess oxygenation and acid-base status
+
+@cond pediatric-shock-fluids
+ch: 3
+name: Pediatric shock or hypotension (fluid resuscitation)
+name_fa: شوک یا افت فشار در کودکان
+cc: hypotension-shock, pediatric-other
+keywords: pediatric shock, 20 mL/kg bolus, normal saline, pressor, rule of 6s, dopamine, dobutamine
+status: draft
+
+@features
+- هیپوتانسیون یا شوک آشکار: بولوس مایع ایزوتونیک 20 mL/kg
+- اگر هیپوولمی اصلاح شد ولی شوک یا هیپوتانسیون ماند: داروی پرسور
+- تخمین وزن بر پایه طول خطای دوز را کم می‌کند
+
+@ddx
+- !Septic shock | 
+- !Hemorrhagic shock | 
+- Anaphylaxis | 
+- Cardiogenic shock | 
+
+@redflags
+- ادامه هیپوتانسیون بعد از بولوس مایع
+
+@guide
+NS 20 mL/kg سریع و تکرار طبق پاسخ؛ اگر شوک ادامه داشت پرسور. قانون ۶ برای انفوزیون دوپامین/دوبوتامین.
+
+@variant peds-shock-main
+name: Pediatric shock
+level: I
+imp: Pediatric shock / hypotension
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: portable
+o2: O2 therapy: oxygen by mask; if SpO2 < 94% flow by age and weight
+
+@scenario
+کودکی ۳ ساله با اسهال شدید، لبخشکی، نبض ضعیف 160 و فشار 70/40.
+
+@why
+شوک: بولوس 20 mL/kg سریع و تکرار؛ در صورت ادامه شوک بعد از اصلاح هیپوولمی پرسور.
+
+@T
+- Normal saline bolus 20 mL/kg IV/IO as rapidly as possible, repeat depending on clinical response
+- [shock or hypotension persists after hypovolemia corrected] Pressor agent: dopamine or dobutamine infusion by rule of 6s (6 mg × weight in kg, fill to 100 mL with D5W; mL/h = μg/kg/min) {hi}
+
+@cond neonatal-resuscitation
+ch: 3
+name: Neonatal resuscitation (emergency delivery or depressed newborn)
+name_fa: احیای نوزاد
+cc: pediatric-other
+keywords: newborn resuscitation, apnea, bag-mask, MR SOPA, umbilical vein catheter, epinephrine, meconium, 3:1
+status: draft
+
+@features
+- حدود ۶٪ نوزادان نیاز به نوعی حمایت حیاتی در اتاق زایمان دارند؛ اورژانس‌ها باید آماده باشند
+- گام اول حفظ دمای بدن (خشک کردن و گرم‌کن تابشی؛ زیر ۱۵۰۰ گرم کیسه پلی‌اتیلن)
+- ساکشن فقط در انسداد آشکار یا نیاز به ventilation فشار مثبت؛ ساکشن عمیق روتین توصیه نمی‌شود
+- مکونیوم: لوله‌گذاری و ساکشن نای حتی در نوزاد nonvigorous کمکی نمی‌کند
+- ارزیابی ضربان، تلاش تنفسی، رنگ و فعالیت در ۵–۱۰ ثانیه
+
+@ddx
+- !Apnea / bradycardia (HR < 100) | 
+- !Hypovolemia from blood loss | 
+- Meconium-stained fluid | 
+- Preterm (< 35 weeks) | 
+
+@redflags
+- ضربان کمتر از 60 با وجود تهویه کافی
+- پیش‌رس زیر ۳۵ هفته یا زیر ۱۵۰۰ گرم
+
+@guide
+# مراحل
+- آپنه یا HR < 100: بگ‌ماسک؛ شروع با هوای اتاق؛ ریت 40–60/min؛ فشار شروع 20–25 cm H2O با PEEP 5.
+- نبود بهبود: MR SOPA (Mask adjustment, Reposition, Suction, Open mouth, Pressure, Alternate airway) → لوله‌گذاری.
+- HR < 60 بعد از ≥30 ثانیه تهویه با لوله: ماساژ قلبی 90 فشار و 30 تنفس در دقیقه (3:1)؛ روش دو شست.
+- دارو: اپی‌نفرین؛ ورید نافی؛ حجم؛ بیکربنات و نالوکسان توصیه نمی‌شود.
+
+@pearls
+- رزوسیتاسیون نوزاد زیر ۳۵ هفته با اکسیژن 21–30٪ شروع شود.
+- نالوکسان دیگر برای نوزاد با افسردگی تنفسی توصیه نمی‌شود.
+
+@variant neonate-main
+name: Depressed newborn after delivery
+level: I
+imp: Neonatal resuscitation
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: none
+cxr: portable
+o2: O2 therapy: start resuscitation in room air; if HR < 60 after 90 seconds, increase to 100% oxygen until the heart rate normalizes
+
+@scenario
+نوزادی ترم که در اورژانس به دنیا آمده، آپنه است و ضربان 80 دارد.
+
+@why
+حفظ دما، تهویه با بگ‌ماسک و در صورت نیاز ماساژ و اپی‌نفرین؛ اغلب نوزادان با مدیریت راه هوایی پاسخ می‌دهند.
+
+@N
+- Dry the infant and place on a radiant warmer; [very low birth weight < 1500 g] torso and limbs in a polyethylene bag
+- Pulse oximetry or ECG monitoring as an adjunct
+- Suction mouth then nose with bulb syringe or mechanical suction only if obvious obstruction or positive-pressure ventilation is needed (no routine deep suctioning)
+- Vascular access peripherally or by umbilical vein catheter advanced 10 to 12 cm or until free flow of blood
+
+@T
+- Positive-pressure ventilation with bag-mask if apneic or heart rate < 100: rate 40 to 60 breaths/min, initial inflation pressure 20 to 25 cm H2O with PEEP 5 cm H2O (up to 30 to 40 cm H2O only with extreme caution if chest rise is inadequate)
+- [less than 35 weeks gestation] Start with 21 to 30% oxygen during positive-pressure ventilation; free-flow oxygen starts at 30%
+- [no heart-rate improvement] Corrective steps (MR SOPA): mask adjustment, reposition head, suction mouth and nose, open mouth, increase pressure, alternate airway; then endotracheal intubation
+- [labored breathing or desaturation persists even at 100% oxygen] Trial of CPAP
+- [heart rate < 60 after intubation and ventilation for at least 30 seconds] Chest compressions: 90 compressions and 30 breaths per minute (3:1), two-thumbs-encircling-hands technique
+- [heart rate < 60 despite adequate ventilation and oxygenation for 30 seconds and 60 seconds of compressions] Epinephrine 0.01 to 0.03 mg/kg of 1:10,000 (0.1 to 0.3 mL/kg) IV push, repeat every 3 to 5 minutes {hi}
+- [hypovolemia suspected] Normal saline 10 to 20 mL/kg (or type O/Rh negative blood); lactated Ringer's is not recommended
+- [significant metabolic acidosis guided by blood gas] Sodium bicarbonate 1 mEq/kg of a 4.2% solution (0.5 mEq/mL) IV
+- Naloxone is no longer recommended; tracheal intubation and suctioning for meconium is not helpful

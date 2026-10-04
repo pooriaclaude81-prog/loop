@@ -272,7 +272,7 @@
   /* ---- Order drill (L2) ---- */
   var drl = null;
   function vDrill() { return { html: '<p><a href="#/">← Home</a></p><h1>Order drill</h1><p>Build the orders for a case. Set Cond / Act / Diet / ECG / CXR, then put each real order into its NILSTATCo slot (N, I, L, S, A, T, Co) and leave wrong ones as “—”.</p><div id="dcard"><p class="mute">Loading…</p></div>', title: 'Order drill', after: function () { loadAll().then(function (all) { drl = { all: all }; newDrill(); }); } }; }
-  function rawItems(v) { var out = []; TN.CATS.forEach(function (cat) { (v.o[cat] || []).forEach(function (it) { out.push({ cat: cat, t: (it.if ? 'If ' + it.if + ': ' : '') + (it.t === '@fluid' ? TN.fluidText(v.diet) : it.t) }); }); }); return out; }
+  function rawItems(v) { var out = []; TN.CATS.forEach(function (cat) { (v.o[cat] || []).forEach(function (it) { out.push({ cat: cat, t: (it.if ? TN.condLead(it.if) + ': ' : '') + (it.t === '@fluid' ? TN.fluidText(v.diet) : it.t) }); }); }); return out; }
   function newDrill() {
     var box = $('#dcard'); if (!box) return;
     var ps = pairs(drl.all).filter(function (p) { return p.variant.sc && rawItems(p.variant).length >= 1; });

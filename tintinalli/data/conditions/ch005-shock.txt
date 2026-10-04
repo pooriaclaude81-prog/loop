@@ -1,0 +1,152 @@
+@cond shock-hypotension
+ch: 5
+name: Shock and the hypotensive patient (undifferentiated)
+name_fa: شوک و بیمار با افت فشار
+cc: hypotension-shock, weakness, altered-mental-status
+keywords: shock, hypotension, hypovolemic, cardiogenic, distributive, obstructive, vasopressor, crystalloid, PRBC, FFP, platelets, lactate, تروما، شوک
+status: draft
+
+@features
+- شوک: عدم تعادل بین عرضه و مصرف اکسیژن بافتی؛ چهار دسته: هیپوولمیک، کاردیوژنیک، توزیعی (نوروژنیک، آنافیلاکسی) و انسدادی
+- علائم غیراختصاصی: ضعف، بی‌حالی، تغییر هوشیاری
+- BP پایین (SBP < 90) معمول است ولی حساس نیست؛ شوک بدون افت فشار و افت فشار بدون شوک ممکن است
+- تاکی‌کاردی معمول؛ برادی‌کاردی در ورزشکار جوان، خونریزی داخل شکم، بتابلوکر/دیگوکسین، هیپوگلیسمی
+- فشار نبض (pulse pressure) حساس‌تر است
+- لاکتات بالا، اسیدوز متابولیک؛ در ابتدا آلکالوز تنفسی؛ هیپرگلیسمی/هیپوگلیسمی/هیپرکالمی
+
+@ddx
+- !Hemorrhage (trauma, GI bleeding, ruptured ectopic, occult abdominal/pelvic bleeding) | 
+- !Cardiogenic shock (MI) | 
+- !Sepsis | 
+- !Cardiac tamponade | 
+- !Tension pneumothorax | 
+- Adrenal insufficiency | 
+- Anaphylaxis / toxic or allergic reaction | 
+- Drug effect (diuretics, beta-blockers) | 
+
+@redflags
+- عدم پاسخ به احیای اولیه: علل مخفی (تامپوناد، پنوموتوراکس فشارنده، نارسایی آدرنال، خونریزی مخفی)
+- پرسور زودرس ممکن است هیپوولمی ادامه‌دار را بپوشاند
+
+@guide
+# اصول
+- هدف: برگرداندن پرفیوژن بافتی همراه با شناسایی علت.
+- ABC: اینتوباسیون زودهنگام در موارد لازم؛ داروهای آرام‌بخش و ventilation فشار مثبت می‌توانند پیش‌بار را کم کنند.
+- اکسیژن با جریان بالا؛ SaO2 > 93٪ و PaCO2 35–40.
+- دو رگ بزرگ؛ وضعیت Trendelenburg کمکی نمی‌کند؛ بالا بردن پاها (passive leg raising) مؤثر است.
+- مایع: 20–40 mL/kg طی 10–20 دقیقه؛ کریستالوئید ترجیح دارد؛ در خونریزی حاد حدود سه برابر خون از دست‌رفته.
+- خون: ایده‌آل؛ نسبت PRBC:FFP:پلاکت نزدیک به 1:1:1 در تروما.
+- پرسور فقط بعد از حجم کافی.
+
+@pearls
+- بدون پاسخ مناسب: تامپوناد، پنوموتوراکس، نارسایی آدرنال، مسمومیت یا واکنش آلرژیک، خونریزی مخفی را در نظر بگیر.
+- اولتراسوند کنار تخت: نمای ساب‌کوستال و parasternal قلب، IVC، RUQ، لگن و آئورت شکمی.
+
+@variant shock-initial
+name: Undifferentiated shock, initial resuscitation
+level: I
+imp: Shock / hypotension
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: portable
+
+@scenario
+مردی ۵۵ ساله با ضعف و کاهش هوشیاری؛ فشار 78/40، نبض 118، پوست سرد و خیس؛ علت مشخص نیست.
+
+@why
+بیمار نیاز به احیای فوری و هم‌زمان جستجوی علت دارد؛ مانیتور، دسترسی وریدی بزرگ، اکسیژن و مایع.
+
+@N
+- Large-bore peripheral IV lines; central venous access aids assessing volume status (preload) and ScvO2 monitoring (ultrasound guidance helpful)
+- Continuous monitoring of vital signs (pulse oximetry, end-tidal CO2; central venous pressure and ScvO2 may be indicated)
+- Passive leg raising above the level of the heart with the patient supine (Trendelenburg position is not beneficial)
+- Direct compression for external hemorrhage
+
+@I
+- Bedside ultrasound: subcostal and parasternal long-axis and apical four-chamber cardiac views, inferior vena cava, right upper quadrant, pelvic and abdominal aorta
+- [as the etiology requires] CT scans (chest, head, abdomen, pelvis), echocardiogram, abdominal radiograph
+
+@L
+- Platelet count, PT, PTT
+- Urinalysis
+- ABG, lactic acid
+- [as indicated] fibrinogen, fibrin split products, D-dimer, cortisol, hepatic function panel, cultures of potential sources of infection, CSF studies
+- Pregnancy test in all females of childbearing potential
+
+@S
+- Isotonic crystalloid (0.9% NaCl or Ringer lactate) 20 to 40 mL/kg given rapidly over 10 to 20 minutes (about three times the estimated blood loss in acute hemorrhagic shock)
+
+@T
+- Supplemental high-flow oxygen; restore arterial saturation to > 93%; ventilation controlled to PaCO2 35 to 40 mm Hg
+- [aggressive airway control indicated] Endotracheal intubation; if mechanically ventilated, use neuromuscular blocking agents to decrease lactic acidosis from muscle fatigue {note: sedatives and positive pressure ventilation may reduce preload and cardiac output}
+- [severe acidosis refractory to ventilation and fluids] Sodium bicarbonate 1 mEq/kg; correct only to arterial pH 7.25 {note: controversial}
+
+@Co
+- Early surgical consultation for internal bleeding; early surgical or medical consultation for admission or transfer
+
+@variant shock-hemorrhagic
+name: Hemorrhagic shock (blood and component therapy)
+level: I
+imp: Hemorrhagic shock
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: portable
+
+@scenario
+مردی ۳۰ ساله با ضربه به شکم، فشار 70/40 و نبض 130؛ بعد از دو لیتر کریستالوئید همچنان ناپایدار است.
+
+@why
+خون بهترین مایع احیاست؛ فرآورده‌ها بر اساس خونریزی و آزمایش‌های انعقادی و نسبت‌های نزدیک 1:1:1 در تروما داده می‌شوند.
+
+@I
+- Bedside ultrasound (RUQ, pelvic, aorta, cardiac)
+
+@L
+- Coagulation parameters monitored frequently; platelet count
+
+@S
+- Isotonic crystalloid 20 to 40 mL/kg rapidly while blood is prepared
+
+@T
+- Packed RBCs: fully cross-matched when possible; if more rapid intervention is needed type-specific or type O (Rh-negative for females of childbearing years)
+- [ongoing hemorrhage and platelet count 50,000/mm3 or lower] Platelets 6 units initially
+- [prothrombin time prolonged beyond 1.5 seconds] FFP 2 units initially
+- [multiple units of PRBC in trauma] FFP and platelets early in ratios approaching 1:1:1 (fresh whole blood has also been advocated)
+- Control external bleeding by direct compression
+
+@Co
+- Surgery (early, internal bleeding)
+
+@variant shock-vasopressors
+name: Persistent hypotension after adequate volume
+level: I
+imp: Shock with persistent hypotension after volume resuscitation
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: portable
+
+@scenario
+زنی ۶۰ ساله با سپسیس، پس از 30 mL/kg کریستالوئید هنوز فشار 75/40 دارد.
+
+@why
+پرسور فقط بعد از حجم کافی و ادامه هیپوتانسیون؛ هدف‌های هموداینامیک راهنمای درمان است.
+
+@S
+- Further crystalloid as required by response (objective hemodynamic targets)
+
+@T
+- Vasopressor after appropriate volume resuscitation (one of): Dobutamine 2.0 to 20.0 μg/kg/min {hi}
+- [alternatively] Dopamine 5.0 to 20.0 μg/kg/min {hi}
+- [alternatively] Norepinephrine 0.5 to 30.0 μg/min {hi}
+- [alternatively] Epinephrine 2.0 to 10.0 μg/min {hi}
+- Goal-directed targets in ED resuscitation of septic shock: urine output > 0.5 mL/kg/h, CVP 8 to 12 mm Hg, MAP 65 to 90 mm Hg, ScvO2 > 70%
+- Central venous access is the preferred route for long-term vasopressor therapy
+
+@Co
+- ICU / early surgical or medical consultation for admission or transfer
