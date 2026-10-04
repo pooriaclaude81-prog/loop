@@ -1,0 +1,332 @@
+@cond ankle-sprain-tendon
+ch: 175
+name: Ankle sprain / ligament injury and Achilles tendon rupture
+name_fa: رگ‌به‌رگ‌شدگی مچ پا / آسیب لیگامان و پارگی تاندون آشیل
+cc: limb-injury, joint-limb-pain
+keywords: ankle sprain, Ottawa ankle rules, Achilles tendon rupture, Thompson test, syndesmosis, Maisonneuve, anterior drawer, talar tilt, PRICE, پیچ‌خوردگی مچ پا, قوانین اتاوا, آشیل
+status: draft
+
+@features
+- تاندون: peroneal (hyperdorsiflexion)، آشیل (plantarflexion ناگهانی)؛ آشیل: درد شدید، ناتوان در toe walk، دویدن، پله؛ Thompson مثبت
+- رگ‌به‌رگ‌شدگی: inversion / eversion؛ شایع‌ترین: anterior talofibular؛ دلتوئید مدیال نادر و مرتبط با Maisonneuve یا syndesmosis
+- معاینه: مفاصل بالا و پایین؛ تندرنس فیبولای پروگزیمال، squeeze test (سندسموز)، تندرنس خلف مالئول لترال ← subluxation تاندون peroneal
+- Ottawa Ankle Rules (شکل 175-1): گرافی فقط اگر درد ناحیه مالئولار یا میدفوت + تندرنس استخوانی در یکی از 4 نقطه (لبه خلفی/نوک مالئول لترال، مدیال، قاعده متاتارس پنجم، navicular) یا ناتوان در تحمل وزن (فوراً و در ED)
+- ثبات: anterior drawer، talar tilt؛ استرس تست ناممکن = بالقوه ناپایدار؛ عدم تقارن فاصله talar dome و مالئول در گرافی = ناپایدار
+- جدول 175-1: Maisonneuve، peroneal subluxation، osteochondral، syndesmosis tear، شکستگی anterior calcaneal process، lateral talar process، os trigonum
+
+@ddx
+- !Fracture (ankle / fifth metatarsal / Maisonneuve) |
+- !Neurovascular compromise |
+- Achilles tendon rupture |
+- Syndesmosis injury |
+
+@redflags
+- نبض مختل، ناپایداری مفصل، Thompson مثبت
+
+@guide
+1) Ottawa rules. 2) مفصل پایدار و قادر تحمل وزن: elastic bandage یا ankle brace، PRICE تا 72 ساعت، ضددرد، ورزش حرکتی در 48–72 ساعت؛ درد > 1 هفته: ارتوپدی. 3) پایدار ولی ناتوان در تحمل وزن: brace، crutches، ارتوپدی. 4) ناپایدار: posterior splint، crutches، ارجاع به‌موقع. 5) آشیل: splint در plantar flexion، crutches non-weightbearing، ارجاع زودرس.
+
+@variant ankle-sprain-stable
+name: Ankle sprain — stable joint, able to bear weight
+level: III
+imp: Ankle sprain
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مرد ۲۵ ساله پس از پیچ‌خوردگی مچ، تورم خفیف، قادر به راه رفتن.
+
+@why
+Ottawa rule و PRICE.
+
+@I
+- Ankle radiographs only if Ottawa Ankle Rules positive
+
+@L
+- Not routinely required beyond fixed set
+
+@S
+- Analgesics
+
+@T
+- Elastic bandage or ankle brace, rest, ice, compression, elevation (PRICE) up to 72 hours; motion and strength exercises within 48–72 hours
+
+@Co
+- Orthopedic follow-up if pain persists beyond one week
+
+@variant ankle-sprain-unstable
+name: Ankle sprain — unstable joint / unable to bear weight / Achilles tendon rupture
+level: II
+imp: Unstable ankle sprain / Achilles tendon rupture
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مرد ۴۵ ساله حین ورزش با «pop» پشت پاشنه و Thompson مثبت.
+
+@why
+splint در plantarflexion، non-weight-bearing.
+
+@I
+- Ankle radiographs including mortise / talus views (symmetry of talar-malleolar gap), fibula films for Maisonneuve; ultrasound or MRI if Achilles diagnosis unclear
+
+@L
+- Not routinely required beyond fixed set
+
+@S
+- Analgesics
+
+@T
+- Unstable joint: posterior splint, crutches; unable to bear weight: ankle brace, crutches; Achilles rupture: splint in plantar flexion, nonweightbearing with crutches
+
+@Co
+- Timely orthopedic referral (Achilles: early referral for possible operative repair)
+
+@cond ankle-dislocation-fracture
+ch: 175
+name: Ankle dislocation and ankle fractures (uni-, bi-, trimalleolar, open)
+name_fa: دررفتگی و شکستگی مچ پا (یک، دو، سه مالئول، باز)
+cc: limb-injury, trauma-major
+keywords: ankle dislocation, bimalleolar fracture, trimalleolar fracture, open ankle fracture, posterior splint, ORIF, دررفتگی مچ پا, شکستگی مچ
+status: draft
+
+@features
+- دررفتگی خلفی: شایع‌ترین؛ نیروی عقب روی پای plantarflexed؛ پارگی tibiofibular یا شکستگی لترال مالئول
+- کاهش فوری اگر مختل شدن عروق (نبض غایب یا پای تیره) یا skin tenting: ضددرد/sedation؛ پاشنه و پا با دو دست، کشش axial و هم‌راستاسازی؛ پس از کاهش: وضعیت نوروواسکولار، splint، گرافی، مشاوره فوری ارتوپدی
+- شکستگی: unimalleolar، bimalleolar، trimalleolar؛ bi- و tri- نیاز ORIF؛ ED: کاهش، posterior splint، elevation، یخ، مشاوره
+- unimalleolar: non-weightbearing و posterior splint؛ avulsion فیبولا < 3 mm مثل سالنج
+- باز: کاهش اولیه، پانسمان استریل مرطوب، splint، کزاز، cefazolin 1 g IV، مشاوره فوری ارتوپدی
+- ممکن occult (جدول 175-1)
+
+@ddx
+- !Vascular compromise |
+- !Open fracture |
+- Maisonneuve fracture |
+- Syndesmosis tear |
+
+@redflags
+- پای تیره/نبض غایب، skin tenting، شکستگی باز
+
+@guide
+دررفتگی با اختلال عروقی: کاهش فوری. باز: cefazolin 1 g IV و مشاوره فوری.
+
+@variant ankle-dislocation-main
+name: Ankle dislocation / open fracture (immediate reduction, consult)
+level: I
+imp: Ankle dislocation / open ankle fracture
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: none
+
+@scenario
+زن ۳۵ ساله پس از سقوط با دفورمیتی مچ، پای تیره و نبض ضعیف.
+
+@why
+کاهش فوری و مشاوره.
+
+@I
+- Ankle radiographs (AP, lateral, mortise) before and after reduction
+
+@L
+- Type and screen, coagulation studies
+
+@S
+- Analgesia and procedural sedation
+
+@A
+- Open fracture: cefazolin 1 g IV (first-generation cephalosporin) {ci: cephalosporin allergy}
+
+@T
+- Reduce immediately if vascular compromise or skin tenting (heel and foot grasped, axial traction); wet sterile dressing and splint for open fracture; tetanus toxoid as necessary; post-reduction neurovascular check; posterior splint; elevation, ice
+
+@Co
+- Immediate orthopedic consultation
+
+@variant ankle-fracture-closed
+name: Closed ankle fracture (uni-, bi-, trimalleolar)
+level: II
+imp: Closed ankle fracture
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: none
+cxr: none
+
+@scenario
+زن ۵۰ ساله پس از لغزش با تورم و درد مالئول لترال و ناتوان در تحمل وزن.
+
+@why
+گرافی؛ bi/tri مالئولار ← ORIF.
+
+@I
+- Ankle radiographs (AP, lateral, mortise); CT for suspected occult injury
+
+@L
+- Not routinely required beyond fixed set
+
+@S
+- Analgesia
+
+@T
+- Reduce as needed; posterior splint; elevation; ice; nonweightbearing; minimally displaced avulsion fibular fractures (< 3 mm) managed like sprains
+
+@Co
+- Orthopedic consultation (bimalleolar / trimalleolar: ORIF); unimalleolar: non-weightbearing and posterior splint
+
+@cond foot-injuries
+ch: 175
+name: Foot injuries (calcaneus, talus, Lisfranc, metatarsal / Jones, phalanx)
+name_fa: آسیب‌های پا (کالکانئوس، تالوس، Lisfranc، متاتارس / Jones، فالانکس)
+cc: limb-injury, joint-limb-pain
+keywords: calcaneal fracture, Boehler angle, talus fracture, Lisfranc injury, Jones fracture, metatarsal fracture, toe fracture, stress fracture, navicular, cuboid, شکستگی کالکانئوس, لیسفرانک, جونز
+status: draft
+
+@features
+- ناحیه‌ها: hindfoot، midfoot (مفصل Chopart)، forefoot (مفصل Lisfranc)؛ توجه به قاعده متاتارس پنجم و دوم؛ اگر گرافی ناتشخیصی ← CT برای Lisfranc
+- کالکانئوس: نیروی زیاد، آسیب‌های همراه؛ زاویه Boehler (لترال) < 20° ← شکستگی؛ posterior splint، elevation، ضددرد، مشاوره؛ avulsion کوچک تالوس: posterior splint و ارجاع؛ subtalar dislocation و شکستگی ماژور گردن/بدنه تالوس: مشاوره فوری
+- Lisfranc: درد TMT با پیچش میدفوت؛ شکستگی قاعده متاتارس دوم؛ فاصله > 1 mm بین قاعده متاتارس 1 و 2 = ناپایدار؛ CT اگر گرافی ناتشخیصی؛ navicular/cuboid/cuneiform ایزوله نادر و محافظه‌کارانه
+- متاتارس شفت بدون جابه‌جایی: posterior splint یا کفش ارتوپدی؛ > 3–4 mm جابه‌جایی: جراحی؛ pseudo-Jones (avulsion tuberosity متاتارس پنجم): walking cast؛ true Jones (اتصال متافیز-دیافیز پنجم): non-weightbearing cast و ارجاع (احتمال جراحی)؛ فالانکس بدون جابه‌جایی: buddy taping و کفش سخت؛ جابه‌جایی‌دار/دررفتگی: digital block، کشش دستی، buddy taping
+- جدول 175-2: calcaneal (plain، Boehler، CT؛ NWBS، RICE؛ intra-articular فوری، extra-articular زودرس)؛ talus (CT؛ خطر AVN)؛ Lisfranc (CT؛ splint؛ فوری)؛ navicular/cuboid/cuneiform (plain یا CT؛ splint)؛ Jones؛ stress fracture (قطع فعالیت؛ ورزشکار: احتمال جراحی)؛ باز: ارتوپدی در ED، پیشنهاد آنتی‌بیوتیک و Td
+
+@ddx
+- !Compartment syndrome (calcaneal) |
+- !Lisfranc injury (missed) |
+- !Open fracture |
+- Ankle injury |
+
+@redflags
+- Lisfranc، talus، calcaneus با نیروی زیاد، شکستگی باز، اختلال عروقی
+
+@guide
+جدول 175-2: همه بیماران آنالژزی کافی؛ splint کافی padding؛ NWBS و RICE.
+
+@variant foot-injury-major
+name: Major foot injury — calcaneus / talus / Lisfranc / open fracture
+level: II
+imp: Major foot fracture (calcaneus / talus / Lisfranc)
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: none
+cxr: none
+
+@scenario
+مرد ۳۰ ساله پس از سقوط از ارتفاع با درد پاشنه و ناتوانی در تحمل وزن.
+
+@why
+گرافی/CT، splint، مشاوره.
+
+@I
+- Foot radiographs including lateral (Boehler angle < 20° suggests calcaneal fracture); CT for talus, Lisfranc and subtle findings
+
+@L
+- Not routinely required beyond fixed set
+
+@S
+- Analgesia
+
+@A
+- Open fractures of any kind: consider antibiotics, tetanus (Td)
+
+@T
+- Posterior splint (well padded), elevation, non-weightbearing, RICE
+
+@Co
+- Immediate orthopedic consultation (intra-articular calcaneal, major talus, subtalar dislocation, Lisfranc, open fractures in ED); early referral for minor injuries (within 2 weeks)
+
+@variant foot-injury-minor
+name: Forefoot injury — metatarsal / Jones / toe fracture
+level: III
+imp: Metatarsal / phalanx fracture
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+زن ۳۰ ساله با درد کنار خارجی پا پس از پیچ خوردن؛ تندرنس قاعده متاتارس پنجم.
+
+@why
+تشخیص pseudo-Jones یا Jones و درمان مناسب.
+
+@I
+- Foot radiographs (base of fifth metatarsal, base of second metatarsal); plain films or CT for athletes / Lisfranc concern
+
+@L
+- Not routinely required beyond fixed set
+
+@S
+- Analgesics
+
+@T
+- Nondisplaced metatarsal shaft: posterior splint or orthopedic shoe; pseudo-Jones: walking cast; true Jones: nonweightbearing cast; nondisplaced phalanx: buddy taping and stiff-sole shoe; displaced phalanx / dislocation: digital block, manual traction reduction, buddy taping; stress fracture: cessation of activity
+
+@Co
+- Orthopedic follow-up (true Jones within a week for a cast; metatarsal > 3–4 mm displacement needs surgical reduction)
+
+@cond compartment-syndrome
+ch: 176
+name: Compartment syndrome
+name_fa: سندرم کمپارتمان
+cc: limb-injury, joint-limb-pain, trauma-major
+keywords: compartment syndrome, fasciotomy, compartment pressure, delta pressure, pain with passive stretch, tibial fracture, crush injury, سندرم کمپارتمان, فاسیوتومی, فشار کمپارتمان
+status: draft
+
+@features
+- فشار بالا در کمپارتمان عضلانی ← اختلال عملکرد و گردش؛ شایع‌ترین: ساق و ساعد؛ علل (جدول 176-1): ارتوپدیک (شکستگی تیبیا و ساعد)، عروقی (ischemia-reperfusion، خونریزی)، iatrogenic (پانکچر عروق در anticoagulated، تزریق IV/intra-arterial، گچ محدودکننده)، نسج نرم (فشار طولانی، crush، سوختگی)، هماتولوژیک (هموفیلی، وارفارین)
+- درد شدید و مشکل‌کنترل، درد خارج از تناسب، درد با کشش پاسیو؛ اختلال عصبی (سوزش/دیزستزی)؛ ضعف حرکتی؛ کمپارتمان متورم، سفت، تندر
+- نبض دیستال، دما و رنگ اغلب طبیعی (فشار بافتی معمولاً از فشار شریانی بیشتر نمی‌شود)؛ شروع چند ساعت تا 48 ساعت پس از آسیب
+- تشخیص عمدتاً بالینی؛ اندازه‌گیری مستقیم فشار در شک یا بیمار obtunded/sedated؛ طبیعی < 10 mmHg؛ 30–50 mmHg مضر اگر ساعت‌ها؛ delta pressure (diastolic − tissue) ≤ 30 mmHg تشخیصی؛ هیپوتانسیو تحمل کمتر
+- پیامد خوب اگر تشخیص و درمان < 6 ساعت؛ فاسیوتومی پس از 24–48 ساعت ممکن بی‌اثر
+
+@ddx
+- !Fracture / hematoma / infection |
+- !Arterial occlusion |
+- Nerve injury |
+
+@redflags
+- درد خارج از تناسب، درد با کشش پاسیو، کمپارتمان سفت و متورم
+
+@guide
+تأیید ← فاسیوتومی جراحی؛ بستری OR یا inpatient با معاینات سریال. تا زمان تعیین‌تکلیف: O2 مکمل، اصلاح هیپوتانسیون، برداشتن گچ/پانسمان محدودکننده، قرار دادن اندام در سطح قلب؛ برگرداندن anticoagulation و جایگزینی فاکتور در هموفیلی.
+
+@variant compartment-syndrome-main
+name: Compartment syndrome (fasciotomy)
+level: I
+imp: Compartment syndrome
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: none
+o2: Supplemental oxygen
+
+@scenario
+مرد ۲۵ ساله پس از شکستگی تیبیا با درد غیرقابل‌کنترل ساق، درد با کشش پاسیو و کمپارتمان سفت.
+
+@why
+فاسیوتومی؛ تأخیر > 6 ساعت = پیامد بد.
+
+@I
+- Compartment pressure measurement if diagnosis in doubt or obtunded / sedated patient (normal < 10 mmHg; delta pressure ≤ 30 mmHg); radiographs for associated fracture
+
+@L
+- Coagulation studies (anticoagulated patients: reverse; hemophilia: factor levels)
+
+@S
+- Analgesia; correct hypotension
+
+@T
+- Supplemental oxygen; remove constrictive casts or dressings; place affected limb at level of the heart; reverse anticoagulation in anticoagulated patients, replace factor levels in hemophiliacs; NPO for surgery
+
+@Co
+- Emergent surgical fasciotomy (orthopedics / trauma / vascular); admit to operating room or inpatient service for serial examinations

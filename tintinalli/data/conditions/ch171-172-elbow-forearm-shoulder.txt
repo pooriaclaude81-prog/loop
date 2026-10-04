@@ -1,0 +1,642 @@
+@cond biceps-triceps-tendon-rupture
+ch: 171
+name: Biceps and triceps tendon rupture
+name_fa: پارگی تاندون دوسر و سه‌سر بازو
+cc: limb-injury, joint-limb-pain
+keywords: biceps tendon rupture, triceps tendon rupture, biceps squeeze test, modified Thompson test, popeye deformity, پارگی تاندون بایسپس, تریسپس
+status: draft
+
+@features
+- پارگی پروگزیمال سر بلند بایسپس: "snap" یا "pop" و درد شانه قدامی؛ تندرنس، تورم، کرپیتوس روی شیار بایسیپیتال؛ "توپ" وسط بازو با فلکسیون آرنج؛ قدرت فلکسیون حفظ (brachialis و supinators)
+- پارگی دیستال بایسپس: ضعف فلکسیون و سوپیناسیون آرنج؛ تورم، اکیموز، تندرنس، عدم لمس تاندون در antecubital fossa؛ biceps squeeze test (عدم سوپیناسیون = مثبت)
+- پارگی تریسپس: نادر، اغلب دیستال؛ درد، تورم، تندرنس پروگزیمال olecranon، sulcus با توده پروگزیمال؛ ضعف اکستنشن؛ modified Thompson test
+- تشخیص بالینی؛ گرافی برای رد شکستگی avulsion
+
+@ddx
+- Avulsion fracture |
+- Rotator cuff / shoulder pathology |
+
+@redflags
+- ضعف شدید فلکسیون/سوپیناسیون یا اکستنشن آرنج
+
+@guide
+Sling، یخ، ضددرد، ارجاع ارتوپدی (1 هفته)؛ پارگی کامل در جوان فعال اغلب ترمیم جراحی.
+
+@variant tendon-rupture-main
+name: Biceps / triceps tendon rupture
+level: III
+imp: Biceps / triceps tendon rupture
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مرد ۴۰ ساله با «pop» حین بلند کردن وزنه و توده وسط بازو.
+
+@why
+تشخیص بالینی؛ sling و ارجاع.
+
+@I
+- Elbow / shoulder radiographs to exclude associated avulsion fracture
+
+@L
+- Not routinely required beyond fixed set
+
+@S
+- Analgesia
+
+@T
+- Sling immobilization; ice
+
+@Co
+- Orthopedic referral in 1 week (complete tears in young active patients often need surgical repair)
+
+@cond epicondylitis
+ch: 171
+name: Lateral / medial epicondylitis (tennis elbow / golfer's elbow)
+name_fa: اپی‌کندیلیت جانبی / داخلی (آرنج تنیس‌بازان / گلف‌بازان)
+cc: joint-limb-pain, limb-injury
+keywords: tennis elbow, golfer elbow, lateral epicondylitis, medial epicondylitis, آرنج تنیس, اپی‌کندیلیت
+status: draft
+
+@features
+- جانبی (شایع‌تر): اکستانسورهای ساعد و مچ؛ داخلی: فلکسورها؛ داخلی ممکن است با نوروپاتی اولنار همراه شود؛ ناشی از فعالیت تکراری
+- تشخیص بالینی؛ گرافی برای رد avulsion اپی‌کندیل
+
+@ddx
+- Avulsion fracture of epicondyle |
+- Ulnar neuropathy |
+
+@redflags
+- ندارد (خوش‌خیم)
+
+@guide
+درمان محافظه‌کارانه: استراحت، یخ، ضدالتهاب، بریس؛ کاردرمانی؛ جراحی فقط موارد مقاوم.
+
+@variant epicondylitis-main
+name: Epicondylitis
+level: III
+imp: Lateral / medial epicondylitis
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+زن ۴۵ ساله با درد جانبی آرنج پس از فعالیت تکراری.
+
+@why
+درمان محافظه‌کارانه.
+
+@I
+- Radiographs only if avulsion fracture suspected
+
+@L
+- Not routinely required beyond fixed set
+
+@S
+- Anti-inflammatory medication
+
+@T
+- Rest, ice, forearm counterforce brace; occupational therapy
+
+@Co
+- Follow-up 2–4 weeks or PRN; surgery reserved for refractory cases
+
+@cond elbow-dislocation
+ch: 171
+name: Elbow dislocation
+name_fa: دررفتگی آرنج
+cc: limb-injury, trauma-major
+keywords: elbow dislocation, posterior elbow dislocation, brachial artery injury, reduction, long arm posterior splint, دررفتگی آرنج
+status: draft
+
+@features
+- اغلب پوسترولترال پس از FOOSH؛ آرنج 45° فلکسیون؛ تورم، olecranon خلفی؛ ارزیابی نوروواسکولار اساسی (جدول 171-1)
+- عوامل آسیب شریانی: دررفتگی باز، نبض رادیال غایب قبل کاهش، آسیب سیستمیک
+- گرافی: لترال هر دو استخوان به خلف؛ AP جابه‌جایی داخلی/جانبی؛ شکستگی همراه (radial head، coronoid) ← ناپایداری
+- هدف: کاهش با sedation، تشخیص عوارض نوروواسکولار، شکستگی همراه و ناپایداری پس از کاهش؛ lidocaine داخل‌مفصلی
+- روش‌ها: دو نفره کشش و فلکسیون، دستکاری olecranon، یک نفره hanging arm با وزنه 5 lb
+- پس از کاهش: ROM کامل برای ثبات، معاینه نوروواسکولار، گرافی، long arm posterior splint (کمی کمتر از 90° فلکسیون، پروناسیون خفیف)، پیگیری ارتوپدی 1 روز
+
+@ddx
+- !Supracondylar fracture |
+- !Brachial artery injury |
+
+@redflags
+- نبض رادیال غایب، دررفتگی باز، ناپایداری
+
+@guide
+1) گرافی. 2) sedation یا lidocaine داخل‌مفصلی. 3) کاهش. 4) ROM و معاینه نوروواسکولار. 5) گرافی پس از کاهش. 6) اسپلینت.
+
+@variant elbow-dislocation-main
+name: Elbow dislocation — reduction and splint
+level: II
+imp: Elbow dislocation
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: none
+cxr: none
+
+@scenario
+مرد ۲۰ ساله پس از سقوط روی دست باز با دفورمیتی آرنج، نبض رادیال لمس می‌شود.
+
+@why
+کاهش با sedation و بررسی نوروواسکولار.
+
+@I
+- Elbow radiographs (AP and lateral) before and after reduction
+
+@L
+- Not routinely required beyond fixed set
+
+@S
+- Procedural sedation; intra-articular lidocaine may provide analgesia
+
+@T
+- Reduce (two-person traction and flexion, olecranon manipulation, or single-person hanging-arm method with 5-lb weight); range elbow fully for stability; neurovascular checks after reduction; long arm posterior splint, elbow slightly less than 90° flexion, forearm mild pronation
+
+@Co
+- Orthopedic follow-up within 1 day; immediate consultation if instability, neurovascular compromise, open dislocation (admission to monitor neurovascular status); irreducible
+
+@cond elbow-fractures
+ch: 171
+name: Elbow fractures (radial head, supracondylar, olecranon, condyle, coronoid)
+name_fa: شکستگی‌های آرنج (سر رادیوس، supracondylar، olecranon، کندیل، coronoid)
+cc: limb-injury, joint-limb-pain
+keywords: radial head fracture, supracondylar fracture, olecranon fracture, fat pad sign, sail sign, Essex-Lopresti, Volkmann ischemic contracture, anterior humeral line, شکستگی آرنج, supracondylar, سر رادیوس
+status: draft
+
+@features
+- Radial head: درد، تورم و تندرنس لترال، ناتوانی در اکستنشن کامل؛ supracondylar/intercondylar: تورم و محدودیت ROM (ممکن است شبیه دررفتگی خلفی)؛ olecranon: درد، تورم، کرپیتوس خلفی
+- Essex–Lopresti: شکستگی سر رادیوس + dissociation مفصل رادیواولنار دیستال (درد مچ و ساعد)
+- ارزیابی نوروواسکولار در همه؛ نبض رادیال کاهش‌یافته/غایب در کودکان شایع (آسیب شریان brachial) حتی با دست گرم؛ علائم Volkmann (امتناع از باز کردن دست، درد با اکستنشن پاسیو انگشتان، تندرنس ساعد)؛ نبض غایب به تنهایی ایسکمی نیست
+- عوارض supracondylar (جدول 171-2): عصب رادیال، median (anterior interosseous)، اولنار، Volkmann، nonunion، malunion، myositis ossificans
+- گرافی: fat pad غیرطبیعی (posterior fat pad، sail sign)؛ radiocapitellar line؛ anterior humeral line (خط از کورتکس قدامی هومروس باید 2/3 خلفی capitellum را قطع کند)؛ CT برای coronoid یا comminuted intra-articular
+- اسپلینت و ارجاع در بدون جابه‌جایی؛ radial head بدون جابه‌جایی و بدون محدودیت: sling؛ مشاوره فوری ارتوپدی برای جابه‌جایی، باز، اختلال نوروواسکولار؛ بستری در جابه‌جایی با تورم زیاد
+
+@ddx
+- !Brachial artery injury / compartment syndrome |
+- !Elbow dislocation |
+- Occult fracture (fat pad sign) |
+
+@redflags
+- نبض غایب، علائم Volkmann، شکستگی باز، جابه‌جایی
+
+@guide
+جدول 171-3: supracondylar: long arm posterior splint (stabilization before surgery) - immediate؛ intercondylar: neutral، 1–2 days؛ lateral condyle nondisplaced: supination، wrist extended؛ medial nondisplaced: pronation، wrist flexed؛ coronoid/olecranon: long arm posterior splint؛ radial head nondisplaced: sling با early ROM، 1 week.
+
+@variant elbow-fracture-displaced
+name: Elbow fracture — displaced / open / neurovascular compromise
+level: I
+imp: Displaced elbow fracture / supracondylar fracture
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: none
+cxr: none
+
+@scenario
+کودک ۷ ساله پس از سقوط از تاب با دفورمیتی و تورم آرنج، نبض رادیال ضعیف.
+
+@why
+مشاوره فوری و پایش نوروواسکولار.
+
+@I
+- Elbow radiographs AP / lateral (fat pad signs, anterior humeral line, radiocapitellar line); CT for coronoid or comminuted intra-articular fractures
+
+@L
+- Not routinely required beyond fixed set
+
+@S
+- Analgesia
+
+@T
+- Long arm posterior splint (presurgical stabilization); serial neurovascular assessment (Volkmann signs)
+
+@Co
+- Immediate orthopedic consultation; admit displaced fractures with significant swelling for neurovascular observation
+
+@variant elbow-fracture-nondisplaced
+name: Elbow fracture — nondisplaced (radial head etc.)
+level: III
+imp: Nondisplaced elbow fracture
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+زن ۳۵ ساله پس از سقوط با درد لترال آرنج و ناتوانی در اکستنشن کامل.
+
+@why
+اسپلینت و ارجاع.
+
+@I
+- Elbow radiographs (fat pad sign may be only evidence)
+
+@L
+- Not routinely required beyond fixed set
+
+@S
+- Analgesia
+
+@T
+- Nondisplaced radial head fracture without motion restriction: sling immobilization with early range of motion; other nondisplaced fractures: long arm posterior splint per Table 171-3
+
+@Co
+- Orthopedic follow-up 1 week (1–2 days for some fractures)
+
+@cond forearm-fractures
+ch: 171
+name: Forearm fractures (both-bone, Monteggia, Galeazzi)
+name_fa: شکستگی‌های ساعد (هر دو استخوان، Monteggia، Galeazzi)
+cc: limb-injury, trauma-major
+keywords: forearm fracture, both bone fracture, Monteggia, Galeazzi, radial head dislocation, ulna shaft fracture, greenstick, شکستگی ساعد, مونتژیا, گالیازی
+status: draft
+
+@features
+- هر دو استخوان: تورم، تندرنس، دفورمیتی؛ ایزوله رادیوس/اولنا: تورم و تندرنس موضعی
+- Monteggia: شکستگی ثلث پروگزیمال اولنا + دررفتگی سر رادیوس؛ radiocapitellar line مختل و رأس شکستگی به سمت دررفتگی
+- Galeazzi: شکستگی رادیوس دیستال + دررفتگی DRUJ؛ فضای DRUJ پهن در AP و اولنا دورسال در لترال
+- AP و لترال تشخیص می‌دهد؛ بدون جابه‌جایی، torus یا greenstick < 15° angulation: long arm splint و ارجاع؛ مشاوره فوری برای همه جابه‌جایی‌ها؛ کودکان closed reduction اغلب کافی؛ بزرگسال جابه‌جایی‌دار، Monteggia و Galeazzi: ORIF
+
+@ddx
+- !Compartment syndrome |
+- !Open fracture |
+- Elbow / wrist injury |
+
+@redflags
+- درد خارج از تناسب، کمپارتمان، شکستگی باز
+
+@guide
+اسپلینت (جدول 171-3): both bones بدون جابه‌جایی: long arm splint، 1 week؛ جابه‌جایی‌دار: presurgical stabilization، immediate؛ Monteggia/Galeazzi: immediate.
+
+@variant forearm-fracture-main
+name: Forearm fracture — displaced / Monteggia / Galeazzi
+level: II
+imp: Forearm fracture
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: none
+cxr: none
+
+@scenario
+مرد ۳۰ ساله پس از سقوط با دفورمیتی ساعد.
+
+@why
+گرافی و مشاوره ارتوپدی.
+
+@I
+- AP and lateral forearm radiographs including elbow and wrist (radiocapitellar line; DRUJ)
+
+@L
+- Not routinely required beyond fixed set
+
+@S
+- Analgesia
+
+@T
+- Long arm splint immobilization (presurgical stabilization for displaced fractures, Monteggia, Galeazzi); neurovascular checks
+
+@Co
+- Immediate orthopedic consultation for displaced fractures (ORIF usually required in adults, Monteggia, Galeazzi); nondisplaced / torus / greenstick < 15°: long arm splint and orthopedic referral
+
+@cond sternoclavicular-injury
+ch: 172
+name: Sternoclavicular sprain and dislocation
+name_fa: رگ‌به‌رگ‌شدگی و دررفتگی استرنوکلاویکولار
+cc: limb-injury, chest-pain, trauma-major
+keywords: sternoclavicular dislocation, posterior SC dislocation, mediastinal injury, استرنوکلاویکولار
+status: draft
+
+@features
+- سرکوفتگی ساده: درد و تندرنس موضعی؛ دررفتگی: درد شدید بدتر با حرکت بازو و خوابیدن به پشت؛ قدامی: انتهای medial کلاویکل برجسته؛ خلفی: کمتر مشهود
+- خلفی با خشونت صدا، دیسفاژی، تنگی نفس، پارستزی/ضعف اندام فوقانی ← آسیب مدیاستن (پنوموتوراکس، عروق بزرگ، تراشه، مری)
+- CT انتخاب اول؛ کنتراست برای آسیب مدیاستن؛ در غیر تروما: آرتریت سپتیک (به‌ویژه تزریق مواد)
+
+@ddx
+- !Mediastinal injury (posterior) |
+- Septic arthritis (nontraumatic) |
+
+@redflags
+- دیسپنه، دیسفاژی، خشونت صدا، پارستزی
+
+@guide
+قدامی بدون عارضه: یخ، ضددرد، sling؛ کاهش بسته لازم نیست؛ خلفی: مشاوره فوری ارتوپدی (ORIF).
+
+@variant sc-injury-main
+name: Sternoclavicular sprain / dislocation
+level: II
+imp: Sternoclavicular injury
+cond: Urgent
+act: CBR
+diet: PO
+ecg: once
+cxr: PA
+
+@scenario
+مرد ۲۸ ساله پس از برخورد در ورزش با درد جلوی قفسه و کلاویکل برجسته.
+
+@why
+CT؛ خلفی ← مشاوره فوری.
+
+@I
+- CT chest (contrast if mediastinal injury suspected); CXR
+
+@L
+- Not routinely required beyond fixed set
+
+@S
+- Analgesia
+
+@T
+- Ice; sling immobilization (sprain / uncomplicated anterior dislocation; closed reduction not necessary)
+
+@Co
+- Immediate orthopedic consultation for posterior dislocation (open reduction and internal fixation)
+
+@cond clavicle-scapula-fracture
+ch: 172
+name: Clavicle and scapula fractures
+name_fa: شکستگی کلاویکل و اسکاپولا
+cc: limb-injury, trauma-major
+keywords: clavicle fracture, scapula fracture, skin tenting, glenoid fracture, شکستگی ترقوه, اسکاپولا
+status: draft
+
+@features
+- کلاویکل: درد، تورم، تندرنس؛ اسکاپولا: استخوان محافظت‌شده؛ شکستگی اغلب همراه آسیب ریه، توراکس و کمربند شانه؛ بازو در adduction
+- گرافی ممکن است برخی را از دست بدهد؛ CT تأیید و آسیب‌های همراه
+- مدیریت محافظه‌کارانه با sling، یخ، ضددرد و early ROM؛ مشاوره ارتوپدی برای باز، اختلال نوروواسکولار، skin tenting دائمی؛ comminuted شدید یا جابه‌جایی ← ارجاع زودرس
+- شکستگی اسکاپولا: بررسی آسیب داخل‌توراکس؛ glenoid articular جابه‌جایی‌دار، glenoid neck زاویه‌دار، بعضی acromion و coracoid ممکن جراحی
+
+@ddx
+- !Pneumothorax / hemothorax / intrathoracic injury |
+- !Neurovascular injury |
+
+@redflags
+- skin tenting، اختلال نوروواسکولار، شکستگی باز، شکستگی اسکاپولا (آسیب توراکس)
+
+@guide
+Sling، یخ، ضددرد، early ROM؛ اسکاپولا ← CXR/CT و جستجوی آسیب توراکس.
+
+@variant clavicle-scapula-main
+name: Clavicle / scapula fracture
+level: III
+imp: Clavicle / scapula fracture
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: PA
+
+@scenario
+مرد ۲۵ ساله پس از سقوط از دوچرخه با درد و تورم ترقوه.
+
+@why
+sling؛ اسکاپولا ← بررسی آسیب توراکس.
+
+@I
+- Shoulder / clavicle radiographs; CXR; CT if scapular fracture or radiographs equivocal (and for associated pathology)
+
+@L
+- Not routinely required beyond fixed set
+
+@S
+- Analgesia
+
+@T
+- Sling immobilization, ice, early range-of-motion exercises
+
+@Co
+- Orthopedic consultation: open fracture, neurovascular compromise, persistent skin tenting; severely comminuted or displaced clavicle; displaced glenoid articular / angulated glenoid neck fractures
+
+@cond ac-joint-injury
+ch: 172
+name: Acromioclavicular joint injury (Rockwood types I–VI)
+name_fa: آسیب مفصل آکرومیوکلاویکولار (انواع I تا VI)
+cc: limb-injury, joint-limb-pain
+keywords: acromioclavicular separation, AC joint, shoulder separation, clavicle elevated, آکرومیوکلاویکولار, جداشدگی شانه
+status: draft
+
+@features
+- از رگ‌به‌رگ‌شدگی خفیف تا گسیختگی کامل؛ مکانیسم: ضربه مستقیم با بازو adducted یا FOOSH
+- نوع I: گرافی طبیعی، تندرنس؛ II: AC ligament پاره، CC رگ‌به‌رگ، کلاویکل 25%–50% بالاتر، step-off خفیف؛ III: هر دو پاره، کلاویکل 100% بالاتر، CC interspace 25%–100% پهن، شانه افتاده؛ IV: کلاویکل خلفی (axillary view لازم)؛ V: 200%–300% اختلاف CC؛ VI: کلاویکل به سمت پایین، آسیب‌های همراه
+- تشخیص بالینی؛ گرافی AC برای شدت و شکستگی همراه
+
+@ddx
+- Clavicle fracture |
+- Glenohumeral dislocation |
+
+@redflags
+- نوع IV تا VI، آسیب‌های همراه
+
+@guide
+نوع I و II: sling، استراحت، یخ، ضددرد، ROM زودرس در 7–14 روز؛ III بحث‌برانگیز (روند: محافظه‌کارانه با sling)؛ IV–VI: جراحی و مشاوره ارتوپدی.
+
+@variant ac-joint-main
+name: AC joint injury
+level: III
+imp: Acromioclavicular joint injury
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مرد ۳۰ ساله پس از سقوط روی شانه با برجستگی انتهای کلاویکل.
+
+@why
+نوع بندی و sling؛ IV–VI ← جراحی.
+
+@I
+- AC joint radiographs (axillary view if type IV suspected)
+
+@L
+- Not routinely required beyond fixed set
+
+@S
+- Analgesia
+
+@T
+- Sling immobilization, rest, ice; early range-of-motion at 7–14 days (types I–II; type III generally conservative)
+
+@Co
+- Orthopedic consultation for types IV–VI (operative)
+
+@cond shoulder-dislocation
+ch: 172
+name: Glenohumeral (shoulder) dislocation
+name_fa: دررفتگی شانه (گلنوهومرال)
+cc: limb-injury, joint-limb-pain
+keywords: shoulder dislocation, anterior dislocation, posterior dislocation, luxatio erecta, axillary nerve, Hill-Sachs, Bankart, reduction techniques, دررفتگی شانه
+status: draft
+
+@features
+- قدامی (شایع‌ترین): نیروی abduction، extension، external rotation؛ بازو در abduction و چرخش خارجی خفیف؛ کانتور شانه از بین رفته؛ کاهش حس لترال دلتوئید ← آسیب عصب axillary
+- خلفی: نیروی غیرمستقیم یا ضربه مستقیم؛ تخت‌شدن قدام شانه، برجستگی خلفی؛ ناتوان در چرخش خارجی و ابداکشن
+- تحتانی (luxatio erecta): hyperabduction؛ بازو کاملاً ابداکت، آرنج فلکس، دست روی سر؛ superior بسیار نادر
+- AP و scapular Y؛ Hill–Sachs و Bankart مدیریت را تغییر نمی‌دهند؛ در عود بدون تروما می‌توان گرافی قبل کاهش را حذف کرد
+- تکنیک‌ها: modified Hippocratic، Snowbird، Stimson (وزنه 10 lb، 20–30 دقیقه)، scapular manipulation، Kocher external rotation، Milch، Cunningham؛ sedation یا lidocaine 1% داخل‌مفصلی 10–20 mL
+- پس از کاهش: معاینه نوروواسکولار، sling (adduction و internal rotation)، گرافی تأیید؛ پیگیری فوری ارتوپدی؛ عوارض: عود، rotator cuff، defect سر هومروس، labral، نوروواسکولار
+
+@ddx
+- !Proximal humerus fracture |
+- Rotator cuff tear |
+- AC injury |
+
+@redflags
+- اختلال نوروواسکولار، شکستگی همراه
+
+@guide
+1) گرافی AP + Y. 2) sedation یا lidocaine داخل‌مفصلی. 3) یکی از تکنیک‌های کاهش (حداقل 2–3 تکنیک). 4) معاینه نوروواسکولار. 5) sling. 6) گرافی بعد کاهش.
+
+@variant shoulder-dislocation-main
+name: Shoulder dislocation — reduction
+level: II
+imp: Glenohumeral dislocation
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: none
+cxr: none
+
+@scenario
+مرد ۲۲ ساله پس از ضربه در ورزش با دفورمیتی شانه، بازو در ابداکشن و چرخش خارجی.
+
+@why
+گرافی، کاهش، sling.
+
+@I
+- Shoulder radiographs: AP and scapular Y (may omit pre-reduction films in recurrent dislocation with no trauma); post-reduction radiographs
+
+@L
+- Not routinely required beyond fixed set
+
+@S
+- Procedural sedation; alternatively intra-articular injection of 10–20 mL of 1% lidocaine
+
+@T
+- Reduce (traction-countertraction: modified Hippocratic, Snowbird; Stimson with 10-lb weight; scapular manipulation; external rotation / Kocher; Milch; Cunningham); assess neurovascular status; sling to hold shoulder in adduction and internal rotation
+
+@Co
+- Urgent orthopedic follow-up (early operative repair may decrease recurrence)
+
+@cond humerus-fracture
+ch: 172
+name: Humerus fractures (proximal and shaft)
+name_fa: شکستگی هومروس (پروگزیمال و شفت)
+cc: limb-injury, trauma-major
+keywords: proximal humerus fracture, humeral shaft fracture, Neer classification, radial nerve injury, wrist drop, coaptation splint, شکستگی هومروس, عصب رادیال
+status: draft
+
+@features
+- پروگزیمال: درد، تورم، تندرنس، اکیموز، کرپیتوس؛ ROM شدیداً محدود؛ شفت: درد، تورم، تندرنس، کرپیتوس؛ کوتاه‌شدگی در جابه‌جایی‌دار
+- آسیب عصب و شریان axillary در پروگزیمال؛ عصب رادیال در شفت (ضعف اکستنشن مچ، wrist drop، تغییر حس web space)
+- Neer: چهار قسمت (سطح مفصلی، greater tubercle، lesser tubercle، دیافیز)
+- پروگزیمال بدون جابه‌جایی یا one-part (< 1 cm جابه‌جایی، < 45° زاویه): sling، یخ، ضددرد، ارجاع؛ شفت بدون جابه‌جایی: coaptation splint (sugar tong)، hanging cast یا functional bracing؛ محافظه‌کارانه اگر < 20° sagittal، < 30° varus/valgus، < 2 cm کوتاهی
+- مشاوره فوری: multipart، جابه‌جایی/زاویه‌دار قابل‌توجه، باز، آسیب نوروواسکولار
+
+@ddx
+- !Neurovascular injury (radial / axillary) |
+- Shoulder dislocation |
+
+@redflags
+- wrist drop، نبض مختل، شکستگی باز
+
+@guide
+گرافی؛ معاینه دقیق نوروواسکولار؛ sling یا coaptation splint؛ مشاوره فوری در شرایط بالا.
+
+@variant humerus-fracture-main
+name: Humerus fracture
+level: II
+imp: Humerus fracture (proximal / shaft)
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: none
+cxr: none
+
+@scenario
+زن ۷۰ ساله پس از سقوط با درد و کبودی شانه و محدودیت حرکت.
+
+@why
+گرافی و تعیین جراحی/محافظه‌کارانه.
+
+@I
+- Shoulder / humerus radiographs (Neer classification)
+
+@L
+- Not routinely required beyond fixed set
+
+@S
+- Analgesia
+
+@T
+- Nondisplaced / one-part proximal: sling, ice; nondisplaced shaft: coaptation (sugar-tong) splint, hanging cast or functional brace; careful neurovascular exam (radial nerve in shaft, axillary in proximal)
+
+@Co
+- Immediate orthopedic consultation: multipart proximal, significantly displaced or angulated shaft, open fracture, neurovascular injury; otherwise orthopedic referral
+
+@cond brachial-plexus-injury
+ch: 172
+name: Brachial plexus injury (traumatic)
+name_fa: آسیب شبکه براکیال (تروماتیک)
+cc: limb-injury, weakness, focal-neuro
+keywords: brachial plexus injury, Horner syndrome, supraclavicular, infraclavicular, nerve injury arm, شبکه براکیال
+status: draft
+
+@features
+- شایع‌ترین شکل آسیب پلکسوس؛ نافذ، فشاری یا کشش بسته؛ سوپراکلاویکولار (ریشه‌ها و تنه‌ها) یا اینفراکلاویکولار (کردها و اعصاب انتهایی)
+- درد مداوم سوزشی بازو و کمبود حسی/حرکتی؛ تورم و آسیب نسج نرم گردن/شانه؛ Horner در آسیب گانگلیون مجاور؛ در بیمار غیرهوشیار تا پایان احیا مشخص نمی‌شود
+- تشخیص عمدتاً بالینی؛ MRI و CT myelography، EMG/NCV؛ گاهی اکتشاف جراحی
+- محل و وسعت آسیب درمان و پیش‌آگهی را تعیین می‌کند
+
+@ddx
+- !Cervical spine / spinal cord injury |
+- !Vascular injury |
+- Peripheral nerve injury |
+
+@redflags
+- Horner، ضعف پیشرونده، آسیب عروقی همراه
+
+@guide
+شناسایی و ارجاع مناسب.
+
+@variant brachial-plexus-main
+name: Brachial plexus injury
+level: II
+imp: Brachial plexus injury
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: PA
+
+@scenario
+مرد ۲۵ ساله پس از تصادف موتور با درد سوزشی بازو و ضعف.
+
+@why
+شناسایی و ارجاع.
+
+@I
+- Cervical spine / shoulder imaging; MRI or CT myelography as directed; EMG / nerve conduction studies (follow-up)
+
+@L
+- Not routinely required beyond fixed set
+
+@S
+- Analgesia
+
+@T
+- Stabilize; evaluate associated neck / shoulder girdle injuries; neurologic documentation
+
+@Co
+- Neurosurgery / orthopedic (nerve) referral

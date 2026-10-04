@@ -1,0 +1,557 @@
+@cond pelvic-fracture
+ch: 173
+name: Pelvic fracture (ring, acetabular, single bone / avulsion)
+name_fa: شکستگی لگن (حلقه لگن، استابولوم، تک‌استخوانی / avulsion)
+cc: trauma-major, hypotension-shock, joint-limb-pain
+keywords: pelvic fracture, pelvic binder, unstable pelvis, acetabular fracture, Judet views, angiography embolization, iliac wing fracture, sacral fracture, coccyx fracture, شکستگی لگن, بایندر لگن, استابولوم
+status: draft
+
+@features
+- علائم از درد موضعی تا ناپایداری و شوک شدید؛ درد، ناپایداری لگن، دفورمیتی، لاسراسیون، اکیموز، هماتوم؛ از حرکت اضافی ناپایدار پرهیز (خونریزی بیشتر)
+- RE: جابه‌جایی پروستات یا آسیب رکتوم؛ خون در میتوس ← آسیب پیشابراه؛ معاینه اسپکولوم واژن برای لاسراسیون (شکستگی باز)؛ فرض آسیب‌های همراه داخل‌شکمی، رتروپریتوان، زنان یا ادراری تا اثبات خلاف
+- AP لگن؛ سایر نماها: لترال، hemipelvis، oblique، inlet / outlet؛ CT بهتر از گرافی؛ در تروما ناپایدار AP لگن سریع؛ در پایدار که CT شکم-لگن می‌شود نیاز به گرافی روتین نیست
+- استابولوم: فشار لترال یا دررفتگی هیپ؛ گرافی + Judet؛ CT حساس‌تر
+- شکستگی تک‌استخوانی (جدول 173-1): iliac wing، ramus پوبیس/ایسکیوم، ایسکیوم، ساکروم، coccyx، avulsion ASIS/AIIS/ischial tuberosity ← ضددرد، استراحت، crutches؛ ترخیص با پیگیری 1–2 هفته؛ بستری در باز یا معاینه شکمی نگران‌کننده
+- با استثنای lateral compression type I و AP compression type I، سایر شکستگی‌های حلقه نیاز به ORIF؛ استابولوم: مشاوره و بستری
+
+@ddx
+- !Intra-abdominal / retroperitoneal hemorrhage |
+- !Urethral / bladder / rectal injury |
+- !Hip dislocation / acetabular fracture |
+
+@redflags
+- ناپایداری همودینامیک، لگن ناپایدار، خون میتوس، شکستگی باز
+
+@guide
+الگوریتم شکل 173-1: ناپایدار با binder ← FAST: منفی ← آنژیوگرافی/embolization؛ مثبت ← لاپاراتومی؛ پایدار ← CT. 1) احیا با کریستالوئید و خون. 2) binder یا ملحفه. 3) CXR و FAST برای منابع خونریزی دیگر. 4) آنژیوگرافی با embolization و external fixation.
+
+@variant pelvic-fracture-unstable
+name: Pelvic fracture — unstable / hemodynamically unstable
+level: I
+imp: Pelvic fracture with hemorrhagic shock
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+o2: 100% oxygen
+
+@scenario
+مرد ۴۰ ساله پس از تصادف با فشار 75/40، لگن ناپایدار و خون در میتوس.
+
+@why
+binder، احیا، یافتن منبع خونریزی.
+
+@I
+- AP pelvis radiograph; CXR portable; FAST (thorax and peritoneal cavity); CT when stable or responds to resuscitation
+
+@L
+- Type and crossmatch, CBC, coagulation studies, lactate, urinalysis
+
+@S
+- IV crystalloid and blood products {hi}
+
+@T
+- Pelvic binding device or bedsheet; avoid excessive movement; rectal and (if indicated) vaginal speculum exam; evaluate for urethral injury before catheter (blood at meatus)
+
+@Co
+- Emergent trauma surgery / orthopedics; angiography with embolization and external fixation (if unavailable or delayed: extraperitoneal packing); laparotomy if FAST positive
+
+@variant pelvic-fracture-stable
+name: Pelvic fracture — stable (single bone / avulsion / nondisplaced)
+level: III
+imp: Stable pelvic fracture (single bone / avulsion)
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مرد ۱۶ ساله فوتبالیست با درد مفصل ران و فلکسیون پس از شوت (avulsion AIIS).
+
+@why
+ضددرد و استراحت.
+
+@I
+- AP pelvis radiograph (CT if high suspicion with negative films); Judet views / CT for acetabulum
+
+@L
+- Not routinely required beyond fixed set
+
+@S
+- Analgesics
+
+@T
+- Crutches; bed rest 3–4 weeks with hip flexed for avulsion fractures; stool softeners, sitz bath, donut-ring cushion (coccyx / ischium); nonweight-bearing for iliac wing until abductors pain-free
+
+@Co
+- Orthopedic follow-up 1–2 weeks (admit for open fracture or concerning abdominal exam; consult for displaced sacral fractures or neurologic deficit); acetabular fractures: orthopedic consultation and admission
+
+@cond hip-fracture
+ch: 173
+name: Hip fracture (femoral head, neck, trochanteric, intertrochanteric, subtrochanteric) / occult hip fracture
+name_fa: شکستگی هیپ (سر، گردن، تروکانتریک، اینترتروکانتریک، ساب‌تروکانتریک) / شکستگی مخفی هیپ
+cc: limb-injury, joint-limb-pain
+keywords: hip fracture, femoral neck fracture, intertrochanteric, subtrochanteric, occult hip fracture, MRI hip, elderly fall, شکستگی هیپ, گردن فمور, MRI
+status: draft
+
+@features
+- اکثراً سالمند با استئوپروز پس از سقوط؛ پا کوتاه و چرخش خارجی؛ درد محل، کشاله ران یا زانو
+- معاینه: درد، کوتاه‌شدگی، چرخش، دفورمیتی، تندرنس لگن/ساکروم، وضعیت نوروواسکولار؛ سقوط یا تروما ← سایر آسیب‌ها
+- جدول 173-2: سر فمور (ایزوله نادر؛ 6–16% دررفتگی هیپ)؛ گردن (شایع سالمند)؛ greater trochanter (ambulatory، درد با ابداکشن)؛ lesser (avulsion)؛ intertrochanteric (شایع سالمند)؛ subtrochanteric (15%؛ ممکن پاتولوژیک)
+- گرافی AP و لترال هیپ، AP لگن، Judet؛ درد با تحمل وزن و گرافی طبیعی ← شک مخفی (گردن فمور یا استابولوم)؛ MRI حساسیت تقریباً 100%؛ CT کمتر حساس
+- جدول 173-3: سر فمور: مشاوره فوری، کاهش اورژانس؛ گردن: مشاوره، nonoperative تا total hip arthroplasty؛ greater trochanter: ضددرد و protected weight-bearing؛ lesser: ضددرد (بررسی پاتولوژیک)؛ intertrochanteric/subtrochanteric: بستری برای ORIF؛ subtrochanteric: Hare/Sager splint
+- شک بالا به occult: MRI در ED یا MRI طی 24–48 ساعت با non-weight-bearing؛ traction در گردن فمور کنتراندیکه
+
+@ddx
+- !Pelvic fracture / acetabular fracture |
+- !Hip dislocation |
+- Femoral shaft fracture |
+- Sprain / strain |
+- Pathologic fracture |
+
+@redflags
+- پای کوتاه و چرخش خارجی، ناتوان در تحمل وزن، گرافی طبیعی با درد شدید
+
+@guide
+جدول 173-3 را برای هر نوع ببینید؛ بستری ارتوپدی برای اکثر موارد؛ MRI برای شک مخفی.
+
+@variant hip-fracture-main
+name: Hip fracture (elderly after fall)
+level: II
+imp: Hip fracture
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: once
+cxr: PA
+
+@scenario
+زن ۸۰ ساله پس از سقوط با پای کوتاه و چرخش خارجی.
+
+@why
+گرافی، آنالژزی، بستری ارتوپدی.
+
+@I
+- AP and lateral hip radiographs; AP pelvis (comparison); femur / knee radiographs if indicated; CXR
+
+@L
+- CBC, BUN, Cr, Na, K; coagulation studies, type and screen (preoperative testing and clearance)
+
+@S
+- IV analgesia
+
+@T
+- No traction in femoral neck fracture (traction contraindicated); NPO (anticipated surgery); neurovascular checks
+
+@Co
+- Orthopedic service admission (femoral neck, intertrochanteric, subtrochanteric: ORIF / arthroplasty); orthopedic consultation immediately for femoral head fracture / dislocation
+
+@variant hip-fracture-occult
+name: Suspected occult hip fracture (normal radiographs, cannot bear weight)
+level: III
+imp: Suspected occult hip fracture
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+زن ۷۰ ساله پس از سقوط با درد شدید کشاله ران و ناتوان در تحمل وزن، گرافی طبیعی.
+
+@why
+MRI تشخیص می‌دهد.
+
+@I
+- MRI hip in ED (nearly 100% sensitive), or arrange MRI within 24–48 hours; CT if MRI unavailable (less sensitive)
+
+@L
+- Not routinely required beyond fixed set
+
+@S
+- Analgesia
+
+@T
+- Non-weight-bearing until MRI
+
+@Co
+- Orthopedic follow-up / consultation based on MRI
+
+@cond hip-dislocation
+ch: 173
+name: Hip dislocation (native and prosthetic)
+name_fa: دررفتگی هیپ (طبیعی و پروتزی)
+cc: trauma-major, limb-injury, joint-limb-pain
+keywords: hip dislocation, posterior hip dislocation, Allis maneuver, avascular necrosis, prosthetic hip dislocation, دررفتگی هیپ, مانور آلیس
+status: draft
+
+@features
+- قدامی یا خلفی؛ اغلب تصادف سرعت بالا؛ 90% خلفی (ممکن شکستگی استابولوم)
+- خلفی: کوتاه، چرخش داخلی، adduction؛ قدامی: abduction و چرخش خارجی؛ ارزیابی نوروواسکولار (عصب سیاتیک)
+- گرافی هیپ و لگن؛ Judet یا CT
+- اورژانس واقعی ارتوپدی: کاهش در < 6 ساعت (تأخیر ← AVN)؛ مانور Allis (شکل 173-2)؛ ROM خفیف، معاینه نوروواسکولار، گرافی/CT پس از کاهش
+- هیپ پروتزی: با فلکسیون > 90° یا آسیب جزئی دررفته؛ خلفی؛ قبل از کاهش با ارتوپد مشورت
+
+@ddx
+- !Femoral head / acetabular fracture |
+- !Sciatic nerve injury |
+- Femoral neck fracture |
+
+@redflags
+- تأخیر کاهش > 6 ساعت، آسیب نوروواسکولار
+
+@guide
+گرافی → sedation → Allis → معاینه نوروواسکولار → گرافی/CT پس از کاهش.
+
+@variant hip-dislocation-main
+name: Hip dislocation — emergent reduction within 6 hours
+level: I
+imp: Hip dislocation
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: portable
+
+@scenario
+مرد ۳۰ ساله پس از تصادف با پای کوتاه، چرخش داخلی و adduction.
+
+@why
+کاهش < 6 ساعت برای کاهش AVN.
+
+@I
+- AP pelvis and hip radiographs; Judet views or CT for acetabulum / femur; post-reduction radiographs or CT; CXR portable (trauma)
+
+@L
+- Type and screen, CBC
+
+@S
+- Procedural sedation; analgesia
+
+@T
+- Allis maneuver (posterior dislocation): pelvis stabilized, upward pull on femur with internal and external rotation; gently test ROM after reduction; neurovascular examination before and after
+
+@Co
+- Orthopedic consultation immediately (prosthetic hips: discuss plan before reduction); post-reduction care coordinated with orthopedist
+
+@cond femoral-shaft-fracture
+ch: 173
+name: Femoral shaft fracture
+name_fa: شکستگی شفت فمور
+cc: limb-injury, trauma-major
+keywords: femoral shaft fracture, traction splint, open femur fracture, pathologic fracture, شکستگی شفت فمور, اسپلینت کششی
+status: draft
+
+@features
+- بیشتر در جوانان با تروما پرانرژی؛ پاتولوژیک در بدخیمی؛ کوتاه‌شدگی، درد، تورم، دفورمیتی
+- وضعیت نوروواسکولار، علائم باز، آسیب‌های همراه
+- اسپلینت کششی (traction splint) مگر: آسیب سیاتیک، زانو، عروقی یا شکستگی باز ← بدون کشش
+- شکستگی باز: آنتی‌بیوتیک وسیع‌الطیف و شستشوی فراوان؛ مشاوره زودهنگام ارتوپدی
+
+@ddx
+- !Hemorrhagic shock (thigh blood loss) |
+- !Open fracture / vascular injury |
+- Pathologic fracture |
+
+@redflags
+- ناپایداری، شکستگی باز، نبض مختل
+
+@guide
+Traction splint؛ آنتی‌بیوتیک و شستشو در باز؛ مشاوره ارتوپدی.
+
+@variant femoral-shaft-main
+name: Femoral shaft fracture
+level: I
+imp: Femoral shaft fracture
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: portable
+
+@scenario
+مرد ۲۵ ساله پس از تصادف موتور با ران متورم و کوتاه.
+
+@why
+اسپلینت کششی، کنترل خونریزی، ارتوپدی.
+
+@I
+- Femur radiographs (including hip and knee); CXR portable; trauma imaging as indicated
+
+@L
+- Type and crossmatch, coagulation studies, lactate
+
+@S
+- IV crystalloid / blood as needed {hi}; IV analgesia
+
+@A
+- Open fracture: broad-spectrum antibiotics with copious irrigation
+
+@T
+- Traction splint unless sciatic nerve, knee, or vascular injury or open fracture (then splint without traction); neurovascular status; NPO
+
+@Co
+- Early orthopedic consultation for definitive management
+
+@cond knee-leg-fractures
+ch: 174
+name: Knee and leg fractures (patella, femoral condyle, tibial plateau, tibial shaft, fibula)
+name_fa: شکستگی‌های زانو و ساق (کشکک، کندیل فمور، plateau تیبیا، شفت تیبیا، فیبولا)
+cc: limb-injury, joint-limb-pain
+keywords: patella fracture, tibial plateau fracture, tibial shaft fracture, Pilon fracture, Ottawa knee rules, Pittsburgh knee rules, compartment syndrome, شکستگی کشکک, تیبیا, قوانین اتاوا
+status: draft
+
+@features
+- کشکک: تندرنس موضعی، تورم، فقدان مکانیسم extensor؛ کندیل فمور: درد، تورم، دفورمیتی، چرخش، کوتاهی، ناتوان در راه رفتن (آسیب پوپلیتئال، deep peroneal، هیپ، quadriceps)؛ tibial spine: تندرنس، تورم، ناتوان در extension، Lachman مثبت؛ plateau: درد، تورم، ROM محدود، ناپایداری لیگامانی ~ 1/3؛ شفت تیبیا: درد، تورم، کرپیتوس؛ Pilon: درد و تورم مچ؛ فیبولا: ممکن راه رفتن؛ proximal fibula مرتبط با آسیب مچ
+- خطر بالای کمپارتمان در شکستگی تیبیا ← معاینه نوروواسکولار دقیق
+- قوانین رادیوگرافی: Pittsburgh (شکل 174-1) یا Ottawa (جدول 174-1: سن > 55، تندرنس head فیبولا، تندرنس ایزوله کشکک، ناتوان در فلکسیون 90°، ناتوان در 4 قدم)
+- CT اگر گرافی منفی و ناتوان در تحمل وزن
+- مشاوره فوری ارتوپدی برای اکثر تیبیا؛ جراحی اورژانس: باز، آسیب عروقی، کمپارتمان؛ long-leg immobilization و ترخیص در مکانیسم کم‌انرژی، درد کنترل‌شده، بدون خطر کمپارتمان
+- جدول 174-2: کشکک بدون جابه‌جایی با extensor سالم: knee immobilizer، استراحت، یخ، ضددرد؛ جابه‌جایی > 3 mm یا ناهمواری > 2 mm یا اختلال extensor: ارجاع زودرس ORIF؛ باز: شستشو و آنتی‌بیوتیک ضداستافیلوکوک؛ کندیل: ناقص/بدون جابه‌جایی: اسپلینت و ارجاع؛ جابه‌جایی‌دار: ORIF؛ plateau بدون جابه‌جایی: knee immobilizer، non-weight-bearing و ارجاع 2–7 روز؛ depression: ORIF
+
+@ddx
+- !Compartment syndrome |
+- !Open fracture / vascular injury |
+- Knee dislocation (spontaneously reduced) |
+- Ligamentous injury |
+
+@redflags
+- نبض مختل، درد خارج از تناسب، شکستگی باز، پوست باز
+
+@guide
+قوانین Ottawa/Pittsburgh برای نیاز گرافی؛ تیبیا: مشاوره فوری؛ ایزوله فیبولا: اسپلینت، یخ، elevation و پیگیری.
+
+@variant knee-leg-fracture-main
+name: Knee / leg fracture
+level: II
+imp: Knee / leg fracture
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: none
+cxr: none
+
+@scenario
+مرد ۴۵ ساله پس از سقوط با تورم و درد زانو و ناتوانی در راه رفتن.
+
+@why
+گرافی و مشاوره ارتوپدی.
+
+@I
+- Knee radiographs per Ottawa / Pittsburgh rules; ankle and knee radiographs for tibia / fibula injuries; CT if negative radiographs and unable to bear weight
+
+@L
+- Not routinely required beyond fixed set
+
+@S
+- Analgesia
+
+@A
+- Open fracture: irrigation and antistaphylococcal antibiotics in the ED
+
+@T
+- Knee immobilizer or long-leg immobilization; ice, elevation; thorough neurovascular exam (high compartment syndrome risk with tibial fractures)
+
+@Co
+- Emergent orthopedic consultation (open fracture, vascular compromise, compartment syndrome → emergent surgery); most tibial fractures require emergent consult; low-energy, pain controlled, no compartment risk: long-leg immobilization and discharge; isolated fibular shaft: splint, ice, elevation, follow-up
+
+@cond knee-dislocation
+ch: 174
+name: Knee and patellar dislocation
+name_fa: دررفتگی زانو و کشکک
+cc: limb-injury, trauma-major
+keywords: knee dislocation, patellar dislocation, popliteal artery injury, ankle-brachial index, peroneal nerve, دررفتگی زانو, شریان پوپلیتئال
+status: draft
+
+@features
+- کشکک: درد و دفورمیتی؛ پارگی کپسول مدیال ممکن
+- زانو: اختلال شدید لیگامانی و کپسولی؛ 50% خودبه‌خود جا می‌رود؛ ناپایداری چندجهته ← شک؛ آسیب پوپلیتئال و peroneal شایع
+- گرافی برای رد شکستگی؛ برخی آنژیوگرافی برای همه؛ دیگران ABI و معاینات سریال اگر نبض دیستال و بدون ایسکمی/خونریزی/هماتوم
+- sedation؛ کشکک: فلکس هیپ و hyperextension زانو؛ immobilizer و پیگیری؛ زانو: کاهش زودهنگام و ثبت نوروواسکولار قبل و بعد، اسپلینت 20° فلکسیون، مشاوره فوری ارتوپدی و جراحی عروق، بستری اجباری
+
+@ddx
+- !Popliteal artery injury |
+- !Tibial plateau / femoral condyle fracture |
+- Ligamentous injury |
+
+@redflags
+- نبض مختل، ایسکمی، ناپایداری چندجهته
+
+@guide
+زانو دررفته = اورژانس عروقی: ABI/آنژیو، بستری برای پایش.
+
+@variant knee-dislocation-main
+name: Knee dislocation (vascular assessment, admission)
+level: I
+imp: Knee dislocation
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: none
+
+@scenario
+مرد ۲۵ ساله پس از تصادف با دفورمیتی زانو و کاهش نبض پا.
+
+@why
+کاهش زودهنگام، ارزیابی عروقی، جراحی عروق.
+
+@I
+- Knee radiographs (exclude fractures); ankle-brachial index with serial vascular exams (or arteriography / CT angiography per consultant)
+
+@L
+- Type and screen, CBC
+
+@S
+- Procedural sedation; analgesia
+
+@T
+- Early reduction with documentation of pre- and post-reduction neurovascular status; splint in 20° flexion
+
+@Co
+- Immediate orthopedic and vascular surgery consultation; admission mandatory for neurovascular observation
+
+@variant patellar-dislocation-main
+name: Patellar dislocation
+level: III
+imp: Patellar dislocation
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+دختر ۱۵ ساله با دفورمیتی زانو حین پیچش، کشکک جانبی.
+
+@why
+کاهش با فلکس هیپ و اکستنشن زانو؛ immobilizer.
+
+@I
+- Knee radiographs (associated fractures); post-reduction films
+
+@L
+- Not routinely required beyond fixed set
+
+@S
+- Procedural sedation; analgesia
+
+@T
+- Flex hip and hyperextend knee to slide patella back; knee immobilization
+
+@Co
+- Orthopedic or primary care follow-up
+
+@cond knee-tendon-ligament-meniscal
+ch: 174
+name: Knee tendon, ligament and meniscal injuries; Achilles tendon rupture
+name_fa: آسیب تاندون، لیگامان و منیسک زانو؛ پارگی تاندون آشیل
+cc: limb-injury, joint-limb-pain
+keywords: ACL tear, PCL, collateral ligament, meniscal tear, locked knee, Lachman, Thompson test, Achilles tendon rupture, patellar tendon rupture, Segond fracture, پارگی ACL, منیسک, آشیل, تاندون
+status: draft
+
+@features
+- پارگی تاندون چهارسر/کشککی: درد، تورم، ناتوان در extension در برابر مقاومت، defect قابل‌لمس؛ کشکک high-riding در لترال گرافی
+- آشیل: درد شدید ساق، ناتوان در toe walk، دویدن، پله؛ defect 2–6 cm بالای کالکانئوس؛ Thompson مثبت (دمر، زانو 90°، فشار ساق ← عدم پلانتارفلکسیون)؛ سونوگرافی یا MRI در مبهم
+- لیگامان: اغلب هموآرتروز؛ ACL: "pop" و تورم طی ساعات؛ Lachman حساس‌ترین؛ drawer قدامی و pivot shift؛ PCL: drawer خلفی؛ MCL/LCL: استرس valgus/varus در 30° فلکسیون؛ لقی > 1 cm بدون firm end point = پارگی کامل؛ تکرار در extension (لقی ← کروسیت و کپسول خلفی)؛ peroneal در آسیب لترال؛ Segond ← ACL
+- منیسک: قفل شدن دردناک، pop/click، ناپایداری؛ McMurray حساس نیست؛ "locked knee": ROM فعال/غیرفعال غیرممکن با درد
+- تشخیص عمدتاً بالینی؛ MRI یا آرتروسکوپی سرپایی قطعی
+- درمان: پارگی چهارسر/کشککی: immobilizer و مشاوره جراحی (7–10 روز)؛ آشیل: اسپلینت در پلانتارفلکسیون، non-weight-bearing، ارتوپدی؛ لیگامان/منیسک: immobilizer، یخ، elevation، ضددرد، ارجاع؛ locked knee: ضددرد و کاهش بسته (supine با زانو 90° روی لبه تخت؛ کشش طولی همراه چرخش داخلی و خارجی)؛ مشاوره ارتوپدی در ناموفق
+
+@ddx
+- !Knee dislocation (spontaneously reduced) |
+- Fracture (Segond, tibial spine) |
+- Septic arthritis / hemarthrosis |
+
+@redflags
+- ناپایداری چندجهته، locked knee، نبض مختل
+
+@guide
+Immobilizer، یخ، elevation، ضددرد، ارجاع.
+
+@variant knee-ligament-meniscal-main
+name: Knee ligament / meniscal injury / tendon rupture
+level: III
+imp: Knee ligament / meniscal injury
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مرد ۲۸ ساله فوتبالیست با «pop»، تورم زانو و Lachman مثبت.
+
+@why
+بالینی؛ immobilizer و ارجاع.
+
+@I
+- Knee radiographs (effusion, Segond fracture, high-riding patella); ultrasound or MRI for Achilles rupture when unclear; outpatient MRI
+
+@L
+- Not routinely required beyond fixed set
+
+@S
+- Analgesia
+
+@T
+- Knee immobilization, ice, elevation; locked knee: procedural sedation if needed, supine with knee flexed 90° over bed edge, longitudinal traction with internal and external rotation; Achilles rupture: splint in plantar flexion, non-weight-bearing
+
+@Co
+- Orthopedic referral; patellar / quadriceps tendon rupture: surgical repair within 7–10 days; failed locked-knee reduction: orthopedic consultation
+
+@cond knee-leg-overuse
+ch: 174
+name: Overuse injuries of the knee and leg (patellar tendonitis, shin splints, stress fracture)
+name_fa: آسیب‌های overuse زانو و ساق (تاندونیت کشککی، shin splints، شکستگی استرس)
+cc: limb-injury, joint-limb-pain
+keywords: patellar tendonitis, jumper knee, shin splints, stress fracture, تاندونیت کشککی, شکستگی استرسی
+status: draft
+
+@features
+- تاندونیت کشککی (jumper's knee): درد روی تاندون با دویدن در سربالایی، پرش یا برخاستن؛ گرم، NSAID، تقویت چهارسر؛ از تزریق استروئید پرهیز
+- Shin splints و شکستگی استرسی: درد قدام ساق؛ افزایش ناگهانی تمرین؛ درد با فعالیت و بهبود با استراحت، ممکن پیشرونده؛ گرافی غالباً طبیعی
+- درمان: قطع فعالیت چند هفته؛ شک شکستگی استرسی: bone scan یا MRI سرپایی
+
+@ddx
+- Stress fracture |
+- Compartment syndrome (exertional) |
+
+@redflags
+- ندارد (خوش‌خیم)
+
+@guide
+قطع فعالیت چند هفته، NSAID، تقویت چهارسر.
+
+@variant knee-leg-overuse-main
+name: Overuse injury — knee / leg
+level: III
+imp: Patellar tendonitis / shin splints / stress fracture
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+دونده ۲۰ ساله با درد قدام ساق پس از افزایش ناگهانی مسافت.
+
+@why
+قطع فعالیت.
+
+@I
+- Radiographs often normal; outpatient bone scan or MRI if stress fracture suspected
+
+@L
+- Not routinely required beyond fixed set
+
+@S
+- NSAIDs
+
+@T
+- Heat; quadriceps-strengthening exercises (patellar tendonitis); avoid steroid injections; discontinue the activity for several weeks (shin splints, stress fracture)
+
+@Co
+- Outpatient follow-up

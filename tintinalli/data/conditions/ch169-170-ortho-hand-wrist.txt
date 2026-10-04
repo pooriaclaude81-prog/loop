@@ -1,0 +1,381 @@
+@cond orthopedic-injury-general
+ch: 169
+name: Orthopedic injury — initial evaluation and management (fracture / dislocation / open fracture)
+name_fa: آسیب‌های ارتوپدی — ارزیابی و مدیریت اولیه (شکستگی / دررفتگی / شکستگی باز)
+cc: limb-injury, trauma-major, joint-limb-pain
+keywords: fracture, dislocation, open fracture, Salter-Harris, splinting, neurovascular exam, occult fracture, reduction, شکستگی, دررفتگی, شکستگی باز, اسپلینت, سالتر هریس
+status: draft
+
+@features
+- شرح حال دقیق (مکانیسم: سقوط از ارتفاع ← احتمال آسیب ستون فقرات؛ شکستگی خودبه‌خودی ← پاتولوژیک/بدخیمی)؛ لمس سیستماتیک چون درد شکستگی/دررفتگی ممکن است به ناحیه دیگر ارجاع شود
+- معاینه: تورم، تغییر رنگ، دفورمیتی، ROM فعال و غیرفعال بالا و پایین ضایعه، وضعیت نوروواسکولار و تست حسی‌حرکتی اعصاب محیطی
+- وضعیت عروقی در اسرع وقت بررسی شود (اصلاح سریع جلوگیری از ایسکمی، از دست رفتن بافت، قطع عضو)
+- تصویربرداری جایگزین معاینه نیست؛ گرافی منفی شکستگی مهم را رد نمی‌کند (حساسیت لمسی قابل‌توجه، درد با تحمل وزن یا ROM غیرفعال ← شک به شکستگی مخفی؛ CT، bone scan یا MRI)
+- گرافی مفصل بالا و پایین محل شکستگی؛ در کودکان (مراکز رشد) گرافی مقایسه‌ای سمت سالم
+- توصیف شکستگی به مشاور: باز/بسته، محل (midshaft، supracondylar، intertrochanteric، intra-articular)، جهت خط شکستگی (عرضی، مایل، مارپیچی، comminuted، segmental، torus، greenstick)، displacement، shortening، angulation، rotational deformity، دررفتگی/subluxation همراه، Salter-Harris
+- شکستگی باز: اغلب نیاز به جراحی فوری، شستشوی کامل و آنتی‌بیوتیک پروفیلاکسی برای جلوگیری از استئومیلیت و سپسیس؛ کزاز، cefazolin، و aminoglycoside (gentamicin) برای زخم آلوده
+- Salter-Harris: نوع I و V ممکن است در گرافی دیده نشود؛ بالینی مشکوک، ثابت‌سازی و ارجاع؛ نوع V با نیروی axial loading
+- نیاز به مشاوره فوری ارتوپدی: شکستگی باز، سندرم کمپارتمان، دررفتگی غیرقابل جا انداختن، اختلال گردش خون، آسیب نیازمند جراحی؛ بستری: بیماری همراه، کنترل درد، اختلال راه رفتن (مثل شکستگی هیپ)
+- جدول 169-2: وسایل ثابت‌سازی (sling، shoulder immobilizer، long-arm gutter، sugar-tong، short-arm gutter، thumb spica، knee immobilizer، posterior ankle mold، ankle stirrup، hard-soled shoe، walking boot)
+
+@ddx
+- !Compartment syndrome |
+- !Neurovascular compromise / open fracture |
+- Pathologic fracture |
+- Occult fracture (negative plain film) |
+- Ligamentous injury / sprain |
+
+@redflags
+- نبض/پرفیوژن مختل، پوست باز روی شکستگی، درد خارج از تناسب، دررفتگی غیرقابل جا انداختن
+
+@guide
+1) کنترل درد و تورم (narcotic IV؛ از داروی خوراکی در ضایعات احتمالاً جراحی پرهیز). 2) خارج کردن حلقه، ساعت، جواهر. 3) کیسه یخ و elevation. 4) NPO تا ارزیابی کامل (ممکن است sedation لازم شود). 5) کاهش دفورمیتی/دررفتگی با کشش تدریجی طولی (در بیمار آرام و sedated بهترین نتیجه)؛ بهبود گردش خون و کاهش خطر تبدیل بسته به باز. 6) اسپلینت مناسب.
+
+@variant orthopedic-open-fracture
+name: Open fracture / neurovascular compromise / irreducible dislocation (urgent ortho)
+level: I
+imp: Open fracture / limb-threatening orthopedic injury
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: none
+
+@scenario
+مرد ۳۵ ساله پس از تصادف با شکستگی باز ساق، نبض دیستال ضعیف.
+
+@why
+شستشو، آنتی‌بیوتیک، کزاز، اصلاح گردش خون و جراحی فوری.
+
+@I
+- Radiographs of the fractured bone and joints above and below; vascular assessment (pulses, ABI / CTA if circulatory compromise)
+
+@L
+- Type and screen, coagulation studies
+
+@S
+- Analgesia: IV narcotic
+
+@A
+- Cefazolin IV (first-generation cephalosporin); add gentamicin (aminoglycoside) for contaminated wounds {ci: cephalosporin allergy}
+
+@T
+- Tetanus prophylaxis; thorough irrigation; remove constricting items; cold pack; elevation; splint; reduce deformity with gradual longitudinal traction; NPO
+
+@Co
+- Urgent orthopedic surgery in ED (open fracture, compartment syndrome, irreducible dislocation, circulatory compromise)
+
+@variant orthopedic-closed-reduce-splint
+name: Closed fracture / dislocation — reduce, splint, refer
+level: II
+imp: Closed fracture / dislocation, neurovascularly intact
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: none
+cxr: none
+
+@scenario
+زن ۴۵ ساله با دفورمیتی مچ پس از سقوط؛ نبض و حس سالم.
+
+@why
+گرافی، آنالژزی، کاهش و اسپلینت و پیگیری ارتوپدی.
+
+@I
+- Radiographs of the injured bone including joint above and below; comparison films of the unaffected side in children; post-reduction films
+
+@L
+- Not routinely required beyond fixed set
+
+@S
+- Analgesia: IV narcotic (avoid oral analgesics if possible operative lesion); procedural sedation as needed
+
+@T
+- Remove constricting items; cold packs; elevation; reduce with gradual steady longitudinal traction; splint per Table 169-2; NPO until treatment complete
+
+@Co
+- Orthopedic follow-up (outpatient) or admission if co-morbidity, pain control or ambulatory dysfunction (e.g., hip fracture)
+
+@variant orthopedic-occult-fracture
+name: Suspected occult fracture (negative radiograph, significant tenderness)
+level: III
+imp: Suspected occult fracture (clinically significant tenderness, negative plain film)
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مرد ۲۰ ساله با درد شدید لمسی و تحمل وزن مختل ولی گرافی طبیعی.
+
+@why
+گرافی منفی رد نمی‌کند؛ ثابت‌سازی و تصویربرداری پیشرفته.
+
+@I
+- Plain films (special views as needed); CT, bone scan or MRI if suspicion persists
+
+@L
+- Not routinely required beyond fixed set
+
+@T
+- Immobilize; cold pack; elevation; analgesia; Salter-Harris I or V in children: immobilize and refer
+
+@Co
+- Orthopedic follow-up
+
+@cond hand-injuries
+ch: 170
+name: Hand injuries (tendon, dislocation, fracture, compartment syndrome, high-pressure injection)
+name_fa: آسیب‌های دست (تاندون، دررفتگی، شکستگی، سندرم کمپارتمان، تزریق فشار بالا)
+cc: limb-injury, wound-bite, joint-limb-pain
+keywords: hand injury, mallet finger, boutonniere, jersey finger, gamekeeper thumb, boxer fracture, fight bite, high pressure injection, hand compartment syndrome, tendon laceration, آسیب دست, انگشت چکشی, شکستگی بوکسور, گاز انسان, تزریق فشار بالا
+status: draft
+
+@features
+- عصب مدین: فلکشن مقاوم دیستال شست؛ اولنار: گشودن انگشتان در برابر مقاومت؛ رادیال: حفظ اکستنشن MCP در برابر مقاومت؛ حس: تمایز دو نقطه (< 5 mm)
+- تاندون: تا 90% پارگی با ROM حفظ‌شده؛ تست در برابر مقاومت و مقایسه با سمت سالم؛ درد در مسیر تاندون ← پارگی نسبی؛ ترمیم فلکسور توسط جراح دست؛ بستن پوست و اسپلینت قابل قبول تا ترمیم قطعی؛ پیگیری و توان‌بخشی همه آسیب‌های تاندون
+- Mallet finger: پارگی کامل اکستانسور در دیستال فالانکس، DIP خم 40°؛ اسپلینت DIP در hyperextension خفیف
+- Boutonniere: آسیب سطح پشتی PIP؛ اسپلینت PIP در extension
+- دررفتگی DIP: معمولاً دورسال؛ digital block؛ کشش طولی، hyperextension خفیف، جا انداختن؛ اسپلینت extension کامل؛ غیرقابل جا ← volar plate/profundus/شکستگی avulsion
+- دررفتگی PIP: دورسال با پارگی volar plate؛ اسپلینت 30° flexion؛ جانبی: پارگی collateral؛ غیرقابل جا انداختن یا پارگی کامل لیگامان ← جراحی
+- دررفتگی MCP: دورسال، نیاز به کاهش جراحی (volar plate)؛ اسپلینت MCP در flexion
+- دررفتگی IP شست: پارگی volar plate، اغلب باز؛ اسپلینت 15° تا 20° flexion؛ MCP شست: thumb spica
+- Gamekeeper / skier thumb: پارگی UCL؛ زاویه > 30° تا 35° با استرس ابداکشن ← پارگی کامل؛ thumb spica؛ پارگی کامل ← ارجاع جراحی
+- شکستگی دیستال فالانکس (tuft): همراه نیل‌بد؛ volar یا hairpin splint؛ شکستگی پروگزیمال/میانی بدون جابه‌جایی: buddy taping؛ midshaft عرضی/مارپیچی یا intra-articular: اغلب جراحی؛ gutter splint با MCP 70° flexion
+- شکستگی متاکارپ (بوکسور MC4/MC5): زخم روی شکستگی ← fight bite؛ زاویه > 20° (MC4)، > 40° (MC5)، > 15° (MC2/3) نیاز به reduction؛ ulnar gutter (MC4/5) یا radial gutter (MC2/3) با مچ 20° extension و MCP 70° flexion؛ شست (Bennett، Rolando): thumb spica
+- کمپارتمان دست: crush یا extravasation مایع IV/کنتراست؛ درد خارج از تناسب؛ وضعیت استراحت: MCP extension و PIP کمی flexion؛ ادم سفت و درد با کشش پاسیو؛ اورژانس ارتوپدی، تشخیص بالینی
+- تزریق فشار بالا (> 2000 psi؛ گریس، رنگ، هیدرولیک): ظاهر خوش‌خیم ولی واکنش بافتی شدید ← ایسکمی و قطع عضو؛ گرافی دست و ساعد (ماده رادیواپک و هوای زیرجلدی)؛ ارزیابی جراحی اورژانس
+- مشاوره فوری جراح دست (جدول 170-1): آسیب عروقی با ایسکمی یا خونریزی کنترل‌نشده، دررفتگی غیرقابل جا، زخم شدیداً آلوده، crush شدید، شکستگی باز، کمپارتمان، تزریق فشار بالا، قطع دست/انگشت
+- مشاوره تأخیری (جدول 170-2): پارگی تاندون اکستانسور/فلکسور، پارگی FDP (Jersey finger)، mallet finger، آسیب عصب، شکستگی بسته، دررفتگی، لیگامان ناپایدار
+
+@ddx
+- !Compartment syndrome |
+- !Open fracture / amputation |
+- !High-pressure injection injury |
+- Fight bite (human bite) |
+- Tendon laceration |
+
+@redflags
+- ایسکمی انگشت، درد خارج از تناسب، تزریق فشار بالا، زخم بالای MCP (fight bite)، قطع انگشت
+
+@guide
+1) معاینه عصبی و تاندونی در برابر مقاومت. 2) گرافی (جسم خارجی رادیواپک). 3) اسپلینت ویژه هر آسیب. 4) مشاوره فوری برای موارد جدول 170-1.
+
+@variant hand-emergency
+name: Hand emergency — amputation / compartment syndrome / high-pressure injection / open fracture
+level: I
+imp: Hand emergency requiring immediate hand surgery
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: none
+
+@scenario
+مرد ۳۰ ساله با آسیب پرس صنعتی؛ تزریق رنگ به انگشت اشاره، درد زیاد.
+
+@why
+ظاهر خوش‌خیم ولی نیاز اورژانس جراحی.
+
+@I
+- Hand and forearm radiographs (radiopaque substances, subcutaneous air, fractures)
+
+@L
+- Type and screen, coagulation studies
+
+@S
+- Analgesia
+
+@A
+- Cefazolin IV for open fracture / contaminated wounds (gentamicin in contaminated wounds) {ci: cephalosporin allergy}
+
+@T
+- Tetanus prophylaxis; irrigation; elevation; splint; control hemorrhage; amputated part preserved for reimplantation; NPO
+
+@Co
+- Immediate hand surgery consultation (Table 170-1)
+
+@variant hand-tendon-injury
+name: Tendon injury (laceration, mallet finger, boutonniere, Jersey finger)
+level: II
+imp: Hand tendon injury
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+زن ۴۰ ساله پس از ضربه توپ به نوک انگشت؛ DIP خم و ناتوان در extension.
+
+@why
+اسپلینت و ارجاع.
+
+@I
+- Hand radiographs (avulsion fracture)
+
+@L
+- Not routinely required beyond fixed set
+
+@T
+- Mallet finger: splint DIP in slight hyperextension; boutonniere: splint PIP in extension; tendon laceration: close skin and splint until definitive repair by hand surgeon; tendon rehabilitation follow-up
+
+@Co
+- Delayed hand surgery consultation (Table 170-2)
+
+@variant hand-dislocation-fracture
+name: Finger / thumb dislocation, phalanx or metacarpal fracture
+level: II
+imp: Hand dislocation / fracture
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مرد ۲۵ ساله با دفورمیتی PIP انگشت پس از ورزش یا شکستگی بوکسور پس از مشت.
+
+@why
+کاهش (digital block)، اسپلینت اختصاصی.
+
+@I
+- Hand radiographs (pre- and post-reduction)
+
+@L
+- Not routinely required beyond fixed set
+
+@S
+- Digital block anesthesia for reduction; analgesia
+
+@T
+- Reduce dislocation with longitudinal traction and splint (DIP: extension; PIP: 30° flexion; MCP: flexion; thumb IP: 15°–20° flexion; thumb MCP / gamekeeper: thumb spica); phalanx: buddy taping if nondisplaced and stable, gutter splint (MCP 70° flexion, IP extension); metacarpal: ulnar gutter (4th/5th) or radial gutter (2nd/3rd), wrist 20° extension, MCP 70° flexion; reduce if angulated; thumb base (Bennett, Rolando): thumb spica
+
+@A
+- Laceration over metacarpal fracture suggests fight bite — treat as such and consult hand surgery
+
+@Co
+- Hand surgery: irreducible dislocation, complete ligament rupture, intra-articular or unstable fractures
+
+@cond wrist-injuries
+ch: 170
+name: Wrist injuries (scaphoid, carpal, lunate / perilunate dislocation, distal radius fractures)
+name_fa: آسیب‌های مچ (اسکافوئید، استخوان‌های کارپ، دررفتگی لونیت/پری‌لونیت، شکستگی‌های رادیوس دیستال)
+cc: limb-injury, joint-limb-pain, trauma-major
+keywords: scaphoid fracture, snuffbox tenderness, lunate dislocation, perilunate dislocation, scapholunate dissociation, Colles fracture, Smith fracture, Barton fracture, carpal fracture, sugar-tong splint, شکستگی اسکافوئید, اسنافباکس, کولس, اسمیت, بارتون
+status: draft
+
+@features
+- Scapholunate dissociation: تندرنس و تورم مفصل scapholunate؛ فاصله > 3 mm در PA؛ radial gutter splint و ارجاع سریع
+- دررفتگی perilunate و lunate: بهتر در لترال؛ نشانه "3 C's" مختل؛ perilunate: lunate هم‌راستا با radius و کارپ دررفته (معمولاً دورسال)؛ lunate: lunate ولار دررفته؛ PA: "piece of pie"، لترال: "spilled teacup"؛ مشاوره اورژانس برای closed reduction یا ترمیم جراحی
+- اسکافوئید: شایع‌ترین شکستگی کارپ؛ خطر avascular necrosis (اسکافوئید، لونیت، کپیتیت)؛ اغلب در گرافی اولیه دیده نمی‌شود ← تشخیص و درمان بر اساس بالینی (snuffbox tenderness)؛ short-arm thumb spica
+- جدول 170-3: triquetrum (avulsion: short arm sugar-tong)، lunate (تندرنس مفصل دورسال دیستال به styloid اولنا)، trapezium (thumb spica)، pisiform (volar splint 30° flexion و ulnar deviation)، hamate (hook: تندرنس دیستال و رادیال pisiform؛ volar wrist splint با MC4/5 در flexion)، capitate و trapezoid (volar wrist splint / thumb spica)
+- Colles: زاویه دورسال، قطعه دیستال proximal و dorsal، جابه‌جایی رادیال کارپ؛ Smith: زاویه volar؛ Barton: قطعه بزرگ سطح مفصلی رادیوس به volar و proximal؛ اغلب کاهش بسته و sugar-tong splint
+- Radial styloid fracture: ناپایداری کارپ و scapholunate dissociation؛ اسپلینت مچ در flexion خفیف و ulnar deviation
+- Ulnar styloid fracture: ناپایداری مفصل radioulnar؛ ulnar gutter با مچ neutral و ulnar deviation خفیف
+
+@ddx
+- !Perilunate / lunate dislocation |
+- !Scaphoid fracture (occult) |
+- Scapholunate dissociation |
+- Distal radius fracture |
+
+@redflags
+- Snuffbox tenderness با گرافی نرمال، اختلال نوروواسکولار، دفورمیتی شدید
+
+@guide
+1) گرافی PA و لترال مچ. 2) Snuffbox tenderness ← thumb spica حتی با گرافی طبیعی. 3) دررفتگی لونیت/پری‌لونیت ← مشاوره اورژانس. 4) Colles/Smith/Barton: کاهش بسته و sugar-tong.
+
+@variant wrist-dislocation-emergent
+name: Lunate / perilunate dislocation (emergent consult)
+level: I
+imp: Lunate / perilunate dislocation
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: none
+
+@scenario
+مرد ۳۰ ساله پس از سقوط روی دست باز با درد و تورم شدید مچ؛ لترال: spilled teacup.
+
+@why
+کاهش بسته یا جراحی اورژانس.
+
+@I
+- PA and lateral wrist radiographs (loss of "3 C's"; "piece of pie" on PA, "spilled teacup" on lateral)
+
+@L
+- Not routinely required beyond fixed set
+
+@S
+- Analgesia; procedural sedation for reduction
+
+@T
+- Splint; elevation; NPO; neurovascular checks
+
+@Co
+- Emergent orthopedic / hand consultation for closed reduction or surgical repair
+
+@variant wrist-scaphoid-suspected
+name: Suspected scaphoid fracture (snuffbox tenderness) / carpal fracture
+level: II
+imp: Suspected scaphoid fracture / carpal fracture
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+زن ۲۵ ساله پس از سقوط روی دست باز با درد snuffbox و گرافی طبیعی.
+
+@why
+تشخیص بالینی؛ spica و پیگیری.
+
+@I
+- Wrist radiographs (scaphoid views); advanced imaging may be needed since scaphoid and lunate fractures are often not detected on plain films
+
+@L
+- Not routinely required beyond fixed set
+
+@S
+- Analgesia
+
+@T
+- Short-arm thumb spica splint (scaphoid; dorsiflexion with radial deviation); other carpal fractures splinted per Table 170-3
+
+@Co
+- Orthopedic / hand follow-up (scaphoid, lunate, capitate: avascular necrosis risk)
+
+@variant wrist-distal-radius-fracture
+name: Distal radius fracture (Colles / Smith / Barton) and styloid fractures
+level: II
+imp: Distal radius fracture
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: none
+cxr: none
+
+@scenario
+زن ۶۰ ساله با دفورمیتی مچ پس از سقوط.
+
+@why
+کاهش بسته و sugar-tong.
+
+@I
+- Wrist radiographs (PA / lateral); post-reduction films
+
+@L
+- Not routinely required beyond fixed set
+
+@S
+- Hematoma block or procedural sedation for reduction; analgesia
+
+@T
+- Closed reduction and sugar-tong splint (Colles, Smith; Barton may need surgery); radial styloid: wrist in mild flexion and ulnar deviation; ulnar styloid: ulnar gutter, wrist neutral, slight ulnar deviation
+
+@Co
+- Orthopedic follow-up; urgent consult for open or unstable injuries
