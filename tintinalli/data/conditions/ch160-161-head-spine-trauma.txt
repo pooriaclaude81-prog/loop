@@ -1,0 +1,376 @@
+@cond head-trauma-mild
+ch: 160
+name: Mild traumatic brain injury (GCS ≥ 14) — CT decision rules and disposition
+name_fa: ضربه خفیف سر (GCS ≥ 14) — قوانین CT و ترخیص
+cc: head-injury, headache
+keywords: mild TBI, concussion, Canadian CT head rule, New Orleans criteria, minor head injury, CT head, observation, ضربه خفیف سر, کانکاشن
+status: draft
+
+@features
+- TBI: اختلال عملکرد مغز پس از نیروی مستقیم یا غیرمستقیم (شتاب/کاهش شتاب)؛ خفیف: GCS ≥ 14: بدون علامت (فقط سابقه ضربه) یا گیج و فراموشی؛ ممکن از دست رفتن گذرای هوشیاری و سردرد منتشر، تهوع و استفراغ
+- پرخطر در زیرگروه: شکستگی جمجمه، تورم subgaleal بزرگ، یافته عصبی کانونی، کوآگولوپاتی، سن > 60، مسمومیت دارو/الکل
+- GCS (جدول 160-1): چشم: 4 تا 1؛ کلامی: 5 تا 1؛ حرکتی: 6 تا 1؛ 3 تا 15؛ اینتوبه: کلامی 1 و «T»
+- قوانین تصمیم CT (جدول 160-2): New Orleans (GCS 15): سردرد، استفراغ، سن > 60، مسمومیت، آمنزی آنتروگرید پایدار، شواهد تروما بالای ترقوه؛ حساسیت 100% برای ضایعه داخل‌جمجمه‌ای (ویژگی 5%)؛ Canadian CT Head Rule (GCS 13 تا 15): GCS < 15 در 2 ساعت، شکستگی باز/فرورفته مشکوک، سن ≥ 65، بیش از یک استفراغ، آمنزی رتروگرید > 30 دقیقه، مکانیسم خطرناک (سقوط > 3 ft یا عابر)، تشنج، علامت شکستگی قاعده؛ 83% حساس، 38% اختصاصی برای ضایعه؛ 100% برای نیاز جراحی؛ وجود هر یک ← CT
+- ACEP (جدول 160-3): GCS < 15 هنگام ارزیابی: CT؛ TBI خفیف با/بدون LOC: اگر هر یک: GCS < 15، یافته عصبی کانونی، استفراغ > 2 بار، سردرد متوسط تا شدید، سن > 65، شکستگی قاعده، کوآگولوپاتی، مکانیسم خطرناک (سقوط > 4 ft)؛ TBI خفیف با LOC یا آمنزی: مسمومیت دارو/الکل، شواهد بالای ترقوه، آمنزی پایدار، تشنج پس از ضربه
+- حدود 8% TBI شدید با شکستگی گردن؛ تصویربرداری گردن برای هر تروما با تغییر وضعیت ذهنی، درد گردن، مسمومیت، نقص عصبی، آسیب حواس‌پرتی شدید یا مکانیسم جدی
+
+@ddx
+- !Intracranial hemorrhage (SDH / EDH / SAH) |
+- !Cervical spine injury |
+- Concussion / intoxication / seizure / syncope as cause of fall |
+
+@redflags
+- GCS < 15، استفراغ مکرر، سن > 65، ضدانعقاد، نقص کانونی، شکستگی قاعده
+
+@guide
+ترخیص: GCS 15 ثابت در طول مشاهده، معاینه عصبی سریال نرمال و CT نرمال؛ CT غیرطبیعی: مشاوره نوروسرجری و بستری. GCS اولیه 14 با CT نرمال: مشاهده در ED؛ اگر GCS به 15 رسید و بدون علامت و سالم عصبی پس از معاینات سریال: ترخیص با همراه معتبر برای مراقبت ≥ 24 ساعت و دستورالعمل کامل.
+
+@variant head-trauma-mild-ctrule
+name: Mild head trauma — CT per rule, observation / discharge
+level: II
+imp: Mild traumatic brain injury
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مرد ۲۵ ساله پس از سقوط از دوچرخه با ضربه به سر، LOC کوتاه، سردرد و دو بار استفراغ؛ GCS 15.
+
+@why
+CT طبق Canadian/New Orleans؛ مشاهده و ترخیص.
+
+@I
+- Noncontrast head CT if any rule criterion present (Canadian CT Head Rule / New Orleans / ACEP); cervical spine imaging if altered mental status, neck pain, intoxication, neurologic deficit, distracting injury, or serious mechanism (NEXUS / Canadian C-spine rule)
+
+@L
+- Glucose; coagulation (PT/INR) if anticoagulant use; blood alcohol / toxicology if intoxication
+
+@S
+- Analgesia (acetaminophen; avoid NSAIDs / sedatives until CT); antiemetic
+
+@T
+- Serial neurologic examinations / observation; head injury discharge instructions; companion able to observe for ≥ 24 h
+
+@Co
+- Discharge if GCS 15 maintained, normal serial exams and normal CT; abnormal CT: neurosurgery consultation and admission; GCS 14 with normal CT: observe in ED until GCS 15 and symptom-free
+
+@cond head-trauma-moderate-severe
+ch: 160
+name: Moderate to severe traumatic brain injury (GCS ≤ 13) and intracranial injuries
+name_fa: ضربه متوسط تا شدید سر (GCS ≤ 13) و آسیب‌های داخل‌جمجمه‌ای
+cc: head-injury, altered-mental-status
+keywords: severe TBI, epidural hematoma, subdural hematoma, cerebral contusion, traumatic subarachnoid hemorrhage, herniation, mannitol, hypertonic saline, trephination, basilar skull fracture, TBI شدید, هماتوم ساب دورال, اپی دورال
+status: draft
+
+@features
+- متوسط: GCS 9 تا 13: 40% ناهنجاری CT و 8% نیاز مداخله نوروسرجری؛ شدید: GCS < 9: مرگ‌ومیر تا 40%؛ اولویت: پیشگیری از آسیب ثانویه مغز، شناسایی آسیب‌های تهدیدکننده دیگر و ضایعات قابل جراحی
+- شرح حال پیش‌بیمارستانی: مکانیسم، زمان، طول بیهوشی، وضعیت ذهنی اولیه، تشنج، استفراغ؛ داروها (ضدانعقاد) و الکل/مواد؛ معاینه عصبی دقیق: GCS، مردمک (اندازه، واکنش، anisocoria)، اعصاب کرانیال، حرکتی و حسی، پوسچرینگ decorticate / decerebrate
+- شکستگی جمجمه: depressed (باز/بسته)؛ قاعده (معمولاً بخش petrous استخوان تمپورال): hemotympanum، CSF otorrhea/rhinorrhea، raccoon eyes، Battle sign
+- کوفتگی مغز و ICH: ناحیه frontal pole، subfrontal و تمپورال؛ زیر محل ضربه یا contrecoup؛ هموراژیک با ادم؛ گیجی، obtundation یا کما؛ نقص کانونی
+- SAH تروماتیک: شایع‌ترین ناهنجاری CT در TBI متوسط/شدید؛ ممکن CT < 6 ساعت از دست بدهد
+- epidural: خون بین جدار داخلی جمجمه و دورا؛ شکستگی با پارگی شریان مننژیال میانی؛ «lucid interval»؛ مردمک ثابت و دیلاته سمت ضایعه + همی‌پارزی مقابل (دیررس)؛ فتق ظرف ساعت‌ها؛ CT biconvex
+- subdural: خون وریدی بین دورا و عنکبوتیه؛ پارگی bridging veins؛ آتروفی مغز (الکلی، سالمند) مستعد؛ حاد ≤ 14 روز (بیشتر علامت‌دار ظرف 24 ساعت)؛ مزمن > 2 هفته؛ CT: هلالی هایپردانس و عبور از suture
+- herniation: transtentorial (uncal): فشار روی عصب سوم ← مردمک ثابت و دیلاته همان سمت؛ فشار peduncle ← فلج مقابل؛ false localizing sign؛ central: مردمک نقطه‌ای دوطرفه، Babinski دوطرفه، افزایش تون ← ثابت وسط، هایپرونتیلاسیون و decorticate؛ cerebellotonsillar: فلج شل، برادیکاردی، ایست تنفسی، مرگ ناگهانی
+- نافذ: GSW و اجسام تیز؛ شدت بسته به انرژی، مسیر، پراکندگی قطعات و توده
+
+@ddx
+- !Cervical spine injury / other life-threatening injuries |
+- Intoxication / hypoglycemia / seizure / medical cause of coma |
+- Penetrating brain injury / cerebral venous sinus injury |
+
+@redflags
+- GCS ≤ 8، مردمک نامساوی/ثابت، پوسچرینگ، Cushing، هیپوتانسیون، CSF leak
+
+@guide
+1) پروتکل استاندارد تروما (فصل 156)؛ جستجوی آسیب‌های دیگر. 2) اکسیژن، مانیتور و دو IV؛ TBI شدید: اینتوباسیون با RSI برای محافظت راه هوایی و جلوگیری هیپوکسمی؛ ایمبیلیزاسیون گردن و داروی القای کافی. 3) هیپوتانسیون با مرگ بالاتر: MAP 80 mmHg با کریستالوئید IV؛ ناکارآمد: وازوپرسور. 4) مشاوره فوری نوروسرجری پس از CT با آسیب داخل‌جمجمه؛ نقص عصبی جدید از EDH/SDH حاد: درمان نوروسرجری اورژانس. 5) علائم ICP بالا: سر 30° (اگر هیپوتانسیو نیست)، آرام‌بخشی کافی، اکسیژنه شریانی: mannitol 0.25 تا 1.0 g/kg IV بولوس‌های مکرر اگر هیپوتانسیو نیست؛ هیپوتانسیو یا ناکافی احیا: سالین هیپرتونیک 3% (250 mL طی 30 دقیقه). 6) hyperventilation پروفیلاکتیک توصیه نمی‌شود (ایسکمی مغز)؛ آخرین راه و موقت با PCO2 30 تا 35 mmHg. 7) herniation قریب‌الوقوع: دکمپرسیون اورژانس trephination («burr holes») وقتی همه روش‌ها شکست خورده؛ CT قبل. 8) تشنج: benzodiazepine (lorazepam) و fosphenytoin بار 18 تا 20 PE/kg IV. 9) پروفیلاکسی ضدتشنج بحث‌برانگیز: با نوروسرجری. 10) بستری نوروسرجری برای شکستگی قاعده یا نافذ (GSW/ضربه چاقو) و آنتی‌بیوتیک پروفیلاکتیک (ceftriaxone 2 g IV و vancomycin 1 g IV).
+
+@variant head-trauma-moderate
+name: Moderate TBI (GCS 9–13) / abnormal CT
+level: I
+imp: Moderate traumatic brain injury
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+o2: titrate to SpO2 ≥ 94% (avoid hypoxemia)
+
+@scenario
+مرد ۴۵ ساله پس از ضربه با GCS 11، گیجی و استفراغ؛ CT: هماتوم ساب‌دورال حاد.
+
+@why
+CT، MAP 80، نوروسرجری و ICU.
+
+@I
+- Noncontrast head CT STAT (neurosurgical lesions); cervical spine imaging (≈ 8% of severe TBI have C-spine fracture); CXR portable; other trauma imaging per Chapter 156
+
+@L
+- Type and crossmatch, CBC, BMP, arterial blood gas, coagulation studies, directed toxicology / ethanol, glucose
+
+@S
+- Crystalloid IV to MAP ≥ 80 mmHg; vasopressors if aggressive fluid resuscitation ineffective {ci: avoid hypotension — increases mortality}
+- Reverse coagulopathy if present (vitamin K / FFP / PCC)
+- Analgesia and adequate sedation (avoid over-sedation obscuring exam)
+
+@T
+- Oxygen, cardiac monitoring, two IV lines; head of bed 30° if not hypotensive; serial GCS / pupils; cervical collar
+- Seizure prophylaxis controversial (with neurosurgery)
+
+@Co
+- Neurosurgery (immediate after CT shows intracranial injury); ICU / step-down; trauma surgery
+
+@variant head-trauma-severe-herniation
+name: Severe TBI (GCS ≤ 8) with signs of increased ICP / impending herniation
+level: I
+imp: Severe traumatic brain injury, increased ICP
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+o2: 100% oxygen then titrate (avoid hypoxemia)
+
+@scenario
+مرد ۳۰ ساله پس از ضربه با GCS 6، مردمک راست دیلاته و ثابت، پوسچرینگ و فشار 100/60.
+
+@why
+RSI، MAP 80، مانیتول/سالین هیپرتونیک و نوروسرجری فوری.
+
+@I
+- Noncontrast head CT as soon as stabilized (before nonessential procedures); CT cervical spine; CXR portable
+
+@L
+- Type and crossmatch, CBC, BMP (Na, osmolality), arterial blood gas, coagulation studies, toxicology, glucose; continuous capnography if intubated
+
+@S
+- Mannitol 0.25–1.0 g/kg IV repetitive boluses if not hypotensive; if hypotensive or inadequately resuscitated: 3% hypertonic saline 250 mL IV over 30 min {hi}
+- Crystalloid to MAP 80 mmHg then vasopressors if needed
+- Lorazepam IV and fosphenytoin 18–20 PE/kg IV loading for seizures
+- Prophylactic antibiotics for basilar skull fracture / penetrating injury: ceftriaxone 2 g IV and vancomycin 1 g IV
+
+@T
+- Rapid sequence intubation (cervical immobilization, adequate sedation / induction agent); head of bed 30°; adequate sedation; maintain oxygenation; avoid prophylactic hyperventilation (temporary PCO2 30–35 mmHg only as last resort for herniation)
+- Emergency trephination (burr holes) if impending herniation and all other methods failed (CT first to localize)
+
+@Co
+- Immediate neurosurgery; neurosurgical ICU admission
+
+@cond skull-fracture-penetrating-head-injury
+ch: 160
+name: Basilar skull fracture and penetrating head injury
+name_fa: شکستگی قاعده جمجمه و آسیب نافذ سر
+cc: head-injury
+keywords: basilar skull fracture, raccoon eyes, Battle sign, CSF leak, hemotympanum, penetrating head injury, gunshot wound head, prophylactic antibiotics, شکستگی قاعده جمجمه
+status: draft
+
+@features
+- basilar: معمولاً بخش petrous تمپورال؛ hemotympanum، CSF otorrhea/rhinorrhea، raccoon eyes، Battle's sign؛ depressed: باز/بسته؛ نافذ: GSW و اجسام تیز
+
+@ddx
+- !Intracranial hemorrhage / CSF leak / meningitis |
+
+@redflags
+- نشت CSF، hemotympanum، زخم نافذ
+
+@guide
+بستری نوروسرجری و آنتی‌بیوتیک پروفیلاکتیک (ceftriaxone 2 g IV و vancomycin 1 g IV).
+
+@variant skull-fracture-main
+name: Basilar skull fracture / penetrating head wound
+level: I
+imp: Basilar skull fracture / penetrating head injury
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: none
+
+@scenario
+مرد ۳۰ ساله با raccoon eyes، Battle sign و خروج مایع شفاف از بینی پس از تصادف؛ یا زخم گلوله سر.
+
+@why
+CT و آنتی‌بیوتیک؛ بدون پک بینی/لوله بینی.
+
+@I
+- Noncontrast head CT (thin-cut skull base); cervical spine imaging
+
+@L
+- Type and crossmatch, CBC, coagulation, glucose
+
+@A
+- Ceftriaxone 2 g IV and vancomycin 1 g IV (prophylactic) {hi}
+
+@T
+- Avoid nasal airway / nasogastric tube; head elevation; tetanus update; neurologic checks
+
+@Co
+- Neurosurgery admission
+
+@cond spinal-cord-injury
+ch: 161
+name: Spinal cord injury (SCI) and neurogenic shock
+name_fa: آسیب نخاع (SCI) و شوک نوروژنیک
+cc: back-neck-pain, focal-neuro, trauma-major
+keywords: spinal cord injury, neurogenic shock, spinal shock, Brown-Sequard, central cord syndrome, anterior cord syndrome, SCIWORA, sacral sparing, methylprednisolone, آسیب نخاع, شوک نوروژنیک
+status: draft
+
+@features
+- آسیب نخاع معمولاً مکانیکی مستقیم ← خونریزی، ادم و ایسکمی؛ درد گردن/کمر؛ شکستگی ناپایدار ممکن بدون علائم نخاعی؛ پارستزی، دیسستزی، ضعف، بی‌اختیاری/احتباس و اختلال حسی؛ کامل: فقدان حس و حرکت زیر سطح (شکل‌های 161-1/161-2)؛ ناکامل (پیش‌آگهی بهتر): ممکن با «spinal shock» پنهان شود
+- spinal shock: از دست رفتن گذرای رفلکس‌های نخاعی زیر سطح؛ روزها تا هفته‌ها؛ neurogenic shock: از دست رفتن عصب‌دهی سمپاتیک: برادیکاردی نسبی و هیپوتانسیون؛ ابتدا خونریزی را رد کن
+- SCIWORA: بیشتر کودکان؛ علائم عصبی با رادیوگرافی/CT نرمال ← MRI
+- معاینه عصبی کامل: قدرت و تون (کورتیکواسپینال)، درد/دما (اسپینوتالامیک)، proprioception/ارتعاش (ستون خلفی)، رفلکس‌ها، حس و wink پری‌آنال، bulbocavernosus؛ «sacral sparing» = ناکامل
+- جدول 161-1 سندرم‌های ناکامل: anterior cord (فلج کامل زیر ضایعه با فقدان درد/دما و حفظ proprioception؛ پیش‌آگهی بد)؛ central cord (hyperextension، تنگی کانال: quadriparesis بیشتر اندام فوقانی؛ خوب)؛ Brown-Séquard (نیمه‌برش: پارزی اسپاستیک و از دست رفتن proprioception همان سمت و از دست رفتن درد/دما سمت مقابل؛ خوب)
+
+@ddx
+- !Hemorrhagic shock (hypotension) |
+- Cervical / thoracolumbar fracture without cord injury |
+- Spinal epidural hematoma / transverse myelitis |
+
+@redflags
+- C5 و بالاتر (دیافراگم C3–C5)، هیپوتانسیون با برادیکاردی، نقص عصبی پیشرونده
+
+@guide
+شناسایی و تثبیت آسیب‌ها و پیشگیری از ثانویه. 1) راه هوایی: آستانه پایین اینتوباسیون در C5 و بالاتر؛ تورم نسج نرم در شکستگی‌های بالا. 2) هیپوتانسیون: ابتدا شوک هیپوولمیک؛ نوروژنیک اگر احتمال SCI، بدون خونریزی حاد، گرم و نسبتاً برادیکارد (ممکن حمایت اینوتروپ). 3) collar و long board به‌محض اندیکاسیون برداشته شود؛ تروما نافذ گردن با عصب سالم و هوشیار: ایمبیلیزاسیون توصیه نمی‌شود؛ log-roll با in-line. 4) شکستگی گردن: معمولاً بستری؛ احتیاطات ستون. 5) توراسیک/لومبار: انرژی بالا؛ خطر آسیب آئورت، نخاع، ارگان‌های شکم/قفسه؛ بستری یا جراح ستون؛ compression/wedge < 40% ارتفاع با مشاوره ممکن سرپایی؛ burst و Chance: بستری؛ CT. 6) ساکروم: همراه شکستگی لگن؛ اختلال مثانه/روده، رادیکولوپاتی، cauda equina؛ کوکسیکس ایزوله: ضددرد و بالش دونات. 7) استروئید با دوز بالا (methylprednisolone) دیگر روتین توصیه نمی‌شود؛ اگر مدنظر: مشورت جراح ستون. 8) ترخیص: ارزیابی کافی و بدون اندیکاسیون بستری: پیگیری 3 تا 5 روز، ضددرد و دستور بازگشت.
+
+@variant sci-neurogenic-shock
+name: Spinal cord injury with neurogenic shock / high cervical injury
+level: I
+imp: Spinal cord injury, neurogenic shock
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+o2: high-flow oxygen; intubate if C5 and above
+
+@scenario
+مرد ۲۸ ساله پس از شیرجه با فلج چهار اندام، تنفس دیافراگمی، HR 48 و فشار 80/40 با پوست گرم.
+
+@why
+راه هوایی زودهنگام، رد خونریزی و وازوپرسور؛ بدون استروئید روتین.
+
+@I
+- CT cervical / thoracic / lumbar spine (high-resolution; modality of choice); MRI spine (ligamentous / cord injury; SCIWORA); CXR portable; trauma imaging per Chapter 156 (exclude hemorrhage)
+
+@L
+- Type and screen, CBC, BMP, ABG, lactate, troponin; urinalysis; glucose
+
+@S
+- Crystalloid to exclude / treat hypovolemia {ci: avoid fluid overload}
+- Vasopressors / inotropic support for neurogenic shock (e.g., norepinephrine; atropine for bradycardia)
+- Methylprednisolone high-dose NOT routinely recommended (harmful side effects) — discuss with spine surgeon if considered
+
+@T
+- Low threshold for endotracheal intubation for injury at C5 and above (diaphragm C3–C5); strict spinal immobilization with in-line log-roll; remove collar / long board as soon as clinically appropriate
+- Complete neurologic examination (motor, pain / temperature, proprioception, reflexes, perianal sensation / wink, bulbocavernosus, sacral sparing); Foley catheter; temperature / skin protection
+
+@Co
+- Spine surgery / neurosurgery (emergent); ICU; trauma surgery
+
+@cond cervical-spine-injury-clearance
+ch: 161
+name: Cervical spine injury — clinical decision rules and imaging (NEXUS, Canadian C-spine)
+name_fa: آسیب ستون گردن — قوانین NEXUS و Canadian C-spine
+cc: back-neck-pain, trauma-major, head-injury
+keywords: cervical spine injury, NEXUS criteria, Canadian C-spine rule, cervical collar, CT cervical spine, ligamentous injury, hangman fracture, Jefferson fracture, odontoid fracture, ستون گردن, NEXUS
+status: draft
+
+@features
+- NEXUS (جدول 161-2): نبود حساسیت midline گردن، هوشیاری نرمال (GCS 15، جهت‌یابی، به یاد آوردن 3 شیء)، نبود مسمومیت، نبود نقص عصبی کانونی، نبود آسیب حواس‌پرتی دردناک؛ Canadian C-spine (جدول 161-3): بدون تصویربرداری اگر 3 معیار: (1) عامل پرخطر نیست (سن ≥ 65، مکانیسم خطرناک: سقوط > 3 ft، axial loading، MVC سرعت بالا/رول‌اور/پرتاب، وسایل تفریحی موتوری/دوچرخه، پارستزی)؛ (2) عامل کم‌خطر (rear-end ساده، نشستن در ED، راه رفتن، شروع تأخیری درد، نبود حساسیت midline) که ارزیابی ROM را ایمن می‌کند؛ (3) توانایی چرخش فعال گردن (45° چپ و راست)
+- CT با وضوح بالا حساس‌تر و اختصاصی‌تر از رادیوگرافی ساده؛ در بیشتر مراکز تروما روش انتخابی؛ رادیوگرافی ساده: حداقل 3 نما (lateral، odontoid، AP)؛ هر دو ممکن آسیب لیگامانی خالص را از دست بدهند؛ flexion-extension به‌اندازه کافی حساس نیست؛ MRI حساس‌ترین برای لیگامان و بافت عصبی
+- جدول 161-4 آسیب‌های گردن: flexion: anterior subluxation (پایدار)، bilateral interfacetal dislocation (ناپایدار)، wedge (معمولاً پایدار)، clay-shoveler (پایدار)، flexion teardrop (ناپایدار)؛ flexion-rotation: unilateral interfacetal dislocation (پایدار)، pillar، lateral mass (ممکن ناپایدار)؛ vertical compression: Jefferson (بالقوه ناپایدار)، burst (ناپایدار)؛ hyperextension: hyperextension dislocation (ناپایدار)، avulsion قدام atlas (پایدار)، extension teardrop (ناپایدار)، posterior arch atlas (پایدار)، laminar (معمولاً پایدار)، hangman (traumatic spondylolisthesis) (ناپایدار)؛ lateral flexion: uncinate (معمولاً پایدار)؛ سایر: occipital condyle (ممکن ناپایدار)، occipitoatlantal dissociation (بسیار ناپایدار)، dens type II و III (ناپایدار)
+
+@ddx
+- !Spinal cord injury / ligamentous injury (CT-negative) |
+- Cervical strain / muscle spasm |
+
+@redflags
+- نقص عصبی، حساسیت midline، مکانیسم خطرناک، سن ≥ 65، GCS < 15
+
+@guide
+شکستگی گردن: معمولاً بستری با احتیاط ستون. اگر آسیب لیگامانی مشکوک: بیمار معتبر می‌تواند با collar فوم سفت ترخیص و پیگیری 3 تا 5 روز با جراح ستون. ترخیص بدون اندیکاسیون بستری: ضددرد و دستور بازگشت.
+
+@variant c-spine-clearance
+name: Blunt trauma, neck pain — decision rule (NEXUS / Canadian C-spine) and imaging
+level: II
+imp: Cervical spine injury, blunt trauma, rule-out
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+زن ۳۵ ساله پس از تصادف با درد گردن و حساسیت midline؛ بدون نقص عصبی.
+
+@why
+NEXUS مثبت ← CT گردن؛ collar تا ارزیابی.
+
+@I
+- NEXUS or Canadian C-spine rule to decide; CT cervical spine (preferred) or plain films ≥ 3 views (lateral, odontoid, AP); MRI if neurologic deficit / suspected ligamentous injury with negative CT
+
+@S
+- Analgesics (acetaminophen / opioid as needed); muscle relaxant not before cleared
+
+@T
+- Cervical immobilization (collar) until cleared; log-roll with in-line stabilization; remove collar when cleared clinically / by imaging
+- Suspected ligamentous injury (reliable patients): firm foam collar, follow-up with spine surgeon in 3–5 days
+
+@Co
+- Spine surgery follow-up 3–5 days; admit cervical fractures with spine precautions
+
+@cond thoracolumbar-sacral-spine-fracture
+ch: 161
+name: Thoracic, lumbar and sacral spine fractures
+name_fa: شکستگی ستون توراسیک، لومبار و ساکروم
+cc: back-neck-pain, trauma-major
+keywords: thoracolumbar fracture, compression fracture, burst fracture, Chance fracture, sacral fracture, coccyx fracture, شکستگی مهره, burst
+status: draft
+
+@features
+- شکستگی‌های توراسیک و لومبار پرانرژی؛ خطر آسیب آئورت، نخاع، ارگان‌های شکم/قفسه؛ CT استاندارد در بیشتر مراکز (حساس‌تر؛ تعیین وسعت و پایداری)؛ رادیوگرافی ساده در آسیب خفیف
+- ساکروم: غیرمعمول؛ همراه شکستگی لگن؛ اختلال مثانه/روده، رادیکولوپاتی و cauda equina؛ کوکسیکس ایزوله: ضددرد و بالش دونات
+
+@ddx
+- !Aortic / abdominal organ injury / spinal cord injury |
+- Osteoporotic compression fracture / pathologic fracture |
+
+@redflags
+- نقص عصبی، burst/Chance fracture، شکستگی لگن همراه، خطر cauda equina
+
+@guide
+اغلب شکستگی حاد: بستری یا مدیریت توسط جراح ستون؛ compression/wedge با < 40% کاهش ارتفاع با مشاوره جراح ممکن سرپایی؛ burst و Chance: بستری؛ CT.
+
+@variant thoracolumbar-fracture-main
+name: Thoracic / lumbar vertebral fracture
+level: II
+imp: Thoracolumbar spine fracture
+cond: Urgent
+act: CBR
+diet: PO
+ecg: stat
+cxr: PA
+
+@scenario
+مرد ۴۰ ساله پس از سقوط از نردبان با درد کمر و حساسیت T12–L1؛ بدون نقص عصبی.
+
+@why
+CT و بررسی آسیب‌های همراه؛ burst/Chance بستری.
+
+@I
+- CT thoracic and lumbar spine (standard; defines extent / stability); CXR (aortic / thoracic injury); abdominal imaging per mechanism
+
+@L
+- Urinalysis (hematuria), CBC
+
+@S
+- Analgesia (opioid / acetaminophen) {ci: avoid NSAIDs if bleeding risk}
+
+@T
+- Spine precautions / log-roll; assess for associated injuries (aorta, intra-abdominal, thoracic organs); neurologic examination incl. rectal tone
+
+@Co
+- Spine surgeon: admit acute fractures; compression / wedge < 40% height loss may be outpatient with spine surgeon consult; burst and Chance fractures admitted
+- Isolated coccyx fracture: pain control and rubber doughnut pillow; sacral fractures with bladder / bowel dysfunction — admit

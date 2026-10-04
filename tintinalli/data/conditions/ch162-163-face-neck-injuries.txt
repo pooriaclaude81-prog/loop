@@ -1,0 +1,188 @@
+@cond facial-fractures
+ch: 162
+name: Facial injuries and facial fractures (mandible, zygoma, Le Fort, orbital, frontal sinus, NOE)
+name_fa: آسیب‌ها و شکستگی‌های صورت (فک، زیگوما، Le Fort، اربیت، سینوس فرونتال، NOE)
+cc: head-injury, trauma-major
+keywords: facial trauma, Le Fort fracture, mandible fracture, zygomatic tripod fracture, orbital blowout, frontal sinus fracture, naso-orbito-ethmoid, Barton bandage, شکستگی صورت, لفورت, فک پایین
+status: draft
+
+@features
+- آسیب شدید صورت: همراه آسیب مغز، اربیت، ستون گردن و ریه؛ پس از تثبیت survey اولیه: survey ثانویه برای آسیب‌های موثر بر ظاهر، بینایی، بویایی، جویدن و حس
+- جدول 162-1: شرح حال: دوبینی دوچشمی ← گیرافتادن عضلات خارج‌چشمی؛ یک‌چشمی ← دررفتگی عدسی؛ بی‌حسی صورت ← عصب supraorbital/infraorbital/mental؛ malocclusion ← شکستگی فک؛ بازرسی: «dish face» (Le Fort III)، «donkey face» (Le Fort II/III)، اگزوفتالموس (retrobulbar hematoma)، enophthalmos (blowout) یا تخت شدن ملاج گونه (آرچ زیگوما)، raccoon eyes و Battle sign ظرف ساعات (قاعده جمجمه)؛ لمس: step-off، حساسیت، crepitus سینوس؛ لمس داخل‌دهانی آرچ زیگوما؛ سنجش Le Fort با تکان ملایم کام سخت و تثبیت پیشانی
+- چشم: زود قبل از تورم پلک؛ حدت بینایی؛ چربی از زخم پلک ← سوراخ orbital septum؛ telecanthus ← NOE؛ hypertelorism ← دررفتگی اربیت و اغلب نابینایی؛ حرکات خارج‌چشمی (محدودیت نگاه بالا: راست تحتانی/اوبلیک تحتانی یا عصب سوم)؛ مردمک اشک‌قطره‌ای (پارگی کره)، هایفما، APD، فلورسئین؛ IOP فقط بدون آسیب کره
+- بینی: crepitus سینوس؛ هماتوم سپتوم؛ گوش: هماتوم لاله؛ CSF، پارگی مجرا و hemotympanum ← قاعده جمجمه؛ دهان: انحراف فک، malocclusion، دندان‌های آسیب‌دیده، پارگی مخاط و اکیموز ← فک؛ آزمون tongue blade
+- تصویربرداری (جدول 162-2): فرونتال: CT سر (پنجره جمجمه)؛ میان‌صورت: Waters یا CT صورت با برش کرونال و آگزیال؛ فک: Panorex یا CT فک؛ CT صورت اغلب تشخیص قطعی؛ برش کرونال نیاز به پاک‌سازی گردن
+- فرونتال سینوس: نادر؛ نیروی زیاد ← TBI، شکستگی دیگر و C-spine؛ جدار خلفی چسبیده به دورا: ترمیم جراحی شکستگی through-and-through؛ depressed: بستری و آنتی‌بیوتیک IV و جراحی؛ ایزوله جدار قدامی: ترخیص با پیگیری جراح صورت
+- NOE: ضربه شدید پل بینی: آسیب مجرای اشکی، پارگی دورا و TBI: بستری با مشاوره جراحی صورت و نوروسرجری
+- blowout: ضربه کند به کره ← دیواره داخلی/تحتانی؛ جراحی در گیرافتادن عضله/عصب یا enophthalmos قابل‌توجه؛ superior orbital fissure: orbital fissure syndrome؛ optic nerve: orbital apex syndrome (مشاوره اورژانس چشم)؛ ocular compartment syndrome با retrobulbar hematoma یا آمفیزم اربیت بدخیم
+- zygoma: tripod (infraorbital rim، zygomaticofrontal، zygomaticotemporal) ← بستری، آنتی‌بیوتیک IV، جراحی؛ isolated arch: ترمیم الکتیو سرپایی
+- میان‌صورت: پرانرژی، چند‌سیستمی؛ اغلب اینتوباسیون؛ شکستگی کام سخت: پک دهانی؛ Le Fort I (آلوئولار)، II (زیگوماتیک-ماگزیلاری)، III (craniofacial dysjunction)؛ حدت بینایی (Le Fort III/IV نابینایی 3%)؛ Le Fort II/III: CSF leak؛ بستری، آنتی‌بیوتیک IV و جراحی
+- فک: malocclusion و درد حرکت؛ دنبال شکستگی‌های متعدد (محل ضربه + طرف مقابل حلقه)؛ معاینه دقیق داخل‌دهانی (پارگی مخاط = open fracture، هماتوم زیرزبانی، آلوئول)؛ بسته: پیگیری فوری سرپایی؛ باز: بستری، آنتی‌بیوتیک IV و جراحی؛ Barton bandage (آیس رپ از بالای سر و زیر فک) در راه هوایی پایدار
+
+@ddx
+- !Airway obstruction / hemorrhage (sphenopalatine, greater palatine) |
+- !Globe injury / retrobulbar hematoma / basilar skull fracture / TBI / C-spine |
+- Dental / alveolar injury / soft tissue laceration |
+
+@redflags
+- راه هوایی تهدیدشده، خونریزی شدید، کاهش بینایی، CSF leak، ناپایداری میان‌صورت
+
+@guide
+در survey اولیه: راه هوایی را تأمین و تثبیت؛ اینتوباسیون اوروتراکئال بر نازوتراکئال؛ همیشه راه هوایی دشوار فرض شود؛ شل‌کننده فقط اگر بیمار با bag قابل تهویه یا برنامه جایگزین؛ awake intubation با sedation و بی‌حسی موضعی؛ ناموفق/غیرممکن: cricothyroidotomy؛ LMA موقت (محافظت آسپیراسیون ندارد). خونریزی شدید میان‌صورت/فک از شاخه‌های sphenopalatine و greater palatine شریان کاروتید خارجی: epistaxis خلفی: tampon، بالون دوگانه یا Foley با پک قدامی (پرهیز از جایگذاری داخل‌جمجمه)؛ گاه جا انداختن شکستگی جابه‌جا؛ ادامه: جراحی/embolization. شکستگی سینوس: آنتی‌بیوتیک خوراکی/IV (سفالوسپورین نسل 1، clindamycin یا amoxicillin-clavulanate). blowout ایزوله: amoxicillin-clavulanate خوراکی، ضداحتقان و پرهیز از فین کردن تا ترمیم؛ مشاوره اورژانس چشم در آسیب چشم.
+
+@variant facial-fracture-airway-hemorrhage
+name: Severe facial trauma — airway and hemorrhage control (midface / mandible)
+level: I
+imp: Severe facial trauma with airway / hemorrhage risk
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+o2: 100% oxygen
+
+@scenario
+مرد ۳۰ ساله پس از تصادف با صورت دراز، حرکت میان‌صورت، malocclusion، خونریزی دهان/بینی و خروج CSF.
+
+@why
+راه هوایی دشوار، کنترل خونریزی و CT.
+
+@I
+- CT face (axial / coronal), head CT, CT cervical spine; CXR portable; Panorex / mandible CT for mandible fractures
+
+@L
+- Type and crossmatch, CBC, coagulation; glucose
+
+@S
+- IV crystalloid / blood as needed; tranexamic acid if major hemorrhage {ci: caution}
+- Antibiotics for sinus / open fractures: first-generation cephalosporin, clindamycin, or amoxicillin-clavulanate {hi}
+
+@T
+- Secure airway: orotracheal intubation preferred (not nasotracheal); plan for difficult airway; avoid paralytics unless can bag effectively or alternative plan; awake intubation option; emergent cricothyroidotomy if impossible; LMA only temporizing
+- Posterior epistaxis: nasal tampons, dual balloon devices, or Foley with layered anterior gauze packing (avoid intracranial placement in severe midface fractures); oral packing for hard palate fractures; reduction of displaced Le Fort / nasal fractures; embolization / ligation if persistent
+- Barton bandage for mandible fracture with stable airway; cervical spine precautions
+
+@Co
+- Facial surgery / OMFS / ENT; neurosurgery (NOE, frontal sinus, Le Fort II/III CSF leak); ophthalmology; admit for IV antibiotics and surgical repair
+
+@variant facial-fracture-stable
+name: Isolated facial fracture (zygomatic arch, anterior frontal sinus, closed mandible, orbital blowout) — outpatient pathway
+level: III
+imp: Isolated facial fracture
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مرد ۲۵ ساله با ضربه مشت به گونه: تخت شدن آرچ زیگوما یا دوبینی هنگام نگاه به بالا؛ بدون آسیب چشم.
+
+@why
+CT و آنتی‌بیوتیک؛ پیگیری جراح.
+
+@I
+- CT face; Waters' view if CT unavailable (low-risk); orbital CT 1.5-mm cuts
+
+@S
+- Amoxicillin-clavulanate PO (sinus / orbital fractures), decongestants; analgesia
+
+@T
+- Avoid nose blowing until defect repaired; examine eyes (visual acuity, EOM, pupil, fluorescein, IOP only if no globe injury); document infraorbital nerve sensation; tongue blade test / occlusion
+
+@Co
+- Facial surgery follow-up (isolated zygomatic arch elective repair; closed mandible urgent outpatient follow-up; isolated anterior table frontal sinus fracture discharge with facial surgeon follow-up); emergent ophthalmology if ocular injury / orbital fissure or apex syndrome
+
+@cond neck-trauma-penetrating-blunt
+ch: 163
+name: Neck injuries — penetrating and blunt (vascular, laryngotracheal, pharyngoesophageal), strangulation
+name_fa: آسیب‌های گردن — نافذ و بلانت و خفگی
+cc: trauma-major, ent, back-neck-pain
+keywords: penetrating neck trauma, zones of neck, platysma, CT angiography, blunt cerebrovascular injury, laryngotracheal injury, strangulation, hanging, tranexamic acid, آسیب گردن, خفگی, ناحیه گردن
+status: draft
+
+@features
+- تروما به گردن ← ترکیب آسیب‌های متنوع؛ علائم ممکن آشکار، ظریف یا پنهان؛ آسیب‌های از دست رفته ← مرگ‌ومیر
+- جدول 163-1: علائم سخت (90% نیاز به ترمیم اورژانس): عروقی: شوک مقاوم به مایع، خونریزی شریانی فعال، کمبود نبض، هماتوم ضربان‌دار/در حال گسترش، thrill یا bruit؛ حنجره-نای: استریدور، هموپتیزی، دیسفونی، هوا/حباب در زخم، انسداد راه هوایی؛ فارنکس-مری: (بدون علائم سخت)؛ نرم: هیپوتانسیون در صحنه، سابقه خونریزی شریانی، هماتوم غیرضربان‌دار، زخم مجاور؛ خشونت صدا، حساسیت گردن، آمفیزم زیرجلدی، اکیموز/هماتوم، انحراف نای یا step-off غضروف، ادم/هماتوم حنجره، محدودیت حرکت طناب صوتی؛ odynophagia، dysphagia، hematemesis، خون در دهان، خروج بزاق از زخم، حساسیت شدید گردن، هوای prevertebral، مسیر transmidline
+- آسیب عروقی شایع‌ترین آسیب گردن و علت مرگ در تروما نافذ؛ جدول 163-2 غربالگری blunt cerebrovascular injury: خونریزی شریانی از بینی/گردن/دهان، bruit گردن < 50 سال، هماتوم در حال گسترش، نقص عصبی کانونی (TIA، همی‌پارزی، Horner)، سکته در CT ثانویه، نقص بدون توضیح CT، مکانیسم انرژی بالا + شکستگی صورت (Le Fort II/III، فک، فرونتال، اربیت)، الگوی شکستگی ستون گردن (subluxation، transverse foramen، C1–C3)، شکستگی قاعده/occipital condyle/petrous، DAI با GCS ≤ 8، TBI + قفسه، hanging، clothesline
+- حنجره-نای: انسداد راه هوایی فوری یا بروز مخفی؛ جدول 163-3 اندیکاسیون مدیریت تهاجمی راه هوایی: استریدور، دیسترس حاد تنفسی، انسداد با خون/ترشح، هماتوم در حال گسترش، شوک عمیق، آمفیزم زیرجلدی وسیع، تغییر هوشیاری، انحراف نای
+- فارنکس و مری: بدون علائم سخت و علائم اولیه اندک؛ عصبی: ستون گردن، نخاع، اعصاب کرانیال پایین، شبکه بازوی؛ خفگی (strangulation): فشار عروقی بیشتر از انسداد راه هوایی؛ آنوکسی مغز، شکستگی حنجره/نای/ستون، پارگی فارنکس و آسیب کاروتید؛ علائم: درد گردن، تغییر صدا، دیسفاژی، تنگی نفس؛ نشانه‌ها: پتشی و کبودی گردن؛ 50% بدون علامت تروما و 67% بدون علامت؛ برخی آسیب کشنده بدون علامت
+- زون‌ها (شکل 163-1): I: راس ریه، عروق توراسیک، نای دیستال، مری، ستون، شریان‌های ورتبرال و کاروتید؛ II: کاروتید و ورتبرال میانی، ورید ژوگولار، مری، ستون، حنجره و نای؛ III: کاروتید و ورتبرال پروگزیمال، اوروفارنکس، ستون
+- نافذ: معاینه ساختارمند > 95% حساس؛ پارگی platysma ← فرض آسیب عمق؛ MDCTA (100% حساس و 97.5% اختصاصی) + معاینه در پایدار؛ الگوریتم شکل 163-2؛ بلانت: MDCTA آزادانه؛ منفی با شک: آنژیوگرافی؛ شک حنجره/مری: laryngobronchoscopy، اندوسکوپی یا مطالعه بلع
+
+@ddx
+- !Vascular injury / expanding hematoma / airway obstruction |
+- !Cervical spine / spinal cord injury / tension pneumothorax |
+- Pharyngoesophageal injury (occult) |
+
+@redflags
+- علائم سخت، استریدور، هماتوم در حال گسترش، شوک، پارگی platysma، transmidline
+
+@guide
+1) پروتکل ATLS؛ IV، اکسیژن و مانیتور. 2) کنترل اورژانس راه هوایی: اندیکاسیون جدول 163-3؛ ابزار کمکی آماده؛ شل‌کننده با احتیاط شدید؛ اگر اوروتراکئال غیرممکن: راه هوایی جراحی. 3) تروما نافذ گردن: 20% pneumothorax/hemothorax؛ tension: سوزن‌گذاری فوری؛ سونوگرافی/CXR و tube thoracostomy. 4) فشار مستقیم با پانسمان هموستاتیک بدون انسداد کاروتید یا راه هوایی؛ clamp کور ممنوع؛ هموستاتیک موضعی؛ Foley در مسیر زخم و باد کردن؛ tranexamic acid 1 g IV طی 10 دقیقه سپس 1 g طی 8 ساعت در بیمار در حال خونریزی کشنده با زخم < 3 ساعت؛ ادامه: جراحی اورژانس. 5) ایمبیلیزاسیون گردن در تغییر هوشیاری، تروما بلانت یا نافذ با نقص عصبی پس از معاینه دقیق. 6) هر زخم نافذ که platysma را بشکافد: مشاوره جراحی؛ ناپایدار: جراحی/رادیولوژی مداخله‌ای اورژانس؛ پایدار: ارزیابی تشخیصی (شکل 163-2). 7) بدون نفوذ platysma: مراقبت استاندارد و بستن؛ ترخیص در بدون علامت. 8) بلانت با علائم سخت: مشاوره جراحی اورژانس؛ پایدار علامت‌دار: MDCTA؛ بستری و مشاوره حتی با مطالعه اولیه منفی. 9) بلانت بدون علامت: MDCTA آزادانه و مشاهده طولانی (4 تا 6 ساعت)؛ به‌ویژه عوامل خطر BCVI. 10) مسائل روانی-اجتماعی در strangulation.
+
+@variant neck-trauma-penetrating-unstable
+name: Penetrating neck trauma — hard signs / unstable (OR / angiography)
+level: I
+imp: Penetrating neck trauma, unstable / hard signs
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+o2: 100% oxygen
+
+@scenario
+مرد ۲۵ ساله با ضربه چاقو گردن زون II، خونریزی ضربان‌دار، هماتوم در حال گسترش، استریدور و فشار 80/50.
+
+@why
+راه هوایی و کنترل خونریزی و اتاق عمل فوری؛ بدون تأخیر.
+
+@I
+- CXR portable / bedside ultrasound (pneumothorax / hemothorax; 20%); no delay of OR for tests; MDCTA only if stable
+
+@L
+- Type and crossmatch, CBC, coagulation, ABG / lactate
+
+@S
+- Crystalloid / blood products per resuscitation; tranexamic acid 1 g IV over 10 min then 1 g IV over 8 h in exsanguinating patients with wound < 3 h {hi}
+
+@T
+- Emergent airway control (stridor, expanding hematoma, shock); adjunct airway devices at hand; paralytics with extreme caution; surgical airway if oral intubation not possible
+- Direct pressure with hemostatic dressing without occluding carotid or airway; Foley balloon in wound tract if direct pressure fails; NO blind clamping; needle thoracostomy for tension pneumothorax then tube thoracostomy
+- Cervical immobilization only if altered mental status / neuro deficit (do not impede monitoring or life-saving procedures)
+
+@Co
+- Emergent surgery / interventional radiology (do not delay egress from ED); ICU
+
+@variant neck-trauma-stable
+name: Neck trauma, stable — platysma violation / CTA / blunt screening
+level: II
+imp: Neck injury, stable (penetrating platysma violation / blunt)
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: PA
+
+@scenario
+مرد ۳۵ ساله پایدار با زخم نافذ گردن که platysma را شکافته؛ یا بیمار تصادف با کمربند و گردن‌درد.
+
+@why
+MDCTA و مشاوره جراحی؛ مشاهده در بلانت.
+
+@I
+- Multidetector CT angiography (MDCTA; 100% sensitive / 97.5% specific) of the neck; esophagram + esophagoscopy (combined 100% sensitive) if pharyngoesophageal suspicion; panendoscopy / laryngobronchoscopy for laryngotracheal suspicion; cerebral angiography if MDCTA negative but suspicion remains
+- CXR PA; CT cervical spine for blunt mechanism
+
+@L
+- CBC, coagulation, type and screen
+
+@A
+- IV antibiotics for 7–10 days if pharyngoesophageal injury confirmed (with nasogastric or TPN nutrition / repair or conservative management)
+
+@T
+- ATLS monitoring; observation 4–6 h for asymptomatic blunt neck trauma (delayed respiratory / neurologic dysfunction), especially with BCVI risk factors; address psychosocial issues of strangulation victims (hanging / strangulation: MDCTA liberal)
+
+@Co
+- Surgical consultation for all platysma-violating wounds and symptomatic blunt trauma (admit even if initial study negative); penetrating wounds not violating platysma: standard wound care and discharge if asymptomatic

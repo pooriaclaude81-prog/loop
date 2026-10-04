@@ -1,0 +1,159 @@
+@cond trauma-elderly
+ch: 158
+name: Trauma in the elderly
+name_fa: تروما در سالمند
+cc: trauma-major, head-injury
+keywords: geriatric trauma, fall elderly, anticoagulated head injury, rib fractures elderly, hip fracture, C1 C2 fracture, subdural hematoma, تروما سالمند, سقوط سالمند
+status: draft
+
+@features
+- سقوط شایع‌ترین علت آسیب کشنده و غیرکشنده در ≥ 65 سال؛ سنکوپ (دیسریتمی، venous pooling، اختلال اتونوم، هیپوکسی، کم‌خونی، هیپوگلیسمی)؛ تصادف خودرو دومین علت آسیب و علت اول مرگ؛ عابر پیاده سالمند مرگ بیشتر؛ آسیب عمدی و ناشی از غفلت را در نظر بگیر
+- بیمار را هم طبی و هم تروما ارزیابی کن؛ شرح حال دقیق (خانواده، پرونده، پزشک)؛ داروها: قلبی، دیورتیک، روان‌گردان و ضدانعقاد؛ علت سقوط ممکن علت طبی جدی را نشان دهد
+- علائم حیاتی «نرمال» اطمینان‌بخش نیست: تاکی‌کاردی ممکن وجود نداشته یا کند (β-blocker)؛ فشار خون گمراه‌کننده (HTN زمینه‌ای): آستانه هیپوتانسیون بالاتر؛ تروما بلانت ≥ 65: مرگ‌ومیر با SBP < 110 و HR > 90 افزایش می‌یابد
+- راه هوایی: دندان مصنوعی، آرتریت گردن/TMJ؛ survey ثانویه کامل (آسیب‌های «جزئی» تجمعی)؛ بیمار به‌ظاهر پایدار ممکن ناگهانی بدتر شود
+- سر: تغییر وضعیت ذهنی را صرفاً به دمانس نسبت نده؛ epidural کمتر؛ subdural و intraparenchymal بیشتر؛ ICH در بیماران ضدانعقاد با ضربه بلانت بدون/با علائم حداقل 7 تا 14%؛ CT سر بدون کنتراست در مصرف warfarin با هر مکانیسم نگران‌کننده حتی سر خفیف
+- ستون گردن: شکستگی C1 و C2 بیشتر؛ ایمبیلیزاسیون تا ارزیابی؛ CT روش اولیه ترجیحی (دژنراسیون رادیوگرافی را تفسیر دشوار می‌کند)
+- قفسه: شکستگی دنده بیشتر (استئوپروز)؛ درد + ذخیره فیزیولوژیک کم ← عوارض تنفسی؛ hemopneumothorax، کوفتگی ریه، flail chest و کوفتگی قلب سریعاً دکمپانسه
+- شکم: معاینه غیرقابل اتکا؛ FAST برای هموپریتوان در ناپایدار (جایگزین DPL)؛ CT با کنتراست در پایدار؛ هیدراتاسیون و کراتینین پایه قبل از کنتراست
+- ارتوپدی: شکستگی هیپ (بین‌تروکانتریک شایع‌ترین، transcervical، subcapital، subtrochanteric)؛ لگن و استخوان بلند ممکن تنها علت هیپوولمی؛ مشاوره ارتوپدی زودهنگام؛ CT لگن اگر رادیوگرافی منفی و حساسیت؛ استخوان بلند (فمور، تیبیا، هومروس): rodding داخل‌مدولاری ← تحرک زودتر؛ Colles و شکستگی هومروس پروگزیمال/surgical neck با سقوط روی دست یا آرنج
+
+@ddx
+- !Intracranial hemorrhage (SDH) on anticoagulation |
+- !Occult shock / hip or pelvic fracture hemorrhage |
+- Syncope / medical cause of fall / elder abuse |
+
+@redflags
+- SBP < 110 و HR > 90، ضدانعقاد، GCS کاهش‌یافته، شکستگی C1/C2، دنده متعدد
+
+@guide
+survey اولیه و ثانویه سریع. 1) هدف اصلی: رسانش اکسیژن کافی؛ اینتوباسیون زودهنگام در آسیب شدید، RR > 40، PaO2 < 60 یا PaCO2 > 50. 2) احیای بیش‌ازحد مثل ناکافی خطرناک؛ کریستالوئید با احتیاط؛ استفاده زودتر و آزادتر از PRBC. 3) base deficit و lactate شاخص اولیه شوک و سریال. 4) پایش تهاجمی زودهنگام ممکن (عدم قطعیت بهترین رویکرد): تصویربرداری لازم برای آسیب تهدیدکننده (CT سر، ستون، قفسه، شکم، لگن) سپس ICU برای بهینه‌سازی همودینامیک و بعد تصویربرداری/مداخله غیرضروری. 5) برگرداندن سریع ضدانعقاد در warfarin با خونریزی داخل‌جمجمه‌ای؛ برگرداندن سایر (aspirin، clopidogrel، heparin) منطقی در ICH تشخیص‌داده‌شده. 6) آستانه پایین بستری با شکستگی دنده تا کنترل درد و pulmonary toilet. 7) polytrauma، قفسه مهم، علائم حیاتی غیرطبیعی یا hypoperfusion آشکار/پنهان: ICU.
+
+@variant trauma-elderly-main
+name: Elderly trauma (fall / MVC) — resuscitation, occult shock, anticoagulation
+level: I
+imp: Trauma in the elderly
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+o2: titrate to SpO2 ≥ 94%
+
+@scenario
+زن ۸۲ ساله مصرف‌کننده warfarin پس از سقوط با ضربه به سر، درد قفسه (شکستگی دنده)، HR 95 و فشار 115/70.
+
+@why
+CT سر/ستون/قفسه، لاکتات و ICU؛ ضدانعقاد را برگردان.
+
+@I
+- Noncontrast head CT (warfarin / anticoagulant: even minor head injury); CT cervical spine (preferred; C1 / C2 fractures); CXR portable; CT chest / abdomen / pelvis with IV contrast if stable (hydration and renal function check first); FAST (unstable); pelvis radiograph / CT pelvis if tenderness and negative plain films; hip / extremity radiographs
+
+@L
+- Lactate and base deficit (serial), ABG, CBC, BMP / creatinine, type and screen / crossmatch, PT/INR, aPTT, troponin, glucose, ECG (syncope / dysrhythmia as cause of fall), urinalysis
+
+@S
+- Crystalloid judiciously (diminished cardiac compliance — volume overload risk) {ci: avoid over-resuscitation / heart failure}; earlier and more liberal PRBC transfusion to enhance oxygen delivery
+- Reverse anticoagulation rapidly in warfarin with intracranial bleeding on CT (vitamin K IV, 4-factor PCC / FFP); reasonable to reverse aspirin / clopidogrel / heparin in diagnosed ICH
+- Analgesia titrated for rib fractures (consider regional block) {ci: NSAIDs with renal disease / anticoagulation}
+
+@T
+- Early intubation and mechanical ventilation if severe injury, RR > 40, PaO2 < 60 mmHg or PaCO2 > 50 mmHg; cervical immobilization until assessed; frequent vital signs ("normal" vitals not reassuring; β-blocker masking)
+- Search for cause of fall (syncope: dysrhythmia, hypoglycemia, anemia, hypoxia); screen for elder abuse / neglect
+
+@Co
+- Trauma surgery; orthopedics (hip / pelvis / long bone — early consultation); neurosurgery if ICH; ICU for polytrauma, chest wall injury, abnormal vitals or occult hypoperfusion; admit rib fractures for pain control and pulmonary toilet
+
+@cond trauma-pregnancy
+ch: 159
+name: Trauma in pregnancy
+name_fa: تروما در بارداری
+cc: trauma-major, pregnancy
+keywords: pregnancy trauma, placental abruption, Kleihauer-Betke, Rh immunoglobulin, supine hypotension, fetal monitoring, perimortem cesarean, تروما در بارداری, جدا شدن جفت
+status: draft
+
+@features
+- تروما علت اول عوارض و مرگ غیرمامایی در باردار؛ MVC، سقوط و خشونت خانگی؛ بقا و سلامت جنین وابسته به تثبیت مادر
+- فیزیولوژی: HR 10 تا 20 bpm در سه‌ماهه دوم؛ فشار سیستولیک/دیاستولیک 10 تا 15 mmHg کاهش؛ حجم خون تا 45% بیشتر ولی توده RBC کمتر ← کم‌خونی فیزیولوژیک؛ تا 30 تا 35% حجم خون را از دست می‌دهد قبل از شوک؛ بالا رفتن دیافراگم، کاهش RV و FRC، افزایش tidal volume (هیپرونتیلاسیون و آلکالوز تنفسی با pH نرمال)؛ تأخیر تخلیه معده (خطر آسپیراسیون)
+- آسیب: طحال شایع‌ترین علت خونریزی شکم؛ پس از هفته 12 رحم از لگن خارج و در هفته 20 به ناف؛ جریان رحم بیشتر ← خونریزی مادری شدید؛ «supine hypotension syndrome» (فشار رحم روی IVC)؛ روده کوچک به سمت بالا (آسیب نافذ شکم فوقانی)؛ مثانه سه‌ماهه سوم در شکم
+- آسیب جنین: بیشتر سه‌ماهه سوم، همراه شکستگی لگن یا ترومای نافذ؛ پارگی رحم نادر ولی مرگ‌ومیر بالای جنین؛ شایع‌تر: تحریک‌پذیری رحم، زایمان زودرس، جدا شدن جفت: درد شکم، خونریزی واژینال و انقباضات؛ خونریزی جنین-مادر > 30% ← ایزوایمونیزاسیون Rh
+
+@ddx
+- !Placental abruption / uterine rupture |
+- !Splenic / hepatic injury / hemorrhagic shock |
+- Supine hypotension syndrome / amniotic fluid embolism |
+
+@redflags
+- خونریزی واژینال، درد شکم، انقباضات، کاهش حرکات جنین، FHR غیرطبیعی
+
+@guide
+بقا و ثبات مادر بهترین شانس جنین؛ هیچ مداخله حیاتی یا تشخیصی نباید به‌علت نگرانی جنین به تأخیر افتد. ترتیب احیای تروما تغییر نمی‌کند؛ توجه به شکم باردار (آسیب، حساسیت، انقباض). شک تروما شکم/لگن: معاینه استریل لگن (ترومای ژنیتال، خونریزی واژینال، پارگی پرده‌ها) پس از سونوگرافی لگن برای محل جفت؛ مایع واژینال با pH 7 و «ferning» ← پارگی آمنیوتیک. آزمایش: CBC، شیمی، گروه خون، Rh، انعقاد با FDP و فیبرینوژن (DIC)؛ Apt یا Kleihauer–Betke. پرتو: عارضه جنینی ناچیز زیر 5 rad (بیشتر از رادیوگرافی ساده)؛ کاهش تعداد برش CT و محافظ؛ سونوگرافی بالین بسیار حساس، اختصاصی و بدون پرتو (FHR، سن حاملگی، فعالیت/مرگ جنین، محل جفت، حجم مایع آمنیوتیک)؛ DPL با روش open supraumbilical اگر لازم. FHR نرمال 120 تا 160؛ برادیکاردی جنین ← هیپوکسی (هیپوتانسیون مادر، اختلال تنفسی، abruption)؛ تاکی‌کاردی ← هیپوکسی یا هیپوولمی؛ تروما بلانت شکم: مانیتورینگ خارجی جنین ≥ 4 تا 6 ساعت در همه بالای هفته 20؛ تاکی‌کاردی جنین، نبود تغییرپذیری یا late decelerations ← distress و ممکن سزارین اورژانس بالای سن زنده‌مانی. 1) احیای تهاجمی مادر = بهترین احیای جنین. 2) اکسیژن و کریستالوئید 50% بیشتر از غیرباردار؛ بالای هفته 20 در supine: wedge زیر هیپ راست، 30° به چپ، یا left lateral decubitus. 3) از وازوپرسور در صورت امکان پرهیز. 4) کزاز. 5) Rho(D) immunoglobulin برای Rh-منفی. 6) cardiotocodynamometry زودهنگام. 7) توکولیتیک فقط با مشورت مامایی. 8) اندیکاسیون لاپاراتومی مثل غیرباردار. 9) بالای 20 هفته: مشاهده یا بستری حداقل 4 تا 6 ساعت. 10) غربال خشونت شریک. 11) دستور بازگشت فوری: درد شکم/گرفتگی، خونریزی واژینال، نشت مایع، کاهش حرکات جنین.
+
+@variant trauma-pregnancy-major
+name: Major trauma in pregnancy (resuscitation, fetal assessment)
+level: I
+imp: Major trauma in pregnancy
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+o2: high-flow oxygen
+
+@scenario
+زن ۲۸ ساله باردار 30 هفته پس از تصادف با درد شکم، خونریزی واژینال خفیف و انقباضات؛ فشار 95/55 و HR 115.
+
+@why
+تثبیت مادر، پایش جنین و مشاوره مامایی/جراحی؛ ایزوایمونوگلوبولین.
+
+@I
+- eFAST / bedside ultrasonography (abdomen, FHR, placental location, fetal activity, amniotic fluid) — pelvic US before speculum / vaginal exam; CT / radiographs per usual trauma principles (do not withhold; fetal harm negligible < 5 rad; shield pelvis when possible, limit CT cuts)
+- Cardiotocodynamometry / external fetal monitoring ≥ 4–6 h (beyond 20 weeks)
+
+@L
+- CBC, chemistries, blood type and Rh, coagulation with fibrin split products and fibrinogen (DIC), type and crossmatch, Kleihauer–Betke test (or Apt test), pH of vaginal fluid / ferning (amniotic rupture), urinalysis, toxicology, ABG
+
+@S
+- Supplemental oxygen and crystalloid at rates 50% above non-pregnant patients {ci: avoid vasopressors if possible (uterine perfusion)}
+- Rho(D) immune globulin for all Rh-negative pregnant patients (dose per Kleihauer–Betke result) {hi}
+- Tocolytics only in consultation with obstetrician (side effects: maternal and fetal tachycardia)
+- Tetanus prophylaxis when indicated
+
+@T
+- Primary / secondary survey; beyond 20 weeks: wedge under right hip tilting patient 30° to left (or left lateral decubitus) to avoid supine hypotension syndrome; sterile pelvic examination after US
+- Indications for emergent laparotomy same as non-pregnant; emergent cesarean for fetal distress beyond viable gestational age (consider perimortem cesarean in maternal arrest)
+- Screen for intimate partner violence; instruct discharged patients to return for abdominal pain / cramps, vaginal bleeding, fluid leakage, decreased fetal movement
+
+@Co
+- Obstetrics (early) and trauma surgery; observe or admit ≥ 20 weeks for minimum 4–6 h tocodynamometric monitoring; ICU if unstable
+
+@variant trauma-pregnancy-minor
+name: Minor blunt trauma in pregnancy (≥ 20 weeks; fetal monitoring)
+level: II
+imp: Minor trauma in pregnancy
+cond: Urgent
+act: CBR
+diet: PO
+ecg: once
+cxr: none
+
+@scenario
+زن ۲۵ ساله باردار 24 هفته پس از سقوط خفیف با درد کم شکم؛ علائم حیاتی طبیعی.
+
+@why
+مانیتور 4 تا 6 ساعت و Rh/KB؛ ترخیص با دستور بازگشت.
+
+@I
+- Bedside ultrasonography (FHR, placenta, fluid); external fetal monitoring ≥ 4–6 h
+
+@L
+- Blood type and Rh; Kleihauer–Betke test; CBC
+
+@S
+- Rho(D) immune globulin if Rh-negative {hi}
+- Tetanus prophylaxis if indicated
+
+@T
+- Left lateral position; observation with tocodynamometry
+
+@Co
+- Obstetrics consultation; discharge if monitoring normal with return precautions (abdominal pain / cramps, vaginal bleeding, leakage of fluid, decreased fetal activity)

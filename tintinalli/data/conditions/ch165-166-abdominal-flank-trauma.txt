@@ -1,0 +1,264 @@
+@cond abdominal-trauma-blunt
+ch: 165
+name: Blunt abdominal trauma (solid organ, hollow viscus, retroperitoneal, diaphragm injuries)
+name_fa: ترومای بلانت شکم (ارگان‌های توپر، توخالی، رتروپریتوان، دیافراگم)
+cc: trauma-major, abdominal-pain
+keywords: blunt abdominal trauma, FAST exam, splenic injury, liver injury, Kehr sign, duodenal injury, pancreatic injury, CT abdomen contrast, diagnostic peritoneal lavage, laparotomy, ترومای شکم, طحال, FAST
+status: draft
+
+@features
+- هدف: تشخیص سریع آسیب‌هایی که نیاز به اکتشاف جراحی فوری دارند؛ بزرگ‌ترین خطا: به تأخیر انداختن جراحی در زمان لزوم
+- ارگان توپر: عوارض و مرگ عمدتاً از خونریزی؛ افزایش pulse pressure ممکن تنها سرنخ ≤ 15% حجم خون؛ HR و RR با ادامه افزایش؛ هیپوتانسیون در 30% کاهش؛ طحال شایع‌ترین آسیب در تروما بلانت؛ کبد در بلانت و نافذ؛ Kehr sign (درد ارجاعی شانه چپ) کلاسیک پارگی طحال؛ شکستگی دنده تحتانی چپ ← شک طحال؛ علائم حداقل در جوان و آسیب حواس‌پرتی/سر/مسمومیت؛ معاینه سریال در بیمار هوشیار و معتبر
+- ارگان توخالی: ترکیب خونریزی و آلودگی پریتوان؛ سوراخ معده/روده/کولون + آسیب مزانتر؛ علائم پریتونیت با گذشت زمان (6 تا 8 ساعت)؛ سر/حواس‌پرتی/مسمومیت: ممکن اولاً علائم نداشته باشد؛ روده کوچک و کولون بیشتر نافذ ولی کاهش شتاب: bucket-handle مزانتر یا blow-out لبه آنتی‌مزانتریک
+- رتروپریتوان: تشخیص چالش‌برانگیز؛ دوازدهه: کاهش شتاب سرعت بالا؛ هماتوم intramural تا ازهم‌گسیختگی؛ علائم دیررس: درد، تب، تهوع، استفراغ؛ پانکراس: کاهش شتاب سریع/فشار شدید؛ فرمان یا handlebar؛ علائم ظریف
+- دیافراگم: تظاهر پنهان؛ فتق احشا یا NG در قفسه در CXR؛ اغلب فقط محو شدن دیافراگم یا افیوژن
+- CXR: فتق، هوای آزاد زیر دیافراگم؛ AP لگن: شکستگی لگن؛ FAST (جدول 165-1): مایع آزاد؛ سریع (< 4 دقیقه)، غیرتهاجمی، تکرارپذیر، بدون پرتو؛ پریکارد و پلور و pneumothorax؛ محدودیت: عامل مایع نامعلوم، وابسته به اپراتور، چاقی/هوا، فرقی بین خون و آسیت، رتروپریتوان ضعیف؛ تقریباً DPL را در بلانت جایگزین کرده؛ CT شکم-لگن با کنتراست IV استاندارد طلایی (مکان و درجه دقیق؛ دوازدهه و پانکراس؛ multiphasic: خونریزی مزانتر و آسیب ترانس‌مورال)؛ PO contrast وقت‌گیر؛ DPL: ناپایدار نمی‌تواند برای CT برود یا هیپوتانسیون بی‌توضیح با معاینه مبهم؛ مثبت: > 10 mL خون خام، RBC > 100,000، WBC > 500، صفرا یا مواد گیاهی؛ ممنوع مطلق: جراحی واضح؛ نسبی: بیماری کبدی پیشرفته، کوآگولوپاتی شدید، جراحی قبلی، رحم باردار
+- جدول 165-4 اندیکاسیون لاپاراتومی (بلانت): مطلق: آسیب قدام شکم با هیپوتانسیون، disruption دیواره، پریتونیت، هوای آزاد زیر دیافراگم، FAST/DPL مثبت در ناپایدار، آسیب نیازمند جراحی در CT (قطع پانکراس، پارگی دوازدهه، دیافراگم)؛ نسبی: FAST/DPL مثبت در پایدار، آسیب ارگان توپر در پایدار، hemoperitoneum در CT بدون منبع روشن
+
+@ddx
+- !Hemorrhagic shock (thoracic, pelvic, retroperitoneal) |
+- Aortic / great vessel / diaphragm injury |
+
+@redflags
+- هیپوتانسیون، پریتونیت، FAST مثبت، هوای آزاد، شکستگی لگن، seat belt sign
+
+@guide
+1) پروتکل استاندارد تروما (فصل 156). 2) اکسیژن، مانیتور و دو IV بزرگ. 3) هیپوتانسیو: کریستالوئید IV و O-منفی یا PRBC type-specific. 4) آزمایش: type and crossmatch، CBC، الکترولیت، لاکتات، توکسیکولوژی، انعقاد، آنزیم کبد، lipase. 5) لاپاراتومی اندیکاسیون جدول 165-4؛ GSW سرعت بالا آشکار شکم: بدون تأخیر FAST مگر شک آسیب قلب؛ evisceration: پانسمان استریل مرطوب. 7) بلانت پایدار با FAST مثبت: CT قبل از بستری جراحی.
+
+@variant abdominal-trauma-unstable
+name: Blunt abdominal trauma with hypotension / positive FAST (laparotomy)
+level: I
+imp: Blunt abdominal trauma, hemodynamically unstable
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+o2: 100% oxygen
+
+@scenario
+مرد ۳۰ ساله پس از تصادف با فشار 75/45، HR 135، شکم متسع و FAST مثبت.
+
+@why
+خون و جراحی فوری؛ بدون CT.
+
+@I
+- eFAST (free intraperitoneal fluid; pericardial / pleural fluid; pneumothorax) — repeat serially; CXR portable (free air, diaphragm); AP pelvis radiograph
+- CT only if hemodynamically stable; DPL only if too unstable for CT with equivocal exam / unexplained hypotension (not if surgery clearly indicated)
+
+@L
+- Type and crossmatch, CBC, electrolytes, lactate, coagulation studies, hepatic enzymes, lipase, ABG, directed toxicology
+
+@S
+- IV crystalloid to hypotensive patients; transfuse O-negative or type-specific PRBC as indicated {hi}; massive transfusion protocol; tranexamic acid
+- Two large-bore IV lines
+
+@T
+- Oxygen, cardiac monitoring; keep warm; immediate transport to OR (Table 165-4 indications: hypotension with anterior abdominal injury, peritonitis, free air, disruption, positive FAST / DPL in unstable)
+
+@Co
+- Emergent trauma surgery / laparotomy; ICU; interventional radiology for embolization if appropriate
+
+@variant abdominal-trauma-stable-ct
+name: Blunt abdominal trauma, hemodynamically stable (CT, serial exams)
+level: II
+imp: Blunt abdominal trauma, stable
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: PA
+
+@scenario
+مرد ۲۵ ساله پس از تصادف با درد LUQ و کتف چپ (Kehr)، شکستگی دنده چپ؛ فشار 120/80 و FAST مثبت.
+
+@why
+CT شکم-لگن با کنتراست و معاینات سریال.
+
+@I
+- CT abdomen / pelvis with IV contrast (noninvasive gold standard; multiphasic CT for mesenteric hemorrhage / bowel injury); CXR; AP pelvis; ultrasound (FAST)
+
+@L
+- Type and crossmatch, CBC (serial hemoglobin), electrolytes, lactate, creatinine, hepatic enzymes, lipase, coagulation, urinalysis, directed toxicology
+
+@S
+- Crystalloid for hypotension only; IV analgesia
+
+@T
+- Cardiac monitoring; serial abdominal examinations (awake, reliable patient); NPO
+
+@Co
+- Trauma surgery admission (solid organ injury, hemoperitoneum without clear source = relative laparotomy indication); observation / ICU as indicated
+
+@cond abdominal-trauma-penetrating
+ch: 165
+name: Penetrating abdominal trauma (stab wound / gunshot wound)
+name_fa: ترومای نافذ شکم (چاقو / گلوله)
+cc: trauma-major, wound-bite, abdominal-pain
+keywords: penetrating abdominal trauma, gunshot wound abdomen, stab wound abdomen, evisceration, local wound exploration, laparotomy, ضربه چاقو شکم, گلوله شکم
+status: draft
+
+@features
+- سوراخ‌شدن معده/روده/کولون و خونریزی مزانتر؛ اندیکاسیون لاپاراتومی نافذ (جدول 165-4): مطلق: آسیب شکم/پشت/فلانک با هیپوتانسیون، حساسیت شکم، evisceration، شک بالا به مسیر transabdominal پس از GSW، آسیب نیازمند جراحی در CT؛ نسبی: local wound exploration مثبت پس از stab
+
+@ddx
+- !Hemothorax / cardiac injury / diaphragm injury |
+
+@redflags
+- هیپوتانسیون، پریتونیت، evisceration، GSW transabdominal
+
+@guide
+GSW سرعت بالا آشکار شکم: بدون تأخیر انتقال به OR با FAST مگر شک آسیب قلب؛ evisceration: پانسمان استریل مرطوب قبل جراحی. stab مبهم: مشاوره جراحی برای local wound exploration؛ اگر fascia قدامی سالم: ترخیص.
+
+@variant penetrating-abdominal-unstable
+name: Penetrating abdominal trauma — unstable / peritonitis / GSW (OR)
+level: I
+imp: Penetrating abdominal trauma requiring laparotomy
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+o2: 100% oxygen
+
+@scenario
+مرد ۲۰ ساله با گلوله شکم، فشار 80/50، حساسیت شکم و evisceration روده.
+
+@why
+OR فوری؛ پانسمان مرطوب و آنتی‌بیوتیک.
+
+@I
+- CXR portable; do not delay OR for FAST unless cardiac injury suspected (precordial wound)
+
+@L
+- Type and crossmatch, CBC, lactate, coagulation, electrolytes
+
+@S
+- IV crystalloid / blood products; tranexamic acid {hi}
+
+@A
+- Broad-spectrum antibiotics (pre-op; e.g., cefazolin + metronidazole or piperacillin/tazobactam 3.375 g IV)
+
+@T
+- Cover eviscerated organs with moist sterile dressing; two large-bore IV; oxygen; tetanus
+
+@Co
+- Immediate trauma surgery (laparotomy); ICU
+
+@variant penetrating-abdominal-stab-stable
+name: Stab wound to abdomen, stable (local wound exploration)
+level: II
+imp: Stab wound abdomen, stable
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: once
+cxr: PA
+
+@scenario
+مرد ۳۰ ساله با زخم چاقو 2 cm قدام شکم، پایدار، بدون حساسیت.
+
+@why
+اکتشاف موضعی توسط جراح؛ اگر fascia سالم ترخیص.
+
+@I
+- eFAST; CXR; CT abdomen / pelvis with IV contrast if equivocal and stable
+
+@L
+- CBC, lactate
+
+@T
+- Surgical consultation for local wound exploration; serial abdominal exams
+
+@Co
+- Trauma surgery; discharge if no violation of anterior fascia on local wound exploration (and stable serial examinations)
+
+@cond flank-buttock-penetrating-trauma
+ch: 166
+name: Penetrating trauma to the flank and buttocks
+name_fa: ترومای نافذ فلانک و باسن
+cc: trauma-major, wound-bite, flank-pain
+keywords: penetrating flank trauma, penetrating buttock trauma, retroperitoneal injury, gunshot flank, CT triple contrast, piperacillin tazobactam, ضربه نافذ فلانک, باسن
+status: draft
+
+@features
+- چالش: تشخیص آسیب پریتوان و رتروپریتوان؛ تعیین نیاز به جراحی فوری؛ مسیرها و شدت متنوع (stab و GSW)؛ ناپایدار: جراحی فوری؛ مکانیسم، زمان، سلاح، مسیر گلوله یا عمق زخم در تصمیم
+- فلانک: از علائم حیاتی پایدار با زخم بی‌خطر تا شوک و پریتونیت؛ خون خام رکتال ← آسیب روده؛ خون در مئاتوس یا هماچوری ← آسیب ادراری-تناسلی؛ CT انتخابی در پایدار (ممکن PO یا رکتال برای آسیب توخالی؛ تعیین عمق stab)؛ eFAST برای مایع آزاد
+- باسن: GSW بسیار بیشتر از stab نیاز لاپاراتومی؛ GSW بالای تروکانتر بزرگ و هماچوری پیش‌بینی جراحی؛ معاینه رکتال، نبض‌های اندام تحتانی و عصبی (سیاتیک و فمورال)؛ CT با کنتراست خوراکی، IV و رکتال؛ cystourethrogram در هماچوری یا نزدیک مسیر ادراری؛ CTA یا آنژیوگرافی/venography اگر هماتوم لگن
+
+@ddx
+- !Retroperitoneal / intraperitoneal / vascular / urinary tract injury |
+
+@redflags
+- ناپایداری، پریتونیت، GSW فلانک، مسیر transabdominal/intrapelvic، هماچوری
+
+@guide
+فلانک: لاپاراتومی اورژانس: ناپایدار، پریتونیت، GSW فلانک. شک سوراخ پریتوان یا پریتونیت: آنتی‌بیوتیک وسیع‌الطیف piperacillin/tazobactam 3.375 g IV. بسیاری stab محافظه‌کارانه: پرخطر (عمق بیش از fascia عمقی): مشاوره جراحی و بستری؛ کم‌خطر (سطحی‌تر از fascia عمقی): ترخیص اگر معاینات سریال بی‌یافته و پایدار پس از مشاهده. باسن: ناپایدار، پریتونیت یا مسیر intrapelvic/transabdominal: لاپاراتومی؛ آنژیوگرافی مداخله‌ای در خونریزی داخل لگن؛ اکتشاف زخم محدود ارزش؛ فقط stab بسیار سطحی ترخیص؛ بیشتر بستری و مشاهده (آسیب پنهان).
+
+@variant flank-penetrating-main
+name: Penetrating flank trauma (stable — CT; unstable / GSW — OR)
+level: I
+imp: Penetrating flank trauma
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: PA
+
+@scenario
+مرد ۲۸ ساله با ضربه چاقو فلانک چپ، پایدار؛ هماچوری میکروسکوپی.
+
+@why
+CT و خطر؛ ناپایدار/GSW ← OR.
+
+@I
+- CT abdomen / pelvis with IV contrast (± PO or rectal contrast if hollow viscus suspected; helps determine stab wound depth); eFAST (free fluid predicts need for surgery)
+
+@L
+- CBC, lactate, creatinine, urinalysis (hematuria), type and screen, rectal examination (gross blood)
+
+@S
+- IV crystalloid if needed
+
+@A
+- Piperacillin/tazobactam 3.375 g IV if peritoneal violation concern / peritonitis {ci: penicillin allergy}
+
+@T
+- Standard trauma resuscitation; observation with serial exams; tetanus
+
+@Co
+- Trauma surgery: emergent laparotomy for hemodynamic instability, peritonitis or gunshot wound to flank; high-risk stab (beyond deep fascia) admit; low-risk (superficial to deep fascia) discharge if serial exams unremarkable
+
+@variant buttock-penetrating-main
+name: Penetrating buttock trauma
+level: I
+imp: Penetrating buttock trauma
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: none
+
+@scenario
+مرد ۲۲ ساله با گلوله باسن بالای تروکانتر بزرگ و هماچوری.
+
+@why
+CT سه‌گانه و cystourethrogram؛ GSW نیاز جراحی بالا.
+
+@I
+- CT abdomen / pelvis with oral, IV and rectal contrast (avoid missed colon / rectal injury); cystourethrogram for hematuria / wounds near GU tract; CT angiography / angiography and venography if pelvic hematoma; eFAST
+
+@L
+- CBC, lactate, type and crossmatch, urinalysis (hematuria); rectal exam (gross blood), lower-extremity pulses, sciatic / femoral nerve examination
+
+@S
+- IV crystalloid / blood if unstable
+
+@A
+- Piperacillin/tazobactam 3.375 g IV if peritonitis or high suspicion for peritoneal violation
+
+@T
+- Standard resuscitation; interventional angiography for extensive intrapelvic bleeding; wound exploration of limited value; tetanus
+
+@Co
+- Trauma surgery: laparotomy if unstable, peritonitis, or likely intrapelvic / transabdominal bullet path; most patients admitted for observation (occult injuries); very superficial stab wounds only may be discharged

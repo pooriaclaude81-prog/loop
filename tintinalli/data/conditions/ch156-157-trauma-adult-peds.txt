@@ -1,0 +1,194 @@
+@cond major-trauma-adult
+ch: 156
+name: Major trauma in adults (primary and secondary survey; hemorrhagic shock)
+name_fa: ترومای عمده بزرگسال (survey اولیه و ثانویه؛ شوک هموراژیک)
+cc: trauma-major
+keywords: trauma, ABCDE, primary survey, secondary survey, hemorrhagic shock, eFAST, tranexamic acid, massive transfusion, tension pneumothorax, ترومای عمده, شوک هموراژیک
+status: draft
+
+@features
+- راهنمای مراقبت: ارزیابی سریع، تریاژ، احیا، ارزیابی مجدد سریال، تشخیص و مداخله درمانی؛ علائم غیراختصاصی (تاکی‌کاردی، تاکی‌پنه، تغییر خفیف هوشیاری) را تا اثبات خلاف جدی بدان؛ مکانیسم آسیب بدون علائم نیز باید دنبال شود
+- survey اولیه (جدول 156-1): A: راه هوایی و ستون گردن: jaw thrust/chin lift، ساکشن؛ اینتوباسیون با تثبیت in-line در کاهش هوشیاری یا ناتوانی محافظت؛ راه هوایی جراحی در خونریزی/انسداد قابل‌توجه یا لارنگوسکوپی ممکن نیست؛ B: تهویه با 100% اکسیژن، سمع، بازرسی قفسه و گردن (انحراف نای، زخم باز، حرکت غیرطبیعی دیواره، crepitus)؛ سوزن‌گذاری فوری در tension pneumothorax، chest tube در hemopneumothorax؛ C: وضعیت حجم خون: رنگ پوست، پر شدن مویرگی، نبض و فشار؛ دو IV بزرگ؛ انفوزیون سریع کریستالوئید گرم؛ فشار مستقیم بر خونریزی خارجی؛ مرکزی/IO اگر محیطی ممکن نیست؛ پریکاردیوسنتز در تامپوناد؛ left lateral decubitus در حاملگی دیررس؛ D: معاینه عصبی، مردمک، قدرت، GCS، قند مویرگی؛ E: لخت کردن کامل، log-roll با تثبیت in-line، معاینه ستون توراسیک، فلانک، پشت، باسن
+- survey ثانویه: scalp، ثبات صورت، hemotympanum، epistaxis/هماتوم سپتوم، دندان کنده/فک، شکم، زخم نافذ، ثبات لگن (wrap)، پرینه، مئاتوس ادراری (خون)، معاینه رکتال، نبض محیطی، دفورمیتی اندام و ایمبیلیزاسیون شکستگی و دررفتگی
+- خونریزی تا 30% حجم کل ممکن فقط تاکی‌کاردی خفیف و کاهش pulse pressure؛ تدریجی به شوک؛ GCS 15 TBI را رد نمی‌کند؛ آسیب‌های اغلب از دست رفته: ارتوپدی؛ مری، دیافراگم و روده کوچک گاه تأخیری
+
+@ddx
+- !Tension pneumothorax / cardiac tamponade / massive hemothorax |
+- !Intra-abdominal / pelvic / retroperitoneal hemorrhage |
+- Spinal cord injury / traumatic brain injury |
+
+@redflags
+- GCS < 8، شوک، tension pneumothorax، تامپوناد، مکانیسم پرخطر
+
+@guide
+1) مدیریت پیش از رسیدن بیمار (EMS: مکانیسم، علائم حیاتی، آسیب‌ها، درمان). 2) راه هوایی: jaw thrust سپس airway دهانی/بینی (بینی در شکستگی قاعده جمجمه ممنوع)؛ اینتوباسیون در GCS < 8 و بیمار آژیته نیازمند تشخیص/درمان یا جراحی فوری؛ دو نفر (یک نفر ثبات in-line)؛ تقریباً همه با RSI؛ ترومای وسیع صورت یا ناتوانی اینتوباسیون: cricothyrotomy. 3) پس از راه هوایی: نای منحرف (tension)، crepitus، flail chest، sucking chest wound، sternum، عدم صدای تنفسی (pneumothorax ساده/tension، hemothorax ماسیو، اینتوباسیون برونش اصلی راست): tension pneumothorax فوراً سوزن‌گذاری سپس tube thoracostomy. 4) وضعیت همودینامیک: هوشیاری، رنگ پوست، نبض‌ها، HR، BP، pulse pressure؛ دو IV بزرگ و نمونه آزمایشگاه به‌ویژه type and screen؛ خط مرکزی در ناپایدار؛ tranexamic acid زودهنگام ممکن مرگ‌ومیر را کم کند. 5) ناپایدار بدون اندیکاسیون واضح جراحی: پس از 2 L کریستالوئید گرم؛ بهبود نیافت: PRBC نوع O (O-منفی برای زن سن باروری)؛ eFAST بلافاصله پس از survey اولیه؛ پایدار: CT شکم و لگن با کنتراست IV؛ نافذ شکم با شوک: جراحی زودهنگام. 6) کوآگولوپاتی ترومایی: > 10 واحد PRBC: PRBC:FFP 1:1؛ اسیدوز و هیپوترمی اصلاح شوند. 7) معاینه عصبی مختصر؛ قند مویرگی؛ فرض TBI قابل‌توجه؛ GCS 3 تا 8: هر اقدام غیرضروری را تا CT سر به تأخیر بینداز؛ کاپنوگرافی مداوم در اینتوبه. 8) log-roll با ثبات in-line؛ لمس spinous process؛ معاینه رکتال. 9) آسیب مری، دیافراگم و روده کوچک ممکن تشخیص داده نشود: تصویربرداری بیشتر و مشاهده؛ بیشتر از دست رفته: ارتوپدی. 10) ناپایداری همراه خونریزی ادامه‌دار: اتاق عمل یا انتقال؛ معاینات سریال.
+
+@variant trauma-adult-stable
+name: Major trauma, hemodynamically stable (primary / secondary survey, imaging)
+level: I
+imp: Major trauma, adult, stable
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+o2: 100% oxygen (primary survey)
+
+@scenario
+مرد ۳۵ ساله پس از تصادف خودرو با درد قفسه و شکم، GCS 15، فشار 125/80 و HR 100.
+
+@why
+ABCDE، eFAST و CT بدنه.
+
+@I
+- eFAST (screen for shock causes) immediately after primary survey; CXR portable and pelvis radiograph; CT head noncontrast (TBI), CT cervical spine, CT chest / abdomen / pelvis with IV contrast when hemodynamically stable
+- Log-roll with in-line stabilization for spine; extremity radiographs for deformity
+
+@L
+- Type and screen (crossmatch if bleeding), CBC, BMP, PT/INR, PTT, lactate, ABG, glucose (capillary), ethanol / toxicology, urinalysis (hematuria), pregnancy test (females), CK
+
+@S
+- Two large-bore IV lines; warm crystalloid if indicated {ci: avoid over-resuscitation}
+- Tranexamic acid IV early (may reduce mortality) in significant bleeding
+- Analgesia (IV opioid titrated)
+
+@T
+- Continuous monitoring (ECG, SpO2, capnography if intubated); keep normothermic; in-line cervical stabilization
+- Tetanus update; immobilize fractures / dislocations; splint / pelvic wrap if unstable pelvis
+- Serial examinations (ED observation / inpatient)
+
+@Co
+- Trauma surgery; orthopedics / neurosurgery as indicated; admit
+
+@variant trauma-adult-unstable
+name: Major trauma with hemorrhagic shock (resuscitation)
+level: I
+imp: Major trauma with hemorrhagic shock
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+o2: 100% oxygen
+
+@scenario
+مرد ۴۰ ساله با ضربه نافذ شکم، فشار 70/40، HR 140 و رنگ‌پریده.
+
+@why
+احیا، خون O، tranexamic acid و اتاق عمل فوری.
+
+@I
+- eFAST (free fluid / pericardial / pneumothorax); CXR portable; pelvis radiograph
+- CT only if responds / stable; penetrating abdominal trauma in shock → early operative intervention (no CT)
+
+@L
+- Type and crossmatch (emergency release), CBC, coagulation, fibrinogen, ABG / lactate, ionized calcium
+
+@S
+- Two large-bore IV (central / IO if needed); rapid warm crystalloid 2 L then type O blood (O-negative for females of childbearing age) if no marked improvement
+- Massive transfusion protocol: PRBC : FFP 1:1 (and platelets) when > 10 units anticipated
+- Tranexamic acid IV (early administration may reduce mortality) {hi}
+
+@T
+- Intubation by RSI with in-line stabilization if indicated (GCS < 8 / inability to protect airway); needle decompression then tube thoracostomy for tension pneumothorax; pericardiocentesis for tamponade; direct pressure on brisk external bleeding; pelvic wrap / sling; left lateral decubitus in late pregnancy
+- Correct acidosis, hypothermia and hypocalcemia; blood warmer
+
+@Co
+- Immediate trauma surgery / operating room (or transfer to a facility with surgical / critical care resources); ICU
+
+@cond major-trauma-peds
+ch: 157
+name: Major trauma in children (airway, shock, TBI, thoracoabdominal injury)
+name_fa: ترومای عمده کودک
+cc: trauma-major, pediatric-other
+keywords: pediatric trauma, modified pediatric GCS, Broselow, intraosseous, TBI children, pulmonary contusion, abdominal trauma CT rules, ترومای کودک
+status: draft
+
+@features
+- تروما شایع‌ترین علت مرگ کودک > 1 سال؛ تفاوت‌های آناتومی و فیزیولوژی؛ سر شایع‌ترین آسیب کشنده؛ تصادف خودرو شایع‌ترین مکانیسم
+- راه هوایی: occiput بزرگ، زبان بزرگ، حنجره بالاتر؛ تنفس: کودک سریع‌تر desaturate می‌شود؛ گردش: تاکی‌کاردی، تغییر وضعیت ذهنی و پرفیوژن غیرطبیعی زودهنگام؛ هیپوتانسیون معمولاً حادثه نهایی؛ فشار سیستولیک نرمال 1 تا 10 سال: 90 + (2 × سن) mmHg؛ هیپوتانسیون: < 70 + (2 × سن)
+- GCS اصلاح‌شده کودک (جدول 157-1): coos/babbles = 5، irritable cry = 4، cries to pain = 3، moans to pain = 2، بدون پاسخ = 1؛ مردمک، تون و قدرت؛ سطح بدن/جرم بیشتر ← خطر هیپوترمی
+- سر: شیرخوار/نوزاد بیشترین خطر آسیب داخل‌جمجمه؛ شکستگی parietal/occipital اغلب با خونریزی؛ CT بدون کنتراست؛ scalp نوزاد: خونریزی قابل‌توجه و شوک؛ ستون: آسیب نخاع اغلب بدون شکستگی (لیگامان الاستیک)؛ تروما چندسیستمی و سر: ایمبیلیزاسیون گردن و تصویربرداری؛ رادیوگرافی ساده مفید
+- قفسه: CXR ضروری؛ CT تغییر مدیریت نمی‌دهد؛ کوفتگی ریه شایع‌ترین؛ شکستگی دنده کمتر و مکانیسم شدید
+- شکم و ادراری-تناسلی: اندیکاسیون CT: مکانیسم مشکوک، حساسیت، seatbelt sign، اتساع و استفراغ؛ پیش‌بینی خطر بسیار کم: بدون تروما دیواره شکم/seat belt یا GCS < 14؛ بدون حساسیت شکم؛ بدون تروما دیواره قفسه و بدون درد شکم/کاهش صداهای روده/استفراغ؛ شکستگی لگن (به‌ویژه حلقه قدامی): آسیب مجرا یا مثانه؛ نقش سونوگرافی در پایدار معلوم نیست
+
+@ddx
+- !Child abuse (non-accidental trauma) |
+- !Tension pneumothorax / tamponade / hemorrhage |
+- Spinal cord injury without radiographic abnormality |
+
+@redflags
+- GCS < 8، هیپوتانسیون، علائم herniation، مکانیسم پرخطر، شک سوءاستفاده
+
+@guide
+1) مانورهای پایه راه هوایی: jaw thrust، ساکشن دهانی، sniffing position (حوله زیر شانه‌ها)؛ 2) اینتوباسیون: اندازه لوله = 4 + (سن/4)، ½ کمتر برای cuffed (ترجیحاً)؛ ثبات in-line همیشه؛ RSI ایمن‌ترین؛ محدود کردن فشار مثبت قبل از اینتوباسیون. 3) دسترسی عروقی: دو IV پروگزیمال در بحرانی؛ IO زود؛ مرکزی: ورید فمورال؛ مایع: 20 mL/kg بولوس کریستالوئید؛ بدون پاسخ به دو بولوس: 10 mL/kg PRBC؛ permissive hypotension در کودک مبتنی بر شواهد نیست و ممکن مضر؛ massive transfusion protocol اگر حجم بالا. 4) درد: fentanyl 1 µg/kg یا morphine 0.05 تا 0.1 mg/kg. 5) نشانه‌های herniation: PaCO2 35 تا 40 mmHg، بهینه‌سازی فشار با مایع IV، بالا بردن سر 20 تا 30°. جدول 157-2 TBI شدید: ستون گردن: احتیاط؛ راه هوایی: اینتوباسیون برای GCS < 8؛ SpO2 > 90% و PCO2 35 تا 40؛ SBP > 70 + (2 × سن)؛ CPP 40 تا 65؛ بدون hyperventilation پروفیلاکتیک و بدون permissive hypotension؛ ICP ≤ 20؛ مشاوره نوروسرجری؛ GCS قبل از شل‌کننده؛ midazolam و fentanyl؛ CT سر بدون کنتراست و CT گردن؛ قند نرمال؛ ICP بالا: بالا بردن سر 30°، سالین هیپرتونیک 3% بولوس 5 mL/kg طی 10 دقیقه سپس 0.1 mL/kg/h برای Na 155 تا 165 mEq/L یا mannitol 0.5 تا 1 g/kg اگر نورموتانسیو؛ دما 36 تا 38°C (هیپوترمی در کودک توصیه نمی‌شود)؛ پیشگیری تشنج اختیاری: phenytoin 20 mg/kg (یا fosphenytoin 20 PE/kg) یا levetiracetam 10 تا 20 mg/kg (حداکثر 500 mg/dose) هفته اول؛ ترانسفیوژن برای Hb < 7؛ ICP monitoring، تخلیه هماتوم یا shunt در ICP مقاوم. 6) بستری: خونریزی داخل‌جمجمه، ترومای ستون، قفسه مهم، شکم با آسیب عضو، سوختگی، آسیب نگران‌کننده؛ انتقال به مرکز تروما کودک (جدول 157-3): پرتاب از خودرو، سقوط از ارتفاع قابل‌توجه، تصادف با extrication طولانی یا مرگ سرنشین دیگر؛ تروما چندگانه شدید، > 3 شکستگی استخوان بلند، شکستگی ستون/آسیب نخاع، قطع عضو، ترومای شدید سر/صورت، تروما نافذ سر/قفسه/شکم.
+
+@variant trauma-peds-resuscitation
+name: Pediatric major trauma — resuscitation (airway, IV/IO, fluids)
+level: I
+imp: Major trauma, pediatric
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+o2: 100% oxygen (non-rebreather) — pediatric override applies
+
+@scenario
+کودک ۶ ساله 20 kg پس از تصادف با HR 150، فشار 75/40، پر شدن مویرگی طولانی و GCS 12.
+
+@why
+IV/IO، 20 mL/kg، خون و CT؛ تثبیت و انتقال به مرکز کودک.
+
+@I
+- CXR portable (essential for chest trauma; CT chest rarely changes management); pelvis radiograph; plain spine films as indicated; eFAST (limited role); noncontrast CT head (TBI) and cervical spine CT when indicated; CT abdomen / pelvis if suspicious mechanism, tenderness, seatbelt sign, distention, vomiting
+
+@L
+- Type and screen / crossmatch, CBC, BMP, PT/INR, lactate, glucose (capillary), ABG; urinalysis; toxicology as indicated
+
+@S
+- Two proximal IVs (or early intraosseous); crystalloid boluses 20 mL/kg; if no response after two boluses: 10 mL/kg packed red blood cells; massive transfusion protocol if large-volume resuscitation anticipated {ci: permissive hypotension not evidence-based in children}
+- Fentanyl 1 µg/kg or morphine 0.05–0.1 mg/kg for pain
+
+@T
+- Airway: jaw thrust, suction, sniffing position (towel under shoulders); orotracheal intubation with in-line cervical stabilization by RSI; ETT size = 4 + (age/4) (½ smaller if cuffed, preferred); limit bag-mask ventilation to avoid gastric insufflation
+- Estimated hypotension SBP < 70 + (2 × age); modified pediatric GCS; maintain normothermia (expose but warm)
+
+@Co
+- Pediatric trauma center transfer / pediatric surgery / neurosurgery; admit (ICH, spine, significant chest or abdominal trauma, burns); consider child abuse
+
+@variant trauma-peds-tbi-severe
+name: Severe pediatric traumatic brain injury / impending herniation
+level: I
+imp: Severe pediatric traumatic brain injury
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+o2: titrate SpO2 > 90% (PCO2 35–40 mmHg)
+
+@scenario
+کودک ۴ ساله پس از سقوط از ارتفاع با GCS 6، مردمک نامساوی و اتساع فونتانل.
+
+@why
+اینتوباسیون، CT، ICP management؛ بدون hyperventilation پروفیلاکتیک.
+
+@I
+- Noncontrast head CT (after stabilization; before nonessential procedures); cervical spine imaging as indicated; transcranial Doppler may help in infants with open fontanelles
+
+@L
+- Glucose (capillary), BMP (Na), CBC, PT/INR, blood gas; keep glucose normal
+
+@S
+- 3% hypertonic saline 5 mL/kg bolus over 10 min then infusion 0.1 mL/kg/h to keep Na 155–165 mEq/L, OR mannitol 0.5–1 g/kg if normotensive {ci: mannitol only if normotensive}
+- Midazolam / fentanyl sedation and analgesia; consider paralytics once neuro exam complete (GCS before paralytics)
+- Seizure prophylaxis optional (witnessed posttraumatic seizure, intracranial blood): phenytoin 20 mg/kg (or fosphenytoin 20 PE/kg) or levetiracetam 10–20 mg/kg (max 500 mg/dose) for first week
+- Transfuse PRBC if Hb < 7 g/dL; maintain SBP > 70 + (2 × age) {ci: no permissive hypotension; no prophylactic hyperventilation}
+
+@T
+- Intubate for GCS < 8; oxygen saturation > 90%, PCO2 35–40 mmHg; head of bed 30°; cervical spine precautions; core temperature 36–38°C (avoid hyperthermia; hypothermia not recommended); CPP 40–65 mmHg; ICP ≤ 20 mmHg
+- Impending herniation: maintain PaCO2 35–40, optimize blood pressure with IV fluids, elevate head of bed 20–30°
+
+@Co
+- Neurosurgery (ICP monitoring, hematoma evacuation, CSF shunt for refractory intracranial hypertension) / pediatric trauma center; PICU

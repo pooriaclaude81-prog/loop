@@ -1,0 +1,365 @@
+@cond genitourinary-trauma-upper
+ch: 167
+name: Renal and ureteral injury
+name_fa: آسیب کلیه و حالب
+cc: trauma-major, flank-pain, urinary-symptoms
+keywords: renal trauma, kidney injury, ureteral injury, hematuria after trauma, CT with delayed images, renal laceration, آسیب کلیه, هماچوری بعد از تروما, آسیب حالب
+status: draft
+
+@features
+- کلیه: شایع‌ترین آسیب ژنیتوارینری؛ هماچوری (ماکروسکوپی یا میکروسکوپی) نشانه اصلی؛ شدت هماچوری لزوماً با شدت آسیب هم‌خوان نیست
+- تصویربرداری: CT با کنتراست IV و تصویر تأخیری 10 دقیقه (برای نشت ادرار)؛ جدول 167-1
+- اندیکاسیون جراحی: خونریزی تهدیدکننده حیات، هماتوم در حال بزرگ‌شدن/ضربان‌دار/غیرمحصور، avulsion، extravasation
+- حالب: آسیب نادر و اغلب نافذ؛ CT تأخیری؛ اگر غیرتشخیصی: IVP یا retrograde pyelogram؛ درمان جراحی
+
+@ddx
+- !Bladder / urethral injury |
+- !Intra-abdominal solid organ injury (liver, spleen) |
+- Pelvic fracture with hemorrhage |
+
+@redflags
+- هماچوری ماکروسکوپی، هیپوتانسیون، هماتوم در حال بزرگ‌شدن، شکستگی لگن
+
+@guide
+1) پروتکل ترومای فصل 156. 2) CT با کنتراست IV + تصویر تأخیری 10 دقیقه. 3) هماچوری میکروسکوپی بدون اندیکاسیون تصویربرداری: ترخیص با فعالیت سبک و پیگیری 1 تا 2 هفته برای UA مجدد. 4) درجه بالاتر یا هماچوری ماکروسکوپی: بستری برای Hct/UA مجدد، هیدراتاسیون، استراحت.
+
+@variant renal-injury-major
+name: Renal injury — high grade / gross hematuria / unstable (admit or OR)
+level: I
+imp: Renal injury (blunt/penetrating trauma), gross hematuria
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: portable
+
+@scenario
+مرد ۳۰ ساله پس از تصادف با درد فلانک و هماچوری ماکروسکوپی.
+
+@why
+CT با کنتراست و تأخیری؛ بستری برای Hct و UA مجدد؛ ناپایدار/هماتوم در حال بزرگ‌شدن ← جراحی.
+
+@I
+- CT abdomen / pelvis with IV contrast including 10-minute delayed image (extravasation); eFAST; CXR; AP pelvis radiograph
+
+@L
+- Type and crossmatch, CBC (repeat Hct), urinalysis (repeat), electrolytes, lactate, coagulation studies
+
+@S
+- IV crystalloid / blood products as needed for hypotension {hi}
+
+@T
+- Hydration, bed rest; serial Hct and urinalysis; analgesia
+
+@Co
+- Urology / trauma surgery: surgery for life-threatening bleeding, expanding / pulsatile / noncontained hematoma, renal avulsion, extravasation; otherwise admit for observation
+
+@variant renal-injury-microhematuria
+name: Microscopic hematuria without imaging indication (discharge)
+level: III
+imp: Blunt trauma, microscopic hematuria
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: PA
+
+@scenario
+زن ۲۵ ساله پس از ضربه فلانک، هماچوری میکروسکوپی، علائم حیاتی پایدار، بدون اندیکاسیون تصویربرداری.
+
+@why
+ترخیص با پیگیری 1 تا 2 هفته و UA مجدد.
+
+@I
+- No imaging if no imaging indication (Table 167-1); CT with IV contrast if indications present
+
+@L
+- Urinalysis, CBC
+
+@T
+- No strenuous activity; follow-up in 1 to 2 weeks for repeat urinalysis
+
+@Co
+- Outpatient urology / primary care follow-up
+
+@variant ureteral-injury-main
+name: Ureteral injury (delayed CT; operative)
+level: II
+imp: Suspected ureteral injury
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: once
+cxr: portable
+
+@scenario
+مرد ۲۸ ساله با زخم نافذ شکم/فلانک و شک نشت ادرار.
+
+@why
+CT تأخیری؛ تشخیص با IVP یا retrograde؛ درمان جراحی.
+
+@I
+- CT with delayed images; IVP or retrograde pyelogram if CT nondiagnostic
+
+@L
+- CBC, urinalysis, creatinine
+
+@T
+- Trauma resuscitation; NPO
+
+@Co
+- Urology / trauma surgery for operative repair
+
+@cond genitourinary-trauma-lower
+ch: 167
+name: Bladder and urethral injury
+name_fa: آسیب مثانه و پیشابراه
+cc: trauma-major, urinary-symptoms, genital-complaint
+keywords: bladder rupture, urethral injury, retrograde cystogram, retrograde urethrogram, pelvic fracture hematuria, blood at meatus, آسیب مثانه, آسیب پیشابراه, سیستوگرام رتروگراد
+status: draft
+
+@features
+- مثانه: حدود 2% از ترومای بلانت شکم؛ 80% با شکستگی لگن همراه؛ هماچوری ماکروسکوپی ← retrograde cystogram (حدود 350 mL کنتراست)
+- پارگی extraperitoneal: درناژ با کاتتر؛ پارگی intraperitoneal: ترمیم جراحی
+- پیشابراه خلفی: درناژ suprapubic، ترمیم پس از هفته‌ها؛ پیش از retrograde urethrogram نباید Foley گذاشت
+- پیشابراه قدامی: urethrogram با 20 تا 30 mL کنتراست (angiocatheter 16G اگر Foley گذاشته شده)؛ درمان حمایتی
+
+@ddx
+- !Pelvic fracture with hemorrhage |
+- Renal injury |
+
+@redflags
+- خون در میتوس، شکستگی لگن، ناتوانی در ادرار
+
+@guide
+1) شکستگی لگن + هماچوری ماکروسکوپی: retrograde cystogram. 2) خون در میتوس: ابتدا urethrogram، سپس Foley. 3) پارگی داخل‌صفاقی: جراحی؛ خارج‌صفاقی: کاتتر.
+
+@variant bladder-rupture-main
+name: Bladder injury (gross hematuria / pelvic fracture)
+level: II
+imp: Suspected bladder rupture
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: once
+cxr: portable
+
+@scenario
+مرد ۳۵ ساله پس از ترومای لگن با هماچوری ماکروسکوپی و شکستگی لگن.
+
+@why
+cystogram رتروگراد و درناژ یا ترمیم.
+
+@I
+- AP pelvis radiograph; retrograde cystogram (about 350 mL contrast); CT cystography
+
+@L
+- CBC, urinalysis, creatinine, type and screen
+
+@T
+- Extraperitoneal rupture: catheter drainage; intraperitoneal rupture: surgical repair
+
+@Co
+- Urology / trauma surgery
+
+@variant urethral-injury-main
+name: Urethral injury (retrograde urethrogram before Foley)
+level: II
+imp: Suspected urethral injury (blood at meatus / pelvic fracture)
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: once
+cxr: portable
+
+@scenario
+مرد ۴۰ ساله پس از ضربه به لگن با خون در میتوس و ناتوانی در ادرار.
+
+@why
+قبل از Foley حتماً urethrogram.
+
+@I
+- Retrograde urethrogram with 20 to 30 mL contrast (16G angiocatheter if Foley already in place); AP pelvis radiograph
+
+@L
+- CBC, urinalysis, creatinine, type and screen
+
+@T
+- Posterior urethral injury: suprapubic drainage and repair in weeks, no Foley before retrograde urethrogram; anterior injury: supportive management
+
+@Co
+- Urology
+
+@cond genital-trauma-male
+ch: 167
+name: Testicular and penile trauma
+name_fa: ترومای بیضه و آلت
+cc: genital-complaint, trauma-major
+keywords: testicular rupture, scrotal trauma, penile fracture, penile amputation, scrotal ultrasound, ترومای بیضه, شکستگی آلت, قطع آلت
+status: draft
+
+@features
+- بیضه: Doppler US؛ پارگی ← ترمیم؛ آسیب بدون پارگی: یخ، elevation، حمایت، analgesia
+- آلت: کوفتگی/پارگی پوست: محافظه‌کارانه؛ پارگی عمقی، نافذ، قطع (reimplantation میکروسرجری)، fracture ← جراحی
+
+@ddx
+- !Testicular torsion |
+- Urethral injury |
+
+@redflags
+- هماتوم رو‌به‌رشد اسکروتوم، خون در میتوس، قطع عضو
+
+@guide
+1) بیضه: Doppler US. 2) پارگی: ترمیم جراحی. 3) آلت: قطع ← قطعه را حفظ و reimplantation.
+
+@variant testicular-trauma-main
+name: Testicular trauma (Doppler US)
+level: II
+imp: Scrotal trauma
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: PA
+
+@scenario
+مرد ۲۲ ساله پس از ضربه به اسکروتوم با تورم و درد.
+
+@why
+Doppler US؛ پارگی ← جراحی.
+
+@I
+- Scrotal Doppler ultrasound
+
+@L
+- Urinalysis
+
+@T
+- Ruptured testis: surgical repair; intact: ice, elevation, scrotal support, analgesia
+
+@Co
+- Urology (rupture)
+
+@variant penile-trauma-main
+name: Penile trauma (contusion vs deep laceration / fracture / amputation)
+level: II
+imp: Penile trauma
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: none
+cxr: PA
+
+@scenario
+مرد ۳۰ ساله با تورم و دفورمیتی آلت پس از آسیب حین رابطه.
+
+@why
+کوفتگی/پارگی پوست محافظه‌کار؛ عمیق/fracture/قطع ← جراحی.
+
+@I
+- Retrograde urethrogram if urethral injury suspected (Table 167-1)
+
+@L
+- Urinalysis
+
+@T
+- Contusion / skin laceration: conservative; deep laceration, penetrating injury, fracture: operative; amputation: preserve part for microsurgical reimplantation
+
+@Co
+- Urology (operative / microsurgical reimplantation)
+
+@cond extremity-vascular-trauma
+ch: 168
+name: Extremity trauma — vascular injury (hard / soft signs) and penetrating wounds
+name_fa: ترومای اندام — آسیب عروقی (علائم قطعی / احتمالی) و زخم‌های نافذ
+cc: limb-injury, wound-bite, trauma-major
+keywords: extremity trauma, vascular injury, hard signs, soft signs, ankle-brachial index, CT angiography, tourniquet, compartment syndrome, penetrating extremity wound, ترومای اندام, آسیب عروقی, ABI, کمپارتمان
+status: draft
+
+@features
+- علائم قطعی (hard): نبض غایب/کاهش‌یافته، خونریزی شریانی، هماتوم در حال بزرگ‌شدن/ضربان‌دار، bruit، thrill، ایسکمی دیستال ← مشاوره فوری جراحی عروق
+- علائم احتمالی (soft) ← ABI (غیرطبیعی < 0.9) و CTA؛ مشاهده
+- گرافی AP و lateral مفصل بالا و پایین ضایعه
+- کنترل خونریزی: فشار مستقیم یا تورنیکت؛ هرگز clamp کور
+- شکستگی همراه زخم نافذ مانند open fracture: debridement، سفالوسپورین IV + gentamicin
+- کزاز؛ شستشو با حداقل 500 تا 1000 cc سالین با فشار 15 تا 20 psi
+- بستن زخم: ریسک کم با پیگیری 24 تا 48 ساعت؛ زخم آلوده: delayed primary closure پس از 72 تا 96 ساعت
+- آنتی‌بیوتیک فقط برای شکستگی یا زخم پرخطر
+- 24 ساعت مشاهده اگر آسیب شریانی نیست
+- سندرم کمپارتمان ← مشاوره جراحی
+
+@ddx
+- !Compartment syndrome |
+- !Open fracture |
+- Nerve / tendon injury |
+
+@redflags
+- نبض غایب، خونریزی شریانی، هماتوم در حال بزرگ‌شدن، درد شدید با کشش پاسیو
+
+@guide
+1) خونریزی: فشار مستقیم یا تورنیکت. 2) علائم hard ← جراح عروق فوری. 3) علائم soft ← ABI < 0.9 → CTA. 4) سایر: ترمیم و پیگیری 24 تا 48 ساعت.
+
+@variant extremity-vascular-hard-signs
+name: Extremity trauma with hard signs of vascular injury
+level: I
+imp: Extremity trauma with vascular injury (hard signs)
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: once
+cxr: portable
+
+@scenario
+مرد ۲۶ ساله با زخم نافذ ران، خونریزی شریانی و نبض دیستال غایب.
+
+@why
+کنترل خونریزی و جراح عروق فوری.
+
+@I
+- AP and lateral radiographs of the joint above and below; CT angiography only if stable and time allows
+
+@L
+- Type and crossmatch, CBC, coagulation studies, lactate
+
+@S
+- IV crystalloid / blood as needed {hi}
+
+@A
+- Penetrating fracture treated as open: IV cephalosporin plus gentamicin {ci: cephalosporin allergy}
+
+@T
+- Direct pressure or tourniquet (never clamp blindly); tetanus prophylaxis
+
+@Co
+- Immediate vascular surgery; orthopedics for associated fracture
+
+@variant extremity-penetrating-soft-signs
+name: Penetrating extremity trauma — soft signs / low risk
+level: II
+imp: Penetrating extremity wound
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: PA
+
+@scenario
+زن ۳۰ ساله با زخم نافذ ساعد، نبض طبیعی، هماتوم کوچک.
+
+@why
+ABI و مشاهده؛ ریسک کم ← ترمیم و پیگیری.
+
+@I
+- AP and lateral radiographs of the joint above and below; ABI (abnormal < 0.9) then CT angiography if abnormal
+
+@L
+- Not routinely required beyond fixed set
+
+@T
+- Irrigation with at least 500 to 1000 cc saline at 15 to 20 psi; wound closure for low-risk wounds with follow-up in 24 to 48 hours; contaminated wounds: delayed primary closure after 72 to 96 hours; tetanus prophylaxis; 24-hour observation if no arterial injury
+
+@A
+- Antibiotics only for fracture or high-risk wounds
+
+@Co
+- Vascular surgery if ABI abnormal / CTA positive; surgical consult for compartment syndrome

@@ -1,0 +1,380 @@
+@cond tension-pneumothorax-traumatic
+ch: 164
+name: Traumatic pneumothorax (tension, open, simple) and hemothorax
+name_fa: پنوموتوراکس تروماتیک (تنشنی، باز، ساده) و هموتوراکس
+cc: trauma-major, dyspnea, chest-pain
+keywords: tension pneumothorax, needle decompression, open pneumothorax, chest tube, tube thoracostomy, hemothorax, subcutaneous emphysema, پنوموتوراکس تنشنی, لوله سینه
+status: draft
+
+@features
+- tension: ورود هوا به فضای پلورال از ریه آسیب‌دیده، نای/برونش یا زخم باز؛ فشار مثبت با تنفس ← اختلال تنفسی و گردش خون؛ تنگی نفس، تاکی‌کاردی، هیپوتانسیون، ورید گردن متسع، انحراف نای و صداهای تنفسی نامساوی
+- زخم باز کوچک می‌تواند با اثر دریچه یک‌طرفه به tension تبدیل شود
+- پنوموتوراکس کوچک: بستری مشاهده؛ بزرگ: tube thoracostomy (24 تا 28 F)؛ هر اندازه یا آمفیزم زیرجلدی (پنوموتوراکس مخفی) در بیماری که اینتوبه می‌شود یا با هوا منتقل می‌شود: tube thoracostomy (فشار مثبت و کاهش فشار بارومتریک ← گسترش هوای محبوس)؛ chest tube هرگز clamp نشود و با برداشتن ساکشن روی water seal
+- جدول 164-2 علل شکست انبساط کامل: اتصالات نادرست یا نشت، موقعیت نامناسب لوله، انسداد برونش با ترشح/جسم خارجی، پارگی برونش بزرگ، پارگی بزرگ پارانشیم
+- هموتوراکس: tube thoracostomy (تاریخی 32 تا 40 F، بزرگ ممکن لازم نباشد)؛ اندیکاسیون جراحی: بازگشت فوری 1 L خون یا خونریزی مداوم 150 تا 200 mL/h برای 2 تا 4 ساعت؛ autotransfusion هپارینه در هموتوراکس ماسیو ولی بدون تأخیر tube
+- CXR supine حساسیت پایین برای پنوموتوراکس و هموتوراکس < 200 mL (تا 1000 mL به‌صورت تیرگی منتشر)؛ upright و expiratory حساس‌تر؛ سونوگرافی: از بین رفتن sliding pleura؛ CT بسیار حساس؛ زخم نافذ هرگز عمیق پروب نشود؛ تکرار سونوگرافی/CXR 4 تا 6 ساعت بعد (تأخیری)
+
+@ddx
+- !Cardiac tamponade / massive hemothorax |
+- !Mainstem intubation / diaphragmatic rupture |
+- Tracheobronchial injury / pulmonary contusion |
+
+@redflags
+- شوک، ورید گردن متسع، انحراف نای، صدای تنفسی یکطرفه، SpO2 پایین
+
+@guide
+tension: تشخیص بالینی و سوزن‌گذاری فوری بدون انتظار رادیوگرافی: کاتتر 14G و 4.5 cm در فضای بین‌دنده‌ای دوم خط میدکلاویکولار (کاتتر معمول 14G ممکن به پلور نرسد)؛ هجوم هوا تأییدکننده؛ کاتتر تا قرار دادن chest tube بماند (tension را به open تبدیل می‌کند). زخم باز: گاز وازلینه استریل با چسب سه‌طرفه؛ tube thoracostomy نه از زخم. ساب‌کلاوین: اگر cannulation سمت آسیب انجام شود تا pneumothorax iatrogenic دوطرفه نشود.
+
+@variant pneumothorax-tension
+name: Tension pneumothorax (needle decompression)
+level: I
+imp: Tension pneumothorax, traumatic
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+o2: 100% oxygen
+
+@scenario
+مصدوم ضربه چاقو به قفسه با تنگی نفس شدید، ورید گردن متسع، فشار 70/40 و صدای تنفسی ناپدید در سمت چپ.
+
+@why
+تشخیص بالینی و سوزن‌گذاری فوری.
+
+@I
+- Clinical diagnosis — do not wait for imaging; after decompression CXR / bedside ultrasound (loss of sliding pleura) to confirm; CT if stable
+
+@L
+- ABG, CBC, type and crossmatch
+
+@S
+- Resuscitation per trauma protocol (IV access, crystalloid / blood as needed) {ci: avoid over-resuscitation}
+
+@T
+- Needle decompression: 14-G, 4.5-cm over-the-needle catheter at second intercostal space midclavicular line (rush of air confirms); leave catheter in until chest tube inserted; then tube thoracostomy (24–28 F for pneumothorax) — never clamp tube; water seal when off suction
+- Open chest wound: sterile petroleum gauze taped on three sides; chest tube not through the wound
+
+@Co
+- Trauma surgery / thoracic surgery; ICU / admit
+
+@variant pneumothorax-simple-hemothorax
+name: Simple pneumothorax / hemothorax — tube thoracostomy
+level: I
+imp: Pneumothorax / hemothorax, traumatic
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: PA
+o2: 100% oxygen
+
+@scenario
+مرد ۴۰ ساله پس از تصادف با شکستگی دنده و پنوموتوراکس بزرگ یا هموتوراکس چپ؛ پایدار.
+
+@why
+tube thoracostomy؛ اندیکاسیون جراحی را پایش کن.
+
+@I
+- Upright / expiratory CXR (supine insensitive; hemothorax < 200 mL, up to 1000 mL appear as haziness); bedside ultrasound; CT chest highly sensitive
+- Repeat ultrasound / CXR at 4–6 h for stab wounds (delayed pneumothorax)
+
+@L
+- CBC, type and crossmatch, ABG
+
+@S
+- Analgesia (IV opioid / intercostal nerve block)
+
+@T
+- Large pneumothorax: tube thoracostomy 24–28 F; small pneumothorax: inpatient observation; any pneumothorax or subcutaneous emphysema in patient to be intubated or air-transported: tube thoracostomy
+- Hemothorax: tube thoracostomy (32–40 F historically; larger may not be necessary); heparinized autotransfusion device if massive (do not delay tube); surgery if immediate 1 L return or ongoing 150–200 mL/h for 2–4 h
+- If lung fails to reexpand: check tubing connections, tube position, bronchial occlusion, large bronchial tear / parenchymal tear
+
+@Co
+- Trauma / thoracic surgery; admit
+
+@cond pulmonary-contusion-flail-rib
+ch: 164
+name: Pulmonary contusion, flail chest and rib fractures
+name_fa: کوفتگی ریه، flail chest و شکستگی دنده
+cc: chest-pain, dyspnea, trauma-major
+keywords: pulmonary contusion, flail chest, rib fractures, intercostal nerve block, incentive spirometry, sternal fracture, کوفتگی ریه, شکستگی دنده
+status: draft
+
+@features
+- کوفتگی ریه: آسیب مستقیم پارانشیم بدون پارگی؛ هیپوکسی با خونریزی و ادم؛ 70% در CXR اولیه دیده نمی‌شود و ظرف 6 ساعت لکه‌های پراکنده؛ CT بسیار حساس‌تر
+- flail chest: شکستگی چندمحلی دنده‌ها ← بی‌ثباتی بخش دیواره؛ خطر بزرگ‌تر: کوفتگی ریه زیرین
+- شکستگی دنده: دنده اول و دوم نیروی زیاد ← شک بالا برای آسیب قلب/عروق/برونش؛ دنده‌های تحتانی متعدد ← کبد/طحال؛ درد ← splinting، اختلال تهویه و پنومونی؛ استرنوم: ECG، troponin سریال و مانیتور قلبی
+- جدول 164-1 اندیکاسیون حمایت تهویه زودهنگام: تغییر وضعیت ذهنی، شوک هیپوولمیک، آسیب‌های متعدد، ترانسفیوژن متعدد، سالمند، بیماری ریوی قبلی، دیسترس تنفسی، SpO2 پایین، کوفتگی ریه شدید
+
+@ddx
+- !Pneumothorax / hemothorax / cardiac contusion |
+- !Liver / splenic injury (lower rib fractures) |
+
+@redflags
+- شکستگی دنده اول/دوم، flail segment، SpO2 پایین، سالمند
+
+@guide
+کوفتگی ریه: کنترل درد برای جلوگیری از هیپوونتیلاسیون، پرهیز از مایع IV غیرضروری (ادم ریه)، pulmonary toilet دقیق؛ کریستالوئید محتاطانه و زودتر فرآورده خونی؛ ماسک فشار مثبت آزمایشی اگر هوشیار و حمایت محدود؛ درگیری > 25% ریه احتمالاً اینتوباسیون ولی نه پیشگیرانه؛ PEEP اگر اینتوبه؛ دیورتیک در اضافه‌بار. flail: اینتوباسیون و تهویه فشار مثبت بخش را تثبیت می‌کند؛ ممکن fixation جراحی؛ ببندی/نوار برای تثبیت دیواره ممنوع. دنده: بلوک عصب بین‌دنده‌ای و اپیدورال؛ ترخیص: NSAID و اوپیوئید؛ تنفس عمیق/incentive spirometry؛ بستری: دنده‌های متعدد، بیماری همراه یا سن بالا.
+
+@variant pulm-contusion-flail
+name: Pulmonary contusion / flail chest (ventilatory support)
+level: I
+imp: Pulmonary contusion / flail chest
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: PA
+o2: titrate to SpO2 ≥ 94%
+
+@scenario
+مرد ۵۵ ساله پس از تصادف با حرکت پارادوکس دیواره قفسه، درد شدید و SpO2 88%.
+
+@why
+مسکن، pulmonary toilet و تهویه در لزوم.
+
+@I
+- CXR (contusion often not visible initially; patchy opacities within 6 h); CT chest (more sensitive); bedside ultrasound; ECG
+
+@L
+- ABG, CBC, troponin (sternal fracture / blunt cardiac), type and screen
+
+@S
+- Analgesia: IV opioids, intercostal nerve blocks or epidural anesthesia
+- Crystalloid judiciously; early blood products; diuretics if volume overload {ci: avoid unnecessary IV fluids (pulmonary edema)}
+
+@T
+- Strict pulmonary toilet; incentive spirometry; trial of mask positive pressure ventilation if normal mental status and limited need; intubation and PPV with PEEP for flail chest / > 25% lung involvement / respiratory failure (not preemptive); cardiac monitoring for sternal fracture {ci: no taping or binding of chest wall}
+
+@Co
+- Admit (multiple fractures, comorbidities, older age) until pain controlled and pulmonary toilet stable; trauma surgery; ICU if ventilated
+
+@variant rib-fracture-discharge
+name: Isolated rib fractures — discharge pathway
+level: III
+imp: Rib fractures
+cond: Urgent
+act: CBR
+diet: PO
+ecg: once
+cxr: PA
+
+@scenario
+مرد ۳۵ ساله جوان با شکستگی ایزوله دنده 7 و 8 پس از سقوط؛ علائم حیاتی طبیعی، بدون پنوموتوراکس.
+
+@why
+ضددرد و تنفس عمیق؛ ترخیص.
+
+@I
+- Upright CXR; ultrasound (pneumothorax); evaluate for pneumothorax, pulmonary contusion, intraabdominal injury
+
+@S
+- NSAIDs and opioid analgesics; intercostal nerve block if needed {ci: NSAIDs — renal disease / bleeding}
+
+@T
+- Deep breathing / incentive spirometry; do not tape or bind chest wall
+
+@Co
+- Discharge with return precautions; admit if multiple fractures, comorbidities, older age
+
+@cond tracheobronchial-diaphragm-esophageal-injury
+ch: 164
+name: Pneumomediastinum, tracheobronchial, diaphragmatic and esophageal / thoracic duct injuries
+name_fa: پنوموومدیاستن و آسیب نای/برونش، دیافراگم، مری و مجرای توراسیک
+cc: trauma-major, chest-pain, dyspnea
+keywords: tracheobronchial injury, diaphragmatic rupture, esophageal injury, chylothorax, pneumomediastinum, water-soluble contrast esophagram, آسیب نای, پارگی دیافراگم, آسیب مری
+status: draft
+
+@features
+- پنوموومدیاستن: اغلب پارگی آلوئول با نفوذ هوا؛ بدون درمان در بدون علامت؛ سرفه/تنفس عمیق/ورزش؛ آسیب نای و راه‌های هوایی بزرگ: انرژی بالا/کاهش شتاب: دیسپنه، هموپتیزی، آمفیزم زیرجلدی گردن، صدای crunching با چرخه قلب و نشت هوای ماسیو مداوم از chest tube
+- دیافراگم: همه آسیب‌های نافذ از سطح نوک پستان تا ناف؛ پارگی کوچک بدون علامت و هفته‌ها تا ماه‌ها بعد فتق احشا؛ تشخیص: فتق در تصویربرداری یا کلاف لوله معده در قفسه؛ لاپاراتومی/لاپاراسکوپی استاندارد طلایی؛ همه پارگی‌ها ترمیم جراحی
+- مری/مجرای توراسیک: نافذ و گاه بلانت: اگر مشکوک: esophagram با کنتراست محلول در آب (مدیاستینیت کمتر)؛ منفی ← باریم (حساس‌تر)؛ یا اندوسکوپی؛ تأخیر ← مرگ‌ومیر بالا با مدیاستینیت؛ ناحیه ورید ساب‌کلاوین چپ پروگزیمال ← chylothorax (مرگ‌ومیر 50%): chest tube
+
+@ddx
+- !Tension pneumothorax / aortic injury |
+- Esophageal rupture (Boerhaave) / mediastinitis |
+
+@redflags
+- آمفیزم گردن، نشت هوای ماسیو، تیره شدن قفسه چپ، hematemesis، mediastinitis
+
+@guide
+pneumomediastinum بدون علامت: درمانی ندارد. تراکئوبرونشیال: برونکوسکوپی و جراحی. دیافراگم: جراحی. مری: esophagram/اندوسکوپی و جراحی/NPO و آنتی‌بیوتیک؛ chylothorax: chest tube اولیه.
+
+@variant thoracic-visceral-injury
+name: Suspected tracheobronchial / diaphragmatic / esophageal injury
+level: I
+imp: Thoracic visceral injury (tracheobronchial / diaphragm / esophagus)
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: PA
+
+@scenario
+مصدوم ضربه نافذ زیر نوک پستان چپ با درد قفسه؛ یا پس از تصادف با آمفیزم گردن و نشت هوای ماسیو از chest tube.
+
+@why
+CT/برونکوسکوپی/اندوسکوپی و جراحی؛ NPO.
+
+@I
+- CXR (gastric tube coiled in chest, herniation); CT chest / abdomen; bronchoscopy for tracheobronchial; water-soluble contrast esophagram then barium if negative, or flexible esophagoscopy; upper GI series; laparoscopy / laparotomy gold standard for diaphragm
+
+@L
+- CBC, type and screen, ABG
+
+@S
+- IV fluids and analgesia {ci: caution in volume overload}
+
+@A
+- IV broad-spectrum antibiotics if esophageal / tracheobronchial injury or mediastinitis suspected
+
+@T
+- NPO; chest tube for pneumothorax / hemothorax / chylothorax; airway protection (intubation selective)
+
+@Co
+- Thoracic / trauma surgery (all diaphragmatic lacerations require repair); ICU
+
+@cond cardiac-trauma-tamponade-thoracotomy
+ch: 164
+name: Cardiac trauma (penetrating cardiac injury, tamponade, blunt cardiac injury, commotio cordis, pericarditis)
+name_fa: ترومای قلب (نافذ، تامپوناد، آسیب بلانت، commotio cordis)
+cc: trauma-major, chest-pain, hypotension-shock
+keywords: cardiac tamponade, penetrating cardiac injury, ED thoracotomy, blunt cardiac injury, myocardial contusion, commotio cordis, pericardiocentesis, تامپوناد, ترومای قلب
+status: draft
+
+@features
+- نافذ: بطن راست بیشتر (سطح قدامی بزرگ)؛ خون در پریکارد قلب را فشرده و پر شدن دیاستولی را مختل می‌کند؛ تشخیص با سونوگرافی بالین؛ پریکاردیوسنتز فقط در بیمار شوکه با تامپوناد تأییدشده (مشکل فنی؛ خطر پارگی کرونر/میوکارد)؛ پایدار: pericardial window یا توراکوتومی در اتاق عمل
+- ED thoracotomy: نافذ قفسه با علائم حیات در صحنه که بی‌نبض شده: رفع تامپوناد، کنترل خونریزی هیلار، کراس‌کلمپ آئورت نزولی، ترمیم میوکارد؛ stab بیشتر از GSW قابل ترمیم؛ بازکردن قفسه: قلب از پریکارد خارج؛ فشار انگشتی، staple، بخیه یا Foley با بالون برای موقت
+- بلانت: مرگ از آسیب ساختار قلب، آسیب و ترومبوز کرونر، کوفتگی میوکارد (اختلال انقباض و آریتمی)؛ تغییر ECG ایسکمیک ← دیسکسیون/ترومبوز کرونر (کاتتریزاسیون و stent)؛ commotio cordis: ضربه مستقیم (مثلاً توپ سخت) ← VF بدون آسیب میوکارد: ACLS؛ تظاهر: درد قفسه، تاکی‌کاردی غیرمرتبط با خونریزی، آریتمی؛ اکو بالین: غربالگری اول تامپوناد و اختلال شدید انقباض؛ هیپوتانسیون بی‌توضیح، آریتمی، اختلال انقباض: اکو رسمی و آنزیم؛ TEE 3 برابر TTE حساس‌تر؛ آنتی‌آریتمیک و اینوتروپ طبق ACLS؛ بستری: غیرطبیعی بودن اکو/ECG/آنزیم؛ ترخیص: علائم حیاتی نرمال، ECG اولیه نرمال، بدون بیماری قلبی و سن < 55 بعد 4 تا 6 ساعت مانیتور نرمال
+- پریکاردیت پس از ترومای قلب/جراحی 2 تا 4 هفته: درد قفسه، تب، friction rub، ST elevation منتشر؛ افیوژن پریکارد/پلور؛ درمان NSAID
+
+@ddx
+- !Tension pneumothorax / massive hemothorax / aortic injury |
+- Acute coronary syndrome / pericarditis |
+
+@redflags
+- شوک، ورید گردن متسع، Beck triad، زخم نافذ ناحیه قلب (box)، آریتمی بدون توضیح
+
+@guide
+بلانت: تامپوناد مثل نافذ؛ آنتی‌آریتمیک و اینوتروپ طبق ACLS. پایدار نافذ: پنجره پریکارد/توراکوتومی در OR. پریکاردیت: NSAID.
+
+@variant cardiac-tamponade-penetrating
+name: Penetrating cardiac injury with tamponade (shock) / ED thoracotomy
+level: I
+imp: Penetrating cardiac injury, cardiac tamponade
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+o2: 100% oxygen
+
+@scenario
+مرد ۲۵ ساله با ضربه چاقو به قفسه چپ، فشار 60/40، ورید گردن متسع و صداهای قلب خفه؛ اکو: مایع پریکارد.
+
+@why
+پریکاردیوسنتز فقط در شوک تأییدشده؛ پایدار ← OR؛ بی‌نبض ← توراکوتومی.
+
+@I
+- Bedside ultrasound (eFAST) — pericardial fluid; CXR portable (do not delay)
+
+@L
+- Type and crossmatch (O-negative emergency), CBC, coagulation, ABG / lactate
+
+@S
+- Blood / crystalloid resuscitation; temporizing measures {ci: avoid over-resuscitation}
+
+@T
+- Pericardiocentesis only for patient in shock with confirmed tamponade (technically difficult; risk of coronary / myocardial laceration); stable: pericardial window or thoracotomy in OR
+- ED thoracotomy for penetrating chest injury with signs of life in field who become pulseless: relieve tamponade, control hilar bleeding, cross-clamp descending aorta, repair myocardial laceration; temporize lacerations with digital pressure, staples, sutures, or Foley balloon
+
+@Co
+- Trauma / cardiothoracic surgery immediately; ICU
+
+@variant blunt-cardiac-injury
+name: Blunt cardiac injury / commotio cordis / post-traumatic pericarditis
+level: II
+imp: Blunt cardiac injury
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: PA
+
+@scenario
+مرد ۳۰ ساله پس از فرمان به قفسه با درد قفسه، تاکی‌کاردی، PVC و ST تغییر؛ یا ورزشکار پس از ضربه توپ با ایست VF (commotio).
+
+@why
+ECG، troponin و اکو؛ ACLS در VF.
+
+@I
+- Bedside echocardiography (tamponade, gross contractility); formal echocardiography (TEE ~ 3× more sensitive than TTE for blunt myocardial injury); CXR
+
+@L
+- ECG, troponin (serial), CBC, electrolytes
+
+@S
+- Antiarrhythmic and inotropic medications per ACLS algorithms; analgesia
+- Pericarditis (2–4 weeks after cardiac trauma / surgery): NSAIDs
+
+@T
+- Continuous cardiac monitoring; ACLS for commotio cordis (VF; usually no structural damage); ECG ischemia → catheterization and stenting (coronary dissection / thrombosis)
+
+@Co
+- Admit if echo / ECG / enzyme abnormality; discharge if normal vitals, normal initial ECG, no cardiac disease and age < 55 after 4–6 h normal monitoring; cardiology
+
+@cond blunt-aortic-great-vessel-injury
+ch: 164
+name: Blunt aortic and great vessel injury
+name_fa: آسیب بلانت آئورت و عروق بزرگ
+cc: trauma-major, chest-pain
+keywords: blunt aortic injury, aortic transection, great vessel injury, mediastinal widening, CT angiogram, esmolol, nitroprusside, آسیب آئورت, عروق بزرگ
+status: draft
+
+@features
+- ترومای عروق بزرگ توراسیک اغلب کشنده؛ 90% آسیب بلانت آئورت در صحنه می‌میرند؛ شایع‌ترین محل: آئورت نزولی پروگزیمال بین ساب‌کلاوین چپ و ligamentum arteriosum؛ ساب‌کلاوین و innominate: کمربند شانه، شکستگی دنده 1 و 2 و کلاویکل پروگزیمال؛ نیمی بدون علائم خارجی: شک بالا در کاهش شتاب با سرعت بالا
+- جدول 164-3 رادیوگرافی: شکستگی استرنوم، اسکاپولا، دنده‌های متعدد، کلاویکل در چندسیستمی، دنده اول و دوم؛ علائم مدیاستن: محو شدن کانتور knob آئورت، پهن شدن مدیاستن، فشار برونش اصلی چپ، از بین رفتن paravertebral stripe، کلسیم لایه‌ای روی knob، ظاهر غیرطبیعی مدیاستن، انحراف NG به راست، جابه‌جایی جانبی نای؛ سایر: apical cap، هموتوراکس چپ ماسیو، آسیب واضح دیافراگم؛ CXR نرمال آسیب عروقی را رد نمی‌کند
+- مکانیسم نگران‌کننده: CT آنژیوگرام با کنتراست IV؛ آئورتوگرافی در برخی موارد؛ TEE برای ضایعه intima (ممنوع در مشکل راه هوایی یا شک آسیب ستون گردن)
+
+@ddx
+- !Tension pneumothorax / cardiac tamponade / hemothorax |
+- Aortic dissection (spontaneous) |
+
+@redflags
+- ناپایداری، مدیاستن پهن، هموتوراکس چپ ماسیو، شکستگی دنده اول/دوم
+
+@guide
+اندیکاسیون عمل فوری: ناپایداری همودینامیک، هماتوم در حال گسترش سریع در تصویربرداری، حجم بالای chest tube. کنترل هیپرتانسیون برای کاهش stress دیواره: تیتر مسکن اوپیوئیدی و آرام‌بخش؛ β-blocker کوتاه‌اثر (esmolol) تا SBP 100 تا 120 و HR > 60؛ اگر برادیکاردی مانع دوز بیشتر: وازودیلاتور شریانی sodium nitroprusside؛ nitroprusside بدون β-blocker (تاکی‌کاردی رفلکسی) ممنوع.
+
+@variant blunt-aortic-injury-main
+name: Suspected blunt aortic / great vessel injury
+level: I
+imp: Blunt aortic / great vessel injury
+cond: Emergent
+act: CBR
+diet: NPO
+ecg: stat
+cxr: portable
+
+@scenario
+مرد ۳۰ ساله پس از تصادف سرعت بالا با CXR: مدیاستن پهن و محو شدن knob آئورت؛ HR 105 و فشار 150/90.
+
+@why
+CTA فوری، کنترل فشار و HR؛ جراحی عروق.
+
+@I
+- CT angiogram of chest with IV contrast (all patients with mechanism highly concerning); conventional aortography in some cases; TEE for intimal lesions (contraindicated in airway compromise / suspected C-spine injury); CXR portable (normal does not exclude)
+
+@L
+- Type and crossmatch, CBC, coagulation, ABG / lactate, troponin
+
+@S
+- Titrated opioid analgesia and sedatives; esmolol titrated to SBP 100–120 mmHg and HR > 60 {hi}; if bradycardia prevents further β-blocker: sodium nitroprusside infusion {ci: do not use nitroprusside without β-blocker (reflex tachycardia); caution esmolol in shock}
+- Blood products if hemorrhage
+
+@T
+- Avoid hypertension (shear stress); cardiac monitoring
+
+@Co
+- Vascular / cardiothoracic surgery (immediate operation if hemodynamic instability, rapidly expanding hematoma, large chest tube output); ICU
