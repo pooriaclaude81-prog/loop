@@ -1,0 +1,208 @@
+@cond palliative-care-goals
+ch: 189
+name: Palliative care in the ED — goals of care, prognosis, hospice, imminent death
+name_fa: مراقبت تسکینی در ED — اهداف مراقبت، پیش‌آگهی، hospice، مرگ قریب‌الوقوع
+cc: palliative
+keywords: palliative care, goals of care, hospice, advance directive, POLST, family meeting, comfort measures only, terminal secretions, end of life, مراقبت تسکینی, hospice, پایان عمر, اهداف مراقبت
+status: draft
+
+@features
+- هدف: تسکین رنج بیمار و خانواده با بیماری جدی؛ همزمان با تثبیت/تسکین بالینی و درمان علائم، اهداف مراقبت تعیین و تشخیص، پیش‌آگهی و گزینه‌های درمان با همدلی منتقل شود
+- شناسایی (جدول 189-1): نئوپلاسم توپر (متاستاز مقاوم)، HF/COPD end-stage (علائم در استراحت علیرغم درمان)، دمانس پیشرفته، بیماری نورولوژیک دژنراتیو، AIDS end-stage، ESRD (عدم تمایل به دیالیز)، بیماری کبد end-stage (انسفالوپاتی راجعه، خونریزی، آسیت مقاوم)، روماتولوژیک end-stage، تروما چندسیستمی (آسیب غیرقابل‌بقا)، سوختگی (سن + درصد سوختگی ≈ 140)، نارسایی چندارگانی (≥ 2 سیستم)، هر بیماری مزمن پیشرونده؛ هر زمان بار علائم از توان بیمار/خانواده فراتر رود یا تعارض/درماندگی مراقب
+- مهم‌ترین عامل پیش‌آگهی: وضعیت عملکردی؛ علائم بد: از دست دادن توانایی خودمراقبتی، کاهش وزن ناخواسته، ناتوانی در راه رفتن، ناتوانی در دریافت خوراکی، کاهش هوشیاری
+- 1) درمان تهاجمی علائم تا زمان روشن شدن ظرفیت تصمیم و اهداف. 2) تعیین تصمیم‌گیرنده: بیمار؛ در غیر این صورت advance directive/POLST/MOLST و surrogate؛ بدون سند: بیان قبلی به proxy؛ نزدیک‌ترین خانواده. 3) پیش‌آگهی از اطلاعات طبی + وضعیت عملکردی. 4) جلسه کوتاه خانوادگی: بیان پیش‌آگهی به صورت بازه زمانی (ساعت تا روز، روز تا هفته، هفته تا ماه، ماه تا سال). 5) مشاوره palliative care. 6) سرنوشت متناسب اهداف. 7) hospice: انتخاب رویکرد تسکینی و امید به زندگی ≤ 6 ماه؛ ارجاع از ED (خانه، مرکز مراقبت یا بخش). 8) بیمار hospice: تماس با coordinator؛ علل شایع مراجعه: بحران علامتی، آسیب/بیماری نامرتبط، فشار خانواده/مراقب
+- عبارات کلیدی (جدول 189-2): ظرفیت، کیفیت زندگی، پیش‌آگهی، surrogate، ارجاع، اعلام فوت
+- مرگ قریب‌الوقوع: اطلاع خانواده و پزشک اصلی، توافق بر comfort measures only؛ انفوزیون opiate پیوسته + midazolam متناوب/انفوزیون تیتره؛ delirium: علت (درد، تب) یا haloperidol IV؛ atropine قطره چشمی 2 قطره زیرزبانی هر 6 ساعت برای صدای ترشحات پایانی (برای بیمار ناراحت‌کننده نیست؛ برای خانواده بله)؛ تخت آرام، حضور خانواده، chaplain، حفظ شأن
+
+@ddx
+- !Reversible acute illness (misattributed to terminal disease) |
+- !Symptom crisis (pain, dyspnea, delirium) |
+
+@redflags
+- بحران علامتی، تعارض خانواده، مرگ قریب‌الوقوع
+
+@guide
+اهداف مراقبت ← تصمیم‌گیرنده ← پیش‌آگهی ← جلسه خانوادگی ← مشاوره ← سرنوشت.
+
+@variant palliative-goals-main
+name: Palliative / goals-of-care approach (symptom control, decision-maker, disposition)
+level: II
+imp: Serious / advanced illness — palliative care needs
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مرد ۷۰ ساله با سرطان متاستاتیک مقاوم، ضعف شدید، عدم دریافت خوراکی، و خانواده مضطرب.
+
+@why
+تسکین علائم و اهداف مراقبت.
+
+@I
+- Only if it will change management consistent with goals of care
+
+@L
+- Only if it will change management consistent with goals of care (fixed block per local protocol)
+
+@S
+- None routine
+
+@T
+- Aggressive symptom management while capacity and goals are determined; identify decision-maker (advance directive, POLST / MOLST, surrogate); formulate prognosis from medical information and functional status; abbreviated family meeting (prognosis in chunks of time); chaplain / social work
+
+@Co
+- Palliative care services (alert patient's physician); hospice referral if life expectancy ≤ 6 months and palliative approach chosen; if already in hospice: contact hospice coordinator
+
+@variant palliative-imminent-death
+name: Imminent death — comfort measures only
+level: I
+imp: Imminent death, comfort measures only
+cond: Emergent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+زن ۸۵ ساله با دمانس پیشرفته و تنفس agonal؛ خانواده خواهان مراقبت راحتی.
+
+@why
+comfort only؛ ترشحات پایانی؛ خانواده.
+
+@I
+- None
+
+@L
+- None
+
+@S
+- None
+
+@T
+- Notify family and primary physician; agree on comfort measures only; continuous opiate infusion plus intermittent or infused midazolam, titrated to comfort; delirium: treat cause (pain, fever) or IV haloperidol; atropine ophthalmic drops 2 drops sublingual every 6 hours for terminal secretions; calm quiet bed, all family at bedside, chaplain support, maintain dignity
+
+@Co
+- Palliative care / hospice
+
+@cond palliative-symptom-management
+ch: 189
+name: Palliative symptom management — pain, dyspnea, nausea / vomiting, agitation / delirium, constipation
+name_fa: کنترل علائم تسکینی — درد، تنگی نفس، تهوع/استفراغ، آژیتاسیون/دلیریوم، یبوست
+cc: palliative, dyspnea, nausea-vomiting, abdominal-pain
+keywords: cancer pain, opioid naive morphine 0.1 mg/kg, hydromorphone, dyspnea palliation, chemotherapy nausea ondansetron, terminal agitation, opioid constipation, senna, lactulose, درد سرطان, مورفین, تنگی نفس تسکینی, یبوست اپیوئید
+status: draft
+
+@features
+- درد: هر مقیاس معتبر؛ ارزیابی مانند هر درد (محل، ماهیت، مدت، عوامل)؛ سطح درد قابل تحمل و baseline؛ درد بدخیمی را از ظاهر یا علائم حیاتی قضاوت نکنید
+- ابتدا opiate-naive یا tolerant: naive: morphine 0.1 mg/kg IV؛ tolerant: hydromorphone 1–2 mg IV؛ اوج اثر/عارضه 6–10 دقیقه ← re-dose هر 15 دقیقه تا تسکین؛ ترس از depression تنفسی مانع اصلی؛ depression تدریجی (sedation → somnolence → respiratory depression)؛ با پایش سطح هوشیاری ایمن
+- تنگی نفس: علت درمان + تسکین؛ opioid بسیار مفید برای آژیتاسیون و اضطراب؛ naive: morphine 0.05 mg/kg IV (نصف دوز درد)؛ پایش sedation و hypoventilation؛ هدف RR ≥ 10–12
+- تهوع/استفراغ: بر اساس علت؛ chemotherapy: ondansetron 8 mg IVP یا dexamethasone 10 mg IVP (steroid برای ICP بالا و انسداد روده سرطانی)؛ مقاوم: haloperidol 0.5–4 mg IVP؛ metoclopramide 10 mg در 100 mL NS IV برای gastroparesis دیابتی، فشار تومور/آسیت یا SBO (افزایش motility)
+- آژیتاسیون/delirium: علل چندعاملی (درد، اضطراب، terminal restlessness، تنگی نفس، fecal impaction، رنج روانی)؛ haloperidol 1–5 mg IV، midazolam 1–4 mg IV، morphine 2–10 mg IV؛ شواهدی که این مداخلات مرگ را تسریع کنند وجود ندارد
+- یبوست: اثر جانبی جهانی اپیوئید؛ رژیم دو داروی همزمان: osmotic (lactulose 30 mL هر 24 ساعت یا "propylene glycol" 17 g پودر در 8 oz آب هر 24 ساعت — در کتاب؛ احتمالاً polyethylene glycol) + stimulant (senna 2 tab شب یا bisacodyl 5–15 mg یک‌دوز)
+
+@ddx
+- !Opioid-induced respiratory depression |
+- !Bowel obstruction / fecal impaction |
+- !Brain metastases / ICP |
+
+@redflags
+- درد کنترل‌نشده، هوشیاری کاهش‌یافته با مقدار opioid، انسداد روده
+
+@guide
+تیتر opioid با پایش هوشیاری؛ همراه opioid همیشه رژیم یبوست.
+
+@variant palliative-pain-main
+name: Cancer / palliative pain — opioid-naive vs opioid-tolerant
+level: II
+imp: Palliative care pain (cancer pain)
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: none
+
+@scenario
+مرد ۶۰ ساله با متاستاز استخوانی و درد شدید، قبلاً اپیوئید نگرفته.
+
+@why
+تیتراسیون opioid با پایش هوشیاری.
+
+@I
+- Only if it will change management consistent with goals of care
+
+@L
+- Only if it will change management
+
+@S
+- IV analgesia: opiate-naive: morphine 0.1 mg/kg IV; opiate-tolerant: hydromorphone 1–2 mg IV; re-dose every 15 minutes until relief with level-of-consciousness monitoring
+
+@T
+- Pain scale reassessment; concurrent two-drug bowel regimen: osmotic agent (lactulose 30 mL every 24 hours) plus stimulant laxative (senna 2 tablets every evening or bisacodyl 5–15 mg once)
+
+@Co
+- Palliative care consultation
+
+@variant palliative-dyspnea-main
+name: Palliative dyspnea
+level: II
+imp: Palliative care dyspnea
+cond: Urgent
+act: CBR
+diet: PO
+ecg: none
+cxr: PA
+o2: N.C 3-5 L/min or F.M 6-10 L/min if SpO2 < 94% (COPD: < 92%)
+
+@scenario
+مرد ۷۵ ساله با COPD end-stage و تنگی نفس در استراحت با اضطراب.
+
+@why
+اپیوئید برای تسکین.
+
+@I
+- CXR only if it will change management
+
+@L
+- Only if it will change management
+
+@S
+- Opioid-naive: morphine 0.05 mg/kg IV (half the pain starting dose); monitor sedation and hypoventilation, goal respiratory rate at least 10–12 breaths/min
+
+@T
+- Treat underlying cause while palliating; oxygen per protocol
+
+@Co
+- Palliative care consultation
+
+@variant palliative-nausea-agitation-main
+name: Palliative nausea / vomiting, agitation / delirium
+level: II
+imp: Palliative care nausea / vomiting / agitation / delirium
+cond: Urgent
+act: CBR
+diet: NPO
+ecg: none
+cxr: none
+
+@scenario
+زن ۵۵ ساله با سرطان تخمدان، انسداد روده و استفراغ مداوم؛ اضطراب شبانه.
+
+@why
+ضدتهوع و آرام‌بخش مناسب.
+
+@I
+- Abdominal imaging only if it will change management
+
+@L
+- Only if it will change management
+
+@S
+- Chemotherapy-induced nausea: ondansetron 8 mg IVP or dexamethasone 10 mg IVP (steroids also help increased intracranial pressure and cancer bowel obstruction); refractory: haloperidol 0.5–4 mg IVP; gastroparesis, tumor / ascites compression or small bowel obstruction: metoclopramide 10 mg in 100 mL NS IV
+
+@T
+- Agitation / delirium: haloperidol 1–5 mg IV, midazolam 1–4 mg IV, morphine 2–10 mg IV as indicated; treat causes (pain, anxiety, fecal impaction, breathlessness); palliative interventions do not hasten death
+
+@Co
+- Palliative care consultation
