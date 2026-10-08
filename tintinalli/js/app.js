@@ -70,7 +70,8 @@
     test: '<path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v15H6.5A2.5 2.5 0 0 0 4 20.5z"/><path d="M8 7.5h8M8 11.5h6"/>',
     calc: '<rect x="4" y="3" width="16" height="18" rx="2.5"/><path d="M8 7h8M8 12h3M13 12h3M8 16.5h3M13 16.5h3"/>',
     my: '<path d="M12 3.6l2.6 5.4 5.9.8-4.3 4.1 1 5.9-5.2-2.8-5.2 2.8 1-5.9L3.5 9.8l5.9-.8z"/>',
-    about: '<circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7.6v.9"/>'
+    about: '<circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7.6v.9"/>',
+    shift: '<rect x="4" y="3" width="16" height="18" rx="2.5"/><path d="M9 3.5h6v2.5H9zM8 11h3M8 15h3M14 11h2M14 15h2"/>'
   };
   function toolCard(href, ico, title, sub, hot) {
     return '<a class="tool' + (hot ? ' hot' : '') + '" href="' + href + '"><span class="ti"><svg viewBox="0 0 24 24" aria-hidden="true">' + ICO[ico] + '</svg></span><span><b>' + title + '</b><em>' + sub + '</em></span></a>';
@@ -86,12 +87,16 @@
       '<a class="stat" href="#/test"><b>' + due + '</b><span>due to review</span></a>' +
       '<a class="stat" href="#/my"><b>' + Object.keys(done).length + '</b><span>studied</span></a>' +
       '</div></section>';
+    var sb = TN.Shift ? TN.Shift.badge() : { pts: 0, n: 0 };
+    if (sb.pts) h += '<a class="shiftstrip' + (sb.n ? ' hot' : '') + '" href="#/shift"><b>On shift</b><span>' + sb.pts + ' patient(s) on the board' +
+      (sb.n ? ' · <b>' + sb.n + '</b> need attention' : ' · nothing pending') + '</span><span class="go">Open the board →</span></a>';
     h += banner;
     if (recent.length) h += '<h2>Jump back in</h2><div class="chips">' + recent.slice(0, 7).map(function (id) {
       return '<a class="chip" href="#/c/' + id + '">' + esc(condMeta[id].n) + '</a>';
     }).join('') + '</div>';
     h += '<h2>Tools</h2><div class="tools">' +
-      toolCard('#/case', 'case', 'Case simulator', 'A full vignette: you name the impression and write the whole order set from the order database.', true) +
+      toolCard('#/shift', 'shift', 'Shift board', 'Carry your patients through a shift: orders given, results awaited, timers, can\'t-miss checklist and handover.', true) +
+      toolCard('#/case', 'case', 'Case simulator', 'A full vignette: you name the impression and write the whole order set from the order database.') +
       toolCard('#/test', 'test', 'Self-test', due + ' card(s) due. Recall the sheet from the scenario, then grade yourself.') +
       toolCard('#/calc', 'calc', 'Calculators', TN.CALCS.length + ' scores and drips: HEART, Wells, GCS, Parkland, anion gap and more.') +
       toolCard('#/my', 'my', 'My study', Object.keys(bm).length + ' bookmarked · progress, notes, Anki export and backup.') +
@@ -195,7 +200,7 @@
     var h = '<p><a href="#/s/' + c.section + '">← ' + esc(secName(c.section)) + '</a>' +
       (c.cc || []).map(function (id) { return ccMeta[id] ? ' <a class="chip sm" href="#/cc/' + id + '">' + esc(ccMeta[id].n) + '</a>' : ''; }).join('') + '</p>';
     h += '<div class="ctitle"><h1>' + esc(c.name) + '</h1><div dir="auto" class="fa-title">' + esc(c.name_fa || '') + '</div>';
-    h += '<div class="cbar">' + statusBadge(c.status) + ' <button data-act="bm" class="tb' + (bm[c.id] ? ' on' : '') + '" aria-pressed="' + !!bm[c.id] + '">★ Bookmark</button> <button data-act="done" class="tb' + (done[c.id] ? ' on' : '') + '" aria-pressed="' + !!done[c.id] + '">✓ Studied</button> <button data-act="anki-one" class="tb">⤓ Anki CSV</button> <a class="tb" target="_blank" rel="noopener" href="' + (repoSlug() ? 'https://github.com/' + repoSlug() + '/issues/new?labels=feedback&title=' + encodeURIComponent('[Tintinalli] ' + c.name) + '&body=' + encodeURIComponent('Page: ' + location.href + '\n\nComment:\n') : '#') + '">⚑ Report an error</a></div></div>';
+    h += '<div class="cbar">' + statusBadge(c.status) + ' <button data-act="bm" class="tb' + (bm[c.id] ? ' on' : '') + '" aria-pressed="' + !!bm[c.id] + '">★ Bookmark</button> <button data-act="done" class="tb' + (done[c.id] ? ' on' : '') + '" aria-pressed="' + !!done[c.id] + '">✓ Studied</button> <a class="tb pri" href="#/shift/add/' + c.id + '/' + v.id + '">＋ Add to a patient</a> <button data-act="anki-one" class="tb">⤓ Anki CSV</button> <a class="tb" target="_blank" rel="noopener" href="' + (repoSlug() ? 'https://github.com/' + repoSlug() + '/issues/new?labels=feedback&title=' + encodeURIComponent('[Tintinalli] ' + c.name) + '&body=' + encodeURIComponent('Page: ' + location.href + '\n\nComment:\n') : '#') + '">⚑ Report an error</a></div></div>';
     if (c.status === 'demo') h += '<div class="banner demo" role="note"><b>DEMO CONTENT.</b> Written only to test the format. It was <b>not</b> extracted from Tintinalli and must not be used clinically. It will be replaced.</div>';
     else if (c.status === 'draft') h += '<div class="banner" role="note"><b>Draft.</b> Extracted from the book, pending physician review.</div>';
     else h += '<div class="banner ok" role="note">Reviewed by ' + esc(c.reviewer || '') + ' on ' + esc(c.reviewed || '') + '.</div>';
@@ -322,6 +327,7 @@
     var h = '<p><a href="#/">← Home</a></p><h1>About &amp; install</h1>';
     h += banner + '<h2>How an order is built</h2><p>Every order set starts with <b>Imp, Cond, Act, Diet</b>, then <b>Please:</b> items in the fixed NILSTATCo order:</p><ol><li><b>N</b> Nursing: IV line fix, Cardiac monitoring and pulse oximetry, O2 therapy, ECG</li><li><b>I</b> Imaging: CXR (PA or portable) and any other imaging</li><li><b>L</b> Lab tests: one item, CBC, BUN, Cr, Na, K plus case-specific tests</li><li><b>S</b> Serum</li><li><b>A</b> Antibiotics (zero or more)</li><li><b>T</b> Treatment (zero or more)</li><li><b>Co</b> Consult (zero or more)</li></ol>';
     h += '<p><b>Fluid rule:</b> mild volume depletion (tachycardia): N/S 500 cc – 1 L, then maintenance (NPO: Serum 1/3 – 2/3, 1 L TDS). Not applied in CKD, AKI, anuria or heart failure / pulmonary edema.</p>';
+    h += '<h2>On shift</h2><p>The <a href="#/shift"><b>shift board</b></a> carries your patients through a shift: attach an order set from any condition page and it writes the order checklist, a tracker for every lab and image with an expected-back time, the repeat timers in the order text, the can&rsquo;t-miss list for that complaint and the local clock targets. It then shows you what is back and unseen, what is late and what is blocking each disposition, and writes the handover.</p><p class="mute small"><b>No names.</b> Patients are a bed label, age and sex. Everything stays in this browser on this device &mdash; there is no server and no sync &mdash; and it is a personal scratchpad, not a medical record. The turnaround times and clock targets are local service and quality figures you set yourself; they are not statements from the book. A static site cannot wake your phone, so overdue work is sorted to the top of the board and counted on the header button rather than pushed as an alert.</p>';
     h += '<h2>How to practise</h2><ul><li><b>Case simulator</b> gives you a full vignette and an empty sheet. You name the impression, set the disposition line, then write the orders yourself by searching every order in the database. It scores <i>coverage</i> (how much of the book&rsquo;s set you ordered) and <i>precision</i> (how much of what you ordered belongs), and shows what you missed and why it mattered.</li><li><b>Self-test</b> shows the scenario and asks you to recall the whole sheet from memory, then you grade yourself.</li><li>Both feed one spaced-repetition schedule kept on this device.</li></ul>';
     h += '<h2>Install and offline</h2><div class="obar"><button id="install" class="pri" data-act="install" hidden>Install app</button> <button data-act="offline">Save everything for offline use</button></div><p id="offmsg" class="mute small"></p><p class="mute small">On iPhone: Share → Add to Home Screen. Content version <b>' + esc(M.version) + '</b> (built ' + esc(M.built) + ').</p>';
     h += '<h2>Share</h2><div id="qr" class="qr" aria-label="QR code of this site\'s address"></div><p class="mute small" id="qrurl"></p>';
@@ -348,6 +354,7 @@
     var seg = (location.hash.split('/')[1] || '').split('?')[0];
     $$('#nav a').forEach(function (a) { a.classList.toggle('on', a.getAttribute('href') === '#/' + seg); });
     $$('#tabs a').forEach(function (a) { a.classList.toggle('on', a.dataset.tab === seg); });
+    if (TN.Shift) TN.Shift.paintBadge();
   }
   function route() {
     var my = ++token, hs = decodeURIComponent(location.hash || '#/'), m;
@@ -365,6 +372,14 @@
     else if ((m = hs.match(/^#\/test\/([a-z0-9-]+)$/))) show(vTest(m[1]));
     else if (hs === '#/case') show(TN.Case.setup());
     else if (hs === '#/case/go') show(TN.Case.run());
+    else if (hs === '#/shift') show(TN.Shift.board());
+    else if (hs === '#/shift/new') show(TN.Shift.newPatient());
+    else if (hs === '#/shift/handover') show(TN.Shift.handover());
+    else if (hs === '#/shift/print') show(TN.Shift.print());
+    else if (hs === '#/shift/end') show(TN.Shift.end());
+    else if (hs === '#/shift/settings') show(TN.Shift.settings());
+    else if ((m = hs.match(/^#\/shift\/p\/([a-z0-9]+)$/))) show(TN.Shift.patient(m[1]));
+    else if ((m = hs.match(/^#\/shift\/add\/([a-z0-9-]+)(?:\/([a-z0-9-]+))?$/))) show(TN.Shift.attachView(m[1], m[2]));
     else if (hs === '#/about') show(vAbout());
     else if (hs === '#/q') { show(vSearch()); if (!q) searchEl.focus(); }
     else show(vHome());
@@ -408,7 +423,9 @@
   document.addEventListener('keydown', function (e) { if (e.key === '/' && !/INPUT|TEXTAREA|SELECT/.test(document.activeElement.tagName)) { e.preventDefault(); searchEl.focus(); } });
 
   /* ---------- bridge for js/case.js ---------- */
-  TN.ui = { sheetHtml: sheetHtml, secName: secName, loadAll: loadAll, pairs: pairs, shuffle: shuffle, toast: toast, condMeta: condMeta, ccMeta: ccMeta, condRow: condRow };
+  TN.ui = { sheetHtml: sheetHtml, secName: secName, loadAll: loadAll, pairs: pairs, shuffle: shuffle, toast: toast,
+    condMeta: condMeta, ccMeta: ccMeta, condRow: condRow, getCond: getCond,
+    rerender: function () { var y = window.scrollY; route(); window.scrollTo(0, y); } };
 
   /* ---------- start ---------- */
   $('#foot').textContent = 'Tintinalli-based orders · content ' + M.version + ' · study aid, not a protocol';

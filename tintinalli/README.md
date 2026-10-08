@@ -20,6 +20,27 @@ node tools/tn-build.js --check  # validate only (errors fail, warnings do not)
 - `data/drugs.txt`: automatic safety flags (high-alert, renal) matched on order text
 - `data/conditions/<id>.txt`: one condition per file (format below). Files starting with `_` are ignored.
 
+## Shift board (`js/shift.js`)
+
+`#/shift` is an on-shift working board, not study content. A patient is a bed label, an age and a sex —
+**never a name** — and the whole board lives in `localStorage` under `sh.*` on one device; there is no
+server and no sync. It is a personal scratchpad, not a medical record.
+
+**Add to a patient** on any condition page composes that order set and writes: the order checklist with
+its safety flags, a pending tracker for every lab (comma lists split into individual tests) and image
+with an expected-back time, timers parsed out of the order text (`0 – 30 – 60`, "repeat at 3 h",
+"reassess"), the chief complaint's can't-miss list as an exclusion checklist, and the local clock
+targets for that condition. Marking a high-alert order given needs two taps; marking an analgesic,
+nebuliser, fluid bolus or transfusion given schedules its reassessment; a recorded allergy is matched
+against both the order text and its `{ci:}` note.
+
+The board sorts patients by what is most urgent, sweeps results that are back but unseen into one inbox,
+lists everything due now, and generates an SBAR handover (copy or print). "End shift" shows the shift's
+numbers, offers a JSON export and then erases the board.
+
+The turnaround times in `TAT` and the targets in `CLOCKS` are **local service and quality figures, not
+statements from the book** — they are editable in `#/shift/settings`.
+
 ## Case simulator (`js/case.js`)
 
 `#/case` builds a practice case from the data: the variant's Farsi scenario, the condition's clinical
